@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>equipdiag - J1939 SPN/FMI Lookup</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: system-ui, -apple-system, sans-serif; background: #111; color: #e0e0e0; min-height: 100vh; }
+.header { background: #1a1a2e; border-bottom: 2px solid #e94560; padding: 1rem 2rem; display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; }
+.header h1 { font-size: 1.3rem; color: #e94560; letter-spacing: 0.5px; }
+.header .subtitle { color: #888; font-size: 0.85rem; }
+.container { max-width: 1200px; margin: 0 auto; padding: 1.5rem; }
+.search-box { background: #1e1e2e; border: 1px solid #333; border-radius: 8px; padding: 1.5rem; margin-bottom: 1.5rem; }
+.search-box h2 { font-size: 1rem; color: #aaa; margin-bottom: 0.75rem; }
+.search-row { display: flex; gap: 0.75rem; flex-wrap: wrap; align-items: center; }
+.search-row input { flex: 1; min-width: 200px; padding: 0.65rem 1rem; border: 1px solid #333; border-radius: 6px; background: #111; color: #e0e0e0; font-size: 1rem; }
+.search-row input:focus { outline: none; border-color: #e94560; }
+.search-row button { padding: 0.65rem 1.5rem; border: none; border-radius: 6px; background: #e94560; color: #fff; font-weight: 600; cursor: pointer; font-size: 0.9rem; }
+.search-row button:hover { background: #d63851; }
+.search-row button.secondary { background: #333; }
+.search-row button.secondary:hover { background: #444; }
+.hint { font-size: 0.8rem; color: #666; margin-top: 0.5rem; }
+.results { margin-top: 1rem; }
+.spn-card { background: #1a1a2e; border: 1px solid #2a2a3e; border-radius: 8px; padding: 1rem; margin-bottom: 0.75rem; }
+.spn-card .spn-num { color: #e94560; font-weight: 700; font-size: 1.2rem; }
+.spn-card .spn-desc { color: #ccc; margin-top: 0.25rem; }
+.fmi-badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.75rem; margin-right: 4px; }
+.fmi-0 { background: #6b0000; color: #ff8888; }
+.fmi-1 { background: #6b0000; color: #ff8888; }
+.fmi-2 { background: #6b4a00; color: #ffbb44; }
+.fmi-3 { background: #4a006b; color: #cc88ff; }
+.fmi-4 { background: #4a006b; color: #cc88ff; }
+.fmi-5 { background: #00306b; color: #88bbff; }
+.fmi-6 { background: #00306b; color: #88bbff; }
+.fmi-7 { background: #006b4a; color: #88ffbb; }
+.fmi-12 { background: #6b0030; color: #ff88bb; }
+.fmi-31 { background: #2a4a00; color: #aadd66; }
+.stats { background: #1e1e2e; border: 1px solid #333; border-radius: 8px; padding: 1rem; margin-bottom: 1.5rem; display: flex; gap: 2rem; flex-wrap: wrap; }
+.stat-item { text-align: center; }
+.stat-item .num { font-size: 1.5rem; font-weight: 700; color: #e94560; }
+.stat-item .label { font-size: 0.8rem; color: #888; }
+.fmi-table { background: #1e1e2e; border: 1px solid #333; border-radius: 8px; padding: 1rem; margin-bottom: 1.5rem; }
+.fmi-table table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+.fmi-table th { text-align: left; padding: 0.5rem; border-bottom: 1px solid #333; color: #888; font-weight: 600; }
+.fmi-table td { padding: 0.5rem; border-bottom: 1px solid #222; }
+.fmi-table tr:hover td { background: #2a2a3e; }
+.lookup-type { display: flex; gap: 0.5rem; margin-bottom: 1rem; }
+.lookup-type button { padding: 0.4rem 1rem; border: 1px solid #333; border-radius: 4px; background: transparent; color: #888; cursor: pointer; font-size: 0.85rem; }
+.lookup-type button.active { border-color: #e94560; color: #e94560; background: #1a1a2e; }
+.hidden { display: none; }
+@media (max-width: 768px) {
+  .header { padding: 0.75rem 1rem; }
+  .container { padding: 1rem; }
+  .stats { gap: 1rem; }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>equipdiag</h1>
+  <span class="subtitle">J1939 SPN / FMI Reference</span>
+</div>
+
+<div class="container">
+  <div class="stats" id="stats">
+    <div class="stat-item"><div class="num" id="spnCount">-</div><div class="label">SPNs indexed</div></div>
+    <div class="stat-item"><div class="num">32</div><div class="label">FMIs defined</div></div>
+    <div class="stat-item"><div class="num" id="spnRange">-</div><div class="label">SPN range</div></div>
+  </div>
+
+  <div class="lookup-type">
+    <button class="active" onclick="setMode('spn')" id="modeSpn">SPN Lookup</button>
+    <button onclick="setMode('fmi')" id="modeFmi">FMI Reference</button>
+    <button onclick="setMode('dtc')" id="modeDtc">SPN+FMI Decode</button>
+  </div>
+
+  <div id="spnMode" class="search-box">
+    <h2>SPN Lookup</h2>
+    <div class="search-row">
+      <input type="number" id="spnInput" placeholder="Enter SPN number (e.g. 110, 190, 102)" oninput="searchSPN()" autofocus>
+      <button onclick="searchSPN()">Search</button>
+      <button class="secondary" onclick="clearSPN()">Clear</button>
+    </div>
+    <div class="hint">Type an SPN number to see the parameter description.</div>
+    <div id="spnResult" class="results"></div>
+  </div>
+
+  <div id="fmiMode" class="hidden">
+    <div class="fmi-table">
+      <table>
+        <thead><tr><th>FMI</th><th>Description</th><th>Category</th><th>Sev</th></tr></thead>
+        <tbody id="fmiBody"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <div id="dtcMode" class="hidden search-box">
+    <h2>SPN + FMI Decode</h2>
+    <div class="search-row">
+      <input type="number" id="dtcSpn" placeholder="SPN (e.g. 157)" style="flex: 1;">
+      <input type="number" id="dtcFmi" placeholder="FMI (e.g. 18)" style="flex: 0 0 120px;">
+      <button onclick="decodeDTC()">Decode</button>
+    </div>
+    <div class="hint">Enter an SPN and FMI to see the full diagnostic code description.</div>
+    <div id="dtcResult" class="results"></div>
+  </div>
+</div>
+
+<script>
+let spnData = [];
+let fmiData = [];
+
+async function loadData() {
+  try {
+    const [spnRes, fmiRes] = await Promise.all([
+      fetch('spn-database/spn-list.json'),
+      fetch('spn-database/fmi-list.json')
+    ]);
+    spnData = await spnRes.json();
+    fmiData = await fmiRes.json();
+
+    document.getElementById('spnCount').textContent = spnData.length.toLocaleString();
+    document.getElementById('spnRange').textContent =
+      spnData[0]?.spn + ' - ' + spnData[spnData.length-1]?.spn;
+
+    renderFMI();
+    if (window.location.hash) {
+      const hash = window.location.hash.slice(1);
+      const spn = parseInt(hash);
+      if (!isNaN(spn)) {
+        document.getElementById('spnInput').value = spn;
+        searchSPN();
+      }
+    }
+  } catch (e) {
+    console.error('Failed to load data:', e);
+  }
+}
+
+function renderFMI() {
+  const tbody = document.getElementById('fmiBody');
+  tbody.innerHTML = fmiData.map(f =>
+    `<tr>
+      <td><span class="fmi-badge fmi-${f.fmi}">FMI ${f.fmi}</span></td>
+      <td>${f.desc}</td>
+      <td>${f.category}</td>
+      <td>${f.severity}</td>
+    </tr>`
+  ).join('');
+}
+
+function searchSPN() {
+  const val = parseInt(document.getElementById('spnInput').value);
+  const div = document.getElementById('spnResult');
+  if (!val || isNaN(val)) { div.innerHTML = ''; return; }
+
+  const results = spnData.filter(s => s.spn === val);
+  if (results.length === 0) {
+    div.innerHTML = `<div class="spn-card" style="color:#888;">No SPN <strong>${val}</strong> found in database.</div>`;
+    return;
+  }
+
+  div.innerHTML = results.map(r =>
+    `<div class="spn-card">
+      <div class="spn-num">SPN ${r.spn}</div>
+      <div class="spn-desc">${r.desc}</div>
+    </div>`
+  ).join('');
+  window.location.hash = val;
+}
+
+function clearSPN() {
+  document.getElementById('spnInput').value = '';
+  document.getElementById('spnResult').innerHTML = '';
+  window.location.hash = '';
+  document.getElementById('spnInput').focus();
+}
+
+function decodeDTC() {
+  const spn = parseInt(document.getElementById('dtcSpn').value);
+  const fmi = parseInt(document.getElementById('dtcFmi').value);
+  const div = document.getElementById('dtcResult');
+
+  if (!spn || !fmi || isNaN(spn) || isNaN(fmi)) {
+    div.innerHTML = `<div class="spn-card" style="color:#888;">Enter both SPN and FMI values.</div>`;
+    return;
+  }
+
+  const spnMatch = spnData.find(s => s.spn === spn);
+  const fmiMatch = fmiData.find(f => f.fmi === fmi);
+
+  if (!spnMatch) {
+    div.innerHTML = `<div class="spn-card" style="color:#888;">SPN ${spn} not found in database.</div>`;
+    return;
+  }
+  if (!fmiMatch) {
+    div.innerHTML = `<div class="spn-card" style="color:#888;">FMI ${fmi} not found (valid range: 0-31).</div>`;
+    return;
+  }
+
+  div.innerHTML =
+    `<div class="spn-card">
+      <div class="spn-num" style="margin-bottom:0.25rem;">SPN ${spn} &mdash; FMI ${fmi}</div>
+      <div style="color:#ccc; margin-bottom:0.5rem;"><strong>${spnMatch.desc}</strong></div>
+      <div style="color:#aaa; font-size:0.9rem;">${fmiMatch.desc}</div>
+      <div style="margin-top:0.5rem; display:flex; gap:0.5rem; flex-wrap:wrap;">
+        <span class="fmi-badge fmi-${fmi}">FMI ${fmi} - ${fmiMatch.category}</span>
+        <span class="fmi-badge fmi-${fmi}">Severity: ${fmiMatch.severity}/3</span>
+      </div>
+    </div>`;
+}
+
+function setMode(mode) {
+  document.querySelectorAll('.lookup-type button').forEach(b => b.classList.remove('active'));
+  document.getElementById('modeSpn' ).classList.toggle('active', mode === 'spn');
+  document.getElementById('modeFmi' ).classList.toggle('active', mode === 'fmi');
+  document.getElementById('modeDtc' ).classList.toggle('active', mode === 'dtc');
+  document.getElementById('spnMode').classList.toggle('hidden', mode !== 'spn');
+  document.getElementById('fmiMode').classList.toggle('hidden', mode !== 'fmi');
+  document.getElementById('dtcMode').classList.toggle('hidden', mode !== 'dtc');
+}
+
+document.addEventListener('DOMContentLoaded', loadData);
+document.getElementById('spnInput').addEventListener('keydown', e => { if (e.key === 'Enter') searchSPN(); });
+document.getElementById('dtcSpn').addEventListener('keydown', e => { if (e.key === 'Enter') decodeDTC(); });
+document.getElementById('dtcFmi').addEventListener('keydown', e => { if (e.key === 'Enter') decodeDTC(); });
+</script>
+</body>
+</html>
