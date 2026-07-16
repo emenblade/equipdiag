@@ -856,6 +856,669 @@ document.addEventListener('input', e => {
 document.getElementById('searchInput').addEventListener('keydown', e => { if (e.key === 'Enter') searchCodes(); });
 document.getElementById('dtcSpn').addEventListener('keydown', e => { if (e.key === 'Enter') decodeDTC(); });
 document.getElementById('dtcFmi').addEventListener('keydown', e => { if (e.key === 'Enter') decodeDTC(); });
+
+// ===== A/C DIAGNOSIS =====
+const acPressureCharts = {
+  r134a: {
+    70: { low: [25, 35], high: [150, 200] },
+    80: { low: [28, 38], high: [175, 225] },
+    90: { low: [30, 45], high: [225, 275] },
+    100: { low: [35, 50], high: [275, 325] },
+    110: { low: [35, 50], high: [300, 350] }
+  },
+  r1234yf: {
+    70: { low: [20, 30], high: [130, 180] },
+    80: { low: [25, 35], high: [160, 210] },
+    90: { low: [30, 40], high: [200, 250] },
+    100: { low: [35, 45], high: [250, 300] },
+    110: { low: [40, 50], high: [280, 330] }
+  }
+};
+
+function renderACSubMode() {
+  const sub = document.getElementById('acSubMode').value;
+  const content = document.getElementById('acContent');
+  
+  switch(sub) {
+    case 'identify': renderACIdentify(content); break;
+    case 'pressure': renderACPressure(content); break;
+    case 'temperature': renderACTemperature(content); break;
+    case 'superheat': renderACSuperheat(content); break;
+    case 'leak': renderACLeak(content); break;
+    case 'repair': renderACRepair(content); break;
+    case 'pm': renderACPM(content); break;
+    case 'specs': renderACSpecs(content); break;
+    case 'faults': renderACFaults(content); break;
+  }
+}
+
+function renderACIdentify(div) {
+  div.innerHTML = `
+    <div class="section-title">Identify Your A/C System Type</div>
+    <div class="code-card" style="margin-bottom:1rem;">
+      <div style="color:#e94560;font-weight:600;font-size:1rem;margin-bottom:0.5rem;">Expansion Valve (TXV) System</div>
+      <div style="color:#bbb;font-size:0.9rem;line-height:1.5;">
+        <strong>Most common in heavy equipment.</strong> Receiver/drier on HIGH side (near condenser). TXV has sensing bulb on evaporator outlet. Variable flow control.
+      </div>
+      <div class="proc-meta" style="margin-top:0.5rem;">
+        <span class="proc-tag">Receiver/Drier</span>
+        <span class="proc-tag">TXV w/ sensing bulb</span>
+        <span class="proc-tag">No accumulator</span>
+      </div>
+    </div>
+    <div class="code-card" style="margin-bottom:1rem;">
+      <div style="color:#e94560;font-weight:600;font-size:1rem;margin-bottom:0.5rem;">Fixed Orifice Tube (FOT) System</div>
+      <div style="color:#bbb;font-size:0.9rem;line-height:1.5;">
+        Accumulator on LOW side (near firewall/evaporator). Fixed restriction orifice tube (color-coded). Compressor cycles via pressure switches.
+      </div>
+      <div class="proc-meta" style="margin-top:0.5rem;">
+        <span class="proc-tag">Accumulator</span>
+        <span class="proc-tag">Orifice tube (color)</span>
+        <span class="proc-tag">Cycling compressor</span>
+      </div>
+    </div>
+    <div class="code-card" style="margin-bottom:1rem;">
+      <div style="color:#e94560;font-weight:600;font-size:1rem;margin-bottom:0.5rem;">Variable Displacement (Clutchless) Compressor</div>
+      <div style="color:#bbb;font-size:0.9rem;line-height:1.5;">
+        Pulley ALWAYS spins. No magnetic clutch. Internal control valve adjusts swash plate. Diagnose via scanner (current draw / duty cycle).
+      </div>
+      <div class="proc-meta" style="margin-top:0.5rem;">
+        <span class="proc-tag">No clutch</span>
+        <span class="proc-tag">Scanner required</span>
+        <span class="proc-tag">0.3-0.65A typical</span>
+      </div>
+    </div>
+    <div class="code-card">
+      <div style="color:#f0a030;font-weight:600;font-size:0.9rem;margin-bottom:0.5rem;">Quick ID Checklist</div>
+      <ul style="color:#bbb;font-size:0.9rem;line-height:1.8;padding-left:1.5rem;">
+        <li>Is there a receiver/drier near condenser? → TXV system</li>
+        <li>Is there an accumulator near evaporator? → FOT system</li>
+        <li>Does compressor clutch click on/off? → Clutch-type</li>
+        <li>Pulley always spins, no click? → Clutchless variable displacement</li>
+        <li>Scan tool shows A/C pressure live data? → Modern electronic control</li>
+      </ul>
+    </div>
+  `;
+}
+
+function renderACPressure(div) {
+  div.innerHTML = `
+    <div class="section-title">Pressure Diagnosis</div>
+    <div class="search-panel" style="margin-bottom:1rem;">
+      <div class="search-row">
+        <select id="acRefrigerant" onchange="updatePressureChart()" style="flex:1; min-width:150px; padding:0.6rem 0.9rem; border:1px solid #222; border-radius:6px; background:#0a0a0a; color:#e0e0e0; font-size:0.9rem;">
+          <option value="r134a">R-134a</option>
+          <option value="r1234yf">R-1234yf</option>
+        </select>
+        <input type="number" id="acAmbient" placeholder="Ambient °F" value="90" style="width:100px; padding:0.6rem 0.9rem; border:1px solid #222; border-radius:6px; background:#0a0a0a; color:#e0e0e0; font-size:0.9rem;" oninput="updatePressureChart()">
+        <input type="number" id="acLowSide" placeholder="Low Side PSI" style="width:120px; padding:0.6rem 0.9rem; border:1px solid #222; border-radius:6px; background:#0a0a0a; color:#e0e0e0; font-size:0.9rem;" oninput="diagnosePressure()">
+        <input type="number" id="acHighSide" placeholder="High Side PSI" style="width:120px; padding:0.6rem 0.9rem; border:1px solid #222; border-radius:6px; background:#0a0a0a; color:#e0e0e0; font-size:0.9rem;" oninput="diagnosePressure()">
+        <button class="btn-primary" onclick="diagnosePressure()">Diagnose</button>
+      </div>
+    </div>
+    <div id="pressureChart" style="margin-bottom:1rem;"></div>
+    <div id="pressureDiagnosis"></div>
+  `;
+  updatePressureChart();
+}
+
+function updatePressureChart() {
+  const ref = document.getElementById('acRefrigerant').value;
+  const ambient = parseInt(document.getElementById('acAmbient').value) || 90;
+  const chart = acPressureCharts[ref];
+  const key = Object.keys(chart).reduce((a, b) => Math.abs(b - ambient) < Math.abs(a - ambient) ? b : a);
+  const range = chart[key];
+  
+  document.getElementById('pressureChart').innerHTML = `
+    <table class="fmi-table" style="max-width:500px;">
+      <thead><tr><th>Ambient</th><th>Low Side</th><th>High Side</th><th>Refrigerant</th></tr></thead>
+      <tbody>
+        <tr style="background:#1a0a0a;">
+          <td>${ambient}°F</td>
+          <td>${range.low[0]}–${range.low[1]} psi</td>
+          <td>${range.high[0]}–${range.high[1]} psi</td>
+          <td>${ref.toUpperCase()}</td>
+        </tr>
+      </tbody>
+    </table>
+    <div style="color:#666;font-size:0.8rem;margin-top:0.5rem;">Engine 1500 RPM, MAX A/C, High Blower, Recirc ON, Doors Closed, 10 min stabilized</div>
+  `;
+}
+
+function diagnosePressure() {
+  const low = parseFloat(document.getElementById('acLowSide').value);
+  const high = parseFloat(document.getElementById('acHighSide').value);
+  const div = document.getElementById('pressureDiagnosis');
+  
+  if (isNaN(low) || isNaN(high)) {
+    div.innerHTML = '<div class="empty-state">Enter both low and high side pressures</div>';
+    return;
+  }
+  
+  const ref = document.getElementById('acRefrigerant').value;
+  const ambient = parseInt(document.getElementById('acAmbient').value) || 90;
+  const chart = acPressureCharts[ref];
+  const key = Object.keys(chart).reduce((a, b) => Math.abs(b - ambient) < Math.abs(a - ambient) ? b : a);
+  const range = chart[key];
+  
+  let diagnosis = '';
+  let severity = '';
+  
+  if (low < range.low[0] && high < range.high[0]) {
+    diagnosis = 'UNDERCHARGED / LEAK';
+    severity = 'fmi-0';
+  } else if (low > range.low[1] && high > range.high[1]) {
+    diagnosis = 'OVERCHARGED / POOR CONDENSER AIRFLOW / RESTRICTION';
+    severity = 'fmi-2';
+  } else if (low > range.low[1] && high < range.high[0]) {
+    diagnosis = 'WEAK COMPRESSOR / INTERNAL BYPASS';
+    severity = 'fmi-7';
+  } else if (low < range.low[0] && high > range.high[1]) {
+    diagnosis = 'RESTRICTION (TXV / Orifice Tube / Receiver-Drier / Kinked Line)';
+    severity = 'fmi-12';
+  } else if (low >= range.low[0] && low <= range.low[1] && high >= range.high[0] && high <= range.high[1]) {
+    diagnosis = 'PRESSURES NORMAL — Check temperature performance';
+    severity = 'fmi-7';
+  } else {
+    diagnosis = 'MIXED SIGNALS — Verify readings, check for gauge errors';
+    severity = 'fmi-11';
+  }
+  
+  div.innerHTML = `
+    <div class="code-card" style="margin-top:1rem; border-color:#e94560;">
+      <div class="top">
+        <span class="fmi-badge ${severity}" style="font-size:0.85rem;padding:4px 10px;">${diagnosis}</span>
+      </div>
+      <div class="code-desc" style="margin-top:0.5rem; line-height:1.6;">
+        ${getPressureDetail(diagnosis)}
+      </div>
+    </div>
+  `;
+}
+
+function getPressureDetail(diag) {
+  const details = {
+    'UNDERCHARGED / LEAK': 'Both pressures low. Find leak: electronic detector → nitrogen test (300 psi) → UV dye. Repair leak, replace receiver/drier, evacuate <500 microns, charge by WEIGHT.',
+    'OVERCHARGED / POOR CONDENSER AIRFLOW / RESTRICTION': 'High pressures. Check: condenser fan operation/rotation, fin blockage (>30% = replace), debris between condenser/radiator, overcharge. Recover excess, verify fan.',
+    'WEAK COMPRESSOR / INTERNAL BYPASS': 'High low-side + low high-side = compressor not compressing. Check: clutch engagement, variable displacement command (scanner), reed valves. Replace compressor if confirmed.',
+    'RESTRICTION (TXV / Orifice Tube / Receiver-Drier / Kinked Line)': 'Low low-side + high high-side = blockage. TXV stuck closed, orifice tube plugged, receiver/drier restricted, kinked line. Frost at restriction point. Replace TXV + drier together.',
+    'PRESSURES NORMAL — Check temperature performance': 'Pressures OK but poor cooling? Check: evaporator airflow (cabin filter, blower), blend door, TXV superheat, duct temperature. Proceed to Temperature Testing tab.'
+  };
+  return details[diag] || 'See service manual for detailed diagnosis.';
+}
+
+function renderACTemperature(div) {
+  div.innerHTML = `
+    <div class="section-title">Temperature Testing (Heat Load Test)</div>
+    <div class="code-card" style="margin-bottom:1rem;">
+      <div style="color:#f0a030;font-weight:600;margin-bottom:0.5rem;">Test Conditions</div>
+      <ul style="color:#bbb;font-size:0.9rem;line-height:1.8;padding-left:1.5rem;">
+        <li>Engine at operating temp, 1500 RPM</li>
+        <li>Doors open (or windows down)</li>
+        <li>MAX A/C, Highest blower, Coldest setting</li>
+        <li>Recirculation ON</li>
+        <li>Run 10 minutes before measuring</li>
+        <li>Clean probe contact points (scrubby pad)</li>
+      </ul>
+    </div>
+    
+    <div class="search-panel" style="margin-bottom:1rem;">
+      <div class="search-row" style="flex-wrap:wrap; gap:0.5rem;">
+        <input type="number" id="condIn" placeholder="Condenser Inlet °F" style="flex:1; min-width:140px; padding:0.6rem 0.9rem; border:1px solid #222; border-radius:6px; background:#0a0a0a; color:#e0e0e0;">
+        <input type="number" id="condOut" placeholder="Condenser Outlet °F" style="flex:1; min-width:140px; padding:0.6rem 0.9rem; border:1px solid #222; border-radius:6px; background:#0a0a0a; color:#e0e0e0;">
+        <button class="btn-primary" onclick="calcCondenserDrop()">Calc ΔT</button>
+      </div>
+      <div class="search-row" style="flex-wrap:wrap; gap:0.5rem; margin-top:0.5rem;">
+        <input type="number" id="evapIn" placeholder="Evap Inlet (after TXV) °F" style="flex:1; min-width:140px; padding:0.6rem 0.9rem; border:1px solid #222; border-radius:6px; background:#0a0a0a; color:#e0e0e0;">
+        <input type="number" id="evapOut" placeholder="Evap Outlet (to accum) °F" style="flex:1; min-width:140px; padding:0.6rem 0.9rem; border:1px solid #222; border-radius:6px; background:#0a0a0a; color:#e0e0e0;">
+        <button class="btn-primary" onclick="calcEvapDrop()">Calc ΔT</button>
+      </div>
+      <div class="search-row" style="flex-wrap:wrap; gap:0.5rem; margin-top:0.5rem;">
+        <input type="number" id="ductTemp" placeholder="Center Duct °F" style="flex:1; min-width:140px; padding:0.6rem 0.9rem; border:1px solid #222; border-radius:6px; background:#0a0a0a; color:#e0e0e0;">
+        <input type="number" id="ambientTemp" placeholder="Ambient °F" style="flex:1; min-width:140px; padding:0.6rem 0.9rem; border:1px solid #222; border-radius:6px; background:#0a0a0a; color:#e0e0e0;">
+        <button class="btn-primary" onclick="calcDuctPerformance()">Check</button>
+      </div>
+    </div>
+    <div id="tempResults"></div>
+  `;
+}
+
+function calcCondenserDrop() {
+  const inT = parseFloat(document.getElementById('condIn').value);
+  const outT = parseFloat(document.getElementById('condOut').value);
+  const div = document.getElementById('tempResults');
+  
+  if (isNaN(inT) || isNaN(outT)) { div.innerHTML = '<div class="empty-state">Enter both temperatures</div>'; return; }
+  
+  const drop = inT - outT;
+  let diag = '';
+  if (drop > 50) diag = '>50°F: Undercharge / Air in system / Plugged condenser tubes';
+  else if (drop > 30) diag = '30-50°F: Normal range (TXV)';
+  else if (drop > 20) diag = '20-30°F: Normal range (FOT) / Slight overcharge';
+  else diag = '<20°F: Overcharge / Poor condenser airflow / Fan failure / Debris';
+  
+  div.innerHTML = `<div class="code-card" style="margin-top:1rem;"><div class="top"><span style="color:#e94560;font-weight:700;">Condenser ΔT: ${drop.toFixed(1)}°F</span></div><div class="code-desc">${diag}</div></div>`;
+}
+
+function calcEvapDrop() {
+  const inT = parseFloat(document.getElementById('evapIn').value);
+  const outT = parseFloat(document.getElementById('evapOut').value);
+  const div = document.getElementById('tempResults');
+  
+  if (isNaN(inT) || isNaN(outT)) { div.innerHTML = '<div class="empty-state">Enter both temperatures</div>'; return; }
+  
+  const diff = outT - inT;
+  let diag = '';
+  if (diff > 5) diag = 'Outlet >5°F warmer: Undercharge / Restricted TXV / Excessive oil';
+  else if (diff < -5) diag = 'Outlet >5°F colder: Overcharge / TXV O-ring leak / Flooded evaporator';
+  else diag = 'Within ±5°F: Normal evaporator feeding';
+  
+  div.innerHTML = `<div class="code-card" style="margin-top:1rem;"><div class="top"><span style="color:#e94560;font-weight:700;">Evaporator ΔT: ${diff.toFixed(1)}°F</span></div><div class="code-desc">${diag}</div></div>`;
+}
+
+function calcDuctPerformance() {
+  const duct = parseFloat(document.getElementById('ductTemp').value);
+  const amb = parseFloat(document.getElementById('ambientTemp').value);
+  const div = document.getElementById('tempResults');
+  
+  if (isNaN(duct) || isNaN(amb)) { div.innerHTML = '<div class="empty-state">Enter both temperatures</div>'; return; }
+  
+  const drop = amb - duct;
+  let diag = '';
+  if (drop >= 35) diag = 'Excellent (≥35°F drop)';
+  else if (drop >= 25) diag = 'Good (25-35°F drop)';
+  else if (drop >= 15) diag = 'Marginal (15-25°F drop) — Check airflow, charge, restrictions';
+  else diag = 'Poor (<15°F drop) — Major issue: charge, compressor, restriction, airflow';
+  
+  div.innerHTML = `<div class="code-card" style="margin-top:1rem;"><div class="top"><span style="color:#e94560;font-weight:700;">Duct Drop: ${drop.toFixed(1)}°F</span></div><div class="code-desc">${diag}</div></div>`;
+}
+
+function renderACSuperheat(div) {
+  div.innerHTML = `
+    <div class="section-title">Superheat Calculator (TXV Systems)</div>
+    <div class="code-card" style="margin-bottom:1rem;">
+      <div style="color:#bbb;font-size:0.9rem;line-height:1.6;">
+        <strong>Superheat = Suction Line Temp - Saturation Temp (from low-side pressure)</strong><br>
+        Target: 8-12°F (varies by OEM). Measure suction line at evaporator outlet (before accumulator).
+      </div>
+    </div>
+    <div class="search-panel">
+      <div class="search-row">
+        <input type="number" id="shPressure" placeholder="Low Side PSI" style="flex:1; min-width:140px; padding:0.6rem 0.9rem; border:1px solid #222; border-radius:6px; background:#0a0a0a; color:#e0e0e0;">
+        <input type="number" id="shTemp" placeholder="Suction Line Temp °F" style="flex:1; min-width:140px; padding:0.6rem 0.9rem; border:1px solid #222; border-radius:6px; background:#0a0a0a; color:#e0e0e0;">
+        <select id="shRefrigerant" style="flex:1; min-width:140px; padding:0.6rem 0.9rem; border:1px solid #222; border-radius:6px; background:#0a0a0a; color:#e0e0e0;">
+          <option value="r134a">R-134a</option>
+          <option value="r1234yf">R-1234yf</option>
+        </select>
+        <button class="btn-primary" onclick="calcSuperheat()">Calculate</button>
+      </div>
+    </div>
+    <div id="shResult"></div>
+  `;
+}
+
+function calcSuperheat() {
+  const psi = parseFloat(document.getElementById('shPressure').value);
+  const temp = parseFloat(document.getElementById('shTemp').value);
+  const ref = document.getElementById('shRefrigerant').value;
+  const div = document.getElementById('shResult');
+  
+  if (isNaN(psi) || isNaN(temp)) { div.innerHTML = '<div class="empty-state">Enter pressure and temperature</div>'; return; }
+  
+  const satTemp = pressureToSatTemp(psi, ref);
+  const sh = temp - satTemp;
+  
+  let diag = '', badge = 'fmi-7';
+  if (sh > 20) { diag = 'HIGH SH: Starved evaporator — Undercharge / Restricted TXV / Plugged orifice tube / Kinked line'; badge = 'fmi-12'; }
+  else if (sh > 12) { diag = 'SLIGHTLY HIGH: Slightly starved — Check charge, TXV adjustment'; badge = 'fmi-2'; }
+  else if (sh >= 8) { diag = 'NORMAL (8-12°F): TXV controlling properly'; badge = 'fmi-7'; }
+  else if (sh > 0) { diag = 'LOW SH: Flooded evaporator — TXV stuck open / Overcharge / Sensing bulb issue'; badge = 'fmi-3'; }
+  else { diag = 'ZERO/NEGATIVE: Liquid at compressor — DANGER! TXV wide open / Severe overcharge'; badge = 'fmi-0'; }
+  
+  div.innerHTML = `
+    <div class="code-card" style="margin-top:1rem;">
+      <div class="top">
+        <span class="fmi-badge ${badge}" style="font-size:0.85rem;padding:4px 10px;">Superheat: ${sh.toFixed(1)}°F (Sat: ${satTemp.toFixed(1)}°F)</span>
+      </div>
+      <div class="code-desc" style="margin-top:0.5rem;">${diag}</div>
+    </div>
+  `;
+}
+
+function pressureToSatTemp(psi, ref) {
+  // Simplified saturation temp curves
+  if (ref === 'r134a') {
+    if (psi <= 20) return 15 + psi * 1.5;
+    if (psi <= 40) return 35 + (psi - 20) * 1.0;
+    if (psi <= 60) return 55 + (psi - 40) * 0.7;
+    return 69 + (psi - 60) * 0.5;
+  } else {
+    if (psi <= 15) return 10 + psi * 1.8;
+    if (psi <= 35) return 37 + (psi - 15) * 0.9;
+    if (psi <= 50) return 55 + (psi - 35) * 0.7;
+    return 65 + (psi - 50) * 0.5;
+  }
+}
+
+function renderACLeak(div) {
+  div.innerHTML = `
+    <div class="section-title">Leak Detection Procedure</div>
+    <div class="cat-group">
+      <div class="cat-header cat-header-accent"><span>Step-by-Step</span></div>
+      <div class="proc-card" style="cursor:default;">
+        <div class="proc-category cat-badge-accent">1. Visual</div>
+        <div class="proc-title">Oil residue at fittings, hose crimps, compressor shaft seal, condenser, evaporator drain</div>
+      </div>
+      <div class="proc-card" style="cursor:default;">
+        <div class="proc-category cat-badge-accent">2. Electronic Detector</div>
+        <div class="proc-title">Heated diode or infrared. Scan ALL connections, condenser, evaporator case drain, compressor seals. Move slowly (1"/sec).</div>
+      </div>
+      <div class="proc-card" style="cursor:default;">
+        <div class="proc-category cat-badge-accent">3. Nitrogen Pressure Test</div>
+        <div class="proc-title">Pressurize to 300 psi dry nitrogen. Hold 15 min. Drop = leak. Use soap bubbles on all joints. Finds micro-leaks electronic misses.</div>
+      </div>
+      <div class="proc-card" style="cursor:default;">
+        <div class="proc-category cat-badge-accent">4. UV Dye</div>
+        <div class="proc-title">Inject dye, run 30+ min. Black light inspection. Good for slow/intermittent leaks.</div>
+      </div>
+    </div>
+    
+    <div class="cat-group">
+      <div class="cat-header"><span>Common Equipment Leak Points</span></div>
+      <div class="proc-card" style="cursor:default;">
+        <div class="proc-title">Compressor shaft seal (high hours, vibration)</div>
+      </div>
+      <div class="proc-card" style="cursor:default;">
+        <div class="proc-title">Hose-to-fitting crimps (vibration fatigue)</div>
+      </div>
+      <div class="proc-card" style="cursor:default;">
+        <div class="proc-title">Condenser inlet/outlet O-rings</div>
+      </div>
+      <div class="proc-card" style="cursor:default;">
+        <div class="proc-title">TXV / Orifice tube connections</div>
+      </div>
+      <div class="proc-card" style="cursor:default;">
+        <div class="proc-title">Receiver/drier / Accumulator fittings</div>
+      </div>
+      <div class="proc-card" style="cursor:default;">
+        <div class="proc-title">Evaporator core (internal - check drain for dye)</div>
+      </div>
+      <div class="proc-card" style="cursor:default;">
+        <div class="proc-title">Service port Schrader valves</div>
+      </div>
+    </div>
+    
+    <div class="code-card" style="margin-top:1rem; border-color:#f0a030;">
+      <div style="color:#f0a030;font-weight:600;margin-bottom:0.5rem;">⚠ Equipment-Specific Notes</div>
+      <ul style="color:#bbb;font-size:0.9rem;line-height:1.8;padding-left:1.5rem;">
+        <li>Excavators: Vibration at boom/bucket joints = hose flex fatigue</li>
+        <li>Articulated machines: Steering joint hoses = movement fatigue</li>
+        <li>High-hour machines: Compressor shaft seal wear = slow leak</li>
+        <li>Dust environments: Abrasion at hose clamps / frame rub points</li>
+      </ul>
+    </div>
+  `;
+}
+
+function renderACRepair(div) {
+  div.innerHTML = `
+    <div class="section-title">Critical Repair Procedures</div>
+    
+    <div class="cat-group">
+      <div class="cat-header cat-header-accent"><span>Compressor Replacement</span></div>
+      <div class="proc-card" style="cursor:default;">
+        <div class="proc-category cat-badge-accent">1. Measure Oil</div>
+        <div class="proc-title">Recover refrigerant. Drain old compressor oil. Measure quantity.</div>
+      </div>
+      <div class="proc-card" style="cursor:default;">
+        <div class="proc-category cat-badge-accent">2. New Compressor Oil</div>
+        <div class="proc-title">Drain shipping oil from new unit. Install CORRECT type & amount (PAG 46/100/150 or POE for hybrid). Turn shaft 10x.</div>
+      </div>
+      <div class="proc-card" style="cursor:default;">
+        <div class="proc-category cat-badge-accent">3. Replace Mandatory</div>
+        <div class="proc-title">Receiver/drier (or accumulator) + TXV or Orifice Tube</div>
+      </div>
+      <div class="proc-card" style="cursor:default;">
+        <div class="proc-category cat-badge-accent">4. Flush If Failed</div>
+        <div class="proc-title">Flush: hoses, condenser (round tube), evaporator (round tube). NOT: parallel-flow condenser, variable compressor, muffler hoses.</div>
+      </div>
+      <div class="proc-card" style="cursor:default;">
+        <div class="proc-category cat-badge-accent">5. Evacuate & Charge</div>
+        <div class="proc-title"><500 microns, 30+ min hold. Charge by WEIGHT to spec (±1 oz / ±30g).</div>
+      </div>
+    </div>
+    
+    <div class="cat-group">
+      <div class="cat-header"><span>Condenser Service</span></div>
+      <div class="proc-card" style="cursor:default;">
+        <div class="proc-category">Clean</div>
+        <div class="proc-title">Low-pressure air/water from CLEAN side (opposite airflow). >30% fin damage = replace.</div>
+      </div>
+      <div class="proc-card" style="cursor:default;">
+        <div class="proc-category">Fan Check</div>
+        <div class="proc-title">Verify rotation direction after motor replacement. Check speed UNDER LOAD.</div>
+      </div>
+    </div>
+    
+    <div class="cat-group">
+      <div class="cat-header"><span>Oil Balancing Quick Reference</span></div>
+      <table class="fmi-table" style="max-width:600px;">
+        <thead><tr><th>Component Replaced</th><th>Oil to Add</th></tr></thead>
+        <tbody>
+          <tr><td>Compressor</td><td>Full system capacity (per spec)</td></tr>
+          <tr><td>Condenser</td><td>1 oz / 30 ml</td></tr>
+          <tr><td>Evaporator</td><td>1.5 oz / 45 ml</td></tr>
+          <tr><td>Receiver/Drier or Accumulator</td><td>1 oz / 30 ml</td></tr>
+          <tr><td>Hoses (each)</td><td>0.5 oz / 15 ml</td></tr>
+          <tr><td>TXV / Orifice Tube</td><td>0.5 oz / 15 ml</td></tr>
+        </tbody>
+      </table>
+      <div style="color:#666;font-size:0.8rem;margin-top:0.5rem;">Always check compressor manufacturer spec. Hybrid/EV = POE oil ONLY.</div>
+    </div>
+  `;
+}
+
+function renderACPM(div) {
+  div.innerHTML = `
+    <div class="section-title">Preventive Maintenance Schedule</div>
+    <div class="search-panel" style="margin-bottom:1rem;">
+      <div class="search-row">
+        <input type="number" id="machineHours" placeholder="Current Machine Hours" value="0" style="flex:1; min-width:200px; padding:0.6rem 0.9rem; border:1px solid #222; border-radius:6px; background:#0a0a0a; color:#e0e0e0;">
+        <button class="btn-primary" onclick="calcPM()">Show Due Services</button>
+      </div>
+    </div>
+    <div id="pmResult"></div>
+    
+    <div class="cat-group" style="margin-top:1.5rem;">
+      <div class="cat-header"><span>Full Schedule Reference</span></div>
+      <table class="fmi-table">
+        <thead><tr><th>Interval</th><th>Task</th><th>Notes</th></tr></thead>
+        <tbody>
+          <tr><td>Daily</td><td>Visual: belt, condenser debris, drain tube</td><td>Walk-around</td></tr>
+          <tr><td>250 hrs / Monthly</td><td>Cabin filter (fresh air), pressure spot-check</td><td>Dusty env = more often</td></tr>
+          <tr><td>500 hrs</td><td>Cabin filter (recirc), condenser cleaning</td><td>Low-pressure air/water</td></tr>
+          <tr><td>1000 hrs / Annual</td><td>Full performance test, leak check, belt tension, clutch gap (0.4-0.6mm)</td><td>Pre-season</td></tr>
+          <tr><td>2000 hrs / 2 Years</td><td>Receiver/drier replacement, recover/recycle/recharge</td><td>Desiccant saturated</td></tr>
+          <tr><td>System Opened</td><td>ALWAYS replace receiver/drier, evacuate, charge by weight</td><td>Non-negotiable</td></tr>
+        </tbody>
+      </table>
+    </div>
+  `;
+}
+
+function calcPM() {
+  const hrs = parseInt(document.getElementById('machineHours').value) || 0;
+  const div = document.getElementById('pmResult');
+  
+  const tasks = [
+    { interval: 250, task: 'Fresh air cabin filter', done: hrs % 250 === 0 },
+    { interval: 500, task: 'Recirc cabin filter + Condenser cleaning', done: hrs % 500 === 0 },
+    { interval: 1000, task: 'Full performance test + Leak check + Belt tension + Clutch gap', done: hrs % 1000 === 0 },
+    { interval: 2000, task: 'Receiver/drier replacement + Refrigerant recycle/recharge', done: hrs % 2000 === 0 },
+  ];
+  
+  div.innerHTML = tasks.map(t => {
+    const nextDue = t.interval - (hrs % t.interval);
+    const status = hrs >= t.interval && hrs % t.interval < 50 ? 'DUE NOW' : `${nextDue} hrs`;
+    const cls = status === 'DUE NOW' ? 'fmi-0' : 'fmi-7';
+    return `<div class="code-card"><div class="top"><span class="proc-title">${t.task}</span><span class="fmi-badge ${cls}" style="margin-left:auto;">${status}</span></div></div>`;
+  }).join('');
+}
+
+function renderACSpecs(div) {
+  div.innerHTML = `
+    <div class="section-title">OEM Pressure/Temperature Specifications</div>
+    <div class="search-panel" style="margin-bottom:1rem;">
+      <div class="search-row">
+        <select id="oemSelect" onchange="loadOEMSpecs()" style="flex:1; min-width:200px; padding:0.6rem 0.9rem; border:1px solid #222; border-radius:6px; background:#0a0a0a; color:#e0e0e0;">
+          <option value="cat">Caterpillar (SENR5664/RENR3291)</option>
+          <option value="komatsu">Komatsu (SEN06695)</option>
+          <option value="volvo">Volvo CE</option>
+          <option value="jlg">JLG Telehandlers (SI 1105)</option>
+          <option value="hitachi">Hitachi</option>
+          <option value="deere">John Deere</option>
+          <option value="case">Case</option>
+          <option value="kubota">Kubota</option>
+        </select>
+      </div>
+    </div>
+    <div id="oemSpecs"></div>
+  `;
+  loadOEMSpecs();
+}
+
+function loadOEMSpecs() {
+  const oem = document.getElementById('oemSelect').value;
+  const div = document.getElementById('oemSpecs');
+  
+  const specs = {
+    cat: {
+      title: 'Caterpillar — SENR5664 Testing & Adjusting / RENR3291',
+      notes: 'Use Cat ET for live pressures. Receiver/drier = "Refrigerant Dryer". Specs in Testing & Adjusting section.',
+      pressures: 'See service manual for model-specific charts. Typical: Low 25-45 psi, High 150-350 psi per ambient.',
+      special: 'Annual dryer change. Moisture causes black sludge in R-134a systems.'
+    },
+    komatsu: {
+      title: 'Komatsu — PC210LC-11 Appendix SEN06695-01',
+      notes: 'Failure codes on monitor panel. TXV + receiver/drier replaced together.',
+      pressures: 'Monitor displays live pressures. Compare to spec table in appendix.',
+      special: 'Serial 500001+'
+    },
+    volvo: {
+      title: 'Volvo CE — Annual A/C Service',
+      notes: '15,000+ hr component life with maintenance. Cab pressure 0.05-0.15 kPa (0.2-0.6" H2O).',
+      pressures: 'R-134a. Annual: charge, hoses, condenser, filters, belt, clutch gap 0.4-0.6mm, drain tube.',
+      special: 'Fresh filter 500 hrs / Recirc 1000 hrs. Receiver/drier 2-3 years.'
+    },
+    jlg: {
+      title: 'JLG Telehandlers — SI 1105',
+      notes: 'Test at 20-35°C (68-95°F). Normal: Low 1.3-2.0 bar (18-28 psi), High 15-17 bar (213-242 psi). High ≈ 6-8× Low.',
+      pressures: 'Pressure checkpoints at engine compartment (low) and manifold (high).',
+      special: 'TH336/337/406/407/414/514/417 models.'
+    },
+    hitachi: {
+      title: 'Hitachi — Refer to model service manual',
+      notes: 'Similar to Komatsu specs. Monitor panel shows A/C pressures.',
+      pressures: 'Model-specific. Check Testing & Adjusting section.',
+      special: 'ZX/EX series common.'
+    },
+    deere: {
+      title: 'John Deere — TechControl / Service Advisor',
+      notes: 'Use Service Advisor for live data. A/C pressures in HVAC diagnostics.',
+      pressures: 'R-134a standard. Model-specific charts in TM.',
+      special: 'IT:xxxxx'
+    },
+    case: {
+      title: 'Case — Service Manual HVAC Section',
+      notes: 'Similar to NH/CNH specs. Monitor shows pressures.',
+      pressures: 'Model-specific. Check pressure switch specs.',
+      special: 'CX/580/590 series.'
+    },
+    kubota: {
+      title: 'Kubota — Workshop Manual',
+      notes: 'Compact excavators/loaders. Smaller condensers = marginal capacity.',
+      pressures: 'R-134a. Check manual for specific model.',
+      special: 'KX/U/KH series.'
+    }
+  };
+  
+  const s = specs[oem];
+  div.innerHTML = `
+    <div class="code-card">
+      <div style="color:#e94560;font-weight:600;font-size:1rem;margin-bottom:0.5rem;">${s.title}</div>
+      <div class="code-desc" style="margin-bottom:0.75rem;">${s.notes}</div>
+      <div style="color:#bbb;font-size:0.9rem;"><strong>Pressures:</strong> ${s.pressures}</div>
+      <div style="color:#f0a030;font-size:0.85rem;margin-top:0.5rem;"><strong>Special:</strong> ${s.special}</div>
+    </div>
+  `;
+}
+
+function renderACFaults(div) {
+  div.innerHTML = `
+    <div class="section-title">HVAC Fault Codes (SPN/FMI)</div>
+    <div class="search-panel" style="margin-bottom:1rem;">
+      <div class="search-row">
+        <input type="text" id="hvacSearch" placeholder="Search SPN, FMI, or description..." oninput="filterHVACFaults()" style="flex:1; min-width:200px; padding:0.6rem 0.9rem; border:1px solid #222; border-radius:6px; background:#0a0a0a; color:#e0e0e0;">
+      </div>
+    </div>
+    <table class="fmi-table" id="hvacFaultTable">
+      <thead><tr><th>SPN</th><th>Description</th><th>FMI</th><th>Fault</th></tr></thead>
+      <tbody id="hvacFaultBody"></tbody>
+    </table>
+  `;
+  renderHVACFaultTable();
+}
+
+const hvacFaults = [
+  { spn: 170, desc: 'Cab Temperature', fmi: 3, fault: 'Voltage Above Normal / Shorted High' },
+  { spn: 170, desc: 'Cab Temperature', fmi: 4, fault: 'Voltage Below Normal / Shorted Low' },
+  { spn: 171, desc: 'Ambient Air Temperature', fmi: 3, fault: 'Voltage Above Normal' },
+  { spn: 171, desc: 'Ambient Air Temperature', fmi: 4, fault: 'Voltage Below Normal' },
+  { spn: 172, desc: 'Evaporator Temperature', fmi: 3, fault: 'Voltage Above Normal' },
+  { spn: 172, desc: 'Evaporator Temperature', fmi: 4, fault: 'Voltage Below Normal' },
+  { spn: 172, desc: 'Evaporator Temperature', fmi: 0, fault: 'Temp Too High (Icing Risk)' },
+  { spn: 173, desc: 'Condenser Temperature', fmi: 0, fault: 'Temp Too High (Airflow Issue)' },
+  { spn: 174, desc: 'A/C Refrigerant Pressure', fmi: 0, fault: 'High Pressure Cutout' },
+  { spn: 174, desc: 'A/C Refrigerant Pressure', fmi: 1, fault: 'Low Pressure Cutout' },
+  { spn: 174, desc: 'A/C Refrigerant Pressure', fmi: 3, fault: 'Sensor Voltage High' },
+  { spn: 174, desc: 'A/C Refrigerant Pressure', fmi: 4, fault: 'Sensor Voltage Low' },
+  { spn: 175, desc: 'A/C Compressor Clutch', fmi: 5, fault: 'Current Below Normal (Open Circuit)' },
+  { spn: 175, desc: 'A/C Compressor Clutch', fmi: 6, fault: 'Current Above Normal (Short)' },
+  { spn: 175, desc: 'A/C Compressor Clutch', fmi: 7, fault: 'Mechanical Not Engaging' },
+  { spn: 176, desc: 'A/C Blower Motor', fmi: 5, fault: 'Current Below Normal' },
+  { spn: 176, desc: 'A/C Blower Motor', fmi: 6, fault: 'Current Above Normal' },
+  { spn: 176, desc: 'A/C Blower Motor', fmi: 7, fault: 'Mechanical Failure (Locked)' },
+  { spn: 177, desc: 'A/C Blower Speed', fmi: 3, fault: 'Voltage High' },
+  { spn: 177, desc: 'A/C Blower Speed', fmi: 4, fault: 'Voltage Low' },
+  { spn: 520198, desc: 'A/C High Pressure Switch', fmi: 2, fault: 'Erratic / Intermittent' },
+  { spn: 520199, desc: 'A/C Low Pressure Switch', fmi: 2, fault: 'Erratic / Intermittent' },
+  { spn: 520200, desc: 'Evaporator Temp Sensor', fmi: 2, fault: 'Erratic / Intermittent' },
+  { spn: 520201, desc: 'Condenser Fan Speed', fmi: 5, fault: 'Current Below Normal' },
+  { spn: 520201, desc: 'Condenser Fan Speed', fmi: 7, fault: 'Fan Not Responding' },
+  { spn: 520202, desc: 'A/C Compressor Displacement', fmi: 3, fault: 'Control Voltage High' },
+  { spn: 520202, desc: 'A/C Compressor Displacement', fmi: 4, fault: 'Control Voltage Low' },
+  { spn: 520202, desc: 'A/C Compressor Displacement', fmi: 7, fault: 'Not Responding to Command' },
+];
+
+function renderHVACFaultTable() {
+  document.getElementById('hvacFaultBody').innerHTML = hvacFaults.map(f =>
+    `<tr>
+      <td>SPN ${f.spn}</td>
+      <td>${f.desc}</td>
+      <td><span class="fmi-badge fmi-${f.fmi}">FMI ${f.fmi}</span></td>
+      <td>${f.fault}</td>
+    </tr>`
+  ).join('');
+}
+
+function filterHVACFaults() {
+  const val = document.getElementById('hvacSearch').value.toLowerCase();
+  const rows = document.querySelectorAll('#hvacFaultBody tr');
+  rows.forEach(r => {
+    const text = r.textContent.toLowerCase();
+    r.style.display = text.includes(val) ? '' : 'none';
+  });
+}
 </script>
 </body>
 </html>
