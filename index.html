@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>equipdiag - J1939 SPN/FMI Lookup</title>
+<title>equipdiag - Diagnostic Code Reference</title>
 <style>
 * { box-sizing: border-box; margin: 0; padding: 0; }
 body { font-family: system-ui, -apple-system, sans-serif; background: #111; color: #e0e0e0; min-height: 100vh; }
@@ -22,17 +22,17 @@ body { font-family: system-ui, -apple-system, sans-serif; background: #111; colo
 .search-row button.secondary:hover { background: #444; }
 .hint { font-size: 0.8rem; color: #666; margin-top: 0.5rem; }
 .results { margin-top: 1rem; }
-.spn-card { background: #1a1a2e; border: 1px solid #2a2a3e; border-radius: 8px; padding: 1rem; margin-bottom: 0.75rem; }
-.spn-card .spn-num { color: #e94560; font-weight: 700; font-size: 1.2rem; }
-.spn-card .spn-desc { color: #ccc; margin-top: 0.25rem; }
+.code-card { background: #1a1a2e; border: 1px solid #2a2a3e; border-radius: 8px; padding: 1rem; margin-bottom: 0.75rem; }
+.code-card .code-num { color: #e94560; font-weight: 700; font-size: 1.2rem; }
+.code-card .code-desc { color: #ccc; margin-top: 0.25rem; }
+.code-card .code-source { font-size: 0.75rem; color: #666; margin-top: 0.25rem; }
+.code-card .code-type-badge { display: inline-block; padding: 1px 6px; border-radius: 3px; font-size: 0.7rem; background: #2a2a4e; color: #888; margin-left: 0.5rem; vertical-align: middle; }
 .fmi-badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.75rem; margin-right: 4px; }
-.fmi-0 { background: #6b0000; color: #ff8888; }
-.fmi-1 { background: #6b0000; color: #ff8888; }
+.fmi-0, .fmi-1 { background: #6b0000; color: #ff8888; }
 .fmi-2 { background: #6b4a00; color: #ffbb44; }
 .fmi-3 { background: #4a006b; color: #cc88ff; }
 .fmi-4 { background: #4a006b; color: #cc88ff; }
-.fmi-5 { background: #00306b; color: #88bbff; }
-.fmi-6 { background: #00306b; color: #88bbff; }
+.fmi-5, .fmi-6 { background: #00306b; color: #88bbff; }
 .fmi-7 { background: #006b4a; color: #88ffbb; }
 .fmi-12 { background: #6b0030; color: #ff88bb; }
 .fmi-31 { background: #2a4a00; color: #aadd66; }
@@ -45,14 +45,29 @@ body { font-family: system-ui, -apple-system, sans-serif; background: #111; colo
 .fmi-table th { text-align: left; padding: 0.5rem; border-bottom: 1px solid #333; color: #888; font-weight: 600; }
 .fmi-table td { padding: 0.5rem; border-bottom: 1px solid #222; }
 .fmi-table tr:hover td { background: #2a2a3e; }
-.lookup-type { display: flex; gap: 0.5rem; margin-bottom: 1rem; }
+.lookup-type { display: flex; gap: 0.5rem; margin-bottom: 1rem; flex-wrap: wrap; }
 .lookup-type button { padding: 0.4rem 1rem; border: 1px solid #333; border-radius: 4px; background: transparent; color: #888; cursor: pointer; font-size: 0.85rem; }
 .lookup-type button.active { border-color: #e94560; color: #e94560; background: #1a1a2e; }
 .hidden { display: none; }
+.source-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 0.75rem; margin-top: 1rem; }
+.source-card { background: #1a1a2e; border: 1px solid #2a2a3e; border-radius: 8px; padding: 1rem; cursor: pointer; }
+.source-card:hover { border-color: #e94560; }
+.source-card .s-name { color: #e0e0e0; font-weight: 600; font-size: 0.9rem; }
+.source-card .s-meta { color: #666; font-size: 0.8rem; margin-top: 0.25rem; }
+.source-card .s-count { color: #e94560; font-weight: 700; }
+.source-header { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem; }
+.source-header h3 { color: #e0e0e0; }
+.type-tag { display: inline-block; padding: 1px 6px; border-radius: 3px; font-size: 0.7rem; background: #2a2a4e; color: #aaa; margin-left: 0.5rem; }
+.back-btn { cursor: pointer; color: #e94560; font-size: 0.85rem; }
+.pagination { display: flex; gap: 0.5rem; align-items: center; margin-top: 1rem; justify-content: center; }
+.pagination button { padding: 0.4rem 0.8rem; border: 1px solid #333; border-radius: 4px; background: transparent; color: #888; cursor: pointer; }
+.pagination button.active { border-color: #e94560; color: #e94560; }
+.pagination button:hover:not(.active) { border-color: #666; }
 @media (max-width: 768px) {
   .header { padding: 0.75rem 1rem; }
   .container { padding: 1rem; }
   .stats { gap: 1rem; }
+  .source-list { grid-template-columns: 1fr; }
 }
 </style>
 </head>
@@ -60,31 +75,50 @@ body { font-family: system-ui, -apple-system, sans-serif; background: #111; colo
 
 <div class="header">
   <h1>equipdiag</h1>
-  <span class="subtitle">J1939 SPN / FMI Reference</span>
+  <span class="subtitle">Diagnostic Code Reference</span>
 </div>
 
 <div class="container">
-  <div class="stats" id="stats">
-    <div class="stat-item"><div class="num" id="spnCount">-</div><div class="label">SPNs indexed</div></div>
-    <div class="stat-item"><div class="num">32</div><div class="label">FMIs defined</div></div>
-    <div class="stat-item"><div class="num" id="spnRange">-</div><div class="label">SPN range</div></div>
+  <div class="stats">
+    <div class="stat-item"><div class="num" id="totalCount">-</div><div class="label">Total codes</div></div>
+    <div class="stat-item"><div class="num" id="sourceCount">-</div><div class="label">Source docs</div></div>
+    <div class="stat-item"><div class="num" id="typeCount">-</div><div class="label">Code types</div></div>
   </div>
 
   <div class="lookup-type">
-    <button class="active" onclick="setMode('spn')" id="modeSpn">SPN Lookup</button>
+    <button class="active" onclick="setMode('search')" id="modeSearch">Search</button>
+    <button onclick="setMode('sources')" id="modeSources">Browse by Source</button>
     <button onclick="setMode('fmi')" id="modeFmi">FMI Reference</button>
     <button onclick="setMode('dtc')" id="modeDtc">SPN+FMI Decode</button>
   </div>
 
-  <div id="spnMode" class="search-box">
-    <h2>SPN Lookup</h2>
+  <div id="searchMode" class="search-box">
+    <h2>Search All Codes</h2>
     <div class="search-row">
-      <input type="number" id="spnInput" placeholder="Enter SPN number (e.g. 110, 190, 102)" oninput="searchSPN()" autofocus>
-      <button onclick="searchSPN()">Search</button>
-      <button class="secondary" onclick="clearSPN()">Clear</button>
+      <input type="text" id="searchInput" placeholder="Enter code number (e.g. 110, 157, SID 23, PID 45)" oninput="searchCodes()" autofocus>
+      <button onclick="searchCodes()">Search</button>
+      <button class="secondary" onclick="clearSearch()">Clear</button>
     </div>
-    <div class="hint">Type an SPN number to see the parameter description.</div>
-    <div id="spnResult" class="results"></div>
+    <div class="hint">Type any code number to search across SPN, SID, PID, MID, DTC, and SFC codes.</div>
+    <div id="searchResult" class="results"></div>
+  </div>
+
+  <div id="sourcesMode" class="hidden">
+    <div id="sourceListContainer">
+      <h2 style="color:#aaa; font-size:1rem; margin-bottom:0.5rem;">Document Sources</h2>
+      <div class="source-list" id="sourceList"></div>
+    </div>
+    <div id="sourceDetailContainer" class="hidden">
+      <div class="source-header">
+        <span class="back-btn" onclick="backToSources()">&larr; Back</span>
+        <h3 id="sourceTitle"></h3>
+      </div>
+      <div class="search-row" style="margin-bottom:1rem;">
+        <input type="text" id="sourceFilter" placeholder="Filter codes..." oninput="renderSourceCodes()">
+      </div>
+      <div id="sourceCodes" class="results"></div>
+      <div id="sourcePagination" class="pagination"></div>
+    </div>
   </div>
 
   <div id="fmiMode" class="hidden">
@@ -109,29 +143,37 @@ body { font-family: system-ui, -apple-system, sans-serif; background: #111; colo
 </div>
 
 <script>
-let spnData = [];
+let unifiedData = [];
 let fmiData = [];
+let sourcesMap = {};
+let currentSource = null;
+let currentPage = 0;
+const PAGE_SIZE = 50;
 
 async function loadData() {
   try {
-    const [spnRes, fmiRes] = await Promise.all([
-      fetch('spn-database/spn-list.json'),
-      fetch('spn-database/fmi-list.json')
+    const [unifiedRes, fmiRes, sourcesRes] = await Promise.all([
+      fetch('spn-database/unified-codes.json'),
+      fetch('spn-database/fmi-list.json'),
+      fetch('spn-database/sources.json')
     ]);
-    spnData = await spnRes.json();
+    unifiedData = await unifiedRes.json();
     fmiData = await fmiRes.json();
+    sourcesMap = await sourcesRes.json();
 
-    document.getElementById('spnCount').textContent = spnData.length.toLocaleString();
-    document.getElementById('spnRange').textContent =
-      spnData[0]?.spn + ' - ' + spnData[spnData.length-1]?.spn;
+    const types = new Set(unifiedData.map(c => c.type));
+    document.getElementById('totalCount').textContent = unifiedData.length.toLocaleString();
+    document.getElementById('sourceCount').textContent = Object.keys(sourcesMap).length;
+    document.getElementById('typeCount').textContent = types.size;
 
     renderFMI();
+    renderSources();
     if (window.location.hash) {
       const hash = window.location.hash.slice(1);
-      const spn = parseInt(hash);
-      if (!isNaN(spn)) {
-        document.getElementById('spnInput').value = spn;
-        searchSPN();
+      const num = parseInt(hash);
+      if (!isNaN(num)) {
+        document.getElementById('searchInput').value = hash;
+        searchCodes();
       }
     }
   } catch (e) {
@@ -151,31 +193,106 @@ function renderFMI() {
   ).join('');
 }
 
-function searchSPN() {
-  const val = parseInt(document.getElementById('spnInput').value);
-  const div = document.getElementById('spnResult');
-  if (!val || isNaN(val)) { div.innerHTML = ''; return; }
+function renderSources() {
+  const list = document.getElementById('sourceList');
+  list.innerHTML = Object.entries(sourcesMap).map(([file, s]) =>
+    `<div class="source-card" onclick="openSource('${file}')">
+      <div class="s-name">${s.name} <span class="type-tag">${s.type}</span></div>
+      <div class="s-meta"><span class="s-count">${s.count}</span> codes</div>
+    </div>`
+  ).join('');
+}
 
-  const results = spnData.filter(s => s.spn === val);
+function openSource(file) {
+  currentSource = file;
+  currentPage = 0;
+  document.getElementById('sourceListContainer').classList.add('hidden');
+  document.getElementById('sourceDetailContainer').classList.remove('hidden');
+  document.getElementById('sourceTitle').textContent = sourcesMap[file].name + ` (${sourcesMap[file].count} codes)`;
+  document.getElementById('sourceFilter').value = '';
+  renderSourceCodes();
+}
+
+function backToSources() {
+  currentSource = null;
+  document.getElementById('sourceListContainer').classList.remove('hidden');
+  document.getElementById('sourceDetailContainer').classList.add('hidden');
+}
+
+function renderSourceCodes() {
+  const filter = (document.getElementById('sourceFilter').value || '').toLowerCase();
+  const fileCodes = unifiedData.filter(c => c.file === currentSource);
+  const filtered = filter ? fileCodes.filter(c => String(c.code).includes(filter) || c.desc.toLowerCase().includes(filter)) : fileCodes;
+
+  const totalPages = Math.ceil(filtered.length / PAGE_SIZE);
+  if (currentPage >= totalPages) currentPage = totalPages - 1;
+  if (currentPage < 0) currentPage = 0;
+
+  const pageCodes = filtered.slice(currentPage * PAGE_SIZE, (currentPage + 1) * PAGE_SIZE);
+
+  const div = document.getElementById('sourceCodes');
+  div.innerHTML = pageCodes.map(c =>
+    `<div class="code-card">
+      <div class="code-num">${c.type} ${c.code}</div>
+      <div class="code-desc">${c.desc}</div>
+    </div>`
+  ).join('');
+
+  const pag = document.getElementById('sourcePagination');
+  if (totalPages <= 1) { pag.innerHTML = ''; return; }
+  pag.innerHTML = `<button onclick="changePage(-1)">&laquo; Prev</button>` +
+    `<span style="color:#666;font-size:0.85rem;">Page ${currentPage+1}/${totalPages}</span>` +
+    `<button onclick="changePage(1)">Next &raquo;</button>`;
+}
+
+function changePage(delta) {
+  currentPage += delta;
+  renderSourceCodes();
+}
+
+function searchCodes() {
+  const val = document.getElementById('searchInput').value.trim();
+  const div = document.getElementById('searchResult');
+  if (!val) { div.innerHTML = ''; return; }
+
+  const num = parseInt(val);
+  const isNum = !isNaN(num);
+
+  let results;
+  if (isNum) {
+    results = unifiedData.filter(c => c.code === num);
+  } else {
+    const upper = val.toUpperCase();
+    results = unifiedData.filter(c =>
+      c.desc.toUpperCase().includes(upper) ||
+      (c.type + ' ' + c.code).toUpperCase().includes(upper)
+    );
+  }
+
   if (results.length === 0) {
-    div.innerHTML = `<div class="spn-card" style="color:#888;">No SPN <strong>${val}</strong> found in database.</div>`;
+    div.innerHTML = `<div class="code-card" style="color:#888;">No matches for <strong>${val}</strong>.</div>`;
     return;
   }
 
-  div.innerHTML = results.map(r =>
-    `<div class="spn-card">
-      <div class="spn-num">SPN ${r.spn}</div>
-      <div class="spn-desc">${r.desc}</div>
+  const shown = results.slice(0, 200);
+  div.innerHTML = shown.map(c =>
+    `<div class="code-card">
+      <div class="code-num">${c.type} ${c.code}</div>
+      <div class="code-desc">${c.desc}</div>
+      <div class="code-source">Source: ${c.source}</div>
     </div>`
   ).join('');
-  window.location.hash = val;
+  if (results.length > 200) {
+    div.innerHTML += `<div class="code-card" style="color:#666;">... and ${results.length - 200} more matches.</div>`;
+  }
+  if (isNum) window.location.hash = val;
 }
 
-function clearSPN() {
-  document.getElementById('spnInput').value = '';
-  document.getElementById('spnResult').innerHTML = '';
+function clearSearch() {
+  document.getElementById('searchInput').value = '';
+  document.getElementById('searchResult').innerHTML = '';
   window.location.hash = '';
-  document.getElementById('spnInput').focus();
+  document.getElementById('searchInput').focus();
 }
 
 function decodeDTC() {
@@ -184,46 +301,49 @@ function decodeDTC() {
   const div = document.getElementById('dtcResult');
 
   if (!spn || !fmi || isNaN(spn) || isNaN(fmi)) {
-    div.innerHTML = `<div class="spn-card" style="color:#888;">Enter both SPN and FMI values.</div>`;
+    div.innerHTML = `<div class="code-card" style="color:#888;">Enter both SPN and FMI values.</div>`;
     return;
   }
 
-  const spnMatch = spnData.find(s => s.spn === spn);
+  const spnMatch = unifiedData.find(c => c.type === 'SPN' && c.code === spn);
   const fmiMatch = fmiData.find(f => f.fmi === fmi);
 
   if (!spnMatch) {
-    div.innerHTML = `<div class="spn-card" style="color:#888;">SPN ${spn} not found in database.</div>`;
+    div.innerHTML = `<div class="code-card" style="color:#888;">SPN ${spn} not found in database.</div>`;
     return;
   }
   if (!fmiMatch) {
-    div.innerHTML = `<div class="spn-card" style="color:#888;">FMI ${fmi} not found (valid range: 0-31).</div>`;
+    div.innerHTML = `<div class="code-card" style="color:#888;">FMI ${fmi} not found (valid range: 0-31).</div>`;
     return;
   }
 
   div.innerHTML =
-    `<div class="spn-card">
-      <div class="spn-num" style="margin-bottom:0.25rem;">SPN ${spn} &mdash; FMI ${fmi}</div>
+    `<div class="code-card">
+      <div class="code-num" style="margin-bottom:0.25rem;">SPN ${spn} &mdash; FMI ${fmi}</div>
       <div style="color:#ccc; margin-bottom:0.5rem;"><strong>${spnMatch.desc}</strong></div>
       <div style="color:#aaa; font-size:0.9rem;">${fmiMatch.desc}</div>
       <div style="margin-top:0.5rem; display:flex; gap:0.5rem; flex-wrap:wrap;">
         <span class="fmi-badge fmi-${fmi}">FMI ${fmi} - ${fmiMatch.category}</span>
         <span class="fmi-badge fmi-${fmi}">Severity: ${fmiMatch.severity}/3</span>
       </div>
+      <div class="code-source" style="margin-top:0.5rem;">Source: ${spnMatch.source}</div>
     </div>`;
 }
 
 function setMode(mode) {
   document.querySelectorAll('.lookup-type button').forEach(b => b.classList.remove('active'));
-  document.getElementById('modeSpn' ).classList.toggle('active', mode === 'spn');
-  document.getElementById('modeFmi' ).classList.toggle('active', mode === 'fmi');
-  document.getElementById('modeDtc' ).classList.toggle('active', mode === 'dtc');
-  document.getElementById('spnMode').classList.toggle('hidden', mode !== 'spn');
+  document.getElementById('modeSearch').classList.toggle('active', mode === 'search');
+  document.getElementById('modeSources').classList.toggle('active', mode === 'sources');
+  document.getElementById('modeFmi').classList.toggle('active', mode === 'fmi');
+  document.getElementById('modeDtc').classList.toggle('active', mode === 'dtc');
+  document.getElementById('searchMode').classList.toggle('hidden', mode !== 'search');
+  document.getElementById('sourcesMode').classList.toggle('hidden', mode !== 'sources');
   document.getElementById('fmiMode').classList.toggle('hidden', mode !== 'fmi');
   document.getElementById('dtcMode').classList.toggle('hidden', mode !== 'dtc');
 }
 
 document.addEventListener('DOMContentLoaded', loadData);
-document.getElementById('spnInput').addEventListener('keydown', e => { if (e.key === 'Enter') searchSPN(); });
+document.getElementById('searchInput').addEventListener('keydown', e => { if (e.key === 'Enter') searchCodes(); });
 document.getElementById('dtcSpn').addEventListener('keydown', e => { if (e.key === 'Enter') decodeDTC(); });
 document.getElementById('dtcFmi').addEventListener('keydown', e => { if (e.key === 'Enter') decodeDTC(); });
 </script>

@@ -1,0 +1,72 @@
+{
+  "2004-tier1-ec-engine-codes-parsed.json": {
+    "name": "2004 Tier I K21/K25/TB45 EC-Engine Control Codes",
+    "type": "DTC",
+    "count": 15
+  },
+  "2007-tier2-ec-engine-codes-parsed.json": {
+    "name": "2007 Tier II TB45 EC-Engine Control Codes",
+    "type": "DTC",
+    "count": 11
+  },
+  "2924-ecu-error-codes-parsed.json": {
+    "name": "CNH ECU Tier 3/Tier 4a Fault Codes",
+    "type": "DTC",
+    "count": 400
+  },
+  "dtcodes-parsed.json": {
+    "name": "DEUTZ EMR3 DTCodes (Table 2, SPN-component only)",
+    "type": "SPN",
+    "count": 153
+  },
+  "j1587-sids-all-others-parsed.json": {
+    "name": "J1587 SIDs - All Others",
+    "type": "SID",
+    "count": 64
+  },
+  "j1587-sids-brakes-parsed.json": {
+    "name": "J1587 SIDs - Brakes",
+    "type": "SID",
+    "count": 92
+  },
+  "j1587-sids-common-parsed.json": {
+    "name": "J1587 SIDs - Common",
+    "type": "SID",
+    "count": 43
+  },
+  "j1587-sids-engine-parsed.json": {
+    "name": "J1587 SIDs - Engine",
+    "type": "SID",
+    "count": 145
+  },
+  "j1587-sids-transmission-parsed.json": {
+    "name": "J1587 SIDs - Transmission",
+    "type": "SID",
+    "count": 148
+  },
+  "j1708-j1587-j1939-mid-parsed.json": {
+    "name": "J1708/J1587/J1939 MID Listing",
+    "type": "MID",
+    "count": 109
+  },
+  "j1708-pids-parsed.json": {
+    "name": "J1708 PIDs",
+    "type": "PID",
+    "count": 238
+  },
+  "megajector-dtc-parsed.json": {
+    "name": "MegaJector Diagnostic Trouble Codes",
+    "type": "SFC",
+    "count": 8
+  },
+  "sae-spn-master-parsed.json": {
+    "name": "SAE J1939 SPN Master List",
+    "type": "SPN",
+    "count": 154
+  },
+  "suspect-spn-codes-parsed.json": {
+    "name": "Suspect Parameter Numbers SPN Codes",
+    "type": "SPN",
+    "count": 3520
+  }
+}

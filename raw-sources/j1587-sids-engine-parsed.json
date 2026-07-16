@@ -1,0 +1,586 @@
+{
+  "source": "J1587 SIDs - Engine",
+  "type": "SID",
+  "codes": [
+    {
+      "code": 1,
+      "desc": "Injector Cylinder #1"
+    },
+    {
+      "code": 2,
+      "desc": "Injector Cylinder #2"
+    },
+    {
+      "code": 3,
+      "desc": "Injector Cylinder #3"
+    },
+    {
+      "code": 4,
+      "desc": "Injector Cylinder #4"
+    },
+    {
+      "code": 5,
+      "desc": "Injector Cylinder #5"
+    },
+    {
+      "code": 6,
+      "desc": "Injector Cylinder #6"
+    },
+    {
+      "code": 7,
+      "desc": "Injector Cylinder #7"
+    },
+    {
+      "code": 8,
+      "desc": "Injector Cylinder #8"
+    },
+    {
+      "code": 9,
+      "desc": "Injector Cylinder #9"
+    },
+    {
+      "code": 10,
+      "desc": "Injector Cylinder #10"
+    },
+    {
+      "code": 11,
+      "desc": "Injector Cylinder #11"
+    },
+    {
+      "code": 12,
+      "desc": "Injector Cylinder #12"
+    },
+    {
+      "code": 13,
+      "desc": "Injector Cylinder #13"
+    },
+    {
+      "code": 14,
+      "desc": "Injector Cylinder #14"
+    },
+    {
+      "code": 15,
+      "desc": "Injector Cylinder #15"
+    },
+    {
+      "code": 16,
+      "desc": "Injector Cylinder #16"
+    },
+    {
+      "code": 17,
+      "desc": "Fuel Shutoff Valve"
+    },
+    {
+      "code": 18,
+      "desc": "Fuel Control Valve"
+    },
+    {
+      "code": 19,
+      "desc": "Throttle Bypass Valve"
+    },
+    {
+      "code": 20,
+      "desc": "Timing Actuator"
+    },
+    {
+      "code": 21,
+      "desc": "Engine Position Sensor"
+    },
+    {
+      "code": 22,
+      "desc": "Timing Sensor"
+    },
+    {
+      "code": 23,
+      "desc": "Rack Actuator"
+    },
+    {
+      "code": 24,
+      "desc": "Rack Position Sensor"
+    },
+    {
+      "code": 25,
+      "desc": "External Engine Protection Input"
+    },
+    {
+      "code": 27,
+      "desc": "Variable Geometry Turbocharger Actuator #1"
+    },
+    {
+      "code": 28,
+      "desc": "Variable Geometry Turbocharger Actuator #2"
+    },
+    {
+      "code": 29,
+      "desc": "External Fuel Command Input"
+    },
+    {
+      "code": 30,
+      "desc": "External Speed Command Input"
+    },
+    {
+      "code": 31,
+      "desc": "Tachometer Signal Output"
+    },
+    {
+      "code": 32,
+      "desc": "Turbocharger #1 Wastegate Drive"
+    },
+    {
+      "code": 33,
+      "desc": "Fan Clutch Output Device Driver"
+    },
+    {
+      "code": 34,
+      "desc": "Exhaust Back Pressure Sensor"
+    },
+    {
+      "code": 35,
+      "desc": "Exhaust Back Pressure Regulator Solenoid"
+    },
+    {
+      "code": 36,
+      "desc": "Glow Plug Lamp"
+    },
+    {
+      "code": 37,
+      "desc": "Electronic Drive Unit Power Relay"
+    },
+    {
+      "code": 38,
+      "desc": "Glow Plug Relay"
+    },
+    {
+      "code": 39,
+      "desc": "Engine Starter Motor Relay"
+    },
+    {
+      "code": 40,
+      "desc": "Auxiliary Output Device Driver #2"
+    },
+    {
+      "code": 41,
+      "desc": "ECM 8 Volts DC Supply"
+    },
+    {
+      "code": 42,
+      "desc": "Injection Control Pressure Regulator"
+    },
+    {
+      "code": 43,
+      "desc": "Autoshift High Gear Actuator"
+    },
+    {
+      "code": 44,
+      "desc": "Autoshift Low Gear Actuator"
+    },
+    {
+      "code": 45,
+      "desc": "Autoshift Neutral Actuator"
+    },
+    {
+      "code": 46,
+      "desc": "Autoshift Common Low Side (Return)"
+    },
+    {
+      "code": 47,
+      "desc": "Injector Cylinder #17"
+    },
+    {
+      "code": 48,
+      "desc": "Injector Cylinder #18"
+    },
+    {
+      "code": 49,
+      "desc": "Injector Cylinder #19"
+    },
+    {
+      "code": 50,
+      "desc": "Injector Cylinder #20"
+    },
+    {
+      "code": 51,
+      "desc": "Auxiliary Output Device Driver #3"
+    },
+    {
+      "code": 52,
+      "desc": "Auxiliary Output Device Driver #4"
+    },
+    {
+      "code": 53,
+      "desc": "Auxiliary Output Device Driver #5"
+    },
+    {
+      "code": 54,
+      "desc": "Auxiliary Output Device Driver #6"
+    },
+    {
+      "code": 55,
+      "desc": "Auxiliary Output Device Driver #7"
+    },
+    {
+      "code": 56,
+      "desc": "Auxiliary Output Device Driver #8"
+    },
+    {
+      "code": 57,
+      "desc": "Auxiliary PWM Driver #1"
+    },
+    {
+      "code": 58,
+      "desc": "Auxiliary PWM Driver #2"
+    },
+    {
+      "code": 59,
+      "desc": "Auxiliary PWM Driver #3"
+    },
+    {
+      "code": 60,
+      "desc": "Auxiliary PWM Driver #4"
+    },
+    {
+      "code": 61,
+      "desc": "Variable Swirl System Valve"
+    },
+    {
+      "code": 62,
+      "desc": "Prestroke Sensor"
+    },
+    {
+      "code": 64,
+      "desc": "Engine Speed Sensor #2"
+    },
+    {
+      "code": 65,
+      "desc": "Heated Oxygen Sensor"
+    },
+    {
+      "code": 66,
+      "desc": "Ignition Control Mode Signal"
+    },
+    {
+      "code": 67,
+      "desc": "Ignition Control Timing Signal"
+    },
+    {
+      "code": 68,
+      "desc": "Secondary Turbo Inlet Pressure"
+    },
+    {
+      "code": 69,
+      "desc": "After Cooler-Oil Cooler Coolant Temperature"
+    },
+    {
+      "code": 70,
+      "desc": "Inlet Air Heater Driver #1"
+    },
+    {
+      "code": 71,
+      "desc": "Inlet Air Heater Driver #2"
+    },
+    {
+      "code": 72,
+      "desc": "Injector Cylinder #21"
+    },
+    {
+      "code": 73,
+      "desc": "Injector Cylinder #22"
+    },
+    {
+      "code": 74,
+      "desc": "Injector Cylinder #23"
+    },
+    {
+      "code": 75,
+      "desc": "Injector Cylinder #24"
+    },
+    {
+      "code": 76,
+      "desc": "Knock Sensor"
+    },
+    {
+      "code": 77,
+      "desc": "Gas Metering Valve"
+    },
+    {
+      "code": 78,
+      "desc": "Fuel Supply Pump Actuator"
+    },
+    {
+      "code": 79,
+      "desc": "Engine (Compression) Brake Output #1"
+    },
+    {
+      "code": 80,
+      "desc": "Engine (Compression) Brake Output #2"
+    },
+    {
+      "code": 81,
+      "desc": "Engine (Exhaust) Brake Output"
+    },
+    {
+      "code": 82,
+      "desc": "Engine (Compression) Brake Output #3"
+    },
+    {
+      "code": 83,
+      "desc": "Fuel Control Valve #2"
+    },
+    {
+      "code": 84,
+      "desc": "Timing Actuator #2"
+    },
+    {
+      "code": 85,
+      "desc": "Engine Oil Burn Valve"
+    },
+    {
+      "code": 86,
+      "desc": "Engine Oil Replacement Valve"
+    },
+    {
+      "code": 87,
+      "desc": "Idle Shutdown Vehicle Accessories Relay Driver"
+    },
+    {
+      "code": 88,
+      "desc": "Turbocharger #2 Wastegate Drive"
+    },
+    {
+      "code": 89,
+      "desc": "Air Compressor Actuator Circuit"
+    },
+    {
+      "code": 90,
+      "desc": "Engine Cylinder #1 Knock Sensor"
+    },
+    {
+      "code": 91,
+      "desc": "Engine Cylinder #2 Knock Sensor"
+    },
+    {
+      "code": 92,
+      "desc": "Engine Cylinder #3 Knock Sensor"
+    },
+    {
+      "code": 93,
+      "desc": "Engine Cylinder #4 Knock Sensor"
+    },
+    {
+      "code": 94,
+      "desc": "Engine Cylinder #5 Knock Sensor"
+    },
+    {
+      "code": 95,
+      "desc": "Engine Cylinder #6 Knock Sensor"
+    },
+    {
+      "code": 96,
+      "desc": "Engine Cylinder #7 Knock Sensor"
+    },
+    {
+      "code": 97,
+      "desc": "Engine Cylinder #8 Knock Sensor"
+    },
+    {
+      "code": 98,
+      "desc": "Engine Cylinder #9 Knock Sensor"
+    },
+    {
+      "code": 99,
+      "desc": "Engine Cylinder #10 Knock Sensor"
+    },
+    {
+      "code": 101,
+      "desc": "Engine Cylinder #12 Knock Sensor"
+    },
+    {
+      "code": 102,
+      "desc": "Engine Cylinder #13 Knock Sensor"
+    },
+    {
+      "code": 103,
+      "desc": "Engine Cylinder #14 Knock Sensor"
+    },
+    {
+      "code": 104,
+      "desc": "Engine Cylinder #15 Knock Sensor"
+    },
+    {
+      "code": 105,
+      "desc": "Engine Cylinder #16 Knock Sensor"
+    },
+    {
+      "code": 106,
+      "desc": "Engine Cylinder #17 Knock Sensor"
+    },
+    {
+      "code": 107,
+      "desc": "Engine Cylinder #18 Knock Sensor"
+    },
+    {
+      "code": 108,
+      "desc": "Engine Cylinder #19 Knock Sensor"
+    },
+    {
+      "code": 109,
+      "desc": "Engine Cylinder #20 Knock Sensor"
+    },
+    {
+      "code": 110,
+      "desc": "Engine Cylinder #21 Knock Sensor"
+    },
+    {
+      "code": 111,
+      "desc": "Engine Cylinder #22 Knock Sensor"
+    },
+    {
+      "code": 112,
+      "desc": "Engine Cylinder #23 Knock Sensor"
+    },
+    {
+      "code": 113,
+      "desc": "Engine Cylinder #24 Knock Sensor"
+    },
+    {
+      "code": 114,
+      "desc": "Multiple Unit Synchronization Switch"
+    },
+    {
+      "code": 115,
+      "desc": "Engine Oil Change Interval"
+    },
+    {
+      "code": 116,
+      "desc": "Engine was Shut Down Hot"
+    },
+    {
+      "code": 117,
+      "desc": "Engine has been Shut Down from Data Link Information"
+    },
+    {
+      "code": 118,
+      "desc": "Injector Needle Lift Sensor #1"
+    },
+    {
+      "code": 119,
+      "desc": "Injector Needle Lift Sensor #2"
+    },
+    {
+      "code": 120,
+      "desc": "Coolant System Thermostat"
+    },
+    {
+      "code": 121,
+      "desc": "Engine Automatic Start Alarm"
+    },
+    {
+      "code": 122,
+      "desc": "Engine Automatic Start Lamp"
+    },
+    {
+      "code": 123,
+      "desc": "Engine Automatic Start Safety Interlock Circuit"
+    },
+    {
+      "code": 124,
+      "desc": "Engine Automatic Start Failed (Engine)"
+    },
+    {
+      "code": 125,
+      "desc": "Fuel Heater Driver Signal"
+    },
+    {
+      "code": 126,
+      "desc": "Fuel Pump Pressurizing Assembly #1"
+    },
+    {
+      "code": 127,
+      "desc": "Fuel Pump Pressurizing Assembly #2"
+    },
+    {
+      "code": 128,
+      "desc": "Starter Solenoid Lockout Relay Driver Circuit"
+    },
+    {
+      "code": 129,
+      "desc": "Cylinder #1 Exhaust Gas Port Temperature"
+    },
+    {
+      "code": 130,
+      "desc": "Cylinder #2 Exhaust Gas Port Temperature"
+    },
+    {
+      "code": 131,
+      "desc": "Cylinder #3 Exhaust Gas Port Temperature"
+    },
+    {
+      "code": 132,
+      "desc": "Cylinder #4 Exhaust Gas Port Temperature"
+    },
+    {
+      "code": 133,
+      "desc": "Cylinder #5 Exhaust Gas Port Temperature"
+    },
+    {
+      "code": 134,
+      "desc": "Cylinder #6 Exhaust Gas Port Temperature"
+    },
+    {
+      "code": 135,
+      "desc": "Cylinder #7 Exhaust Gas Port Temperature"
+    },
+    {
+      "code": 136,
+      "desc": "Cylinder #8 Exhaust Gas Port Temperature"
+    },
+    {
+      "code": 138,
+      "desc": "Cylinder #10 Exhaust Gas Port Temperature"
+    },
+    {
+      "code": 139,
+      "desc": "Cylinder #11 Exhaust Gas Port Temperature"
+    },
+    {
+      "code": 140,
+      "desc": "Cylinder #12 Exhaust Gas Port Temperature"
+    },
+    {
+      "code": 141,
+      "desc": "Cylinder #13 Exhaust Gas Port Temperature"
+    },
+    {
+      "code": 142,
+      "desc": "Cylinder #14 Exhaust Gas Port Temperature"
+    },
+    {
+      "code": 143,
+      "desc": "Cylinder #15 Exhaust Gas Port Temperature"
+    },
+    {
+      "code": 144,
+      "desc": "Cylinder #16 Exhaust Gas Port Temperature"
+    },
+    {
+      "code": 145,
+      "desc": "Adaptive Cruise Control Mode"
+    },
+    {
+      "code": 146,
+      "desc": "Exhaust Gas Re-Circulation (EGR) Valve Mechanism"
+    },
+    {
+      "code": 147,
+      "desc": "Variable Nozzle Turbocharger (VNT) Mechanism"
+    },
+    {
+      "code": 148,
+      "desc": "Engine (Compression) Brake Output #4"
+    },
+    {
+      "code": 149,
+      "desc": "Engine (Compression) Brake Output #5"
+    }
+  ]
+}

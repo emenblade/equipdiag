@@ -1,0 +1,262 @@
+{
+  "source": "J1587 SIDs - All Others",
+  "type": "SID",
+  "codes": [
+    {
+      "code": 1,
+      "desc": "Left Fuel Level Sensor"
+    },
+    {
+      "code": 2,
+      "desc": "Right Fuel Level Sensor"
+    },
+    {
+      "code": 3,
+      "desc": "Fuel Feed Rate Sensor"
+    },
+    {
+      "code": 4,
+      "desc": "Fuel Return Rate Sensor"
+    },
+    {
+      "code": 5,
+      "desc": "Tachometer Gauge Coil"
+    },
+    {
+      "code": 6,
+      "desc": "Speedometer Gauge Coil"
+    },
+    {
+      "code": 7,
+      "desc": "Turbocharger Air Pressure Gauge Coil"
+    },
+    {
+      "code": 8,
+      "desc": "Fuel Pressure Gauge Coil"
+    },
+    {
+      "code": 9,
+      "desc": "Fuel Level Gauge Coil"
+    },
+    {
+      "code": 10,
+      "desc": "Second Fuel Level Gauge Coil"
+    },
+    {
+      "code": 11,
+      "desc": "Engine Oil Pressure Gauge Coil"
+    },
+    {
+      "code": 12,
+      "desc": "Engine Oil Temperature Gauge Coil"
+    },
+    {
+      "code": 13,
+      "desc": "Engine Coolant Temperature Gauge Coil"
+    },
+    {
+      "code": 14,
+      "desc": "Pyrometer Gauge Coil"
+    },
+    {
+      "code": 15,
+      "desc": "Transmission Oil Temperature Gauge Coil"
+    },
+    {
+      "code": 16,
+      "desc": "Transmission Oil Pressure Gauge Coil"
+    },
+    {
+      "code": 17,
+      "desc": "Forward Rear Axle Temperature Gauge Coil"
+    },
+    {
+      "code": 18,
+      "desc": "Rear Rear Axle Temperature Gauge Coil"
+    },
+    {
+      "code": 19,
+      "desc": "Voltmeter Gauge Coil"
+    },
+    {
+      "code": 20,
+      "desc": "Primary Air Pressure Gauge Coil"
+    },
+    {
+      "code": 21,
+      "desc": "Secondary Air Pressure Gauge Coil"
+    },
+    {
+      "code": 22,
+      "desc": "Ammeter Gauge Coil"
+    },
+    {
+      "code": 23,
+      "desc": "Air Application Gauge Coil"
+    },
+    {
+      "code": 24,
+      "desc": "Rack Position Sensor"
+    },
+    {
+      "code": 25,
+      "desc": "Refrigerant Compressor Outlet Temperature Sensor"
+    },
+    {
+      "code": 26,
+      "desc": "Auxiliary Output Device Driver"
+    },
+    {
+      "code": 27,
+      "desc": "Cooling Fan Drive Output"
+    },
+    {
+      "code": 28,
+      "desc": "Engine (Compression) Brake Output #1"
+    },
+    {
+      "code": 29,
+      "desc": "Engine (Compression) Brake Output #2"
+    },
+    {
+      "code": 30,
+      "desc": "Engine (Exhaust) Brake Output"
+    },
+    {
+      "code": 31,
+      "desc": "Pressure Control Valve #1"
+    },
+    {
+      "code": 32,
+      "desc": "Speed Signal Input"
+    },
+    {
+      "code": 33,
+      "desc": "Remote Control Unit #1"
+    },
+    {
+      "code": 34,
+      "desc": "Central Valve Relay"
+    },
+    {
+      "code": 35,
+      "desc": "Auxiliary Tank Control"
+    },
+    {
+      "code": 36,
+      "desc": "Exterior Kneel (warning lamp & audible alarm)"
+    },
+    {
+      "code": 37,
+      "desc": "Wheel Chair Lift Inhibit"
+    },
+    {
+      "code": 38,
+      "desc": "Checksum ECU Specific Data"
+    },
+    {
+      "code": 39,
+      "desc": "Checksum Parameter Data"
+    },
+    {
+      "code": 40,
+      "desc": "Checksum Calibration Data Level Sensors"
+    },
+    {
+      "code": 41,
+      "desc": "Checksum Calibration Data Pressure Sensors"
+    },
+    {
+      "code": 42,
+      "desc": "Checksum Maximum Axle Load Data"
+    },
+    {
+      "code": 43,
+      "desc": "Central 3/2 Solenoid Valve Axle 3"
+    },
+    {
+      "code": 44,
+      "desc": "Central 3/2 Solenoid Valve Front Axle"
+    },
+    {
+      "code": 45,
+      "desc": "Pressure Sensor Brake Pressure"
+    },
+    {
+      "code": 46,
+      "desc": "Power Supply for Pressure Sensors"
+    },
+    {
+      "code": 47,
+      "desc": "Power Supply for Remote Controls"
+    },
+    {
+      "code": 48,
+      "desc": "Remote Control #1 Data Line"
+    },
+    {
+      "code": 49,
+      "desc": "Remote Control #1 Clock Line"
+    },
+    {
+      "code": 50,
+      "desc": "Remote Control #2 Data Line"
+    },
+    {
+      "code": 51,
+      "desc": "Remote Control #2 Clock Line"
+    },
+    {
+      "code": 52,
+      "desc": "Remote Control Unit #2"
+    },
+    {
+      "code": 53,
+      "desc": "Power Supply for Solenoid Valves"
+    },
+    {
+      "code": 54,
+      "desc": "Tire Sensor Voltage - # 5"
+    },
+    {
+      "code": 55,
+      "desc": "Proportional Valve Front Axle Right"
+    },
+    {
+      "code": 56,
+      "desc": "Proportional Valve Drive Axle Left"
+    },
+    {
+      "code": 57,
+      "desc": "Proportional Valve Drive Axle Right"
+    },
+    {
+      "code": 58,
+      "desc": "Proportional Valve Axle 3 Left"
+    },
+    {
+      "code": 59,
+      "desc": "Tire Sensor Voltage - # 10"
+    },
+    {
+      "code": 60,
+      "desc": "Tire Sensor Voltage - # 11"
+    },
+    {
+      "code": 61,
+      "desc": "Tire Sensor Voltage - # 12"
+    },
+    {
+      "code": 62,
+      "desc": "Tire Sensor Voltage - # 13"
+    },
+    {
+      "code": 63,
+      "desc": "Tire Sensor Voltage - # 14"
+    },
+    {
+      "code": 64,
+      "desc": "Tire Sensor Voltage - # 15"
+    }
+  ]
+}

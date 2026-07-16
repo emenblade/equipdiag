@@ -1,0 +1,958 @@
+{
+  "source": "J1708 PIDs",
+  "type": "PID",
+  "codes": [
+    {
+      "code": 0,
+      "desc": "Request Parameter"
+    },
+    {
+      "code": 1,
+      "desc": "Invalid Data Parameter"
+    },
+    {
+      "code": 2,
+      "desc": "Transmitter System Status"
+    },
+    {
+      "code": 3,
+      "desc": "Transmitter System Diagnostic"
+    },
+    {
+      "code": 5,
+      "desc": "Underrange Warning Condition"
+    },
+    {
+      "code": 6,
+      "desc": "Overrange Warning Condition"
+    },
+    {
+      "code": 7,
+      "desc": "Axle #2 Lift Air Pressure"
+    },
+    {
+      "code": 8,
+      "desc": "Brake System Air Pressure Low Warning Switch Status"
+    },
+    {
+      "code": 9,
+      "desc": "Axle Lift Status"
+    },
+    {
+      "code": 10,
+      "desc": "Axle Slider Status"
+    },
+    {
+      "code": 11,
+      "desc": "Cargo Securement"
+    },
+    {
+      "code": 12,
+      "desc": "Brake Stroke Status"
+    },
+    {
+      "code": 13,
+      "desc": "Entry Assist Position/Deployment"
+    },
+    {
+      "code": 14,
+      "desc": "Entry Assist Motor Current"
+    },
+    {
+      "code": 15,
+      "desc": "Fuel Supply Pump Inlet Pressure"
+    },
+    {
+      "code": 16,
+      "desc": "Suction Side Fuel Filter Differential Pressure"
+    },
+    {
+      "code": 17,
+      "desc": "Engine Oil Level Remote Reservoir"
+    },
+    {
+      "code": 18,
+      "desc": "Extended Range Fuel Pressure"
+    },
+    {
+      "code": 19,
+      "desc": "Extended Range Engine Oil Pressure"
+    },
+    {
+      "code": 20,
+      "desc": "Extended Range Engine Coolant Pressure"
+    },
+    {
+      "code": 21,
+      "desc": "Engine ECU Temperature"
+    },
+    {
+      "code": 22,
+      "desc": "Extended Engine Crankcase Blow-by Pressure"
+    },
+    {
+      "code": 23,
+      "desc": "Generator Oil Pressure"
+    },
+    {
+      "code": 25,
+      "desc": "Air Conditioner System Status #2"
+    },
+    {
+      "code": 26,
+      "desc": "Estimated Percent Fan Speed"
+    },
+    {
+      "code": 27,
+      "desc": "Percent Exhaust Gas Recirculation Valve #1 Position"
+    },
+    {
+      "code": 28,
+      "desc": "Percent Accelerator Position #3"
+    },
+    {
+      "code": 29,
+      "desc": "Percent Accelerator Position #2"
+    },
+    {
+      "code": 30,
+      "desc": "Crankcase Blow-by Pressure"
+    },
+    {
+      "code": 31,
+      "desc": "Transmission Range Position"
+    },
+    {
+      "code": 32,
+      "desc": "Transmission Splitter Position"
+    },
+    {
+      "code": 33,
+      "desc": "Clutch Cylinder Position"
+    },
+    {
+      "code": 34,
+      "desc": "Clutch Cylinder Actuator Status"
+    },
+    {
+      "code": 35,
+      "desc": "Shift Finger Actuator Status #2"
+    },
+    {
+      "code": 36,
+      "desc": "Clutch Plates Wear Condition"
+    },
+    {
+      "code": 37,
+      "desc": "Transmission Tank Air Pressure"
+    },
+    {
+      "code": 38,
+      "desc": "Second Fuel Level (Right Side)"
+    },
+    {
+      "code": 39,
+      "desc": "Tire Pressure Check Interval"
+    },
+    {
+      "code": 40,
+      "desc": "Engine Retarder Switches Status"
+    },
+    {
+      "code": 41,
+      "desc": "Cruise Control Switches Status"
+    },
+    {
+      "code": 42,
+      "desc": "Pressure Switch Status"
+    },
+    {
+      "code": 43,
+      "desc": "Ignition Switch Status"
+    },
+    {
+      "code": 44,
+      "desc": "Attention/Warning Indicator Lamps Status"
+    },
+    {
+      "code": 45,
+      "desc": "Inlet Air Heater Status"
+    },
+    {
+      "code": 46,
+      "desc": "Vehicle Wet Tank Pressure"
+    },
+    {
+      "code": 47,
+      "desc": "Retarder Status"
+    },
+    {
+      "code": 48,
+      "desc": "Extended Range Barometric Pressure"
+    },
+    {
+      "code": 49,
+      "desc": "ABS Control Status"
+    },
+    {
+      "code": 50,
+      "desc": "Air Conditioner System Clutch Status/Command #1"
+    },
+    {
+      "code": 51,
+      "desc": "Throttle Position"
+    },
+    {
+      "code": 52,
+      "desc": "Engine Intercooler Temperature"
+    },
+    {
+      "code": 53,
+      "desc": "Transmission Synchronizer Clutch Value"
+    },
+    {
+      "code": 54,
+      "desc": "Transmission Synchronizer Brake Value"
+    },
+    {
+      "code": 55,
+      "desc": "Shift Finger Positional Status"
+    },
+    {
+      "code": 56,
+      "desc": "Transmission Range Switch Status"
+    },
+    {
+      "code": 58,
+      "desc": "Shift Finger Actuator Status"
+    },
+    {
+      "code": 59,
+      "desc": "Shift Finger Gear Position"
+    },
+    {
+      "code": 60,
+      "desc": "Shift Finger Rail Position"
+    },
+    {
+      "code": 61,
+      "desc": "Parking Brake Actuator Status"
+    },
+    {
+      "code": 62,
+      "desc": "Retarder Inhibit Status"
+    },
+    {
+      "code": 63,
+      "desc": "Transmission Actuator Status #1"
+    },
+    {
+      "code": 64,
+      "desc": "Direction Switch Status"
+    },
+    {
+      "code": 65,
+      "desc": "Service Brake Switch Status"
+    },
+    {
+      "code": 66,
+      "desc": "Vehicle Enabling Component Status"
+    },
+    {
+      "code": 67,
+      "desc": "Shift Request Switch Status"
+    },
+    {
+      "code": 68,
+      "desc": "Torque Limiting Factor"
+    },
+    {
+      "code": 69,
+      "desc": "Two Speed Axle Switch Status"
+    },
+    {
+      "code": 70,
+      "desc": "Parking Brake Switch Status"
+    },
+    {
+      "code": 71,
+      "desc": "Idle Shutdown Timer Status"
+    },
+    {
+      "code": 72,
+      "desc": "Blower Bypass Value Position"
+    },
+    {
+      "code": 73,
+      "desc": "Auxiliary Water Pump Pressure"
+    },
+    {
+      "code": 74,
+      "desc": "Maximum Road Speed Limit"
+    },
+    {
+      "code": 75,
+      "desc": "Steering Axle Temperature"
+    },
+    {
+      "code": 76,
+      "desc": "Axle #1 Lift Air Pressure"
+    },
+    {
+      "code": 77,
+      "desc": "Forward Rear Drive Axle Temperature"
+    },
+    {
+      "code": 78,
+      "desc": "Rear Rear-Drive Axle Temperature"
+    },
+    {
+      "code": 79,
+      "desc": "Road Surface Temperature"
+    },
+    {
+      "code": 80,
+      "desc": "Washer Fluid Level"
+    },
+    {
+      "code": 81,
+      "desc": "Particulate Trap Inlet Pressure"
+    },
+    {
+      "code": 82,
+      "desc": "Air Start Pressure"
+    },
+    {
+      "code": 83,
+      "desc": "Road Speed Limit Status"
+    },
+    {
+      "code": 84,
+      "desc": "Road Speed"
+    },
+    {
+      "code": 85,
+      "desc": "Cruise Control Status"
+    },
+    {
+      "code": 86,
+      "desc": "Cruise Control Set Speed"
+    },
+    {
+      "code": 87,
+      "desc": "Cruise Control High-Set Limit Speed"
+    },
+    {
+      "code": 88,
+      "desc": "Cruise Control Low-Set Limit Speed"
+    },
+    {
+      "code": 89,
+      "desc": "Power Takeoff Status"
+    },
+    {
+      "code": 91,
+      "desc": "Percent Accelerator Pedal Position"
+    },
+    {
+      "code": 92,
+      "desc": "Percent Engine Load"
+    },
+    {
+      "code": 93,
+      "desc": "Output Torque"
+    },
+    {
+      "code": 94,
+      "desc": "Fuel Delivery Pressure"
+    },
+    {
+      "code": 95,
+      "desc": "Fuel Filter Differential Pressure"
+    },
+    {
+      "code": 96,
+      "desc": "Fuel Level"
+    },
+    {
+      "code": 97,
+      "desc": "Water in Fuel Indicator"
+    },
+    {
+      "code": 98,
+      "desc": "Engine Oil Level"
+    },
+    {
+      "code": 99,
+      "desc": "Engine Oil Filter Differential Pressure"
+    },
+    {
+      "code": 100,
+      "desc": "Engine Oil Pressure"
+    },
+    {
+      "code": 101,
+      "desc": "Crankcase Pressure"
+    },
+    {
+      "code": 102,
+      "desc": "Boost Pressure"
+    },
+    {
+      "code": 103,
+      "desc": "Turbo Speed"
+    },
+    {
+      "code": 104,
+      "desc": "Turbo Oil Pressure"
+    },
+    {
+      "code": 105,
+      "desc": "Intake Manifold Temperature"
+    },
+    {
+      "code": 106,
+      "desc": "Air Inlet Pressure"
+    },
+    {
+      "code": 107,
+      "desc": "Air Filter Differential Pressure"
+    },
+    {
+      "code": 108,
+      "desc": "Barometric Pressure"
+    },
+    {
+      "code": 109,
+      "desc": "Coolant Pressure"
+    },
+    {
+      "code": 110,
+      "desc": "Engine Coolant Temperature"
+    },
+    {
+      "code": 111,
+      "desc": "Coolant Level"
+    },
+    {
+      "code": 112,
+      "desc": "Coolant Filter Differential Pressure"
+    },
+    {
+      "code": 113,
+      "desc": "Governor Droop"
+    },
+    {
+      "code": 114,
+      "desc": "Net Battery Current"
+    },
+    {
+      "code": 115,
+      "desc": "Alternator Current"
+    },
+    {
+      "code": 116,
+      "desc": "Brake Application Pressure"
+    },
+    {
+      "code": 117,
+      "desc": "Brake Primary Pressure"
+    },
+    {
+      "code": 118,
+      "desc": "Brake Secondary Pressure"
+    },
+    {
+      "code": 119,
+      "desc": "Hydraulic Retarder Pressure"
+    },
+    {
+      "code": 120,
+      "desc": "Hydraulic Retarder Oil Temperature"
+    },
+    {
+      "code": 121,
+      "desc": "Engine Retarder Status"
+    },
+    {
+      "code": 122,
+      "desc": "Engine Retarder Percent"
+    },
+    {
+      "code": 124,
+      "desc": "Transmission Oil Level"
+    },
+    {
+      "code": 125,
+      "desc": "Transmission Oil Level High/Low"
+    },
+    {
+      "code": 126,
+      "desc": "Transmission Filter Differential Pressure"
+    },
+    {
+      "code": 127,
+      "desc": "Transmission Oil Pressure"
+    },
+    {
+      "code": 128,
+      "desc": "Component-specific request"
+    },
+    {
+      "code": 129,
+      "desc": "Injector Metering Rail #2 Pressure"
+    },
+    {
+      "code": 130,
+      "desc": "Power Specific Fuel Economy"
+    },
+    {
+      "code": 131,
+      "desc": "Exhaust Back Pressure"
+    },
+    {
+      "code": 132,
+      "desc": "Mass Air Flow"
+    },
+    {
+      "code": 133,
+      "desc": "Average Fuel Rate"
+    },
+    {
+      "code": 134,
+      "desc": "Wheel Speed Sensor Status"
+    },
+    {
+      "code": 135,
+      "desc": "Extended Range Fuel Delivery Pressure (Absolute)"
+    },
+    {
+      "code": 136,
+      "desc": "Auxiliary Vacuum Pressure Reading"
+    },
+    {
+      "code": 137,
+      "desc": "Auxiliary Gage Pressure Reading #1"
+    },
+    {
+      "code": 138,
+      "desc": "Auxiliary Absolute Pressure Reading"
+    },
+    {
+      "code": 139,
+      "desc": "Tire Pressure Control System Channel Functional Mode"
+    },
+    {
+      "code": 140,
+      "desc": "Tire Pressure Control System Solenoid Status"
+    },
+    {
+      "code": 141,
+      "desc": "Trailer #1, Tag #1, or Push Channel #1 Tire Pressure Target"
+    },
+    {
+      "code": 142,
+      "desc": "Drive Channel Tire Pressure Target"
+    },
+    {
+      "code": 143,
+      "desc": "Steer Channel Tire Pressure Target"
+    },
+    {
+      "code": 144,
+      "desc": "Trailer #1, Tag #1, or Push Channel #1 Tire Pressure"
+    },
+    {
+      "code": 145,
+      "desc": "Drive Channel Tire Pressure"
+    },
+    {
+      "code": 146,
+      "desc": "Steer Channel Tire Pressure"
+    },
+    {
+      "code": 147,
+      "desc": "Average Fuel Economy (Natural Gas)"
+    },
+    {
+      "code": 148,
+      "desc": "Instantaneous Fuel Economy (Natural Gas)"
+    },
+    {
+      "code": 149,
+      "desc": "Fuel Mass Flow Rate (Natural Gas)"
+    },
+    {
+      "code": 150,
+      "desc": "PTO Engagement Control Status"
+    },
+    {
+      "code": 151,
+      "desc": "ATC Control Status"
+    },
+    {
+      "code": 152,
+      "desc": "Number of ECU Resets"
+    },
+    {
+      "code": 153,
+      "desc": "Crankcase Pressure"
+    },
+    {
+      "code": 154,
+      "desc": "Auxiliary Input and Output Status #2"
+    },
+    {
+      "code": 155,
+      "desc": "Auxiliary Input and Output Status #1"
+    },
+    {
+      "code": 157,
+      "desc": "Injector Metering Rail Pressure"
+    },
+    {
+      "code": 159,
+      "desc": "Gas Supply Pressure"
+    },
+    {
+      "code": 160,
+      "desc": "Main Shaft Speed"
+    },
+    {
+      "code": 161,
+      "desc": "Input Shaft Speed"
+    },
+    {
+      "code": 162,
+      "desc": "Transmission Range Selected"
+    },
+    {
+      "code": 163,
+      "desc": "Transmission Range Attained"
+    },
+    {
+      "code": 164,
+      "desc": "Injection Control Pressure"
+    },
+    {
+      "code": 165,
+      "desc": "Compass Bearing"
+    },
+    {
+      "code": 166,
+      "desc": "Rated Engine Power"
+    },
+    {
+      "code": 167,
+      "desc": "Alternator Potential (Voltage)"
+    },
+    {
+      "code": 168,
+      "desc": "Battery Potential (Voltage)"
+    },
+    {
+      "code": 169,
+      "desc": "Cargo Ambient Temperature"
+    },
+    {
+      "code": 170,
+      "desc": "Cab Interior Temperature"
+    },
+    {
+      "code": 171,
+      "desc": "Ambient Air Temperature"
+    },
+    {
+      "code": 172,
+      "desc": "Air Inlet Temperature"
+    },
+    {
+      "code": 173,
+      "desc": "Exhaust Gas Temperature"
+    },
+    {
+      "code": 174,
+      "desc": "Fuel Temperature"
+    },
+    {
+      "code": 175,
+      "desc": "Engine Oil Temperature"
+    },
+    {
+      "code": 176,
+      "desc": "Turbo Oil Temperature"
+    },
+    {
+      "code": 177,
+      "desc": "Transmission #1 Oil Temperature"
+    },
+    {
+      "code": 178,
+      "desc": "Front Axle Weight"
+    },
+    {
+      "code": 179,
+      "desc": "Rear Axle Weight"
+    },
+    {
+      "code": 180,
+      "desc": "Trailer Weight"
+    },
+    {
+      "code": 181,
+      "desc": "Cargo Weight"
+    },
+    {
+      "code": 182,
+      "desc": "Trip Fuel"
+    },
+    {
+      "code": 183,
+      "desc": "Fuel Rate (Instantaneous)"
+    },
+    {
+      "code": 184,
+      "desc": "Instantaneous Fuel Economy"
+    },
+    {
+      "code": 185,
+      "desc": "Average Fuel Economy"
+    },
+    {
+      "code": 186,
+      "desc": "Power Takeoff Speed"
+    },
+    {
+      "code": 187,
+      "desc": "Power Takeoff Set Speed"
+    },
+    {
+      "code": 188,
+      "desc": "Idle Engine Speed"
+    },
+    {
+      "code": 190,
+      "desc": "Engine Speed"
+    },
+    {
+      "code": 191,
+      "desc": "Transmission Output Shaft Speed"
+    },
+    {
+      "code": 192,
+      "desc": "Multisection Parameter"
+    },
+    {
+      "code": 193,
+      "desc": "Transmitter System Diagnostic Table"
+    },
+    {
+      "code": 194,
+      "desc": "Transmitter System Diagnostic Code and"
+    },
+    {
+      "code": 195,
+      "desc": "Diagnostic Data Request/Clear Count"
+    },
+    {
+      "code": 196,
+      "desc": "Diagnostic Data/Count Clear Response"
+    },
+    {
+      "code": 197,
+      "desc": "Connection Management"
+    },
+    {
+      "code": 198,
+      "desc": "Connection Mode Data Transfer"
+    },
+    {
+      "code": 209,
+      "desc": "ABS Control Status, Trailer"
+    },
+    {
+      "code": 210,
+      "desc": "Tire Temperature (By Sequence Number)"
+    },
+    {
+      "code": 211,
+      "desc": "Tire Pressure (By Sequence Number)"
+    },
+    {
+      "code": 212,
+      "desc": "Tire Pressure Target (By Sequence Number)"
+    },
+    {
+      "code": 213,
+      "desc": "Wheel End Assembly Vibration Level"
+    },
+    {
+      "code": 214,
+      "desc": "Vehicle Wheel Speeds"
+    },
+    {
+      "code": 215,
+      "desc": "Brake Temperature"
+    },
+    {
+      "code": 216,
+      "desc": "Wheel Bearing Temperature"
+    },
+    {
+      "code": 217,
+      "desc": "Fuel Tank/Nozzle Identification"
+    },
+    {
+      "code": 218,
+      "desc": "State Line Crossing"
+    },
+    {
+      "code": 219,
+      "desc": "Current State and Country"
+    },
+    {
+      "code": 220,
+      "desc": "Engine Torque History"
+    },
+    {
+      "code": 221,
+      "desc": "Anti-theft Request"
+    },
+    {
+      "code": 222,
+      "desc": "Anti-theft Status"
+    },
+    {
+      "code": 223,
+      "desc": "Auxiliary A/D Counts"
+    },
+    {
+      "code": 224,
+      "desc": "Immobilizer Security Code"
+    },
+    {
+      "code": 225,
+      "desc": "Reserved for Text Message Acknowledged"
+    },
+    {
+      "code": 226,
+      "desc": "Reserved for Text Message to Display"
+    },
+    {
+      "code": 227,
+      "desc": "Reserved for Text Message Display Type"
+    },
+    {
+      "code": 228,
+      "desc": "Speed Sensor Calibration"
+    },
+    {
+      "code": 229,
+      "desc": "Total Fuel Used (Natural Gas)"
+    },
+    {
+      "code": 231,
+      "desc": "Trip Fuel (Natural Gas)"
+    },
+    {
+      "code": 232,
+      "desc": "DGPS Differential Correction"
+    },
+    {
+      "code": 233,
+      "desc": "Unit Number (Power Unit)"
+    },
+    {
+      "code": 234,
+      "desc": "Software Identification"
+    },
+    {
+      "code": 235,
+      "desc": "Total Idle Hours"
+    },
+    {
+      "code": 236,
+      "desc": "Total Idle Fuel Used"
+    },
+    {
+      "code": 237,
+      "desc": "Vehicle Identification Number"
+    },
+    {
+      "code": 238,
+      "desc": "Velocity Vector"
+    },
+    {
+      "code": 239,
+      "desc": "Vehicle Position"
+    },
+    {
+      "code": 240,
+      "desc": "Change Reference Number"
+    },
+    {
+      "code": 241,
+      "desc": "Tire Pressure by Position"
+    },
+    {
+      "code": 242,
+      "desc": "Tire Temperature by Position"
+    },
+    {
+      "code": 243,
+      "desc": "Component Identification"
+    },
+    {
+      "code": 244,
+      "desc": "Trip Distance"
+    },
+    {
+      "code": 245,
+      "desc": "Total Vehicle Distance"
+    },
+    {
+      "code": 246,
+      "desc": "Total Vehicle Hours"
+    },
+    {
+      "code": 247,
+      "desc": "Total Engine Hours"
+    },
+    {
+      "code": 248,
+      "desc": "Total PTO Hours"
+    },
+    {
+      "code": 249,
+      "desc": "Total Engine Revolutions"
+    },
+    {
+      "code": 250,
+      "desc": "Total Fuel Used"
+    },
+    {
+      "code": 253,
+      "desc": "Elapsed Time"
+    },
+    {
+      "code": 254,
+      "desc": "Data Link Escape"
+    },
+    {
+      "code": 255,
+      "desc": "Extension  256 (0)   Request Parameter"
+    },
+    {
+      "code": 366,
+      "desc": "Engine Oil Level High/Low  367 (111)   Lane Tracking System Status  368 (112)   Lane Departure Indication  369 (113)   Distance to Rear Object (Reverse)  370 (114)   Trailer Pneumatic Brake Control Line Pressure  371 (115)   Trailer Pneumatic Supply Line Pressure  372 (116)   Remote Accelerator  373 (117)   Center Rear Drive Axle Temperature  374 (118)   Alternator AC Voltage  375 (119)   Fuel Return Pressure  376 (120)   Fuel Pump Inlet Vacuum  377 (121)   Compression Unbalance  378 (122)   Fare Collection Unit Status  379 (123)   Door Status  380 (124)   Articulation Angle  381 (125)   Vehicle Use Status  382 (126)   Transit Silent Alarm Status  383 (127)   Vehicle Acceleration  384 (128)   Component-specific request  385–405   Reserved —to be assigned  406 (150)   HVAC Blower Motor Speed  407 (151)   Axle Group Full Weight Calibration  408 (152)   Axle Group Empty Weight Calibration  409 (153)   Axle Group Weight  410 (154)   Extended Range Road Surface Temperature  411 (155)   Recirculated Engine Exhaust Gas Differential Pressure  412 (156)   Recirculated Engine Exhaust Gas Temperature  413 (157)   Net Vehicle Weight Change  414 (158)   Air Conditioner Refrigerant Low Side Pressure  415 (159)   Air Conditioner Refrigerant High Side Pressure  416 (160)   Evaporator Temperature  417 (161)   Gross Vehicle Weight  418 (162)   Transmission # 2 Oil Temperature"
+    },
+    {
+      "code": 419,
+      "desc": "Starter Circuit Resistance  420 (164)   Starter Current (Average)  421 (165)   Alternator/Generator Negative Cable Voltage  422 (166)   Auxiliary Current  423 (167)   Extended Range Net Battery Current  424 (168)   DC Voltage  425 (169)   Auxiliary Frequency  426 (170)   Alternator/Generator Field Voltage  427 (171)   Battery Resistance Change  428 (172)   Battery Internal Resistance  429 (173)   Starter Current Peak  430 (174)   Starter Solenoid Voltage  431 (175)   Starter Negative Cable Voltage  432 (176)   Starter Motor Voltage  433 (177)   Fuel Shutoff Solenoid Voltage  434 (178)   AC Voltage  435 (179)   Cargo Ambient Temperature (By location)  436 (180)   Trip Sudden Decelerations  437 (181)   Trailer #2, Tag #2, or Push Channel #2 Tire Pressure Target  438 (182)   Trailer #2, Tag #2, or Push Channel #2 Tire Pressure  439 (183)   Extended Range Boost Pressure #1  440 (184)   Extended Range Boost Pressure #2  441 (185)   Auxiliary Temperature #1  442 (186)   Auxiliary Temperature #2  443 (187)   Auxiliary Gage Pressure Reading #2  444 (188)   Battery #2 Potential (Voltage)  445 (189)   Cylinder Head Temperature Bank B (right bank)  446 (190)   Cylinder Head Temperature Bank A (left bank)  447 (191)   Passenger Counter  448 (192)   Page 2 Multisection Parameter  449 (193)   Reporting Interval Request  450 (194)   Bridge Filter Control  451–497   Reserved (page 2)—to be assigned"
+    },
+    {
+      "code": 498,
+      "desc": "Send Keypress Command  499 (243)   Driver Interface Unit (DIU) Object/Form Command  500 (244)   Intersection Preemption Status and Configuration  501 (245)   Signage Message  502 (246)   Fare Collection Unit—Point of Sale  503 (247)   Fare Collection Unit—Service Detail  504 (248)   Annunciator Voice Message  505 (249)   Vehicle Control Head Keyboard Message  506 (250)   Vehicle Control Head Display Message  507 (251)   Driver Identification  508 (252)   Transit Route Identification  509 (253)   Mile Post Identification  510 (254)   Data Link Escape  511 (255)   Extension"
+    }
+  ]
+}

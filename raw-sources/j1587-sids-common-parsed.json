@@ -1,0 +1,178 @@
+{
+  "source": "J1587 SIDs - Common",
+  "type": "SID",
+  "codes": [
+    {
+      "code": 207,
+      "desc": "Battery #1 Temperature"
+    },
+    {
+      "code": 208,
+      "desc": "Battery #2 Temperature"
+    },
+    {
+      "code": 209,
+      "desc": "Start Enable Device #2"
+    },
+    {
+      "code": 210,
+      "desc": "Oil Temperature Sensor"
+    },
+    {
+      "code": 211,
+      "desc": "Sensor Supply Voltage #2 (+5V DC)"
+    },
+    {
+      "code": 212,
+      "desc": "Sensor Supply Voltage #1 (+5V DC)"
+    },
+    {
+      "code": 213,
+      "desc": "PLC Data Link"
+    },
+    {
+      "code": 214,
+      "desc": "ECU Backup Battery"
+    },
+    {
+      "code": 215,
+      "desc": "Cab Interior Temperature Thermostat"
+    },
+    {
+      "code": 216,
+      "desc": "Other ECUs Have Reported Fault Codes Affecting Operation"
+    },
+    {
+      "code": 217,
+      "desc": "Anti-theft Start Inhibit (Password Valid Indicator)"
+    },
+    {
+      "code": 218,
+      "desc": "ECM Main Relay"
+    },
+    {
+      "code": 219,
+      "desc": "Start Signal Indicator"
+    },
+    {
+      "code": 220,
+      "desc": "Electronic Tractor/Trailer Interface (ISO 11992)"
+    },
+    {
+      "code": 221,
+      "desc": "Internal Sensor Voltage Supply"
+    },
+    {
+      "code": 222,
+      "desc": "Protect Lamp"
+    },
+    {
+      "code": 223,
+      "desc": "Ambient Light Sensor"
+    },
+    {
+      "code": 224,
+      "desc": "Audible Alarm"
+    },
+    {
+      "code": 225,
+      "desc": "Green Lamp"
+    },
+    {
+      "code": 226,
+      "desc": "Transmission Neutral Switch"
+    },
+    {
+      "code": 227,
+      "desc": "Auxiliary Analog Input #1"
+    },
+    {
+      "code": 228,
+      "desc": "High Side Refrigerant Pressure Switch"
+    },
+    {
+      "code": 229,
+      "desc": "Kickdown Switch"
+    },
+    {
+      "code": 230,
+      "desc": "Idle Validation Switch"
+    },
+    {
+      "code": 233,
+      "desc": "Controller #2"
+    },
+    {
+      "code": 234,
+      "desc": "Parking Brake On Actuator"
+    },
+    {
+      "code": 235,
+      "desc": "Parking Brake Off Actuator"
+    },
+    {
+      "code": 236,
+      "desc": "Power Connect Device"
+    },
+    {
+      "code": 237,
+      "desc": "Start Enable Device"
+    },
+    {
+      "code": 240,
+      "desc": "Program Memory  241(1)   Set aside for Systems Diagnostics"
+    },
+    {
+      "code": 242,
+      "desc": "Cruise Control Resume Switch"
+    },
+    {
+      "code": 243,
+      "desc": "Cruise Control Set Switch"
+    },
+    {
+      "code": 244,
+      "desc": "Cruise Control Enable Switch"
+    },
+    {
+      "code": 245,
+      "desc": "Clutch Pedal Switch #1"
+    },
+    {
+      "code": 246,
+      "desc": "Brake Pedal Switch #1"
+    },
+    {
+      "code": 247,
+      "desc": "Brake Pedal Switch #2"
+    },
+    {
+      "code": 248,
+      "desc": "Proprietary Data Link"
+    },
+    {
+      "code": 249,
+      "desc": "SAE J1922 Data Link"
+    },
+    {
+      "code": 250,
+      "desc": "SAE J1708 (J1587) Data Link"
+    },
+    {
+      "code": 251,
+      "desc": "Power Supply"
+    },
+    {
+      "code": 252,
+      "desc": "Calibration Module"
+    },
+    {
+      "code": 253,
+      "desc": "Calibration Memory"
+    },
+    {
+      "code": 254,
+      "desc": "Controller #1"
+    }
+  ]
+}

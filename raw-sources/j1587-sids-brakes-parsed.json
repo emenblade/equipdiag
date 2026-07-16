@@ -1,0 +1,374 @@
+{
+  "source": "J1587 SIDs - Brakes",
+  "type": "SID",
+  "codes": [
+    {
+      "code": 1,
+      "desc": "Wheel Sensor ABS Axle 1 Left"
+    },
+    {
+      "code": 2,
+      "desc": "ABS Axle 1 Right"
+    },
+    {
+      "code": 3,
+      "desc": "ABS Axle 2 Left"
+    },
+    {
+      "code": 4,
+      "desc": "ABS Axle 2 Right"
+    },
+    {
+      "code": 5,
+      "desc": "ABS Axle 3 Left"
+    },
+    {
+      "code": 6,
+      "desc": "ABS Axle 3 Right"
+    },
+    {
+      "code": 7,
+      "desc": "Pressure Modulation Valve ABS Axle 1 Left"
+    },
+    {
+      "code": 8,
+      "desc": "ABS Axle 1 Right"
+    },
+    {
+      "code": 9,
+      "desc": "ABS Axle 2 Left"
+    },
+    {
+      "code": 10,
+      "desc": "ABS Axle 2 Right"
+    },
+    {
+      "code": 11,
+      "desc": "ABS Axle 3 Left"
+    },
+    {
+      "code": 12,
+      "desc": "ABS Axle 3 Right"
+    },
+    {
+      "code": 13,
+      "desc": "Retarder Control Relay"
+    },
+    {
+      "code": 14,
+      "desc": "Relay Diagonal 1"
+    },
+    {
+      "code": 15,
+      "desc": "Relay Diagonal 2"
+    },
+    {
+      "code": 16,
+      "desc": "Mode Switch ABS"
+    },
+    {
+      "code": 17,
+      "desc": "Mode Switch ASR"
+    },
+    {
+      "code": 20,
+      "desc": "Pneumatic Engine Control"
+    },
+    {
+      "code": 21,
+      "desc": "Electronic Engine Control (Servomotor)"
+    },
+    {
+      "code": 22,
+      "desc": "Speed Signal Input"
+    },
+    {
+      "code": 23,
+      "desc": "Tractor ABS Warning Light Bulb"
+    },
+    {
+      "code": 24,
+      "desc": "ASR Light Bulb"
+    },
+    {
+      "code": 25,
+      "desc": "Wheel Sensor, ABS Axle 1 Average"
+    },
+    {
+      "code": 26,
+      "desc": "Wheel Sensor, ABS Axle 2 Average"
+    },
+    {
+      "code": 28,
+      "desc": "Pressure Modulator, Drive Axle Relay Valve"
+    },
+    {
+      "code": 29,
+      "desc": "Pressure Transducer, Drive Axle Relay Valve"
+    },
+    {
+      "code": 30,
+      "desc": "Master Control Relay"
+    },
+    {
+      "code": 31,
+      "desc": "Trailer Brake Slack Out of Adjustment Forward Axle Left"
+    },
+    {
+      "code": 32,
+      "desc": "Forward axle Right"
+    },
+    {
+      "code": 33,
+      "desc": "Rear Axle Left"
+    },
+    {
+      "code": 34,
+      "desc": "Rear Axle Right"
+    },
+    {
+      "code": 35,
+      "desc": "Tractor Brake Slack Out of Adjustment Axle 1 Left"
+    },
+    {
+      "code": 36,
+      "desc": "Axle 1 Right"
+    },
+    {
+      "code": 37,
+      "desc": "Axle 2 Left"
+    },
+    {
+      "code": 38,
+      "desc": "Axle 2 Right"
+    },
+    {
+      "code": 39,
+      "desc": "Axle 3 Left"
+    },
+    {
+      "code": 40,
+      "desc": "Axle 3 Right"
+    },
+    {
+      "code": 41,
+      "desc": "Ride Height Relay"
+    },
+    {
+      "code": 42,
+      "desc": "Hold Modulator Valve Solenoid Axle 1 Left"
+    },
+    {
+      "code": 43,
+      "desc": "Axle 1 Right"
+    },
+    {
+      "code": 44,
+      "desc": "Axle 2 Left"
+    },
+    {
+      "code": 45,
+      "desc": "Axle 2 Right"
+    },
+    {
+      "code": 46,
+      "desc": "Axle 3 Left"
+    },
+    {
+      "code": 47,
+      "desc": "Axle 3 Right"
+    },
+    {
+      "code": 48,
+      "desc": "Dump Modulator Valve Solenoid Axle 1 Left"
+    },
+    {
+      "code": 49,
+      "desc": "Axle 1 Right"
+    },
+    {
+      "code": 50,
+      "desc": "Axle 2 Left"
+    },
+    {
+      "code": 51,
+      "desc": "Axle 2 Right"
+    },
+    {
+      "code": 52,
+      "desc": "Axle 3 Left"
+    },
+    {
+      "code": 53,
+      "desc": "Axle 3 Right"
+    },
+    {
+      "code": 54,
+      "desc": "Hydraulic Pump Motor"
+    },
+    {
+      "code": 55,
+      "desc": "Brake Light Switch 1"
+    },
+    {
+      "code": 56,
+      "desc": "Brake Light Switch 2"
+    },
+    {
+      "code": 57,
+      "desc": "Electronic Pressure Control, Axle 1"
+    },
+    {
+      "code": 58,
+      "desc": "Pneumatic Back-up Pressure Control, Axle 1"
+    },
+    {
+      "code": 59,
+      "desc": "Brake Pressure Sensing, Axle 1"
+    },
+    {
+      "code": 60,
+      "desc": "Electronic Pressure Control, Axle 2"
+    },
+    {
+      "code": 61,
+      "desc": "Pneumatic Back-up Pressure Control, Axle 2"
+    },
+    {
+      "code": 62,
+      "desc": "Brake Pressure Sensing, Axle 2"
+    },
+    {
+      "code": 63,
+      "desc": "Electronic Pressure Control, Axle 3"
+    },
+    {
+      "code": 65,
+      "desc": "Brake Pressure Sensing, Axle 3"
+    },
+    {
+      "code": 66,
+      "desc": "Electronic Pressure Control, Trailer Control"
+    },
+    {
+      "code": 67,
+      "desc": "Pneumatic Back-up Pressure Control, Trailer Control"
+    },
+    {
+      "code": 68,
+      "desc": "Brake Pressure Sensing, Trailer Control"
+    },
+    {
+      "code": 69,
+      "desc": "Axle Load Sensor"
+    },
+    {
+      "code": 70,
+      "desc": "Lining Wear Sensor, Axle 1 Left"
+    },
+    {
+      "code": 71,
+      "desc": "Lining Wear Sensor, Axle 1 Right"
+    },
+    {
+      "code": 72,
+      "desc": "Lining Wear Sensor, Axle 2 Left"
+    },
+    {
+      "code": 73,
+      "desc": "Lining Wear Sensor, Axle 2 Right"
+    },
+    {
+      "code": 74,
+      "desc": "Lining Wear Sensor, Axle 3 Left"
+    },
+    {
+      "code": 75,
+      "desc": "Lining Wear Sensor, Axle 3 Right"
+    },
+    {
+      "code": 76,
+      "desc": "Brake Signal Transmitter"
+    },
+    {
+      "code": 77,
+      "desc": "Brake Signal Sensor 1"
+    },
+    {
+      "code": 78,
+      "desc": "Brake Signal Sensor 2"
+    },
+    {
+      "code": 79,
+      "desc": "Tire Dimension Supervision"
+    },
+    {
+      "code": 80,
+      "desc": "Vehicle Deceleration Control"
+    },
+    {
+      "code": 81,
+      "desc": "Trailer ABS Warning Light Bulb"
+    },
+    {
+      "code": 82,
+      "desc": "Brake Torque Output Axle 1 Left"
+    },
+    {
+      "code": 83,
+      "desc": "Brake Torque Output Axle 1 Right"
+    },
+    {
+      "code": 84,
+      "desc": "Brake Torque Output Axle 2 Left"
+    },
+    {
+      "code": 85,
+      "desc": "Brake Torque Output Axle 2 Right"
+    },
+    {
+      "code": 86,
+      "desc": "Brake Torque Output Axle 3 Left"
+    },
+    {
+      "code": 87,
+      "desc": "Brake Torque Output Axle 3 Right"
+    },
+    {
+      "code": 88,
+      "desc": "Vehicle Dynamic Stability Control System (VDC)"
+    },
+    {
+      "code": 89,
+      "desc": "Steering Angle Sensor"
+    },
+    {
+      "code": 90,
+      "desc": "Voltage Supply for Stability Control System"
+    },
+    {
+      "code": 91,
+      "desc": "Brake Lining Display"
+    },
+    {
+      "code": 92,
+      "desc": "Pressure Limitation Valve"
+    },
+    {
+      "code": 93,
+      "desc": "Auxiliary Valve"
+    },
+    {
+      "code": 94,
+      "desc": "Hill holder System"
+    },
+    {
+      "code": 95,
+      "desc": "Voltage Supply, Lining Wear Sensors, Axle 1"
+    },
+    {
+      "code": 96,
+      "desc": "Voltage Supply, Lining Wear Sensors, Axle 2"
+    }
+  ]
+}

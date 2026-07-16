@@ -1,0 +1,618 @@
+{
+  "source": "DEUTZ EMR3 DTCodes (Table 2, SPN-component only)",
+  "type": "SPN",
+  "codes": [
+    {
+      "code": 29,
+      "desc": "Hand throttle"
+    },
+    {
+      "code": 38,
+      "desc": "CmbChbMisfire1"
+    },
+    {
+      "code": 39,
+      "desc": "CmbChbMisfire2"
+    },
+    {
+      "code": 40,
+      "desc": "CmbChbMisfire3"
+    },
+    {
+      "code": 41,
+      "desc": "CmbChbMisfire4"
+    },
+    {
+      "code": 42,
+      "desc": "CmbChbMisfire5"
+    },
+    {
+      "code": 43,
+      "desc": "CmbChbMisfire6"
+    },
+    {
+      "code": 44,
+      "desc": "CmbChbMisfire7"
+    },
+    {
+      "code": 45,
+      "desc": "CmbChbMisfire8"
+    },
+    {
+      "code": 46,
+      "desc": "CmbChbMisfireMul"
+    },
+    {
+      "code": 47,
+      "desc": "CmbChbSysReac"
+    },
+    {
+      "code": 48,
+      "desc": "CoEngShOffDemIgr"
+    },
+    {
+      "code": 74,
+      "desc": "EngCDTrqCalcOut"
+    },
+    {
+      "code": 75,
+      "desc": "EngMBackUp"
+    },
+    {
+      "code": 76,
+      "desc": "EngMCaS1"
+    },
+    {
+      "code": 77,
+      "desc": "EngMCrS1"
+    },
+    {
+      "code": 78,
+      "desc": "EngMOfsCaSCrS"
+    },
+    {
+      "code": 79,
+      "desc": "EngPrtSysReacFOC"
+    },
+    {
+      "code": 80,
+      "desc": "EngPrtSysReacORC"
+    },
+    {
+      "code": 82,
+      "desc": "ExFlCD"
+    },
+    {
+      "code": 83,
+      "desc": "FanCD"
+    },
+    {
+      "code": 84,
+      "desc": "Vehicle speed signal"
+    },
+    {
+      "code": 86,
+      "desc": "FanCDSysReac"
+    },
+    {
+      "code": 87,
+      "desc": "FlFCD"
+    },
+    {
+      "code": 90,
+      "desc": "FlPSCD"
+    },
+    {
+      "code": 91,
+      "desc": "Accelerator pedal"
+    },
+    {
+      "code": 94,
+      "desc": "Fuel low pressure sensor"
+    },
+    {
+      "code": 95,
+      "desc": "FrmMngFunModCtl"
+    },
+    {
+      "code": 97,
+      "desc": "Fuel filter water level sensor"
+    },
+    {
+      "code": 100,
+      "desc": "Oil pressure sensor"
+    },
+    {
+      "code": 102,
+      "desc": "Charge air pressure sensor"
+    },
+    {
+      "code": 105,
+      "desc": "Charge air temperature sensor"
+    },
+    {
+      "code": 106,
+      "desc": "FrmMngTOEngPrt"
+    },
+    {
+      "code": 107,
+      "desc": "Air filter condition"
+    },
+    {
+      "code": 110,
+      "desc": "Coolant temperature sensor"
+    },
+    {
+      "code": 111,
+      "desc": "Coolant level"
+    },
+    {
+      "code": 112,
+      "desc": "FrmMngTORxCCVS"
+    },
+    {
+      "code": 113,
+      "desc": "FrmMngTORxEngTemp"
+    },
+    {
+      "code": 117,
+      "desc": "FrmMngTOSwtOut"
+    },
+    {
+      "code": 118,
+      "desc": "FrmMngTOTCO1"
+    },
+    {
+      "code": 120,
+      "desc": "FrmMngTOTSC1AE"
+    },
+    {
+      "code": 121,
+      "desc": "FrmMngTOTSC1AR"
+    },
+    {
+      "code": 122,
+      "desc": "FrmMngTOTSC1DE"
+    },
+    {
+      "code": 123,
+      "desc": "FrmMngTOTSC1DR"
+    },
+    {
+      "code": 124,
+      "desc": "FrmMngTOTSC1PE"
+    },
+    {
+      "code": 125,
+      "desc": "FrmMngTOTSC1TE"
+    },
+    {
+      "code": 126,
+      "desc": "FrmMngTOTSC1TR"
+    },
+    {
+      "code": 127,
+      "desc": "FrmMngTOTSC1VE"
+    },
+    {
+      "code": 128,
+      "desc": "FrmMngTOTSC1VR"
+    },
+    {
+      "code": 131,
+      "desc": "FrmMngTxTO"
+    },
+    {
+      "code": 138,
+      "desc": "HdThrt"
+    },
+    {
+      "code": 153,
+      "desc": "InjVlvBnk1A"
+    },
+    {
+      "code": 154,
+      "desc": "InjVlvBnk1B"
+    },
+    {
+      "code": 155,
+      "desc": "InjVlvBnk2A"
+    },
+    {
+      "code": 156,
+      "desc": "InjVlvBnk2B"
+    },
+    {
+      "code": 157,
+      "desc": "Rail pressure sensor"
+    },
+    {
+      "code": 158,
+      "desc": "Terminal 15"
+    },
+    {
+      "code": 159,
+      "desc": "InjVlvCyl1A"
+    },
+    {
+      "code": 160,
+      "desc": "InjVlvCyl1B"
+    },
+    {
+      "code": 161,
+      "desc": "InjVlvCyl2A"
+    },
+    {
+      "code": 162,
+      "desc": "InjVlvCyl2B"
+    },
+    {
+      "code": 163,
+      "desc": "InjVlvCyl3A"
+    },
+    {
+      "code": 164,
+      "desc": "InjVlvCyl3B"
+    },
+    {
+      "code": 165,
+      "desc": "InjVlvCyl4A"
+    },
+    {
+      "code": 166,
+      "desc": "InjVlvCyl4B"
+    },
+    {
+      "code": 167,
+      "desc": "InjVlvCyl5A"
+    },
+    {
+      "code": 168,
+      "desc": "Battery   Voltage below target range"
+    },
+    {
+      "code": 169,
+      "desc": "InjVlvCyl6A"
+    },
+    {
+      "code": 170,
+      "desc": "InjVlvCyl6B"
+    },
+    {
+      "code": 171,
+      "desc": "InjVlvCyl7A"
+    },
+    {
+      "code": 172,
+      "desc": "InjVlvCyl7B"
+    },
+    {
+      "code": 173,
+      "desc": "InjVlvCyl8A"
+    },
+    {
+      "code": 174,
+      "desc": "Fuel temperature sensor"
+    },
+    {
+      "code": 175,
+      "desc": "Oil temperature sensor"
+    },
+    {
+      "code": 177,
+      "desc": "MeUnCDNoLoad"
+    },
+    {
+      "code": 178,
+      "desc": "MeUnCDSCBat"
+    },
+    {
+      "code": 179,
+      "desc": "MeUnCDSCGnd"
+    },
+    {
+      "code": 184,
+      "desc": "Montr   1-3-9"
+    },
+    {
+      "code": 190,
+      "desc": "Engine speed sensor"
+    },
+    {
+      "code": 192,
+      "desc": "NetMngCANAOff"
+    },
+    {
+      "code": 193,
+      "desc": "NetMngCANBOff"
+    },
+    {
+      "code": 194,
+      "desc": "NetMngCANCOff"
+    },
+    {
+      "code": 209,
+      "desc": "RailCD"
+    },
+    {
+      "code": 210,
+      "desc": "RailCDOfsTst"
+    },
+    {
+      "code": 211,
+      "desc": "RailMeUn0"
+    },
+    {
+      "code": 212,
+      "desc": "RailMeUn1"
+    },
+    {
+      "code": 213,
+      "desc": "RailMeUn2"
+    },
+    {
+      "code": 214,
+      "desc": "RailMeUn3"
+    },
+    {
+      "code": 215,
+      "desc": "RailMeUn4"
+    },
+    {
+      "code": 216,
+      "desc": "RailMeUn7"
+    },
+    {
+      "code": 223,
+      "desc": "StrtCDHS"
+    },
+    {
+      "code": 224,
+      "desc": "StrtCDLS"
+    },
+    {
+      "code": 225,
+      "desc": "SysLamp"
+    },
+    {
+      "code": 235,
+      "desc": "WdCom"
+    },
+    {
+      "code": 563,
+      "desc": "Main relay"
+    },
+    {
+      "code": 624,
+      "desc": "Diagnostic lamp"
+    },
+    {
+      "code": 651,
+      "desc": "Single injector"
+    },
+    {
+      "code": 652,
+      "desc": "Single injector"
+    },
+    {
+      "code": 653,
+      "desc": "Single injector"
+    },
+    {
+      "code": 654,
+      "desc": "Single injector"
+    },
+    {
+      "code": 655,
+      "desc": "Single injector"
+    },
+    {
+      "code": 656,
+      "desc": "Single injector"
+    },
+    {
+      "code": 657,
+      "desc": "Single injector"
+    },
+    {
+      "code": 658,
+      "desc": "Single injector"
+    },
+    {
+      "code": 676,
+      "desc": "Air heater relay"
+    },
+    {
+      "code": 677,
+      "desc": "Start relay"
+    },
+    {
+      "code": 701,
+      "desc": "Reserve output"
+    },
+    {
+      "code": 702,
+      "desc": "Reserve output"
+    },
+    {
+      "code": 703,
+      "desc": "Engine operating signal lamp"
+    },
+    {
+      "code": 704,
+      "desc": "Coolant temperature warning lamp"
+    },
+    {
+      "code": 705,
+      "desc": "Oil pressure warning lamp"
+    },
+    {
+      "code": 729,
+      "desc": "Air heater relay"
+    },
+    {
+      "code": 730,
+      "desc": "Air heater magnetic valve"
+    },
+    {
+      "code": 923,
+      "desc": "Engine power output"
+    },
+    {
+      "code": 975,
+      "desc": "Fan actuator"
+    },
+    {
+      "code": 1072,
+      "desc": "Engine brake (internal)"
+    },
+    {
+      "code": 1074,
+      "desc": "Engine brake flap actuator"
+    },
+    {
+      "code": 1081,
+      "desc": "Preheating signal lamp"
+    },
+    {
+      "code": 1109,
+      "desc": "Shut-off request"
+    },
+    {
+      "code": 1237,
+      "desc": "Override switch"
+    },
+    {
+      "code": 1322,
+      "desc": "Multiple cylinders"
+    },
+    {
+      "code": 1323,
+      "desc": "Single cylinder"
+    },
+    {
+      "code": 1324,
+      "desc": "Single cylinder"
+    },
+    {
+      "code": 1325,
+      "desc": "Single cylinder"
+    },
+    {
+      "code": 1326,
+      "desc": "Single cylinder"
+    },
+    {
+      "code": 1327,
+      "desc": "Single cylinder"
+    },
+    {
+      "code": 1328,
+      "desc": "Single cylinder"
+    },
+    {
+      "code": 1346,
+      "desc": "Misfire   Misfire detected with system reaction"
+    },
+    {
+      "code": 1450,
+      "desc": "Single cylinder"
+    },
+    {
+      "code": 1451,
+      "desc": "Single cylinder"
+    },
+    {
+      "code": 1638,
+      "desc": "Customer-specific sensor"
+    },
+    {
+      "code": 2634,
+      "desc": "Main relay"
+    },
+    {
+      "code": 523350,
+      "desc": "Multiple injectors"
+    },
+    {
+      "code": 523351,
+      "desc": "Multiple injectors"
+    },
+    {
+      "code": 523352,
+      "desc": "Multiple injectors"
+    },
+    {
+      "code": 523353,
+      "desc": "Multiple injectors"
+    },
+    {
+      "code": 523370,
+      "desc": "Rail pressure"
+    },
+    {
+      "code": 523450,
+      "desc": "Multi state switch"
+    },
+    {
+      "code": 523451,
+      "desc": "Multi state switch"
+    },
+    {
+      "code": 523452,
+      "desc": "Multi state switch"
+    },
+    {
+      "code": 523470,
+      "desc": "Rail pressure limiting valve"
+    },
+    {
+      "code": 523550,
+      "desc": "Terminal 50"
+    },
+    {
+      "code": 523561,
+      "desc": "Begin of injection period"
+    },
+    {
+      "code": 523562,
+      "desc": "Begin of injection period"
+    },
+    {
+      "code": 523563,
+      "desc": "Begin of injection period"
+    },
+    {
+      "code": 523564,
+      "desc": "Begin of injection period"
+    },
+    {
+      "code": 523565,
+      "desc": "Begin of injection period"
+    },
+    {
+      "code": 523566,
+      "desc": "Begin of injection period"
+    },
+    {
+      "code": 523567,
+      "desc": "Begin of injection period"
+    },
+    {
+      "code": 523568,
+      "desc": "Begin of injection period"
+    },
+    {
+      "code": 523602,
+      "desc": "Fan speed"
+    },
+    {
+      "code": 523613,
+      "desc": "Rail pressure"
+    },
+    {
+      "code": 523615,
+      "desc": "Metering unit valve"
+    }
+  ]
+}

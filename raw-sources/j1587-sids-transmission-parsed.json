@@ -1,0 +1,598 @@
+{
+  "source": "J1587 SIDs - Transmission",
+  "type": "SID",
+  "codes": [
+    {
+      "code": 1,
+      "desc": "C1 Solenoid Valve"
+    },
+    {
+      "code": 2,
+      "desc": "C2 Solenoid Valve"
+    },
+    {
+      "code": 3,
+      "desc": "C3 Solenoid Valve"
+    },
+    {
+      "code": 4,
+      "desc": "C4 Solenoid Valve"
+    },
+    {
+      "code": 5,
+      "desc": "C5 Solenoid Valve"
+    },
+    {
+      "code": 6,
+      "desc": "C6 Solenoid Valve"
+    },
+    {
+      "code": 7,
+      "desc": "Lockup Solenoid Valve"
+    },
+    {
+      "code": 8,
+      "desc": "Forward Solenoid Valve"
+    },
+    {
+      "code": 9,
+      "desc": "Low Signal Solenoid Valve"
+    },
+    {
+      "code": 10,
+      "desc": "Retarder Enable Solenoid Valve"
+    },
+    {
+      "code": 11,
+      "desc": "Retarder Modulation Solenoid Valve"
+    },
+    {
+      "code": 12,
+      "desc": "Retarder Response Solenoid Valve"
+    },
+    {
+      "code": 13,
+      "desc": "Differential Lock Solenoid Valve"
+    },
+    {
+      "code": 14,
+      "desc": "Engine/Transmission Match"
+    },
+    {
+      "code": 15,
+      "desc": "Retarder Modulation Request Sensor"
+    },
+    {
+      "code": 16,
+      "desc": "Neutral Start Output"
+    },
+    {
+      "code": 17,
+      "desc": "Turbine Speed Sensor"
+    },
+    {
+      "code": 18,
+      "desc": "Primary Shift Selector"
+    },
+    {
+      "code": 19,
+      "desc": "Secondary Shift Selector"
+    },
+    {
+      "code": 20,
+      "desc": "Special Function Inputs"
+    },
+    {
+      "code": 21,
+      "desc": "C1 Clutch Pressure Indicator"
+    },
+    {
+      "code": 22,
+      "desc": "C2 Clutch Pressure Indicator"
+    },
+    {
+      "code": 23,
+      "desc": "C3 Clutch Pressure Indicator"
+    },
+    {
+      "code": 24,
+      "desc": "C4 Clutch Pressure Indicator"
+    },
+    {
+      "code": 25,
+      "desc": "C5 Clutch Pressure Indicator"
+    },
+    {
+      "code": 26,
+      "desc": "C6 Clutch Pressure Indicator"
+    },
+    {
+      "code": 28,
+      "desc": "Forward Range Pressure Indicator"
+    },
+    {
+      "code": 29,
+      "desc": "Neutral Range Pressure Indicator"
+    },
+    {
+      "code": 30,
+      "desc": "Reverse Range Pressure Indicator"
+    },
+    {
+      "code": 31,
+      "desc": "Retarder Response System Pressure Indicator"
+    },
+    {
+      "code": 32,
+      "desc": "Differential Lock Clutch Pressure Indicator"
+    },
+    {
+      "code": 33,
+      "desc": "Multiple Pressure Indicators"
+    },
+    {
+      "code": 34,
+      "desc": "Reverse Switch"
+    },
+    {
+      "code": 35,
+      "desc": "Range High Actuator"
+    },
+    {
+      "code": 36,
+      "desc": "Range Low Actuator"
+    },
+    {
+      "code": 37,
+      "desc": "Splitter Direct Actuator"
+    },
+    {
+      "code": 38,
+      "desc": "Splitter Indirect Actuator"
+    },
+    {
+      "code": 39,
+      "desc": "Shift Finger Rail Actuator 1"
+    },
+    {
+      "code": 40,
+      "desc": "Shift Finger Gear Actuator 1"
+    },
+    {
+      "code": 41,
+      "desc": "Upshift Request Switch"
+    },
+    {
+      "code": 42,
+      "desc": "Downshift Request Switch"
+    },
+    {
+      "code": 43,
+      "desc": "Torque Converter Interrupt Actuator"
+    },
+    {
+      "code": 44,
+      "desc": "Torque Converter Lockup Actuator"
+    },
+    {
+      "code": 45,
+      "desc": "Range High Indicator"
+    },
+    {
+      "code": 46,
+      "desc": "Range Low Indicator"
+    },
+    {
+      "code": 47,
+      "desc": "Shift Finger Neutral Indicator"
+    },
+    {
+      "code": 48,
+      "desc": "Shift Finger Engagement Indicator"
+    },
+    {
+      "code": 49,
+      "desc": "Shift Finger Center Rail Indicator"
+    },
+    {
+      "code": 50,
+      "desc": "Shift Finger Rail Actuator 2"
+    },
+    {
+      "code": 51,
+      "desc": "Shift Finger Gear Actuator 2"
+    },
+    {
+      "code": 52,
+      "desc": "Hydraulic System"
+    },
+    {
+      "code": 53,
+      "desc": "Defuel Actuator"
+    },
+    {
+      "code": 54,
+      "desc": "Inertia Brake Actuator"
+    },
+    {
+      "code": 55,
+      "desc": "Clutch Actuator"
+    },
+    {
+      "code": 56,
+      "desc": "Auxiliary Range Mechanical System"
+    },
+    {
+      "code": 57,
+      "desc": "Shift Console Data Link"
+    },
+    {
+      "code": 58,
+      "desc": "Main Box Shift Engagement System"
+    },
+    {
+      "code": 59,
+      "desc": "Main Box Rail Selection System"
+    },
+    {
+      "code": 60,
+      "desc": "Main Box Shift Neutralization System"
+    },
+    {
+      "code": 61,
+      "desc": "Auxiliary Splitter Mechanical System"
+    },
+    {
+      "code": 62,
+      "desc": "Transmission Controller Power Relay"
+    },
+    {
+      "code": 63,
+      "desc": "Output Shaft Speed Sensor"
+    },
+    {
+      "code": 65,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 66,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 67,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 68,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 69,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 70,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 71,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 72,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 73,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 74,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 75,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 76,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 77,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 78,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 79,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 80,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 81,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 82,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 83,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 84,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 85,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 86,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 87,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 88,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 89,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 90,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 91,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 92,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 93,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 94,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 95,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 96,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 97,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 98,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 99,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 100,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 101,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 102,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 103,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 104,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 105,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 106,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 107,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 108,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 109,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 110,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 111,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 112,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 113,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 114,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 115,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 116,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 117,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 118,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 119,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 120,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 121,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 122,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 123,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 124,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 125,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 126,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 127,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 128,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 129,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 130,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 131,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 132,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 133,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 134,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 135,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 136,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 137,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 138,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 139,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 140,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 141,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 142,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 143,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 144,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 145,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 146,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 147,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 148,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 149,
+      "desc": "Reserved for future assignment by SAE"
+    },
+    {
+      "code": 150,
+      "desc": "Reserved for future assignment by SAE"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "source": "2007 Tier II TB45 EC-Engine Control Codes",
+  "type": "DTC",
+  "codes": [
+    {
+      "code": "1245",
+      "desc": "LPG fuel pressure sensor signal circuit low input"
+    },
+    {
+      "code": "1249",
+      "desc": "LPG fuel pressure sensor signal circuit high input"
+    },
+    {
+      "code": "1805",
+      "desc": "Stop lamp switch signal system"
+    },
+    {
+      "code": "1814",
+      "desc": "Air-fuel ratio does not cross stoichiometry for a long time during intended closed-loop operation. (written in 40CFR Parts 1048.110.)"
+    },
+    {
+      "code": "1815",
+      "desc": "Air-fuel ratio does not cross stoichiometry for a long time during intended closed-loop operation. (written in 40CFR Parts 1048.110.)"
+    },
+    {
+      "code": "2122",
+      "desc": "Accelerator pedal position sensor 1 circuit"
+    },
+    {
+      "code": "2123",
+      "desc": "Accelerator pedal position sensor 1 circuit"
+    },
+    {
+      "code": "2127",
+      "desc": "Accelerator pedal position sensor 2 circuit"
+    },
+    {
+      "code": "2128",
+      "desc": "Accelerator pedal position sensor 2 circuit"
+    },
+    {
+      "code": "2135",
+      "desc": "Throttle position sensor signal (nonconformance) system"
+    },
+    {
+      "code": "2138",
+      "desc": "Accelerator pedal position sensor signal (nonconformance) system"
+    }
+  ]
+}

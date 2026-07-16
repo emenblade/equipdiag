@@ -1,0 +1,66 @@
+{
+  "source": "2004 Tier I K21/K25/TB45 EC-Engine Control Codes",
+  "type": "DTC",
+  "codes": [
+    {
+      "code": "0132",
+      "desc": "Heated"
+    },
+    {
+      "code": "0134",
+      "desc": "Heated"
+    },
+    {
+      "code": "0335",
+      "desc": "Crankshaft position sensor 120 deg. (REF) signal circuit"
+    },
+    {
+      "code": "0340",
+      "desc": "Camshaft position sensor 1 deg. (POS) signal circuit"
+    },
+    {
+      "code": "0350",
+      "desc": "Ignition signal circuit"
+    },
+    {
+      "code": "0500",
+      "desc": "Vehicle speed signal circuit"
+    },
+    {
+      "code": "0605",
+      "desc": "ECCS C/U"
+    },
+    {
+      "code": "1065",
+      "desc": "ECCS C/U power supply circuit"
+    },
+    {
+      "code": "1121",
+      "desc": "Electric throttle control, actuator circuit"
+    },
+    {
+      "code": "1122",
+      "desc": "Electric throttle control, feedback circuit"
+    },
+    {
+      "code": "1217",
+      "desc": "Engine overheat"
+    },
+    {
+      "code": "1218",
+      "desc": "Engine overheat step #1"
+    },
+    {
+      "code": "1245",
+      "desc": "LPG"
+    },
+    {
+      "code": "1249",
+      "desc": "LPG"
+    },
+    {
+      "code": "1805",
+      "desc": "Stop lamp switch signal circuit"
+    }
+  ]
+}

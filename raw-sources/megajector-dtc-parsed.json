@@ -1,0 +1,38 @@
+{
+  "source": "MegaJector Diagnostic Trouble Codes",
+  "type": "SFC",
+  "codes": [
+    {
+      "code": 353,
+      "desc": "MegaJector Delivery Pressure Higher Than Expected"
+    },
+    {
+      "code": 354,
+      "desc": "MegaJector Delivery Pressure Lower Than Expected"
+    },
+    {
+      "code": 355,
+      "desc": "MegaJector Comm Lost"
+    },
+    {
+      "code": 361,
+      "desc": "MegaJector Voltage Supply High"
+    },
+    {
+      "code": 362,
+      "desc": "MegaJector Voltage Supply Low"
+    },
+    {
+      "code": 363,
+      "desc": "MegaJector Internal Actuator Fault Detection"
+    },
+    {
+      "code": 364,
+      "desc": "MegaJector Internal Circuitry Fault Detection"
+    },
+    {
+      "code": 365,
+      "desc": "MegaJector Internal Comm Fault Detection"
+    }
+  ]
+}

@@ -1,0 +1,1606 @@
+{
+  "source": "CNH ECU Tier 3/Tier 4a Fault Codes",
+  "type": "DTC",
+  "codes": [
+    {
+      "code": 3001,
+      "desc": "Foot Throttle Sensor - Signal Not Plausible"
+    },
+    {
+      "code": 3002,
+      "desc": "Foot Throttle Sensor - Signal Above Range Max."
+    },
+    {
+      "code": 3003,
+      "desc": "Foot Throttle Sensor - Signal Below Range Min."
+    },
+    {
+      "code": 3004,
+      "desc": "Foot Throttle Sensor - No Signal - Error - timeout"
+    },
+    {
+      "code": 3006,
+      "desc": "Coolant Temperature Sensor - Signal Not Plausible (Compared with Engine Oil Temperature)"
+    },
+    {
+      "code": 3007,
+      "desc": "Coolant Temperature Sensor - Signal Above Range Max."
+    },
+    {
+      "code": 3008,
+      "desc": "Coolant Temperature Sensor - Signal Below Range Min."
+    },
+    {
+      "code": 3009,
+      "desc": "Coolant Temperature Sensor - (via CAN) No Signal"
+    },
+    {
+      "code": 3010,
+      "desc": "Air Intake Temperature Sensor - Signal Above Range Max."
+    },
+    {
+      "code": 3011,
+      "desc": "Air Intake Temperature Sensor - Signal Above Range Min."
+    },
+    {
+      "code": 3012,
+      "desc": "Air Intake Temperature Sensor - (via CAN) No Signal"
+    },
+    {
+      "code": 3013,
+      "desc": "SPARE ???"
+    },
+    {
+      "code": 3015,
+      "desc": "Fuel Temperature Signal - Signal Above Range Max."
+    },
+    {
+      "code": 3016,
+      "desc": "Fuel Temperature Signal - Signal Below Range Min."
+    },
+    {
+      "code": 3019,
+      "desc": "Boost Pressure Sensor - Signal Above Range Max."
+    },
+    {
+      "code": 3021,
+      "desc": "Boost Pressure Sensor - (via CAN) No Signal"
+    },
+    {
+      "code": 3022,
+      "desc": "Boost Pressure Sensor - Signal Not Plausible"
+    },
+    {
+      "code": 3023,
+      "desc": "Atmospheric Pressure Sensor - Signal Not Plausible Compared with Boost Pressure"
+    },
+    {
+      "code": 3024,
+      "desc": "Atmospheric Pressure Sensor - Signal Above Range Max."
+    },
+    {
+      "code": 3025,
+      "desc": "Atmospheric Pressure Sensor - Signal Below Range Min."
+    },
+    {
+      "code": 3028,
+      "desc": "Oil Pressure Too Low"
+    },
+    {
+      "code": 3029,
+      "desc": "Oil Pressure Sensor - Short-circuit to Battery"
+    },
+    {
+      "code": 3030,
+      "desc": "Oil Pressure Sensor - Short-circuit to Ground"
+    },
+    {
+      "code": 3031,
+      "desc": "Oil Pressure Sensor - Hardware Error"
+    },
+    {
+      "code": 3032,
+      "desc": "Oil Pressure Sensor - Value Too High"
+    },
+    {
+      "code": 3033,
+      "desc": "Oil Temperature Sensor - Signal Not Plausible (Compared with Coolant Temperature)"
+    },
+    {
+      "code": 3034,
+      "desc": "Oil Temperature Sensor - Signal Above Range Max."
+    },
+    {
+      "code": 3035,
+      "desc": "Oil Temperature Sensor - Signal Below Range Min."
+    },
+    {
+      "code": 3036,
+      "desc": "Oil Temperature Sensor - (via CAN) No Signal"
+    },
+    {
+      "code": 3037,
+      "desc": "Boost Pressure Sensor - Signal Low"
+    },
+    {
+      "code": 3038,
+      "desc": "Constant Engine RPM Activate / Select Switch - Short-circuit to Ground"
+    },
+    {
+      "code": 3039,
+      "desc": "Cruise Control Actuating Device - Evaluation Error"
+    },
+    {
+      "code": 3043,
+      "desc": "Vehicle Speed Sensing - Hardware Conversion Error"
+    },
+    {
+      "code": 3044,
+      "desc": "Vehicle Speed Sensing - Signal Above Range Max."
+    },
+    {
+      "code": 3045,
+      "desc": "Vehicle Speed Sensing - Signal Below Range Min."
+    },
+    {
+      "code": 3046,
+      "desc": "Vehicle Speed Sensing - Signal Not Plausible"
+    },
+    {
+      "code": 3047,
+      "desc": "Cursor: Tier 3: High Pressure Pump Relay - Short-circuit to Battery Tier 4a: TBD NEF: Tier 3: Main Relay Failure - Short-circuit to Battery Main Relay 2 Failure - Short-circuit to Battery"
+    },
+    {
+      "code": 3048,
+      "desc": "Cursor: Tier 3: High Pressure Pump Relay - Short-circuit to Ground Tier 4a: TBD NEF: Tier 3: Main Relay Failure - Short-circuit to Ground Tier 4a: Main Relay 2 Failure - Short-circuit to Ground"
+    },
+    {
+      "code": 3051,
+      "desc": "Battery Voltage to ECM too High"
+    },
+    {
+      "code": 3052,
+      "desc": "Battery Voltage to ECM too Low"
+    },
+    {
+      "code": 3053,
+      "desc": "Vehicle Speed Sensing (Teach) - PWM Frequency Too High"
+    },
+    {
+      "code": 3054,
+      "desc": "Vehicle Speed Sensing (Teach) - PWM Average Frequency Above Limit"
+    },
+    {
+      "code": 3055,
+      "desc": "Vehicle Speed Sensing (Teach) - PWM Average Frequency Below Limit"
+    },
+    {
+      "code": 3056,
+      "desc": "Vehicle Speed Sensing (Teach) - Not Plausible"
+    },
+    {
+      "code": 3057,
+      "desc": "Timeout of CAN Message High Resolution Wheel Speed"
+    },
+    {
+      "code": 3058,
+      "desc": "Timeout of CAN Message Vehicle Dynamics Control Unit"
+    },
+    {
+      "code": 3059,
+      "desc": "ECM Afterrun was Interrupted"
+    },
+    {
+      "code": 3060,
+      "desc": "Cylinder1 - Unclassifiable Error in Injector"
+    },
+    {
+      "code": 3061,
+      "desc": "Cylinder1 - Injector Cable Short-circuit (Low Side to Battery)"
+    },
+    {
+      "code": 3062,
+      "desc": "Cylinder1 - Application Dependent"
+    },
+    {
+      "code": 3063,
+      "desc": "Cylinder1 - Injector Cable Short-circuit (High Side to Ground)"
+    },
+    {
+      "code": 3064,
+      "desc": "Cylinder5 - Unclassifiable Error in Injector"
+    },
+    {
+      "code": 3065,
+      "desc": "Cylinder5 - Injector Cable Short-circuit (Low Side to Battery)"
+    },
+    {
+      "code": 3066,
+      "desc": "Cylinder5 - Application Dependent"
+    },
+    {
+      "code": 3067,
+      "desc": "Cylinder5 - Injector Cable Short-circuit (High Side to Ground)"
+    },
+    {
+      "code": 3068,
+      "desc": "Cylinder3 - Unclassifiable Error in Injector"
+    },
+    {
+      "code": 3070,
+      "desc": "Cylinder3 - Application Dependent"
+    },
+    {
+      "code": 3071,
+      "desc": "Cylinder3 - Injector Cable Short-circuit (High Side to Ground)"
+    },
+    {
+      "code": 3072,
+      "desc": "Cylinder6 - Unclassifiable Error in Injector"
+    },
+    {
+      "code": 3073,
+      "desc": "Cylinder6 - Injector Cable Short-circuit (Low Side to Battery)"
+    },
+    {
+      "code": 3074,
+      "desc": "Cylinder6 - Application Dependent"
+    },
+    {
+      "code": 3075,
+      "desc": "Cylinder6 - Injector Cable Short-circuit (High Side to Ground)"
+    },
+    {
+      "code": 3076,
+      "desc": "Cylinder2 - Unclassifiable Error in Injector"
+    },
+    {
+      "code": 3077,
+      "desc": "Cylinder2 - Injector Cable Short-circuit (Low Side to Battery)"
+    },
+    {
+      "code": 3078,
+      "desc": "Cylinder2 - Application Dependent"
+    },
+    {
+      "code": 3079,
+      "desc": "Cylinder2 - Injector Cable Short-circuit (High Side to Ground)"
+    },
+    {
+      "code": 3080,
+      "desc": "Cylinder4 - Unclassifiable Error in Injector"
+    },
+    {
+      "code": 3081,
+      "desc": "Cylinder4 - Injector Cable Short-circuit (Low Side to Battery)"
+    },
+    {
+      "code": 3082,
+      "desc": "Cylinder4 - Application Dependent"
+    },
+    {
+      "code": 3083,
+      "desc": "Cylinder4 - Injector Cable Short-circuit (High Side to Ground)"
+    },
+    {
+      "code": 3088,
+      "desc": "Crankshaft Sensor - No Signal"
+    },
+    {
+      "code": 3089,
+      "desc": "Crankshaft Sensor - Invalid Signal"
+    },
+    {
+      "code": 3090,
+      "desc": "Camshaft Sensor - No Signal"
+    },
+    {
+      "code": 3091,
+      "desc": "Camshaft Sensor - Invalid Signal"
+    },
+    {
+      "code": 3092,
+      "desc": "Offset Between Camshaft and Crankshaft - Not Plausible"
+    },
+    {
+      "code": 3093,
+      "desc": "Offset Between Camshaft and Crankshaft - Outside Boundaries"
+    },
+    {
+      "code": 3095,
+      "desc": "Operating with Camshaft Sensor Only - Backup Mode"
+    },
+    {
+      "code": 3096,
+      "desc": "Tier 3: ECM BusOff on CAN A Tier 4a: ECM BusOff on Vehicle CAN"
+    },
+    {
+      "code": 3097,
+      "desc": "ECM BusOff on Engine private CAN"
+    },
+    {
+      "code": 3098,
+      "desc": "Timeout of CAN Message TSC1-TE (When Active)"
+    },
+    {
+      "code": 3099,
+      "desc": "Timeout of CAN Message TSC1-TE (When Inactive)"
+    },
+    {
+      "code": 3100,
+      "desc": "Timeout of CAN Message TSC1-AE (When Active)"
+    },
+    {
+      "code": 3101,
+      "desc": "Timeout of CAN Message TSC1-AE (When Inactive)"
+    },
+    {
+      "code": 3102,
+      "desc": "Rail Pressure Sensor CP3 - Signal Below Range Min."
+    },
+    {
+      "code": 3104,
+      "desc": "Rail Pressure Relief Valve - Open"
+    },
+    {
+      "code": 3105,
+      "desc": "Rail Pressure Relief Valve - Pressure Shock Requested"
+    },
+    {
+      "code": 3106,
+      "desc": "Rail Pressure Relief Valve - Did Not Open After Pressure Shock"
+    },
+    {
+      "code": 3107,
+      "desc": "Metering Unit - Short-circuit to Battery"
+    },
+    {
+      "code": 3108,
+      "desc": "Metering Unit - Short-circuit to Ground"
+    },
+    {
+      "code": 3110,
+      "desc": "Rail Pressure Sensor Offset Monitoring - Value above Limit"
+    },
+    {
+      "code": 3111,
+      "desc": "Rail Pressure Sensor Offset Monitoring - Value below Limit"
+    },
+    {
+      "code": 3112,
+      "desc": "Rail Pressure Sensor CP3 - Signal Above Range Max."
+    },
+    {
+      "code": 3114,
+      "desc": "Tier 3: Grid Heater/Battery Switch Relay Short-circuit to Ground Tier 4a: Main Relay 1 (High Pressure Pump - power supply to the fuel metering unit) Short to Ground"
+    },
+    {
+      "code": 3117,
+      "desc": "PTO Twist Sensor - Out of Range"
+    },
+    {
+      "code": 3118,
+      "desc": "ECM 12V Sensor Supply Voltage High"
+    },
+    {
+      "code": 3119,
+      "desc": "ECM 12V Sensor Supply Voltage Low"
+    },
+    {
+      "code": 3120,
+      "desc": "PTO Twist Sensor - Not Plausible"
+    },
+    {
+      "code": 3121,
+      "desc": "PTO Twist Sensor - Open Circuit"
+    },
+    {
+      "code": 3122,
+      "desc": "PTO Twist Sensor - Short-circuit to Ground"
+    },
+    {
+      "code": 3123,
+      "desc": "PTO Twist Sensor - Not Calibrated"
+    },
+    {
+      "code": 3124,
+      "desc": "Hand Throttle - Channel 2 Above Range Max."
+    },
+    {
+      "code": 3125,
+      "desc": "Hand Throttle - Channel 2 Below Range Min."
+    },
+    {
+      "code": 3126,
+      "desc": "Hand Throttle - Channel 1 Signal Above Range Max."
+    },
+    {
+      "code": 3127,
+      "desc": "Hand Throttle - Channel 1 Signal Below Range Min."
+    },
+    {
+      "code": 3128,
+      "desc": "Hand Throttle - Channel Difference Error"
+    },
+    {
+      "code": 3129,
+      "desc": "Hand Throttle - Idle Switch Closed Circuit"
+    },
+    {
+      "code": 3130,
+      "desc": "Hand Throttle - Idle Switch Open Circuit"
+    },
+    {
+      "code": 3131,
+      "desc": "Grid Heater Always Switched On"
+    },
+    {
+      "code": 3133,
+      "desc": "Cold Start Lamp - No Load"
+    },
+    {
+      "code": 3134,
+      "desc": "Cold Start Lamp - Short-circuit to Battery"
+    },
+    {
+      "code": 3135,
+      "desc": "Cold Start Lamp - Short-circuit to Ground"
+    },
+    {
+      "code": 3136,
+      "desc": "Cold Start Lamp - Excessive Temperature"
+    },
+    {
+      "code": 3137,
+      "desc": "Metering Unit - Open Load"
+    },
+    {
+      "code": 3138,
+      "desc": "Metering Unit - Temperature Too High"
+    },
+    {
+      "code": 3139,
+      "desc": "Metering Unit Signal Range Check - Signal Too High"
+    },
+    {
+      "code": 3140,
+      "desc": "Metering Unit Signal Range Check - Signal Too Low"
+    },
+    {
+      "code": 3141,
+      "desc": "Fuel Flow Setpoint Too Low"
+    },
+    {
+      "code": 3142,
+      "desc": "High Pressure Test - Test Active"
+    },
+    {
+      "code": 3143,
+      "desc": "Grid Heater Switch Off Test (Voltage Drop Too High)"
+    },
+    {
+      "code": 3144,
+      "desc": "Grid Heater Switch Off Test (Voltage Drop Too Low)"
+    },
+    {
+      "code": 3145,
+      "desc": "Terminal 15 - No Signal"
+    },
+    {
+      "code": 3146,
+      "desc": "Water Detected In Fuel"
+    },
+    {
+      "code": 3147,
+      "desc": "Oil Temperature Too High"
+    },
+    {
+      "code": 3148,
+      "desc": "Coolant Temperature Sensor Dynamic Test - Failure (Minimum Temperature Raise Not Reached)"
+    },
+    {
+      "code": 3149,
+      "desc": "Coolant Temperature Sensor Test - Failure (Minimum Temperature Not Reached)"
+    },
+    {
+      "code": 3150,
+      "desc": "System/Amber Warning Lamp - Short-circuit to Battery"
+    },
+    {
+      "code": 3151,
+      "desc": "System/Amber Warning Lamp - Short-circuit to Ground"
+    },
+    {
+      "code": 3152,
+      "desc": "System/Amber Warning Lamp - No Load"
+    },
+    {
+      "code": 3153,
+      "desc": "System/Amber Warning Lamp - Excessive Temperature"
+    },
+    {
+      "code": 3154,
+      "desc": "Grid Heater Relay - Short-circuit to Battery"
+    },
+    {
+      "code": 3155,
+      "desc": "Grid Heater Relay - Short-circuit to Ground"
+    },
+    {
+      "code": 3157,
+      "desc": "ECM Not Detected on CANbus"
+    },
+    {
+      "code": 3158,
+      "desc": "Invalid ECM Checksum"
+    },
+    {
+      "code": 3159,
+      "desc": "Invalid Engine Reference Torque"
+    },
+    {
+      "code": 3160,
+      "desc": "Fan Actuator - Short-circuit to Battery"
+    },
+    {
+      "code": 3161,
+      "desc": "Fan Actuator - Short-circuit to Ground"
+    },
+    {
+      "code": 3162,
+      "desc": "Fan Actuator - Open Load"
+    },
+    {
+      "code": 3163,
+      "desc": "Fan Actuator - Temperature Too High"
+    },
+    {
+      "code": 3164,
+      "desc": "Fan Speed Sensor - Signal High"
+    },
+    {
+      "code": 3165,
+      "desc": "Fan Speed Sensor - Signal Low"
+    },
+    {
+      "code": 3166,
+      "desc": "Fuel Filter Heater Relay - Short-circuit to Battery"
+    },
+    {
+      "code": 3167,
+      "desc": "Fuel Filter Heater Relay - Short-circuit to Ground"
+    },
+    {
+      "code": 3168,
+      "desc": "Fuel Filter Heater Relay - Open Load"
+    },
+    {
+      "code": 3169,
+      "desc": "Fuel Filter Heater Relay - Signal Not Plausible"
+    },
+    {
+      "code": 3170,
+      "desc": "Not Used"
+    },
+    {
+      "code": 3171,
+      "desc": "Not Used"
+    },
+    {
+      "code": 3172,
+      "desc": "Not Used"
+    },
+    {
+      "code": 3173,
+      "desc": "Not Used"
+    },
+    {
+      "code": 3174,
+      "desc": "Not Used"
+    },
+    {
+      "code": 3175,
+      "desc": "Not Used"
+    },
+    {
+      "code": 3176,
+      "desc": "Setpoint of Metering Unit Not Plausible in Overrun"
+    },
+    {
+      "code": 3177,
+      "desc": "Engine Overspeed Detected"
+    },
+    {
+      "code": 3178,
+      "desc": "Timeout of CAN Message BC2EDC1"
+    },
+    {
+      "code": 3179,
+      "desc": "Timeout of CAN Message BC2EDC2"
+    },
+    {
+      "code": 3180,
+      "desc": "Timeout of CAN Message VCM2EDC"
+    },
+    {
+      "code": 3181,
+      "desc": "Rail Pressure Positive Deviation Too High Concerning Setpoint"
+    },
+    {
+      "code": 3182,
+      "desc": "Timeout of CAN Message RxCCVS"
+    },
+    {
+      "code": 3183,
+      "desc": "Timeout of CAN Message TSC1-VR (When Active)"
+    },
+    {
+      "code": 3184,
+      "desc": "Timeout of CAN Message TSC1-VR (When Inactive)"
+    },
+    {
+      "code": 3185,
+      "desc": "Timeout of CAN message TF"
+    },
+    {
+      "code": 3186,
+      "desc": "Cylinder1 Warning - Fast Decay Error"
+    },
+    {
+      "code": 3187,
+      "desc": "Cylinder1 Warning - Application Dependent"
+    },
+    {
+      "code": 3188,
+      "desc": "Cylinder1 Warning - Open Load"
+    },
+    {
+      "code": 3189,
+      "desc": "Cylinder1 Warning - Current Level Error"
+    },
+    {
+      "code": 3190,
+      "desc": "Cylinder2 Warning - Fast Decay Error"
+    },
+    {
+      "code": 3191,
+      "desc": "Cylinder2 Warning - Application Dependent"
+    },
+    {
+      "code": 3192,
+      "desc": "Cylinder2 Warning - Open Load"
+    },
+    {
+      "code": 3193,
+      "desc": "Cylinder2 Warning - Current Level Error"
+    },
+    {
+      "code": 3194,
+      "desc": "Cylinder3 Warning - Fast Decay Error"
+    },
+    {
+      "code": 3195,
+      "desc": "Cylinder3 Warning - Application Dependent"
+    },
+    {
+      "code": 3196,
+      "desc": "Cylinder3 Warning - Open Load"
+    },
+    {
+      "code": 3197,
+      "desc": "Cylinder3 Warning - Current Level Error"
+    },
+    {
+      "code": 3198,
+      "desc": "Cylinder4 Warning - Fast Decay Error"
+    },
+    {
+      "code": 3199,
+      "desc": "Cylinder4 Warning - Application Dependent"
+    },
+    {
+      "code": 3200,
+      "desc": "Cylinder4 Warning - Open Load"
+    },
+    {
+      "code": 3201,
+      "desc": "Cylinder4 Warning - Current Level Error"
+    },
+    {
+      "code": 3202,
+      "desc": "Cylinder5 Warning - Fast Decay Error"
+    },
+    {
+      "code": 3204,
+      "desc": "Cylinder5 Warning - Open Load"
+    },
+    {
+      "code": 3205,
+      "desc": "Cylinder5 Warning - Current Level Error"
+    },
+    {
+      "code": 3206,
+      "desc": "Cylinder6 Warning - Fast Decay Error"
+    },
+    {
+      "code": 3207,
+      "desc": "Cylinder6 Warning - Application Dependent"
+    },
+    {
+      "code": 3208,
+      "desc": "Cylinder6 Warning - Open Load"
+    },
+    {
+      "code": 3209,
+      "desc": "Cylinder6 Warning - Current Level Error"
+    },
+    {
+      "code": 3210,
+      "desc": "Bank1 - General Short-circuit on Injection Cable"
+    },
+    {
+      "code": 3211,
+      "desc": "Bank1 - Injection Cable Short-circuit Low Side to Ground"
+    },
+    {
+      "code": 3212,
+      "desc": "Bank1 - Application Dependent"
+    },
+    {
+      "code": 3213,
+      "desc": "Bank1 - Unclassifiable Error"
+    },
+    {
+      "code": 3214,
+      "desc": "Bank1 Warning - Application Dependent"
+    },
+    {
+      "code": 3215,
+      "desc": "Bank1 Warning - Application Dependent"
+    },
+    {
+      "code": 3216,
+      "desc": "Bank1 Warning - Open Load"
+    },
+    {
+      "code": 3217,
+      "desc": "Bank1 Warning - Unclassifiable Error"
+    },
+    {
+      "code": 3218,
+      "desc": "Bank2- General Short-circuit on Injection Cable"
+    },
+    {
+      "code": 3219,
+      "desc": "Bank2 - Injection Cable Short-circuit Low Side to Ground"
+    },
+    {
+      "code": 3220,
+      "desc": "Bank2 - Application Dependent"
+    },
+    {
+      "code": 3221,
+      "desc": "Bank2 - Unclassifiable Error"
+    },
+    {
+      "code": 3222,
+      "desc": "Bank2 Warning - Application Dependent"
+    },
+    {
+      "code": 3223,
+      "desc": "Bank2 Warning - Application Dependent"
+    },
+    {
+      "code": 3224,
+      "desc": "Bank2 Warning - Open Load"
+    },
+    {
+      "code": 3225,
+      "desc": "Bank2 Warning - Unclassifiable Error"
+    },
+    {
+      "code": 3226,
+      "desc": "Messages SRA2EDC"
+    },
+    {
+      "code": 3227,
+      "desc": "Injection Processor (CY33X) Error - Internal Reset / Clock Loss / Voltage Too Low"
+    },
+    {
+      "code": 3228,
+      "desc": "Injection Processor (CY33X) Error - Unlocked / Initialization Failure"
+    },
+    {
+      "code": 3229,
+      "desc": "Injection Processor (CY33X) Error - Injections Limited By Software"
+    },
+    {
+      "code": 3230,
+      "desc": "Injection Processor (CY33X) Error - SPI Communication Failure"
+    },
+    {
+      "code": 3231,
+      "desc": "Injection Processor Error - Internal Reset / Clock Loss / Voltage Too Low"
+    },
+    {
+      "code": 3232,
+      "desc": "Injection Processor Error - Unlocked / Initialization Failure"
+    },
+    {
+      "code": 3233,
+      "desc": "Injection Processor Error - Test Mode"
+    },
+    {
+      "code": 3234,
+      "desc": "Injection Processor Error - SPI Communication Failure"
+    },
+    {
+      "code": 3235,
+      "desc": "Number of Injections Limited - by Charge Balance"
+    },
+    {
+      "code": 3236,
+      "desc": "Number of Injections Limited - by Quantity Balance"
+    },
+    {
+      "code": 3237,
+      "desc": "Number of Injections Limited - by Software"
+    },
+    {
+      "code": 3238,
+      "desc": "ECM Internal SPI Communication Error - CJ940"
+    },
+    {
+      "code": 3239,
+      "desc": "ECM EEPROM - Read Operation Failure"
+    },
+    {
+      "code": 3240,
+      "desc": "ECM EEPROM - Write Operation Failure"
+    },
+    {
+      "code": 3241,
+      "desc": "ECM EEPROM - Default Value Used"
+    },
+    {
+      "code": 3242,
+      "desc": "ECM (Locked) Recovery Occurred"
+    },
+    {
+      "code": 3243,
+      "desc": "ECM (Suppressed) - Recovery Occurred"
+    },
+    {
+      "code": 3244,
+      "desc": "ECU Recovery (Visible) - Recovery Occurred"
+    },
+    {
+      "code": 3245,
+      "desc": "ECM Processor - Watchdog Not Plausible"
+    },
+    {
+      "code": 3246,
+      "desc": "Shutoff Paths During Initialization - Watchdog"
+    },
+    {
+      "code": 3247,
+      "desc": "Shutoff Paths During Initialization - Supply Voltage Too High"
+    },
+    {
+      "code": 3248,
+      "desc": "Shutoff Paths During Initialization - Supply Voltage Too Low"
+    },
+    {
+      "code": 3250,
+      "desc": "Dataset - Variant Defect"
+    },
+    {
+      "code": 3251,
+      "desc": "Dataset - Requested Variant Could Not Be Set"
+    },
+    {
+      "code": 3252,
+      "desc": "Controller Watchdog - SPI Communication Failure"
+    },
+    {
+      "code": 3253,
+      "desc": "ADC Monitoring - Reference Voltage Too High"
+    },
+    {
+      "code": 3254,
+      "desc": "ADC Monitoring - Reference Voltage Too Low"
+    },
+    {
+      "code": 3255,
+      "desc": "ADC Monitoring - Test Impulse Error"
+    },
+    {
+      "code": 3256,
+      "desc": "ADC Monitoring - Queue Error"
+    },
+    {
+      "code": 3257,
+      "desc": "Turbine Speed and Air Pressure Too High"
+    },
+    {
+      "code": 3258,
+      "desc": "High Side Power - Short-circuit to Battery"
+    },
+    {
+      "code": 3259,
+      "desc": "High Side Power - Short-circuit to Ground"
+    },
+    {
+      "code": 3260,
+      "desc": "Low Side Power - Open Load"
+    },
+    {
+      "code": 3261,
+      "desc": "Low Side Power - Short-circuit to Battery of Excess Temperature"
+    },
+    {
+      "code": 3262,
+      "desc": "Low Side Power - Short-circuit to Ground"
+    },
+    {
+      "code": 3263,
+      "desc": "ECM BusOff on CAN C"
+    },
+    {
+      "code": 3264,
+      "desc": "Immobilizer - Injection Disabled"
+    },
+    {
+      "code": 3265,
+      "desc": "Overrun Monitoring - Injection Time Too Long"
+    },
+    {
+      "code": 3266,
+      "desc": "Redundant Engine Speed in Overrun Monitoring - Speed Signal Not Plausible"
+    },
+    {
+      "code": 3267,
+      "desc": "Tier 3: A/C Compressor/Fuel Filter Heater Relay Short-circuit to Battery Tier 4a: Main relay 3 - Short-circuit to Battery"
+    },
+    {
+      "code": 3268,
+      "desc": "Tier 3: A/C Compressor/Fuel Filter Heater Relay Short-circuit to Ground Tier 4a: Main relay 3 - Short-circuit to Ground"
+    },
+    {
+      "code": 3269,
+      "desc": "Grid Heater Switch On Test - Voltage Drop Too High"
+    },
+    {
+      "code": 3270,
+      "desc": "Grid Heater Switch On Test - Voltage Drop Too Low"
+    },
+    {
+      "code": 3271,
+      "desc": "Fuel Low Pressure Sensor - (via CAN) No Signal"
+    },
+    {
+      "code": 3272,
+      "desc": "Fuel Low Pressure Sensor - Signal Above Range Max."
+    },
+    {
+      "code": 3273,
+      "desc": "Fuel Low Pressure Sensor - Signal Below Range Min."
+    },
+    {
+      "code": 3274,
+      "desc": "Fuel Low Pressure Sensor Dynamic Plausibility Test - Above Map"
+    },
+    {
+      "code": 3275,
+      "desc": "Fuel Low Pressure Sensor Dynamic Plausibility Test - Below Map"
+    },
+    {
+      "code": 3276,
+      "desc": "MIL Visualization Not Available for BC2EDC1"
+    },
+    {
+      "code": 3277,
+      "desc": "Timeout of CAN Message Dashboard Display"
+    },
+    {
+      "code": 3278,
+      "desc": "ECM Internal Supply Voltage Too High - CJ940 Above Limit"
+    },
+    {
+      "code": 3279,
+      "desc": "ECM Internal Supply Voltage Too Low - CJ940 Below Limit"
+    },
+    {
+      "code": 3280,
+      "desc": "Sensor Supply Voltage 1 - High"
+    },
+    {
+      "code": 3281,
+      "desc": "Sensor Supply Voltage 1 - Low"
+    },
+    {
+      "code": 3282,
+      "desc": "Timeout of CAN Message WSI (Wheel Speed Info)"
+    },
+    {
+      "code": 3283,
+      "desc": "Sensor Supply Voltage 2 - High"
+    },
+    {
+      "code": 3284,
+      "desc": "Sensor Supply Voltage 2 - Low"
+    },
+    {
+      "code": 3285,
+      "desc": "Sensor Supply Voltage 3 - High"
+    },
+    {
+      "code": 3286,
+      "desc": "Sensor Supply Voltage 3 - Low"
+    },
+    {
+      "code": 3287,
+      "desc": "Turbo Compound Monitoring - No Signal"
+    },
+    {
+      "code": 3288,
+      "desc": "Turbo Compound Monitoring - Signal High"
+    },
+    {
+      "code": 3289,
+      "desc": "Turbo Compound Monitoring - Signal Low"
+    },
+    {
+      "code": 3290,
+      "desc": "Turbo Compound Monitoring - Signal Not Plausible"
+    },
+    {
+      "code": 3291,
+      "desc": "Cylinder 1 Specific Errors - No Signal"
+    },
+    {
+      "code": 3293,
+      "desc": "Cylinder 1 BIP Search Failure - Too Many Unsuccessful Searched"
+    },
+    {
+      "code": 3294,
+      "desc": "Cylinder 1 Specific Errors - Signal Not Plausible"
+    },
+    {
+      "code": 3295,
+      "desc": "Cylinder 2 Specific Errors - No Signal"
+    },
+    {
+      "code": 3296,
+      "desc": "Cylinder 2 Specific Errors - Signal Low"
+    },
+    {
+      "code": 3297,
+      "desc": "Cylinder 2 BIP Search Failure - Too Many Unsuccessful Searches Rail Pressure Positive Deviation High and High Fuel Flow Setpoint Value"
+    },
+    {
+      "code": 3298,
+      "desc": "Cylinder 2 Specific Errors - Signal Not Plausible"
+    },
+    {
+      "code": 3299,
+      "desc": "Cylinder 3 Specific Errors - No Signal"
+    },
+    {
+      "code": 3300,
+      "desc": "Cylinder 3 Specific Errors - Signal Low"
+    },
+    {
+      "code": 3301,
+      "desc": "Cylinder 3 BIP Search Failure - Too Many Unsuccessful Searches Rail Pressure Negative Deviation too High on Minimum Metering"
+    },
+    {
+      "code": 3302,
+      "desc": "Cylinder 3 Specific Errors - Signal Not Plausible"
+    },
+    {
+      "code": 3303,
+      "desc": "Cylinder 4 Specific Errors - No Signal"
+    },
+    {
+      "code": 3304,
+      "desc": "Cylinder 4 Specific Errors - Signal Low"
+    },
+    {
+      "code": 3305,
+      "desc": "Cylinder 4 BIP Search Failure - Too Many Unsuccessful Searches Rail Pressure below Minimum Limit in Controlled Mode"
+    },
+    {
+      "code": 3306,
+      "desc": "Cylinder 4 Specific Errors - Signal Not Plausible"
+    },
+    {
+      "code": 3307,
+      "desc": "Cylinder 5 Specific Errors - No Signal"
+    },
+    {
+      "code": 3308,
+      "desc": "Cylinder 5 Specific Errors - Signal Low"
+    },
+    {
+      "code": 3309,
+      "desc": "Cylinder 5 BIP Search Failure - Too Many Unsuccessful Searches Rail Pressure above Maximum Limit in Controlled Mode"
+    },
+    {
+      "code": 3310,
+      "desc": "Cylinder 5 Specific Errors - Signal Not Plausible"
+    },
+    {
+      "code": 3311,
+      "desc": "Cylinder 6 Specific Errors - No Signal"
+    },
+    {
+      "code": 3312,
+      "desc": "Cylinder 6 Specific Errors - Signal Low"
+    },
+    {
+      "code": 3313,
+      "desc": "Cylinder 6 BIP Search Failure - Too Many Unsuccessful Searches Rail Pressure Drop Rate too High"
+    },
+    {
+      "code": 3314,
+      "desc": "Cylinder 6 Specific Errors - Signal Not Plausible"
+    },
+    {
+      "code": 3315,
+      "desc": "Minimum Number of Injections Not Reached - Stop Engine"
+    },
+    {
+      "code": 3316,
+      "desc": "Minimum Number of Injections Not Reached - Stop Engine"
+    },
+    {
+      "code": 3317,
+      "desc": "Minimum Number of Injections Not Reached - Stop Engine"
+    },
+    {
+      "code": 3318,
+      "desc": "Minimum Number of Injections Not Reached - Stop Engine"
+    },
+    {
+      "code": 3319,
+      "desc": "DM1DCU SPN2 message - Error in DCU active"
+    },
+    {
+      "code": 3320,
+      "desc": "DM1DCU SPN3 message - Error in DCU active"
+    },
+    {
+      "code": 3321,
+      "desc": "DM1DCU SPN4 message - Error in DCU active"
+    },
+    {
+      "code": 3322,
+      "desc": "DM1DCU SPN5 message - Error in DCU active"
+    },
+    {
+      "code": 3323,
+      "desc": "Timeout of CAN Message RxAMCONIv (Ambient Conditions)"
+    },
+    {
+      "code": 3324,
+      "desc": "Timeout of CAN Message EBC1 (Electronic Brake Switch)"
+    },
+    {
+      "code": 3325,
+      "desc": "Timeout of CAN Message ETC1 (Transmission)"
+    },
+    {
+      "code": 3326,
+      "desc": "Timeout of CAN Message ETC2 (Transmission)"
+    },
+    {
+      "code": 3327,
+      "desc": "Timeout of CAN Message TCO1 (Tachograph)"
+    },
+    {
+      "code": 3328,
+      "desc": "Timeout of CAN Message TSC1-AR (When Inactive)"
+    },
+    {
+      "code": 3329,
+      "desc": "Timeout of CAN Message TSC1-AR (When Active)"
+    },
+    {
+      "code": 3330,
+      "desc": "Timeout of CAN Message TSC1-DE (When Inactive)"
+    },
+    {
+      "code": 3331,
+      "desc": "Timeout of CAN Message TSC1-DE (When Active)"
+    },
+    {
+      "code": 3332,
+      "desc": "Timeout of CAN Message TSC1-DR (When Inactive)"
+    },
+    {
+      "code": 3334,
+      "desc": "Timeout of CAN message TSC1-PE Torque (When Active)"
+    },
+    {
+      "code": 3335,
+      "desc": "Timeout of CAN message TSC1-PE Torque (When Inactive)"
+    },
+    {
+      "code": 3336,
+      "desc": "Timeout of CAN Message TSC1-TR (When Inactive)"
+    },
+    {
+      "code": 3337,
+      "desc": "Timeout of CAN Message TSC1-TR (When Active)"
+    },
+    {
+      "code": 3338,
+      "desc": "Timeout of CAN message TSC1-VE Speed (When Inactive)"
+    },
+    {
+      "code": 3339,
+      "desc": "Timeout of CAN message TSC1-VE Speed (When Active)"
+    },
+    {
+      "code": 3340,
+      "desc": "Timeout of CAN Message TimeDate"
+    },
+    {
+      "code": 3341,
+      "desc": "Timeout of CAN Message HRVD (High Resolution Vehicle Distance)"
+    },
+    {
+      "code": 3342,
+      "desc": "Power Stage Air Heater 2 Actuator - No Signal"
+    },
+    {
+      "code": 3343,
+      "desc": "Power Stage Air Heater 2 Actuator - Signal High"
+    },
+    {
+      "code": 3344,
+      "desc": "Power Stage Air Heater 2 Actuator - Signal Low"
+    },
+    {
+      "code": 3345,
+      "desc": "Total Throttle Failure (Only applies to Dual Throttle Vehicles)"
+    },
+    {
+      "code": 3346,
+      "desc": "Multiple State Switch"
+    },
+    {
+      "code": 3347,
+      "desc": "Multiple State Switch"
+    },
+    {
+      "code": 3348,
+      "desc": "Multiple State Switch"
+    },
+    {
+      "code": 3349,
+      "desc": "Multiple State Switch"
+    },
+    {
+      "code": 3350,
+      "desc": "Terminal 50 - Always On"
+    },
+    {
+      "code": 3351,
+      "desc": "Engine Brake Decompression Valve - Open Load"
+    },
+    {
+      "code": 3352,
+      "desc": "Engine Brake Decompression Valve - Short-circuit to Battery"
+    },
+    {
+      "code": 3353,
+      "desc": "Engine Brake Decompression Valve - Short-circuit to Ground"
+    },
+    {
+      "code": 3354,
+      "desc": "Main Relay 4 (Engine Brake Exhaust Valve) - Short-circuit to Ground"
+    },
+    {
+      "code": 3355,
+      "desc": "Tier 3: Main Relay 4 (Engine Brake Exhaust Valve) - Short-circuit to Battery Tier 4a: Main Relay 4 (Engine Brake Exhaust Valve) - Short to Battery or open load"
+    },
+    {
+      "code": 3356,
+      "desc": "Cylinder Shutoff (Cylinder Balancing Disabled) - Shutoff Active"
+    },
+    {
+      "code": 3357,
+      "desc": "Misfire in Multiple Cylinders - Too Many Misfires"
+    },
+    {
+      "code": 3358,
+      "desc": "CAN Transmit Timeout"
+    },
+    {
+      "code": 3359,
+      "desc": "TSC Demand Physically Unplausible"
+    },
+    {
+      "code": 3360,
+      "desc": "Driving Dynamic Control - Not Plausible"
+    },
+    {
+      "code": 3361,
+      "desc": "ECM EEPROM - General Error"
+    },
+    {
+      "code": 3362,
+      "desc": "Torque to Quantity Map - Not Plausible"
+    },
+    {
+      "code": 3363,
+      "desc": "Atmospheric Pressure Sensor - Processed via ADC (no CAN Plausibility Performed)"
+    },
+    {
+      "code": 3364,
+      "desc": "Foot Pedal 2 - Signal Too High"
+    },
+    {
+      "code": 3365,
+      "desc": "Foot Pedal 2 - Signal Too Low"
+    },
+    {
+      "code": 3366,
+      "desc": "Foot Pedal 2 - Signal Not Plausible Compared to Foot Pedal 1"
+    },
+    {
+      "code": 3367,
+      "desc": "Coolant Temperature Test Failure"
+    },
+    {
+      "code": 3368,
+      "desc": "Info: Torque Limitation due to OBD Performance Limiter by Legislation"
+    },
+    {
+      "code": 3369,
+      "desc": "Torque Reduction due to Smoke Limitation"
+    },
+    {
+      "code": 3370,
+      "desc": "Info: Torque Limitation due to Engine Protection (against Excessive Torque, Engine Over speed and Overheat)"
+    },
+    {
+      "code": 3372,
+      "desc": "Injection Quantity Adjustment failure - Invalid Adjustment Value"
+    },
+    {
+      "code": 3373,
+      "desc": "Injection Quantity Adjustment failure - EEPROM Adjustment Value Not Readable"
+    },
+    {
+      "code": 3374,
+      "desc": "Injection Quantity Adjustment failure - Invalid EEPROM Adjustment Value Checksum"
+    },
+    {
+      "code": 3375,
+      "desc": "Constant Engine RPM Increase / Decrease Switch - Short-circuit to Battery"
+    },
+    {
+      "code": 3376,
+      "desc": "Engine Controller Software Does Not Support Power Management (Engine Power Management Option Enabled, but Engine Software Not Compatible)"
+    },
+    {
+      "code": 3377,
+      "desc": "Constant Engine RPM Switch Detected but Option Not Enabled."
+    },
+    {
+      "code": 3380,
+      "desc": "Engine Fan Increase Speed Error (open or short circuit)"
+    },
+    {
+      "code": 3381,
+      "desc": "Engine Fan Decrease Speed Error (open or short circuit)"
+    },
+    {
+      "code": 3382,
+      "desc": "Fan Control Solenoid Short To 12Vr"
+    },
+    {
+      "code": 3383,
+      "desc": "Fan Control Solenoid Open Or Short To GND"
+    },
+    {
+      "code": 3384,
+      "desc": "Vistronic Engine Cooling Fan driver open or short circuit"
+    },
+    {
+      "code": 3399,
+      "desc": "Engine Fuel Lift Pump relay driver over current fault"
+    },
+    {
+      "code": 3512,
+      "desc": "DCU State Monitoring - DCU not ready in time"
+    },
+    {
+      "code": 3513,
+      "desc": "SCR Catalyst not present - Relation of temperature behavior between both Catalyst Temperatures not plausible"
+    },
+    {
+      "code": 3517,
+      "desc": "Ambient Air Temperature Sensor failure (of Humidity Sensor) - Signal too high"
+    },
+    {
+      "code": 3518,
+      "desc": "Ambient Air Temperature Sensor failure (of Humidity Sensor) - Signal too low"
+    },
+    {
+      "code": 3519,
+      "desc": "Ambient Air Temperature Sensor failure (of Humidity Sensor) - CAN Signal failure"
+    },
+    {
+      "code": 3521,
+      "desc": "NOx Estimation failure - Estimated Nox signal not reliable"
+    },
+    {
+      "code": 3528,
+      "desc": "NOx Sensor Plausibility failure - Signal not plausible"
+    },
+    {
+      "code": 3529,
+      "desc": "NOx Sensor Failure - Open Load"
+    },
+    {
+      "code": 3530,
+      "desc": "NOx Sensor Failure - Short Circuit"
+    },
+    {
+      "code": 3532,
+      "desc": "NOx Sensor Failure - Sensor not ready in time"
+    },
+    {
+      "code": 3533,
+      "desc": "CAN Message timeout Nox (from Nox Sensor) - CAN timeout"
+    },
+    {
+      "code": 3537,
+      "desc": "CAN Message timeout DM1DCU (from DCU) - CAN timeout"
+    },
+    {
+      "code": 3541,
+      "desc": "CAN Message timeout SCR1 (from DCU) - CAN timeout"
+    },
+    {
+      "code": 3545,
+      "desc": "Info: SCR Dosing Valve Overheat Protection - Torque Limitation Level2 for SCR Protection active"
+    },
+    {
+      "code": 3546,
+      "desc": "Info: SCR Dosing Valve Overheat Protection - Torque Limitation Level1 for SCR Protection active"
+    },
+    {
+      "code": 3549,
+      "desc": "Humidity Sensor Signal Ratio failure - Signal Ratio above Limit"
+    },
+    {
+      "code": 3550,
+      "desc": "Humidity Sensor Signal Ratio failure - Signal Ratio below Limit"
+    },
+    {
+      "code": 3555,
+      "desc": "CAN Message timeout SCR2 (from DCU) - CAN timeout"
+    },
+    {
+      "code": 3557,
+      "desc": "Info: Humidity Sensor possibly saturated with water droplets - Signal Ratio above Limit"
+    },
+    {
+      "code": 3558,
+      "desc": "Info: Humidity Sensor possibly saturated with water droplets - Signal Ratio below Limit"
+    },
+    {
+      "code": 3561,
+      "desc": "NOx value not plausible (Aftertreatment plausibility)"
+    },
+    {
+      "code": 3565,
+      "desc": "Urea quality and urea warning level 1"
+    },
+    {
+      "code": 3569,
+      "desc": "urea quality and urea warning level 2"
+    },
+    {
+      "code": 3573,
+      "desc": "urea quality and urea warning level 3"
+    },
+    {
+      "code": 3577,
+      "desc": "DM1DCU SPN1 message - Error in DCU active"
+    },
+    {
+      "code": 3581,
+      "desc": "Performance limit active due to either stage - Performance Limitation active"
+    },
+    {
+      "code": 3585,
+      "desc": "Engine shut off Urea level (after idling phase)"
+    },
+    {
+      "code": 3586,
+      "desc": "Plausibility check of catalyst system - Temperature after Catalyst not plausible"
+    },
+    {
+      "code": 3587,
+      "desc": "Plausibility check of catalyst system - Temperature before Catalyst not plausible"
+    },
+    {
+      "code": 3588,
+      "desc": "Plausibility check of catalyst system - Ambient Temperature of Humidity Sensor or both Catalyst Temperatures not plausible"
+    },
+    {
+      "code": 3589,
+      "desc": "Plausibility check of catalyst system - Temperature Deviation between up- and downstream Catalyst Temperature too high during Operation"
+    },
+    {
+      "code": 3590,
+      "desc": "11F"
+    },
+    {
+      "code": 3591,
+      "desc": "SCR Catalyst Thermal Ageing Limit exceeded - P0422 Main Catalyst Efficiency Below Threshold"
+    },
+    {
+      "code": 3592,
+      "desc": "21D"
+    },
+    {
+      "code": 3593,
+      "desc": "Poor Reagent quality"
+    },
+    {
+      "code": 3594,
+      "desc": "indicates torque limitation due to SCR"
+    },
+    {
+      "code": 3595,
+      "desc": "Minimum urea level 1"
+    },
+    {
+      "code": 3596,
+      "desc": "Minimum urea level 2"
+    },
+    {
+      "code": 3597,
+      "desc": "Minimum urea level 3"
+    },
+    {
+      "code": 3599,
+      "desc": "error path of oxidation catalyst not present - P0421 Warm Up Catalyst Efficiency Below Threshold"
+    },
+    {
+      "code": 3602,
+      "desc": "defect ratio between threshold limits - P0425 Catalyst Temperature Sensor Circuit"
+    },
+    {
+      "code": 3603,
+      "desc": "1FC"
+    },
+    {
+      "code": 3604,
+      "desc": "1FC"
+    },
+    {
+      "code": 3605,
+      "desc": "Temperature of Outer control loop - Temperature deviation above Limit"
+    },
+    {
+      "code": 3606,
+      "desc": "Temperature of Outer control loop - Temperature deviation above Limit"
+    },
+    {
+      "code": 3611,
+      "desc": "Catalyst efficiency lower than first Nox prediction threshold level"
+    },
+    {
+      "code": 3612,
+      "desc": "Catalyst efficiency lower than second Nox prediction threshold level"
+    }
+  ]
+}

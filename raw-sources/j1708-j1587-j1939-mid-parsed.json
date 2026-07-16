@@ -1,0 +1,442 @@
+{
+  "source": "J1708/J1587/J1939 MID Listing",
+  "type": "MID",
+  "codes": [
+    {
+      "code": 128,
+      "desc": "Engine #1"
+    },
+    {
+      "code": 131,
+      "desc": "Power Takeoff"
+    },
+    {
+      "code": 132,
+      "desc": "Axle, Power Unit"
+    },
+    {
+      "code": 133,
+      "desc": "Axle, Trailer #1"
+    },
+    {
+      "code": 134,
+      "desc": "Axle, Trailer #2"
+    },
+    {
+      "code": 135,
+      "desc": "Axle, Trailer #3"
+    },
+    {
+      "code": 136,
+      "desc": "Brakes, Power Unit"
+    },
+    {
+      "code": 137,
+      "desc": "Brakes, Trailer #1"
+    },
+    {
+      "code": 138,
+      "desc": "Brakes, Trailer #2"
+    },
+    {
+      "code": 139,
+      "desc": "Brakes, Trailer #3"
+    },
+    {
+      "code": 140,
+      "desc": "Instrument Cluster"
+    },
+    {
+      "code": 141,
+      "desc": "Trip Recorder"
+    },
+    {
+      "code": 142,
+      "desc": "Vehicle Management System"
+    },
+    {
+      "code": 143,
+      "desc": "Fuel System"
+    },
+    {
+      "code": 144,
+      "desc": "Cruise Control"
+    },
+    {
+      "code": 145,
+      "desc": "Road Speed Indicator"
+    },
+    {
+      "code": 146,
+      "desc": "Cab Climate Control"
+    },
+    {
+      "code": 147,
+      "desc": "Cargo Refrigeration/Heating, Trailer #1"
+    },
+    {
+      "code": 148,
+      "desc": "Cargo Refrigeration/Heating, Trailer #2"
+    },
+    {
+      "code": 149,
+      "desc": "Cargo Refrigeration/Heating, Trailer #3"
+    },
+    {
+      "code": 150,
+      "desc": "Suspension, Power Unit"
+    },
+    {
+      "code": 151,
+      "desc": "Suspension, Trailer #1"
+    },
+    {
+      "code": 152,
+      "desc": "Suspension, Trailer #2"
+    },
+    {
+      "code": 153,
+      "desc": "Suspension, Trailer #3"
+    },
+    {
+      "code": 155,
+      "desc": "Diagnostic Systems, Trailer #1"
+    },
+    {
+      "code": 156,
+      "desc": "Diagnostic Systems, Trailer #2"
+    },
+    {
+      "code": 157,
+      "desc": "Diagnostic Systems, Trailer #3"
+    },
+    {
+      "code": 158,
+      "desc": "Electrical Charging System"
+    },
+    {
+      "code": 159,
+      "desc": "Proximity Detector, Front"
+    },
+    {
+      "code": 160,
+      "desc": "Proximity Detector, Rear"
+    },
+    {
+      "code": 161,
+      "desc": "Aerodynamic Control Unit"
+    },
+    {
+      "code": 162,
+      "desc": "Vehicle Navigation Unit"
+    },
+    {
+      "code": 163,
+      "desc": "Vehicle Security"
+    },
+    {
+      "code": 166,
+      "desc": "Tires, Power Unit"
+    },
+    {
+      "code": 167,
+      "desc": "Tires, Trailer #1"
+    },
+    {
+      "code": 168,
+      "desc": "Tires, Trailer #2"
+    },
+    {
+      "code": 169,
+      "desc": "Tires, Trailer #3"
+    },
+    {
+      "code": 171,
+      "desc": "Driver Information Center"
+    },
+    {
+      "code": 172,
+      "desc": "Off-board Diagnostics #1"
+    },
+    {
+      "code": 173,
+      "desc": "Engine Retarder"
+    },
+    {
+      "code": 174,
+      "desc": "Cranking/Starting System"
+    },
+    {
+      "code": 175,
+      "desc": "Engine #2"
+    },
+    {
+      "code": 176,
+      "desc": "Transmission, Additional"
+    },
+    {
+      "code": 177,
+      "desc": "Particulate Trap System"
+    },
+    {
+      "code": 178,
+      "desc": "Vehicle Sensors to Data Converter"
+    },
+    {
+      "code": 179,
+      "desc": "Data Logging Computer"
+    },
+    {
+      "code": 180,
+      "desc": "Off-board Diagnostics #2"
+    },
+    {
+      "code": 182,
+      "desc": "Off-board Programming Station"
+    },
+    {
+      "code": 183,
+      "desc": "Engine #3"
+    },
+    {
+      "code": 184,
+      "desc": "Engine #4"
+    },
+    {
+      "code": 185,
+      "desc": "Engine #5"
+    },
+    {
+      "code": 186,
+      "desc": "Engine #6"
+    },
+    {
+      "code": 187,
+      "desc": "Vehicle Control Head Unit/Vehicle Management System #2"
+    },
+    {
+      "code": 188,
+      "desc": "Vehicle Logic Control Unit/Vehicle Management System #3"
+    },
+    {
+      "code": 190,
+      "desc": "Refrigerant Management Protection and Diagnostics"
+    },
+    {
+      "code": 192,
+      "desc": "Front Door Status Unit"
+    },
+    {
+      "code": 193,
+      "desc": "Middle Door Status Unit"
+    },
+    {
+      "code": 194,
+      "desc": "Rear Door Status Unit"
+    },
+    {
+      "code": 195,
+      "desc": "Annunciator Unit"
+    },
+    {
+      "code": 196,
+      "desc": "Fare Collection Unit"
+    },
+    {
+      "code": 197,
+      "desc": "Passenger Counter Unit #1"
+    },
+    {
+      "code": 198,
+      "desc": "Schedule Adherence Unit"
+    },
+    {
+      "code": 199,
+      "desc": "Route Adherence Unit"
+    },
+    {
+      "code": 200,
+      "desc": "Environment Monitor Unit/Auxiliary Cab Climate Control"
+    },
+    {
+      "code": 201,
+      "desc": "Vehicle Status Points Monitor Unit"
+    },
+    {
+      "code": 202,
+      "desc": "High Speed Communications Unit"
+    },
+    {
+      "code": 203,
+      "desc": "Mobile Data Terminal Unit"
+    },
+    {
+      "code": 204,
+      "desc": "Vehicle Proximity, Right Side"
+    },
+    {
+      "code": 205,
+      "desc": "Vehicle Proximity, Left Side"
+    },
+    {
+      "code": 206,
+      "desc": "Base Unit (Radio Gateway to Fixed End)"
+    },
+    {
+      "code": 207,
+      "desc": "Bridge from SAE J1708 Drivetrain Link"
+    },
+    {
+      "code": 208,
+      "desc": "Maintenance Printer"
+    },
+    {
+      "code": 209,
+      "desc": "Vehicle Turntable"
+    },
+    {
+      "code": 210,
+      "desc": "Bus Chassis Identification Unit"
+    },
+    {
+      "code": 211,
+      "desc": "Smart Card Terminal"
+    },
+    {
+      "code": 212,
+      "desc": "Mobile Data Terminal"
+    },
+    {
+      "code": 213,
+      "desc": "Vehicle Control Head Touch Screen"
+    },
+    {
+      "code": 214,
+      "desc": "Silent Alarm Unit"
+    },
+    {
+      "code": 215,
+      "desc": "Surveillance Microphone"
+    },
+    {
+      "code": 216,
+      "desc": "Lighting Control Administrator Unit"
+    },
+    {
+      "code": 217,
+      "desc": "Tractor/Trailer Bridge, Tractor Mounted"
+    },
+    {
+      "code": 218,
+      "desc": "Tractor/Trailer Bridge, Trailer Mounted"
+    },
+    {
+      "code": 219,
+      "desc": "Collision Avoidance Systems"
+    },
+    {
+      "code": 221,
+      "desc": "Driver Information Center #2"
+    },
+    {
+      "code": 222,
+      "desc": "Driveline Retarder"
+    },
+    {
+      "code": 224,
+      "desc": "Parking Heater"
+    },
+    {
+      "code": 225,
+      "desc": "Weighing System, Axle Group #1/Vehicle"
+    },
+    {
+      "code": 227,
+      "desc": "Weighing System, Axle Group #3"
+    },
+    {
+      "code": 228,
+      "desc": "Weighing System, Axle Group #4"
+    },
+    {
+      "code": 229,
+      "desc": "Weighing System, Axle Group #5"
+    },
+    {
+      "code": 230,
+      "desc": "Weighing System, Axle Group #6"
+    },
+    {
+      "code": 232,
+      "desc": "Safety Restraint System"
+    },
+    {
+      "code": 233,
+      "desc": "Intersection Preemption Emitter"
+    },
+    {
+      "code": 234,
+      "desc": "Instrument Cluster #2"
+    },
+    {
+      "code": 235,
+      "desc": "Engine Oil Control System"
+    },
+    {
+      "code": 236,
+      "desc": "Entry Assist Control #1"
+    },
+    {
+      "code": 237,
+      "desc": "Entry Assist Control #2"
+    },
+    {
+      "code": 238,
+      "desc": "Idle Adjust System"
+    },
+    {
+      "code": 239,
+      "desc": "Passenger Counter Unit #2"
+    },
+    {
+      "code": 240,
+      "desc": "Passenger Counter Unit #3"
+    },
+    {
+      "code": 241,
+      "desc": "Fuel Tank Monitor"
+    },
+    {
+      "code": 242,
+      "desc": "Axles, Trailer #4"
+    },
+    {
+      "code": 243,
+      "desc": "Axles, Trailer #5"
+    },
+    {
+      "code": 244,
+      "desc": "Diagnostic Systems, Trailer #4"
+    },
+    {
+      "code": 245,
+      "desc": "Diagnostic Systems, Trailer #5"
+    },
+    {
+      "code": 246,
+      "desc": "Brakes, Trailer #4"
+    },
+    {
+      "code": 247,
+      "desc": "Brakes, Trailer #5"
+    },
+    {
+      "code": 248,
+      "desc": "Forward Road Image Processor"
+    },
+    {
+      "code": 249,
+      "desc": "Body Controller"
+    }
+  ]
+}
