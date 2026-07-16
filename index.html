@@ -460,8 +460,7 @@ function openProcedure(id) {
   document.getElementById('procDetailContainer').classList.remove('hidden');
   document.getElementById('procBody').innerHTML = '<div style="color:#444;text-align:center;padding:2rem;">Loading...</div>';
 
-  const url = currentProc.file || `procedures/${id}.md`;
-  fetch(url)
+  const url = `procedures/${currentProc.file || id + '.md'}`;
     .then(r => r.ok ? r.text() : '<p>Not found.</p>')
     .then(md => { document.getElementById('procBody').innerHTML = simpleMarkdown(md); })
     .catch(() => { document.getElementById('procBody').innerHTML = '<p>Error loading procedure.</p>'; });
@@ -546,8 +545,7 @@ function openQA(id) {
   document.getElementById('qaListContainer').classList.add('hidden');
   document.getElementById('qaDetailContainer').classList.remove('hidden');
   document.getElementById('qaBody').innerHTML = '<div style="color:#444;text-align:center;padding:2rem;">Loading...</div>';
-  const url = currentQA.file || `procedures/${id}.md`;
-  fetch(url)
+  const url = `procedures/${currentQA.file || id + '.md'}`;
     .then(r => r.ok ? r.text() : '<p>Not found.</p>')
     .then(md => { document.getElementById('qaBody').innerHTML = simpleMarkdown(md); })
     .catch(() => { document.getElementById('qaBody').innerHTML = '<p>Error loading procedure.</p>'; });
