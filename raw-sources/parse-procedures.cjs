@@ -348,6 +348,47 @@ function titleQualityJD(title) {
   return true;
 }
 
+// ===== Detect quick-access procedures (service mode, diagnostics, calibration entry) =====
+function isQuickAccess(proc) {
+  const t = proc.title.toLowerCase();
+  // Only match specific title patterns — these are the "in a pinch" procedures
+  const quickPatterns = [
+    /access level/i,
+    /calibrat(?:ion|e).*(?:menu|system|sensor|level|overload|outrigger)/i,
+    /calibrations menu/i,
+    /personalities menu/i,
+    /setup the machine/i,
+    /set up the/i,
+    /determine the (?:software|revision)/i,
+    /change the software/i,
+    /software (?:config|revision)/i,
+    /hand held analyzer/i,
+    /mobile analyzer/i,
+    /analyzer usage/i,
+    /machine data access/i,
+    /machine set.up menu/i,
+    /fault code/i,
+    /diagnostic trouble/i,
+    /gauge fault/i,
+    /retrieve.*fault/i,
+    /retrieve.*(?:control|engine|platform)/i,
+    /clear.*fault/i,
+    /clear.*ecm/i,
+    /towing/i,
+    /emergency (?:stop|descent|lowering)/i,
+    /manual platform lowering/i,
+    /adjust.*(?:relief|speed|threshold|max.out|ramp rate)/i,
+    /restore.*default/i,
+    /prime the pump/i,
+    /test the (?:hydraulic|pump)/i,
+    /system test/i,
+    /install and calibrate/i,
+    /activate the battery drain/i,
+    /adjust the (?:lift|steer|system) (?:speed|relief)/i,
+  ];
+  return quickPatterns.some(p => p.test(t));
+}
+
 // ===== Generate markdown =====
 function procToMarkdown(proc, manualPrefix) {
   const slug = proc.title.toLowerCase()
@@ -434,6 +475,7 @@ for (const manual of manuals) {
 
     for (const proc of procs) {
       const filename = procToMarkdown(proc, prefix);
+      const qa = isQuickAccess(proc);
       procedures.push({
         id: filename.replace('.md', ''),
         title: proc.title,
@@ -441,7 +483,8 @@ for (const manual of manuals) {
         file: filename,
         steps: proc.subSections && proc.subSections.length > 0
           ? proc.subSections.reduce((a, s) => a + s.steps.length, 0)
-          : proc.steps.length
+          : proc.steps.length,
+        quickAccess: qa
       });
       totalProcs++;
     }

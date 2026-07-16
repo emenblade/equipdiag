@@ -180,6 +180,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sa
 <div class="nav">
   <div class="nav-inner">
     <button class="active" onclick="setMode('search')" id="modeSearch">Search Codes</button>
+    <button onclick="setMode('quickaccess')" id="modeQuickaccess" style="color:#f0a030;">★ Quick</button>
     <button onclick="setMode('procedures')" id="modeProcedures">Procedures</button>
     <button onclick="setMode('sources')" id="modeSources">Sources</button>
     <button onclick="setMode('fmi')" id="modeFmi">FMI Ref</button>
@@ -207,6 +208,23 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sa
   </div>
   <div class="section-title" id="searchResultTitle" style="display:none;"></div>
   <div id="searchResult"></div>
+</div>
+
+<!-- ===== QUICK ACCESS ===== -->
+<div id="quickaccessMode" class="hidden">
+  <div id="qaListContainer">
+    <div class="search-panel">
+      <div class="search-row">
+        <input type="text" id="qaFilter" placeholder="Filter quick-access procedures...">
+      </div>
+      <div class="filter-chips" id="qaChips"></div>
+    </div>
+    <div id="qaList"></div>
+  </div>
+  <div id="qaDetailContainer" class="hidden">
+    <span class="back" onclick="backToQA()">&larr; Back to quick access</span>
+    <div id="qaBody" class="proc-detail"></div>
+  </div>
 </div>
 
 <!-- ===== PROCEDURES ===== -->
@@ -271,9 +289,11 @@ let unifiedData = [];
 let fmiData = [];
 let sourcesMap = {};
 let proceduresData = [];
+let quickAccessData = [];
 let currentSource = null;
 let currentPage = 0;
 let currentProc = null;
+let currentQA = null;
 let procFilterEquip = '';
 const PAGE_SIZE = 50;
 
@@ -293,6 +313,7 @@ async function loadData() {
     fmiData = await fmiRes.json();
     sourcesMap = await sourcesRes.json();
     proceduresData = await procRes.json();
+    quickAccessData = proceduresData.filter(p => p.quickAccess);
 
     const types = new Set(unifiedData.map(c => c.type));
     document.getElementById('totalCount').textContent = unifiedData.length.toLocaleString();
@@ -304,6 +325,8 @@ async function loadData() {
     renderSources();
     renderProcChips();
     renderProcedures();
+    renderQAChips();
+    renderQuickAccess();
 
     if (window.location.hash) {
       const h = window.location.hash.slice(1);
@@ -398,7 +421,7 @@ function changePage(delta) {
 
 // ===== PROCEDURES =====
 function renderProcChips() {
-  const equip = [...new Set(proceduresData.map(p => p.machine).filter(Boolean))].sort();
+  const equip = [...new Set(proceduresData.map(p => p.equipment).filter(Boolean))].sort();
   const chips = document.getElementById('procChips');
   chips.innerHTML = `<span class="chip ${!procFilterEquip ? 'active' : ''}" onclick="setProcFilter('')">All</span>` +
     equip.map(e => `<span class="chip ${procFilterEquip === e ? 'active' : ''}" onclick="setProcFilter('${e.replace(/'/g, "\\'")}')">${e}</span>`).join('');
@@ -413,16 +436,16 @@ function setProcFilter(equip) {
 function renderProcedures() {
   const filter = (document.getElementById('procFilter')?.value || '').toLowerCase();
   let filtered = proceduresData;
-  if (procFilterEquip) filtered = filtered.filter(p => p.machine === procFilterEquip);
+  if (procFilterEquip) filtered = filtered.filter(p => p.equipment === procFilterEquip);
   if (filter) filtered = filtered.filter(p =>
-    p.machine?.toLowerCase().includes(filter) ||
+    p.equipment?.toLowerCase().includes(filter) ||
     p.title?.toLowerCase().includes(filter)
   );
 
   document.getElementById('procList').innerHTML = filtered.length
     ? filtered.map(p =>
       `<div class="proc-card" onclick="openProcedure('${p.id}')">
-        <div class="proc-machine">${p.machine || 'General'}</div>
+        <div class="proc-machine">${p.equipment || 'General'}</div>
         <div class="proc-title">${p.title}</div>
         <div class="proc-meta"><span class="proc-tag">${p.steps} steps</span></div>
       </div>`
@@ -484,6 +507,55 @@ function simpleMarkdown(text) {
     .replace(/\n\n/g, '</p><p>')
     .replace(/\n/g, '<br>');
   return '<p>' + html + '</p>';
+}
+
+// ===== QUICK ACCESS =====
+let qaFilterEquip = '';
+function renderQAChips() {
+  const equip = [...new Set(quickAccessData.map(p => p.equipment).filter(Boolean))].sort();
+  const chips = document.getElementById('qaChips');
+  chips.innerHTML = `<span class="chip ${!qaFilterEquip ? 'active' : ''}" onclick="setQAFilter('')">All</span>` +
+    equip.map(e => `<span class="chip ${qaFilterEquip === e ? 'active' : ''}" onclick="setQAFilter('${e.replace(/'/g, "\\'")}')">${e}</span>`).join('');
+}
+function setQAFilter(equip) {
+  qaFilterEquip = equip;
+  renderQAChips();
+  renderQuickAccess();
+}
+function renderQuickAccess() {
+  const filter = (document.getElementById('qaFilter')?.value || '').toLowerCase();
+  let filtered = quickAccessData;
+  if (qaFilterEquip) filtered = filtered.filter(p => p.equipment === qaFilterEquip);
+  if (filter) filtered = filtered.filter(p =>
+    p.equipment?.toLowerCase().includes(filter) ||
+    p.title?.toLowerCase().includes(filter)
+  );
+  document.getElementById('qaList').innerHTML = filtered.length
+    ? filtered.map(p =>
+      `<div class="proc-card" onclick="openQA('${p.id}')">
+        <div class="proc-machine">${p.equipment || 'General'}</div>
+        <div class="proc-title">${p.title}</div>
+        <div class="proc-meta"><span class="proc-tag">${p.steps} steps</span></div>
+      </div>`
+    ).join('')
+    : '<div class="empty-state">No quick-access procedures found.</div>';
+}
+function openQA(id) {
+  currentQA = quickAccessData.find(p => p.id === id);
+  if (!currentQA) return;
+  document.getElementById('qaListContainer').classList.add('hidden');
+  document.getElementById('qaDetailContainer').classList.remove('hidden');
+  document.getElementById('qaBody').innerHTML = '<div style="color:#444;text-align:center;padding:2rem;">Loading...</div>';
+  const url = currentQA.file || `procedures/${id}.md`;
+  fetch(url)
+    .then(r => r.ok ? r.text() : '<p>Not found.</p>')
+    .then(md => { document.getElementById('qaBody').innerHTML = simpleMarkdown(md); })
+    .catch(() => { document.getElementById('qaBody').innerHTML = '<p>Error loading procedure.</p>'; });
+}
+function backToQA() {
+  currentQA = null;
+  document.getElementById('qaListContainer').classList.remove('hidden');
+  document.getElementById('qaDetailContainer').classList.add('hidden');
 }
 
 // ===== SEARCH =====
@@ -596,10 +668,11 @@ function decodeDTC() {
 function setMode(mode) {
   document.querySelectorAll('.nav button').forEach(b => b.classList.remove('active'));
   document.getElementById('mode' + mode.charAt(0).toUpperCase() + mode.slice(1)).classList.add('active');
-  ['search','procedures','sources','fmi','dtc'].forEach(m => {
+  ['search','procedures','sources','fmi','dtc','quickaccess'].forEach(m => {
     document.getElementById(m + 'Mode').classList.toggle('hidden', mode !== m);
   });
   if (mode === 'procedures') { renderProcChips(); renderProcedures(); }
+  if (mode === 'quickaccess') { renderQAChips(); renderQuickAccess(); }
   if (mode === 'sources') renderSources();
 }
 
@@ -607,6 +680,7 @@ document.addEventListener('DOMContentLoaded', loadData);
 document.addEventListener('input', e => {
   if (e.target.id === 'sourceFilter') { currentPage = 0; renderSourceCodes(); }
   if (e.target.id === 'procFilter') renderProcedures();
+  if (e.target.id === 'qaFilter') renderQuickAccess();
 });
 document.getElementById('searchInput').addEventListener('keydown', e => { if (e.key === 'Enter') searchCodes(); });
 document.getElementById('dtcSpn').addEventListener('keydown', e => { if (e.key === 'Enter') decodeDTC(); });
