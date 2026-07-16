@@ -838,7 +838,7 @@ function decodeDTC() {
 function setMode(mode) {
   document.querySelectorAll('.nav button').forEach(b => b.classList.remove('active'));
   document.getElementById('mode' + mode.charAt(0).toUpperCase() + mode.slice(1)).classList.add('active');
-  ['search','procedures','sources','fmi','dtc','quickaccess'].forEach(m => {
+  ['search','procedures','sources','fmi','dtc','quickaccess','ac'].forEach(m => {
     document.getElementById(m + 'Mode').classList.toggle('hidden', mode !== m);
   });
   if (mode === 'procedures') { renderProcChips(); renderProcedures(); }
