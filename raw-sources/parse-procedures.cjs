@@ -203,6 +203,56 @@ function extractJohnDeere(text, model) {
   return results;
 }
 
+// ===== Genie GTH-5519 table-based maintenance checklist =====
+function extractGTH(text, model) {
+  const pp = text.split(/\nPAGE \d+/);
+  const fullText = pp.join('\n');
+  const results = [];
+
+  const itemRe = /([A-D])-(\d{1,2})\s{2,}([A-Z][A-Za-z0-9\s\/,;'.()\-]{8,100}?)(?=\s{2,}(?:[A-D]-\d|\d{1,3}\s|$))/g;
+  let m;
+  const seen = new Set();
+  while ((m = itemRe.exec(fullText)) !== null) {
+    const code = m[1] + '-' + m[2];
+    let title = m[3].trim();
+    const nlIdx = title.indexOf('\n');
+    if (nlIdx > 0) title = title.substring(0, nlIdx).trim();
+    title = title.replace(/\.+$/, '').trim();
+    if (seen.has(code)) continue;
+    seen.add(code);
+
+    // Find the detailed section for this item (if any exists after the table)
+    const detailIdx = fullText.indexOf(code, m.index + 10);
+    let detailText = '';
+    if (detailIdx > 0 && detailIdx < m.index + 5000) {
+      const nextItem = fullText.slice(detailIdx + code.length).match(/[A-D]-\d{1,2}\s{2,}/);
+      const endIdx = nextItem ? detailIdx + code.length + nextItem.index : Math.min(detailIdx + 2000, fullText.length);
+      detailText = fullText.substring(detailIdx, endIdx);
+    }
+
+    const steps = [];
+    const stepRe = /(\d+)\.\s{2,}([A-Z][A-Za-z0-9\s\/,;'.()\-]{8,100}?)(?=\s+\d+\.|$)/g;
+    let sm;
+    if (detailText) {
+      while ((sm = stepRe.exec(detailText)) !== null) {
+        const num = parseInt(sm[1]);
+        const txt = sm[2].trim();
+        if (txt.length >= 8 && num <= 30) steps.push({ num, text: txt });
+      }
+    }
+
+    results.push({
+      title: code + ' ' + title,
+      equipment: model,
+      steps: steps.length >= 1 ? steps : [{ num: 1, text: title }],
+      warnings: [],
+      notes: [],
+      subSections: []
+    });
+  }
+  return results;
+}
+
 // ===== Doosan DGK-style "Checking the X" / "Oil Change" with steps =====
 function titleQuality(title) {
   const badPatterns = [/^[A-Z][a-z]+$/, /^\d/, /^XX/, /Violet of CN/, /Exciter Field Current/, /Measurements taken/, /^\s{0,10}$/];
@@ -342,7 +392,7 @@ const manuals = [
   { file: 'genie-s65-manual.txt', model: 'Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX', parser: 'genie' },
   { file: 'genie-gs1930-manual.txt', model: 'Genie GS-1930 / GS-2632 / GS-3232', parser: 'genie' },
   { file: 'genie-s80-manual.txt', model: 'Genie S-80 / S-85', parser: 'genie' },
-  { file: 'genie-gth5519-manual.txt', model: 'Genie GTH-5519', parser: 'genie' },
+  { file: 'genie-gth5519-manual.txt', model: 'Genie GTH-5519', parser: 'gth' },
   { file: 'jlg800s860sj-manual.txt', model: 'JLG 800S / 860SJ', parser: 'jlg' },
   { file: 'jlg-450aj-manual.txt', model: 'JLG 450AJ', parser: 'jlg' },
   { file: 'skyjack-4632-manual.txt', model: 'Skyjack 4632 / 3226 / 4626', parser: 'jlg' },
@@ -374,6 +424,8 @@ for (const manual of manuals) {
       procs = extractJohnDeere(text, manual.model);
     } else if (manual.parser === 'doosan') {
       procs = extractDoosan(text, manual.model);
+    } else if (manual.parser === 'gth') {
+      procs = extractGTH(text, manual.model);
     } else {
       procs = extractJLG(text, manual.model);
     }

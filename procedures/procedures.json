@@ -1106,6 +1106,328 @@
     "steps": 4
   },
   {
+    "id": "genie-gth5519-a-1-check-the-oil-level-within-reduction-gears-power-divider-and-",
+    "title": "A-1 Check the oil level within reduction gears, power divider and differential gears",
+    "equipment": "Genie GTH-5519",
+    "file": "genie-gth5519-a-1-check-the-oil-level-within-reduction-gears-power-divider-and-.md",
+    "steps": 1
+  },
+  {
+    "id": "genie-gth5519-a-2-check-the-tightening-of-the-wheel-bolts-and-the-tyre-pressure",
+    "title": "A-2 Check the tightening of the wheel bolts and the tyre pressure",
+    "equipment": "Genie GTH-5519",
+    "file": "genie-gth5519-a-2-check-the-tightening-of-the-wheel-bolts-and-the-tyre-pressure.md",
+    "steps": 1
+  },
+  {
+    "id": "genie-gth5519-a-3-check-the-tightening-of-all-bolts-and-nuts",
+    "title": "A-3 Check the tightening of all bolts and nuts",
+    "equipment": "Genie GTH-5519",
+    "file": "genie-gth5519-a-3-check-the-tightening-of-all-bolts-and-nuts.md",
+    "steps": 1
+  },
+  {
+    "id": "genie-gth5519-a-4-check-the-couplings-for-oil-leaks",
+    "title": "A-4 Check the couplings for oil leaks",
+    "equipment": "Genie GTH-5519",
+    "file": "genie-gth5519-a-4-check-the-couplings-for-oil-leaks.md",
+    "steps": 1
+  },
+  {
+    "id": "genie-gth5519-a-5-inspect-the-operator-s-manual",
+    "title": "A-5 Inspect the Operator's manual",
+    "equipment": "Genie GTH-5519",
+    "file": "genie-gth5519-a-5-inspect-the-operator-s-manual.md",
+    "steps": 1
+  },
+  {
+    "id": "genie-gth5519-a-6-inspect-the-decals-and-plates",
+    "title": "A-6 Inspect the decals and plates",
+    "equipment": "Genie GTH-5519",
+    "file": "genie-gth5519-a-6-inspect-the-decals-and-plates.md",
+    "steps": 1
+  },
+  {
+    "id": "genie-gth5519-a-7-check-the-engine-oil-level",
+    "title": "A-7 Check the engine oil level",
+    "equipment": "Genie GTH-5519",
+    "file": "genie-gth5519-a-7-check-the-engine-oil-level.md",
+    "steps": 1
+  },
+  {
+    "id": "genie-gth5519-a-8-clean-the-air-suction-filter",
+    "title": "A-8 Clean the air suction filter",
+    "equipment": "Genie GTH-5519",
+    "file": "genie-gth5519-a-8-clean-the-air-suction-filter.md",
+    "steps": 1
+  },
+  {
+    "id": "genie-gth5519-a-9-check-and-clean-the-radiator",
+    "title": "A-9 Check and clean the radiator",
+    "equipment": "Genie GTH-5519",
+    "file": "genie-gth5519-a-9-check-and-clean-the-radiator.md",
+    "steps": 1
+  },
+  {
+    "id": "genie-gth5519-b-1-check-the-machine-is-in-efficient-working-order",
+    "title": "B-1 Check the machine is in efficient working order",
+    "equipment": "Genie GTH-5519",
+    "file": "genie-gth5519-b-1-check-the-machine-is-in-efficient-working-order.md",
+    "steps": 1
+  },
+  {
+    "id": "genie-gth5519-b-2-check-the-tension-of-the-alternator-belt",
+    "title": "B-2 Check the tension of the alternator belt",
+    "equipment": "Genie GTH-5519",
+    "file": "genie-gth5519-b-2-check-the-tension-of-the-alternator-belt.md",
+    "steps": 1
+  },
+  {
+    "id": "genie-gth5519-b-3-check-the-tyre-inflation",
+    "title": "B-3 Check the tyre inflation",
+    "equipment": "Genie GTH-5519",
+    "file": "genie-gth5519-b-3-check-the-tyre-inflation.md",
+    "steps": 1
+  },
+  {
+    "id": "genie-gth5519-b-4-check-the-tightening-of-the-wheel-nuts",
+    "title": "B-4 Check the tightening of the wheel nuts",
+    "equipment": "Genie GTH-5519",
+    "file": "genie-gth5519-b-4-check-the-tightening-of-the-wheel-nuts.md",
+    "steps": 1
+  },
+  {
+    "id": "genie-gth5519-b-5-check-the-tightening-of-the-cardan-shaft-screws",
+    "title": "B-5 Check the tightening of the cardan shaft screws",
+    "equipment": "Genie GTH-5519",
+    "file": "genie-gth5519-b-5-check-the-tightening-of-the-cardan-shaft-screws.md",
+    "steps": 1
+  },
+  {
+    "id": "genie-gth5519-c-1-change-the-engine-oil-and-relevant-filter",
+    "title": "C-1 Change the engine oil and relevant filter",
+    "equipment": "Genie GTH-5519",
+    "file": "genie-gth5519-c-1-change-the-engine-oil-and-relevant-filter.md",
+    "steps": 1
+  },
+  {
+    "id": "genie-gth5519-c-2-check-the-oil-level-in-the-differential-gears-and-power-divid",
+    "title": "C-2 Check the oil level in the differential gears and power divider",
+    "equipment": "Genie GTH-5519",
+    "file": "genie-gth5519-c-2-check-the-oil-level-in-the-differential-gears-and-power-divid.md",
+    "steps": 1
+  },
+  {
+    "id": "genie-gth5519-c-3-check-the-oil-level-in-the-four-wheel-reduction-gears",
+    "title": "C-3 Check the oil level in the four wheel reduction gears",
+    "equipment": "Genie GTH-5519",
+    "file": "genie-gth5519-c-3-check-the-oil-level-in-the-four-wheel-reduction-gears.md",
+    "steps": 1
+  },
+  {
+    "id": "genie-gth5519-c-4-check-and-clean-the-engine-air-filter",
+    "title": "C-4 Check and clean the engine air filter",
+    "equipment": "Genie GTH-5519",
+    "file": "genie-gth5519-c-4-check-and-clean-the-engine-air-filter.md",
+    "steps": 1
+  },
+  {
+    "id": "genie-gth5519-c-5-check-the-clamping-of-the-cableheads-to-the-battery-terminals",
+    "title": "C-5 Check the clamping of the cableheads to the battery terminals",
+    "equipment": "Genie GTH-5519",
+    "file": "genie-gth5519-c-5-check-the-clamping-of-the-cableheads-to-the-battery-terminals.md",
+    "steps": 1
+  },
+  {
+    "id": "genie-gth5519-c-6-check-the-air-suction-hose-between-engine-and-filter",
+    "title": "C-6 Check the air suction hose between engine and filter",
+    "equipment": "Genie GTH-5519",
+    "file": "genie-gth5519-c-6-check-the-air-suction-hose-between-engine-and-filter.md",
+    "steps": 1
+  },
+  {
+    "id": "genie-gth5519-c-7-check-the-cylinder-chromium-plated-rods",
+    "title": "C-7 Check the cylinder chromium-plated rods",
+    "equipment": "Genie GTH-5519",
+    "file": "genie-gth5519-c-7-check-the-cylinder-chromium-plated-rods.md",
+    "steps": 1
+  },
+  {
+    "id": "genie-gth5519-c-8-check-the-hydraulic-lines",
+    "title": "C-8 Check the hydraulic lines",
+    "equipment": "Genie GTH-5519",
+    "file": "genie-gth5519-c-8-check-the-hydraulic-lines.md",
+    "steps": 1
+  },
+  {
+    "id": "genie-gth5519-c-9-check-the-electric-cables",
+    "title": "C-9 Check the electric cables",
+    "equipment": "Genie GTH-5519",
+    "file": "genie-gth5519-c-9-check-the-electric-cables.md",
+    "steps": 1
+  },
+  {
+    "id": "genie-gth5519-d-1-visually-check-the-smoke-quantity-evacuated-from-the-engine-e",
+    "title": "D-1 Visually check the smoke quantity evacuated from the engine exhaust",
+    "equipment": "Genie GTH-5519",
+    "file": "genie-gth5519-d-1-visually-check-the-smoke-quantity-evacuated-from-the-engine-e.md",
+    "steps": 1
+  },
+  {
+    "id": "genie-gth5519-d-2-check-the-tightening-of-the-engine-fixing-screws",
+    "title": "D-2 Check the tightening of the engine fixing screws",
+    "equipment": "Genie GTH-5519",
+    "file": "genie-gth5519-d-2-check-the-tightening-of-the-engine-fixing-screws.md",
+    "steps": 1
+  },
+  {
+    "id": "genie-gth5519-d-3-check-the-tightening-of-the-cab-fixing-screws",
+    "title": "D-3 Check the tightening of the cab fixing screws",
+    "equipment": "Genie GTH-5519",
+    "file": "genie-gth5519-d-3-check-the-tightening-of-the-cab-fixing-screws.md",
+    "steps": 1
+  },
+  {
+    "id": "genie-gth5519-d-4-check-the-backlash-between-pins-and-bushings-in-all-joints",
+    "title": "D-4 Check the backlash between pins and bushings in all joints",
+    "equipment": "Genie GTH-5519",
+    "file": "genie-gth5519-d-4-check-the-backlash-between-pins-and-bushings-in-all-joints.md",
+    "steps": 1
+  },
+  {
+    "id": "genie-gth5519-d-5-change-the-hydraulic-oil-filter",
+    "title": "D-5 Change the hydraulic oil filter",
+    "equipment": "Genie GTH-5519",
+    "file": "genie-gth5519-d-5-change-the-hydraulic-oil-filter.md",
+    "steps": 1
+  },
+  {
+    "id": "genie-gth5519-d-6-change-the-hydraulic-oil-filter-in-the-tank",
+    "title": "D-6 Change the hydraulic oil filter in the tank",
+    "equipment": "Genie GTH-5519",
+    "file": "genie-gth5519-d-6-change-the-hydraulic-oil-filter-in-the-tank.md",
+    "steps": 1
+  },
+  {
+    "id": "genie-gth5519-d-7-have-the-hydraulic-system-checked-by-a-skilled-technician",
+    "title": "D-7 Have the hydraulic system checked by a skilled technician",
+    "equipment": "Genie GTH-5519",
+    "file": "genie-gth5519-d-7-have-the-hydraulic-system-checked-by-a-skilled-technician.md",
+    "steps": 1
+  },
+  {
+    "id": "genie-gth5519-d-8-change-the-main-cartridge-of-the-engine-air-filter",
+    "title": "D-8 Change the main cartridge of the engine air filter",
+    "equipment": "Genie GTH-5519",
+    "file": "genie-gth5519-d-8-change-the-main-cartridge-of-the-engine-air-filter.md",
+    "steps": 1
+  },
+  {
+    "id": "genie-gth5519-d-9-clean-the-cab-air-filter",
+    "title": "D-9 Clean the cab air filter",
+    "equipment": "Genie GTH-5519",
+    "file": "genie-gth5519-d-9-clean-the-cab-air-filter.md",
+    "steps": 1
+  },
+  {
+    "id": "genie-gth5519-a-10-check-the-hydraulic-oil-level-in-the-tank",
+    "title": "A-10 Check the hydraulic oil level in the tank",
+    "equipment": "Genie GTH-5519",
+    "file": "genie-gth5519-a-10-check-the-hydraulic-oil-level-in-the-tank.md",
+    "steps": 1
+  },
+  {
+    "id": "genie-gth5519-a-11-check-the-greasing-of-the-boom-section-pads",
+    "title": "A-11 Check the greasing of the boom section pads",
+    "equipment": "Genie GTH-5519",
+    "file": "genie-gth5519-a-11-check-the-greasing-of-the-boom-section-pads.md",
+    "steps": 1
+  },
+  {
+    "id": "genie-gth5519-a-12-grease-the-forks",
+    "title": "A-12 Grease the forks",
+    "equipment": "Genie GTH-5519",
+    "file": "genie-gth5519-a-12-grease-the-forks.md",
+    "steps": 1
+  },
+  {
+    "id": "genie-gth5519-a-14-check-the-efficiency-of-the-lighting-electric-system",
+    "title": "A-14 Check the efficiency of the lighting electric system",
+    "equipment": "Genie GTH-5519",
+    "file": "genie-gth5519-a-14-check-the-efficiency-of-the-lighting-electric-system.md",
+    "steps": 1
+  },
+  {
+    "id": "genie-gth5519-a-15-check-the-efficiency-of-braking-system-and-parking-brake",
+    "title": "A-15 Check the efficiency of braking system and parking brake",
+    "equipment": "Genie GTH-5519",
+    "file": "genie-gth5519-a-15-check-the-efficiency-of-braking-system-and-parking-brake.md",
+    "steps": 1
+  },
+  {
+    "id": "genie-gth5519-a-16-check-the-efficiency-of-the-steering-selection-system",
+    "title": "A-16 Check the efficiency of the steering selection system",
+    "equipment": "Genie GTH-5519",
+    "file": "genie-gth5519-a-16-check-the-efficiency-of-the-steering-selection-system.md",
+    "steps": 1
+  },
+  {
+    "id": "genie-gth5519-a-17-check-the-efficiency-of-the-fork-balancing-system",
+    "title": "A-17 Check the efficiency of the fork balancing system",
+    "equipment": "Genie GTH-5519",
+    "file": "genie-gth5519-a-17-check-the-efficiency-of-the-fork-balancing-system.md",
+    "steps": 1
+  },
+  {
+    "id": "genie-gth5519-a-18-make-sure-the-safety-devices-installed-are-in-efficient-work",
+    "title": "A-18 Make sure the safety devices installed are in efficient working order",
+    "equipment": "Genie GTH-5519",
+    "file": "genie-gth5519-a-18-make-sure-the-safety-devices-installed-are-in-efficient-work.md",
+    "steps": 1
+  },
+  {
+    "id": "genie-gth5519-a-19-check-the-engine-coolant-level",
+    "title": "A-19 Check the engine coolant level",
+    "equipment": "Genie GTH-5519",
+    "file": "genie-gth5519-a-19-check-the-engine-coolant-level.md",
+    "steps": 1
+  },
+  {
+    "id": "genie-gth5519-c-10-check-the-wear-of-the-sliding-pads-of-the-boom-sections",
+    "title": "C-10 Check the wear of the sliding pads of the boom sections",
+    "equipment": "Genie GTH-5519",
+    "file": "genie-gth5519-c-10-check-the-wear-of-the-sliding-pads-of-the-boom-sections.md",
+    "steps": 1
+  },
+  {
+    "id": "genie-gth5519-c-11-adjust-the-play-of-the-sliding-pads-of-the-boom-sections",
+    "title": "C-11 Adjust the play of the sliding pads of the boom sections",
+    "equipment": "Genie GTH-5519",
+    "file": "genie-gth5519-c-11-adjust-the-play-of-the-sliding-pads-of-the-boom-sections.md",
+    "steps": 1
+  },
+  {
+    "id": "genie-gth5519-c-12-remove-any-grease-from-the-boom-then-re-grease-the-sliding-p",
+    "title": "C-12 Remove any grease from the boom, then re-grease the sliding parts of the boom sections",
+    "equipment": "Genie GTH-5519",
+    "file": "genie-gth5519-c-12-remove-any-grease-from-the-boom-then-re-grease-the-sliding-p.md",
+    "steps": 1
+  },
+  {
+    "id": "genie-gth5519-c-13-check-the-level-of-the-battery-electrolyte",
+    "title": "C-13 Check the level of the battery electrolyte",
+    "equipment": "Genie GTH-5519",
+    "file": "genie-gth5519-c-13-check-the-level-of-the-battery-electrolyte.md",
+    "steps": 1
+  },
+  {
+    "id": "genie-gth5519-c-14-check-the-efficiency-of-the-block-valves",
+    "title": "C-14 Check the efficiency of the block valves",
+    "equipment": "Genie GTH-5519",
+    "file": "genie-gth5519-c-14-check-the-efficiency-of-the-block-valves.md",
+    "steps": 1
+  },
+  {
     "id": "jlg800s860sj-operating-specifications",
     "title": "OPERATING SPECIFICATIONS",
     "equipment": "JLG 800S / 860SJ",
