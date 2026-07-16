@@ -2,201 +2,268 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>equipdiag - Diagnostic Code Reference</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>equipdiag — Diagnostic Code Reference</title>
 <style>
-* { box-sizing: border-box; margin: 0; padding: 0; }
-body { font-family: system-ui, -apple-system, sans-serif; background: #111; color: #e0e0e0; min-height: 100vh; }
-.header { background: #1a1a2e; border-bottom: 2px solid #e94560; padding: 1rem 2rem; display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; }
-.header h1 { font-size: 1.3rem; color: #e94560; letter-spacing: 0.5px; }
-.header .subtitle { color: #888; font-size: 0.85rem; }
-.container { max-width: 1200px; margin: 0 auto; padding: 1.5rem; }
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; background: #0d0d0d; color: #e0e0e0; min-height: 100vh; }
 
-.search-box { background: #1e1e2e; border: 1px solid #333; border-radius: 8px; padding: 1.5rem; margin-bottom: 1.5rem; }
-.search-box h2 { font-size: 1rem; color: #aaa; margin-bottom: 0.75rem; }
-.search-row { display: flex; gap: 0.75rem; flex-wrap: wrap; align-items: center; }
-.search-row input { flex: 1; min-width: 200px; padding: 0.65rem 1rem; border: 1px solid #333; border-radius: 6px; background: #111; color: #e0e0e0; font-size: 1rem; }
+/* Header */
+.header { background: linear-gradient(135deg, #0d0d0d 0%, #1a0a0a 100%); border-bottom: 1px solid #2a1a1a; padding: 0; position: sticky; top: 0; z-index: 100; }
+.header-inner { max-width: 1200px; margin: 0 auto; padding: 0.75rem 1.5rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem; }
+.header-left { display: flex; align-items: center; gap: 0.75rem; }
+.logo { width: 32px; height: 32px; background: #e94560; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 1rem; color: #fff; }
+.header h1 { font-size: 1.15rem; color: #e0e0e0; font-weight: 600; letter-spacing: 0.3px; }
+.header h1 span { color: #e94560; }
+.header .subtitle { color: #666; font-size: 0.8rem; }
+
+/* Nav tabs */
+.nav { display: flex; gap: 0; background: #111; border-bottom: 1px solid #1a1a1a; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.nav-inner { max-width: 1200px; margin: 0 auto; width: 100%; display: flex; }
+.nav button { flex: 0 0 auto; padding: 0.65rem 1.25rem; border: none; background: transparent; color: #666; font-size: 0.85rem; font-weight: 500; cursor: pointer; border-bottom: 2px solid transparent; transition: all 0.15s; white-space: nowrap; }
+.nav button:hover { color: #aaa; }
+.nav button.active { color: #e94560; border-bottom-color: #e94560; background: #0d0d0d; }
+
+.container { max-width: 1200px; margin: 0 auto; padding: 1.25rem 1.5rem; }
+
+/* Stats bar */
+.stats { display: flex; gap: 0; background: #111; border: 1px solid #1a1a1a; border-radius: 8px; overflow: hidden; margin-bottom: 1.25rem; }
+.stat-item { flex: 1; padding: 0.75rem 0.5rem; text-align: center; border-right: 1px solid #1a1a1a; }
+.stat-item:last-child { border-right: none; }
+.stat-item .num { font-size: 1.3rem; font-weight: 700; color: #e94560; line-height: 1.2; }
+.stat-item .label { font-size: 0.7rem; color: #555; text-transform: uppercase; letter-spacing: 0.5px; }
+
+/* Section */
+.section-title { font-size: 1rem; color: #888; font-weight: 600; margin-bottom: 0.75rem; letter-spacing: 0.3px; }
+
+/* Search panel */
+.search-panel { background: #111; border: 1px solid #1a1a1a; border-radius: 8px; padding: 1rem; margin-bottom: 1.25rem; }
+.search-row { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+.search-row input { flex: 1; min-width: 180px; padding: 0.6rem 0.9rem; border: 1px solid #222; border-radius: 6px; background: #0a0a0a; color: #e0e0e0; font-size: 0.9rem; }
 .search-row input:focus { outline: none; border-color: #e94560; }
-.search-row button { padding: 0.65rem 1.5rem; border: none; border-radius: 6px; background: #e94560; color: #fff; font-weight: 600; cursor: pointer; font-size: 0.9rem; }
-.search-row button:hover { background: #d63851; }
-.search-row button.secondary { background: #333; }
-.search-row button.secondary:hover { background: #444; }
-.hint { font-size: 0.8rem; color: #666; margin-top: 0.5rem; }
-.results { margin-top: 1rem; }
+.search-row button { padding: 0.6rem 1.25rem; border: none; border-radius: 6px; font-weight: 600; cursor: pointer; font-size: 0.85rem; transition: 0.15s; }
+.btn-primary { background: #e94560; color: #fff; }
+.btn-primary:hover { background: #d63851; }
+.btn-ghost { background: transparent; border: 1px solid #333 !important; color: #888; }
+.btn-ghost:hover { border-color: #555; color: #ccc; }
 
-.code-card { background: #1a1a2e; border: 1px solid #2a2a3e; border-radius: 8px; padding: 1rem; margin-bottom: 0.75rem; }
-.code-card .code-num { color: #e94560; font-weight: 700; font-size: 1.2rem; }
-.code-card .code-desc { color: #ccc; margin-top: 0.25rem; }
-.code-card .code-meta { margin-top: 0.4rem; display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center; }
-.code-card .code-source { font-size: 0.75rem; color: #666; }
+/* Filter chips */
+.filter-chips { display: flex; gap: 0.35rem; flex-wrap: wrap; margin: 0.75rem 0 0.25rem; }
+.chip { display: inline-block; padding: 0.2rem 0.6rem; border-radius: 4px; font-size: 0.7rem; font-weight: 500; border: 1px solid #222; background: #111; color: #666; cursor: pointer; transition: 0.1s; }
+.chip:hover { border-color: #444; color: #999; }
+.chip.active { border-color: #e94560; color: #e94560; background: #1a0a0a; }
+.chip-detail { color: #555; font-weight: 400; }
 
-.std-badge { display: inline-block; padding: 2px 7px; border-radius: 3px; font-size: 0.7rem; font-weight: 600; }
+/* Code cards */
+.code-card { background: #111; border: 1px solid #1a1a1a; border-radius: 6px; padding: 0.85rem; margin-bottom: 0.5rem; }
+.code-card .top { display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; }
+.code-card .code-num { color: #e94560; font-weight: 700; font-size: 1.1rem; }
+.code-card .code-desc { color: #bbb; margin-top: 0.25rem; font-size: 0.9rem; line-height: 1.4; }
+.code-card .code-source { font-size: 0.75rem; color: #444; margin-top: 0.35rem; }
+.code-card .code-fmi { font-size: 0.8rem; color: #666; margin-top: 0.2rem; }
+
+/* Standard badges */
+.std-badge { display: inline-block; padding: 1px 6px; border-radius: 3px; font-size: 0.65rem; font-weight: 600; vertical-align: middle; }
 .std-J1939 { background: #0a2a1a; color: #66dd99; border: 1px solid #1a4a2a; }
 .std-J1939-DEUTZ { background: #0a2a2a; color: #66dddd; border: 1px solid #1a4a4a; }
+.std-J1939-Cummins { background: #0a1a2a; color: #6699dd; border: 1px solid #1a2a4a; }
 .std-J1587 { background: #2a1a0a; color: #dd9966; border: 1px solid #4a2a1a; }
 .std-J1708 { background: #1a0a2a; color: #9966dd; border: 1px solid #2a1a4a; }
 .std-J1708-J1587-J1939 { background: #1a1a2a; color: #9999dd; border: 1px solid #2a2a4a; }
 .std-CNH { background: #2a0a0a; color: #dd6666; border: 1px solid #4a1a1a; }
 .std-Ford { background: #0a1a2a; color: #6699dd; border: 1px solid #1a2a4a; }
-.std-Unk { background: #2a2a2a; color: #999; border: 1px solid #444; }
+.std-DEUTZ { background: #0a2a0a; color: #66dd66; border: 1px solid #1a4a1a; }
+.std-Isuzu { background: #1a1a0a; color: #dddd66; border: 1px solid #4a4a1a; }
+.std-MEC { background: #0a1a1a; color: #66dddd; border: 1px solid #1a4a4a; }
+.std-Daewoo { background: #2a1a1a; color: #dd9966; border: 1px solid #4a2a2a; }
+.std-Doosan { background: #1a0a1a; color: #dd66dd; border: 1px solid #4a1a4a; }
+.std-GM { background: #1a1a2a; color: #aaaadd; border: 1px solid #2a2a4a; }
+.std-Perkins { background: #0a2a1a; color: #88dd88; border: 1px solid #1a4a2a; }
+.std-Unk { background: #1a1a1a; color: #888; border: 1px solid #333; }
 
-.proc-card { background: #1a1a2e; border: 1px solid #2a2a3e; border-radius: 8px; padding: 1rem; margin-bottom: 0.75rem; cursor: pointer; }
-.proc-card:hover { border-color: #e94560; }
-.proc-card .proc-machine { color: #e94560; font-weight: 700; font-size: 1rem; }
-.proc-card .proc-title { color: #ccc; margin-top: 0.15rem; }
-.proc-card .proc-tags { margin-top: 0.3rem; display: flex; gap: 0.3rem; flex-wrap: wrap; }
-.proc-tag { display: inline-block; padding: 1px 6px; border-radius: 3px; font-size: 0.7rem; background: #2a2a4e; color: #aaa; }
-
-.fmi-badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.75rem; margin-right: 4px; }
+/* FMI badge */
+.fmi-badge { display: inline-block; padding: 1px 6px; border-radius: 3px; font-size: 0.7rem; }
 .fmi-0, .fmi-1 { background: #6b0000; color: #ff8888; }
 .fmi-2 { background: #6b4a00; color: #ffbb44; }
-.fmi-3 { background: #4a006b; color: #cc88ff; }
-.fmi-4 { background: #4a006b; color: #cc88ff; }
+.fmi-3, .fmi-4 { background: #4a006b; color: #cc88ff; }
 .fmi-5, .fmi-6 { background: #00306b; color: #88bbff; }
 .fmi-7 { background: #006b4a; color: #88ffbb; }
+.fmi-8, .fmi-9, .fmi-10, .fmi-11 { background: #2a2a00; color: #cccc66; }
 .fmi-12 { background: #6b0030; color: #ff88bb; }
+.fmi-13, .fmi-14, .fmi-15 { background: #004a4a; color: #66cccc; }
+.fmi-16, .fmi-17 { background: #2a004a; color: #bb88ff; }
+.fmi-18, .fmi-19 { background: #00306b; color: #88bbff; }
 .fmi-31 { background: #2a4a00; color: #aadd66; }
 
-.stats { background: #1e1e2e; border: 1px solid #333; border-radius: 8px; padding: 1rem; margin-bottom: 1.5rem; display: flex; gap: 2rem; flex-wrap: wrap; }
-.stat-item { text-align: center; }
-.stat-item .num { font-size: 1.5rem; font-weight: 700; color: #e94560; }
-.stat-item .label { font-size: 0.8rem; color: #888; }
+/* Procedure cards */
+.proc-card { background: #111; border: 1px solid #1a1a1a; border-radius: 6px; padding: 0.85rem; margin-bottom: 0.5rem; cursor: pointer; transition: 0.15s; }
+.proc-card:hover { border-color: #e94560; }
+.proc-card .proc-machine { color: #e94560; font-weight: 600; font-size: 0.9rem; }
+.proc-card .proc-title { color: #ccc; margin-top: 0.2rem; font-size: 0.9rem; }
+.proc-card .proc-meta { margin-top: 0.3rem; display: flex; gap: 0.35rem; flex-wrap: wrap; }
+.proc-tag { display: inline-block; padding: 1px 5px; border-radius: 3px; font-size: 0.65rem; background: #1a1a2e; color: #777; }
 
-.fmi-table { background: #1e1e2e; border: 1px solid #333; border-radius: 8px; padding: 1rem; margin-bottom: 1.5rem; }
-.fmi-table table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
-.fmi-table th { text-align: left; padding: 0.5rem; border-bottom: 1px solid #333; color: #888; font-weight: 600; }
-.fmi-table td { padding: 0.5rem; border-bottom: 1px solid #222; }
-.fmi-table tr:hover td { background: #2a2a3e; }
+/* Procedure detail */
+.proc-detail { background: #111; border: 1px solid #1a1a1a; border-radius: 8px; padding: 1.5rem; line-height: 1.65; }
+.proc-detail h1 { color: #e94560; font-size: 1.25rem; margin-bottom: 0.5rem; }
+.proc-detail .equip-info { color: #666; font-size: 0.85rem; margin-bottom: 1rem; padding-bottom: 0.75rem; border-bottom: 1px solid #1a1a1a; }
+.proc-detail h2 { color: #e0e0e0; font-size: 1.05rem; margin: 1rem 0 0.5rem; }
+.proc-detail p { margin: 0.5rem 0; color: #bbb; }
+.proc-detail li { margin: 0.3rem 0; color: #bbb; }
+.proc-detail ul, .proc-detail ol { margin: 0.5rem 0; padding-left: 1.5rem; }
+.proc-detail code { background: #1a1a2e; padding: 0.1rem 0.3rem; border-radius: 3px; font-size: 0.85rem; }
+.proc-detail pre { background: #0a0a0a; padding: 1rem; border-radius: 6px; overflow-x: auto; margin: 0.5rem 0; }
+.proc-detail blockquote { border-left: 3px solid #e94560; padding-left: 0.75rem; margin: 0.5rem 0; color: #777; }
 
-.lookup-type { display: flex; gap: 0.5rem; margin-bottom: 1rem; flex-wrap: wrap; }
-.lookup-type button { padding: 0.4rem 1rem; border: 1px solid #333; border-radius: 4px; background: transparent; color: #888; cursor: pointer; font-size: 0.85rem; }
-.lookup-type button.active { border-color: #e94560; color: #e94560; background: #1a1a2e; }
-.hidden { display: none; }
-
-.source-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 0.75rem; margin-top: 1rem; }
-.source-card { background: #1a1a2e; border: 1px solid #2a2a3e; border-radius: 8px; padding: 1rem; cursor: pointer; }
+/* Source cards */
+.source-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 0.5rem; }
+.source-card { background: #111; border: 1px solid #1a1a1a; border-radius: 6px; padding: 0.85rem; cursor: pointer; transition: 0.15s; }
 .source-card:hover { border-color: #e94560; }
-.source-card .s-name { color: #e0e0e0; font-weight: 600; font-size: 0.9rem; }
-.source-card .s-meta { color: #666; font-size: 0.8rem; margin-top: 0.25rem; }
+.source-card .s-name { color: #ccc; font-weight: 500; font-size: 0.85rem; }
+.source-card .s-meta { color: #555; font-size: 0.75rem; margin-top: 0.2rem; }
 .source-card .s-count { color: #e94560; font-weight: 700; }
 
-.source-header { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem; }
-.source-header h3 { color: #e0e0e0; }
-.type-tag { display: inline-block; padding: 1px 6px; border-radius: 3px; font-size: 0.7rem; background: #2a2a4e; color: #aaa; margin-left: 0.5rem; }
-.back-btn { cursor: pointer; color: #e94560; font-size: 0.85rem; }
+/* FMI table */
+.fmi-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+.fmi-table th { text-align: left; padding: 0.5rem; border-bottom: 1px solid #1a1a1a; color: #555; font-weight: 600; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.5px; }
+.fmi-table td { padding: 0.45rem 0.5rem; border-bottom: 1px solid #111; }
+.fmi-table tr:hover td { background: #0a0a0a; }
 
-.pagination { display: flex; gap: 0.5rem; align-items: center; margin-top: 1rem; justify-content: center; }
-.pagination button { padding: 0.4rem 0.8rem; border: 1px solid #333; border-radius: 4px; background: transparent; color: #888; cursor: pointer; }
-.pagination button.active { border-color: #e94560; color: #e94560; }
-.pagination button:hover:not(.active) { border-color: #666; }
+/* Pagination */
+.pagination { display: flex; gap: 0.5rem; align-items: center; margin-top: 0.75rem; justify-content: center; }
+.pagination button { padding: 0.35rem 0.75rem; border: 1px solid #222; border-radius: 4px; background: transparent; color: #666; cursor: pointer; font-size: 0.8rem; }
+.pagination button:hover { border-color: #444; color: #999; }
+.pagination .page-info { color: #444; font-size: 0.8rem; }
 
-.proc-content { background: #1a1a2e; border: 1px solid #2a2a3e; border-radius: 8px; padding: 1.5rem; line-height: 1.6; }
-.proc-content h1 { color: #e94560; font-size: 1.3rem; margin-bottom: 1rem; }
-.proc-content h2 { color: #e0e0e0; font-size: 1.1rem; margin: 1rem 0 0.5rem; }
-.proc-content h3 { color: #ccc; font-size: 0.95rem; margin: 0.75rem 0 0.25rem; }
-.proc-content p { margin: 0.5rem 0; color: #bbb; }
-.proc-content ul, .proc-content ol { margin: 0.5rem 0; padding-left: 1.5rem; color: #bbb; }
-.proc-content li { margin: 0.25rem 0; }
-.proc-content code { background: #2a2a3e; padding: 0.1rem 0.3rem; border-radius: 3px; font-size: 0.85rem; }
-.proc-content pre { background: #0a0a1a; padding: 1rem; border-radius: 6px; overflow-x: auto; margin: 0.5rem 0; }
-.proc-content strong { color: #e0e0e0; }
+/* Back button */
+.back { display: inline-flex; align-items: center; gap: 0.3rem; color: #e94560; cursor: pointer; font-size: 0.85rem; margin-bottom: 0.75rem; }
+.back:hover { text-decoration: underline; }
 
+/* Hide */
+.hidden { display: none !important; }
+
+/* Empty state */
+.empty-state { text-align: center; padding: 2rem 1rem; color: #444; font-size: 0.85rem; }
+.empty-state strong { color: #666; }
+
+/* Responsive */
 @media (max-width: 768px) {
-  .header { padding: 0.75rem 1rem; }
+  .header-inner { padding: 0.5rem 1rem; }
   .container { padding: 1rem; }
-  .stats { gap: 1rem; }
-  .source-list { grid-template-columns: 1fr; }
+  .stats { flex-wrap: wrap; gap: 0; }
+  .stat-item { flex: 1 0 45%; }
+  .stat-item:nth-child(2) { border-right: none; }
+  .source-grid { grid-template-columns: 1fr; }
+  .proc-detail { padding: 1rem; }
+  .nav button { padding: 0.55rem 0.9rem; font-size: 0.8rem; }
+}
+
+@media (max-width: 480px) {
+  .stat-item .num { font-size: 1.1rem; }
+  .search-row input { min-width: 120px; }
+  .search-row button { padding: 0.5rem 0.8rem; font-size: 0.8rem; }
 }
 </style>
 </head>
 <body>
 
 <div class="header">
-  <h1>equipdiag</h1>
-  <span class="subtitle">Diagnostic Code Reference</span>
+  <div class="header-inner">
+    <div class="header-left">
+      <div class="logo">E</div>
+      <h1>equip<span>diag</span></h1>
+    </div>
+    <span class="subtitle">Heavy Equipment Diagnostics</span>
+  </div>
+</div>
+
+<div class="nav">
+  <div class="nav-inner">
+    <button class="active" onclick="setMode('search')" id="modeSearch">Search Codes</button>
+    <button onclick="setMode('procedures')" id="modeProcedures">Procedures</button>
+    <button onclick="setMode('sources')" id="modeSources">Sources</button>
+    <button onclick="setMode('fmi')" id="modeFmi">FMI Ref</button>
+    <button onclick="setMode('dtc')" id="modeDtc">SPN+FMI</button>
+  </div>
 </div>
 
 <div class="container">
-  <div class="stats">
-    <div class="stat-item"><div class="num" id="totalCount">-</div><div class="label">Total codes</div></div>
-    <div class="stat-item"><div class="num" id="sourceCount">-</div><div class="label">Source docs</div></div>
-    <div class="stat-item"><div class="num" id="typeCount">-</div><div class="label">Code types</div></div>
-    <div class="stat-item"><div class="num" id="procCount">-</div><div class="label">Procedures</div></div>
-  </div>
 
-  <div class="lookup-type">
-    <button class="active" onclick="setMode('search')" id="modeSearch">Search</button>
-    <button onclick="setMode('sources')" id="modeSources">Sources</button>
-    <button onclick="setMode('procedures')" id="modeProcedures">Procedures</button>
-    <button onclick="setMode('fmi')" id="modeFmi">FMI</button>
-    <button onclick="setMode('dtc')" id="modeDtc">SPN+FMI</button>
-  </div>
+<div class="stats">
+  <div class="stat-item"><div class="num" id="totalCount">-</div><div class="label">Codes</div></div>
+  <div class="stat-item"><div class="num" id="typeCount">-</div><div class="label">Types</div></div>
+  <div class="stat-item"><div class="num" id="sourceCount">-</div><div class="label">Sources</div></div>
+  <div class="stat-item"><div class="num" id="procCount">-</div><div class="label">Procedures</div></div>
+</div>
 
-  <div id="searchMode" class="search-box">
-    <h2>Search All Codes</h2>
+<!-- ===== SEARCH ===== -->
+<div id="searchMode">
+  <div class="search-panel">
     <div class="search-row">
-      <input type="text" id="searchInput" placeholder="Code number or keyword..." oninput="searchCodes()" autofocus>
-      <button onclick="searchCodes()">Search</button>
-      <button class="secondary" onclick="clearSearch()">Clear</button>
-    </div>
-    <div class="hint">Search across SPN, SID, PID, MID, DTC, and SFC codes. Shows J1939 vs manufacturer origin.</div>
-    <div id="searchResult" class="results"></div>
-  </div>
-
-  <div id="sourcesMode" class="hidden">
-    <div id="sourceListContainer">
-      <h2 style="color:#aaa; font-size:1rem; margin-bottom:0.5rem;">Document Sources</h2>
-      <div class="source-list" id="sourceList"></div>
-    </div>
-    <div id="sourceDetailContainer" class="hidden">
-      <div class="source-header">
-        <span class="back-btn" onclick="backToSources()">&larr; Back</span>
-        <h3 id="sourceTitle"></h3>
-      </div>
-      <div class="search-row" style="margin-bottom:1rem;">
-        <input type="text" id="sourceFilter" placeholder="Filter codes...">
-      </div>
-      <div id="sourceCodes" class="results"></div>
-      <div id="sourcePagination" class="pagination"></div>
+      <input type="text" id="searchInput" placeholder="Code number, keyword, or description..." oninput="onSearchInput()" autofocus>
+      <button class="btn-primary" onclick="searchCodes()">Search</button>
+      <button class="btn-ghost" onclick="clearSearch()">Clear</button>
     </div>
   </div>
+  <div class="section-title" id="searchResultTitle" style="display:none;"></div>
+  <div id="searchResult"></div>
+</div>
 
-  <div id="proceduresMode" class="hidden">
-    <div id="procListContainer">
-      <h2 style="color:#aaa; font-size:1rem; margin-bottom:0.5rem;">Service Procedures</h2>
-      <div class="search-row" style="margin-bottom:1rem;">
-        <input type="text" id="procFilter" placeholder="Search procedures...">
+<!-- ===== PROCEDURES ===== -->
+<div id="proceduresMode" class="hidden">
+  <div id="procListContainer">
+    <div class="search-panel">
+      <div class="search-row">
+        <input type="text" id="procFilter" placeholder="Search procedures or equipment...">
       </div>
-      <div class="results" id="procList"></div>
+      <div class="filter-chips" id="procChips"></div>
     </div>
-    <div id="procDetailContainer" class="hidden">
-      <div class="source-header">
-        <span class="back-btn" onclick="backToProcedures()">&larr; Back</span>
-        <h3 id="procTitle"></h3>
+    <div id="procList"></div>
+  </div>
+  <div id="procDetailContainer" class="hidden">
+    <span class="back" onclick="backToProcedures()">&larr; Back to procedures</span>
+    <div id="procBody" class="proc-detail"></div>
+  </div>
+</div>
+
+<!-- ===== SOURCES ===== -->
+<div id="sourcesMode" class="hidden">
+  <div id="sourceListContainer">
+    <div class="section-title">Document Sources</div>
+    <div class="source-grid" id="sourceList"></div>
+  </div>
+  <div id="sourceDetailContainer" class="hidden">
+    <span class="back" onclick="backToSources()">&larr; Back to sources</span>
+    <div class="search-panel">
+      <div class="search-row">
+        <input type="text" id="sourceFilter" placeholder="Filter codes in this source...">
       </div>
-      <div id="procBody" class="proc-content"></div>
     </div>
+    <div id="sourceCodes"></div>
+    <div id="sourcePagination" class="pagination"></div>
   </div>
+</div>
 
-  <div id="fmiMode" class="hidden">
-    <div class="fmi-table">
-      <table>
-        <thead><tr><th>FMI</th><th>Description</th><th>Category</th><th>Sev</th></tr></thead>
-        <tbody id="fmiBody"></tbody>
-      </table>
-    </div>
-  </div>
+<!-- ===== FMI TABLE ===== -->
+<div id="fmiMode" class="hidden">
+  <table class="fmi-table">
+    <thead><tr><th>FMI</th><th>Description</th><th>Category</th><th>Sev</th></tr></thead>
+    <tbody id="fmiBody"></tbody>
+  </table>
+</div>
 
-  <div id="dtcMode" class="hidden search-box">
-    <h2>SPN + FMI Decode</h2>
+<!-- ===== SPN+FMI DECODE ===== -->
+<div id="dtcMode" class="hidden">
+  <div class="search-panel">
     <div class="search-row">
-      <input type="number" id="dtcSpn" placeholder="SPN (e.g. 157)" style="flex: 1;">
-      <input type="number" id="dtcFmi" placeholder="FMI (e.g. 18)" style="flex: 0 0 120px;">
-      <button onclick="decodeDTC()">Decode</button>
+      <input type="number" id="dtcSpn" placeholder="SPN e.g. 157" style="flex:1;">
+      <input type="number" id="dtcFmi" placeholder="FMI e.g. 18" style="flex:0 0 100px;">
+      <button class="btn-primary" onclick="decodeDTC()">Decode</button>
     </div>
-    <div class="hint">Enter an SPN and FMI to see the full fault description.</div>
-    <div id="dtcResult" class="results"></div>
   </div>
+  <div id="dtcResult"></div>
+</div>
+
 </div>
 
 <script>
@@ -207,6 +274,7 @@ let proceduresData = [];
 let currentSource = null;
 let currentPage = 0;
 let currentProc = null;
+let procFilterEquip = '';
 const PAGE_SIZE = 50;
 
 function stdClass(std) {
@@ -230,42 +298,49 @@ async function loadData() {
     document.getElementById('totalCount').textContent = unifiedData.length.toLocaleString();
     document.getElementById('sourceCount').textContent = Object.keys(sourcesMap).length;
     document.getElementById('typeCount').textContent = types.size;
-    document.getElementById('procCount').textContent = proceduresData.length || 0;
+    document.getElementById('procCount').textContent = proceduresData.length.toLocaleString();
 
     renderFMI();
     renderSources();
+    renderProcChips();
     renderProcedures();
+
     if (window.location.hash) {
-      const hash = window.location.hash.slice(1);
-      const num = parseInt(hash);
-      if (!isNaN(num)) {
-        document.getElementById('searchInput').value = hash;
+      const h = window.location.hash.slice(1);
+      const n = parseInt(h);
+      if (!isNaN(n)) {
+        setMode('search');
+        document.getElementById('searchInput').value = h;
         searchCodes();
       }
     }
   } catch (e) {
-    console.error('Failed to load data:', e);
+    console.error('Load error:', e);
   }
 }
 
+// ===== FMI =====
 function renderFMI() {
   document.getElementById('fmiBody').innerHTML = fmiData.map(f =>
     `<tr>
       <td><span class="fmi-badge fmi-${f.fmi}">FMI ${f.fmi}</span></td>
       <td>${f.desc}</td>
       <td>${f.category}</td>
-      <td>${f.severity}</td>
+      <td>${f.severity}/3</td>
     </tr>`
   ).join('');
 }
 
+// ===== SOURCES =====
 function renderSources() {
-  document.getElementById('sourceList').innerHTML = Object.entries(sourcesMap).map(([file, s]) =>
-    `<div class="source-card" onclick="openSource('${file}')">
-      <div class="s-name">${s.name} <span class="type-tag">${s.type}</span></div>
-      <div class="s-meta"><span class="s-count">${s.count}</span> codes</div>
-    </div>`
-  ).join('');
+  document.getElementById('sourceList').innerHTML = Object.entries(sourcesMap)
+    .sort((a, b) => b[1].count - a[1].count)
+    .map(([file, s]) =>
+      `<div class="source-card" onclick="openSource('${file}')">
+        <div class="s-name">${s.name} <span class="std-badge ${stdClass(s.type)}" style="float:right;">${s.type}</span></div>
+        <div class="s-meta"><span class="s-count">${s.count}</span> codes</div>
+      </div>`
+    ).join('');
 }
 
 function openSource(file) {
@@ -273,7 +348,6 @@ function openSource(file) {
   currentPage = 0;
   document.getElementById('sourceListContainer').classList.add('hidden');
   document.getElementById('sourceDetailContainer').classList.remove('hidden');
-  document.getElementById('sourceTitle').textContent = sourcesMap[file].name + ` (${sourcesMap[file].count} codes)`;
   document.getElementById('sourceFilter').value = '';
   renderSourceCodes();
 }
@@ -290,22 +364,31 @@ function renderSourceCodes() {
   const filtered = filter ? fileCodes.filter(c => String(c.code).includes(filter) || c.desc.toLowerCase().includes(filter)) : fileCodes;
 
   const totalPages = Math.ceil(filtered.length / PAGE_SIZE);
-  if (currentPage >= totalPages) currentPage = totalPages - 1;
+  if (currentPage >= totalPages) currentPage = Math.max(0, totalPages - 1);
   if (currentPage < 0) currentPage = 0;
 
   const pageCodes = filtered.slice(currentPage * PAGE_SIZE, (currentPage + 1) * PAGE_SIZE);
-  document.getElementById('sourceCodes').innerHTML = pageCodes.map(c =>
-    `<div class="code-card">
-      <div class="code-num">${c.type} ${c.code} <span class="std-badge ${stdClass(c.standard)}">${c.standard}</span></div>
+  const sourceInfo = sourcesMap[currentSource] || { name: currentSource, type: '' };
+
+  document.getElementById('sourceCodes').innerHTML =
+    `<div style="color:#888;font-size:0.85rem;margin-bottom:0.75rem;">
+      <strong style="color:#e94560;">${sourceInfo.name}</strong>
+      <span style="margin-left:0.5rem;">${filtered.length} codes shown</span>
+    </div>` +
+    pageCodes.map(c => `<div class="code-card">
+      <div class="top">
+        <span class="code-num">${c.type} ${c.code}</span>
+        <span class="std-badge ${stdClass(c.standard)}">${c.standard}</span>
+        ${c.fmi != null ? `<span class="fmi-badge fmi-${c.fmi}">FMI ${c.fmi}</span>` : ''}
+      </div>
       <div class="code-desc">${c.desc}</div>
-    </div>`
-  ).join('');
+    </div>`).join('');
 
   const pag = document.getElementById('sourcePagination');
   if (totalPages <= 1) { pag.innerHTML = ''; return; }
-  pag.innerHTML = `<button onclick="changePage(-1)">&laquo; Prev</button>` +
-    `<span style="color:#666;font-size:0.85rem;">${currentPage+1}/${totalPages}</span>` +
-    `<button onclick="changePage(1)">Next &raquo;</button>`;
+  pag.innerHTML = `<button onclick="changePage(-1)">&laquo;</button>
+    <span class="page-info">${currentPage+1} / ${totalPages}</span>
+    <button onclick="changePage(1)">&raquo;</button>`;
 }
 
 function changePage(delta) {
@@ -313,21 +396,38 @@ function changePage(delta) {
   renderSourceCodes();
 }
 
+// ===== PROCEDURES =====
+function renderProcChips() {
+  const equip = [...new Set(proceduresData.map(p => p.machine).filter(Boolean))].sort();
+  const chips = document.getElementById('procChips');
+  chips.innerHTML = `<span class="chip ${!procFilterEquip ? 'active' : ''}" onclick="setProcFilter('')">All</span>` +
+    equip.map(e => `<span class="chip ${procFilterEquip === e ? 'active' : ''}" onclick="setProcFilter('${e.replace(/'/g, "\\'")}')">${e}</span>`).join('');
+}
+
+function setProcFilter(equip) {
+  procFilterEquip = equip;
+  renderProcChips();
+  renderProcedures();
+}
+
 function renderProcedures() {
   const filter = (document.getElementById('procFilter')?.value || '').toLowerCase();
-  const filtered = filter
-    ? proceduresData.filter(p => p.machine?.toLowerCase().includes(filter) || p.title?.toLowerCase().includes(filter) || (p.tags || []).some(t => t.toLowerCase().includes(filter)))
-    : proceduresData;
+  let filtered = proceduresData;
+  if (procFilterEquip) filtered = filtered.filter(p => p.machine === procFilterEquip);
+  if (filter) filtered = filtered.filter(p =>
+    p.machine?.toLowerCase().includes(filter) ||
+    p.title?.toLowerCase().includes(filter)
+  );
 
   document.getElementById('procList').innerHTML = filtered.length
     ? filtered.map(p =>
       `<div class="proc-card" onclick="openProcedure('${p.id}')">
         <div class="proc-machine">${p.machine || 'General'}</div>
         <div class="proc-title">${p.title}</div>
-        ${p.tags ? `<div class="proc-tags">${p.tags.map(t => `<span class="proc-tag">${t}</span>`).join('')}</div>` : ''}
+        <div class="proc-meta"><span class="proc-tag">${p.steps} steps</span></div>
       </div>`
     ).join('')
-    : '<div class="code-card" style="color:#666;">No procedures found. Add some in the procedures/ folder.</div>';
+    : '<div class="empty-state">No procedures found. <strong>Check back as more are added.</strong></div>';
 }
 
 function openProcedure(id) {
@@ -335,17 +435,13 @@ function openProcedure(id) {
   if (!currentProc) return;
   document.getElementById('procListContainer').classList.add('hidden');
   document.getElementById('procDetailContainer').classList.remove('hidden');
-  document.getElementById('procTitle').textContent = currentProc.machine + ' - ' + currentProc.title;
+  document.getElementById('procBody').innerHTML = '<div style="color:#444;text-align:center;padding:2rem;">Loading...</div>';
 
   const url = currentProc.file || `procedures/${id}.md`;
   fetch(url)
-    .then(r => r.ok ? r.text() : '<p>Procedure content not found.</p>')
-    .then(md => {
-      document.getElementById('procBody').innerHTML = simpleMarkdown(md);
-    })
-    .catch(() => {
-      document.getElementById('procBody').innerHTML = '<p>Error loading procedure.</p>';
-    });
+    .then(r => r.ok ? r.text() : '<p>Not found.</p>')
+    .then(md => { document.getElementById('procBody').innerHTML = simpleMarkdown(md); })
+    .catch(() => { document.getElementById('procBody').innerHTML = '<p>Error loading procedure.</p>'; });
 }
 
 function backToProcedures() {
@@ -360,8 +456,29 @@ function simpleMarkdown(text) {
     .replace(/^### (.+)$/gm, '<h3>$1</h3>')
     .replace(/^## (.+)$/gm, '<h2>$1</h2>')
     .replace(/^# (.+)$/gm, '<h1>$1</h1>')
-    .replace(/^(\d+)\. (.+)$/gm, '<li>$2</li>')
-    .replace(/^- (.+)$/gm, '<li>$1</li>')
+    .replace(/^\*\*(.+?):\*\*/gm, '<h2>$1</h2>')
+    .replace(/^> ⚠ \*\*(.+?)\*\*/gm, '<blockquote><strong>$1</strong></blockquote>')
+    .replace(/^> \*\*Note:\*\*(.+)$/gm, '<blockquote><strong>Note:</strong> $1</blockquote>');
+  const lines = html.split('\n');
+  let inList = false;
+  let result = [];
+  for (let i = 0; i < lines.length; i++) {
+    const l = lines[i];
+    const liMatch = l.match(/^(\d+)\. (.+)/);
+    const dashMatch = l.match(/^- (.+)/);
+    if (liMatch) {
+      if (!inList) { result.push('<ol>'); inList = 'ol'; }
+      result.push(`<li>${liMatch[2]}</li>`);
+    } else if (dashMatch) {
+      if (inList !== 'ul') { if (inList) result.push(`</${inList}>`); result.push('<ul>'); inList = 'ul'; }
+      result.push(`<li>${dashMatch[1]}</li>`);
+    } else {
+      if (inList) { result.push(`</${inList}>`); inList = false; }
+      result.push(l);
+    }
+  }
+  if (inList) result.push(`</${inList}>`);
+  html = result.join('\n')
     .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
     .replace(/`(.+?)`/g, '<code>$1</code>')
     .replace(/\n\n/g, '</p><p>')
@@ -369,10 +486,18 @@ function simpleMarkdown(text) {
   return '<p>' + html + '</p>';
 }
 
+// ===== SEARCH =====
+function onSearchInput() {
+  const v = document.getElementById('searchInput').value.trim();
+  if (v.length >= 2) searchCodes();
+  else document.getElementById('searchResult').innerHTML = '';
+}
+
 function searchCodes() {
   const val = document.getElementById('searchInput').value.trim();
   const div = document.getElementById('searchResult');
-  if (!val) { div.innerHTML = ''; return; }
+  const title = document.getElementById('searchResultTitle');
+  if (!val) { div.innerHTML = ''; title.style.display = 'none'; return; }
 
   const num = parseInt(val);
   const isNum = !isNaN(num);
@@ -382,86 +507,105 @@ function searchCodes() {
     ? unifiedData.filter(c => c.code === num)
     : unifiedData.filter(c =>
         c.desc.toUpperCase().includes(upper) ||
-        (c.type + ' ' + c.code).toUpperCase().includes(upper)
+        (c.type + ' ' + c.code).includes(upper) ||
+        c.source.toUpperCase().includes(upper)
       );
 
+  if (isNum && results.length === 0) {
+    results = unifiedData.filter(c => String(c.code).startsWith(String(num)));
+  }
+
   if (results.length === 0) {
-    div.innerHTML = `<div class="code-card" style="color:#888;">No matches for <strong>${val}</strong>.</div>`;
+    title.style.display = 'block';
+    title.textContent = `No matches for "${val}"`;
+    div.innerHTML = '<div class="empty-state">Try a different search term or browse Sources.</div>';
     return;
   }
+
+  title.style.display = 'block';
+  title.textContent = `${results.length.toLocaleString()} result${results.length !== 1 ? 's' : ''} for "${val}"`;
 
   const shown = results.slice(0, 200);
   div.innerHTML = shown.map(c =>
     `<div class="code-card">
-      <div class="code-num">${c.type} ${c.code} <span class="std-badge ${stdClass(c.standard)}">${c.standard}</span></div>
+      <div class="top">
+        <span class="code-num">${c.type} ${c.code}</span>
+        <span class="std-badge ${stdClass(c.standard)}">${c.standard}</span>
+        ${c.fmi != null ? `<span class="fmi-badge fmi-${c.fmi}">FMI ${c.fmi}</span>` : ''}
+      </div>
       <div class="code-desc">${c.desc}</div>
-      <div class="code-meta"><span class="code-source">Source: ${c.source}</span></div>
+      <div class="code-source">${c.source}</div>
     </div>`
   ).join('');
-  if (results.length > 200) {
-    div.innerHTML += `<div class="code-card" style="color:#666;">... and ${results.length - 200} more matches.</div>`;
-  }
+  if (results.length > 200)
+    div.innerHTML += `<div class="empty-state">... and ${(results.length - 200).toLocaleString()} more matches. Narrow your search.</div>`;
   if (isNum) window.location.hash = val;
 }
 
 function clearSearch() {
   document.getElementById('searchInput').value = '';
   document.getElementById('searchResult').innerHTML = '';
+  document.getElementById('searchResultTitle').style.display = 'none';
   window.location.hash = '';
   document.getElementById('searchInput').focus();
 }
 
+// ===== DTC DECODE =====
 function decodeDTC() {
   const spn = parseInt(document.getElementById('dtcSpn').value);
   const fmi = parseInt(document.getElementById('dtcFmi').value);
   const div = document.getElementById('dtcResult');
 
-  if (!spn || !fmi || isNaN(spn) || isNaN(fmi)) {
-    div.innerHTML = `<div class="code-card" style="color:#888;">Enter both SPN and FMI values.</div>`;
+  if (!spn || isNaN(spn)) {
+    div.innerHTML = '<div class="empty-state">Enter an SPN number.</div>';
+    return;
+  }
+  if (fmi === undefined || isNaN(fmi) || fmi < 0 || fmi > 31) {
+    div.innerHTML = '<div class="empty-state">Enter a valid FMI (0-31).</div>';
     return;
   }
 
   const spnMatch = unifiedData.find(c => c.type === 'SPN' && c.code === spn);
   const fmiMatch = fmiData.find(f => f.fmi === fmi);
 
-  if (!spnMatch) {
-    div.innerHTML = `<div class="code-card" style="color:#888;">SPN ${spn} not found.</div>`;
-    return;
-  }
-  if (!fmiMatch) {
-    div.innerHTML = `<div class="code-card" style="color:#888;">FMI ${fmi} not found (0-31).</div>`;
-    return;
-  }
+  const spnDisplay = spnMatch
+    ? `${spnMatch.desc} <span class="std-badge ${stdClass(spnMatch.standard)}" style="margin-left:0.5rem;">${spnMatch.standard}</span>`
+    : `<em style="color:#555;">SPN ${spn} not in database</em>`;
 
   div.innerHTML =
-    `<div class="code-card">
-      <div class="code-num" style="margin-bottom:0.25rem;">SPN ${spn} &mdash; FMI ${fmi} <span class="std-badge ${stdClass(spnMatch.standard)}">${spnMatch.standard}</span></div>
-      <div style="color:#ccc; margin-bottom:0.5rem;"><strong>${spnMatch.desc}</strong></div>
-      <div style="color:#aaa; font-size:0.9rem;">${fmiMatch.desc}</div>
-      <div style="margin-top:0.5rem; display:flex; gap:0.5rem; flex-wrap:wrap;">
-        <span class="fmi-badge fmi-${fmi}">${fmiMatch.category}</span>
-        <span class="fmi-badge fmi-${fmi}">Severity: ${fmiMatch.severity}/3</span>
+    `<div class="code-card" style="margin-top:1rem;">
+      <div class="top" style="margin-bottom:0.5rem;">
+        <span style="font-size:1.2rem;font-weight:700;color:#e94560;">SPN ${spn}</span>
+        <span style="color:#666;">+</span>
+        <span class="fmi-badge fmi-${fmi}" style="font-size:0.85rem;padding:2px 8px;">FMI ${fmi}</span>
       </div>
-      <div class="code-source" style="margin-top:0.5rem;">Source: ${spnMatch.source}</div>
+      <div style="margin-bottom:0.75rem;">${spnDisplay}</div>
+      ${fmiMatch ? `
+      <div style="background:#0a0a0a;border-radius:6px;padding:0.75rem;">
+        <div style="color:#e0e0e0;font-weight:600;margin-bottom:0.25rem;">${fmiMatch.desc}</div>
+        <div style="display:flex;gap:0.5rem;flex-wrap:wrap;margin-top:0.5rem;">
+          <span class="fmi-badge fmi-${fmi}">${fmiMatch.category}</span>
+          <span class="fmi-badge fmi-${fmi}">Severity: ${fmiMatch.severity}/3</span>
+        </div>
+      </div>` : `<div style="color:#555;">FMI ${fmi} not in reference (valid range: 0-31)</div>`}
+      ${spnMatch ? `<div class="code-source" style="margin-top:0.75rem;">Source: ${spnMatch.source}</div>` : ''}
     </div>`;
 }
 
+// ===== MODE =====
 function setMode(mode) {
-  document.querySelectorAll('.lookup-type button').forEach(b => b.classList.remove('active'));
-  ['search','sources','procedures','fmi','dtc'].forEach(m => {
-    document.getElementById('mode' + m.charAt(0).toUpperCase() + m.slice(1)).classList.toggle('active', mode === m);
+  document.querySelectorAll('.nav button').forEach(b => b.classList.remove('active'));
+  document.getElementById('mode' + mode.charAt(0).toUpperCase() + mode.slice(1)).classList.add('active');
+  ['search','procedures','sources','fmi','dtc'].forEach(m => {
+    document.getElementById(m.charAt(0).toUpperCase() + m.slice(1) + 'Mode').classList.toggle('hidden', mode !== m);
   });
-  document.getElementById('searchMode').classList.toggle('hidden', mode !== 'search');
-  document.getElementById('sourcesMode').classList.toggle('hidden', mode !== 'sources');
-  document.getElementById('proceduresMode').classList.toggle('hidden', mode !== 'procedures');
-  document.getElementById('fmiMode').classList.toggle('hidden', mode !== 'fmi');
-  document.getElementById('dtcMode').classList.toggle('hidden', mode !== 'dtc');
-  if (mode === 'procedures') renderProcedures();
+  if (mode === 'procedures') { renderProcChips(); renderProcedures(); }
+  if (mode === 'sources') renderSources();
 }
 
 document.addEventListener('DOMContentLoaded', loadData);
 document.addEventListener('input', e => {
-  if (e.target.id === 'sourceFilter') renderSourceCodes();
+  if (e.target.id === 'sourceFilter') { currentPage = 0; renderSourceCodes(); }
   if (e.target.id === 'procFilter') renderProcedures();
 });
 document.getElementById('searchInput').addEventListener('keydown', e => { if (e.key === 'Enter') searchCodes(); });
