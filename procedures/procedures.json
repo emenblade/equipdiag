@@ -3,1899 +3,2110 @@
     "id": "genie-s65-adjust-the-joystick-max-out-setting",
     "title": "Adjust the Joystick Max-out Setting",
     "equipment": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX",
-    "file": "joystick/genie-s65-adjust-the-joystick-max-out-setting.md",
+    "file": "genie/alc-500/genie-s65-adjust-the-joystick-max-out-setting.md",
     "steps": 12,
     "quickAccess": true,
-    "category": "joystick"
+    "category": "alc-500",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s80-adjust-the-joystick-max-out-setting",
     "title": "Adjust the Joystick Max-out Setting",
     "equipment": "Genie S-80 / S-85",
-    "file": "joystick/genie-s80-adjust-the-joystick-max-out-setting.md",
+    "file": "genie/alc-500/genie-s80-adjust-the-joystick-max-out-setting.md",
     "steps": 7,
     "quickAccess": true,
-    "category": "joystick"
+    "category": "alc-500",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s65-adjust-the-joystick-ramp-rate-setting",
     "title": "Adjust the Joystick Ramp Rate Setting",
     "equipment": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX",
-    "file": "joystick/genie-s65-adjust-the-joystick-ramp-rate-setting.md",
+    "file": "genie/alc-500/genie-s65-adjust-the-joystick-ramp-rate-setting.md",
     "steps": 14,
     "quickAccess": true,
-    "category": "joystick"
+    "category": "alc-500",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s80-adjust-the-joystick-ramp-rate-setting",
     "title": "Adjust the Joystick Ramp Rate Setting",
     "equipment": "Genie S-80 / S-85",
-    "file": "joystick/genie-s80-adjust-the-joystick-ramp-rate-setting.md",
+    "file": "genie/alc-500/genie-s80-adjust-the-joystick-ramp-rate-setting.md",
     "steps": 7,
     "quickAccess": true,
-    "category": "joystick"
+    "category": "alc-500",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s65-adjust-the-joystick-threshold-setting",
     "title": "Adjust the Joystick Threshold Setting",
     "equipment": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX",
-    "file": "joystick/genie-s65-adjust-the-joystick-threshold-setting.md",
+    "file": "genie/alc-500/genie-s65-adjust-the-joystick-threshold-setting.md",
     "steps": 14,
     "quickAccess": true,
-    "category": "joystick"
+    "category": "alc-500",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s80-adjust-the-joystick-threshold-setting",
     "title": "Adjust the Joystick Threshold Setting",
     "equipment": "Genie S-80 / S-85",
-    "file": "joystick/genie-s80-adjust-the-joystick-threshold-setting.md",
+    "file": "genie/alc-500/genie-s80-adjust-the-joystick-threshold-setting.md",
     "steps": 8,
     "quickAccess": true,
-    "category": "joystick"
+    "category": "alc-500",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s65-calibrate-a-joystick",
     "title": "Calibrate a Joystick",
     "equipment": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX",
-    "file": "joystick/genie-s65-calibrate-a-joystick.md",
+    "file": "genie/alc-500/genie-s65-calibrate-a-joystick.md",
     "steps": 8,
     "quickAccess": true,
-    "category": "joystick"
+    "category": "alc-500",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s80-calibrate-a-joystick",
     "title": "Calibrate a Joystick",
     "equipment": "Genie S-80 / S-85",
-    "file": "joystick/genie-s80-calibrate-a-joystick.md",
+    "file": "genie/alc-500/genie-s80-calibrate-a-joystick.md",
     "steps": 8,
     "quickAccess": true,
-    "category": "joystick"
+    "category": "alc-500",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-z80-calibrate-the-boom-angle-sensor",
     "title": "Calibrate the Boom angle Sensor",
     "equipment": "Genie Z-80 / Z-80/60",
-    "file": "boom-angle-sensor/genie-z80-calibrate-the-boom-angle-sensor.md",
+    "file": "genie/alc-500/genie-z80-calibrate-the-boom-angle-sensor.md",
     "steps": 13,
     "quickAccess": true,
-    "category": "boom-angle-sensor"
+    "category": "alc-500",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-z80-calibrate-the-level-sensor",
     "title": "Calibrate the Level Sensor",
     "equipment": "Genie Z-80 / Z-80/60",
-    "file": "level-sensor/genie-z80-calibrate-the-level-sensor.md",
+    "file": "genie/level-sensor/genie-z80-calibrate-the-level-sensor.md",
     "steps": 5,
     "quickAccess": true,
-    "category": "level-sensor"
+    "category": "level-sensor",
+    "manufacturer": "genie"
   },
   {
     "title": "Calibrate the Load Sensing System",
     "equipment": "Skyjack SJ46AJ / SJ51AJ",
-    "file": "load-sensing/skyjack-sj46aj-calibrate-load-sensing-system.md",
+    "file": "skyjack/load-sensing/skyjack-sj46aj-calibrate-load-sensing-system.md",
     "steps": 14,
     "quickAccess": true,
     "id": "skyjack-sj46aj-calibrate-load-sensing-system",
-    "category": "load-sensing"
+    "category": "load-sensing",
+    "manufacturer": "skyjack"
   },
   {
     "id": "genie-1932-calibrate-the-outrigger-system-1",
     "title": "Calibrate the Outrigger System",
     "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "outrigger/genie-1932-calibrate-the-outrigger-system-1.md",
+    "file": "genie/outrigger/genie-1932-calibrate-the-outrigger-system-1.md",
     "steps": 15,
     "quickAccess": true,
-    "category": "outrigger"
+    "category": "outrigger",
+    "manufacturer": "genie"
   },
   {
     "title": "Calibrate the Platform Level Sensors",
     "equipment": "JLG 800S / 860SJ",
-    "file": "level-sensor/jlg800s-calibrate-platform-level-sensors.md",
+    "file": "jlg/level-sensor/jlg800s-calibrate-platform-level-sensors.md",
     "steps": 11,
     "quickAccess": true,
     "id": "jlg800s-calibrate-platform-level-sensors",
-    "category": "level-sensor"
+    "category": "level-sensor",
+    "manufacturer": "jlg"
   },
   {
     "id": "genie-s65-calibrate-the-platform-load-sense-system",
     "title": "Calibrate the Platform Load Sense System",
     "equipment": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX",
-    "file": "platform-overload/genie-s65-calibrate-the-platform-load-sense-system.md",
+    "file": "genie/alc-500/genie-s65-calibrate-the-platform-load-sense-system.md",
     "steps": 10,
     "quickAccess": true,
-    "category": "platform-overload"
+    "category": "alc-500",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s65-calibrate-the-platform-overload-system",
     "title": "Calibrate the Platform Overload System",
     "equipment": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX",
-    "file": "platform-overload/genie-s65-calibrate-the-platform-overload-system.md",
+    "file": "genie/alc-500/genie-s65-calibrate-the-platform-overload-system.md",
     "steps": 15,
     "quickAccess": true,
-    "category": "platform-overload"
+    "category": "alc-500",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gs1930-calibrate-the-platform-overload-system",
     "title": "Calibrate the Platform Overload System",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
-    "file": "platform-overload/genie-gs1930-calibrate-the-platform-overload-system.md",
+    "file": "genie/alc-500/genie-gs1930-calibrate-the-platform-overload-system.md",
     "steps": 12,
     "quickAccess": true,
-    "category": "platform-overload"
+    "category": "alc-500",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-z80-calibrate-the-platform-overload-system",
     "title": "Calibrate the Platform Overload System",
     "equipment": "Genie Z-80 / Z-80/60",
-    "file": "platform-overload/genie-z80-calibrate-the-platform-overload-system.md",
+    "file": "genie/alc-500/genie-z80-calibrate-the-platform-overload-system.md",
     "steps": 2,
     "quickAccess": true,
-    "category": "platform-overload"
+    "category": "alc-500",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s80-calibrate-the-platform-overload-system-if-equipped",
     "title": "Calibrate the Platform Overload System (if equipped)",
     "equipment": "Genie S-80 / S-85",
-    "file": "platform-overload/genie-s80-calibrate-the-platform-overload-system-if-equipped.md",
+    "file": "genie/alc-500/genie-s80-calibrate-the-platform-overload-system-if-equipped.md",
     "steps": 3,
     "quickAccess": true,
-    "category": "platform-overload"
+    "category": "alc-500",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-1932-calibrate-the-platform-overload-system-if-equipped",
     "title": "Calibrate the Platform Overload System (if equipped)",
     "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "platform-overload/genie-1932-calibrate-the-platform-overload-system-if-equipped.md",
+    "file": "genie/alc-500/genie-1932-calibrate-the-platform-overload-system-if-equipped.md",
     "steps": 12,
     "quickAccess": true,
-    "category": "platform-overload"
+    "category": "alc-500",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-z80-calibrate-the-primary-boom-angle-sensor",
     "title": "Calibrate the Primary Boom Angle Sensor",
     "equipment": "Genie Z-80 / Z-80/60",
-    "file": "boom-angle-sensor/genie-z80-calibrate-the-primary-boom-angle-sensor.md",
+    "file": "genie/alc-500/genie-z80-calibrate-the-primary-boom-angle-sensor.md",
     "steps": 5,
     "quickAccess": true,
-    "category": "boom-angle-sensor"
+    "category": "alc-500",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-z80-calibrate-the-secondary-boom-angle-sensor",
     "title": "Calibrate the Secondary Boom Angle Sensor",
     "equipment": "Genie Z-80 / Z-80/60",
-    "file": "boom-angle-sensor/genie-z80-calibrate-the-secondary-boom-angle-sensor.md",
+    "file": "genie/alc-500/genie-z80-calibrate-the-secondary-boom-angle-sensor.md",
     "steps": 5,
     "quickAccess": true,
-    "category": "boom-angle-sensor"
+    "category": "alc-500",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-z80-calibrate-the-tu-rntable-level-sensor",
     "title": "Calibrate the Turntable Level Sensor",
     "equipment": "Genie Z-80 / Z-80/60",
-    "file": "level-sensor/genie-z80-calibrate-the-tu-rntable-level-sensor.md",
+    "file": "genie/level-sensor/genie-z80-calibrate-the-tu-rntable-level-sensor.md",
     "steps": 5,
     "quickAccess": true,
-    "category": "level-sensor"
+    "category": "level-sensor",
+    "manufacturer": "genie"
   },
   {
     "id": "jlg-g5-18a-calibration-check-1",
     "title": "Calibration Check",
     "equipment": "JLG G5-18A",
-    "file": "calibration/jlg-g5-18a-calibration-check-1.md",
+    "file": "jlg/calibration/jlg-g5-18a-calibration-check-1.md",
     "steps": 3,
     "quickAccess": true,
-    "category": "calibration"
+    "category": "calibration",
+    "manufacturer": "jlg"
   },
   {
     "id": "jlg-g5-18a-calibration-procedure",
     "title": "Calibration Procedure",
     "equipment": "JLG G5-18A",
-    "file": "calibration/jlg-g5-18a-calibration-procedure.md",
+    "file": "jlg/calibration/jlg-g5-18a-calibration-procedure.md",
     "steps": 6,
     "quickAccess": true,
-    "category": "calibration"
+    "category": "calibration",
+    "manufacturer": "jlg"
   },
   {
     "id": "jlg-g5-18a-calibration-to-calibrate-the-lsi",
     "title": "Calibration To calibrate the LSI",
     "equipment": "JLG G5-18A",
-    "file": "load-sensing/jlg-g5-18a-calibration-to-calibrate-the-lsi.md",
+    "file": "jlg/load-sensing/jlg-g5-18a-calibration-to-calibrate-the-lsi.md",
     "steps": 6,
     "quickAccess": true,
-    "category": "load-sensing"
+    "category": "load-sensing",
+    "manufacturer": "jlg"
   },
   {
     "title": "Change the Access Level",
     "equipment": "JLG 800S / 860SJ",
-    "file": "service-mode/jlg800s-change-access-level.md",
+    "file": "jlg/service-mode/jlg800s-change-access-level.md",
     "steps": 8,
     "quickAccess": true,
     "id": "jlg800s-change-access-level",
-    "category": "service-mode"
+    "category": "service-mode",
+    "manufacturer": "jlg"
   },
   {
     "id": "genie-gr15-change-the-software-configuration-1",
     "title": "Change the Software Configuration",
     "equipment": "Genie GR-15 / GR-20",
-    "file": "software-config/genie-gr15-change-the-software-configuration-1.md",
+    "file": "genie/alc-500/genie-gr15-change-the-software-configuration-1.md",
     "steps": 9,
     "quickAccess": true,
-    "category": "software-config"
+    "category": "alc-500",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gs1930-clear-the-platform-overload-recovery-message",
     "title": "Clear the Platform Overload Recovery Message",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
-    "file": "platform-overload/genie-gs1930-clear-the-platform-overload-recovery-message.md",
+    "file": "genie/alc-500/genie-gs1930-clear-the-platform-overload-recovery-message.md",
     "steps": 9,
     "quickAccess": true,
-    "category": "platform-overload"
+    "category": "alc-500",
+    "manufacturer": "genie"
   },
   {
     "title": "Connect the Hand Held Analyzer",
     "equipment": "JLG 800S / 860SJ",
-    "file": "service-mode/jlg800s-connect-hand-held-analyzer.md",
+    "file": "jlg/service-mode/jlg800s-connect-hand-held-analyzer.md",
     "steps": 6,
     "quickAccess": true,
     "id": "jlg800s-connect-hand-held-analyzer",
-    "category": "service-mode"
+    "category": "service-mode",
+    "manufacturer": "jlg"
   },
   {
     "id": "genie-gr15-determine-the-software-configuration-1",
     "title": "Determine the Software Configuration",
     "equipment": "Genie GR-15 / GR-20",
-    "file": "software-config/genie-gr15-determine-the-software-configuration-1.md",
+    "file": "genie/alc-500/genie-gr15-determine-the-software-configuration-1.md",
     "steps": 5,
     "quickAccess": true,
-    "category": "software-config"
+    "category": "alc-500",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gr15-determine-the-software-revision-level-1",
     "title": "Determine the Software Revision Level",
     "equipment": "Genie GR-15 / GR-20",
-    "file": "software-config/genie-gr15-determine-the-software-revision-level-1.md",
+    "file": "genie/alc-500/genie-gr15-determine-the-software-revision-level-1.md",
     "steps": 5,
     "quickAccess": true,
-    "category": "software-config"
+    "category": "alc-500",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s65-restore-the-system-default-settings-1",
     "title": "Restore the System Default Settings",
     "equipment": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX",
-    "file": "service-mode/genie-s65-restore-the-system-default-settings-1.md",
+    "file": "genie/alc-500/genie-s65-restore-the-system-default-settings-1.md",
     "steps": 3,
     "quickAccess": true,
-    "category": "service-mode"
+    "category": "alc-500",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s80-retrieve-continental-engine-fault-codes",
     "title": "Retrieve Continental Engine Fault Codes",
     "equipment": "Genie S-80 / S-85",
-    "file": "fault-codes/genie-s80-retrieve-continental-engine-fault-codes.md",
+    "file": "genie/alc-500/genie-s80-retrieve-continental-engine-fault-codes.md",
     "steps": 5,
     "quickAccess": true,
-    "category": "fault-codes"
+    "category": "alc-500",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s65-retrieve-control-system-fault-codes",
     "title": "Retrieve Control System Fault Codes",
     "equipment": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX",
-    "file": "fault-codes/genie-s65-retrieve-control-system-fault-codes.md",
+    "file": "genie/alc-500/genie-s65-retrieve-control-system-fault-codes.md",
     "steps": 5,
     "quickAccess": true,
-    "category": "fault-codes"
+    "category": "alc-500",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s80-retrieve-control-system-fault-codes",
     "title": "Retrieve Control System Fault Codes",
     "equipment": "Genie S-80 / S-85",
-    "file": "fault-codes/genie-s80-retrieve-control-system-fault-codes.md",
+    "file": "genie/alc-500/genie-s80-retrieve-control-system-fault-codes.md",
     "steps": 5,
     "quickAccess": true,
-    "category": "fault-codes"
+    "category": "alc-500",
+    "manufacturer": "genie"
   },
   {
     "title": "Retrieve Fault Codes Using the Analyzer",
     "equipment": "JLG 800S / 860SJ",
-    "file": "fault-codes/jlg800s-retrieve-fault-codes.md",
+    "file": "jlg/fault-codes/jlg800s-retrieve-fault-codes.md",
     "steps": 6,
     "quickAccess": true,
     "id": "jlg800s-retrieve-fault-codes",
-    "category": "fault-codes"
+    "category": "fault-codes",
+    "manufacturer": "jlg"
   },
   {
     "id": "genie-s65-retrieve-ford-engine-fault-codes",
     "title": "Retrieve Ford Engine Fault Codes",
     "equipment": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX",
-    "file": "fault-codes/genie-s65-retrieve-ford-engine-fault-codes.md",
+    "file": "genie/alc-500/genie-s65-retrieve-ford-engine-fault-codes.md",
     "steps": 4,
     "quickAccess": true,
-    "category": "fault-codes"
+    "category": "alc-500",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s65-retrieve-platform-load-sense-system-fault-codes",
     "title": "Retrieve Platform Load Sense System Fault Codes",
     "equipment": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX",
-    "file": "fault-codes/genie-s65-retrieve-platform-load-sense-system-fault-codes.md",
+    "file": "genie/alc-500/genie-s65-retrieve-platform-load-sense-system-fault-codes.md",
     "steps": 6,
     "quickAccess": true,
-    "category": "fault-codes"
+    "category": "alc-500",
+    "manufacturer": "genie"
   },
   {
     "id": "jlg-450aj-system-test-flow-chart-ground-station-tests-and-go-through-comp",
     "title": "System Test Flow Chart - Ground Station Tests and go through comp",
     "equipment": "JLG 450AJ",
-    "file": "service-mode/jlg-450aj-system-test-flow-chart-ground-station-tests-and-go-through-comp.md",
+    "file": "jlg/service-mode/jlg-450aj-system-test-flow-chart-ground-station-tests-and-go-through-comp.md",
     "steps": 6,
     "quickAccess": true,
-    "category": "service-mode"
+    "category": "service-mode",
+    "manufacturer": "jlg"
   },
   {
     "id": "jlg-450aj-system-test-flow-chart-platform-tests-and-go-through-component",
     "title": "System Test Flow Chart - Platform Tests and go through component",
     "equipment": "JLG 450AJ",
-    "file": "service-mode/jlg-450aj-system-test-flow-chart-platform-tests-and-go-through-component.md",
+    "file": "jlg/service-mode/jlg-450aj-system-test-flow-chart-platform-tests-and-go-through-component.md",
     "steps": 7,
     "quickAccess": true,
-    "category": "service-mode"
+    "category": "service-mode",
+    "manufacturer": "jlg"
   },
   {
     "id": "jlg-g5-18a-towing-procedure-1",
     "title": "Towing Procedure",
     "equipment": "JLG G5-18A",
-    "file": "towing/jlg-g5-18a-towing-procedure-1.md",
+    "file": "jlg/towing/jlg-g5-18a-towing-procedure-1.md",
     "steps": 5,
     "quickAccess": true,
-    "category": "towing"
+    "category": "towing",
+    "manufacturer": "jlg"
   },
   {
     "id": "skyjack-sj46aj-ab-serial-breakdown-reference-chart-figure",
     "title": "AB Serial Breakdown Reference Chart Figure",
     "equipment": "Skyjack SJ46AJ / SJIII Series",
-    "file": "reference/skyjack-sj46aj-ab-serial-breakdown-reference-chart-figure.md",
+    "file": "skyjack/reference/skyjack-sj46aj-ab-serial-breakdown-reference-chart-figure.md",
     "steps": 14,
     "quickAccess": false,
-    "category": "reference"
+    "category": "reference",
+    "manufacturer": "skyjack"
   },
   {
     "id": "genie-gr15-activate-the-battery-drain-alarm-option-1",
     "title": "Activate the Battery Drain Alarm Option",
     "equipment": "Genie GR-15 / GR-20",
-    "file": "electrical/genie-gr15-activate-the-battery-drain-alarm-option-1.md",
+    "file": "genie/electrical/genie-gr15-activate-the-battery-drain-alarm-option-1.md",
     "steps": 9,
     "quickAccess": false,
-    "category": "electrical"
+    "category": "electrical",
+    "manufacturer": "genie"
   },
   {
     "id": "skyjack-sj46aj-ad-ae-serial-breakdown-reference-chart-figure",
     "title": "AD, AE Serial Breakdown Reference Chart Figure",
     "equipment": "Skyjack SJ46AJ / SJIII Series",
-    "file": "reference/skyjack-sj46aj-ad-ae-serial-breakdown-reference-chart-figure.md",
+    "file": "skyjack/reference/skyjack-sj46aj-ad-ae-serial-breakdown-reference-chart-figure.md",
     "steps": 16,
     "quickAccess": false,
-    "category": "reference"
+    "category": "reference",
+    "manufacturer": "skyjack"
   },
   {
     "id": "genie-s65-adjust-the-boom-extend-retract-cables",
     "title": "Adjust the Boom Extend/Retract Cables",
     "equipment": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX",
-    "file": "hydraulic/genie-s65-adjust-the-boom-extend-retract-cables.md",
+    "file": "genie/hydraulic/genie-s65-adjust-the-boom-extend-retract-cables.md",
     "steps": 14,
     "quickAccess": false,
-    "category": "hydraulic"
+    "category": "hydraulic",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-z80-adjust-the-boom-extend-retract-cables",
     "title": "Adjust the Boom Extend/Retract Cables",
     "equipment": "Genie Z-80 / Z-80/60",
-    "file": "hydraulic/genie-z80-adjust-the-boom-extend-retract-cables.md",
+    "file": "genie/hydraulic/genie-z80-adjust-the-boom-extend-retract-cables.md",
     "steps": 6,
     "quickAccess": false,
-    "category": "hydraulic"
+    "category": "hydraulic",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s65-adjust-the-charge-pressure-relief-valve-1",
     "title": "Adjust the Charge Pressure Relief Valve",
     "equipment": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX",
-    "file": "hydraulic/genie-s65-adjust-the-charge-pressure-relief-valve-1.md",
+    "file": "genie/hydraulic/genie-s65-adjust-the-charge-pressure-relief-valve-1.md",
     "steps": 14,
     "quickAccess": false,
-    "category": "hydraulic"
+    "category": "hydraulic",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-z80-adjust-the-generator-voltage-regulator",
     "title": "Adjust the Generator Voltage Regulator",
     "equipment": "Genie Z-80 / Z-80/60",
-    "file": "hydraulic/genie-z80-adjust-the-generator-voltage-regulator.md",
+    "file": "genie/hydraulic/genie-z80-adjust-the-generator-voltage-regulator.md",
     "steps": 4,
     "quickAccess": false,
-    "category": "hydraulic"
+    "category": "hydraulic",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gr15-adjust-the-glide-pads-1",
     "title": "Adjust the Glide Pads",
     "equipment": "Genie GR-15 / GR-20",
-    "file": "structural/genie-gr15-adjust-the-glide-pads-1.md",
+    "file": "genie/structural/genie-gr15-adjust-the-glide-pads-1.md",
     "steps": 5,
     "quickAccess": false,
-    "category": "structural"
+    "category": "structural",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s80-adjust-the-hot-oil-shuttle-relief-valve",
     "title": "Adjust the Hot Oil Shuttle Relief Valve",
     "equipment": "Genie S-80 / S-85",
-    "file": "hydraulic/genie-s80-adjust-the-hot-oil-shuttle-relief-valve.md",
+    "file": "genie/hydraulic/genie-s80-adjust-the-hot-oil-shuttle-relief-valve.md",
     "steps": 5,
     "quickAccess": false,
-    "category": "hydraulic"
+    "category": "hydraulic",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-1932-adjust-the-lift-pressure-selector-valve-gs-4047-only",
     "title": "Adjust the Lift Pressure Selector Valve (GS-4047 only)",
     "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "hydraulic/genie-1932-adjust-the-lift-pressure-selector-valve-gs-4047-only.md",
+    "file": "genie/hydraulic/genie-1932-adjust-the-lift-pressure-selector-valve-gs-4047-only.md",
     "steps": 14,
     "quickAccess": false,
-    "category": "hydraulic"
+    "category": "hydraulic",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gr15-adjust-the-lift-speed-tip-over-hazard-do-not-adjust-the-li",
     "title": "Adjust the Lift Speed",
     "equipment": "Genie GR-15 / GR-20",
-    "file": "hydraulic/genie-gr15-adjust-the-lift-speed-tip-over-hazard-do-not-adjust-the-li.md",
+    "file": "genie/hydraulic/genie-gr15-adjust-the-lift-speed-tip-over-hazard-do-not-adjust-the-li.md",
     "steps": 7,
     "quickAccess": false,
-    "category": "hydraulic"
+    "category": "hydraulic",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gr15-adjust-the-lifting-chains-1",
     "title": "Adjust the Lifting Chains",
     "equipment": "Genie GR-15 / GR-20",
-    "file": "structural/genie-gr15-adjust-the-lifting-chains-1.md",
+    "file": "genie/structural/genie-gr15-adjust-the-lifting-chains-1.md",
     "steps": 5,
     "quickAccess": false,
-    "category": "structural"
+    "category": "structural",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gs1930-adjust-the-manual-platform-lowering-cable-1",
     "title": "Adjust the Manual Platform Lowering Cable",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
-    "file": "platform/genie-gs1930-adjust-the-manual-platform-lowering-cable-1.md",
+    "file": "genie/platform/genie-gs1930-adjust-the-manual-platform-lowering-cable-1.md",
     "steps": 9,
     "quickAccess": false,
-    "category": "platform"
+    "category": "platform",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-1932-adjust-the-manual-platform-lowering-cable-1",
     "title": "Adjust the Manual Platform Lowering Cable",
     "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "platform/genie-1932-adjust-the-manual-platform-lowering-cable-1.md",
+    "file": "genie/platform/genie-1932-adjust-the-manual-platform-lowering-cable-1.md",
     "steps": 9,
     "quickAccess": false,
-    "category": "platform"
+    "category": "platform",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s65-adjust-the-oscillate-relief-valve-pressure-1",
     "title": "Adjust the Oscillate Relief Valve Pressure",
     "equipment": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX",
-    "file": "oscillate/genie-s65-adjust-the-oscillate-relief-valve-pressure-1.md",
+    "file": "genie/oscillate/genie-s65-adjust-the-oscillate-relief-valve-pressure-1.md",
     "steps": 11,
     "quickAccess": false,
-    "category": "oscillate"
+    "category": "oscillate",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s80-adjust-the-oscillate-relief-valve-pressure-1",
     "title": "Adjust the Oscillate Relief Valve Pressure",
     "equipment": "Genie S-80 / S-85",
-    "file": "oscillate/genie-s80-adjust-the-oscillate-relief-valve-pressure-1.md",
+    "file": "genie/oscillate/genie-s80-adjust-the-oscillate-relief-valve-pressure-1.md",
     "steps": 8,
     "quickAccess": false,
-    "category": "oscillate"
+    "category": "oscillate",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gs1930-adjust-the-platform-lift-relief-valve",
     "title": "Adjust the Platform Lift Relief Valve",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
-    "file": "hydraulic/genie-gs1930-adjust-the-platform-lift-relief-valve.md",
+    "file": "genie/hydraulic/genie-gs1930-adjust-the-platform-lift-relief-valve.md",
     "steps": 14,
     "quickAccess": false,
-    "category": "hydraulic"
+    "category": "hydraulic",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-1932-adjust-the-platform-lift-relief-valve",
     "title": "Adjust the Platform Lift Relief Valve",
     "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "hydraulic/genie-1932-adjust-the-platform-lift-relief-valve.md",
+    "file": "genie/hydraulic/genie-1932-adjust-the-platform-lift-relief-valve.md",
     "steps": 12,
     "quickAccess": false,
-    "category": "hydraulic"
+    "category": "hydraulic",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gr15-adjust-the-raised-drive-speed-tip-over-hazard-do-not-adjus",
     "title": "Adjust the Raised Drive Speed",
     "equipment": "Genie GR-15 / GR-20",
-    "file": "drive-system/genie-gr15-adjust-the-raised-drive-speed-tip-over-hazard-do-not-adjus.md",
+    "file": "genie/drive-system/genie-gr15-adjust-the-raised-drive-speed-tip-over-hazard-do-not-adjus.md",
     "steps": 8,
     "quickAccess": false,
-    "category": "drive-system"
+    "category": "drive-system",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gr15-adjust-the-slow-drive-speed-tip-over-hazard-do-not-adjust",
     "title": "Adjust the Slow Drive Speed",
     "equipment": "Genie GR-15 / GR-20",
-    "file": "drive-system/genie-gr15-adjust-the-slow-drive-speed-tip-over-hazard-do-not-adjust.md",
+    "file": "genie/drive-system/genie-gr15-adjust-the-slow-drive-speed-tip-over-hazard-do-not-adjust.md",
     "steps": 8,
     "quickAccess": false,
-    "category": "drive-system"
+    "category": "drive-system",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-1932-adjust-the-steer-relief-valve",
     "title": "Adjust the Steer Relief Valve",
     "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "steering/genie-1932-adjust-the-steer-relief-valve.md",
+    "file": "genie/steering/genie-1932-adjust-the-steer-relief-valve.md",
     "steps": 10,
     "quickAccess": false,
-    "category": "steering"
+    "category": "steering",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gr15-adjust-the-stowed-drive-speed-tip-over-hazard-do-not-adjus",
     "title": "Adjust the Stowed Drive Speed",
     "equipment": "Genie GR-15 / GR-20",
-    "file": "drive-system/genie-gr15-adjust-the-stowed-drive-speed-tip-over-hazard-do-not-adjus.md",
+    "file": "genie/drive-system/genie-gr15-adjust-the-stowed-drive-speed-tip-over-hazard-do-not-adjus.md",
     "steps": 7,
     "quickAccess": false,
-    "category": "drive-system"
+    "category": "drive-system",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gs1930-adjust-the-system-relief-valve-1",
     "title": "Adjust the System Relief Valve",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
-    "file": "hydraulic/genie-gs1930-adjust-the-system-relief-valve-1.md",
+    "file": "genie/hydraulic/genie-gs1930-adjust-the-system-relief-valve-1.md",
     "steps": 5,
     "quickAccess": false,
-    "category": "hydraulic"
+    "category": "hydraulic",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-1932-adjust-the-system-relief-valve-1",
     "title": "Adjust the System Relief Valve",
     "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "hydraulic/genie-1932-adjust-the-system-relief-valve-1.md",
+    "file": "genie/hydraulic/genie-1932-adjust-the-system-relief-valve-1.md",
     "steps": 10,
     "quickAccess": false,
-    "category": "hydraulic"
+    "category": "hydraulic",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s65-adjust-the-turntable-rotation-gear-backlash",
     "title": "Adjust the Turntable Rotation Gear Backlash",
     "equipment": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX",
-    "file": "turntable/genie-s65-adjust-the-turntable-rotation-gear-backlash.md",
+    "file": "genie/turntable/genie-s65-adjust-the-turntable-rotation-gear-backlash.md",
     "steps": 8,
     "quickAccess": false,
-    "category": "turntable"
+    "category": "turntable",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s80-adjust-the-turntable-rotation-gear-backlash",
     "title": "Adjust the Turntable Rotation Gear Backlash",
     "equipment": "Genie S-80 / S-85",
-    "file": "turntable/genie-s80-adjust-the-turntable-rotation-gear-backlash.md",
+    "file": "genie/turntable/genie-s80-adjust-the-turntable-rotation-gear-backlash.md",
     "steps": 7,
     "quickAccess": false,
-    "category": "turntable"
+    "category": "turntable",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-z80-adjust-the-turntable-rotation-gear-backlash",
     "title": "Adjust the Turntable Rotation Gear Backlash",
     "equipment": "Genie Z-80 / Z-80/60",
-    "file": "turntable/genie-z80-adjust-the-turntable-rotation-gear-backlash.md",
+    "file": "genie/turntable/genie-z80-adjust-the-turntable-rotation-gear-backlash.md",
     "steps": 3,
     "quickAccess": false,
-    "category": "turntable"
+    "category": "turntable",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gr15-assemble-the-mast-bodily-injury-hazard-this-procedure-requ",
     "title": "Assemble the Mast",
     "equipment": "Genie GR-15 / GR-20",
-    "file": "structural/genie-gr15-assemble-the-mast-bodily-injury-hazard-this-procedure-requ.md",
+    "file": "genie/structural/genie-gr15-assemble-the-mast-bodily-injury-hazard-this-procedure-requ.md",
     "steps": 8,
     "quickAccess": false,
-    "category": "structural"
+    "category": "structural",
+    "manufacturer": "genie"
   },
   {
     "id": "jlg-450aj-assembly-refer-to",
     "title": "Assembly Refer to",
     "equipment": "JLG 450AJ",
-    "file": "reference/jlg-450aj-assembly-refer-to.md",
+    "file": "jlg/reference/jlg-450aj-assembly-refer-to.md",
     "steps": 2,
     "quickAccess": false,
-    "category": "reference"
+    "category": "reference",
+    "manufacturer": "jlg"
   },
   {
     "id": "jlg-g5-18a-axle-assembly-and-drive-shaft-troubleshooting-problem",
     "title": "AXLE ASSEMBLY AND DRIVE SHAFT TROUBLESHOOTING Problem",
     "equipment": "JLG G5-18A",
-    "file": "drive-system/jlg-g5-18a-axle-assembly-and-drive-shaft-troubleshooting-problem.md",
+    "file": "jlg/drive-system/jlg-g5-18a-axle-assembly-and-drive-shaft-troubleshooting-problem.md",
     "steps": 8,
     "quickAccess": false,
-    "category": "drive-system"
+    "category": "drive-system",
+    "manufacturer": "jlg"
   },
   {
     "id": "jlg-450aj-axle-lockout-cylinder-refer-to",
     "title": "Axle Lockout Cylinder Refer to",
     "equipment": "JLG 450AJ",
-    "file": "cylinders/jlg-450aj-axle-lockout-cylinder-refer-to.md",
+    "file": "jlg/cylinders/jlg-450aj-axle-lockout-cylinder-refer-to.md",
     "steps": 6,
     "quickAccess": false,
-    "category": "cylinders"
+    "category": "cylinders",
+    "manufacturer": "jlg"
   },
   {
     "id": "jlg800s860sj-b-5-7-c",
     "title": "B 5 7 C",
     "equipment": "JLG 800S / 860SJ",
-    "file": "reference/jlg800s860sj-b-5-7-c.md",
+    "file": "jlg/reference/jlg800s860sj-b-5-7-c.md",
     "steps": 20,
     "quickAccess": false,
-    "category": "reference"
+    "category": "reference",
+    "manufacturer": "jlg"
   },
   {
     "id": "genie-s80-disassemble-the-boom",
     "title": "Disassemble the Boom",
     "equipment": "Genie S-80 / S-85",
-    "file": "structural/genie-s80-disassemble-the-boom.md",
+    "file": "genie/structural/genie-s80-disassemble-the-boom.md",
     "steps": 8,
     "quickAccess": false,
-    "category": "structural"
+    "category": "structural",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gr15-disassemble-the-mast-bodily-injury-hazard-this-procedure-r",
     "title": "Disassemble the Mast",
     "equipment": "Genie GR-15 / GR-20",
-    "file": "structural/genie-gr15-disassemble-the-mast-bodily-injury-hazard-this-procedure-r.md",
+    "file": "genie/structural/genie-gr15-disassemble-the-mast-bodily-injury-hazard-this-procedure-r.md",
     "steps": 7,
     "quickAccess": false,
-    "category": "structural"
+    "category": "structural",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gs1930-disassemble-the-platform-height-sensor-assembly-if-equipped",
     "title": "Disassemble the Platform Height Sensor Assembly (if equipped)",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
-    "file": "electrical/genie-gs1930-disassemble-the-platform-height-sensor-assembly-if-equipped.md",
+    "file": "genie/electrical/genie-gs1930-disassemble-the-platform-height-sensor-assembly-if-equipped.md",
     "steps": 12,
     "quickAccess": false,
-    "category": "electrical"
+    "category": "electrical",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-1932-disassemble-the-platform-height-sensor-assembly-if-equipped",
     "title": "Disassemble the Platform Height Sensor Assembly (if equipped)",
     "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "electrical/genie-1932-disassemble-the-platform-height-sensor-assembly-if-equipped.md",
+    "file": "genie/electrical/genie-1932-disassemble-the-platform-height-sensor-assembly-if-equipped.md",
     "steps": 12,
     "quickAccess": false,
-    "category": "electrical"
+    "category": "electrical",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gs1930-disassemble-the-scissor-assembly-bodily-injury-hazard-the",
     "title": "Disassemble the Scissor Assembly",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
-    "file": "structural/genie-gs1930-disassemble-the-scissor-assembly-bodily-injury-hazard-the.md",
+    "file": "genie/structural/genie-gs1930-disassemble-the-scissor-assembly-bodily-injury-hazard-the.md",
     "steps": 12,
     "quickAccess": false,
-    "category": "structural"
+    "category": "structural",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gs1930-disassemble-the-scissor-assembly-bodily-injury-hazard-this",
     "title": "Disassemble the Scissor Assembly",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
-    "file": "structural/genie-gs1930-disassemble-the-scissor-assembly-bodily-injury-hazard-this.md",
+    "file": "genie/structural/genie-gs1930-disassemble-the-scissor-assembly-bodily-injury-hazard-this.md",
     "steps": 12,
     "quickAccess": false,
-    "category": "structural"
+    "category": "structural",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-1932-disassemble-the-scissor-assembly-gs-1530-and-gs-1532-bodil",
     "title": "Disassemble the Scissor Assembly, GS-1530 and GS-1532 Bodil",
     "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "structural/genie-1932-disassemble-the-scissor-assembly-gs-1530-and-gs-1532-bodil.md",
+    "file": "genie/structural/genie-1932-disassemble-the-scissor-assembly-gs-1530-and-gs-1532-bodil.md",
     "steps": 12,
     "quickAccess": false,
-    "category": "structural"
+    "category": "structural",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-1932-disassemble-the-scissor-assembly-gs-1930-and-gs-1932-bodil",
     "title": "Disassemble the Scissor Assembly, GS-1930 and GS-1932 Bodil",
     "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "structural/genie-1932-disassemble-the-scissor-assembly-gs-1930-and-gs-1932-bodil.md",
+    "file": "genie/structural/genie-1932-disassemble-the-scissor-assembly-gs-1930-and-gs-1932-bodil.md",
     "steps": 12,
     "quickAccess": false,
-    "category": "structural"
+    "category": "structural",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gs1930-disassemble-the-scissor-assembly-gs-2032-and-gs-2046-bodil",
     "title": "Disassemble the Scissor Assembly, GS-2032 and GS-2046 Bodil",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
-    "file": "structural/genie-gs1930-disassemble-the-scissor-assembly-gs-2032-and-gs-2046-bodil.md",
+    "file": "genie/structural/genie-gs1930-disassemble-the-scissor-assembly-gs-2032-and-gs-2046-bodil.md",
     "steps": 12,
     "quickAccess": false,
-    "category": "structural"
+    "category": "structural",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-1932-disassemble-the-scissor-assembly-gs-2032-and-gs-2046-bodil",
     "title": "Disassemble the Scissor Assembly, GS-2032 and GS-2046 Bodil",
     "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "structural/genie-1932-disassemble-the-scissor-assembly-gs-2032-and-gs-2046-bodil.md",
+    "file": "genie/structural/genie-1932-disassemble-the-scissor-assembly-gs-2032-and-gs-2046-bodil.md",
     "steps": 12,
     "quickAccess": false,
-    "category": "structural"
+    "category": "structural",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-1932-disassemble-the-scissor-assembly-gs-2632-and-gs-2646-bodil",
     "title": "Disassemble the Scissor Assembly, GS-2632 and GS-2646 Bodil",
     "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "structural/genie-1932-disassemble-the-scissor-assembly-gs-2632-and-gs-2646-bodil.md",
+    "file": "genie/structural/genie-1932-disassemble-the-scissor-assembly-gs-2632-and-gs-2646-bodil.md",
     "steps": 12,
     "quickAccess": false,
-    "category": "structural"
+    "category": "structural",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-1932-disassemble-the-scissor-assembly-gs-3232-and-gs-3246-bodil",
     "title": "Disassemble the Scissor Assembly, GS-3232 and GS-3246 Bodil",
     "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "structural/genie-1932-disassemble-the-scissor-assembly-gs-3232-and-gs-3246-bodil.md",
+    "file": "genie/structural/genie-1932-disassemble-the-scissor-assembly-gs-3232-and-gs-3246-bodil.md",
     "steps": 12,
     "quickAccess": false,
-    "category": "structural"
+    "category": "structural",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-1932-disassemble-the-scissor-assembly-gs-4047-bodily-injury-haz",
     "title": "Disassemble the Scissor Assembly, GS-4047 Bodily injury haz",
     "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "structural/genie-1932-disassemble-the-scissor-assembly-gs-4047-bodily-injury-haz.md",
+    "file": "genie/structural/genie-1932-disassemble-the-scissor-assembly-gs-4047-bodily-injury-haz.md",
     "steps": 12,
     "quickAccess": false,
-    "category": "structural"
+    "category": "structural",
+    "manufacturer": "genie"
   },
   {
     "id": "jlg-g5-18a-f-t-grn",
     "title": "F T GRN",
     "equipment": "JLG G5-18A",
-    "file": "reference/jlg-g5-18a-f-t-grn.md",
+    "file": "jlg/reference/jlg-g5-18a-f-t-grn.md",
     "steps": 10,
     "quickAccess": false,
-    "category": "reference"
+    "category": "reference",
+    "manufacturer": "jlg"
   },
   {
     "id": "genie-s65-install-a-type-a-flex-plate-1",
     "title": "Install a Type \"A\" Flex Plate",
     "equipment": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX",
-    "file": "structural/genie-s65-install-a-type-a-flex-plate-1.md",
+    "file": "genie/structural/genie-s65-install-a-type-a-flex-plate-1.md",
     "steps": 4,
     "quickAccess": false,
-    "category": "structural"
+    "category": "structural",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s65-install-a-type-b-flex-plate-1",
     "title": "Install a Type \"B\" Flex Plate",
     "equipment": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX",
-    "file": "structural/genie-s65-install-a-type-b-flex-plate-1.md",
+    "file": "genie/structural/genie-s65-install-a-type-b-flex-plate-1.md",
     "steps": 2,
     "quickAccess": false,
-    "category": "structural"
+    "category": "structural",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gs1930-install-a-valve-cartridge-1",
     "title": "Install a Valve Cartridge",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
-    "file": "hydraulic/genie-gs1930-install-a-valve-cartridge-1.md",
+    "file": "genie/hydraulic/genie-gs1930-install-a-valve-cartridge-1.md",
     "steps": 9,
     "quickAccess": false,
-    "category": "hydraulic"
+    "category": "hydraulic",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-1932-install-a-valve-cartridge-1",
     "title": "Install a Valve Cartridge",
     "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "hydraulic/genie-1932-install-a-valve-cartridge-1.md",
+    "file": "genie/hydraulic/genie-1932-install-a-valve-cartridge-1.md",
     "steps": 11,
     "quickAccess": false,
-    "category": "hydraulic"
+    "category": "hydraulic",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-1932-install-and-calibrate-the-1-5-level-sensor-tip-over-hazard",
     "title": "Install and Calibrate the 1.5° Level Sensor",
     "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "level-sensor/genie-1932-install-and-calibrate-the-1-5-level-sensor-tip-over-hazard.md",
+    "file": "genie/level-sensor/genie-1932-install-and-calibrate-the-1-5-level-sensor-tip-over-hazard.md",
     "steps": 12,
     "quickAccess": false,
-    "category": "level-sensor"
+    "category": "level-sensor",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gs1930-install-and-calibrate-the-level-sensor-procedure-1-procedure-1-1",
     "title": "Install and Calibrate the Level Sensor - Procedure 1",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
-    "file": "level-sensor/genie-gs1930-install-and-calibrate-the-level-sensor-procedure-1-procedure-1-1.md",
+    "file": "genie/level-sensor/genie-gs1930-install-and-calibrate-the-level-sensor-procedure-1-procedure-1-1.md",
     "steps": 12,
     "quickAccess": false,
-    "category": "level-sensor"
+    "category": "level-sensor",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gs1930-install-and-calibrate-the-level-sensor-procedure-2-procedure-2-1",
     "title": "Install and Calibrate the Level Sensor - Procedure 2",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
-    "file": "level-sensor/genie-gs1930-install-and-calibrate-the-level-sensor-procedure-2-procedure-2-1.md",
+    "file": "genie/level-sensor/genie-gs1930-install-and-calibrate-the-level-sensor-procedure-2-procedure-2-1.md",
     "steps": 12,
     "quickAccess": false,
-    "category": "level-sensor"
+    "category": "level-sensor",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gs1930-install-and-calibrate-the-level-sensor-procedure-3-procedure-3-1",
     "title": "Install and Calibrate the Level Sensor - Procedure 3",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
-    "file": "level-sensor/genie-gs1930-install-and-calibrate-the-level-sensor-procedure-3-procedure-3-1.md",
+    "file": "genie/level-sensor/genie-gs1930-install-and-calibrate-the-level-sensor-procedure-3-procedure-3-1.md",
     "steps": 12,
     "quickAccess": false,
-    "category": "level-sensor"
+    "category": "level-sensor",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gr15-install-and-calibrate-the-level-sensor-tip-over-hazard-fai",
     "title": "Install and Calibrate the Level Sensor",
     "equipment": "Genie GR-15 / GR-20",
-    "file": "level-sensor/genie-gr15-install-and-calibrate-the-level-sensor-tip-over-hazard-fai.md",
+    "file": "genie/level-sensor/genie-gr15-install-and-calibrate-the-level-sensor-tip-over-hazard-fai.md",
     "steps": 8,
     "quickAccess": false,
-    "category": "level-sensor"
+    "category": "level-sensor",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s80-install-the-hub-and-bearings-2wd-models",
     "title": "Install the Hub and Bearings, 2WD Models",
     "equipment": "Genie S-80 / S-85",
-    "file": "structural/genie-s80-install-the-hub-and-bearings-2wd-models.md",
+    "file": "genie/structural/genie-s80-install-the-hub-and-bearings-2wd-models.md",
     "steps": 9,
     "quickAccess": false,
-    "category": "structural"
+    "category": "structural",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-1932-install-the-outrigger-level-sensor-tip-over-hazard-failure",
     "title": "Install the Outrigger Level Sensor",
     "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "level-sensor/genie-1932-install-the-outrigger-level-sensor-tip-over-hazard-failure.md",
+    "file": "genie/level-sensor/genie-1932-install-the-outrigger-level-sensor-tip-over-hazard-failure.md",
     "steps": 11,
     "quickAccess": false,
-    "category": "level-sensor"
+    "category": "level-sensor",
+    "manufacturer": "genie"
   },
   {
     "id": "jlg-450aj-jib-lift-cylinder-aj-only-without-arctic-package-refer-to",
     "title": "Jib Lift Cylinder (AJ Only) Without Arctic Package Refer to",
     "equipment": "JLG 450AJ",
-    "file": "cylinders/jlg-450aj-jib-lift-cylinder-aj-only-without-arctic-package-refer-to.md",
+    "file": "jlg/cylinders/jlg-450aj-jib-lift-cylinder-aj-only-without-arctic-package-refer-to.md",
     "steps": 6,
     "quickAccess": false,
-    "category": "cylinders"
+    "category": "cylinders",
+    "manufacturer": "jlg"
   },
   {
     "id": "jlg-450aj-main-lift-cylinder-disassembly-refer-to",
     "title": "Main Lift Cylinder DISASSEMBLY Refer to",
     "equipment": "JLG 450AJ",
-    "file": "cylinders/jlg-450aj-main-lift-cylinder-disassembly-refer-to.md",
+    "file": "jlg/cylinders/jlg-450aj-main-lift-cylinder-disassembly-refer-to.md",
     "steps": 11,
     "quickAccess": false,
-    "category": "cylinders"
+    "category": "cylinders",
+    "manufacturer": "jlg"
   },
   {
     "id": "genie-s80-perform-the-toe-in-adjustment",
     "title": "Perform the Toe-in Adjustment",
     "equipment": "Genie S-80 / S-85",
-    "file": "structural/genie-s80-perform-the-toe-in-adjustment.md",
+    "file": "genie/structural/genie-s80-perform-the-toe-in-adjustment.md",
     "steps": 9,
     "quickAccess": false,
-    "category": "structural"
+    "category": "structural",
+    "manufacturer": "genie"
   },
   {
     "id": "jlg-450aj-press-enter-to-select-the",
     "title": "Press ENTER to select the",
     "equipment": "JLG 450AJ",
-    "file": "reference/jlg-450aj-press-enter-to-select-the.md",
+    "file": "jlg/reference/jlg-450aj-press-enter-to-select-the.md",
     "steps": 3,
     "quickAccess": false,
-    "category": "reference"
+    "category": "reference",
+    "manufacturer": "jlg"
   },
   {
     "id": "genie-z80-prime-the-pump",
     "title": "Prime the Pump",
     "equipment": "Genie Z-80 / Z-80/60",
-    "file": "hydraulic/genie-z80-prime-the-pump.md",
+    "file": "genie/hydraulic/genie-z80-prime-the-pump.md",
     "steps": 10,
     "quickAccess": false,
-    "category": "hydraulic"
+    "category": "hydraulic",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s65-prime-the-pump-1",
     "title": "Prime the Pump",
     "equipment": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX",
-    "file": "hydraulic/genie-s65-prime-the-pump-1.md",
+    "file": "genie/hydraulic/genie-s65-prime-the-pump-1.md",
     "steps": 12,
     "quickAccess": false,
-    "category": "hydraulic"
+    "category": "hydraulic",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s80-prime-the-pump-component-damage-hazard-be-sure-that-the-hy",
     "title": "Prime the Pump",
     "equipment": "Genie S-80 / S-85",
-    "file": "hydraulic/genie-s80-prime-the-pump-component-damage-hazard-be-sure-that-the-hy.md",
+    "file": "genie/hydraulic/genie-s80-prime-the-pump-component-damage-hazard-be-sure-that-the-hy.md",
     "steps": 12,
     "quickAccess": false,
-    "category": "hydraulic"
+    "category": "hydraulic",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gr15-remove-a-drive-brake",
     "title": "Remove a Drive Brake",
     "equipment": "Genie GR-15 / GR-20",
-    "file": "drive-system/genie-gr15-remove-a-drive-brake.md",
+    "file": "genie/drive-system/genie-gr15-remove-a-drive-brake.md",
     "steps": 8,
     "quickAccess": false,
-    "category": "drive-system"
+    "category": "drive-system",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s80-remove-a-drive-hub",
     "title": "Remove a Drive Hub",
     "equipment": "Genie S-80 / S-85",
-    "file": "drive-system/genie-s80-remove-a-drive-hub.md",
+    "file": "genie/drive-system/genie-s80-remove-a-drive-hub.md",
     "steps": 6,
     "quickAccess": false,
-    "category": "drive-system"
+    "category": "drive-system",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gs1930-remove-a-drive-motor",
     "title": "Remove a Drive Motor",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
-    "file": "drive-system/genie-gs1930-remove-a-drive-motor.md",
+    "file": "genie/drive-system/genie-gs1930-remove-a-drive-motor.md",
     "steps": 9,
     "quickAccess": false,
-    "category": "drive-system"
+    "category": "drive-system",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gr15-remove-a-drive-motor-1",
     "title": "Remove a Drive Motor",
     "equipment": "Genie GR-15 / GR-20",
-    "file": "drive-system/genie-gr15-remove-a-drive-motor-1.md",
+    "file": "genie/drive-system/genie-gr15-remove-a-drive-motor-1.md",
     "steps": 7,
     "quickAccess": false,
-    "category": "drive-system"
+    "category": "drive-system",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-1932-remove-a-drive-motor-1",
     "title": "Remove a Drive Motor",
     "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "drive-system/genie-1932-remove-a-drive-motor-1.md",
+    "file": "genie/drive-system/genie-1932-remove-a-drive-motor-1.md",
     "steps": 8,
     "quickAccess": false,
-    "category": "drive-system"
+    "category": "drive-system",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s80-remove-a-steer-cylinder-there-are-two-identical-steer-cylin",
     "title": "Remove a Steer Cylinder There are two identical steer cylin",
     "equipment": "Genie S-80 / S-85",
-    "file": "cylinders/genie-s80-remove-a-steer-cylinder-there-are-two-identical-steer-cylin.md",
+    "file": "genie/cylinders/genie-s80-remove-a-steer-cylinder-there-are-two-identical-steer-cylin.md",
     "steps": 2,
     "quickAccess": false,
-    "category": "cylinders"
+    "category": "cylinders",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s80-remove-an-inner-axle",
     "title": "Remove an Inner Axle",
     "equipment": "Genie S-80 / S-85",
-    "file": "drive-system/genie-s80-remove-an-inner-axle.md",
+    "file": "genie/drive-system/genie-s80-remove-an-inner-axle.md",
     "steps": 6,
     "quickAccess": false,
-    "category": "drive-system"
+    "category": "drive-system",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s80-remove-an-oscillate-axle-cylinder",
     "title": "Remove an Oscillate Axle Cylinder",
     "equipment": "Genie S-80 / S-85",
-    "file": "oscillate/genie-s80-remove-an-oscillate-axle-cylinder.md",
+    "file": "genie/oscillate/genie-s80-remove-an-oscillate-axle-cylinder.md",
     "steps": 6,
     "quickAccess": false,
-    "category": "oscillate"
+    "category": "oscillate",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s65-remove-the-alc-500-circuit-board-1",
     "title": "Remove the ALC-500 Circuit Board",
     "equipment": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX",
-    "file": "alc-500/genie-s65-remove-the-alc-500-circuit-board-1.md",
+    "file": "genie/alc-500/genie-s65-remove-the-alc-500-circuit-board-1.md",
     "steps": 7,
     "quickAccess": false,
-    "category": "alc-500"
+    "category": "alc-500",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s80-remove-the-alc-500-circuit-board-1",
     "title": "Remove the ALC-500 Circuit Board",
     "equipment": "Genie S-80 / S-85",
-    "file": "alc-500/genie-s80-remove-the-alc-500-circuit-board-1.md",
+    "file": "genie/alc-500/genie-s80-remove-the-alc-500-circuit-board-1.md",
     "steps": 7,
     "quickAccess": false,
-    "category": "alc-500"
+    "category": "alc-500",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s80-remove-the-axle-extension-cylinder",
     "title": "Remove the Axle Extension Cylinder",
     "equipment": "Genie S-80 / S-85",
-    "file": "cylinders/genie-s80-remove-the-axle-extension-cylinder.md",
+    "file": "genie/cylinders/genie-s80-remove-the-axle-extension-cylinder.md",
     "steps": 7,
     "quickAccess": false,
-    "category": "cylinders"
+    "category": "cylinders",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s80-remove-the-boom-bodily-injury-hazard-this-procedure-requir",
     "title": "Remove the Boom",
     "equipment": "Genie S-80 / S-85",
-    "file": "structural/genie-s80-remove-the-boom-bodily-injury-hazard-this-procedure-requir.md",
+    "file": "genie/structural/genie-s80-remove-the-boom-bodily-injury-hazard-this-procedure-requir.md",
     "steps": 7,
     "quickAccess": false,
-    "category": "structural"
+    "category": "structural",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s65-remove-the-boom-extension-cylinder-bodily-injury-hazard-th",
     "title": "Remove the Boom Extension Cylinder",
     "equipment": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX",
-    "file": "cylinders/genie-s65-remove-the-boom-extension-cylinder-bodily-injury-hazard-th.md",
+    "file": "genie/cylinders/genie-s65-remove-the-boom-extension-cylinder-bodily-injury-hazard-th.md",
     "steps": 12,
     "quickAccess": false,
-    "category": "cylinders"
+    "category": "cylinders",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s65-remove-the-boom-lift-cylinder-bodily-injury-hazard-this-pr",
     "title": "Remove the Boom Lift Cylinder",
     "equipment": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX",
-    "file": "cylinders/genie-s65-remove-the-boom-lift-cylinder-bodily-injury-hazard-this-pr.md",
+    "file": "genie/cylinders/genie-s65-remove-the-boom-lift-cylinder-bodily-injury-hazard-this-pr.md",
     "steps": 10,
     "quickAccess": false,
-    "category": "cylinders"
+    "category": "cylinders",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s80-remove-the-boom-lift-cylinder-bodily-injury-hazard-this-pr",
     "title": "Remove the Boom Lift Cylinder",
     "equipment": "Genie S-80 / S-85",
-    "file": "cylinders/genie-s80-remove-the-boom-lift-cylinder-bodily-injury-hazard-this-pr.md",
+    "file": "genie/cylinders/genie-s80-remove-the-boom-lift-cylinder-bodily-injury-hazard-this-pr.md",
     "steps": 9,
     "quickAccess": false,
-    "category": "cylinders"
+    "category": "cylinders",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s65-remove-the-boom-tip-over-hazard-this-procedure-requires-th",
     "title": "Remove the Boom",
     "equipment": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX",
-    "file": "structural/genie-s65-remove-the-boom-tip-over-hazard-this-procedure-requires-th.md",
+    "file": "genie/structural/genie-s65-remove-the-boom-tip-over-hazard-this-procedure-requires-th.md",
     "steps": 12,
     "quickAccess": false,
-    "category": "structural"
+    "category": "structural",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s80-remove-the-cable-track",
     "title": "Remove the Cable Track",
     "equipment": "Genie S-80 / S-85",
-    "file": "structural/genie-s80-remove-the-cable-track.md",
+    "file": "genie/structural/genie-s80-remove-the-cable-track.md",
     "steps": 8,
     "quickAccess": false,
-    "category": "structural"
+    "category": "structural",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s65-remove-the-cable-track-s-60-s-60x-s-60xc-s-60-hc-and-s-60-trax",
     "title": "Remove the Cable Track, S-60, S-60X, S-60XC, S-60 HC and S-60 TRAX",
     "equipment": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX",
-    "file": "structural/genie-s65-remove-the-cable-track-s-60-s-60x-s-60xc-s-60-hc-and-s-60-trax.md",
+    "file": "genie/structural/genie-s65-remove-the-cable-track-s-60-s-60x-s-60xc-s-60-hc-and-s-60-trax.md",
     "steps": 12,
     "quickAccess": false,
-    "category": "structural"
+    "category": "structural",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s65-remove-the-cable-track-s-65-and-s-65-trax",
     "title": "Remove the Cable Track, S-65 and S-65 TRAX",
     "equipment": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX",
-    "file": "structural/genie-s65-remove-the-cable-track-s-65-and-s-65-trax.md",
+    "file": "genie/structural/genie-s65-remove-the-cable-track-s-65-and-s-65-trax.md",
     "steps": 12,
     "quickAccess": false,
-    "category": "structural"
+    "category": "structural",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gs1930-remove-the-drive-brake",
     "title": "Remove the Drive Brake",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
-    "file": "drive-system/genie-gs1930-remove-the-drive-brake.md",
+    "file": "genie/drive-system/genie-gs1930-remove-the-drive-brake.md",
     "steps": 11,
     "quickAccess": false,
-    "category": "drive-system"
+    "category": "drive-system",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-1932-remove-the-drive-brake-when-removing-a-hose-assembly-or-fit",
     "title": "Remove the Drive Brake When removing a hose assembly or fit",
     "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "drive-system/genie-1932-remove-the-drive-brake-when-removing-a-hose-assembly-or-fit.md",
+    "file": "genie/drive-system/genie-1932-remove-the-drive-brake-when-removing-a-hose-assembly-or-fit.md",
     "steps": 11,
     "quickAccess": false,
-    "category": "drive-system"
+    "category": "drive-system",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s65-remove-the-drive-pump-component-damage-hazard-the-work-are",
     "title": "Remove the Drive Pump",
     "equipment": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX",
-    "file": "drive-system/genie-s65-remove-the-drive-pump-component-damage-hazard-the-work-are.md",
+    "file": "genie/drive-system/genie-s65-remove-the-drive-pump-component-damage-hazard-the-work-are.md",
     "steps": 6,
     "quickAccess": false,
-    "category": "drive-system"
+    "category": "drive-system",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s80-remove-the-drive-pump-component-damage-hazard-the-work-are",
     "title": "Remove the Drive Pump",
     "equipment": "Genie S-80 / S-85",
-    "file": "drive-system/genie-s80-remove-the-drive-pump-component-damage-hazard-the-work-are.md",
+    "file": "genie/drive-system/genie-s80-remove-the-drive-pump-component-damage-hazard-the-work-are.md",
     "steps": 5,
     "quickAccess": false,
-    "category": "drive-system"
+    "category": "drive-system",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s65-remove-the-flex-plate-deutz-models-1",
     "title": "Remove the Flex Plate (Deutz models)",
     "equipment": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX",
-    "file": "structural/genie-s65-remove-the-flex-plate-deutz-models-1.md",
+    "file": "genie/structural/genie-s65-remove-the-flex-plate-deutz-models-1.md",
     "steps": 11,
     "quickAccess": false,
-    "category": "structural"
+    "category": "structural",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s80-remove-the-fuel-tank-explosion-and-fire-hazard-engine-fuel",
     "title": "Remove the Fuel Tank",
     "equipment": "Genie S-80 / S-85",
-    "file": "misc/genie-s80-remove-the-fuel-tank-explosion-and-fire-hazard-engine-fuel.md",
+    "file": "genie/misc/genie-s80-remove-the-fuel-tank-explosion-and-fire-hazard-engine-fuel.md",
     "steps": 5,
     "quickAccess": false,
-    "category": "misc"
+    "category": "misc",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s65-remove-the-function-pump",
     "title": "Remove the Function Pump",
     "equipment": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX",
-    "file": "hydraulic/genie-s65-remove-the-function-pump.md",
+    "file": "genie/hydraulic/genie-s65-remove-the-function-pump.md",
     "steps": 3,
     "quickAccess": false,
-    "category": "hydraulic"
+    "category": "hydraulic",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s80-remove-the-hub-and-bearings-1",
     "title": "Remove the Hub and Bearings",
     "equipment": "Genie S-80 / S-85",
-    "file": "structural/genie-s80-remove-the-hub-and-bearings-1.md",
+    "file": "genie/structural/genie-s80-remove-the-hub-and-bearings-1.md",
     "steps": 6,
     "quickAccess": false,
-    "category": "structural"
+    "category": "structural",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gs1930-remove-the-hydraulic-pump",
     "title": "Remove the Hydraulic Pump",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
-    "file": "hydraulic/genie-gs1930-remove-the-hydraulic-pump.md",
+    "file": "genie/hydraulic/genie-gs1930-remove-the-hydraulic-pump.md",
     "steps": 8,
     "quickAccess": false,
-    "category": "hydraulic"
+    "category": "hydraulic",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gr15-remove-the-hydraulic-pump",
     "title": "Remove the Hydraulic Pump",
     "equipment": "Genie GR-15 / GR-20",
-    "file": "hydraulic/genie-gr15-remove-the-hydraulic-pump.md",
+    "file": "genie/hydraulic/genie-gr15-remove-the-hydraulic-pump.md",
     "steps": 8,
     "quickAccess": false,
-    "category": "hydraulic"
+    "category": "hydraulic",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-1932-remove-the-hydraulic-pump-when-removing-a-hose-assembly-or",
     "title": "Remove the Hydraulic Pump When removing a hose assembly or",
     "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "hydraulic/genie-1932-remove-the-hydraulic-pump-when-removing-a-hose-assembly-or.md",
+    "file": "genie/hydraulic/genie-1932-remove-the-hydraulic-pump-when-removing-a-hose-assembly-or.md",
     "steps": 9,
     "quickAccess": false,
-    "category": "hydraulic"
+    "category": "hydraulic",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gs1930-remove-the-hydraulic-tank-component-damage-hazard-the-work",
     "title": "Remove the Hydraulic Tank",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
-    "file": "hydraulic/genie-gs1930-remove-the-hydraulic-tank-component-damage-hazard-the-work.md",
+    "file": "genie/hydraulic/genie-gs1930-remove-the-hydraulic-tank-component-damage-hazard-the-work.md",
     "steps": 7,
     "quickAccess": false,
-    "category": "hydraulic"
+    "category": "hydraulic",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s80-remove-the-hydraulic-tank-component-damage-hazard-the-work",
     "title": "Remove the Hydraulic Tank",
     "equipment": "Genie S-80 / S-85",
-    "file": "hydraulic/genie-s80-remove-the-hydraulic-tank-component-damage-hazard-the-work.md",
+    "file": "genie/hydraulic/genie-s80-remove-the-hydraulic-tank-component-damage-hazard-the-work.md",
     "steps": 8,
     "quickAccess": false,
-    "category": "hydraulic"
+    "category": "hydraulic",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gr15-remove-the-hydraulic-tank-component-damage-hazard-the-work",
     "title": "Remove the Hydraulic Tank",
     "equipment": "Genie GR-15 / GR-20",
-    "file": "hydraulic/genie-gr15-remove-the-hydraulic-tank-component-damage-hazard-the-work.md",
+    "file": "genie/hydraulic/genie-gr15-remove-the-hydraulic-tank-component-damage-hazard-the-work.md",
     "steps": 2,
     "quickAccess": false,
-    "category": "hydraulic"
+    "category": "hydraulic",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-1932-remove-the-hydraulic-tank-component-damage-hazard-the-work",
     "title": "Remove the Hydraulic Tank",
     "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "hydraulic/genie-1932-remove-the-hydraulic-tank-component-damage-hazard-the-work.md",
+    "file": "genie/hydraulic/genie-1932-remove-the-hydraulic-tank-component-damage-hazard-the-work.md",
     "steps": 5,
     "quickAccess": false,
-    "category": "hydraulic"
+    "category": "hydraulic",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s80-remove-the-jib-boom",
     "title": "Remove the Jib Boom",
     "equipment": "Genie S-80 / S-85",
-    "file": "structural/genie-s80-remove-the-jib-boom.md",
+    "file": "genie/structural/genie-s80-remove-the-jib-boom.md",
     "steps": 8,
     "quickAccess": false,
-    "category": "structural"
+    "category": "structural",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s80-remove-the-jib-boom-lift-cylinder",
     "title": "Remove the Jib Boom Lift Cylinder",
     "equipment": "Genie S-80 / S-85",
-    "file": "cylinders/genie-s80-remove-the-jib-boom-lift-cylinder.md",
+    "file": "genie/cylinders/genie-s80-remove-the-jib-boom-lift-cylinder.md",
     "steps": 6,
     "quickAccess": false,
-    "category": "cylinders"
+    "category": "cylinders",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gs1930-remove-the-joystick-1",
     "title": "Remove the Joystick",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
-    "file": "joystick/genie-gs1930-remove-the-joystick-1.md",
+    "file": "genie/alc-500/genie-gs1930-remove-the-joystick-1.md",
     "steps": 8,
     "quickAccess": false,
-    "category": "joystick"
+    "category": "alc-500",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-1932-remove-the-joystick-1",
     "title": "Remove the Joystick",
     "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "joystick/genie-1932-remove-the-joystick-1.md",
+    "file": "genie/alc-500/genie-1932-remove-the-joystick-1.md",
     "steps": 8,
     "quickAccess": false,
-    "category": "joystick"
+    "category": "alc-500",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gs1930-remove-the-lift-cylinder-bodily-injury-hazard-the-procedur",
     "title": "Remove the Lift Cylinder",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
-    "file": "cylinders/genie-gs1930-remove-the-lift-cylinder-bodily-injury-hazard-the-procedur.md",
+    "file": "genie/cylinders/genie-gs1930-remove-the-lift-cylinder-bodily-injury-hazard-the-procedur.md",
     "steps": 12,
     "quickAccess": false,
-    "category": "cylinders"
+    "category": "cylinders",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-1932-remove-the-lift-cylinder-bodily-injury-hazard-the-procedur",
     "title": "Remove the Lift Cylinder",
     "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "cylinders/genie-1932-remove-the-lift-cylinder-bodily-injury-hazard-the-procedur.md",
+    "file": "genie/cylinders/genie-1932-remove-the-lift-cylinder-bodily-injury-hazard-the-procedur.md",
     "steps": 12,
     "quickAccess": false,
-    "category": "cylinders"
+    "category": "cylinders",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gr15-remove-the-lift-cylinder-bodily-injury-hazard-this-procedu",
     "title": "Remove the Lift Cylinder",
     "equipment": "Genie GR-15 / GR-20",
-    "file": "cylinders/genie-gr15-remove-the-lift-cylinder-bodily-injury-hazard-this-procedu.md",
+    "file": "genie/cylinders/genie-gr15-remove-the-lift-cylinder-bodily-injury-hazard-this-procedu.md",
     "steps": 5,
     "quickAccess": false,
-    "category": "cylinders"
+    "category": "cylinders",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gr15-remove-the-mast-assembly-bodily-injury-hazard-this-procedu",
     "title": "Remove the Mast Assembly",
     "equipment": "Genie GR-15 / GR-20",
-    "file": "structural/genie-gr15-remove-the-mast-assembly-bodily-injury-hazard-this-procedu.md",
+    "file": "genie/structural/genie-gr15-remove-the-mast-assembly-bodily-injury-hazard-this-procedu.md",
     "steps": 8,
     "quickAccess": false,
-    "category": "structural"
+    "category": "structural",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s80-remove-the-platform-1",
     "title": "Remove the Platform",
     "equipment": "Genie S-80 / S-85",
-    "file": "platform/genie-s80-remove-the-platform-1.md",
+    "file": "genie/platform/genie-s80-remove-the-platform-1.md",
     "steps": 7,
     "quickAccess": false,
-    "category": "platform"
+    "category": "platform",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gr15-remove-the-platform-1",
     "title": "Remove the Platform",
     "equipment": "Genie GR-15 / GR-20",
-    "file": "platform/genie-gr15-remove-the-platform-1.md",
+    "file": "genie/platform/genie-gr15-remove-the-platform-1.md",
     "steps": 7,
     "quickAccess": false,
-    "category": "platform"
+    "category": "platform",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gs1930-remove-the-platform-controls-alarm-1",
     "title": "Remove the Platform Controls Alarm",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
-    "file": "electrical/genie-gs1930-remove-the-platform-controls-alarm-1.md",
+    "file": "genie/electrical/genie-gs1930-remove-the-platform-controls-alarm-1.md",
     "steps": 6,
     "quickAccess": false,
-    "category": "electrical"
+    "category": "electrical",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-1932-remove-the-platform-controls-alarm-1",
     "title": "Remove the Platform Controls Alarm",
     "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "electrical/genie-1932-remove-the-platform-controls-alarm-1.md",
+    "file": "genie/electrical/genie-1932-remove-the-platform-controls-alarm-1.md",
     "steps": 6,
     "quickAccess": false,
-    "category": "electrical"
+    "category": "electrical",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gs1930-remove-the-platform-controls-circuit-board-1",
     "title": "Remove the Platform Controls Circuit Board",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
-    "file": "electrical/genie-gs1930-remove-the-platform-controls-circuit-board-1.md",
+    "file": "genie/electrical/genie-gs1930-remove-the-platform-controls-circuit-board-1.md",
     "steps": 10,
     "quickAccess": false,
-    "category": "electrical"
+    "category": "electrical",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gr15-remove-the-platform-controls-circuit-board-1",
     "title": "Remove the Platform Controls Circuit Board",
     "equipment": "Genie GR-15 / GR-20",
-    "file": "electrical/genie-gr15-remove-the-platform-controls-circuit-board-1.md",
+    "file": "genie/electrical/genie-gr15-remove-the-platform-controls-circuit-board-1.md",
     "steps": 6,
     "quickAccess": false,
-    "category": "electrical"
+    "category": "electrical",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-1932-remove-the-platform-controls-circuit-board-1",
     "title": "Remove the Platform Controls Circuit Board",
     "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "electrical/genie-1932-remove-the-platform-controls-circuit-board-1.md",
+    "file": "genie/electrical/genie-1932-remove-the-platform-controls-circuit-board-1.md",
     "steps": 10,
     "quickAccess": false,
-    "category": "electrical"
+    "category": "electrical",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gs1930-remove-the-platform-controls-emergency-stop-button-1",
     "title": "Remove the Platform Controls Emergency Stop Button",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
-    "file": "electrical/genie-gs1930-remove-the-platform-controls-emergency-stop-button-1.md",
+    "file": "genie/electrical/genie-gs1930-remove-the-platform-controls-emergency-stop-button-1.md",
     "steps": 9,
     "quickAccess": false,
-    "category": "electrical"
+    "category": "electrical",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-1932-remove-the-platform-controls-emergency-stop-button-1",
     "title": "Remove the Platform Controls Emergency Stop Button",
     "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "electrical/genie-1932-remove-the-platform-controls-emergency-stop-button-1.md",
+    "file": "genie/electrical/genie-1932-remove-the-platform-controls-emergency-stop-button-1.md",
     "steps": 8,
     "quickAccess": false,
-    "category": "electrical"
+    "category": "electrical",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gr15-remove-the-platform-extension-1",
     "title": "Remove the Platform Extension",
     "equipment": "Genie GR-15 / GR-20",
-    "file": "platform/genie-gr15-remove-the-platform-extension-1.md",
+    "file": "genie/platform/genie-gr15-remove-the-platform-extension-1.md",
     "steps": 5,
     "quickAccess": false,
-    "category": "platform"
+    "category": "platform",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-1932-remove-the-platform-extension-1",
     "title": "Remove the Platform Extension",
     "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "platform/genie-1932-remove-the-platform-extension-1.md",
+    "file": "genie/platform/genie-1932-remove-the-platform-extension-1.md",
     "steps": 8,
     "quickAccess": false,
-    "category": "platform"
+    "category": "platform",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gs1930-remove-the-platform-extension-deck-1",
     "title": "Remove the Platform Extension Deck",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
-    "file": "platform/genie-gs1930-remove-the-platform-extension-deck-1.md",
+    "file": "genie/platform/genie-gs1930-remove-the-platform-extension-deck-1.md",
     "steps": 8,
     "quickAccess": false,
-    "category": "platform"
+    "category": "platform",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s65-remove-the-platform-leveling-master-cylinder",
     "title": "Remove the Platform Leveling Master Cylinder",
     "equipment": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX",
-    "file": "cylinders/genie-s65-remove-the-platform-leveling-master-cylinder.md",
+    "file": "genie/cylinders/genie-s65-remove-the-platform-leveling-master-cylinder.md",
     "steps": 8,
     "quickAccess": false,
-    "category": "cylinders"
+    "category": "cylinders",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s80-remove-the-platform-leveling-master-cylinder",
     "title": "Remove the Platform Leveling Master Cylinder",
     "equipment": "Genie S-80 / S-85",
-    "file": "cylinders/genie-s80-remove-the-platform-leveling-master-cylinder.md",
+    "file": "genie/cylinders/genie-s80-remove-the-platform-leveling-master-cylinder.md",
     "steps": 8,
     "quickAccess": false,
-    "category": "cylinders"
+    "category": "cylinders",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s65-remove-the-platform-leveling-slave-cylinder",
     "title": "Remove the Platform Leveling Slave Cylinder",
     "equipment": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX",
-    "file": "cylinders/genie-s65-remove-the-platform-leveling-slave-cylinder.md",
+    "file": "genie/cylinders/genie-s65-remove-the-platform-leveling-slave-cylinder.md",
     "steps": 8,
     "quickAccess": false,
-    "category": "cylinders"
+    "category": "cylinders",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s80-remove-the-platform-leveling-slave-cylinder",
     "title": "Remove the Platform Leveling Slave Cylinder",
     "equipment": "Genie S-80 / S-85",
-    "file": "cylinders/genie-s80-remove-the-platform-leveling-slave-cylinder.md",
+    "file": "genie/cylinders/genie-s80-remove-the-platform-leveling-slave-cylinder.md",
     "steps": 8,
     "quickAccess": false,
-    "category": "cylinders"
+    "category": "cylinders",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s65-remove-the-platform-rotator-component-damage-hazard-mark-t",
     "title": "Remove the Platform Rotator",
     "equipment": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX",
-    "file": "platform/genie-s65-remove-the-platform-rotator-component-damage-hazard-mark-t.md",
+    "file": "genie/platform/genie-s65-remove-the-platform-rotator-component-damage-hazard-mark-t.md",
     "steps": 14,
     "quickAccess": false,
-    "category": "platform"
+    "category": "platform",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s80-remove-the-platform-rotator-component-damage-hazard-mark-t",
     "title": "Remove the Platform Rotator",
     "equipment": "Genie S-80 / S-85",
-    "file": "platform/genie-s80-remove-the-platform-rotator-component-damage-hazard-mark-t.md",
+    "file": "genie/platform/genie-s80-remove-the-platform-rotator-component-damage-hazard-mark-t.md",
     "steps": 9,
     "quickAccess": false,
-    "category": "platform"
+    "category": "platform",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gs1930-remove-the-pressure-transducer-if-equipped",
     "title": "Remove the Pressure Transducer (if equipped)",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
-    "file": "electrical/genie-gs1930-remove-the-pressure-transducer-if-equipped.md",
+    "file": "genie/electrical/genie-gs1930-remove-the-pressure-transducer-if-equipped.md",
     "steps": 16,
     "quickAccess": false,
-    "category": "electrical"
+    "category": "electrical",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-1932-remove-the-pressure-transducer-if-equipped",
     "title": "Remove the Pressure Transducer (if equipped)",
     "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "electrical/genie-1932-remove-the-pressure-transducer-if-equipped.md",
+    "file": "genie/electrical/genie-1932-remove-the-pressure-transducer-if-equipped.md",
     "steps": 16,
     "quickAccess": false,
-    "category": "electrical"
+    "category": "electrical",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gs1930-remove-the-steer-bellcrank-1",
     "title": "Remove the Steer Bellcrank",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
-    "file": "steering/genie-gs1930-remove-the-steer-bellcrank-1.md",
+    "file": "genie/steering/genie-gs1930-remove-the-steer-bellcrank-1.md",
     "steps": 6,
     "quickAccess": false,
-    "category": "steering"
+    "category": "steering",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gr15-remove-the-steer-bellcrank-1",
     "title": "Remove the Steer Bellcrank",
     "equipment": "Genie GR-15 / GR-20",
-    "file": "steering/genie-gr15-remove-the-steer-bellcrank-1.md",
+    "file": "genie/steering/genie-gr15-remove-the-steer-bellcrank-1.md",
     "steps": 7,
     "quickAccess": false,
-    "category": "steering"
+    "category": "steering",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-1932-remove-the-steer-bellcrank-1",
     "title": "Remove the Steer Bellcrank",
     "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "steering/genie-1932-remove-the-steer-bellcrank-1.md",
+    "file": "genie/steering/genie-1932-remove-the-steer-bellcrank-1.md",
     "steps": 6,
     "quickAccess": false,
-    "category": "steering"
+    "category": "steering",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gs1930-remove-the-steer-cylinder",
     "title": "Remove the Steer Cylinder",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
-    "file": "cylinders/genie-gs1930-remove-the-steer-cylinder.md",
+    "file": "genie/cylinders/genie-gs1930-remove-the-steer-cylinder.md",
     "steps": 5,
     "quickAccess": false,
-    "category": "cylinders"
+    "category": "cylinders",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gr15-remove-the-steer-cylinder",
     "title": "Remove the Steer Cylinder",
     "equipment": "Genie GR-15 / GR-20",
-    "file": "cylinders/genie-gr15-remove-the-steer-cylinder.md",
+    "file": "genie/cylinders/genie-gr15-remove-the-steer-cylinder.md",
     "steps": 6,
     "quickAccess": false,
-    "category": "cylinders"
+    "category": "cylinders",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-1932-remove-the-steer-cylinder-when-removing-a-hose-assembly-or",
     "title": "Remove the Steer Cylinder When removing a hose assembly or",
     "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "cylinders/genie-1932-remove-the-steer-cylinder-when-removing-a-hose-assembly-or.md",
+    "file": "genie/cylinders/genie-1932-remove-the-steer-cylinder-when-removing-a-hose-assembly-or.md",
     "steps": 5,
     "quickAccess": false,
-    "category": "cylinders"
+    "category": "cylinders",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s80-remove-the-tie-rod-cylinder",
     "title": "Remove the Tie Rod Cylinder",
     "equipment": "Genie S-80 / S-85",
-    "file": "cylinders/genie-s80-remove-the-tie-rod-cylinder.md",
+    "file": "genie/cylinders/genie-s80-remove-the-tie-rod-cylinder.md",
     "steps": 5,
     "quickAccess": false,
-    "category": "cylinders"
+    "category": "cylinders",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s65-remove-the-turntable-rotation-assembly",
     "title": "Remove the Turntable Rotation Assembly",
     "equipment": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX",
-    "file": "turntable/genie-s65-remove-the-turntable-rotation-assembly.md",
+    "file": "genie/turntable/genie-s65-remove-the-turntable-rotation-assembly.md",
     "steps": 7,
     "quickAccess": false,
-    "category": "turntable"
+    "category": "turntable",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s80-remove-the-turntable-rotation-drive-hub-assembly",
     "title": "Remove the Turntable Rotation Drive Hub Assembly",
     "equipment": "Genie S-80 / S-85",
-    "file": "drive-system/genie-s80-remove-the-turntable-rotation-drive-hub-assembly.md",
+    "file": "genie/drive-system/genie-s80-remove-the-turntable-rotation-drive-hub-assembly.md",
     "steps": 3,
     "quickAccess": false,
-    "category": "drive-system"
+    "category": "drive-system",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s80-remove-the-turntable-rotation-hydraulic-motor",
     "title": "Remove the Turntable Rotation Hydraulic Motor",
     "equipment": "Genie S-80 / S-85",
-    "file": "turntable/genie-s80-remove-the-turntable-rotation-hydraulic-motor.md",
+    "file": "genie/turntable/genie-s80-remove-the-turntable-rotation-hydraulic-motor.md",
     "steps": 4,
     "quickAccess": false,
-    "category": "turntable"
+    "category": "turntable",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gr15-remove-the-work-tray-if-equipped-1",
     "title": "Remove the Work Tray (if equipped)",
     "equipment": "Genie GR-15 / GR-20",
-    "file": "platform/genie-gr15-remove-the-work-tray-if-equipped-1.md",
+    "file": "genie/platform/genie-gr15-remove-the-work-tray-if-equipped-1.md",
     "steps": 4,
     "quickAccess": false,
-    "category": "platform"
+    "category": "platform",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s80-remove-the-yoke-and-drive-hub-assembly",
     "title": "Remove the Yoke and Drive Hub Assembly",
     "equipment": "Genie S-80 / S-85",
-    "file": "drive-system/genie-s80-remove-the-yoke-and-drive-hub-assembly.md",
+    "file": "genie/drive-system/genie-s80-remove-the-yoke-and-drive-hub-assembly.md",
     "steps": 5,
     "quickAccess": false,
-    "category": "drive-system"
+    "category": "drive-system",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gs1930-remove-the-yoke-and-drive-motor",
     "title": "Remove the Yoke and Drive Motor",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
-    "file": "drive-system/genie-gs1930-remove-the-yoke-and-drive-motor.md",
+    "file": "genie/drive-system/genie-gs1930-remove-the-yoke-and-drive-motor.md",
     "steps": 11,
     "quickAccess": false,
-    "category": "drive-system"
+    "category": "drive-system",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gr15-remove-the-yoke-and-drive-motor-assembly",
     "title": "Remove the Yoke and Drive Motor Assembly",
     "equipment": "Genie GR-15 / GR-20",
-    "file": "drive-system/genie-gr15-remove-the-yoke-and-drive-motor-assembly.md",
+    "file": "genie/drive-system/genie-gr15-remove-the-yoke-and-drive-motor-assembly.md",
     "steps": 8,
     "quickAccess": false,
-    "category": "drive-system"
+    "category": "drive-system",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-1932-remove-the-yoke-and-drive-motor-assembly-when-removing-a-ho",
     "title": "Remove the Yoke and Drive Motor Assembly When removing a ho",
     "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "drive-system/genie-1932-remove-the-yoke-and-drive-motor-assembly-when-removing-a-ho.md",
+    "file": "genie/drive-system/genie-1932-remove-the-yoke-and-drive-motor-assembly-when-removing-a-ho.md",
     "steps": 11,
     "quickAccess": false,
-    "category": "drive-system"
+    "category": "drive-system",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s80-remove-the-yoke-and-hub-1",
     "title": "Remove the Yoke and Hub",
     "equipment": "Genie S-80 / S-85",
-    "file": "drive-system/genie-s80-remove-the-yoke-and-hub-1.md",
+    "file": "genie/drive-system/genie-s80-remove-the-yoke-and-hub-1.md",
     "steps": 9,
     "quickAccess": false,
-    "category": "drive-system"
+    "category": "drive-system",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s80-repair-the-cable-track-component-damage-hazard-the-boom-ca",
     "title": "Repair the Cable Track",
     "equipment": "Genie S-80 / S-85",
-    "file": "structural/genie-s80-repair-the-cable-track-component-damage-hazard-the-boom-ca.md",
+    "file": "genie/structural/genie-s80-repair-the-cable-track-component-damage-hazard-the-boom-ca.md",
     "steps": 8,
     "quickAccess": false,
-    "category": "structural"
+    "category": "structural",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gr15-replace-an-obstruction-sensing-pad-qsr-models-only-1",
     "title": "Replace an Obstruction Sensing Pad (QSR models only)",
     "equipment": "Genie GR-15 / GR-20",
-    "file": "electrical/genie-gr15-replace-an-obstruction-sensing-pad-qsr-models-only-1.md",
+    "file": "genie/electrical/genie-gr15-replace-an-obstruction-sensing-pad-qsr-models-only-1.md",
     "steps": 8,
     "quickAccess": false,
-    "category": "electrical"
+    "category": "electrical",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gs1930-replace-the-platform-extension-deck-wear-pads-1",
     "title": "Replace the Platform Extension Deck Wear Pads",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
-    "file": "structural/genie-gs1930-replace-the-platform-extension-deck-wear-pads-1.md",
+    "file": "genie/structural/genie-gs1930-replace-the-platform-extension-deck-wear-pads-1.md",
     "steps": 7,
     "quickAccess": false,
-    "category": "structural"
+    "category": "structural",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-1932-replace-the-platform-extension-wear-pads-1",
     "title": "Replace the Platform Extension Wear Pads",
     "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "structural/genie-1932-replace-the-platform-extension-wear-pads-1.md",
+    "file": "genie/structural/genie-1932-replace-the-platform-extension-wear-pads-1.md",
     "steps": 3,
     "quickAccess": false,
-    "category": "structural"
+    "category": "structural",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s65-replace-the-primary-boom-angle-sensor-1",
     "title": "Replace the Primary Boom Angle Sensor",
     "equipment": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX",
-    "file": "boom-angle-sensor/genie-s65-replace-the-primary-boom-angle-sensor-1.md",
+    "file": "genie/alc-500/genie-s65-replace-the-primary-boom-angle-sensor-1.md",
     "steps": 14,
     "quickAccess": false,
-    "category": "boom-angle-sensor"
+    "category": "alc-500",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gs1930-replace-the-scissor-arm-wear-pads",
     "title": "Replace the Scissor Arm Wear Pads",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
-    "file": "structural/genie-gs1930-replace-the-scissor-arm-wear-pads.md",
+    "file": "genie/structural/genie-gs1930-replace-the-scissor-arm-wear-pads.md",
     "steps": 12,
     "quickAccess": false,
-    "category": "structural"
+    "category": "structural",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-1932-replace-the-scissor-arm-wear-pads",
     "title": "Replace the Scissor Arm Wear Pads",
     "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "structural/genie-1932-replace-the-scissor-arm-wear-pads.md",
+    "file": "genie/structural/genie-1932-replace-the-scissor-arm-wear-pads.md",
     "steps": 12,
     "quickAccess": false,
-    "category": "structural"
+    "category": "structural",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s65-set-up-the-oscillate-directional-valve",
     "title": "Set Up the Oscillate Directional Valve",
     "equipment": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX",
-    "file": "oscillate/genie-s65-set-up-the-oscillate-directional-valve.md",
+    "file": "genie/oscillate/genie-s65-set-up-the-oscillate-directional-valve.md",
     "steps": 12,
     "quickAccess": false,
-    "category": "oscillate"
+    "category": "oscillate",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gs1930-setup-the-machine-from-ground-controls",
     "title": "Setup the Machine from Ground Controls",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
-    "file": "service-mode/genie-gs1930-setup-the-machine-from-ground-controls.md",
+    "file": "genie/alc-500/genie-gs1930-setup-the-machine-from-ground-controls.md",
     "steps": 16,
     "quickAccess": false,
-    "category": "service-mode"
+    "category": "alc-500",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-1932-setup-the-machine-from-ground-controls",
     "title": "Setup the Machine from Ground Controls",
     "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "service-mode/genie-1932-setup-the-machine-from-ground-controls.md",
+    "file": "genie/alc-500/genie-1932-setup-the-machine-from-ground-controls.md",
     "steps": 17,
     "quickAccess": false,
-    "category": "service-mode"
+    "category": "alc-500",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s80-shim-the-boom-1",
     "title": "Shim the Boom",
     "equipment": "Genie S-80 / S-85",
-    "file": "structural/genie-s80-shim-the-boom-1.md",
+    "file": "genie/structural/genie-s80-shim-the-boom-1.md",
     "steps": 6,
     "quickAccess": false,
-    "category": "structural"
+    "category": "structural",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-z80-shim-the-extendable-axles",
     "title": "Shim the Extendable Axles",
     "equipment": "Genie Z-80 / Z-80/60",
-    "file": "drive-system/genie-z80-shim-the-extendable-axles.md",
+    "file": "genie/drive-system/genie-z80-shim-the-extendable-axles.md",
     "steps": 3,
     "quickAccess": false,
-    "category": "drive-system"
+    "category": "drive-system",
+    "manufacturer": "genie"
   },
   {
     "id": "jlg-450aj-slave-platform-level-cylinder-without-arctic-pkg-refer-to",
     "title": "Slave (Platform Level) Cylinder Without Arctic Pkg Refer to",
     "equipment": "JLG 450AJ",
-    "file": "cylinders/jlg-450aj-slave-platform-level-cylinder-without-arctic-pkg-refer-to.md",
+    "file": "jlg/cylinders/jlg-450aj-slave-platform-level-cylinder-without-arctic-pkg-refer-to.md",
     "steps": 6,
     "quickAccess": false,
-    "category": "cylinders"
+    "category": "cylinders",
+    "manufacturer": "jlg"
   },
   {
     "id": "jlg-450aj-steer-cylinder-disassembly-refer-to",
     "title": "Steer Cylinder DISASSEMBLY Refer to",
     "equipment": "JLG 450AJ",
-    "file": "cylinders/jlg-450aj-steer-cylinder-disassembly-refer-to.md",
+    "file": "jlg/cylinders/jlg-450aj-steer-cylinder-disassembly-refer-to.md",
     "steps": 7,
     "quickAccess": false,
-    "category": "cylinders"
+    "category": "cylinders",
+    "manufacturer": "jlg"
   },
   {
     "id": "jlg-450aj-telescope-cylinder-refer-to",
     "title": "Telescope Cylinder Refer to",
     "equipment": "JLG 450AJ",
-    "file": "cylinders/jlg-450aj-telescope-cylinder-refer-to.md",
+    "file": "jlg/cylinders/jlg-450aj-telescope-cylinder-refer-to.md",
     "steps": 12,
     "quickAccess": false,
-    "category": "cylinders"
+    "category": "cylinders",
+    "manufacturer": "jlg"
   },
   {
     "id": "genie-s65-test-a-coil-diode-genie-incorporates-spike-suppressing-diod",
     "title": "Test a Coil Diode Genie incorporates spike suppressing diod",
     "equipment": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX",
-    "file": "electrical/genie-s65-test-a-coil-diode-genie-incorporates-spike-suppressing-diod.md",
+    "file": "genie/electrical/genie-s65-test-a-coil-diode-genie-incorporates-spike-suppressing-diod.md",
     "steps": 4,
     "quickAccess": false,
-    "category": "electrical"
+    "category": "electrical",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gs1930-test-a-coil-diode-genie-incorporates-spike-suppressing-diod",
     "title": "Test a Coil Diode Genie incorporates spike suppressing diod",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
-    "file": "electrical/genie-gs1930-test-a-coil-diode-genie-incorporates-spike-suppressing-diod.md",
+    "file": "genie/electrical/genie-gs1930-test-a-coil-diode-genie-incorporates-spike-suppressing-diod.md",
     "steps": 3,
     "quickAccess": false,
-    "category": "electrical"
+    "category": "electrical",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s80-test-a-coil-diode-genie-incorporates-spike-suppressing-diod",
     "title": "Test a Coil Diode Genie incorporates spike suppressing diod",
     "equipment": "Genie S-80 / S-85",
-    "file": "electrical/genie-s80-test-a-coil-diode-genie-incorporates-spike-suppressing-diod.md",
+    "file": "genie/electrical/genie-s80-test-a-coil-diode-genie-incorporates-spike-suppressing-diod.md",
     "steps": 3,
     "quickAccess": false,
-    "category": "electrical"
+    "category": "electrical",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gr15-test-a-coil-diode-genie-incorporates-spike-suppressing-diod",
     "title": "Test a Coil Diode Genie incorporates spike suppressing diod",
     "equipment": "Genie GR-15 / GR-20",
-    "file": "electrical/genie-gr15-test-a-coil-diode-genie-incorporates-spike-suppressing-diod.md",
+    "file": "genie/electrical/genie-gr15-test-a-coil-diode-genie-incorporates-spike-suppressing-diod.md",
     "steps": 2,
     "quickAccess": false,
-    "category": "electrical"
+    "category": "electrical",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-1932-test-a-coil-diode-genie-incorporates-spike-suppressing-diod",
     "title": "Test a Coil Diode Genie incorporates spike suppressing diod",
     "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "electrical/genie-1932-test-a-coil-diode-genie-incorporates-spike-suppressing-diod.md",
+    "file": "genie/electrical/genie-1932-test-a-coil-diode-genie-incorporates-spike-suppressing-diod.md",
     "steps": 3,
     "quickAccess": false,
-    "category": "electrical"
+    "category": "electrical",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s80-test-a-single-pole-double-throw-relay-electrocution-hazard",
     "title": "Test a Single Pole Double Throw Relay",
     "equipment": "Genie S-80 / S-85",
-    "file": "electrical/genie-s80-test-a-single-pole-double-throw-relay-electrocution-hazard.md",
+    "file": "genie/electrical/genie-s80-test-a-single-pole-double-throw-relay-electrocution-hazard.md",
     "steps": 3,
     "quickAccess": false,
-    "category": "electrical"
+    "category": "electrical",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gs1930-test-the-hydraulic-pump",
     "title": "Test the Hydraulic Pump",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
-    "file": "hydraulic/genie-gs1930-test-the-hydraulic-pump.md",
+    "file": "genie/hydraulic/genie-gs1930-test-the-hydraulic-pump.md",
     "steps": 5,
     "quickAccess": false,
-    "category": "hydraulic"
+    "category": "hydraulic",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-gr15-test-the-hydraulic-pump",
     "title": "Test the Hydraulic Pump",
     "equipment": "Genie GR-15 / GR-20",
-    "file": "hydraulic/genie-gr15-test-the-hydraulic-pump.md",
+    "file": "genie/hydraulic/genie-gr15-test-the-hydraulic-pump.md",
     "steps": 4,
     "quickAccess": false,
-    "category": "hydraulic"
+    "category": "hydraulic",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-1932-test-the-hydraulic-pump-when-removing-a-hose-assembly-or-fi",
     "title": "Test the Hydraulic Pump When removing a hose assembly or fi",
     "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "hydraulic/genie-1932-test-the-hydraulic-pump-when-removing-a-hose-assembly-or-fi.md",
+    "file": "genie/hydraulic/genie-1932-test-the-hydraulic-pump-when-removing-a-hose-assembly-or-fi.md",
     "steps": 5,
     "quickAccess": false,
-    "category": "hydraulic"
+    "category": "hydraulic",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s65-calibrate-the-boom-angle-sensor",
     "title": "Calibrate the Boom Angle Sensor",
     "equipment": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX",
-    "file": "boom-angle-sensor/genie-s65-calibrate-the-boom-angle-sensor.md",
+    "file": "genie/alc-500/genie-s65-calibrate-the-boom-angle-sensor.md",
     "steps": 6,
     "quickAccess": true,
-    "category": "boom-angle-sensor"
+    "category": "alc-500",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s65-clear-engine-fault-codes-from-the-ecm",
     "title": "Clear Engine Fault Codes from the ECM",
     "equipment": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX",
-    "file": "fault-codes/genie-s65-clear-engine-fault-codes-from-the-ecm.md",
+    "file": "genie/alc-500/genie-s65-clear-engine-fault-codes-from-the-ecm.md",
     "steps": 4,
     "quickAccess": true,
-    "category": "fault-codes"
+    "category": "alc-500",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s80-calibrate-the-platform-overload-system",
     "title": "Calibrate the Platform Overload System",
     "equipment": "Genie S-80 / S-85",
-    "file": "platform-overload/genie-s80-calibrate-the-platform-overload-system.md",
+    "file": "genie/alc-500/genie-s80-calibrate-the-platform-overload-system.md",
     "steps": 6,
     "quickAccess": true,
-    "category": "platform-overload"
+    "category": "alc-500",
+    "manufacturer": "genie"
   },
   {
     "id": "genie-s80-clear-engine-fault-codes-from-the-ecm",
     "title": "Clear Engine Fault Codes from the ECM",
     "equipment": "Genie S-80 / S-85",
-    "file": "fault-codes/genie-s80-clear-engine-fault-codes-from-the-ecm.md",
+    "file": "genie/alc-500/genie-s80-clear-engine-fault-codes-from-the-ecm.md",
     "steps": 4,
     "quickAccess": true,
-    "category": "fault-codes"
+    "category": "alc-500",
+    "manufacturer": "genie"
   }
 ]

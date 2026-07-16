@@ -196,6 +196,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sa
     <button onclick="setMode('sources')" id="modeSources">Sources</button>
     <button onclick="setMode('fmi')" id="modeFmi">FMI Ref</button>
     <button onclick="setMode('dtc')" id="modeDtc">SPN+FMI</button>
+    <button onclick="setMode('ac')" id="modeAc" style="color:#00bfff;">❄ A/C</button>
   </div>
 </div>
 
@@ -228,7 +229,8 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sa
       <div class="search-row">
         <input type="text" id="qaFilter" placeholder="Filter quick-access procedures...">
       </div>
-      <div class="filter-chips" id="qaChips"></div>
+      <div class="filter-chips" id="qaManuChips"></div>
+      <div class="filter-chips" id="qaCatChips"></div>
     </div>
     <div id="qaList"></div>
   </div>
@@ -245,7 +247,8 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sa
       <div class="search-row">
         <input type="text" id="procFilter" placeholder="Search procedures or equipment...">
       </div>
-      <div class="filter-chips" id="procChips"></div>
+      <div class="filter-chips" id="procManuChips"></div>
+      <div class="filter-chips" id="procCatChips"></div>
     </div>
     <div id="procList"></div>
   </div>
@@ -293,6 +296,24 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sa
   <div id="dtcResult"></div>
 </div>
 
+<!-- ===== A/C DIAGNOSIS ===== -->
+<div id="acMode" class="hidden">
+  <div class="search-panel">
+    <div class="search-row">
+      <select id="acSubMode" onchange="renderACSubMode()" style="flex:1; min-width:200px; padding:0.6rem 0.9rem; border:1px solid #222; border-radius:6px; background:#0a0a0a; color:#e0e0e0; font-size:0.9rem;">
+        <option value="identify">System Identification</option>
+        <option value="pressure">Pressure Diagnosis</option>
+        <option value="temperature">Temperature Testing</option>
+        <option value="superheat">Superheat Calculator</option>
+        <option value="leak">Leak Detection</option>
+        <option value="repair">Repair Procedures</option>
+        <option value="pm">PM Schedule</option>
+        <option value="specs">OEM Specs</option>
+        <option value="faults">HVAC Fault Codes</option>
+      </select>
+    </div>
+  </div>
+  <div id="acContent"></div>
 </div>
 
 <script>
@@ -305,20 +326,24 @@ let currentSource = null;
 let currentPage = 0;
 let currentProc = null;
 let currentQA = null;
+let procFilterManu = '';
 let procFilterCat = '';
+let qaFilterManu = '';
 let qaFilterCat = '';
 const PAGE_SIZE = 50;
+const MANU_LABELS = { 'genie': 'Genie', 'jlg': 'JLG', 'skyjack': 'Skyjack' };
+const MANU_ORDER = ['genie', 'jlg', 'skyjack'];
 const CATEGORY_LABELS = {
+  'alc-500': 'ALC-500',
+  'level-sensor': 'Level Sensor',
+  'load-sensing': 'Load Sensing',
+  'platform-overload': 'Platform Overload',
+  'outrigger': 'Outrigger',
+  'boom-angle-sensor': 'Boom Angle Sensor',
+  'joystick': 'Joystick',
+  'software-config': 'Software Config',
   'service-mode': 'Service Mode',
   'fault-codes': 'Fault Codes',
-  'software-config': 'Software Config',
-  'joystick': 'Joystick',
-  'platform-overload': 'Platform Overload',
-  'level-sensor': 'Level Sensor',
-  'boom-angle-sensor': 'Boom Angle Sensor',
-  'load-sensing': 'Load Sensing',
-  'alc-500': 'ALC-500',
-  'outrigger': 'Outrigger',
   'calibration': 'Calibration',
   'electrical': 'Electrical',
   'hydraulic': 'Hydraulic',
@@ -334,7 +359,7 @@ const CATEGORY_LABELS = {
   'misc': 'Misc'
 };
 const CATEGORY_ORDER = [
-  'service-mode', 'fault-codes', 'software-config', 'alc-500',
+  'alc-500', 'service-mode', 'fault-codes', 'software-config',
   'joystick', 'platform-overload', 'level-sensor', 'boom-angle-sensor',
   'load-sensing', 'outrigger', 'calibration',
   'electrical', 'hydraulic', 'cylinders', 'drive-system', 'steering', 'oscillate',
@@ -465,12 +490,25 @@ function changePage(delta) {
 
 // ===== PROCEDURES =====
 function renderProcChips() {
-  const cats = [...new Set(proceduresData.map(p => p.category).filter(Boolean))].sort((a,b) =>
-    CATEGORY_ORDER.indexOf(a) - CATEGORY_ORDER.indexOf(b)
-  );
-  const chips = document.getElementById('procChips');
-  chips.innerHTML = `<span class="chip ${!procFilterCat ? 'active' : ''}" onclick="setProcFilter('')">All</span>` +
-    cats.map(c => `<span class="chip ${procFilterCat === c ? 'active' : ''} ${c === 'service-mode' ? 'chip-accent' : ''}" onclick="setProcFilter('${c}')">${CATEGORY_LABELS[c] || c}</span>`).join('');
+  const manuChips = document.getElementById('procManuChips');
+  const catChips = document.getElementById('procCatChips');
+  const mans = MANU_ORDER.filter(m => proceduresData.some(p => p.manufacturer === m));
+  
+  manuChips.innerHTML = `<span class="chip ${!procFilterManu ? 'active' : ''}" onclick="setProcManu('')">All</span>` +
+    mans.map(m => `<span class="chip ${procFilterManu === m ? 'active' : ''} ${m === 'genie' ? 'chip-accent' : ''}" onclick="setProcManu('${m}')">${MANU_LABELS[m] || m}</span>`).join('');
+
+  let availCats = [...new Set(proceduresData.filter(p => !procFilterManu || p.manufacturer === procFilterManu).map(p => p.category).filter(Boolean))];
+  availCats.sort((a,b) => CATEGORY_ORDER.indexOf(a) - CATEGORY_ORDER.indexOf(b));
+  
+  catChips.innerHTML = `<span class="chip ${!procFilterCat ? 'active' : ''}" onclick="setProcFilter('')">All</span>` +
+    availCats.map(c => `<span class="chip ${procFilterCat === c ? 'active' : ''} ${c === 'alc-500' ? 'chip-accent' : ''}" onclick="setProcFilter('${c}')">${CATEGORY_LABELS[c] || c}</span>`).join('');
+}
+
+function setProcManu(manu) {
+  procFilterManu = manu;
+  procFilterCat = '';
+  renderProcChips();
+  renderProcedures();
 }
 
 function setProcFilter(cat) {
@@ -482,6 +520,7 @@ function setProcFilter(cat) {
 function renderProcedures() {
   const filter = (document.getElementById('procFilter')?.value || '').toLowerCase();
   let filtered = proceduresData;
+  if (procFilterManu) filtered = filtered.filter(p => p.manufacturer === procFilterManu);
   if (procFilterCat) filtered = filtered.filter(p => p.category === procFilterCat);
   if (filter) filtered = filtered.filter(p =>
     p.equipment?.toLowerCase().includes(filter) ||
@@ -489,29 +528,36 @@ function renderProcedures() {
     (CATEGORY_LABELS[p.category] || '').toLowerCase().includes(filter)
   );
 
-  // Group by category
+  // Group by manufacturer then category
   const groups = {};
   filtered.forEach(p => {
-    const cat = p.category || 'uncategorized';
-    if (!groups[cat]) groups[cat] = [];
-    groups[cat].push(p);
+    const key = (p.manufacturer || 'other') + '||' + (p.category || 'uncategorized');
+    if (!groups[key]) groups[key] = { manu: p.manufacturer, cat: p.category, procs: [] };
+    groups[key].procs.push(p);
   });
 
-  const catOrder = CATEGORY_ORDER.filter(c => groups[c]).concat(Object.keys(groups).filter(c => !CATEGORY_ORDER.includes(c)));
+  const keys = Object.keys(groups);
+  keys.sort((a, b) => {
+    const ga = groups[a], gb = groups[b];
+    const ma = MANU_ORDER.indexOf(ga.manu), mb = MANU_ORDER.indexOf(gb.manu);
+    if (ma !== mb) return ma - mb;
+    return CATEGORY_ORDER.indexOf(ga.cat) - CATEGORY_ORDER.indexOf(gb.cat);
+  });
 
-  document.getElementById('procList').innerHTML = catOrder.length
-    ? catOrder.map(cat => {
-        const procs = groups[cat];
-        const label = CATEGORY_LABELS[cat] || cat;
-        const isService = cat === 'service-mode';
+  document.getElementById('procList').innerHTML = keys.length
+    ? keys.map(key => {
+        const g = groups[key];
+        const label = CATEGORY_LABELS[g.cat] || g.cat;
+        const manuLabel = MANU_LABELS[g.manu] || g.manu;
+        const isALC = g.cat === 'alc-500';
         return `<div class="cat-group">
-          <div class="cat-header ${isService ? 'cat-header-accent' : ''}">
-            <span>${label}</span>
-            <span class="cat-count">${procs.length}</span>
+          <div class="cat-header ${isALC ? 'cat-header-accent' : ''}">
+            <span>${manuLabel} › ${label}</span>
+            <span class="cat-count">${g.procs.length}</span>
           </div>
-          ${procs.map(p => 
+          ${g.procs.map(p => 
             `<div class="proc-card" onclick="openProcedure('${p.id}')">
-              <div class="proc-category ${isService ? 'cat-badge-accent' : ''}">${CATEGORY_LABELS[p.category] || p.category}</div>
+              <div class="proc-category ${isALC ? 'cat-badge-accent' : ''}">${manuLabel} ${CATEGORY_LABELS[p.category] || p.category}</div>
               <div class="proc-machine">${p.equipment || 'General'}</div>
               <div class="proc-title">${p.title}</div>
               <div class="proc-meta"><span class="proc-tag">${p.steps} steps</span>${p.quickAccess ? '<span class="proc-tag tag-qa">quick</span>' : ''}</div>
@@ -543,14 +589,24 @@ function backToProcedures() {
 }
 
 function simpleMarkdown(text) {
+  // Merge consecutive blockquote lines
+  const txt = text.split('\n');
+  const merged = [];
+  let bq = [];
+  for (const l of txt) {
+    if (/^>/.test(l)) { bq.push(l.replace(/^>\s?/, '')); }
+    else { if (bq.length) { merged.push('>BLOCK>' + bq.join(' ')); bq = []; } merged.push(l); }
+  }
+  if (bq.length) merged.push('>BLOCK>' + bq.join(' '));
+  text = merged.join('\n');
+
   let html = text
     .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
     .replace(/^### (.+)$/gm, '<h3>$1</h3>')
     .replace(/^## (.+)$/gm, '<h2>$1</h2>')
     .replace(/^# (.+)$/gm, '<h1>$1</h1>')
     .replace(/^\*\*(.+?):\*\*/gm, '<h2>$1</h2>')
-    .replace(/^> ⚠ \*\*(.+?)\*\*/gm, '<blockquote><strong>$1</strong></blockquote>')
-    .replace(/^> \*\*Note:\*\*(.+)$/gm, '<blockquote><strong>Note:</strong> $1</blockquote>');
+    .replace(/^>BLOCK>(.+)$/gm, '<blockquote>$1</blockquote>');
   const lines = html.split('\n');
   let inList = false;
   let result = [];
@@ -580,12 +636,24 @@ function simpleMarkdown(text) {
 
 // ===== QUICK ACCESS =====
 function renderQAChips() {
-  const cats = [...new Set(quickAccessData.map(p => p.category).filter(Boolean))].sort((a,b) =>
-    CATEGORY_ORDER.indexOf(a) - CATEGORY_ORDER.indexOf(b)
-  );
-  const chips = document.getElementById('qaChips');
-  chips.innerHTML = `<span class="chip ${!qaFilterCat ? 'active' : ''}" onclick="setQAFilter('')">All</span>` +
-    cats.map(c => `<span class="chip ${qaFilterCat === c ? 'active' : ''} ${c === 'service-mode' ? 'chip-accent' : ''}" onclick="setQAFilter('${c}')">${CATEGORY_LABELS[c] || c}</span>`).join('');
+  const manuChips = document.getElementById('qaManuChips');
+  const catChips = document.getElementById('qaCatChips');
+  const mans = MANU_ORDER.filter(m => quickAccessData.some(p => p.manufacturer === m));
+  
+  manuChips.innerHTML = `<span class="chip ${!qaFilterManu ? 'active' : ''}" onclick="setQAManu('')">All</span>` +
+    mans.map(m => `<span class="chip ${qaFilterManu === m ? 'active' : ''} ${m === 'genie' ? 'chip-accent' : ''}" onclick="setQAManu('${m}')">${MANU_LABELS[m] || m}</span>`).join('');
+
+  let availCats = [...new Set(quickAccessData.filter(p => !qaFilterManu || p.manufacturer === qaFilterManu).map(p => p.category).filter(Boolean))];
+  availCats.sort((a,b) => CATEGORY_ORDER.indexOf(a) - CATEGORY_ORDER.indexOf(b));
+  
+  catChips.innerHTML = `<span class="chip ${!qaFilterCat ? 'active' : ''}" onclick="setQAFilter('')">All</span>` +
+    availCats.map(c => `<span class="chip ${qaFilterCat === c ? 'active' : ''} ${c === 'alc-500' ? 'chip-accent' : ''}" onclick="setQAFilter('${c}')">${CATEGORY_LABELS[c] || c}</span>`).join('');
+}
+function setQAManu(manu) {
+  qaFilterManu = manu;
+  qaFilterCat = '';
+  renderQAChips();
+  renderQuickAccess();
 }
 function setQAFilter(cat) {
   qaFilterCat = cat;
@@ -595,6 +663,7 @@ function setQAFilter(cat) {
 function renderQuickAccess() {
   const filter = (document.getElementById('qaFilter')?.value || '').toLowerCase();
   let filtered = quickAccessData;
+  if (qaFilterManu) filtered = filtered.filter(p => p.manufacturer === qaFilterManu);
   if (qaFilterCat) filtered = filtered.filter(p => p.category === qaFilterCat);
   if (filter) filtered = filtered.filter(p =>
     p.equipment?.toLowerCase().includes(filter) ||
@@ -602,28 +671,36 @@ function renderQuickAccess() {
     (CATEGORY_LABELS[p.category] || '').toLowerCase().includes(filter)
   );
 
+  // Group by manufacturer then category
   const groups = {};
   filtered.forEach(p => {
-    const cat = p.category || 'uncategorized';
-    if (!groups[cat]) groups[cat] = [];
-    groups[cat].push(p);
+    const key = (p.manufacturer || 'other') + '||' + (p.category || 'uncategorized');
+    if (!groups[key]) groups[key] = { manu: p.manufacturer, cat: p.category, procs: [] };
+    groups[key].procs.push(p);
   });
 
-  const catOrder = CATEGORY_ORDER.filter(c => groups[c]).concat(Object.keys(groups).filter(c => !CATEGORY_ORDER.includes(c)));
+  const keys = Object.keys(groups);
+  keys.sort((a, b) => {
+    const ga = groups[a], gb = groups[b];
+    const ma = MANU_ORDER.indexOf(ga.manu), mb = MANU_ORDER.indexOf(gb.manu);
+    if (ma !== mb) return ma - mb;
+    return CATEGORY_ORDER.indexOf(ga.cat) - CATEGORY_ORDER.indexOf(gb.cat);
+  });
 
-  document.getElementById('qaList').innerHTML = catOrder.length
-    ? catOrder.map(cat => {
-        const procs = groups[cat];
-        const label = CATEGORY_LABELS[cat] || cat;
-        const isService = cat === 'service-mode';
+  document.getElementById('qaList').innerHTML = keys.length
+    ? keys.map(key => {
+        const g = groups[key];
+        const label = CATEGORY_LABELS[g.cat] || g.cat;
+        const manuLabel = MANU_LABELS[g.manu] || g.manu;
+        const isALC = g.cat === 'alc-500';
         return `<div class="cat-group">
-          <div class="cat-header ${isService ? 'cat-header-accent' : ''}">
-            <span>${label}</span>
-            <span class="cat-count">${procs.length}</span>
+          <div class="cat-header ${isALC ? 'cat-header-accent' : ''}">
+            <span>${manuLabel} › ${label}</span>
+            <span class="cat-count">${g.procs.length}</span>
           </div>
-          ${procs.map(p => 
+          ${g.procs.map(p => 
             `<div class="proc-card" onclick="openQA('${p.id}')">
-              <div class="proc-category ${isService ? 'cat-badge-accent' : ''}">${CATEGORY_LABELS[p.category] || p.category}</div>
+              <div class="proc-category ${isALC ? 'cat-badge-accent' : ''}">${manuLabel} ${CATEGORY_LABELS[p.category] || p.category}</div>
               <div class="proc-machine">${p.equipment || 'General'}</div>
               <div class="proc-title">${p.title}</div>
               <div class="proc-meta"><span class="proc-tag">${p.steps} steps</span></div>
@@ -767,6 +844,7 @@ function setMode(mode) {
   if (mode === 'procedures') { renderProcChips(); renderProcedures(); }
   if (mode === 'quickaccess') { renderQAChips(); renderQuickAccess(); }
   if (mode === 'sources') renderSources();
+  if (mode === 'ac') renderACSubMode();
 }
 
 document.addEventListener('DOMContentLoaded', loadData);
