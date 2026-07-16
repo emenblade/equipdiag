@@ -15,9 +15,6 @@
 11. Remove the platform height sensor assembly from the number 1 pivot pin.
 12. Remove the plastic nut securing the squeeze connector to the large platform height sensor bracket.
 13. Remove the squeeze connector from the large platform height sensor bracket.
-
-
-Service Manual   September 2013  Scissor Components
 14. Remove the fasteners securing the large platform height sensor bracket to the number 1 inner arm pivot bracket.
 15. Remove the large platform height sensor bracket from the number 1 inner arm pivot bracket.
 16. Install the fasteners removed in 14 to the number 1 inner arm pivot bracket and chassis. Tip-over hazard. Failure to install the fasteners securing the number 1 inner arm pivot bracket to the chassis, could result in the machine tipping over, causing death or serious injury.
@@ -28,7 +25,6 @@ Service Manual   September 2013  Scissor Components
 22. Raise the platform and rotate the safety arm to the stowed position.
 23. Fully lower the platform to the stowed position. Cable bridge and platform height sensor a   cable bridge 4 b   cable bridge 3A c   cable bridge 3B d   cable bridge 2A e   cable bridge 2B f   cable bridge 1 g   platform height sensor
 24. Remove the platform. See 10-1,
-47. Part No. 228901
 
 > **Note:** Machines equipped with a Platform Height Sensor, begin the Scissor Disassembly procedure at step 1.
 

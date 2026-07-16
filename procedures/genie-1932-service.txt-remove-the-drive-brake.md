@@ -13,7 +13,4 @@
 10. Place a lifting jack under the brake for support.
 11. Remove the fasteners that attach the brake to the drive chassis. Remove the brake. Crushing hazard. The brake will fall if not properly supported when the mounting fasteners are removed.  Torque Specifications  Brake mounting   fasteners, dry   75 ft-lbs 102 Nm Brake mounting fasteners, lubricated   56 ft-lbs 76 Nm
 
-
-September
-
 > **Note:** Always replace the cotter pin with a new one when removing the castle nut.

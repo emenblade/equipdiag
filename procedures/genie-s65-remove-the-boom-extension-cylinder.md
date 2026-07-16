@@ -14,9 +14,6 @@
 14. Pull back on the extend cable mounting plate until it clears the blocks welded to the inside of the number 1 boom tube.
 15. Lift up the extend cable mounting plate and push the extend cables towards the platform to create slack in the cables. Rest the cable and bracket assembly on top of the extend cylinder.
 16. Locate the lower extend cable bracket on the bottom of the number 3 boom tube.
-
-
-September
 17. Remove the lower extend cable bracket mounting fasteners and pull back on the bracket to release it from the number 3 boom tube.
 18. While pushing the lower extend cable bracket towards the platform, pull the extend cable mounting plate towards the pivot end of the boom.
 19. Secure the extend cable bracket and cables to the cylinder to prevent them from falling off when removing the cylinder.

@@ -8,9 +8,6 @@
 6. Route the new boom extend cables through the boom extend pulley bracket.
 8. Install the boom extend cable clevis pins and rue rings to the pivot plate near the cable break limit switch.
 9. Install the boom extend cables to the lower extend cable bracket that mounts to the number 3 boom tube.
-
-
-Service and Repair Manual   September 2016  Boom Components
 12. Attach a lifting strap from an overhead crane to the platform end of the boom.
 13. Raise the boom using the overhead crane and place a wood block under the number 2 boom tube between the number 1 and number 2 boom tubes for support. This will create clearance between the boom tubes to remove the retract cables.
 15. At the platform end of the boom, pull on the boom retract cable that has the rope attached to it.
@@ -23,9 +20,6 @@ Service and Repair Manual   September 2016  Boom Components
 22. Remove and discard the old boom retract pulleys from the pivot end of the boom extension cylinder.
 23. Install the new boom retract pulleys to the pivot end of the boom extension cylinder.
 25. Adjust the boom extend/retract cables. Refer to Repair Procedure,   How to Adjust the Boom Extend/Retract Cables .
-
-
-September
 
 > **Note:** The cable pulleys must also be replaced when replacing the cables.
 

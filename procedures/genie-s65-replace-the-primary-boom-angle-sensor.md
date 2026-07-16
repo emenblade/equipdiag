@@ -12,13 +12,7 @@
 8. Install the angle sensor retaining fastners. Do not tighten at this time.
 9. Route the angle sensor harness through the gusset plate and secure using two button cable ties.
 10. Securely connect the angle sensor harness to the main harness.
-
-
-September
 11. Turn the key switch to platform controls. Pull up red Emergency Stop buttons at the ground and platform controls to the on position.
 12. Using a volt meter set to DC volts, back probe the angle sensor harness connector. Insert the negative lead into terminal 2, the positive lead into terminal 3.
 13. Adjust the angle sensor until the volt meter reads 3.8V dc to 4.2V dc and securely tighten the fasteners.
 14. Calibrate the boom angle sensor. Refer to Repair Procedure,   How to Calibrate the Boom Angle Sensor .
-
-
-Service and Repair Manual   September 2016  Engines

@@ -10,9 +10,6 @@
 7. Attach a lifting strap from an overhead crane to the lug on the rod end of the jib boom lift cylinder.
 8. Use a soft metal drift to remove the jib boom lift cylinder rod-end pin. Remove the cylinder from the machine.  Crushing hazard. The jib boom lift cylinder may become unbalanced and fall when it is removed from the machine if it is not properly supported by the overhead crane.
 
-
-Service and Repair Manual   September 2016  Boom Components
-
 > **Note:** Perform this procedure with the boom in the stowed position.
 
 > **Note:** When removing a hose assembly or fitting, the O-ring (if equipped) on the fitting and/or hose end must be replaced.

@@ -13,7 +13,9 @@
 13. Remove the wire jumpers installed in steps 9 and 10 and connect the wire harness to LSS1RO removed in step 8.
 14. Fully raise the secondary boom and extend the secondary boom approximately 1 foot / 30.5 cm.
 15. Turn the bypass/recovery key switch back to run, return the key to the main key switch and start the engine from the ground controls.
+16. Re-connect the Deutsch connector from the secondary safety retract switch (LSS1RS) removed in step
 17. Press the   (plus)(minus)   buttons on the LCD screen to activate status mode.
 18. Press the   enter   or   previous   button on the LCD screen until secondary boom length is displayed.
+22. Install a wire jumper between pins 1 and 2 of the Deutsch connector on the wire harness removed in step
 
 > **Note:** Use the following chart to identify the description of each LCD screen control button used in this procedure.

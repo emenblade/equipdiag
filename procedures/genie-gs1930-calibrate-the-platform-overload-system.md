@@ -19,7 +19,6 @@
 17. Press the Enter button to confirm rated load is in the platform.
 18. At the ground controls, press and hold the Function Enable and Platform Up buttons until the platform reaches maximum height.
 20. When prompted, press and hold the Function Enable and Platform Down buttons. The platf
-47. Part No. 1272217GT
 
 > **Note:** No Load Calibration can be completed stand alone to fulfill the C-2 overload calibration requirements, if the machine has completed the Full Load Calibration procedure.
 

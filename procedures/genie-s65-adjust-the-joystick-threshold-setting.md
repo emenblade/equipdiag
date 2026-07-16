@@ -14,9 +14,6 @@
 12. Repeat steps 9 through 11 for each direction of boom joystick controlled machine function (boom up/down, boom extend/retract and turntable rotate left/right).
 14. Cycle the red Emergency Stop button off, then back on.
 
-
-Service and Repair Manual   September 2016  Platform Controls
-
 > **Note:** Perform this procedure with the boom in the stowed position.
 
 > **Note:** For each joystick axis, the threshold must be set for both directions.

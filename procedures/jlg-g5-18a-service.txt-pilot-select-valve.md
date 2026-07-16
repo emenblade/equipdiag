@@ -11,4 +11,5 @@
 7. Remove the pilot select valve from the machine. Wipe up any hydraulic fluid spillage in, on, near and around the machine.  b.   Pilot Select Valve Disassembly, Cleaning, Inspection and Assembly
 8. Close and secure the engine cover.
 9. Remove the Do Not Operate Tags from both the ignition key and the steering wheel.  d.   Pilot Select Valve Test
+13. MAE33080  15 14 16
 17. Hydraulic System 8-20

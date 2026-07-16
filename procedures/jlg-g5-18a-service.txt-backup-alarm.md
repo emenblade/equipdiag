@@ -10,6 +10,3 @@
 6. Remove the hex nut securing the ignition key switch to the dash.
 7. Reach up under the dash to work the ignition switch and wiring out of the mounting hole.
 8. Disconnect the ignition switch connectors from the cab harness connectors, and remove the switch from the machine.
-
-
-9-31 Electrical System  G5-18A   31211325  b.   Disassembly DO NOT   disassemble the ignition switch. Replace a defective switch with a new part.  c.   Inspection and Replacement  To determine the proper operation of the ignition key switch, test the wires on the back of the switch for continuity with an ohmmeter. Test the ignition key switch for continuity, by checking from the BAT terminal ( 1 ) to each of the remaining terminals in their corresponding switch position. If all terminals do not show proper continuity, replace the ignition switch.  d.   Ignition Switch Installation

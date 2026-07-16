@@ -6,7 +6,4 @@
 2. Tag, disconnect and plug the function pump hydraulic hoses. Cap the fittings on the pum  Bodily injury hazard. Spraying hydraulic oil can penetrate and burn skin. Loosen hydraulic connections very slowly to allow the oil pressure to dissipate gradually. Do not allow oil to squirt or spray.
 3. Remove the pump mounting bolts. Carefully remove the pump.  Component damage hazard. Be sure to open the two hydraulic tank valves and prime the pump after installing the pump.
 
-
-Service and Repair Manual   September 2016  Hydraulic Pump
-
 > **Note:** When removing a hose assembly or fitting, the O-ring (if equipped) on the fitting and/or hose end must be replaced.

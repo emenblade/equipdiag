@@ -7,13 +7,7 @@
 3. Move and hold the drive enable toggle switch to the right and pull out the red Emergency Stop button to the on position.
 4. When the alarm sounds, release the drive enable toggle switch.
 6. Start the engine from the platform controls and press down the foot switch.
-
-
-September
 11. Cycle the red Emergency Stop button off, then back on. Start the machine and return to the stowed position.
-
-
-Service and Repair Manual   September 2016  Platform Components
 
 > **Note:** Perform this procedure on a firm, level surface.
 

@@ -12,6 +12,3 @@
 8. Adjust the internal hex socket. Turn it clockwise to increase the pressure or counterclockwise to decrease the pressure. Tip-over hazard. Failure to adjust the relief valves to specification could result in the machine tipping over, causing death or serious injury. Do not adjust the relief valve pressures higher than specifications.
 9. Install the relief valve cap.
 10. Repeat steps 5 and 6 to confirm the relief valve pressure. GS-32, GS-46 and GS-47 a   test port b   system relief valve c   steer relief valve d   lift relief valve
-
-
-September

@@ -7,7 +7,4 @@
 3. Turn the key switch to ground control and pull out the red Emergency Stop button to the on position at both ground and platform controls.
 5. Remove the pressure gauge and reconnect the hydraulic hose. Torque to specifications.
 
-
-January
-
 > **Note:** When removing a hose assembly or fitting, the O-ring (if equipped) on the fitting and/or hose end must be replaced.

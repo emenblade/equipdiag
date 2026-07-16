@@ -11,6 +11,5 @@
 7. Disconnect the wiring from the platform and pull the wiring free of the platform.
 9. Support the platform with a forklift at the non-steer end. Do not apply any lifting pressure.
 10. Attach a strap from the lanyard anchorage point on the platform railings to the carriage on the forklift to help support the platform.
-47. Part No. 1272217GT  10-2 Platform Extension Deck
 
 > **Note:** Take notice of the wear pad position before the platform is removed.

@@ -8,6 +8,3 @@
 5. Start engine and check for exhaust leaks at all exhaust connections. Adjust or repair as needed.
 6. Close and secure the engine cover.
 7. Remove the Do Not Operate Tags from both the ignition key and the steering wheel.  MAE32960  ULS LS 1 1 2 2
-
-
-7-11 Engine  G5-18A   31211325

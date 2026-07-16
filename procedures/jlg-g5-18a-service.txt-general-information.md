@@ -1,6 +1,0 @@
-# GENERAL INFORMATION
-
-**Equipment:** JLG G5-18A
-
-2. GENERAL INFORMATION  Before performing any inspection, maintenance or service operation, thoroughly clean the unit. The axles and drive shafts should be checked and repaired only by experienced service technicians who are aware of all safety instructions and particular component features. Use suitable products to thoroughly clean all disassembled mechanical parts to help prevent personal injury to the worker and prevent damage to the parts. Carefully inspect the integrity of all moving parts (bearings, yokes, tubes, gears, shafts, etc.) and fasteners (nuts, bolts, washers, etc.) as they are subject to major stress and wear.
-2. GENERAL INFORMATION  Before performing any inspection, maintenance or service operation, thoroughly clean the unit. The axles and drive shafts should be checked and repaired only by experienced service technicians who are aware of all safety instructions and particular component features. Use suitable products to thoroughly clean all disassembled mechanical parts to help prevent personal injury to the worker and prevent damage to the parts. Carefully inspect the integrity of all moving parts (bearings, yokes, tubes, gears, shafts, etc.) and fasteners (nuts, bolts, washers, etc.) as they are subject to major stress and wear.

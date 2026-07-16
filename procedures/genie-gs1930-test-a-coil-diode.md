@@ -4,7 +4,6 @@
 
 1. Test the coil resistance. Refer to Repair Procedure,   How to Test a Coil .
 5. Momentarily connect the positive lead from the multimeter to the positive terminal on the 9V battery. Note and record the reading.
-47. Part No. 1272217GT  6-1 Yoke and Drive Motor
 
 > **Note:** The battery should read 9V DC or more when measured across the terminals.
 

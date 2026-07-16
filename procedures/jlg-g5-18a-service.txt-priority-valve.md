@@ -11,3 +11,4 @@
 7. Priority Valve  The priority valve is attached at the engine pod frame directly beside the engine. Verify the correct operation of the priority valve before considering replacement of the valve. The priority valve must be replaced if defective.  a.   Priority Valve Removal
 8. Close and secure the engine cover.
 9. Remove the Do Not Operate Tags from both the ignition key and the steering wheel.  d.   Priority Valve Test
+19. MY2971  20 20

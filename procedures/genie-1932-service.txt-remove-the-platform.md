@@ -12,6 +12,5 @@
 9. Pull the air line free of the platform.
 10. Support the platform with a forklift at the non-steer end. Do not apply any lifting pressure.
 11. Attach a strap from the lanyard anchorage point on the platform railings to the carriage on the forklift to help support the platform.
-47. Part No. 228901 10- 2 Platform Extension  10-2 Platform Extension
 
 > **Note:** Take notice of the wear pad position before the platform is removed.

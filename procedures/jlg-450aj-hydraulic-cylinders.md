@@ -14,7 +14,7 @@
 2. Operate hydraulic power source and extend cylinder. Shut down and disconnect power source. Adequately support cylinder rod, if applicable.
 3. Remove cartridge-type counterbalance valve and fittings from cylinder port block. Discard O-rings.
 4. Place cylinder barrel in a suitable holding fixture. Tap around outside of cylinder head retainer with a suitable hammer to break thread-locking compound.  Figure 5-2. Cylinder Barrel Support
-5. Mark cylinder head and barrel with a center punch for realignment. Remove eight cylinder head cap screws.  Figure 5-3. Cylinder Head Removal  PULLING ROD OFF-CENTER CAN DAMAGE PISTON AND CYLINDER BARREL SURFACES. USE EXTREME CARE WHEN REMOVING CYLINDER ROD, HEAD, AND PISTON.
+5. CONTAMINATION MAY DAMAGE EQUIPMENT. DISASSEMBLE CYLINDER ON A CLEAN WORK SURFACE IN A DIRT FREE WORK AREA.
 6. Clamp barrel securely. Pull rod assembly and cylinder head from barrel.
 8. Remove cap screws from tapered bushing.
 9. Insert cap screw in threaded holes in outer piece of tapered bushing. Progressively tighten cap screw(s) until bushing is loose on piston.

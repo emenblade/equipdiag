@@ -11,10 +11,6 @@
 8. Support and secure the yoke assembly to an appropriate lifting device.
 11. Lower the yoke assembly out of the chassis. Bodily injury hazard. The yoke/motor assembly may fall if not properly supported when it is removed from the chassis.
 
-
-Service Manual   September 2013  Steer Axle Components
-47. Part No. 228901
-
 > **Note:** Always replace the cotter pin with a new one when removing the castle nut.
 
 > **Note:** While removing the retaining fasteners, take note of the quantity and location of the spacers when disconnecting the steer link from the yoke assembly.

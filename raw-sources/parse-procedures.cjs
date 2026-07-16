@@ -106,10 +106,14 @@ function extractJLG(text, model) {
     sections.push({ index: m.index, title: m[3].trim(), major: parseInt(m[1]), minor: parseInt(m[2]) });
   }
 
+  const nonProcTitleRe = /^(SPECIFICATIONS?|DISCLAIMER|DO NOT OPERATE|SAFETY DECALS|REPLACEMENT PARTS|WARRANTY INFORMATION|TROUBLESHOOTING|GENERAL INFORMATION|SECTION \d|OPERATOR CAB|OPERATING SPECIFICATIONS?|REACH SPECIFICATIONS?|DIMENSIONAL DATA|CAPACITIES|MAJOR COMPONENT|LUBRICATION AND INFORMATION|PINS AND COMPOSITE|(?:AXLE|ENGINE|TRANSMISSION) SERIAL NUMBER|ENGINE ELECTRICAL|HYDRAULIC RESERVOIR|CYLINDER CLEANING|DIELECTRIC GREASE|TELEMATICS GATEWAY|GAUGE FAULT|ENGINE DIAGNOSTIC|EVERY \d+ HOURS?|BOOM SYSTEM DESCRIPTION|PROP REMOVAL|EQUIPMENT AND SUPPLIES|REPLACEMENT CONSIDERATIONS|HOSE, TUBE|MAIN CONTROL VALVE|STEERING PRESSURE|ENGINE COMPARTMENT|POWER DISTRIBUTION MODULE|CAB FUSES|THREAD LOCKING|ASSEMBLY INSTRUCTIONS FOR (?:BULKHEAD|O-RING|ADJUSTABLE)|FFWR AND|O-RING LUBRICATION|AMP CONNECTOR|DEUTSCH CONNECTORS?|ROTARY ACTUATOR|POWERTRACK MAINTENANCE|TORQUE HUB|ADJUSTMENT PROCEDURE FOR LOCKOUT|FOAM-FILLED|PAPERS AND THIN|DIMENSION AND REACH|AXLE OSCILLATION|LOAD SENSING SYSTEM|ELECTRICAL SYSTEM$|HYDRAULIC SYSTEM$)/i;
+
   for (let i = 0; i < sections.length; i++) {
     const s = sections[i];
     const next = i + 1 < sections.length ? sections[i + 1].index : fullText.length;
     const section = fullText.substring(s.index, Math.min(s.index + 5000, next));
+
+    if (nonProcTitleRe.test(s.title)) continue;
 
     const steps = extractSteps(section);
     if (steps.length < 2) continue;
@@ -480,17 +484,22 @@ for (const manual of manuals) {
 
     console.log(`${manual.model}: ${procs.length} procedures`);
 
+    const seenProcKeys = new Set();
     for (const proc of procs) {
       const filename = procToMarkdown(proc, prefix);
       const qa = isQuickAccess(proc);
+      const stepCount = proc.subSections && proc.subSections.length > 0
+        ? proc.subSections.reduce((a, s) => a + s.steps.length, 0)
+        : proc.steps.length;
+      const key = proc.title + '|' + proc.equipment;
+      if (seenProcKeys.has(key)) continue;
+      seenProcKeys.add(key);
       procedures.push({
         id: filename.replace('.md', ''),
         title: proc.title,
         equipment: proc.equipment,
         file: filename,
-        steps: proc.subSections && proc.subSections.length > 0
-          ? proc.subSections.reduce((a, s) => a + s.steps.length, 0)
-          : proc.steps.length,
+        steps: stepCount,
         quickAccess: qa
       });
       totalProcs++;

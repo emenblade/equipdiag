@@ -13,9 +13,6 @@
 9. Remove the pin retaining fastener from the jib boom bellcrank to primary boom pivot pin.
 10. Use a soft metal drift to remove the pin and carefully remove the jib boom assembly from the primary boom.  Crushing hazard. The jib boom may become unbalanced and fall when it is removed from the machine if it is not properly supported by the overhead crane.
 
-
-September
-
 > **Note:** Perform this procedure with the boom in the stowed position.
 
 > **Note:** When removing a hose assembly or fitting, the O-ring (if equipped) on the fitting and/or hose end must be replaced.

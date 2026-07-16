@@ -7,9 +7,6 @@
 3. Using a mild solvent, carefully wash the cap venting system. Dry using low pressure compressed air. Repeat this procedure beginning with step 2.
 4. Install the breather cap onto the hydraulic tank.
 
-
-May
-
 > **Note:** Perform this test only on models equipped with an oscillating axle.
 
 > **Note:** Before replacing the hydraulic oil, the oil may be tested by an oil distributor for specific levels of contamination to verify that changing the oil is necessary.

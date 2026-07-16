@@ -16,6 +16,5 @@
 12. Press and hold the Enter button while the system gathers data to calibrate the outrigger level sensor.  Crushing hazard. Keep body parts away from outriggers during outrigger movement.
 13. Continue holding the Enter button after the outrigger level sensor is calibrated. The outriggers will retract while the outrigger system gathers and saves data.
 14. Continue holding the Enter button after the outriggers retract. The outriggers will now extend and the system will gather and save data to calibrate the outriggers.
-47. Part No. 1272217GT  3-1 Hydraulic Tank  The primary functions of the hydraulic tank are to cool and deaerate the hydraulic fluid during operation. It utilizes internal suction strainers for the pump supply lines and has an external return line filter.
 
 > **Note:** After installing a new outrigger level sensor, the new outrigger level sensor must be calibrated following this procedure.

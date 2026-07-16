@@ -8,6 +8,3 @@
 4. Remove the fasteners securing the bottom cover to the platform control box. Open the control box.
 5. Disconnect the red and black wires from the alarm.  Electrocution/burn hazard. Contact with electrically charged circuits could result in death or serious injury. Remove all rings, watches and other jewelry.  Component damage hazard. Electrostatic discharge (ESD) can damage printed circuit board components. Maintain firm contact with a metal part of the machine that is grounded at all times when handling printed circuit boards OR use a grounded wrist strap.
 6. Carefully remove the alarm from the platform control box.
-
-
-January

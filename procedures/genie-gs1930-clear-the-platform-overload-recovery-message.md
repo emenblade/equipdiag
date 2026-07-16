@@ -4,14 +4,7 @@
 
 1. Turn the key switch to the ground controls position and pull out the red Emergency Stop button to the on position at the platform controls.
 2. Press and hold the ground control   scroll up  and   scroll down   buttons.
-
-
-Service and Repair Manual   January 2019  Scissor Components
 10. Push in the red Emergency stop button.
-
-
-January
-47. Part No. 1272217GT
 
 > **Note:** This message shall be cleared by a person trained and qualified on the troubleshooting and repair of this machine.
 

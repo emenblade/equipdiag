@@ -7,10 +7,6 @@
 4. Raise the machine approximately 14 inches / 36 cm. Place blocks under the chassis for support.  Crushing hazard. The chassis will fall if not properly supported.
 5. Turn the yokes to the side so the bellcrank can be removed.
 
-
-January
-47. Part No. 1272217GT  7-1 Drive Brake - All models except GS-1330m
-
 > **Note:** While removing the retaining fasteners, take note of the quantity and location of the spacers between the bellcrank and the steer links.
 
 > **Note:** While removing the bellcrank from the machine, take note of the quantity and location of the spacers between the bellcrank and the steer links.

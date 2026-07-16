@@ -8,6 +8,3 @@
 5. Loosen and remove the belly pan and front fender.
 7. Thoroughly clean the pump ( 1 ) and surrounding area, including all hoses and fittings before proceeding.
 9. Remove the two bolts and washers ( 2 ) securing the pump in place.  MY8640  1 2 2
-
-
-8-13 Hydraulic System  G5-18A   31211325  8.

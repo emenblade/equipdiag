@@ -22,9 +22,6 @@
 18. Turn the key switch to the ground control position.
 19. Press and hold the ground control scroll up and scroll down buttons.
 20. Pull out the red Emergency Stop button to the on position at the ground controls.
-
-
-Service and Repair Manual   January 2019  Scissor Components
 22. Raise the platform and return the safety arm to the stowed position.
 23. Fully lower the platform to the stowed position.
 24. Remove the platform. Refer to Repair Procedure,   How to Remove the Platform .
@@ -34,16 +31,6 @@ Service and Repair Manual   January 2019  Scissor Components
 28. Secure the ends of the scissor arms together at the non-steer end of the machine with a strap or other suitable device.
 29. Remove the retaining fasteners securing the chassis mount bracket to the chassis at the steer end of the machine.
 30. Attach a lifting strap from an overhead crane to the scissor arm assembly.
-31. Raise the scissor arm assembly at the steer end with the overhead crane until the chassis mount bracket will clear the level sensor.
-32. Remove the scissor assembly from the machine just enough to access both wear pads.  Crushing hazard. The scissor assembly will fall if not properly supported when removed from the drive chassis.  Component damage hazard. Be careful not to damage the level sensor or limit switch while moving the scissor assembly.
-33. Remove both old wear pads.
-34. Install two new wear pads.
-35. Slide the scissor assembly back into the drive chassis.
-36. Lower the scissor assembly into position and install the chassis mount bracket onto the chassis. Securely install and tighten the fasteners. Do not over tighten.  Component damage hazard. Be careful not to damage the level sensor or limit switch while moving the scissor assembly.
-
-
-January
-47. Part No. 1272217GT
 
 > **Note:** Machines equipped with a Platform Height Sensor, begin at step 1.
 

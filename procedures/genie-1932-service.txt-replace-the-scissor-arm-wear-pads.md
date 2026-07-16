@@ -21,14 +21,10 @@
 17. Connect the battery pack to the machine.
 18. Turn the key switch to the ground control position.
 19. Press and hold the ground control scroll up and scroll down buttons.
-
-
-Service Manual   September 2013  Scissor Components
 20. Pull out the red Emergency Stop button to the on position at the ground controls.
 22. Raise the platform and return the safety arm to the stowed position.
 23. Fully lower the platform to the stowed position.
 24. Remove the platform. See 10-1,
-47. Part No. 228901
 
 > **Note:** Machines equipped with a Platform Height Sensor, begin at step 1.
 

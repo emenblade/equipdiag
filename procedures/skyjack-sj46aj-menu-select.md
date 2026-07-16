@@ -1,0 +1,9 @@
+# MENU  SELECT
+
+**Equipment:** Skyjack SJ46AJ / SJIII Series
+
+## TEST
+
+5. DISPLAYED  Di6 to Di10  DISPLAYED
+5. DISPLAYED  Di6 to Di10  DISPLAYED
+

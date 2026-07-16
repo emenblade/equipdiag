@@ -10,6 +10,7 @@
 6. Remove the lug nuts. Remove the tire and wheel assembly.
 7. Slide the tie rod cylinder onto the yoke. Install the pivot pin and the pin retaining fastener.
 8. Tighten the jam nut against the tie rod cylinder.
+9. Lower the machine and repeat step 2. If further adjustment is needed, repeat this procedure beginning with step
 
 > **Note:** Perform this procedure on a firm, level surface.
 

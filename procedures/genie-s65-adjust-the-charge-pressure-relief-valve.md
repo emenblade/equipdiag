@@ -13,6 +13,3 @@
 9. Adjust the internal hex socket until the pressure reading on the gauge is 3 0 psi / 2 bar less than the pressure reading on the pump. Turn it clockwise to increase the pressure or counterclockwise to decrease the pressure. Install the valve cap.
 10. Repeat steps 7 through 9 until the pressure reading at the drive manifold is 30 psi / 2 bar less than the pressure reading at the pump.
 11. Turn the engine off and remove the pressure gauge.
-
-
-September

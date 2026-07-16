@@ -10,6 +10,3 @@
 6. Unblock the wheels.
 7. Close and secure the engine covers.
 8. Remove the Do Not Operate Tags from both the ignition key and the steering wheel.  MAE32910  TO REAR AXLE 1 2 3 4 TO FRONT AXLE
-
-
-5-11 Axles, Drive Shafts, Wheels and Tires  G5-18A   31211325

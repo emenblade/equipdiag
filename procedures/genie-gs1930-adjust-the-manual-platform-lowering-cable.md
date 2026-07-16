@@ -11,8 +11,4 @@
 8. Raise the platform and rotate the safety arm to the stowed position.
 9. Pull the manual lowering handle at the ground controls 2 to 3 times to ensure it is functioning correctly.
 
-
-January
-47. Part No. 1272217GT  Skip to step 8 if the measurement is correct.
-
 > **Note:** Proceed to step 8 if measurement is correct.

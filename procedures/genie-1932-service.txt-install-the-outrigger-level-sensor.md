@@ -13,7 +13,3 @@
 9. Connect the outrigger level sensor wire harness to the new outrigger level sensor.
 10. Close the access door at the battery side of the machine.
 11. Calibrate the new outrigger level sensor. Refer to Section 2-8,   How to Calibrate the Outrigger System.
-
-
-Service Manual   September 2013  Ground Controls
-47. Part No. 228901 2-7 M anual Platform Lowering C able  2-7 Manual Platform Lowering Cable  The manual platform lowering cable lowers the platform in the event of a main power failure. The manual platform lowering cable is attached to the barrel end of the lift cylinder and is activated next to the ground controls.

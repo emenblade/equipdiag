@@ -15,9 +15,6 @@
 13. Repeat steps 9 through 11 for each joystick controlled machine function.
 15. Cycle the red Emergency Stop button off, then back on.
 
-
-Service and Repair Manual   September 2016  Platform Controls
-
 > **Note:** Perform this procedure with the boom in the stowed position.
 
 > **Note:** Each time the drive enable toggle switch is momentarily moved, the time will change in 5% increments from a default of 100%, with a minimum of 50% and a maximum of 150%.

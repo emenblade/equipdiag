@@ -11,6 +11,3 @@
 7. Remove pin ( 13 ) and return spring securing service brake pedal to cab.
 8. Select   2-Wheel Front Steer   ( 10 ) mode, and turn the steering wheel fully to the right, then fully to the left, continuing a hard turn for 2 seconds at the stops in each direction to purge air from the system. Repeat this cycle 2 times.
 9. Remove a Do Not Operate Tag on both ignition key switch and steering wheel.  MY8860  13 12
-
-
-4-7 Cab  G5-18A   31211325  4.3.5   Accelerator Pedal a.   Accelerator Pedal Removal

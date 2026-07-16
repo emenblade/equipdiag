@@ -12,9 +12,6 @@
 9. Remove the level sensor retaining fasteners and remove the level sensor from the machine.
 10. Tag and disconnect the level sensor wires from the level sensor connector plug.
 11. Securely install the wires of the new level sensor into the level sensor connector plug.
-
-
-Service Manual   September 2013  Ground Controls
 12. Place the new level sensor onto the level sensor mount bracket with the "X" on the level sensor base closest to the long side of the level sensor mount, and the "Y" on the level sensor base closest to the short side of the level sensor mount. Tip-over hazard. The level sensor must be installed with the "X" on the level sensor base closest to the long side of the tilt level sensor box, and the "Y" on the level sensor base closest to the short side of the tilt level sensor box. Failure to install the level sensor as instructed, could result in the machine tipping over, causing death or serious injury.
 14. Connect the chassis wire harness to the level sensor wire harness.
 15. Turn the key switch to the ground control and pull out the red Emergency Stop button to the on position at the ground controls.
@@ -23,15 +20,11 @@ Service Manual   September 2013  Ground Controls
 19. Lower the platform to the stowed position.
 20. Center a lifting jack under the drive chassis at the ground controls side of the machine.
 21. Raise the machine approximately 2 inches / 5 cm. Place blocks under the chassis for support.
-
-
-September
 23. Lower the machine onto the blocks.
 25. Lower the platform to the stowed position.
 26. Raise the machine approximately 2 inches / 5 cm. Place blocks under the chassis for support.
 27. Remove the blocks from under both wheels.
 28. Lower the machine and remove the blocks.
 29. Center a lifting jack under the drive chassis at the battery pack side of the machine. 30
-47. Part No. 228901
 
 > **Note:** The wire harness connection is located next to the level sensor, on top of the chassis at the steer end of the machine.

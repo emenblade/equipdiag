@@ -10,9 +10,6 @@
 7. Rotate the backlash pivot plate away from the turntable until it contacts the adjustment bolt. Then torque the mounting fasteners on the backlash pivot plate to specification. Refer to Specifications,   Machine Torque Specifications .
 8. Rotate the turntable through an entire rotation. Check for tight spots that could cause binding. Readjust if necessary.
 
-
-September
-
 > **Note:** Perform this procedure with the boom between the non-steer end tires and with the machine on a firm and level surface.
 
 > **Note:** The turntable rotation lock pin is located next to the boom rest pad.

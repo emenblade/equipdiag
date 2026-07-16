@@ -10,6 +10,3 @@
 6. Carefully disconnect the joystick wire harness from the platform controls circuit board. Electrocution/burn hazard. Contact with electrically charged circuits could result in death or serious injury. Remove all rings, watches and other jewelry. Component damage hazard. Electrostatic discharge (ESD) can damage printed circuit board components. Maintain firm contact with a metal part of the machine that is grounded at all times when handling printed circuit boards OR use a grounded wrist strap.
 7. Carefully remove the joystick fasteners.
 8. Carefully remove the joystick from the platform control box.  Torque specifications  Joystick fasteners   9 in-lbs 1 Nm
-
-
-September

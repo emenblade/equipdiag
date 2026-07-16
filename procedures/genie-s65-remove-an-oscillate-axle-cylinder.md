@@ -9,9 +9,6 @@
 5. Remove the pin retaining fasteners from the barrel-end pivot pin. Use a soft metal drift to remove the pin.
 6. Remove the cylinder from the machine.  Crushing hazard. The oscillate cylinder may become unbalanced and fall when removed from the machine if not properly attached to the overhead crane.
 
-
-Service and Repair Manual   September 2016  Track Components
-
 > **Note:** Perform this procedure on firm, level surface with the boom in the stowed position.
 
 > **Note:** When removing a hose assembly or fitting, the O-ring (if equipped) on the fitting and/or hose end must be replaced.

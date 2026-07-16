@@ -24,9 +24,6 @@
 21. Loosen the castle nut and re-tighten to specification.  S -40, S-45, Z-45/25 IC, Z-30/20N, Z-34/22N, Z-33/18, Z-34/22 IC  8 ft-lbs 11 Nm  Z-34/22 BE, Z-40/23, Z-45/25 DC, Z-45/25 BE  35 ft lbs 47 Nm
 23. Install the dust cap, then the tire and wheel assembly. Torque the wheel lug nuts to specification. Refer to Specifications,   Tires and Wheels Specifications .
 
-
-Maintenance Manual   May 2019  Programmed Maintenance Procedures
-
 > **Note:** When replacing a wheel bearing, both the inner and outer bearings, including the pressed-in races, must be replaced.
 
 > **Note:** Always replace the cotter pin with a new one when removing the castle nut or when checking the torque of the castle nut.

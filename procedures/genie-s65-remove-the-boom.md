@@ -7,9 +7,6 @@
 4. Place a block of wood measuring 4 x 4 x 60 inches / 10 x 10 x 152 cm under the long link arm, across the turntable covers.
 5. Slowly lower the boom until the long link arm contacts the wood block. Do not rest the entire weight of the boom on the block. Turn the machine off.  Component damage hazard. The turntable covers can become damaged if the weight of the boom is allowed to rest on the block.
 6. Place wood blocks between the short link arm and the turntable weldment for support.
-
-
-Service and Repair Manual   September 2016  Boom Components
 7. Insert a 1.125 x 12 inches / 32 x 300 mm eye-bolt through each hole located on the top surface of the counterweight. Secure the eye-bolts in position with flat washers and nuts.
 9. Slowly operate the overhead crane to apply tension to the lifting straps. Do not attempt to lift the machine with the overhead crane.
 10. Locate and remove the counterweight retaining fastener at the center of the counterweight. Carefully lift the counterweight upwards and remove the counterweight from the machine. Set the counterweight on the ground. Do not leave the counterweight suspended above the ground.  Crushing hazard. The turntable counterweight will fall if not properly supported by the overhead crane resulting in death or serious injury. Keep personnel away from the area when removing the counterweight.

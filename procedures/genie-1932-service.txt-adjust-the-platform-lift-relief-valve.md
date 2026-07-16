@@ -13,9 +13,6 @@
 9. Install the relief valve cap.
 10. Repeat steps 5 and 6 to confirm the relief valve pressure.
 11. Place maximum rated load into the platform. Secure the load to the platform. Refer to Section 2,   Specifications.  GS-32, GS-46 and GS-47 a   test port b   system relief valve c   steer relief valve d   lift relief valve
-
-
-Service Manual   September 2013  Manifolds
 12. Turn the key switch to ground control and pull out the red Emergency Stop button to the on position at both ground and platform controls.
 13. Hold the lift relief valve with a wrench and remove the cap (schematic item C, AJ or DJ).
 14. While activating the platform up function, adjust the internal hex socket clockwise, just until the platform fully rises.
@@ -23,6 +20,5 @@ Service Manual   September 2013  Manifolds
 16. Add an additional 50 pounds / 22.7 kg to the platform. Secure the additional weight.
 18. Install the relief valve cap.
 19. Remove the weight from the platform.
-47. Part No. 228901
 
 > **Note:** The System Relief Valve and Platform Lift Relief Valve must be adjusted before making an adjustment to the Lift Pressure Selector Valve.

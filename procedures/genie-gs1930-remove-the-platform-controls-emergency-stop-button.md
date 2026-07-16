@@ -10,12 +10,6 @@
 6. Carefully remove the Emergency Stop base from the Emergency Stop button.
 7. Carefully remove the retaining ring from the Emergency Stop button.
 8. Carefully remove the Emergency Stop button from the platform control box.
-
-
-Service and Repair Manual   January 2019  Ground Controls
 9. Diagnostic port (if equipped)  10   platform down button  11   lift function enable button  12   platform up button
-
-
-January
 
 > **Note:** Steer and drive functions are not available at the ground controls.

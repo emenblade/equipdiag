@@ -10,6 +10,5 @@
 6. Tag and remove the hydraulic tank mounting bolts and clamps, then remove the hydraulic tank from the machine.
 7. Disconnect the pump inlet line and remove the pump mounting bolts. Cap the fittings on the pump, manifolds and hydraulic tank.
 8. Carefully remove the pump.  All other Models
-47. Part No. 1272217GT
 
 > **Note:** When removing a hose assembly or fitting, the O-ring (if equipped) on the fitting and/or hose end must be replaced.

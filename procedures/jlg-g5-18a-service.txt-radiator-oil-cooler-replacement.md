@@ -10,3 +10,5 @@
 6. Loosen and remove both mounting bolts securing the fan motor to the fan guard.
 7. Support or secure the hood assembly.
 8. Remove the mounting nuts from the rod end of each hood gas strut.
+13. MY8940  14 14 14
+14. MY8950  15

@@ -12,7 +12,4 @@
 8. Install the rollers onto the new section of cable track.
 9. Operate the boom extend/retract function through a full cycle to ensure smooth operation of the new section of cable track.
 
-
-Service and Repair Manual   September 2016  Boom Components
-
 > **Note:** A 4 link repair section of cable track is available through the Genie Service Parts Department.

@@ -17,9 +17,6 @@
 13. Remove the squeeze connector from the large platform height sensor bracket.
 14. Remove the fasteners securing the large platform height sensor bracket to the number 1 inner arm pivot bracket.
 15. Remove the large platform height sensor bracket from the number 1 inner arm pivot bracket.
-
-
-Service and Repair Manual   January 2019  Scissor Components
 16. Install the fasteners removed in 14 to the number 1 inner arm pivot bracket and chassis.  Tip-over hazard. Failure to install the fasteners securing the number 1 inner arm pivot bracket to the chassis, could result in the machine tipping over, causing death or serious injury.
 17. Connect the battery pack to the machine.
 18. Turn the key switch to ground controls.
@@ -30,12 +27,7 @@ Service and Repair Manual   January 2019  Scissor Components
 24. Remove the platform. Refer to Repair Procedure,   How to Remove the Platform.
 25. Support and secure the entry ladder to an appropriate lifting device.
 26. Remove the fasteners from the entry ladder and remove the entry ladder from the machine.  Crushing hazard. The entry ladder will fall if not properly supported and secured to the lifting device.
-
-
-January
 27. Remove the cables from the number 3 cable bridge and lay them off to the side.  Component damage hazard. Cables can be damaged if they are kinked or pinched.
-33. Place a rod through the number 3 center pivot pin
-47. Part No. 1272217GT
 
 > **Note:** When removing a hose assembly or fitting, the O-ring (if equipped) on the fitting and/or hose end must be replaced.
 

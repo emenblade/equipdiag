@@ -13,6 +13,3 @@
 9. Repeat steps 4 through 7 and manually activate the valve to confirm the valve pressure.
 10. Turn the engine off, remove the pressure gauge and assemble the directional valve linkage.
 11. Install the cover on the non-steer end of the drive chassis.
-
-
-September

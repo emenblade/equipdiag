@@ -11,6 +11,3 @@
 7. Replace the battery if it has a cracked, melted or damaged case.
 8. Install access cover ( 1 ) and secure with previously removed bolts.
 9. Close and secure engine cover. 10. Remove boom support.  MAE4060  1 3 2 4 5
-
-
-9-25 Electrical System  G5-18A   31211325 11. Remove Do Not Operate Tag from ignition key switch and steering wheel.  9.8.2   Battery Removal/Installation a.   Removal

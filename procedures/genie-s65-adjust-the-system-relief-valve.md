@@ -11,7 +11,4 @@
 7. Repeat steps 2 through 5 and recheck relief valve pressure.
 8. Remove the pressure gauge.
 
-
-September
-
 > **Note:** Perform this procedure with the boom in the stowed position.

@@ -7,6 +7,3 @@
 5. Check the pressure gauge reading. It should read as described in the appropriate section. If the reading is not as specified, turn the engine OFF and check other components in the system. Verify that all related hydraulic components and electrical switches, sensors, solenoids, etc. are operating correctly.
 6. Adjust the relief valve by turning the adjustment screw. Turning clockwise will increase the pressure; turning the screw counterclockwise will decrease the pressure.
 7. Start the engine and check the pressure again. Turn the engine OFF. If there is pressure reading in the gauge, bleed it off then disconnect or remove the pressure gauge from the machine.
-
-
-Hydraulic System 8-6

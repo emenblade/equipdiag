@@ -264,14 +264,6 @@
     "quickAccess": true
   },
   {
-    "id": "genie-s65-adjust-the-charge-pressure-relief-valve",
-    "title": "Adjust the Charge Pressure Relief Valve",
-    "equipment": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX",
-    "file": "genie-s65-adjust-the-charge-pressure-relief-valve.md",
-    "steps": 11,
-    "quickAccess": true
-  },
-  {
     "id": "genie-s65-test-a-coil",
     "title": "Test a Coil",
     "equipment": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX",
@@ -488,62 +480,6 @@
     "quickAccess": false
   },
   {
-    "id": "genie-gs1930-install-a-valve-cartridge",
-    "title": "Install a Valve Cartridge",
-    "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
-    "file": "genie-gs1930-install-a-valve-cartridge.md",
-    "steps": 11,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-gs1930-install-a-valve-cartridge",
-    "title": "Install a Valve Cartridge",
-    "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
-    "file": "genie-gs1930-install-a-valve-cartridge.md",
-    "steps": 10,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-gs1930-install-a-valve-cartridge",
-    "title": "Install a Valve Cartridge",
-    "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
-    "file": "genie-gs1930-install-a-valve-cartridge.md",
-    "steps": 3,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-gs1930-install-a-valve-cartridge",
-    "title": "Install a Valve Cartridge",
-    "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
-    "file": "genie-gs1930-install-a-valve-cartridge.md",
-    "steps": 3,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-gs1930-install-a-valve-cartridge",
-    "title": "Install a Valve Cartridge",
-    "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
-    "file": "genie-gs1930-install-a-valve-cartridge.md",
-    "steps": 3,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-gs1930-install-a-valve-cartridge",
-    "title": "Install a Valve Cartridge",
-    "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
-    "file": "genie-gs1930-install-a-valve-cartridge.md",
-    "steps": 3,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-gs1930-install-a-valve-cartridge",
-    "title": "Install a Valve Cartridge",
-    "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
-    "file": "genie-gs1930-install-a-valve-cartridge.md",
-    "steps": 3,
-    "quickAccess": false
-  },
-  {
     "id": "genie-gs1930-adjust-the-system-relief-valve",
     "title": "Adjust the System Relief Valve",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
@@ -632,51 +568,11 @@
     "quickAccess": false
   },
   {
-    "id": "genie-gs1930-disassemble-the-scissor-assembly",
-    "title": "Disassemble the Scissor Assembly",
-    "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
-    "file": "genie-gs1930-disassemble-the-scissor-assembly.md",
-    "steps": 24,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-gs1930-disassemble-the-scissor-assembly",
-    "title": "Disassemble the Scissor Assembly",
-    "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
-    "file": "genie-gs1930-disassemble-the-scissor-assembly.md",
-    "steps": 24,
-    "quickAccess": false
-  },
-  {
     "id": "genie-gs1930-disassemble-the-scissor-assembly-gs-2032-and-gs-2046",
     "title": "Disassemble the Scissor Assembly, GS-2032 and GS-2046",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
     "file": "genie-gs1930-disassemble-the-scissor-assembly-gs-2032-and-gs-2046.md",
     "steps": 26,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-gs1930-disassemble-the-scissor-assembly",
-    "title": "Disassemble the Scissor Assembly",
-    "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
-    "file": "genie-gs1930-disassemble-the-scissor-assembly.md",
-    "steps": 26,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-gs1930-disassemble-the-scissor-assembly",
-    "title": "Disassemble the Scissor Assembly",
-    "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
-    "file": "genie-gs1930-disassemble-the-scissor-assembly.md",
-    "steps": 26,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-gs1930-disassemble-the-scissor-assembly",
-    "title": "Disassemble the Scissor Assembly",
-    "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
-    "file": "genie-gs1930-disassemble-the-scissor-assembly.md",
-    "steps": 24,
     "quickAccess": false
   },
   {
@@ -784,14 +680,6 @@
     "quickAccess": false
   },
   {
-    "id": "genie-s80-adjust-the-joystick-max-out-setting",
-    "title": "Adjust the Joystick Max-out Setting",
-    "equipment": "Genie S-80 / S-85",
-    "file": "genie-s80-adjust-the-joystick-max-out-setting.md",
-    "steps": 6,
-    "quickAccess": true
-  },
-  {
     "id": "genie-s80-adjust-the-joystick-ramp-rate-setting",
     "title": "Adjust the Joystick Ramp Rate Setting",
     "equipment": "Genie S-80 / S-85",
@@ -840,14 +728,6 @@
     "quickAccess": false
   },
   {
-    "id": "genie-s80-remove-the-platform",
-    "title": "Remove the Platform",
-    "equipment": "Genie S-80 / S-85",
-    "file": "genie-s80-remove-the-platform.md",
-    "steps": 7,
-    "quickAccess": false
-  },
-  {
     "id": "genie-s80-remove-the-jib-boom",
     "title": "Remove the Jib Boom",
     "equipment": "Genie S-80 / S-85",
@@ -888,43 +768,11 @@
     "quickAccess": false
   },
   {
-    "id": "genie-s80-shim-the-boom",
-    "title": "Shim the Boom",
-    "equipment": "Genie S-80 / S-85",
-    "file": "genie-s80-shim-the-boom.md",
-    "steps": 4,
-    "quickAccess": false
-  },
-  {
     "id": "genie-s80-remove-the-boom",
     "title": "Remove the Boom",
     "equipment": "Genie S-80 / S-85",
     "file": "genie-s80-remove-the-boom.md",
     "steps": 2,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-s80-remove-the-platform",
-    "title": "Remove the Platform",
-    "equipment": "Genie S-80 / S-85",
-    "file": "genie-s80-remove-the-platform.md",
-    "steps": 2,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-s80-remove-the-platform-rotator",
-    "title": "Remove the Platform Rotator",
-    "equipment": "Genie S-80 / S-85",
-    "file": "genie-s80-remove-the-platform-rotator.md",
-    "steps": 2,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-s80-remove-the-jib-boom",
-    "title": "Remove the Jib Boom",
-    "equipment": "Genie S-80 / S-85",
-    "file": "genie-s80-remove-the-jib-boom.md",
-    "steps": 4,
     "quickAccess": false
   },
   {
@@ -933,14 +781,6 @@
     "equipment": "Genie S-80 / S-85",
     "file": "genie-s80-remove-the-boom-extension-cylinders.md",
     "steps": 2,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-s80-remove-the-boom",
-    "title": "Remove the Boom",
-    "equipment": "Genie S-80 / S-85",
-    "file": "genie-s80-remove-the-boom.md",
-    "steps": 5,
     "quickAccess": false
   },
   {
@@ -949,14 +789,6 @@
     "equipment": "Genie S-80 / S-85",
     "file": "genie-s80-remove-the-boom-lift-cylinder.md",
     "steps": 8,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-s80-remove-the-boom-extension-cylinders",
-    "title": "Remove the Boom Extension Cylinders",
-    "equipment": "Genie S-80 / S-85",
-    "file": "genie-s80-remove-the-boom-extension-cylinders.md",
-    "steps": 2,
     "quickAccess": false
   },
   {
@@ -1072,14 +904,6 @@
     "quickAccess": false
   },
   {
-    "id": "genie-s80-remove-the-fuel-tank",
-    "title": "Remove the Fuel Tank",
-    "equipment": "Genie S-80 / S-85",
-    "file": "genie-s80-remove-the-fuel-tank.md",
-    "steps": 7,
-    "quickAccess": false
-  },
-  {
     "id": "genie-s80-remove-the-turntable-rotation-drive-hub-assembly",
     "title": "Remove the Turntable Rotation Drive Hub Assembly",
     "equipment": "Genie S-80 / S-85",
@@ -1192,22 +1016,6 @@
     "quickAccess": true
   },
   {
-    "id": "genie-s80-set-up-the-directional-valve-linkage",
-    "title": "Set Up the Directional Valve Linkage",
-    "equipment": "Genie S-80 / S-85",
-    "file": "genie-s80-set-up-the-directional-valve-linkage.md",
-    "steps": 8,
-    "quickAccess": true
-  },
-  {
-    "id": "genie-s80-shim-an-extendable-axle",
-    "title": "Shim an Extendable Axle",
-    "equipment": "Genie S-80 / S-85",
-    "file": "genie-s80-shim-an-extendable-axle.md",
-    "steps": 7,
-    "quickAccess": false
-  },
-  {
     "id": "genie-s80-remove-an-inner-axle",
     "title": "Remove an Inner Axle",
     "equipment": "Genie S-80 / S-85",
@@ -1216,27 +1024,11 @@
     "quickAccess": false
   },
   {
-    "id": "genie-s80-remove-the-yoke-and-drive-hub-assembly",
-    "title": "Remove the Yoke and Drive Hub Assembly",
-    "equipment": "Genie S-80 / S-85",
-    "file": "genie-s80-remove-the-yoke-and-drive-hub-assembly.md",
-    "steps": 4,
-    "quickAccess": false
-  },
-  {
     "id": "genie-s80-remove-the-axle-extension-cylinder",
     "title": "Remove the Axle Extension Cylinder",
     "equipment": "Genie S-80 / S-85",
     "file": "genie-s80-remove-the-axle-extension-cylinder.md",
     "steps": 4,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-s80-remove-the-yoke-and-drive-hub-assembly",
-    "title": "Remove the Yoke and Drive Hub Assembly",
-    "equipment": "Genie S-80 / S-85",
-    "file": "genie-s80-remove-the-yoke-and-drive-hub-assembly.md",
-    "steps": 3,
     "quickAccess": false
   },
   {
@@ -1632,14 +1424,6 @@
     "quickAccess": false
   },
   {
-    "id": "jlg800s860sj-operating-specifications",
-    "title": "OPERATING SPECIFICATIONS",
-    "equipment": "JLG 800S / 860SJ",
-    "file": "jlg800s860sj-operating-specifications.md",
-    "steps": 2,
-    "quickAccess": false
-  },
-  {
     "id": "jlg800s860sj-component-data-engine-data",
     "title": "COMPONENT DATA Engine Data",
     "equipment": "JLG 800S / 860SJ",
@@ -1656,51 +1440,11 @@
     "quickAccess": false
   },
   {
-    "id": "jlg800s860sj-foam-filled",
-    "title": "Foam-Filled",
-    "equipment": "JLG 800S / 860SJ",
-    "file": "jlg800s860sj-foam-filled.md",
-    "steps": 5,
-    "quickAccess": false
-  },
-  {
-    "id": "jlg800s860sj-major-component-weights",
-    "title": "MAJOR COMPONENT WEIGHTS",
-    "equipment": "JLG 800S / 860SJ",
-    "file": "jlg800s860sj-major-component-weights.md",
-    "steps": 7,
-    "quickAccess": false
-  },
-  {
     "id": "jlg800s860sj-service-and-guidelines-general",
     "title": "SERVICE AND GUIDELINES General",
     "equipment": "JLG 800S / 860SJ",
     "file": "jlg800s860sj-service-and-guidelines-general.md",
     "steps": 4,
-    "quickAccess": false
-  },
-  {
-    "id": "jlg800s860sj-lubrication-and-information-hydraulic-system",
-    "title": "LUBRICATION AND INFORMATION Hydraulic System",
-    "equipment": "JLG 800S / 860SJ",
-    "file": "jlg800s860sj-lubrication-and-information-hydraulic-system.md",
-    "steps": 3,
-    "quickAccess": false
-  },
-  {
-    "id": "jlg800s860sj-pins-and-composite-bearing-repair-guidelines",
-    "title": "PINS AND COMPOSITE BEARING REPAIR GUIDELINES",
-    "equipment": "JLG 800S / 860SJ",
-    "file": "jlg800s860sj-pins-and-composite-bearing-repair-guidelines.md",
-    "steps": 5,
-    "quickAccess": false
-  },
-  {
-    "id": "jlg800s860sj-section-2-general",
-    "title": "SECTION 2 - GENERAL",
-    "equipment": "JLG 800S / 860SJ",
-    "file": "jlg800s860sj-section-2-general.md",
-    "steps": 14,
     "quickAccess": false
   },
   {
@@ -1717,14 +1461,6 @@
     "equipment": "JLG 800S / 860SJ",
     "file": "jlg800s860sj-drive-motor-s-n-83331-to-present-description.md",
     "steps": 8,
-    "quickAccess": false
-  },
-  {
-    "id": "jlg800s860sj-torque-hub-disassembly",
-    "title": "TORQUE HUB Disassembly",
-    "equipment": "JLG 800S / 860SJ",
-    "file": "jlg800s860sj-torque-hub-disassembly.md",
-    "steps": 10,
     "quickAccess": false
   },
   {
@@ -1792,14 +1528,6 @@
     "quickAccess": false
   },
   {
-    "id": "jlg800s860sj-powertrack-maintenance-one-piece-bracket-maintenance",
-    "title": "POWERTRACK MAINTENANCE One Piece Bracket Maintenance",
-    "equipment": "JLG 800S / 860SJ",
-    "file": "jlg800s860sj-powertrack-maintenance-one-piece-bracket-maintenance.md",
-    "steps": 11,
-    "quickAccess": false
-  },
-  {
     "id": "jlg800s860sj-helac-rotary-actuator-theory-of-operation",
     "title": "HELAC ROTARY ACTUATOR Theory of Operation",
     "equipment": "JLG 800S / 860SJ",
@@ -1824,91 +1552,11 @@
     "quickAccess": false
   },
   {
-    "id": "jlg800s860sj-deutsch-connectors-dt-dtp-series-assembly",
-    "title": "DEUTSCH CONNECTORS DT/DTP Series Assembly",
-    "equipment": "JLG 800S / 860SJ",
-    "file": "jlg800s860sj-deutsch-connectors-dt-dtp-series-assembly.md",
-    "steps": 9,
-    "quickAccess": false
-  },
-  {
-    "id": "jlg-450aj-operating-specifications-and-performance-data",
-    "title": "OPERATING SPECIFICATIONS AND PERFORMANCE DATA",
-    "equipment": "JLG 450AJ",
-    "file": "jlg-450aj-operating-specifications-and-performance-data.md",
-    "steps": 2,
-    "quickAccess": false
-  },
-  {
-    "id": "jlg-450aj-reach-specifications",
-    "title": "REACH SPECIFICATIONS",
-    "equipment": "JLG 450AJ",
-    "file": "jlg-450aj-reach-specifications.md",
-    "steps": 2,
-    "quickAccess": false
-  },
-  {
-    "id": "jlg-450aj-dimensional-data",
-    "title": "DIMENSIONAL DATA",
-    "equipment": "JLG 450AJ",
-    "file": "jlg-450aj-dimensional-data.md",
-    "steps": 2,
-    "quickAccess": false
-  },
-  {
-    "id": "jlg-450aj-capacities",
-    "title": "CAPACITIES",
-    "equipment": "JLG 450AJ",
-    "file": "jlg-450aj-capacities.md",
-    "steps": 2,
-    "quickAccess": false
-  },
-  {
-    "id": "jlg-450aj-foam-filled-n-a",
-    "title": "Foam-Filled   N/A",
-    "equipment": "JLG 450AJ",
-    "file": "jlg-450aj-foam-filled-n-a.md",
-    "steps": 2,
-    "quickAccess": false
-  },
-  {
-    "id": "jlg-450aj-foam-filled-n-a",
-    "title": "Foam-Filled   N/A",
-    "equipment": "JLG 450AJ",
-    "file": "jlg-450aj-foam-filled-n-a.md",
-    "steps": 2,
-    "quickAccess": false
-  },
-  {
-    "id": "jlg-450aj-foam-filled-n-a",
-    "title": "Foam-Filled   N/A",
-    "equipment": "JLG 450AJ",
-    "file": "jlg-450aj-foam-filled-n-a.md",
-    "steps": 3,
-    "quickAccess": false
-  },
-  {
     "id": "jlg-450aj-service-and-guidelines",
     "title": "SERVICE AND GUIDELINES",
     "equipment": "JLG 450AJ",
     "file": "jlg-450aj-service-and-guidelines.md",
     "steps": 4,
-    "quickAccess": false
-  },
-  {
-    "id": "jlg-450aj-lubrication-and-information",
-    "title": "LUBRICATION AND INFORMATION",
-    "equipment": "JLG 450AJ",
-    "file": "jlg-450aj-lubrication-and-information.md",
-    "steps": 3,
-    "quickAccess": false
-  },
-  {
-    "id": "jlg-450aj-pins-and-composite-bearing-repair-guidelines",
-    "title": "PINS AND COMPOSITE BEARING REPAIR GUIDELINES",
-    "equipment": "JLG 450AJ",
-    "file": "jlg-450aj-pins-and-composite-bearing-repair-guidelines.md",
-    "steps": 12,
     "quickAccess": false
   },
   {
@@ -1920,27 +1568,11 @@
     "quickAccess": false
   },
   {
-    "id": "jlg-450aj-torque-hub",
-    "title": "TORQUE HUB",
-    "equipment": "JLG 450AJ",
-    "file": "jlg-450aj-torque-hub.md",
-    "steps": 35,
-    "quickAccess": false
-  },
-  {
     "id": "jlg-450aj-re-align-torque-hub-input-coupling",
     "title": "RE-ALIGN TORQUE HUB INPUT COUPLING",
     "equipment": "JLG 450AJ",
     "file": "jlg-450aj-re-align-torque-hub-input-coupling.md",
     "steps": 35,
-    "quickAccess": false
-  },
-  {
-    "id": "jlg-450aj-adjustment-procedure-for-lockout-valve",
-    "title": "ADJUSTMENT PROCEDURE FOR LOCKOUT VALVE",
-    "equipment": "JLG 450AJ",
-    "file": "jlg-450aj-adjustment-procedure-for-lockout-valve.md",
-    "steps": 14,
     "quickAccess": false
   },
   {
@@ -1957,30 +1589,6 @@
     "equipment": "JLG 450AJ",
     "file": "jlg-450aj-generator.md",
     "steps": 9,
-    "quickAccess": false
-  },
-  {
-    "id": "jlg-450aj-rotary-actuator",
-    "title": "ROTARY ACTUATOR",
-    "equipment": "JLG 450AJ",
-    "file": "jlg-450aj-rotary-actuator.md",
-    "steps": 17,
-    "quickAccess": false
-  },
-  {
-    "id": "jlg-450aj-powertrack-maintenance",
-    "title": "POWERTRACK MAINTENANCE",
-    "equipment": "JLG 450AJ",
-    "file": "jlg-450aj-powertrack-maintenance.md",
-    "steps": 7,
-    "quickAccess": false
-  },
-  {
-    "id": "jlg-450aj-o-ring-lubrication",
-    "title": "O-RING LUBRICATION",
-    "equipment": "JLG 450AJ",
-    "file": "jlg-450aj-o-ring-lubrication.md",
-    "steps": 3,
     "quickAccess": false
   },
   {
@@ -2016,30 +1624,6 @@
     "quickAccess": true
   },
   {
-    "id": "jlg-450aj-amp-connector",
-    "title": "AMP CONNECTOR",
-    "equipment": "JLG 450AJ",
-    "file": "jlg-450aj-amp-connector.md",
-    "steps": 4,
-    "quickAccess": false
-  },
-  {
-    "id": "jlg-450aj-deutsch-connectors-dt-dtp-series-assembly",
-    "title": "DEUTSCH CONNECTORS  DT/DTP Series Assembly",
-    "equipment": "JLG 450AJ",
-    "file": "jlg-450aj-deutsch-connectors-dt-dtp-series-assembly.md",
-    "steps": 7,
-    "quickAccess": false
-  },
-  {
-    "id": "skyjack-4632-papers-and-thin-branches-move-flags-wave",
-    "title": "Papers and thin branches move, flags wave",
-    "equipment": "Skyjack 4632 / 3226 / 4626",
-    "file": "skyjack-4632-papers-and-thin-branches-move-flags-wave.md",
-    "steps": 2,
-    "quickAccess": false
-  },
-  {
     "id": "skyjack-sj46aj-scheduled-maintenance-inspections",
     "title": "Scheduled Maintenance Inspections",
     "equipment": "Skyjack SJ46AJ / SJIII Series",
@@ -2072,70 +1656,6 @@
     "quickAccess": false
   },
   {
-    "id": "skyjack-sj46aj-dimension-and-reach-diagram-sj-46a-10-10",
-    "title": "Dimension and Reach Diagram - SJ 46A  -10  -10",
-    "equipment": "Skyjack SJ46AJ / SJIII Series",
-    "file": "skyjack-sj46aj-dimension-and-reach-diagram-sj-46a-10-10.md",
-    "steps": 2,
-    "quickAccess": false
-  },
-  {
-    "id": "skyjack-sj46aj-axle-oscillation-diagram-warning",
-    "title": "Axle Oscillation Diagram  WARNING",
-    "equipment": "Skyjack SJ46AJ / SJIII Series",
-    "file": "skyjack-sj46aj-axle-oscillation-diagram-warning.md",
-    "steps": 2,
-    "quickAccess": false
-  },
-  {
-    "id": "skyjack-sj46aj-electrical-system",
-    "title": "Electrical System",
-    "equipment": "Skyjack SJ46AJ / SJIII Series",
-    "file": "skyjack-sj46aj-electrical-system.md",
-    "steps": 2,
-    "quickAccess": false
-  },
-  {
-    "id": "skyjack-sj46aj-hydraulic-system",
-    "title": "Hydraulic System",
-    "equipment": "Skyjack SJ46AJ / SJIII Series",
-    "file": "skyjack-sj46aj-hydraulic-system.md",
-    "steps": 2,
-    "quickAccess": false
-  },
-  {
-    "id": "skyjack-sj46aj-load-sensing-system-ce",
-    "title": "Load Sensing System - CE",
-    "equipment": "Skyjack SJ46AJ / SJIII Series",
-    "file": "skyjack-sj46aj-load-sensing-system-ce.md",
-    "steps": 2,
-    "quickAccess": false
-  },
-  {
-    "id": "skyjack-sj46aj-electrical-system",
-    "title": "Electrical System",
-    "equipment": "Skyjack SJ46AJ / SJIII Series",
-    "file": "skyjack-sj46aj-electrical-system.md",
-    "steps": 7,
-    "quickAccess": false
-  },
-  {
-    "id": "skyjack-sj46aj-hydraulic-system",
-    "title": "Hydraulic System",
-    "equipment": "Skyjack SJ46AJ / SJIII Series",
-    "file": "skyjack-sj46aj-hydraulic-system.md",
-    "steps": 8,
-    "quickAccess": false
-  },
-  {
-    "id": "skyjack-sj46aj-load-sensing-system-ce",
-    "title": "Load Sensing System - CE",
-    "equipment": "Skyjack SJ46AJ / SJIII Series",
-    "file": "skyjack-sj46aj-load-sensing-system-ce.md",
-    "steps": 6,
-    "quickAccess": false
-  },
-  {
     "id": "skyjack-sj46aj-menu-select",
     "title": "MENU  SELECT",
     "equipment": "Skyjack SJ46AJ / SJIII Series",
@@ -2149,14 +1669,6 @@
     "equipment": "John Deere 326D / 328D / 329D / 332D / 333D",
     "file": "john-deere-skidsteer.txt-jd-procedure.md",
     "steps": 5,
-    "quickAccess": false
-  },
-  {
-    "id": "john-deere-skidsteer.txt-jd-procedure",
-    "title": "JD Procedure",
-    "equipment": "John Deere 326D / 328D / 329D / 332D / 333D",
-    "file": "john-deere-skidsteer.txt-jd-procedure.md",
-    "steps": 4,
     "quickAccess": false
   },
   {
@@ -2208,35 +1720,11 @@
     "quickAccess": false
   },
   {
-    "id": "john-deere-skidsteer.txt-jd-procedure",
-    "title": "JD Procedure",
-    "equipment": "John Deere 326D / 328D / 329D / 332D / 333D",
-    "file": "john-deere-skidsteer.txt-jd-procedure.md",
-    "steps": 8,
-    "quickAccess": false
-  },
-  {
     "id": "john-deere-skidsteer.txt-hub-coupler-remove-and-install",
     "title": "Hub Coupler Remove and Install",
     "equipment": "John Deere 326D / 328D / 329D / 332D / 333D",
     "file": "john-deere-skidsteer.txt-hub-coupler-remove-and-install.md",
     "steps": 8,
-    "quickAccess": false
-  },
-  {
-    "id": "john-deere-skidsteer.txt-jd-procedure",
-    "title": "JD Procedure",
-    "equipment": "John Deere 326D / 328D / 329D / 332D / 333D",
-    "file": "john-deere-skidsteer.txt-jd-procedure.md",
-    "steps": 3,
-    "quickAccess": false
-  },
-  {
-    "id": "john-deere-skidsteer.txt-jd-procedure",
-    "title": "JD Procedure",
-    "equipment": "John Deere 326D / 328D / 329D / 332D / 333D",
-    "file": "john-deere-skidsteer.txt-jd-procedure.md",
-    "steps": 7,
     "quickAccess": false
   },
   {
@@ -2293,14 +1781,6 @@
     "equipment": "John Deere 326D / 328D / 329D / 332D / 333D",
     "file": "john-deere-skidsteer.txt-muffler-remove-and-install.md",
     "steps": 3,
-    "quickAccess": false
-  },
-  {
-    "id": "john-deere-skidsteer.txt-jd-procedure",
-    "title": "JD Procedure",
-    "equipment": "John Deere 326D / 328D / 329D / 332D / 333D",
-    "file": "john-deere-skidsteer.txt-jd-procedure.md",
-    "steps": 6,
     "quickAccess": false
   },
   {
@@ -2392,14 +1872,6 @@
     "quickAccess": false
   },
   {
-    "id": "doosan-dgk-service.txt-draining-water-from-the-internal-fuel-tank",
-    "title": "Draining Water From the Internal Fuel Tank",
-    "equipment": "Doosan DGK25B / 45A / 45C / 60A / 70B / 100B",
-    "file": "doosan-dgk-service.txt-draining-water-from-the-internal-fuel-tank.md",
-    "steps": 8,
-    "quickAccess": false
-  },
-  {
     "id": "doosan-dgk-service.txt-checking-the-voltage-regulator-all-models-except-dgk45c",
     "title": "Checking the Voltage Regulator (All Models Except DGK45C)",
     "equipment": "Doosan DGK25B / 45A / 45C / 60A / 70B / 100B",
@@ -2472,14 +1944,6 @@
     "quickAccess": true
   },
   {
-    "id": "genie-z80-service.txt-calibrate-the-level",
-    "title": "Calibrate the Level",
-    "equipment": "Genie Z-80 / Z-80/60",
-    "file": "genie-z80-service.txt-calibrate-the-level.md",
-    "steps": 5,
-    "quickAccess": true
-  },
-  {
     "id": "genie-z80-service.txt-calibrate-the-secondary-boom-angle-sensor",
     "title": "Calibrate the Secondary Boom Angle Sensor",
     "equipment": "Genie Z-80 / Z-80/60",
@@ -2501,38 +1965,6 @@
     "equipment": "Genie Z-80 / Z-80/60",
     "file": "genie-z80-service.txt-calibrate-the-primary-boom-angle-sensor.md",
     "steps": 5,
-    "quickAccess": true
-  },
-  {
-    "id": "genie-z80-service.txt-calibrate-the-primary-boom-angle-sensor",
-    "title": "Calibrate the Primary Boom Angle Sensor",
-    "equipment": "Genie Z-80 / Z-80/60",
-    "file": "genie-z80-service.txt-calibrate-the-primary-boom-angle-sensor.md",
-    "steps": 5,
-    "quickAccess": true
-  },
-  {
-    "id": "genie-z80-service.txt-calibrate-the-primary-boom-angle-sensor",
-    "title": "Calibrate the Primary Boom Angle Sensor",
-    "equipment": "Genie Z-80 / Z-80/60",
-    "file": "genie-z80-service.txt-calibrate-the-primary-boom-angle-sensor.md",
-    "steps": 5,
-    "quickAccess": true
-  },
-  {
-    "id": "genie-z80-service.txt-calibrate-the-primary-boom-angle-sensor",
-    "title": "Calibrate the Primary Boom Angle Sensor",
-    "equipment": "Genie Z-80 / Z-80/60",
-    "file": "genie-z80-service.txt-calibrate-the-primary-boom-angle-sensor.md",
-    "steps": 16,
-    "quickAccess": true
-  },
-  {
-    "id": "genie-z80-service.txt-calibrate-the-primary-boom-angle-sensor",
-    "title": "Calibrate the Primary Boom Angle Sensor",
-    "equipment": "Genie Z-80 / Z-80/60",
-    "file": "genie-z80-service.txt-calibrate-the-primary-boom-angle-sensor.md",
-    "steps": 15,
     "quickAccess": true
   },
   {
@@ -2560,14 +1992,6 @@
     "quickAccess": true
   },
   {
-    "id": "genie-z80-service.txt-calibrate-the-primary",
-    "title": "Calibrate the Primary",
-    "equipment": "Genie Z-80 / Z-80/60",
-    "file": "genie-z80-service.txt-calibrate-the-primary.md",
-    "steps": 6,
-    "quickAccess": false
-  },
-  {
     "id": "genie-z80-service.txt-adjust-the-boom-extend-retract-cables",
     "title": "Adjust the Boom Extend/Retract Cables",
     "equipment": "Genie Z-80 / Z-80/60",
@@ -2576,75 +2000,11 @@
     "quickAccess": false
   },
   {
-    "id": "genie-z80-service.txt-adjust-the-boom-extend-retract-cables",
-    "title": "Adjust the Boom Extend/Retract Cables",
-    "equipment": "Genie Z-80 / Z-80/60",
-    "file": "genie-z80-service.txt-adjust-the-boom-extend-retract-cables.md",
-    "steps": 4,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-z80-service.txt-adjust-the-boom-extend-retract-cables",
-    "title": "Adjust the Boom Extend/Retract Cables",
-    "equipment": "Genie Z-80 / Z-80/60",
-    "file": "genie-z80-service.txt-adjust-the-boom-extend-retract-cables.md",
-    "steps": 4,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-z80-service.txt-adjust-the-boom-extend-retract-cables",
-    "title": "Adjust the Boom Extend/Retract Cables",
-    "equipment": "Genie Z-80 / Z-80/60",
-    "file": "genie-z80-service.txt-adjust-the-boom-extend-retract-cables.md",
-    "steps": 17,
-    "quickAccess": false
-  },
-  {
     "id": "genie-z80-service.txt-calibrate-the-platform-overload-system",
     "title": "Calibrate the Platform Overload System",
     "equipment": "Genie Z-80 / Z-80/60",
     "file": "genie-z80-service.txt-calibrate-the-platform-overload-system.md",
     "steps": 2,
-    "quickAccess": true
-  },
-  {
-    "id": "genie-z80-service.txt-calibrate-the-platform-overload-system",
-    "title": "Calibrate the Platform Overload System",
-    "equipment": "Genie Z-80 / Z-80/60",
-    "file": "genie-z80-service.txt-calibrate-the-platform-overload-system.md",
-    "steps": 6,
-    "quickAccess": true
-  },
-  {
-    "id": "genie-z80-service.txt-calibrate-the-platform-overload-system",
-    "title": "Calibrate the Platform Overload System",
-    "equipment": "Genie Z-80 / Z-80/60",
-    "file": "genie-z80-service.txt-calibrate-the-platform-overload-system.md",
-    "steps": 2,
-    "quickAccess": true
-  },
-  {
-    "id": "genie-z80-service.txt-calibrate-the-platform-overload-system",
-    "title": "Calibrate the Platform Overload System",
-    "equipment": "Genie Z-80 / Z-80/60",
-    "file": "genie-z80-service.txt-calibrate-the-platform-overload-system.md",
-    "steps": 2,
-    "quickAccess": true
-  },
-  {
-    "id": "genie-z80-service.txt-calibrate-the-platform-overload-system",
-    "title": "Calibrate the Platform Overload System",
-    "equipment": "Genie Z-80 / Z-80/60",
-    "file": "genie-z80-service.txt-calibrate-the-platform-overload-system.md",
-    "steps": 5,
-    "quickAccess": true
-  },
-  {
-    "id": "genie-z80-service.txt-calibrate-the-platform-overload-system",
-    "title": "Calibrate the Platform Overload System",
-    "equipment": "Genie Z-80 / Z-80/60",
-    "file": "genie-z80-service.txt-calibrate-the-platform-overload-system.md",
-    "steps": 12,
     "quickAccess": true
   },
   {
@@ -2669,14 +2029,6 @@
     "equipment": "Genie Z-80 / Z-80/60",
     "file": "genie-z80-service.txt-shim-the-extendable-axles.md",
     "steps": 2,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-z80-service.txt-adjust-the-turntable-rotation-gear-backlash",
-    "title": "Adjust the Turntable Rotation Gear Backlash",
-    "equipment": "Genie Z-80 / Z-80/60",
-    "file": "genie-z80-service.txt-adjust-the-turntable-rotation-gear-backlash.md",
-    "steps": 21,
     "quickAccess": false
   },
   {
@@ -2800,43 +2152,11 @@
     "quickAccess": false
   },
   {
-    "id": "genie-gr15-service.txt-remove-the-platform",
-    "title": "Remove the Platform",
-    "equipment": "Genie GR-15 / GR-20",
-    "file": "genie-gr15-service.txt-remove-the-platform.md",
-    "steps": 7,
-    "quickAccess": false
-  },
-  {
     "id": "genie-gr15-service.txt-disassemble-the-mast",
     "title": "Disassemble the Mast",
     "equipment": "Genie GR-15 / GR-20",
     "file": "genie-gr15-service.txt-disassemble-the-mast.md",
     "steps": 2,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-gr15-service.txt-remove-the-mast-assembly",
-    "title": "Remove the Mast Assembly",
-    "equipment": "Genie GR-15 / GR-20",
-    "file": "genie-gr15-service.txt-remove-the-mast-assembly.md",
-    "steps": 6,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-gr15-service.txt-assemble-the-mast",
-    "title": "Assemble the Mast",
-    "equipment": "Genie GR-15 / GR-20",
-    "file": "genie-gr15-service.txt-assemble-the-mast.md",
-    "steps": 6,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-gr15-service.txt-adjust-the-glide-pads",
-    "title": "Adjust the Glide Pads",
-    "equipment": "Genie GR-15 / GR-20",
-    "file": "genie-gr15-service.txt-adjust-the-glide-pads.md",
-    "steps": 5,
     "quickAccess": false
   },
   {
@@ -2861,14 +2181,6 @@
     "equipment": "Genie GR-15 / GR-20",
     "file": "genie-gr15-service.txt-remove-the-lift-cylinder.md",
     "steps": 2,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-gr15-service.txt-remove-the-mast-assembly",
-    "title": "Remove the Mast Assembly",
-    "equipment": "Genie GR-15 / GR-20",
-    "file": "genie-gr15-service.txt-remove-the-mast-assembly.md",
-    "steps": 4,
     "quickAccess": false
   },
   {
@@ -2936,14 +2248,6 @@
     "quickAccess": false
   },
   {
-    "id": "genie-gr15-service.txt-test-a-coil",
-    "title": "Test a Coil",
-    "equipment": "Genie GR-15 / GR-20",
-    "file": "genie-gr15-service.txt-test-a-coil.md",
-    "steps": 2,
-    "quickAccess": false
-  },
-  {
     "id": "genie-gr15-service.txt-remove-the-hydraulic-tank",
     "title": "Remove the Hydraulic Tank",
     "equipment": "Genie GR-15 / GR-20",
@@ -2981,14 +2285,6 @@
     "equipment": "Genie GR-15 / GR-20",
     "file": "genie-gr15-service.txt-remove-the-steer-bellcrank.md",
     "steps": 2,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-gr15-service.txt-remove-the-steer-cylinder",
-    "title": "Remove the Steer Cylinder",
-    "equipment": "Genie GR-15 / GR-20",
-    "file": "genie-gr15-service.txt-remove-the-steer-cylinder.md",
-    "steps": 4,
     "quickAccess": false
   },
   {
@@ -3112,54 +2408,6 @@
     "quickAccess": false
   },
   {
-    "id": "genie-1932-service.txt-install-a-valve-cartridge",
-    "title": "Install a Valve Cartridge",
-    "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "genie-1932-service.txt-install-a-valve-cartridge.md",
-    "steps": 10,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-1932-service.txt-install-a-valve-cartridge",
-    "title": "Install a Valve Cartridge",
-    "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "genie-1932-service.txt-install-a-valve-cartridge.md",
-    "steps": 3,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-1932-service.txt-install-a-valve-cartridge",
-    "title": "Install a Valve Cartridge",
-    "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "genie-1932-service.txt-install-a-valve-cartridge.md",
-    "steps": 3,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-1932-service.txt-install-a-valve-cartridge",
-    "title": "Install a Valve Cartridge",
-    "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "genie-1932-service.txt-install-a-valve-cartridge.md",
-    "steps": 3,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-1932-service.txt-install-a-valve-cartridge",
-    "title": "Install a Valve Cartridge",
-    "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "genie-1932-service.txt-install-a-valve-cartridge.md",
-    "steps": 3,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-1932-service.txt-install-a-valve-cartridge",
-    "title": "Install a Valve Cartridge",
-    "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "genie-1932-service.txt-install-a-valve-cartridge.md",
-    "steps": 3,
-    "quickAccess": false
-  },
-  {
     "id": "genie-1932-service.txt-adjust-the-system-relief-valve",
     "title": "Adjust the System Relief Valve",
     "equipment": "Genie 1932 / 2032 / 2046",
@@ -3200,14 +2448,6 @@
     "quickAccess": false
   },
   {
-    "id": "genie-1932-service.txt-test-a-coil",
-    "title": "Test a Coil",
-    "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "genie-1932-service.txt-test-a-coil.md",
-    "steps": 5,
-    "quickAccess": false
-  },
-  {
     "id": "genie-1932-service.txt-remove-the-yoke-and-drive-motor-assembly",
     "title": "Remove the Yoke and Drive Motor Assembly",
     "equipment": "Genie 1932 / 2032 / 2046",
@@ -3237,14 +2477,6 @@
     "equipment": "Genie 1932 / 2032 / 2046",
     "file": "genie-1932-service.txt-remove-the-steer-bellcrank.md",
     "steps": 2,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-1932-service.txt-remove-the-steer-cylinder",
-    "title": "Remove the Steer Cylinder",
-    "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "genie-1932-service.txt-remove-the-steer-cylinder.md",
-    "steps": 3,
     "quickAccess": false
   },
   {
@@ -3280,43 +2512,11 @@
     "quickAccess": false
   },
   {
-    "id": "genie-1932-service.txt-remove-the-platform",
-    "title": "Remove the Platform",
-    "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "genie-1932-service.txt-remove-the-platform.md",
-    "steps": 6,
-    "quickAccess": false
-  },
-  {
     "id": "genie-1932-service.txt-disassemble-the-scissor-assembly-gs-1930-and-gs-1932",
     "title": "Disassemble the Scissor Assembly, GS-1930 and GS-1932",
     "equipment": "Genie 1932 / 2032 / 2046",
     "file": "genie-1932-service.txt-disassemble-the-scissor-assembly-gs-1930-and-gs-1932.md",
     "steps": 23,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-1932-service.txt-remove-the-platform",
-    "title": "Remove the Platform",
-    "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "genie-1932-service.txt-remove-the-platform.md",
-    "steps": 6,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-1932-service.txt-replace-the-scissor-arm-wear-pads",
-    "title": "Replace the Scissor Arm Wear Pads",
-    "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "genie-1932-service.txt-replace-the-scissor-arm-wear-pads.md",
-    "steps": 23,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-1932-service.txt-remove-the-platform",
-    "title": "Remove the Platform",
-    "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "genie-1932-service.txt-remove-the-platform.md",
-    "steps": 6,
     "quickAccess": false
   },
   {
@@ -3328,59 +2528,11 @@
     "quickAccess": false
   },
   {
-    "id": "genie-1932-service.txt-remove-the-platform",
-    "title": "Remove the Platform",
-    "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "genie-1932-service.txt-remove-the-platform.md",
-    "steps": 3,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-1932-service.txt-replace-the-scissor-arm-wear-pads",
-    "title": "Replace the Scissor Arm Wear Pads",
-    "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "genie-1932-service.txt-replace-the-scissor-arm-wear-pads.md",
-    "steps": 23,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-1932-service.txt-remove-the-platform",
-    "title": "Remove the Platform",
-    "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "genie-1932-service.txt-remove-the-platform.md",
-    "steps": 6,
-    "quickAccess": false
-  },
-  {
     "id": "genie-1932-service.txt-disassemble-the-scissor-assembly-gs-2632-and-gs-2646",
     "title": "Disassemble the Scissor Assembly, GS-2632 and GS-2646",
     "equipment": "Genie 1932 / 2032 / 2046",
     "file": "genie-1932-service.txt-disassemble-the-scissor-assembly-gs-2632-and-gs-2646.md",
     "steps": 23,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-1932-service.txt-remove-the-platform",
-    "title": "Remove the Platform",
-    "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "genie-1932-service.txt-remove-the-platform.md",
-    "steps": 3,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-1932-service.txt-replace-the-scissor-arm-wear-pads",
-    "title": "Replace the Scissor Arm Wear Pads",
-    "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "genie-1932-service.txt-replace-the-scissor-arm-wear-pads.md",
-    "steps": 23,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-1932-service.txt-remove-the-platform",
-    "title": "Remove the Platform",
-    "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "genie-1932-service.txt-remove-the-platform.md",
-    "steps": 6,
     "quickAccess": false
   },
   {
@@ -3392,30 +2544,6 @@
     "quickAccess": false
   },
   {
-    "id": "genie-1932-service.txt-remove-the-platform",
-    "title": "Remove the Platform",
-    "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "genie-1932-service.txt-remove-the-platform.md",
-    "steps": 3,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-1932-service.txt-replace-the-scissor-arm-wear-pads",
-    "title": "Replace the Scissor Arm Wear Pads",
-    "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "genie-1932-service.txt-replace-the-scissor-arm-wear-pads.md",
-    "steps": 23,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-1932-service.txt-remove-the-platform",
-    "title": "Remove the Platform",
-    "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "genie-1932-service.txt-remove-the-platform.md",
-    "steps": 6,
-    "quickAccess": false
-  },
-  {
     "id": "genie-1932-service.txt-disassemble-the-scissor-assembly-gs-4047",
     "title": "Disassemble the Scissor Assembly, GS-4047",
     "equipment": "Genie 1932 / 2032 / 2046",
@@ -3424,75 +2552,11 @@
     "quickAccess": false
   },
   {
-    "id": "genie-1932-service.txt-remove-the-platform",
-    "title": "Remove the Platform",
-    "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "genie-1932-service.txt-remove-the-platform.md",
-    "steps": 7,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-1932-service.txt-replace-the-scissor-arm-wear-pads",
-    "title": "Replace the Scissor Arm Wear Pads",
-    "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "genie-1932-service.txt-replace-the-scissor-arm-wear-pads.md",
-    "steps": 23,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-1932-service.txt-remove-the-platform",
-    "title": "Remove the Platform",
-    "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "genie-1932-service.txt-remove-the-platform.md",
-    "steps": 25,
-    "quickAccess": false
-  },
-  {
     "id": "genie-1932-service.txt-remove-the-lift-cylinder",
     "title": "Remove the Lift Cylinder",
     "equipment": "Genie 1932 / 2032 / 2046",
     "file": "genie-1932-service.txt-remove-the-lift-cylinder.md",
     "steps": 9,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-1932-service.txt-adjust-the-manual-platform-lowering-cable",
-    "title": "Adjust the Manual Platform Lowering Cable",
-    "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "genie-1932-service.txt-adjust-the-manual-platform-lowering-cable.md",
-    "steps": 24,
-    "quickAccess": true
-  },
-  {
-    "id": "genie-1932-service.txt-adjust-the-manual-platform-lowering-cable",
-    "title": "Adjust the Manual Platform Lowering Cable",
-    "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "genie-1932-service.txt-adjust-the-manual-platform-lowering-cable.md",
-    "steps": 23,
-    "quickAccess": true
-  },
-  {
-    "id": "genie-1932-service.txt-adjust-the-manual-platform-lowering-cable",
-    "title": "Adjust the Manual Platform Lowering Cable",
-    "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "genie-1932-service.txt-adjust-the-manual-platform-lowering-cable.md",
-    "steps": 21,
-    "quickAccess": true
-  },
-  {
-    "id": "genie-1932-service.txt-adjust-the-manual-platform-lowering-cable",
-    "title": "Adjust the Manual Platform Lowering Cable",
-    "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "genie-1932-service.txt-adjust-the-manual-platform-lowering-cable.md",
-    "steps": 25,
-    "quickAccess": true
-  },
-  {
-    "id": "genie-1932-service.txt-remove-the-platform",
-    "title": "Remove the Platform",
-    "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "genie-1932-service.txt-remove-the-platform.md",
-    "steps": 10,
     "quickAccess": false
   },
   {
@@ -3512,131 +2576,11 @@
     "quickAccess": false
   },
   {
-    "id": "genie-1932-service.txt-remove-the-platform-extension",
-    "title": "Remove the Platform Extension",
-    "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "genie-1932-service.txt-remove-the-platform-extension.md",
-    "steps": 3,
-    "quickAccess": false
-  },
-  {
-    "id": "jlg-g5-18a-service.txt-disclaimer",
-    "title": "DISCLAIMER",
-    "equipment": "JLG G5-18A",
-    "file": "jlg-g5-18a-service.txt-disclaimer.md",
-    "steps": 2,
-    "quickAccess": false
-  },
-  {
-    "id": "jlg-g5-18a-service.txt-do-not-operate-tags",
-    "title": "DO NOT OPERATE TAGS",
-    "equipment": "JLG G5-18A",
-    "file": "jlg-g5-18a-service.txt-do-not-operate-tags.md",
-    "steps": 2,
-    "quickAccess": false
-  },
-  {
-    "id": "jlg-g5-18a-service.txt-safety-decals",
-    "title": "SAFETY DECALS",
-    "equipment": "JLG G5-18A",
-    "file": "jlg-g5-18a-service.txt-safety-decals.md",
-    "steps": 3,
-    "quickAccess": false
-  },
-  {
-    "id": "jlg-g5-18a-service.txt-replacement-parts-and-warranty-information",
-    "title": "REPLACEMENT PARTS AND WARRANTY INFORMATION",
-    "equipment": "JLG G5-18A",
-    "file": "jlg-g5-18a-service.txt-replacement-parts-and-warranty-information.md",
-    "steps": 3,
-    "quickAccess": false
-  },
-  {
     "id": "jlg-g5-18a-service.txt-outrigger",
     "title": "Outrigger",
     "equipment": "JLG G5-18A",
     "file": "jlg-g5-18a-service.txt-outrigger.md",
     "steps": 3,
-    "quickAccess": false
-  },
-  {
-    "id": "jlg-g5-18a-service.txt-capacities-engine-crankcase-oil",
-    "title": "Capacities Engine Crankcase Oil",
-    "equipment": "JLG G5-18A",
-    "file": "jlg-g5-18a-service.txt-capacities-engine-crankcase-oil.md",
-    "steps": 2,
-    "quickAccess": false
-  },
-  {
-    "id": "jlg-g5-18a-service.txt-every-50-hours",
-    "title": "Every 50 Hours",
-    "equipment": "JLG G5-18A",
-    "file": "jlg-g5-18a-service.txt-every-50-hours.md",
-    "steps": 2,
-    "quickAccess": false
-  },
-  {
-    "id": "jlg-g5-18a-service.txt-every-500-hours",
-    "title": "Every 500 Hours",
-    "equipment": "JLG G5-18A",
-    "file": "jlg-g5-18a-service.txt-every-500-hours.md",
-    "steps": 2,
-    "quickAccess": false
-  },
-  {
-    "id": "jlg-g5-18a-service.txt-every-1500-hours",
-    "title": "Every 1500 Hours",
-    "equipment": "JLG G5-18A",
-    "file": "jlg-g5-18a-service.txt-every-1500-hours.md",
-    "steps": 2,
-    "quickAccess": false
-  },
-  {
-    "id": "jlg-g5-18a-service.txt-thread-locking-compound",
-    "title": "THREAD LOCKING COMPOUND",
-    "equipment": "JLG G5-18A",
-    "file": "jlg-g5-18a-service.txt-thread-locking-compound.md",
-    "steps": 3,
-    "quickAccess": false
-  },
-  {
-    "id": "jlg-g5-18a-service.txt-assembly-instructions-for-o-ring-face-seal-orfs-fittings",
-    "title": "Assembly Instructions for O-Ring Face Seal (ORFS) Fittings",
-    "equipment": "JLG G5-18A",
-    "file": "jlg-g5-18a-service.txt-assembly-instructions-for-o-ring-face-seal-orfs-fittings.md",
-    "steps": 7,
-    "quickAccess": false
-  },
-  {
-    "id": "jlg-g5-18a-service.txt-assembly-instructions-for-bulkhead-bh-fittings",
-    "title": "Assembly Instructions for Bulkhead (BH) Fittings",
-    "equipment": "JLG G5-18A",
-    "file": "jlg-g5-18a-service.txt-assembly-instructions-for-bulkhead-bh-fittings.md",
-    "steps": 18,
-    "quickAccess": false
-  },
-  {
-    "id": "jlg-g5-18a-service.txt-assembly-instructions-for-o-ring-boss-orb-fittings",
-    "title": "Assembly Instructions for O-Ring Boss (ORB) Fittings",
-    "equipment": "JLG G5-18A",
-    "file": "jlg-g5-18a-service.txt-assembly-instructions-for-o-ring-boss-orb-fittings.md",
-    "steps": 4,
-    "quickAccess": false
-  },
-  {
-    "id": "jlg-g5-18a-service.txt-assembly-instructions-for-adjustable-port-end-metric-fittings",
-    "title": "Assembly Instructions for Adjustable Port End Metric Fittings",
-    "equipment": "JLG G5-18A",
-    "file": "jlg-g5-18a-service.txt-assembly-instructions-for-adjustable-port-end-metric-fittings.md",
-    "steps": 4,
-    "quickAccess": false
-  },
-  {
-    "id": "jlg-g5-18a-service.txt-assembly-instructions-for-adjustable-port-end-bspp-fittings",
-    "title": "Assembly Instructions for Adjustable Port End (BSPP) Fittings",
-    "equipment": "JLG G5-18A",
-    "file": "jlg-g5-18a-service.txt-assembly-instructions-for-adjustable-port-end-bspp-fittings.md",
-    "steps": 4,
     "quickAccess": false
   },
   {
@@ -3648,27 +2592,11 @@
     "quickAccess": false
   },
   {
-    "id": "jlg-g5-18a-service.txt-ffwr-and-tfft-methods",
-    "title": "FFWR and TFFT Methods",
-    "equipment": "JLG G5-18A",
-    "file": "jlg-g5-18a-service.txt-ffwr-and-tfft-methods.md",
-    "steps": 3,
-    "quickAccess": false
-  },
-  {
     "id": "jlg-g5-18a-service.txt-o-ring-installation-replacement",
     "title": "O-ring Installation (Replacement)",
     "equipment": "JLG G5-18A",
     "file": "jlg-g5-18a-service.txt-o-ring-installation-replacement.md",
     "steps": 6,
-    "quickAccess": false
-  },
-  {
-    "id": "jlg-g5-18a-service.txt-boom-system-description",
-    "title": "Boom System Description",
-    "equipment": "JLG G5-18A",
-    "file": "jlg-g5-18a-service.txt-boom-system-description.md",
-    "steps": 2,
     "quickAccess": false
   },
   {
@@ -3784,46 +2712,6 @@
     "quickAccess": false
   },
   {
-    "id": "jlg-g5-18a-service.txt-prop-removal",
-    "title": "Prop Removal",
-    "equipment": "JLG G5-18A",
-    "file": "jlg-g5-18a-service.txt-prop-removal.md",
-    "steps": 2,
-    "quickAccess": false
-  },
-  {
-    "id": "jlg-g5-18a-service.txt-equipment-and-supplies-required",
-    "title": "Equipment and Supplies Required",
-    "equipment": "JLG G5-18A",
-    "file": "jlg-g5-18a-service.txt-equipment-and-supplies-required.md",
-    "steps": 6,
-    "quickAccess": false
-  },
-  {
-    "id": "jlg-g5-18a-service.txt-troubleshooting",
-    "title": "TROUBLESHOOTING",
-    "equipment": "JLG G5-18A",
-    "file": "jlg-g5-18a-service.txt-troubleshooting.md",
-    "steps": 8,
-    "quickAccess": false
-  },
-  {
-    "id": "jlg-g5-18a-service.txt-operator-cab-component-terminology",
-    "title": "OPERATOR CAB COMPONENT TERMINOLOGY",
-    "equipment": "JLG G5-18A",
-    "file": "jlg-g5-18a-service.txt-operator-cab-component-terminology.md",
-    "steps": 2,
-    "quickAccess": false
-  },
-  {
-    "id": "jlg-g5-18a-service.txt-operator-cab-safety",
-    "title": "Operator Cab Safety",
-    "equipment": "JLG G5-18A",
-    "file": "jlg-g5-18a-service.txt-operator-cab-safety.md",
-    "steps": 2,
-    "quickAccess": false
-  },
-  {
     "id": "jlg-g5-18a-service.txt-serial-number-decal",
     "title": "Serial Number Decal",
     "equipment": "JLG G5-18A",
@@ -3869,22 +2757,6 @@
     "equipment": "JLG G5-18A",
     "file": "jlg-g5-18a-service.txt-cab-installation.md",
     "steps": 8,
-    "quickAccess": false
-  },
-  {
-    "id": "jlg-g5-18a-service.txt-general-information",
-    "title": "GENERAL INFORMATION",
-    "equipment": "JLG G5-18A",
-    "file": "jlg-g5-18a-service.txt-general-information.md",
-    "steps": 2,
-    "quickAccess": false
-  },
-  {
-    "id": "jlg-g5-18a-service.txt-axle-serial-number",
-    "title": "AXLE SERIAL NUMBER",
-    "equipment": "JLG G5-18A",
-    "file": "jlg-g5-18a-service.txt-axle-serial-number.md",
-    "steps": 2,
     "quickAccess": false
   },
   {
@@ -3960,14 +2832,6 @@
     "quickAccess": true
   },
   {
-    "id": "jlg-g5-18a-service.txt-transmission-serial-number",
-    "title": "TRANSMISSION SERIAL NUMBER",
-    "equipment": "JLG G5-18A",
-    "file": "jlg-g5-18a-service.txt-transmission-serial-number.md",
-    "steps": 2,
-    "quickAccess": false
-  },
-  {
     "id": "jlg-g5-18a-service.txt-transmission-removal",
     "title": "Transmission Removal",
     "equipment": "JLG G5-18A",
@@ -4008,35 +2872,11 @@
     "quickAccess": false
   },
   {
-    "id": "jlg-g5-18a-service.txt-engine-serial-number",
-    "title": "ENGINE SERIAL NUMBER",
-    "equipment": "JLG G5-18A",
-    "file": "jlg-g5-18a-service.txt-engine-serial-number.md",
-    "steps": 2,
-    "quickAccess": false
-  },
-  {
-    "id": "jlg-g5-18a-service.txt-specifications-and-maintenance-information",
-    "title": "SPECIFICATIONS AND MAINTENANCE INFORMATION",
-    "equipment": "JLG G5-18A",
-    "file": "jlg-g5-18a-service.txt-specifications-and-maintenance-information.md",
-    "steps": 2,
-    "quickAccess": false
-  },
-  {
     "id": "jlg-g5-18a-service.txt-radiator-oil-cooler-replacement",
     "title": "Radiator/Oil Cooler Replacement",
     "equipment": "JLG G5-18A",
     "file": "jlg-g5-18a-service.txt-radiator-oil-cooler-replacement.md",
     "steps": 10,
-    "quickAccess": false
-  },
-  {
-    "id": "jlg-g5-18a-service.txt-engine-electrical-system",
-    "title": "ENGINE ELECTRICAL SYSTEM",
-    "equipment": "JLG G5-18A",
-    "file": "jlg-g5-18a-service.txt-engine-electrical-system.md",
-    "steps": 2,
     "quickAccess": false
   },
   {
@@ -4104,38 +2944,6 @@
     "quickAccess": false
   },
   {
-    "id": "jlg-g5-18a-service.txt-troubleshooting",
-    "title": "TROUBLESHOOTING",
-    "equipment": "JLG G5-18A",
-    "file": "jlg-g5-18a-service.txt-troubleshooting.md",
-    "steps": 2,
-    "quickAccess": false
-  },
-  {
-    "id": "jlg-g5-18a-service.txt-specifications",
-    "title": "SPECIFICATIONS",
-    "equipment": "JLG G5-18A",
-    "file": "jlg-g5-18a-service.txt-specifications.md",
-    "steps": 2,
-    "quickAccess": false
-  },
-  {
-    "id": "jlg-g5-18a-service.txt-replacement-considerations",
-    "title": "Replacement Considerations",
-    "equipment": "JLG G5-18A",
-    "file": "jlg-g5-18a-service.txt-replacement-considerations.md",
-    "steps": 4,
-    "quickAccess": false
-  },
-  {
-    "id": "jlg-g5-18a-service.txt-hose-tube-line-and-fitting-replacement",
-    "title": "Hose, Tube, Line and Fitting Replacement",
-    "equipment": "JLG G5-18A",
-    "file": "jlg-g5-18a-service.txt-hose-tube-line-and-fitting-replacement.md",
-    "steps": 2,
-    "quickAccess": false
-  },
-  {
     "id": "jlg-g5-18a-service.txt-pressure-checks-and-adjustments",
     "title": "Pressure Checks and Adjustments",
     "equipment": "JLG G5-18A",
@@ -4149,14 +2957,6 @@
     "equipment": "JLG G5-18A",
     "file": "jlg-g5-18a-service.txt-hydraulic-circuits.md",
     "steps": 4,
-    "quickAccess": false
-  },
-  {
-    "id": "jlg-g5-18a-service.txt-main-control-valve-pressure-checking",
-    "title": "Main Control Valve Pressure Checking",
-    "equipment": "JLG G5-18A",
-    "file": "jlg-g5-18a-service.txt-main-control-valve-pressure-checking.md",
-    "steps": 2,
     "quickAccess": false
   },
   {
@@ -4176,27 +2976,11 @@
     "quickAccess": false
   },
   {
-    "id": "jlg-g5-18a-service.txt-steering-pressure-checking",
-    "title": "Steering Pressure Checking",
-    "equipment": "JLG G5-18A",
-    "file": "jlg-g5-18a-service.txt-steering-pressure-checking.md",
-    "steps": 3,
-    "quickAccess": false
-  },
-  {
     "id": "jlg-g5-18a-service.txt-fan-speed-pressure-and-direction-checking",
     "title": "Fan Speed Pressure and Direction Checking",
     "equipment": "JLG G5-18A",
     "file": "jlg-g5-18a-service.txt-fan-speed-pressure-and-direction-checking.md",
     "steps": 6,
-    "quickAccess": false
-  },
-  {
-    "id": "jlg-g5-18a-service.txt-hydraulic-reservoir",
-    "title": "HYDRAULIC RESERVOIR",
-    "equipment": "JLG G5-18A",
-    "file": "jlg-g5-18a-service.txt-hydraulic-reservoir.md",
-    "steps": 2,
     "quickAccess": false
   },
   {
@@ -4261,14 +3045,6 @@
     "equipment": "JLG G5-18A",
     "file": "jlg-g5-18a-service.txt-front-drive-motor-installation.md",
     "steps": 8,
-    "quickAccess": false
-  },
-  {
-    "id": "jlg-g5-18a-service.txt-main-control-valve",
-    "title": "Main Control Valve",
-    "equipment": "JLG G5-18A",
-    "file": "jlg-g5-18a-service.txt-main-control-valve.md",
-    "steps": 7,
     "quickAccess": false
   },
   {
@@ -4352,14 +3128,6 @@
     "quickAccess": false
   },
   {
-    "id": "jlg-g5-18a-service.txt-cylinder-cleaning-instructions",
-    "title": "Cylinder Cleaning Instructions",
-    "equipment": "JLG G5-18A",
-    "file": "jlg-g5-18a-service.txt-cylinder-cleaning-instructions.md",
-    "steps": 2,
-    "quickAccess": false
-  },
-  {
     "id": "jlg-g5-18a-service.txt-cylinder-inspection",
     "title": "Cylinder Inspection",
     "equipment": "JLG G5-18A",
@@ -4388,46 +3156,6 @@
     "title": "Steering Cylinders",
     "equipment": "JLG G5-18A",
     "file": "jlg-g5-18a-service.txt-steering-cylinders.md",
-    "steps": 2,
-    "quickAccess": false
-  },
-  {
-    "id": "jlg-g5-18a-service.txt-specifications",
-    "title": "SPECIFICATIONS",
-    "equipment": "JLG G5-18A",
-    "file": "jlg-g5-18a-service.txt-specifications.md",
-    "steps": 2,
-    "quickAccess": false
-  },
-  {
-    "id": "jlg-g5-18a-service.txt-engine-compartment-relays-and-fuses",
-    "title": "Engine Compartment Relays and Fuses",
-    "equipment": "JLG G5-18A",
-    "file": "jlg-g5-18a-service.txt-engine-compartment-relays-and-fuses.md",
-    "steps": 2,
-    "quickAccess": false
-  },
-  {
-    "id": "jlg-g5-18a-service.txt-power-distribution-module-fuse-relay",
-    "title": "Power Distribution Module Fuse/Relay",
-    "equipment": "JLG G5-18A",
-    "file": "jlg-g5-18a-service.txt-power-distribution-module-fuse-relay.md",
-    "steps": 3,
-    "quickAccess": false
-  },
-  {
-    "id": "jlg-g5-18a-service.txt-cab-fuses-relays-fuse-relay",
-    "title": "Cab Fuses / Relays Fuse/Relay",
-    "equipment": "JLG G5-18A",
-    "file": "jlg-g5-18a-service.txt-cab-fuses-relays-fuse-relay.md",
-    "steps": 2,
-    "quickAccess": false
-  },
-  {
-    "id": "jlg-g5-18a-service.txt-dielectric-grease-application",
-    "title": "DIELECTRIC GREASE APPLICATION",
-    "equipment": "JLG G5-18A",
-    "file": "jlg-g5-18a-service.txt-dielectric-grease-application.md",
     "steps": 2,
     "quickAccess": false
   },
@@ -4600,43 +3328,11 @@
     "quickAccess": true
   },
   {
-    "id": "jlg-g5-18a-service.txt-telematics-gateway",
-    "title": "TELEMATICS GATEWAY",
-    "equipment": "JLG G5-18A",
-    "file": "jlg-g5-18a-service.txt-telematics-gateway.md",
-    "steps": 2,
-    "quickAccess": false
-  },
-  {
-    "id": "jlg-g5-18a-service.txt-telematics-gateway-tcu-plug",
-    "title": "Telematics Gateway (TCU) Plug",
-    "equipment": "JLG G5-18A",
-    "file": "jlg-g5-18a-service.txt-telematics-gateway-tcu-plug.md",
-    "steps": 7,
-    "quickAccess": false
-  },
-  {
-    "id": "jlg-g5-18a-service.txt-gauge-fault-code-display",
-    "title": "Gauge Fault Code Display",
-    "equipment": "JLG G5-18A",
-    "file": "jlg-g5-18a-service.txt-gauge-fault-code-display.md",
-    "steps": 2,
-    "quickAccess": true
-  },
-  {
     "id": "jlg-g5-18a-service.txt-fault-codes",
     "title": "Fault Codes",
     "equipment": "JLG G5-18A",
     "file": "jlg-g5-18a-service.txt-fault-codes.md",
     "steps": 3,
-    "quickAccess": true
-  },
-  {
-    "id": "jlg-g5-18a-service.txt-engine-diagnostic-trouble-code",
-    "title": "ENGINE DIAGNOSTIC TROUBLE CODE",
-    "equipment": "JLG G5-18A",
-    "file": "jlg-g5-18a-service.txt-engine-diagnostic-trouble-code.md",
-    "steps": 2,
     "quickAccess": true
   }
 ]

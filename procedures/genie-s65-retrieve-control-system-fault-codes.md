@@ -5,9 +5,6 @@
 1. Open the platform control box lid.  Electrocution/burn hazard. Contact with electrically charged circuits could result in death or serious injury. Remove all rings, watches and other jewelry.
 2. Locate the red and yellow fault LEDs on the ALC-500 circuit board inside the platform control box. Do not touch the circuit board.  Component damage hazard. Electrostatic discharge (ESD) can damage printed circuit board components. Maintain firm contact with a metal part of the machine that is grounded at all times when handling printed circuit boards OR use a grounded wrist strap.
 5. Use the fault code table on the following pages to aid in troubleshooting the machine by pinpointing the area or component affected.
-
-
-September
 11. Value at 5V   Function is inoperative.Alarm sounds indicating a fault.  Cycle power off, then on after problem has been corrected.
 12. Value too high
 15. Value too low
@@ -19,11 +16,6 @@ September
 23. Primary Up / Down Flow Valve
 24. Angle sensor
 26. Angle sensor cross check
-31. Invalid setup   Initiate 1 -second beep of Alarm Buzzer and required retract into safe envelope  Calibrate angle sensor.
-32. Secondary Up / Down. Directional Valves
-33. Secondary Up / Down Flow Valve
-34. Ext. Ret. Limit Switch
-41. Turntable Rotate Joystick
 
 > **Note:** When the red LED is flashing the code, the yellow LED will be on solid.
 

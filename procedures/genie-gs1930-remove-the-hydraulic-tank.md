@@ -10,8 +10,4 @@
 6. Remove the hydraulic tank cap and drain the tank into a suitable container.
 7. Remove the hydraulic tank retaining fasteners and remove the hydraulic tank from the pump/manifold assembly.  Torque specifications GS - 1330m  Hydraulic retaining fasteners, dry   26 in-lbs 2.9 Nm  Hydraulic retaining fasteners, lubricated   18 in-lbs 2 Nm
 
-
-January
-47. Part No. 1272217GT  4-1 Function Pump  The hydraulic pump is attached to the motor which makes up the hydraulic power unit.
-
 > **Note:** When removing a hose assembly or fitting, the O-ring (if equipped) on the fitting and/or hose end must be replaced.

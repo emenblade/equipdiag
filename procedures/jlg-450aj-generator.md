@@ -8,7 +8,7 @@
 >
 1. Brush   Holder   Assembly
 2. Remove oil dipstick and wipe with clean cloth.
-3. Insert dipstick to the stop and remove again.
+3. Brushes   must   ride completely on   slip rings  Acceptable   Unacceptable  Brush Position On Slip Rings
 4. Open oil drain valve and drain oil.
 5. Replace dipstick until fully seated.  Change Engine Oil
 6. Screw in new filter by hand until gasket is flush. Hand- tighten filter another half-turn.

@@ -8,15 +8,9 @@
 4. Remove the black oval decal from the inspection holes and discard.
 5. Check the torque of the drive hub mounting bolts. Refer to Specifications,   Machine Torque Specifications .
 6. Repeat this procedure for each drive hub.
-
-
-May
 7. Remove the remaining sprocket retaining fasteners from the hub adapter.
 8. Carefully remove the track assembly from the drive hub and set aside.  Crushing hazard. The track assembly could become unbalanced and fall when removed from the machine if not properly supported by the overhead crane.
 9. Locate the hub disconnect pin in the center of the drive hub. Manually depress the pin and rotate the drive hub until the plugs are one on top and the other at 90 degrees.  1   drive hub plugs
-
-
-Maintenance Manual   May 2019  Annual Maintenance Procedures
 11. If necessary, remove the top plug and add oil until the oil level is even with the bottom of the side plug hole.
 12. Install the plug(s) into the drive hub.
 13. Check the torque of the drive hub mounting bolts. Refer to Specifications,   Machine Torque Specifications .

@@ -6,9 +6,6 @@
 2. Press and hold the ground control scroll up and scroll down buttons. Ground Control Menu Buttons a   scroll down button b   enter button c   scroll up button d   escape button e   LCD display
 3. At the ground controls, press and hold the Enter and Escape buttons. a   LCD display b   enter button c   escape button
 4. Use the ground control menu buttons to select machine Model, Options and Speed Setup parameters. Follow the menu structure indicated on the ground control LCD display.
-
-
-Service Manual   September 2013  Ground Controls
 5. Locate the diagnostic port on the side of the GCON. Remove one of the fasteners securing the cover and set aside. Loosen the other fastener. Do not remove it. a   diagnostic port
 7. Read and record the IP address.
 12. Select the   Run Application   button to exit the software update mode.
@@ -16,7 +13,6 @@ Service Manual   September 2013  Ground Controls
 14. Secure the diagnostic port cover using the retaining fasteners removed in step 5. Do not over tighten.
 15. Perform a function test. Refer to the Operator's Manual on your machine.
 16. Return the machine to service.  Machine Application Mode
-47. Part No. 228901
 
 > **Note:** Select a test area that is firm, level and free of obstructions.
 

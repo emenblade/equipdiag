@@ -11,7 +11,4 @@
 7. Clean up any hydraulic oil that may have spilled.
 8. Rotate the platform fully in both directions and inspect the bleed screws for leaks.
 
-
-Service and Repair Manual   September 2016  Platform Components
-
 > **Note:** This procedure will require two people.

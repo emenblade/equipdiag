@@ -14,9 +14,6 @@
 10. Remove the fastener securing the platform height sensor assembly to the number 1 inner arm.
 11. Remove the platform height sensor assembly from the number 1 pivot pin.
 12. Remove the plastic nut securing the squeeze connector to the large platform height sensor bracket.
-
-
-Service and Repair Manual   January 2019  Scissor Components
 13. Remove the squeeze connector from the large platform height sensor bracket.
 14. Remove the fasteners securing the large platform height sensor bracket to the number 1 inner arm pivot bracket.
 15. Remove the large platform height sensor bracket from the number 1 inner arm pivot bracket.
@@ -27,12 +24,8 @@ Service and Repair Manual   January 2019  Scissor Components
 20. Pull out the red Emergency Stop button to the on position at the ground controls.
 22. Raise the platform and rotate the safety arm to the stowed position.
 23. Fully lower the platform to the stowed position.  Cable bridge and platform height sensor  1   cable bridge 6  2   cable bridge 5B  3   cable bridge 5A  4   cable bridge 4B  5   cable bridge 4A  6   cable bridge 1A  7   platform height sensor  8   cable bridge 1B  9   cable bridge 2A  10   cable bridge 2B  11   cable bridge 2C  12   cable bridge 2D
-
-
-January
 24. Remove the platform. Refer to Repair Procedure,   How to Remove the Platform.
 25. Remove the cables from cable bridges a, b, c, d and e.
-47. Part No. 1272217GT
 
 > **Note:** When removing a hose assembly or fitting, the O-ring (if equipped) on the fitting and/or hose end must be replaced.
 

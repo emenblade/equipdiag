@@ -6,14 +6,10 @@
 2. Press and hold the ground control scroll up and scroll down buttons.  Ground Control Menu Buttons  1   scroll down button  2   enter button  3   scroll up button  4   escape button
 3. At the ground controls, press and hold the Enter and Escape buttons.  a   LCD display  b   enter button  c   escape button
 4. Use the ground control menu buttons to select machine Model, Options and Speed Setup parameters. Follow the menu structure indicated on the ground control LCD display.
-
-
-January
 5. LCD display
 7. Read and record the IP address.
 12. Select the   Run Application   button to exit the software update mode.
 13. Push in the red Emergency Stop button and disconnect the CAT5 cable from the GCON.
-47. Part No. 1272217GT
 
 > **Note:** Select a test area that is firm, level and free of obstructions.
 

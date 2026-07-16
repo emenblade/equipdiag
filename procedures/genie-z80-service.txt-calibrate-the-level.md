@@ -4,9 +4,6 @@
 
 1. Turn the key switch to ground control and pull out the red Emergency Stop button to the on position at both ground and platform controls.
 2. Start the engine from the ground controls.
-
-
-May
 3. Press the   plus   and   minus   buttons at the same time on the LCD screen to enter the MACHINE STATUS screen. Press the   enter  or   previous   button until SECONDARY BOOM ANGLE is displayed.
 4. Raise the secondary boom until it is fully elevated and it just starts to extend. Do not continue to extend the boom.
 5. Zero a digital level to the Y axis of the  turntable. Refer to Maintenance Procedure,  Test the Turntable Level Sensor .

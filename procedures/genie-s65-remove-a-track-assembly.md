@@ -11,7 +11,4 @@
 7. Remove the remaining sprocket retaining fasteners from the hub adapter.
 8. Carefully remove the track assembly from the drive hub and set aside.  Crushing hazard. The track assembly could become unbalanced and fall when removed from the machine if not properly supported by the overhead crane.
 
-
-September
-
 > **Note:** Perform this procedure on firm, level surface with the boom in the stowed position.

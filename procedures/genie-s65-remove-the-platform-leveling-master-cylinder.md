@@ -11,7 +11,4 @@
 7. Place a rod through the barrel-end pivot pin and twist to remove the pin.
 8. Remove the master cylinder from the machine.
 
-
-Service and Repair Manual   September 2016  Boom Components
-
 > **Note:** When removing a hose assembly or fitting, the O-ring (if equipped) on the fitting and/or hose end must be replaced.

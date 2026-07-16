@@ -20,9 +20,6 @@
 17. Remove the fasteners from the lift cylinder barrel-end pivot pin. Use a soft metal drift to remove the pin. Crushing hazard. The lift cylinder will fall if not properly supported when the pivot pin is removed.
 18. Support and secure the lift cylinder to an appropriate lifting device.
 19. Remove the lift cylinder through the scissor arms at the steer end of the machine. Crushing hazard. The lift cylinder will become unbalanced and fall if not properly supported and secured to the lifting device. Component damage hazard. Be careful not to damage the valve or fittings on the cylinder while removing it from the machine.
-
-
-September
 20. Install new cylinder, fittings, hoses and pressure transducer (if equipped). Upper Lift Cylinder a   relief valve (schematic item Q) b   lift cylinder c   connector fitting d   hydraulic hose e   check valve (schematic item DK)  Torque specification  Solenoid valve,   2 position 2 way N.C. (schematic item N) 20 ft-lbs 27 Nm Relief valve (schematic item Q) 20 ft-lbs 27 Nm Coil Nut   5 ft-lbs 7 Nm Pressure transducer (if equipped) (schematic item R) 27 ft-lbs 37 Nm Check valve (schematic item DK) 20 ft-lbs 27 Nm
 21. Remove the lifting device supporting the link stack at the steer end of the machine.
 22. Connect the battery pack to the machine.

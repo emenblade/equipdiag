@@ -11,8 +11,4 @@
 7. Carefully remove the retaining ring from the Emergency Stop button.
 8. Carefully remove the Emergency Stop button from the platform control box.
 
-
-September
-47. Part No. 228901 2-1 Softw are Revisi on Lev el  2-1 Software Revision Level
-
 > **Note:** Steer and drive functions are not available at the ground controls.

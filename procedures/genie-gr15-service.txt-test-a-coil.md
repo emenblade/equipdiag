@@ -2,9 +2,11 @@
 
 **Equipment:** Genie GR-15 / GR-20
 
-1. Tag and disconnect the wiring from the coil to be tested.
-5. Momentarily connect the positive lead from the multimeter to the positive terminal on the 9V battery. Note and record the current reading.
+2. Connect a 10 Ω   resistor to the negative terminal of a known good 9V DC battery. Connect the other end of the resistor to a terminal on the coil. Note: The battery should read 9V DC or more when measured across the terminals.  Resistor, 10 Ω Ω Ω Ω Ω  Genie part number   27287
+3. Set a multimeter to read DC amperage. Note: The multimeter, when set to read DC amperage, should be capable of reading up to 800 mA.
 
-> **Note:** If the machine has been in operation, allow the coil to cool at least 3 hours before performing this test.
+> **Note:** The battery should read 9V DC or more when measured across the terminals.
 
-> **Note:** Dotted lines in illustration indicate a reversed connection as specified in step 6 5   Momentarily connect the positive lead from the multimeter to the positive terminal on the 9V battery.
+> **Note:** The multimeter, when set to read DC amperage, should be capable of reading up to 800 mA.
+
+> **Note:** If testing a single-terminal coil, connect the negative lead to the internal metallic ring at either end of the coil.
