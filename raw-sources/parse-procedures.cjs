@@ -9,25 +9,30 @@ const procedures = [];
 // ===== Extract steps from a text section =====
 function extractSteps(section) {
   const steps = [];
-  const stepRe = /(\d+)\.?\s{3,}([A-Z][A-Za-z0-9\s\/,;'".()\-]+?)(?=(?:\s+\d+)\.?\s{3,}[A-Z]|$)/g;
+  const stepRe = /(\d+)\.?\s{2,}([A-Z][A-Za-z0-9\s\/,;'".()\-]+?)(?=(?:\s+\d+)\.?\s{2,}[A-Z]|$)/g;
   let sm;
   const seen = new Set();
   while ((sm = stepRe.exec(section)) !== null) {
     const num = parseInt(sm[1]);
-    const text = sm[2].trim();
-    if (text.length >= 10 && num <= 80 && !seen.has(num)) {
+    let text = sm[2].trim();
+    const nlIdx = text.indexOf('\n');
+    if (nlIdx > 0) text = text.substring(0, nlIdx).trim();
+    if (text.length >= 10 && num <= 30 && !seen.has(num) &&
+        !/^(January|February|March|April|May|June|July|August|September|October|November|December|Part No|Table of|Serial|INDEX|FIGURE|SECTION)/.test(text) &&
+        !/\bPart No\b/.test(text)) {
       seen.add(num);
       steps.push({ num, text });
     }
   }
   // If that didn't work, try with fewer spaces
   if (steps.length < 2) {
-    const altRe = /(\d+)\.?\s{2,}([A-Z][A-Za-z].+?)(?=\s{2,}\d+\.?\s{2,}[A-Z]|$)/g;
+    const altRe = /(\d+)\.?\s{2,}([A-Z][A-Za-z].+?)(?=\s{1,}\d+\.?\s{2,}[A-Z]|$)/g;
     const seen2 = new Set();
     while ((sm = altRe.exec(section)) !== null) {
       const num = parseInt(sm[1]);
       const text = sm[2].trim();
-      if (text.length >= 15 && num <= 80 && !seen2.has(num) && !text.match(/^[A-Z][a-z]+\s{2,}/)) {
+      if (text.length >= 15 && num <= 30 && !seen2.has(num) && !text.match(/^[A-Z][a-z]+\s{2,}/) &&
+          !/^(January|February|March|April|May|June|July|August|September|October|November|December|Part No|Table of|Serial|INDEX|FIGURE|SECTION)/.test(text)) {
         seen2.add(num);
         steps.push({ num, text });
       }
@@ -52,6 +57,8 @@ function extractGenie(text, model) {
     const before = fullText.substring(Math.max(0, m.index - 80), m.index);
     if (before.includes('Refer to') || before.includes('Refer to Repair')) continue;
     if (title.length < 8) continue;
+    const afterToc = fullText.substring(m.index + m[0].length, m.index + m[0].length + 40);
+    if (/\.{3,}/.test(afterToc)) continue;
     howMatches.push({ index: m.index, title });
   }
 

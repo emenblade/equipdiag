@@ -1,21 +1,5 @@
 [
   {
-    "id": "genie-s65-restore-system-default-settings-system-s-60-hc",
-    "title": "Restore System Default Settings System, S-60 HC",
-    "equipment": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX",
-    "file": "genie-s65-restore-system-default-settings-system-s-60-hc.md",
-    "steps": 2,
-    "quickAccess": true
-  },
-  {
-    "id": "genie-s65-repair-the-cable-track",
-    "title": "Repair the Cable Track",
-    "equipment": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX",
-    "file": "genie-s65-repair-the-cable-track.md",
-    "steps": 4,
-    "quickAccess": false
-  },
-  {
     "id": "genie-s65-calibrate-a-joystick",
     "title": "Calibrate a Joystick",
     "equipment": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX",
@@ -220,7 +204,7 @@
     "title": "Install the Pump and Bell Housing Assembly",
     "equipment": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX",
     "file": "genie-s65-install-the-pump-and-bell-housing-assembly.md",
-    "steps": 6,
+    "steps": 4,
     "quickAccess": false
   },
   {
@@ -244,7 +228,7 @@
     "title": "Prime the Pump",
     "equipment": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX",
     "file": "genie-s65-prime-the-pump.md",
-    "steps": 28,
+    "steps": 27,
     "quickAccess": true
   },
   {
@@ -348,7 +332,7 @@
     "title": "Retrieve Control System Fault Codes",
     "equipment": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX",
     "file": "genie-s65-retrieve-control-system-fault-codes.md",
-    "steps": 19,
+    "steps": 14,
     "quickAccess": true
   },
   {
@@ -384,19 +368,11 @@
     "quickAccess": true
   },
   {
-    "id": "genie-gs1930-remove-the-hydraulic-pump",
-    "title": "Remove the Hydraulic Pump",
-    "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
-    "file": "genie-gs1930-remove-the-hydraulic-pump.md",
-    "steps": 2,
-    "quickAccess": false
-  },
-  {
     "id": "genie-gs1930-remove-the-platform-controls-circuit-board",
     "title": "Remove the Platform Controls Circuit Board",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
     "file": "genie-gs1930-remove-the-platform-controls-circuit-board.md",
-    "steps": 11,
+    "steps": 10,
     "quickAccess": false
   },
   {
@@ -428,7 +404,7 @@
     "title": "Determine the Revision Level",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
     "file": "genie-gs1930-determine-the-revision-level.md",
-    "steps": 2,
+    "steps": 4,
     "quickAccess": true
   },
   {
@@ -436,7 +412,7 @@
     "title": "Setup the Machine from Ground Controls",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
     "file": "genie-gs1930-setup-the-machine-from-ground-controls.md",
-    "steps": 9,
+    "steps": 8,
     "quickAccess": true
   },
   {
@@ -452,7 +428,7 @@
     "title": "Install and Calibrate the Level Sensor - Procedure 2",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
     "file": "genie-gs1930-install-and-calibrate-the-level-sensor-procedure-2.md",
-    "steps": 25,
+    "steps": 22,
     "quickAccess": true
   },
   {
@@ -460,7 +436,7 @@
     "title": "Install and Calibrate the Level Sensor - Procedure 3",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
     "file": "genie-gs1930-install-and-calibrate-the-level-sensor-procedure-3.md",
-    "steps": 23,
+    "steps": 22,
     "quickAccess": true
   },
   {
@@ -468,7 +444,7 @@
     "title": "Adjust the Manual Platform Lowering Cable",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
     "file": "genie-gs1930-adjust-the-manual-platform-lowering-cable.md",
-    "steps": 9,
+    "steps": 8,
     "quickAccess": true
   },
   {
@@ -476,7 +452,7 @@
     "title": "Calibrate the Outrigger System",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
     "file": "genie-gs1930-calibrate-the-outrigger-system.md",
-    "steps": 15,
+    "steps": 14,
     "quickAccess": true
   },
   {
@@ -484,7 +460,7 @@
     "title": "Remove the Hydraulic Tank",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
     "file": "genie-gs1930-remove-the-hydraulic-tank.md",
-    "steps": 8,
+    "steps": 7,
     "quickAccess": false
   },
   {
@@ -500,7 +476,7 @@
     "title": "Remove the Hydraulic Pump",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
     "file": "genie-gs1930-remove-the-hydraulic-pump.md",
-    "steps": 9,
+    "steps": 8,
     "quickAccess": false
   },
   {
@@ -580,7 +556,7 @@
     "title": "Adjust the Platform Lift Relief Valve",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
     "file": "genie-gs1930-adjust-the-platform-lift-relief-valve.md",
-    "steps": 20,
+    "steps": 19,
     "quickAccess": true
   },
   {
@@ -588,7 +564,7 @@
     "title": "Adjust the Steer Relief Valve",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
     "file": "genie-gs1930-adjust-the-steer-relief-valve.md",
-    "steps": 11,
+    "steps": 10,
     "quickAccess": true
   },
   {
@@ -604,7 +580,7 @@
     "title": "Test a Coil Diode",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
     "file": "genie-gs1930-test-a-coil-diode.md",
-    "steps": 3,
+    "steps": 2,
     "quickAccess": false
   },
   {
@@ -620,7 +596,7 @@
     "title": "Remove a Drive Motor",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
     "file": "genie-gs1930-remove-a-drive-motor.md",
-    "steps": 5,
+    "steps": 4,
     "quickAccess": false
   },
   {
@@ -636,7 +612,7 @@
     "title": "Remove the Steer Bellcrank",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
     "file": "genie-gs1930-remove-the-steer-bellcrank.md",
-    "steps": 5,
+    "steps": 4,
     "quickAccess": false
   },
   {
@@ -644,7 +620,7 @@
     "title": "Remove the Drive Brake",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
     "file": "genie-gs1930-remove-the-drive-brake.md",
-    "steps": 11,
+    "steps": 10,
     "quickAccess": false
   },
   {
@@ -652,7 +628,7 @@
     "title": "Disassemble the Scissor Assembly",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
     "file": "genie-gs1930-disassemble-the-scissor-assembly.md",
-    "steps": 25,
+    "steps": 23,
     "quickAccess": false
   },
   {
@@ -660,7 +636,23 @@
     "title": "Disassemble the Scissor Assembly",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
     "file": "genie-gs1930-disassemble-the-scissor-assembly.md",
-    "steps": 27,
+    "steps": 24,
+    "quickAccess": false
+  },
+  {
+    "id": "genie-gs1930-disassemble-the-scissor-assembly",
+    "title": "Disassemble the Scissor Assembly",
+    "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
+    "file": "genie-gs1930-disassemble-the-scissor-assembly.md",
+    "steps": 24,
+    "quickAccess": false
+  },
+  {
+    "id": "genie-gs1930-disassemble-the-scissor-assembly-gs-2032-and-gs-2046",
+    "title": "Disassemble the Scissor Assembly, GS-2032 and GS-2046",
+    "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
+    "file": "genie-gs1930-disassemble-the-scissor-assembly-gs-2032-and-gs-2046.md",
+    "steps": 26,
     "quickAccess": false
   },
   {
@@ -672,11 +664,11 @@
     "quickAccess": false
   },
   {
-    "id": "genie-gs1930-disassemble-the-scissor-assembly-gs-2032-and-gs-2046",
-    "title": "Disassemble the Scissor Assembly, GS-2032 and GS-2046",
+    "id": "genie-gs1930-disassemble-the-scissor-assembly",
+    "title": "Disassemble the Scissor Assembly",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
-    "file": "genie-gs1930-disassemble-the-scissor-assembly-gs-2032-and-gs-2046.md",
-    "steps": 28,
+    "file": "genie-gs1930-disassemble-the-scissor-assembly.md",
+    "steps": 26,
     "quickAccess": false
   },
   {
@@ -684,23 +676,7 @@
     "title": "Disassemble the Scissor Assembly",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
     "file": "genie-gs1930-disassemble-the-scissor-assembly.md",
-    "steps": 28,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-gs1930-disassemble-the-scissor-assembly",
-    "title": "Disassemble the Scissor Assembly",
-    "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
-    "file": "genie-gs1930-disassemble-the-scissor-assembly.md",
-    "steps": 28,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-gs1930-disassemble-the-scissor-assembly",
-    "title": "Disassemble the Scissor Assembly",
-    "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
-    "file": "genie-gs1930-disassemble-the-scissor-assembly.md",
-    "steps": 25,
+    "steps": 24,
     "quickAccess": false
   },
   {
@@ -708,7 +684,7 @@
     "title": "Replace the Scissor Arm Wear Pads",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
     "file": "genie-gs1930-replace-the-scissor-arm-wear-pads.md",
-    "steps": 36,
+    "steps": 29,
     "quickAccess": false
   },
   {
@@ -724,7 +700,7 @@
     "title": "Calibrate the Platform Overload System",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
     "file": "genie-gs1930-calibrate-the-platform-overload-system.md",
-    "steps": 18,
+    "steps": 17,
     "quickAccess": true
   },
   {
@@ -732,7 +708,7 @@
     "title": "Clear the Platform Overload Recovery Message",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
     "file": "genie-gs1930-clear-the-platform-overload-recovery-message.md",
-    "steps": 4,
+    "steps": 3,
     "quickAccess": false
   },
   {
@@ -740,7 +716,7 @@
     "title": "Remove the Platform",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
     "file": "genie-gs1930-remove-the-platform.md",
-    "steps": 10,
+    "steps": 9,
     "quickAccess": false
   },
   {
@@ -756,7 +732,7 @@
     "title": "Replace the Platform Extension Deck Wear Pads",
     "equipment": "Genie GS-1930 / GS-2632 / GS-3232",
     "file": "genie-gs1930-replace-the-platform-extension-deck-wear-pads.md",
-    "steps": 8,
+    "steps": 7,
     "quickAccess": false
   },
   {
@@ -788,7 +764,7 @@
     "title": "Shim an Extendable Axle",
     "equipment": "Genie S-80 / S-85",
     "file": "genie-s80-shim-an-extendable-axle.md",
-    "steps": 9,
+    "steps": 10,
     "quickAccess": false
   },
   {
@@ -845,6 +821,14 @@
     "equipment": "Genie S-80 / S-85",
     "file": "genie-s80-remove-the-platform-leveling-slave-cylinder.md",
     "steps": 7,
+    "quickAccess": false
+  },
+  {
+    "id": "genie-s80-bleed-the-slave-cylinder",
+    "title": "Bleed the Slave Cylinder",
+    "equipment": "Genie S-80 / S-85",
+    "file": "genie-s80-bleed-the-slave-cylinder.md",
+    "steps": 2,
     "quickAccess": false
   },
   {
@@ -968,6 +952,14 @@
     "quickAccess": false
   },
   {
+    "id": "genie-s80-remove-the-boom-extension-cylinders",
+    "title": "Remove the Boom Extension Cylinders",
+    "equipment": "Genie S-80 / S-85",
+    "file": "genie-s80-remove-the-boom-extension-cylinders.md",
+    "steps": 2,
+    "quickAccess": false
+  },
+  {
     "id": "genie-s80-remove-the-platform-leveling-master-cylinder",
     "title": "Remove the Platform Leveling Master Cylinder",
     "equipment": "Genie S-80 / S-85",
@@ -988,7 +980,7 @@
     "title": "Install the Flex Plate",
     "equipment": "Genie S-80 / S-85",
     "file": "genie-s80-install-the-flex-plate.md",
-    "steps": 2,
+    "steps": 4,
     "quickAccess": false
   },
   {
@@ -1046,6 +1038,14 @@
     "file": "genie-s80-adjust-the-hot-oil-shuttle-relief-valve.md",
     "steps": 5,
     "quickAccess": true
+  },
+  {
+    "id": "genie-s80-test-a-coil",
+    "title": "Test a Coil",
+    "equipment": "Genie S-80 / S-85",
+    "file": "genie-s80-test-a-coil.md",
+    "steps": 2,
+    "quickAccess": false
   },
   {
     "id": "genie-s80-test-a-coil-diode",
@@ -1140,7 +1140,7 @@
     "title": "Perform the Toe-in Adjustment",
     "equipment": "Genie S-80 / S-85",
     "file": "genie-s80-perform-the-toe-in-adjustment.md",
-    "steps": 8,
+    "steps": 9,
     "quickAccess": false
   },
   {
@@ -1212,7 +1212,7 @@
     "title": "Remove an Inner Axle",
     "equipment": "Genie S-80 / S-85",
     "file": "genie-s80-remove-an-inner-axle.md",
-    "steps": 2,
+    "steps": 3,
     "quickAccess": false
   },
   {
@@ -1228,7 +1228,7 @@
     "title": "Remove the Axle Extension Cylinder",
     "equipment": "Genie S-80 / S-85",
     "file": "genie-s80-remove-the-axle-extension-cylinder.md",
-    "steps": 3,
+    "steps": 4,
     "quickAccess": false
   },
   {
@@ -1244,7 +1244,7 @@
     "title": "Retrieve Control System Fault Codes",
     "equipment": "Genie S-80 / S-85",
     "file": "genie-s80-retrieve-control-system-fault-codes.md",
-    "steps": 13,
+    "steps": 8,
     "quickAccess": true
   },
   {
@@ -1640,6 +1640,14 @@
     "quickAccess": false
   },
   {
+    "id": "jlg800s860sj-component-data-engine-data",
+    "title": "COMPONENT DATA Engine Data",
+    "equipment": "JLG 800S / 860SJ",
+    "file": "jlg800s860sj-component-data-engine-data.md",
+    "steps": 2,
+    "quickAccess": false
+  },
+  {
     "id": "jlg800s860sj-function-speeds-machine-orientation-when-doing-speed-tests",
     "title": "FUNCTION SPEEDS Machine Orientation When Doing Speed Tests",
     "equipment": "JLG 800S / 860SJ",
@@ -1692,7 +1700,7 @@
     "title": "SECTION 2 - GENERAL",
     "equipment": "JLG 800S / 860SJ",
     "file": "jlg800s860sj-section-2-general.md",
-    "steps": 3,
+    "steps": 14,
     "quickAccess": false
   },
   {
@@ -1708,7 +1716,7 @@
     "title": "DRIVE MOTOR (S/N 83331 TO PRESENT) Description",
     "equipment": "JLG 800S / 860SJ",
     "file": "jlg800s860sj-drive-motor-s-n-83331-to-present-description.md",
-    "steps": 7,
+    "steps": 8,
     "quickAccess": false
   },
   {
@@ -1876,15 +1884,7 @@
     "title": "Foam-Filled   N/A",
     "equipment": "JLG 450AJ",
     "file": "jlg-450aj-foam-filled-n-a.md",
-    "steps": 4,
-    "quickAccess": false
-  },
-  {
-    "id": "jlg-450aj-section-1-specifications",
-    "title": "SECTION 1 - SPECIFICATIONS",
-    "equipment": "JLG 450AJ",
-    "file": "jlg-450aj-section-1-specifications.md",
-    "steps": 2,
+    "steps": 3,
     "quickAccess": false
   },
   {
@@ -1908,7 +1908,7 @@
     "title": "PINS AND COMPOSITE BEARING REPAIR GUIDELINES",
     "equipment": "JLG 450AJ",
     "file": "jlg-450aj-pins-and-composite-bearing-repair-guidelines.md",
-    "steps": 15,
+    "steps": 12,
     "quickAccess": false
   },
   {
@@ -1924,7 +1924,7 @@
     "title": "TORQUE HUB",
     "equipment": "JLG 450AJ",
     "file": "jlg-450aj-torque-hub.md",
-    "steps": 33,
+    "steps": 35,
     "quickAccess": false
   },
   {
@@ -1972,7 +1972,7 @@
     "title": "POWERTRACK MAINTENANCE",
     "equipment": "JLG 450AJ",
     "file": "jlg-450aj-powertrack-maintenance.md",
-    "steps": 5,
+    "steps": 7,
     "quickAccess": false
   },
   {
@@ -2028,7 +2028,15 @@
     "title": "DEUTSCH CONNECTORS  DT/DTP Series Assembly",
     "equipment": "JLG 450AJ",
     "file": "jlg-450aj-deutsch-connectors-dt-dtp-series-assembly.md",
-    "steps": 4,
+    "steps": 7,
+    "quickAccess": false
+  },
+  {
+    "id": "skyjack-4632-papers-and-thin-branches-move-flags-wave",
+    "title": "Papers and thin branches move, flags wave",
+    "equipment": "Skyjack 4632 / 3226 / 4626",
+    "file": "skyjack-4632-papers-and-thin-branches-move-flags-wave.md",
+    "steps": 2,
     "quickAccess": false
   },
   {
@@ -2044,7 +2052,7 @@
     "title": "Function Tests",
     "equipment": "Skyjack SJ46AJ / SJIII Series",
     "file": "skyjack-sj46aj-function-tests.md",
-    "steps": 3,
+    "steps": 4,
     "quickAccess": false
   },
   {
@@ -2052,7 +2060,7 @@
     "title": "Aerial Platform Torque Specifications",
     "equipment": "Skyjack SJ46AJ / SJIII Series",
     "file": "skyjack-sj46aj-aerial-platform-torque-specifications.md",
-    "steps": 6,
+    "steps": 2,
     "quickAccess": false
   },
   {
@@ -2064,11 +2072,19 @@
     "quickAccess": false
   },
   {
+    "id": "skyjack-sj46aj-dimension-and-reach-diagram-sj-46a-10-10",
+    "title": "Dimension and Reach Diagram - SJ 46A  -10  -10",
+    "equipment": "Skyjack SJ46AJ / SJIII Series",
+    "file": "skyjack-sj46aj-dimension-and-reach-diagram-sj-46a-10-10.md",
+    "steps": 2,
+    "quickAccess": false
+  },
+  {
     "id": "skyjack-sj46aj-axle-oscillation-diagram-warning",
     "title": "Axle Oscillation Diagram  WARNING",
     "equipment": "Skyjack SJ46AJ / SJIII Series",
     "file": "skyjack-sj46aj-axle-oscillation-diagram-warning.md",
-    "steps": 3,
+    "steps": 2,
     "quickAccess": false
   },
   {
@@ -2117,6 +2133,14 @@
     "equipment": "Skyjack SJ46AJ / SJIII Series",
     "file": "skyjack-sj46aj-load-sensing-system-ce.md",
     "steps": 6,
+    "quickAccess": false
+  },
+  {
+    "id": "skyjack-sj46aj-menu-select",
+    "title": "MENU  SELECT",
+    "equipment": "Skyjack SJ46AJ / SJIII Series",
+    "file": "skyjack-sj46aj-menu-select.md",
+    "steps": 2,
     "quickAccess": false
   },
   {
@@ -2508,7 +2532,7 @@
     "title": "Calibrate the Primary Boom Angle Sensor",
     "equipment": "Genie Z-80 / Z-80/60",
     "file": "genie-z80-service.txt-calibrate-the-primary-boom-angle-sensor.md",
-    "steps": 13,
+    "steps": 15,
     "quickAccess": true
   },
   {
@@ -2660,7 +2684,7 @@
     "title": "Adjust the Glide Pads",
     "equipment": "Genie GR-15 / GR-20",
     "file": "genie-gr15-service.txt-adjust-the-glide-pads.md",
-    "steps": 3,
+    "steps": 4,
     "quickAccess": false
   },
   {
@@ -2692,7 +2716,7 @@
     "title": "Determine the Battery Voltage",
     "equipment": "Genie GR-15 / GR-20",
     "file": "genie-gr15-service.txt-determine-the-battery-voltage.md",
-    "steps": 2,
+    "steps": 3,
     "quickAccess": false
   },
   {
@@ -2700,7 +2724,7 @@
     "title": "Adjust the Lift Speed",
     "equipment": "Genie GR-15 / GR-20",
     "file": "genie-gr15-service.txt-adjust-the-lift-speed.md",
-    "steps": 5,
+    "steps": 6,
     "quickAccess": true
   },
   {
@@ -2740,7 +2764,7 @@
     "title": "Change the Software Configuration",
     "equipment": "Genie GR-15 / GR-20",
     "file": "genie-gr15-service.txt-change-the-software-configuration.md",
-    "steps": 4,
+    "steps": 5,
     "quickAccess": true
   },
   {
@@ -2820,7 +2844,15 @@
     "title": "Adjust the Lifting Chains",
     "equipment": "Genie GR-15 / GR-20",
     "file": "genie-gr15-service.txt-adjust-the-lifting-chains.md",
-    "steps": 4,
+    "steps": 5,
+    "quickAccess": false
+  },
+  {
+    "id": "genie-gr15-service.txt-inspect-the-lifting-chains-inspection",
+    "title": "Inspect the Lifting Chains Inspection",
+    "equipment": "Genie GR-15 / GR-20",
+    "file": "genie-gr15-service.txt-inspect-the-lifting-chains-inspection.md",
+    "steps": 3,
     "quickAccess": false
   },
   {
@@ -2844,7 +2876,7 @@
     "title": "Install and Calibrate the Level Sensor",
     "equipment": "Genie GR-15 / GR-20",
     "file": "genie-gr15-service.txt-install-and-calibrate-the-level-sensor.md",
-    "steps": 6,
+    "steps": 7,
     "quickAccess": true
   },
   {
@@ -2900,6 +2932,14 @@
     "title": "Test a Coil Diode",
     "equipment": "Genie GR-15 / GR-20",
     "file": "genie-gr15-service.txt-test-a-coil-diode.md",
+    "steps": 2,
+    "quickAccess": false
+  },
+  {
+    "id": "genie-gr15-service.txt-test-a-coil",
+    "title": "Test a Coil",
+    "equipment": "Genie GR-15 / GR-20",
+    "file": "genie-gr15-service.txt-test-a-coil.md",
     "steps": 2,
     "quickAccess": false
   },
@@ -2964,7 +3004,7 @@
     "title": "Remove the Platform Controls Circuit Board",
     "equipment": "Genie 1932 / 2032 / 2046",
     "file": "genie-1932-service.txt-remove-the-platform-controls-circuit-board.md",
-    "steps": 11,
+    "steps": 10,
     "quickAccess": false
   },
   {
@@ -2980,7 +3020,7 @@
     "title": "Remove the Platform Controls Alarm",
     "equipment": "Genie 1932 / 2032 / 2046",
     "file": "genie-1932-service.txt-remove-the-platform-controls-alarm.md",
-    "steps": 7,
+    "steps": 6,
     "quickAccess": false
   },
   {
@@ -2988,7 +3028,15 @@
     "title": "Remove the Platform Controls Emergency Stop Button",
     "equipment": "Genie 1932 / 2032 / 2046",
     "file": "genie-1932-service.txt-remove-the-platform-controls-emergency-stop-button.md",
-    "steps": 9,
+    "steps": 8,
+    "quickAccess": true
+  },
+  {
+    "id": "genie-1932-service.txt-determine-the-software-revision-level",
+    "title": "Determine the Software Revision Level",
+    "equipment": "Genie 1932 / 2032 / 2046",
+    "file": "genie-1932-service.txt-determine-the-software-revision-level.md",
+    "steps": 3,
     "quickAccess": true
   },
   {
@@ -2996,7 +3044,7 @@
     "title": "Setup the Machine from Ground Controls",
     "equipment": "Genie 1932 / 2032 / 2046",
     "file": "genie-1932-service.txt-setup-the-machine-from-ground-controls.md",
-    "steps": 12,
+    "steps": 11,
     "quickAccess": true
   },
   {
@@ -3004,7 +3052,7 @@
     "title": "Install and Calibrate the 1",
     "equipment": "Genie 1932 / 2032 / 2046",
     "file": "genie-1932-service.txt-install-and-calibrate-the-1.md",
-    "steps": 25,
+    "steps": 24,
     "quickAccess": true
   },
   {
@@ -3012,7 +3060,7 @@
     "title": "Install the Outrigger Level Sensor",
     "equipment": "Genie 1932 / 2032 / 2046",
     "file": "genie-1932-service.txt-install-the-outrigger-level-sensor.md",
-    "steps": 12,
+    "steps": 11,
     "quickAccess": false
   },
   {
@@ -3036,7 +3084,7 @@
     "title": "Remove the Hydraulic Tank",
     "equipment": "Genie 1932 / 2032 / 2046",
     "file": "genie-1932-service.txt-remove-the-hydraulic-tank.md",
-    "steps": 6,
+    "steps": 5,
     "quickAccess": false
   },
   {
@@ -3124,7 +3172,7 @@
     "title": "Adjust the Platform Lift Relief Valve",
     "equipment": "Genie 1932 / 2032 / 2046",
     "file": "genie-1932-service.txt-adjust-the-platform-lift-relief-valve.md",
-    "steps": 19,
+    "steps": 18,
     "quickAccess": true
   },
   {
@@ -3152,11 +3200,19 @@
     "quickAccess": false
   },
   {
+    "id": "genie-1932-service.txt-test-a-coil",
+    "title": "Test a Coil",
+    "equipment": "Genie 1932 / 2032 / 2046",
+    "file": "genie-1932-service.txt-test-a-coil.md",
+    "steps": 5,
+    "quickAccess": false
+  },
+  {
     "id": "genie-1932-service.txt-remove-the-yoke-and-drive-motor-assembly",
     "title": "Remove the Yoke and Drive Motor Assembly",
     "equipment": "Genie 1932 / 2032 / 2046",
     "file": "genie-1932-service.txt-remove-the-yoke-and-drive-motor-assembly.md",
-    "steps": 9,
+    "steps": 8,
     "quickAccess": false
   },
   {
@@ -3188,7 +3244,7 @@
     "title": "Remove the Steer Cylinder",
     "equipment": "Genie 1932 / 2032 / 2046",
     "file": "genie-1932-service.txt-remove-the-steer-cylinder.md",
-    "steps": 4,
+    "steps": 3,
     "quickAccess": false
   },
   {
@@ -3204,7 +3260,7 @@
     "title": "Disassemble the Scissor Assembly, GS-1530 and GS-1532",
     "equipment": "Genie 1932 / 2032 / 2046",
     "file": "genie-1932-service.txt-disassemble-the-scissor-assembly-gs-1530-and-gs-1532.md",
-    "steps": 24,
+    "steps": 23,
     "quickAccess": false
   },
   {
@@ -3220,7 +3276,7 @@
     "title": "Replace the Scissor Arm Wear Pads",
     "equipment": "Genie 1932 / 2032 / 2046",
     "file": "genie-1932-service.txt-replace-the-scissor-arm-wear-pads.md",
-    "steps": 24,
+    "steps": 23,
     "quickAccess": false
   },
   {
@@ -3228,7 +3284,7 @@
     "title": "Remove the Platform",
     "equipment": "Genie 1932 / 2032 / 2046",
     "file": "genie-1932-service.txt-remove-the-platform.md",
-    "steps": 13,
+    "steps": 6,
     "quickAccess": false
   },
   {
@@ -3236,135 +3292,7 @@
     "title": "Disassemble the Scissor Assembly, GS-1930 and GS-1932",
     "equipment": "Genie 1932 / 2032 / 2046",
     "file": "genie-1932-service.txt-disassemble-the-scissor-assembly-gs-1930-and-gs-1932.md",
-    "steps": 24,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-1932-service.txt-remove-the-platform",
-    "title": "Remove the Platform",
-    "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "genie-1932-service.txt-remove-the-platform.md",
-    "steps": 8,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-1932-service.txt-replace-the-scissor-arm-wear-pads",
-    "title": "Replace the Scissor Arm Wear Pads",
-    "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "genie-1932-service.txt-replace-the-scissor-arm-wear-pads.md",
-    "steps": 24,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-1932-service.txt-remove-the-platform",
-    "title": "Remove the Platform",
-    "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "genie-1932-service.txt-remove-the-platform.md",
-    "steps": 13,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-1932-service.txt-disassemble-the-scissor-assembly-gs-2032-and-gs-2046",
-    "title": "Disassemble the Scissor Assembly, GS-2032 and GS-2046",
-    "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "genie-1932-service.txt-disassemble-the-scissor-assembly-gs-2032-and-gs-2046.md",
-    "steps": 24,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-1932-service.txt-remove-the-platform",
-    "title": "Remove the Platform",
-    "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "genie-1932-service.txt-remove-the-platform.md",
-    "steps": 9,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-1932-service.txt-replace-the-scissor-arm-wear-pads",
-    "title": "Replace the Scissor Arm Wear Pads",
-    "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "genie-1932-service.txt-replace-the-scissor-arm-wear-pads.md",
-    "steps": 24,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-1932-service.txt-remove-the-platform",
-    "title": "Remove the Platform",
-    "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "genie-1932-service.txt-remove-the-platform.md",
-    "steps": 13,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-1932-service.txt-disassemble-the-scissor-assembly-gs-2632-and-gs-2646",
-    "title": "Disassemble the Scissor Assembly, GS-2632 and GS-2646",
-    "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "genie-1932-service.txt-disassemble-the-scissor-assembly-gs-2632-and-gs-2646.md",
-    "steps": 24,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-1932-service.txt-remove-the-platform",
-    "title": "Remove the Platform",
-    "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "genie-1932-service.txt-remove-the-platform.md",
-    "steps": 8,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-1932-service.txt-replace-the-scissor-arm-wear-pads",
-    "title": "Replace the Scissor Arm Wear Pads",
-    "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "genie-1932-service.txt-replace-the-scissor-arm-wear-pads.md",
-    "steps": 24,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-1932-service.txt-remove-the-platform",
-    "title": "Remove the Platform",
-    "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "genie-1932-service.txt-remove-the-platform.md",
-    "steps": 13,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-1932-service.txt-disassemble-the-scissor-assembly-gs-3232-and-gs-3246",
-    "title": "Disassemble the Scissor Assembly, GS-3232 and GS-3246",
-    "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "genie-1932-service.txt-disassemble-the-scissor-assembly-gs-3232-and-gs-3246.md",
-    "steps": 24,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-1932-service.txt-remove-the-platform",
-    "title": "Remove the Platform",
-    "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "genie-1932-service.txt-remove-the-platform.md",
-    "steps": 10,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-1932-service.txt-replace-the-scissor-arm-wear-pads",
-    "title": "Replace the Scissor Arm Wear Pads",
-    "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "genie-1932-service.txt-replace-the-scissor-arm-wear-pads.md",
-    "steps": 24,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-1932-service.txt-remove-the-platform",
-    "title": "Remove the Platform",
-    "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "genie-1932-service.txt-remove-the-platform.md",
-    "steps": 13,
-    "quickAccess": false
-  },
-  {
-    "id": "genie-1932-service.txt-disassemble-the-scissor-assembly-gs-4047",
-    "title": "Disassemble the Scissor Assembly, GS-4047",
-    "equipment": "Genie 1932 / 2032 / 2046",
-    "file": "genie-1932-service.txt-disassemble-the-scissor-assembly-gs-4047.md",
-    "steps": 24,
+    "steps": 23,
     "quickAccess": false
   },
   {
@@ -3380,7 +3308,7 @@
     "title": "Replace the Scissor Arm Wear Pads",
     "equipment": "Genie 1932 / 2032 / 2046",
     "file": "genie-1932-service.txt-replace-the-scissor-arm-wear-pads.md",
-    "steps": 24,
+    "steps": 23,
     "quickAccess": false
   },
   {
@@ -3388,7 +3316,135 @@
     "title": "Remove the Platform",
     "equipment": "Genie 1932 / 2032 / 2046",
     "file": "genie-1932-service.txt-remove-the-platform.md",
-    "steps": 32,
+    "steps": 6,
+    "quickAccess": false
+  },
+  {
+    "id": "genie-1932-service.txt-disassemble-the-scissor-assembly-gs-2032-and-gs-2046",
+    "title": "Disassemble the Scissor Assembly, GS-2032 and GS-2046",
+    "equipment": "Genie 1932 / 2032 / 2046",
+    "file": "genie-1932-service.txt-disassemble-the-scissor-assembly-gs-2032-and-gs-2046.md",
+    "steps": 23,
+    "quickAccess": false
+  },
+  {
+    "id": "genie-1932-service.txt-remove-the-platform",
+    "title": "Remove the Platform",
+    "equipment": "Genie 1932 / 2032 / 2046",
+    "file": "genie-1932-service.txt-remove-the-platform.md",
+    "steps": 3,
+    "quickAccess": false
+  },
+  {
+    "id": "genie-1932-service.txt-replace-the-scissor-arm-wear-pads",
+    "title": "Replace the Scissor Arm Wear Pads",
+    "equipment": "Genie 1932 / 2032 / 2046",
+    "file": "genie-1932-service.txt-replace-the-scissor-arm-wear-pads.md",
+    "steps": 23,
+    "quickAccess": false
+  },
+  {
+    "id": "genie-1932-service.txt-remove-the-platform",
+    "title": "Remove the Platform",
+    "equipment": "Genie 1932 / 2032 / 2046",
+    "file": "genie-1932-service.txt-remove-the-platform.md",
+    "steps": 6,
+    "quickAccess": false
+  },
+  {
+    "id": "genie-1932-service.txt-disassemble-the-scissor-assembly-gs-2632-and-gs-2646",
+    "title": "Disassemble the Scissor Assembly, GS-2632 and GS-2646",
+    "equipment": "Genie 1932 / 2032 / 2046",
+    "file": "genie-1932-service.txt-disassemble-the-scissor-assembly-gs-2632-and-gs-2646.md",
+    "steps": 23,
+    "quickAccess": false
+  },
+  {
+    "id": "genie-1932-service.txt-remove-the-platform",
+    "title": "Remove the Platform",
+    "equipment": "Genie 1932 / 2032 / 2046",
+    "file": "genie-1932-service.txt-remove-the-platform.md",
+    "steps": 3,
+    "quickAccess": false
+  },
+  {
+    "id": "genie-1932-service.txt-replace-the-scissor-arm-wear-pads",
+    "title": "Replace the Scissor Arm Wear Pads",
+    "equipment": "Genie 1932 / 2032 / 2046",
+    "file": "genie-1932-service.txt-replace-the-scissor-arm-wear-pads.md",
+    "steps": 23,
+    "quickAccess": false
+  },
+  {
+    "id": "genie-1932-service.txt-remove-the-platform",
+    "title": "Remove the Platform",
+    "equipment": "Genie 1932 / 2032 / 2046",
+    "file": "genie-1932-service.txt-remove-the-platform.md",
+    "steps": 6,
+    "quickAccess": false
+  },
+  {
+    "id": "genie-1932-service.txt-disassemble-the-scissor-assembly-gs-3232-and-gs-3246",
+    "title": "Disassemble the Scissor Assembly, GS-3232 and GS-3246",
+    "equipment": "Genie 1932 / 2032 / 2046",
+    "file": "genie-1932-service.txt-disassemble-the-scissor-assembly-gs-3232-and-gs-3246.md",
+    "steps": 23,
+    "quickAccess": false
+  },
+  {
+    "id": "genie-1932-service.txt-remove-the-platform",
+    "title": "Remove the Platform",
+    "equipment": "Genie 1932 / 2032 / 2046",
+    "file": "genie-1932-service.txt-remove-the-platform.md",
+    "steps": 3,
+    "quickAccess": false
+  },
+  {
+    "id": "genie-1932-service.txt-replace-the-scissor-arm-wear-pads",
+    "title": "Replace the Scissor Arm Wear Pads",
+    "equipment": "Genie 1932 / 2032 / 2046",
+    "file": "genie-1932-service.txt-replace-the-scissor-arm-wear-pads.md",
+    "steps": 23,
+    "quickAccess": false
+  },
+  {
+    "id": "genie-1932-service.txt-remove-the-platform",
+    "title": "Remove the Platform",
+    "equipment": "Genie 1932 / 2032 / 2046",
+    "file": "genie-1932-service.txt-remove-the-platform.md",
+    "steps": 6,
+    "quickAccess": false
+  },
+  {
+    "id": "genie-1932-service.txt-disassemble-the-scissor-assembly-gs-4047",
+    "title": "Disassemble the Scissor Assembly, GS-4047",
+    "equipment": "Genie 1932 / 2032 / 2046",
+    "file": "genie-1932-service.txt-disassemble-the-scissor-assembly-gs-4047.md",
+    "steps": 23,
+    "quickAccess": false
+  },
+  {
+    "id": "genie-1932-service.txt-remove-the-platform",
+    "title": "Remove the Platform",
+    "equipment": "Genie 1932 / 2032 / 2046",
+    "file": "genie-1932-service.txt-remove-the-platform.md",
+    "steps": 7,
+    "quickAccess": false
+  },
+  {
+    "id": "genie-1932-service.txt-replace-the-scissor-arm-wear-pads",
+    "title": "Replace the Scissor Arm Wear Pads",
+    "equipment": "Genie 1932 / 2032 / 2046",
+    "file": "genie-1932-service.txt-replace-the-scissor-arm-wear-pads.md",
+    "steps": 23,
+    "quickAccess": false
+  },
+  {
+    "id": "genie-1932-service.txt-remove-the-platform",
+    "title": "Remove the Platform",
+    "equipment": "Genie 1932 / 2032 / 2046",
+    "file": "genie-1932-service.txt-remove-the-platform.md",
+    "steps": 25,
     "quickAccess": false
   },
   {
@@ -3396,7 +3452,7 @@
     "title": "Remove the Lift Cylinder",
     "equipment": "Genie 1932 / 2032 / 2046",
     "file": "genie-1932-service.txt-remove-the-lift-cylinder.md",
-    "steps": 10,
+    "steps": 9,
     "quickAccess": false
   },
   {
@@ -3404,7 +3460,7 @@
     "title": "Adjust the Manual Platform Lowering Cable",
     "equipment": "Genie 1932 / 2032 / 2046",
     "file": "genie-1932-service.txt-adjust-the-manual-platform-lowering-cable.md",
-    "steps": 25,
+    "steps": 24,
     "quickAccess": true
   },
   {
@@ -3420,7 +3476,7 @@
     "title": "Adjust the Manual Platform Lowering Cable",
     "equipment": "Genie 1932 / 2032 / 2046",
     "file": "genie-1932-service.txt-adjust-the-manual-platform-lowering-cable.md",
-    "steps": 22,
+    "steps": 21,
     "quickAccess": true
   },
   {
@@ -3436,7 +3492,7 @@
     "title": "Remove the Platform",
     "equipment": "Genie 1932 / 2032 / 2046",
     "file": "genie-1932-service.txt-remove-the-platform.md",
-    "steps": 11,
+    "steps": 10,
     "quickAccess": false
   },
   {
@@ -3484,7 +3540,7 @@
     "title": "SAFETY DECALS",
     "equipment": "JLG G5-18A",
     "file": "jlg-g5-18a-service.txt-safety-decals.md",
-    "steps": 2,
+    "steps": 3,
     "quickAccess": false
   },
   {
@@ -3500,7 +3556,7 @@
     "title": "Outrigger",
     "equipment": "JLG G5-18A",
     "file": "jlg-g5-18a-service.txt-outrigger.md",
-    "steps": 2,
+    "steps": 3,
     "quickAccess": false
   },
   {
@@ -3556,7 +3612,7 @@
     "title": "Assembly Instructions for Bulkhead (BH) Fittings",
     "equipment": "JLG G5-18A",
     "file": "jlg-g5-18a-service.txt-assembly-instructions-for-bulkhead-bh-fittings.md",
-    "steps": 20,
+    "steps": 18,
     "quickAccess": false
   },
   {
@@ -3588,7 +3644,7 @@
     "title": "Assembly Instructions for Flange Connections (FL61 and FL62)",
     "equipment": "JLG G5-18A",
     "file": "jlg-g5-18a-service.txt-assembly-instructions-for-flange-connections-fl61-and-fl62.md",
-    "steps": 7,
+    "steps": 6,
     "quickAccess": false
   },
   {
@@ -3608,18 +3664,18 @@
     "quickAccess": false
   },
   {
-    "id": "jlg-g5-18a-service.txt-boom-system-component-terminology",
-    "title": "BOOM SYSTEM COMPONENT TERMINOLOGY",
-    "equipment": "JLG G5-18A",
-    "file": "jlg-g5-18a-service.txt-boom-system-component-terminology.md",
-    "steps": 2,
-    "quickAccess": false
-  },
-  {
     "id": "jlg-g5-18a-service.txt-boom-system-description",
     "title": "Boom System Description",
     "equipment": "JLG G5-18A",
     "file": "jlg-g5-18a-service.txt-boom-system-description.md",
+    "steps": 2,
+    "quickAccess": false
+  },
+  {
+    "id": "jlg-g5-18a-service.txt-boom-removal-installation",
+    "title": "BOOM REMOVAL/INSTALLATION",
+    "equipment": "JLG G5-18A",
+    "file": "jlg-g5-18a-service.txt-boom-removal-installation.md",
     "steps": 2,
     "quickAccess": false
   },
@@ -3804,7 +3860,7 @@
     "title": "CAB REMOVAL",
     "equipment": "JLG G5-18A",
     "file": "jlg-g5-18a-service.txt-cab-removal.md",
-    "steps": 5,
+    "steps": 6,
     "quickAccess": false
   },
   {
@@ -3972,7 +4028,7 @@
     "title": "Radiator/Oil Cooler Replacement",
     "equipment": "JLG G5-18A",
     "file": "jlg-g5-18a-service.txt-radiator-oil-cooler-replacement.md",
-    "steps": 8,
+    "steps": 10,
     "quickAccess": false
   },
   {
@@ -4236,7 +4292,7 @@
     "title": "Pilot Select Valve",
     "equipment": "JLG G5-18A",
     "file": "jlg-g5-18a-service.txt-pilot-select-valve.md",
-    "steps": 10,
+    "steps": 11,
     "quickAccess": false
   },
   {
@@ -4252,7 +4308,7 @@
     "title": "Priority Valve",
     "equipment": "JLG G5-18A",
     "file": "jlg-g5-18a-service.txt-priority-valve.md",
-    "steps": 9,
+    "steps": 10,
     "quickAccess": false
   },
   {
@@ -4452,7 +4508,7 @@
     "title": "LSI Sensor",
     "equipment": "JLG G5-18A",
     "file": "jlg-g5-18a-service.txt-lsi-sensor.md",
-    "steps": 8,
+    "steps": 9,
     "quickAccess": false
   },
   {
@@ -4468,7 +4524,7 @@
     "title": "LSI Modules",
     "equipment": "JLG G5-18A",
     "file": "jlg-g5-18a-service.txt-lsi-modules.md",
-    "steps": 9,
+    "steps": 10,
     "quickAccess": false
   },
   {
@@ -4500,7 +4556,7 @@
     "title": "Mobile Analyzer",
     "equipment": "JLG G5-18A",
     "file": "jlg-g5-18a-service.txt-mobile-analyzer.md",
-    "steps": 3,
+    "steps": 7,
     "quickAccess": true
   },
   {
@@ -4508,7 +4564,7 @@
     "title": "Analyzer Usage",
     "equipment": "JLG G5-18A",
     "file": "jlg-g5-18a-service.txt-analyzer-usage.md",
-    "steps": 4,
+    "steps": 2,
     "quickAccess": true
   },
   {
@@ -4520,11 +4576,19 @@
     "quickAccess": true
   },
   {
+    "id": "jlg-g5-18a-service.txt-machine-set-up-menu",
+    "title": "Machine Set-up Menu",
+    "equipment": "JLG G5-18A",
+    "file": "jlg-g5-18a-service.txt-machine-set-up-menu.md",
+    "steps": 2,
+    "quickAccess": true
+  },
+  {
     "id": "jlg-g5-18a-service.txt-personalities-menu-items",
     "title": "Personalities Menu Items",
     "equipment": "JLG G5-18A",
     "file": "jlg-g5-18a-service.txt-personalities-menu-items.md",
-    "steps": 2,
+    "steps": 5,
     "quickAccess": true
   },
   {
@@ -4532,7 +4596,7 @@
     "title": "Calibrations Menu",
     "equipment": "JLG G5-18A",
     "file": "jlg-g5-18a-service.txt-calibrations-menu.md",
-    "steps": 2,
+    "steps": 3,
     "quickAccess": true
   },
   {
@@ -4564,7 +4628,7 @@
     "title": "Fault Codes",
     "equipment": "JLG G5-18A",
     "file": "jlg-g5-18a-service.txt-fault-codes.md",
-    "steps": 2,
+    "steps": 3,
     "quickAccess": true
   },
   {
@@ -4572,7 +4636,7 @@
     "title": "ENGINE DIAGNOSTIC TROUBLE CODE",
     "equipment": "JLG G5-18A",
     "file": "jlg-g5-18a-service.txt-engine-diagnostic-trouble-code.md",
-    "steps": 4,
+    "steps": 2,
     "quickAccess": true
   }
 ]
