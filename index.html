@@ -102,6 +102,17 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sa
 .proc-card .proc-title { color: #ccc; margin-top: 0.2rem; font-size: 0.9rem; }
 .proc-card .proc-meta { margin-top: 0.3rem; display: flex; gap: 0.35rem; flex-wrap: wrap; }
 .proc-tag { display: inline-block; padding: 1px 5px; border-radius: 3px; font-size: 0.65rem; background: #1a1a2e; color: #777; }
+.tag-qa { background: #1a2a1a; color: #88cc88; }
+
+/* Category groups */
+.cat-group { margin-bottom: 1.25rem; }
+.cat-header { display: flex; align-items: center; justify-content: space-between; padding: 0.5rem 0.75rem; margin-bottom: 0.5rem; border-bottom: 1px solid #1a1a1a; color: #888; font-size: 0.85rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; }
+.cat-header-accent { color: #e94560; border-bottom-color: #e94560; }
+.cat-count { font-size: 0.75rem; color: #555; background: #111; padding: 0.1rem 0.5rem; border-radius: 8px; }
+.proc-card .proc-category { font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.5px; color: #555; margin-bottom: 0.15rem; font-weight: 600; }
+.proc-card .cat-badge-accent { color: #e94560; }
+.chip-accent { border-color: #e94560 !important; color: #e94560 !important; background: #1a0a0a !important; }
+.chip-accent.active { background: #2a1010 !important; }
 
 /* Procedure detail */
 .proc-detail { background: #111; border: 1px solid #1a1a1a; border-radius: 8px; padding: 1.5rem; line-height: 1.65; }
@@ -294,8 +305,41 @@ let currentSource = null;
 let currentPage = 0;
 let currentProc = null;
 let currentQA = null;
-let procFilterEquip = '';
+let procFilterCat = '';
+let qaFilterCat = '';
 const PAGE_SIZE = 50;
+const CATEGORY_LABELS = {
+  'service-mode': 'Service Mode',
+  'fault-codes': 'Fault Codes',
+  'software-config': 'Software Config',
+  'joystick': 'Joystick',
+  'platform-overload': 'Platform Overload',
+  'level-sensor': 'Level Sensor',
+  'boom-angle-sensor': 'Boom Angle Sensor',
+  'load-sensing': 'Load Sensing',
+  'alc-500': 'ALC-500',
+  'outrigger': 'Outrigger',
+  'calibration': 'Calibration',
+  'electrical': 'Electrical',
+  'hydraulic': 'Hydraulic',
+  'cylinders': 'Cylinders',
+  'drive-system': 'Drive System',
+  'steering': 'Steering',
+  'oscillate': 'Oscillate',
+  'structural': 'Structural',
+  'platform': 'Platform',
+  'turntable': 'Turntable',
+  'towing': 'Towing',
+  'reference': 'Reference',
+  'misc': 'Misc'
+};
+const CATEGORY_ORDER = [
+  'service-mode', 'fault-codes', 'software-config', 'alc-500',
+  'joystick', 'platform-overload', 'level-sensor', 'boom-angle-sensor',
+  'load-sensing', 'outrigger', 'calibration',
+  'electrical', 'hydraulic', 'cylinders', 'drive-system', 'steering', 'oscillate',
+  'turntable', 'structural', 'platform', 'towing', 'reference', 'misc'
+];
 
 function stdClass(std) {
   return 'std-' + std.replace(/[/\s()]/g, '-');
@@ -421,14 +465,16 @@ function changePage(delta) {
 
 // ===== PROCEDURES =====
 function renderProcChips() {
-  const equip = [...new Set(proceduresData.map(p => p.equipment).filter(Boolean))].sort();
+  const cats = [...new Set(proceduresData.map(p => p.category).filter(Boolean))].sort((a,b) =>
+    CATEGORY_ORDER.indexOf(a) - CATEGORY_ORDER.indexOf(b)
+  );
   const chips = document.getElementById('procChips');
-  chips.innerHTML = `<span class="chip ${!procFilterEquip ? 'active' : ''}" onclick="setProcFilter('')">All</span>` +
-    equip.map(e => `<span class="chip ${procFilterEquip === e ? 'active' : ''}" onclick="setProcFilter('${e.replace(/'/g, "\\'")}')">${e}</span>`).join('');
+  chips.innerHTML = `<span class="chip ${!procFilterCat ? 'active' : ''}" onclick="setProcFilter('')">All</span>` +
+    cats.map(c => `<span class="chip ${procFilterCat === c ? 'active' : ''} ${c === 'service-mode' ? 'chip-accent' : ''}" onclick="setProcFilter('${c}')">${CATEGORY_LABELS[c] || c}</span>`).join('');
 }
 
-function setProcFilter(equip) {
-  procFilterEquip = equip;
+function setProcFilter(cat) {
+  procFilterCat = cat;
   renderProcChips();
   renderProcedures();
 }
@@ -436,20 +482,43 @@ function setProcFilter(equip) {
 function renderProcedures() {
   const filter = (document.getElementById('procFilter')?.value || '').toLowerCase();
   let filtered = proceduresData;
-  if (procFilterEquip) filtered = filtered.filter(p => p.equipment === procFilterEquip);
+  if (procFilterCat) filtered = filtered.filter(p => p.category === procFilterCat);
   if (filter) filtered = filtered.filter(p =>
     p.equipment?.toLowerCase().includes(filter) ||
-    p.title?.toLowerCase().includes(filter)
+    p.title?.toLowerCase().includes(filter) ||
+    (CATEGORY_LABELS[p.category] || '').toLowerCase().includes(filter)
   );
 
-  document.getElementById('procList').innerHTML = filtered.length
-    ? filtered.map(p =>
-      `<div class="proc-card" onclick="openProcedure('${p.id}')">
-        <div class="proc-machine">${p.equipment || 'General'}</div>
-        <div class="proc-title">${p.title}</div>
-        <div class="proc-meta"><span class="proc-tag">${p.steps} steps</span></div>
-      </div>`
-    ).join('')
+  // Group by category
+  const groups = {};
+  filtered.forEach(p => {
+    const cat = p.category || 'uncategorized';
+    if (!groups[cat]) groups[cat] = [];
+    groups[cat].push(p);
+  });
+
+  const catOrder = CATEGORY_ORDER.filter(c => groups[c]).concat(Object.keys(groups).filter(c => !CATEGORY_ORDER.includes(c)));
+
+  document.getElementById('procList').innerHTML = catOrder.length
+    ? catOrder.map(cat => {
+        const procs = groups[cat];
+        const label = CATEGORY_LABELS[cat] || cat;
+        const isService = cat === 'service-mode';
+        return `<div class="cat-group">
+          <div class="cat-header ${isService ? 'cat-header-accent' : ''}">
+            <span>${label}</span>
+            <span class="cat-count">${procs.length}</span>
+          </div>
+          ${procs.map(p => 
+            `<div class="proc-card" onclick="openProcedure('${p.id}')">
+              <div class="proc-category ${isService ? 'cat-badge-accent' : ''}">${CATEGORY_LABELS[p.category] || p.category}</div>
+              <div class="proc-machine">${p.equipment || 'General'}</div>
+              <div class="proc-title">${p.title}</div>
+              <div class="proc-meta"><span class="proc-tag">${p.steps} steps</span>${p.quickAccess ? '<span class="proc-tag tag-qa">quick</span>' : ''}</div>
+            </div>`
+          ).join('')}
+        </div>`;
+      }).join('')
     : '<div class="empty-state">No procedures found. <strong>Check back as more are added.</strong></div>';
 }
 
@@ -510,34 +579,58 @@ function simpleMarkdown(text) {
 }
 
 // ===== QUICK ACCESS =====
-let qaFilterEquip = '';
 function renderQAChips() {
-  const equip = [...new Set(quickAccessData.map(p => p.equipment).filter(Boolean))].sort();
+  const cats = [...new Set(quickAccessData.map(p => p.category).filter(Boolean))].sort((a,b) =>
+    CATEGORY_ORDER.indexOf(a) - CATEGORY_ORDER.indexOf(b)
+  );
   const chips = document.getElementById('qaChips');
-  chips.innerHTML = `<span class="chip ${!qaFilterEquip ? 'active' : ''}" onclick="setQAFilter('')">All</span>` +
-    equip.map(e => `<span class="chip ${qaFilterEquip === e ? 'active' : ''}" onclick="setQAFilter('${e.replace(/'/g, "\\'")}')">${e}</span>`).join('');
+  chips.innerHTML = `<span class="chip ${!qaFilterCat ? 'active' : ''}" onclick="setQAFilter('')">All</span>` +
+    cats.map(c => `<span class="chip ${qaFilterCat === c ? 'active' : ''} ${c === 'service-mode' ? 'chip-accent' : ''}" onclick="setQAFilter('${c}')">${CATEGORY_LABELS[c] || c}</span>`).join('');
 }
-function setQAFilter(equip) {
-  qaFilterEquip = equip;
+function setQAFilter(cat) {
+  qaFilterCat = cat;
   renderQAChips();
   renderQuickAccess();
 }
 function renderQuickAccess() {
   const filter = (document.getElementById('qaFilter')?.value || '').toLowerCase();
   let filtered = quickAccessData;
-  if (qaFilterEquip) filtered = filtered.filter(p => p.equipment === qaFilterEquip);
+  if (qaFilterCat) filtered = filtered.filter(p => p.category === qaFilterCat);
   if (filter) filtered = filtered.filter(p =>
     p.equipment?.toLowerCase().includes(filter) ||
-    p.title?.toLowerCase().includes(filter)
+    p.title?.toLowerCase().includes(filter) ||
+    (CATEGORY_LABELS[p.category] || '').toLowerCase().includes(filter)
   );
-  document.getElementById('qaList').innerHTML = filtered.length
-    ? filtered.map(p =>
-      `<div class="proc-card" onclick="openQA('${p.id}')">
-        <div class="proc-machine">${p.equipment || 'General'}</div>
-        <div class="proc-title">${p.title}</div>
-        <div class="proc-meta"><span class="proc-tag">${p.steps} steps</span></div>
-      </div>`
-    ).join('')
+
+  const groups = {};
+  filtered.forEach(p => {
+    const cat = p.category || 'uncategorized';
+    if (!groups[cat]) groups[cat] = [];
+    groups[cat].push(p);
+  });
+
+  const catOrder = CATEGORY_ORDER.filter(c => groups[c]).concat(Object.keys(groups).filter(c => !CATEGORY_ORDER.includes(c)));
+
+  document.getElementById('qaList').innerHTML = catOrder.length
+    ? catOrder.map(cat => {
+        const procs = groups[cat];
+        const label = CATEGORY_LABELS[cat] || cat;
+        const isService = cat === 'service-mode';
+        return `<div class="cat-group">
+          <div class="cat-header ${isService ? 'cat-header-accent' : ''}">
+            <span>${label}</span>
+            <span class="cat-count">${procs.length}</span>
+          </div>
+          ${procs.map(p => 
+            `<div class="proc-card" onclick="openQA('${p.id}')">
+              <div class="proc-category ${isService ? 'cat-badge-accent' : ''}">${CATEGORY_LABELS[p.category] || p.category}</div>
+              <div class="proc-machine">${p.equipment || 'General'}</div>
+              <div class="proc-title">${p.title}</div>
+              <div class="proc-meta"><span class="proc-tag">${p.steps} steps</span></div>
+            </div>`
+          ).join('')}
+        </div>`;
+      }).join('')
     : '<div class="empty-state">No quick-access procedures found.</div>';
 }
 function openQA(id) {
