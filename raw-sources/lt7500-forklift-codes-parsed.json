@@ -1,0 +1,335 @@
+[
+  {
+    "type": "LT7500",
+    "code": 12,
+    "name": "NONE",
+    "desc": "Signifies the end of one pass through the fault list",
+    "standard": "Daewoo",
+    "source": "Daewoo LT7500-E4 Tier II Fuel System Fault Codes",
+    "file": "lt7500-forklift-codes"
+  },
+  {
+    "type": "LT7500",
+    "code": 14,
+    "name": "ECTSensorInputLow",
+    "desc": "Normally set if the coolant sensor wire is shorted to ground",
+    "standard": "Daewoo",
+    "source": "Daewoo LT7500-E4 Tier II Fuel System Fault Codes",
+    "file": "lt7500-forklift-codes"
+  },
+  {
+    "type": "LT7500",
+    "code": 15,
+    "name": "ECTSensorInputHigh",
+    "desc": "Set if the coolant sensor wire is disconnected or open",
+    "standard": "Daewoo",
+    "source": "Daewoo LT7500-E4 Tier II Fuel System Fault Codes",
+    "file": "lt7500-forklift-codes"
+  },
+  {
+    "type": "LT7500",
+    "code": 16,
+    "name": "ECTRangeHigh",
+    "desc": "Coolant sensor has measured an excessive temperature or shorted to GND",
+    "standard": "Daewoo",
+    "source": "Daewoo LT7500-E4 Tier II Fuel System Fault Codes",
+    "file": "lt7500-forklift-codes"
+  },
+  {
+    "type": "LT7500",
+    "code": 22,
+    "name": "ThrottleSensorInputLo",
+    "desc": "TPS1 signal wire is open",
+    "standard": "Daewoo",
+    "source": "Daewoo LT7500-E4 Tier II Fuel System Fault Codes",
+    "file": "lt7500-forklift-codes"
+  },
+  {
+    "type": "LT7500",
+    "code": 23,
+    "name": "ThrottleSensorInputHi",
+    "desc": "TPS1 signal wire is shorted",
+    "standard": "Daewoo",
+    "source": "Daewoo LT7500-E4 Tier II Fuel System Fault Codes",
+    "file": "lt7500-forklift-codes"
+  },
+  {
+    "type": "LT7500",
+    "code": 24,
+    "name": "ThrottleSensorRangeLo",
+    "desc": "TPS Sensor malfunction",
+    "standard": "Daewoo",
+    "source": "Daewoo LT7500-E4 Tier II Fuel System Fault Codes",
+    "file": "lt7500-forklift-codes"
+  },
+  {
+    "type": "LT7500",
+    "code": 25,
+    "name": "ThrottleSensorRangeHi",
+    "desc": "TPS Sensor malfunction",
+    "standard": "Daewoo",
+    "source": "Daewoo LT7500-E4 Tier II Fuel System Fault Codes",
+    "file": "lt7500-forklift-codes"
+  },
+  {
+    "type": "LT7500",
+    "code": 26,
+    "name": "ETCSticking",
+    "desc": "ETC driver signal wire is open or the throttle plate is sticking inside the throttle body",
+    "standard": "Daewoo",
+    "source": "Daewoo LT7500-E4 Tier II Fuel System Fault Codes",
+    "file": "lt7500-forklift-codes"
+  },
+  {
+    "type": "LT7500",
+    "code": 27,
+    "name": "PredictedTPSDifference",
+    "desc": "TPS1 is different than calculated position",
+    "standard": "Daewoo",
+    "source": "Daewoo LT7500-E4 Tier II Fuel System Fault Codes",
+    "file": "lt7500-forklift-codes"
+  },
+  {
+    "type": "LT7500",
+    "code": 28,
+    "name": "ETCSpringTestFailed",
+    "desc": "Throttle return spring failed keyup test",
+    "standard": "Daewoo",
+    "source": "Daewoo LT7500-E4 Tier II Fuel System Fault Codes",
+    "file": "lt7500-forklift-codes"
+  },
+  {
+    "type": "LT7500",
+    "code": 29,
+    "name": "ETCDriverFault",
+    "desc": "Throttle driver over-current or driver signals shorted",
+    "standard": "Daewoo",
+    "source": "Daewoo LT7500-E4 Tier II Fuel System Fault Codes",
+    "file": "lt7500-forklift-codes"
+  },
+  {
+    "type": "LT7500",
+    "code": 33,
+    "name": "MapSensorInputLow",
+    "desc": "MAP signal disconnected or open circuit",
+    "standard": "Daewoo",
+    "source": "Daewoo LT7500-E4 Tier II Fuel System Fault Codes",
+    "file": "lt7500-forklift-codes"
+  },
+  {
+    "type": "LT7500",
+    "code": 34,
+    "name": "MapSensorInputHigh",
+    "desc": "MAP signal shorted or sensor failure",
+    "standard": "Daewoo",
+    "source": "Daewoo LT7500-E4 Tier II Fuel System Fault Codes",
+    "file": "lt7500-forklift-codes"
+  },
+  {
+    "type": "LT7500",
+    "code": 37,
+    "name": "IATSensorInputLow",
+    "desc": "TMAP sensor failure or shorted circuit",
+    "standard": "Daewoo",
+    "source": "Daewoo LT7500-E4 Tier II Fuel System Fault Codes",
+    "file": "lt7500-forklift-codes"
+  },
+  {
+    "type": "LT7500",
+    "code": 38,
+    "name": "IATSensorInputHigh",
+    "desc": "TMAP disconnected or IAT signal open",
+    "standard": "Daewoo",
+    "source": "Daewoo LT7500-E4 Tier II Fuel System Fault Codes",
+    "file": "lt7500-forklift-codes"
+  },
+  {
+    "type": "LT7500",
+    "code": 42,
+    "name": "EST1Low",
+    "desc": "Coil driver signal low or under current",
+    "standard": "Daewoo",
+    "source": "Daewoo LT7500-E4 Tier II Fuel System Fault Codes",
+    "file": "lt7500-forklift-codes"
+  },
+  {
+    "type": "LT7500",
+    "code": 43,
+    "name": "EST1High",
+    "desc": "Coil driver signal high or over current",
+    "standard": "Daewoo",
+    "source": "Daewoo LT7500-E4 Tier II Fuel System Fault Codes",
+    "file": "lt7500-forklift-codes"
+  },
+  {
+    "type": "LT7500",
+    "code": 52,
+    "name": "LowOilPressure",
+    "desc": "Low engine oil pressure",
+    "standard": "Daewoo",
+    "source": "Daewoo LT7500-E4 Tier II Fuel System Fault Codes",
+    "file": "lt7500-forklift-codes"
+  },
+  {
+    "type": "LT7500",
+    "code": 53,
+    "name": "BatterySensorInputLow",
+    "desc": "Battery voltage measured below 8.0 VDC",
+    "standard": "Daewoo",
+    "source": "Daewoo LT7500-E4 Tier II Fuel System Fault Codes",
+    "file": "lt7500-forklift-codes"
+  },
+  {
+    "type": "LT7500",
+    "code": 54,
+    "name": "BatterySensorInputHigh",
+    "desc": "Battery voltage measured above 15.9 VDC",
+    "standard": "Daewoo",
+    "source": "Daewoo LT7500-E4 Tier II Fuel System Fault Codes",
+    "file": "lt7500-forklift-codes"
+  },
+  {
+    "type": "LT7500",
+    "code": 55,
+    "name": "XDRPSensorInputLow",
+    "desc": "Measured sensor transducer power is below 4.6 VDC",
+    "standard": "Daewoo",
+    "source": "Daewoo LT7500-E4 Tier II Fuel System Fault Codes",
+    "file": "lt7500-forklift-codes"
+  },
+  {
+    "type": "LT7500",
+    "code": 56,
+    "name": "XDRPSensorInputHigh",
+    "desc": "Measured sensor transducer power is above 5.2 VDC",
+    "standard": "Daewoo",
+    "source": "Daewoo LT7500-E4 Tier II Fuel System Fault Codes",
+    "file": "lt7500-forklift-codes"
+  },
+  {
+    "type": "LT7500",
+    "code": 61,
+    "name": "Pedal1SensorInputLo",
+    "desc": "APP1 signal disconnected, open circuit or sensor malfunction",
+    "standard": "Daewoo",
+    "source": "Daewoo LT7500-E4 Tier II Fuel System Fault Codes",
+    "file": "lt7500-forklift-codes"
+  },
+  {
+    "type": "LT7500",
+    "code": 62,
+    "name": "Pedal1SensorInputHi",
+    "desc": "APP1 sensor failure or shorted circuit",
+    "standard": "Daewoo",
+    "source": "Daewoo LT7500-E4 Tier II Fuel System Fault Codes",
+    "file": "lt7500-forklift-codes"
+  },
+  {
+    "type": "LT7500",
+    "code": 63,
+    "name": "Pedal1SensorRangeLo",
+    "desc": "APP1 potentiometer malfunction",
+    "standard": "Daewoo",
+    "source": "Daewoo LT7500-E4 Tier II Fuel System Fault Codes",
+    "file": "lt7500-forklift-codes"
+  },
+  {
+    "type": "LT7500",
+    "code": 64,
+    "name": "Pedal1SensorRangeHi",
+    "desc": "APP1 potentiometer malfunction",
+    "standard": "Daewoo",
+    "source": "Daewoo LT7500-E4 Tier II Fuel System Fault Codes",
+    "file": "lt7500-forklift-codes"
+  },
+  {
+    "type": "LT7500",
+    "code": 65,
+    "name": "Pedal2SensorInputLo",
+    "desc": "APP2 sensor failure or shorted signal",
+    "standard": "Daewoo",
+    "source": "Daewoo LT7500-E4 Tier II Fuel System Fault Codes",
+    "file": "lt7500-forklift-codes"
+  },
+  {
+    "type": "LT7500",
+    "code": 66,
+    "name": "Pedal2SensorInputHi",
+    "desc": "APP2 signal disconnected, open circuit or sensor malfunction",
+    "standard": "Daewoo",
+    "source": "Daewoo LT7500-E4 Tier II Fuel System Fault Codes",
+    "file": "lt7500-forklift-codes"
+  },
+  {
+    "type": "LT7500",
+    "code": 67,
+    "name": "Pedal2SensorRangeLo",
+    "desc": "APP2 potentiometer malfunction",
+    "standard": "Daewoo",
+    "source": "Daewoo LT7500-E4 Tier II Fuel System Fault Codes",
+    "file": "lt7500-forklift-codes"
+  },
+  {
+    "type": "LT7500",
+    "code": 68,
+    "name": "Pedal2SensorRangeHi",
+    "desc": "APP2 potentiometer malfunction",
+    "standard": "Daewoo",
+    "source": "Daewoo LT7500-E4 Tier II Fuel System Fault Codes",
+    "file": "lt7500-forklift-codes"
+  },
+  {
+    "type": "LT7500",
+    "code": 69,
+    "name": "Pedal1ToPedal2Difference",
+    "desc": "Measured APP2 pedal position signal is different than APP1 signal",
+    "standard": "Daewoo",
+    "source": "Daewoo LT7500-E4 Tier II Fuel System Fault Codes",
+    "file": "lt7500-forklift-codes"
+  },
+  {
+    "type": "LT7500",
+    "code": 71,
+    "name": "AFRTrimValveOutput",
+    "desc": "FTV modulation driver signal fault",
+    "standard": "Daewoo",
+    "source": "Daewoo LT7500-E4 Tier II Fuel System Fault Codes",
+    "file": "lt7500-forklift-codes"
+  },
+  {
+    "type": "LT7500",
+    "code": 72,
+    "name": "AFRTrimValveLowerDC",
+    "desc": "FTV duty cycle at lower (LEAN) limit",
+    "standard": "Daewoo",
+    "source": "Daewoo LT7500-E4 Tier II Fuel System Fault Codes",
+    "file": "lt7500-forklift-codes"
+  },
+  {
+    "type": "LT7500",
+    "code": 73,
+    "name": "AFRTrimValveUpperDC",
+    "desc": "FTV duty cycle at upper (RICH) limit",
+    "standard": "Daewoo",
+    "source": "Daewoo LT7500-E4 Tier II Fuel System Fault Codes",
+    "file": "lt7500-forklift-codes"
+  },
+  {
+    "type": "LT7500",
+    "code": 74,
+    "name": "O2SensorSwitching",
+    "desc": "O2 sensor not switching across the reference AFR voltage",
+    "standard": "Daewoo",
+    "source": "Daewoo LT7500-E4 Tier II Fuel System Fault Codes",
+    "file": "lt7500-forklift-codes"
+  },
+  {
+    "type": "LT7500",
+    "code": 77,
+    "name": "OxygenSensorInputHigh",
+    "desc": "O2 sensor signal shorted to +5 VDC",
+    "standard": "Daewoo",
+    "source": "Daewoo LT7500-E4 Tier II Fuel System Fault Codes",
+    "file": "lt7500-forklift-codes"
+  }
+]

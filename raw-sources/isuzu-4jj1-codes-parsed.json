@@ -1,0 +1,1280 @@
+[
+  {
+    "type": "DTC",
+    "code": "P0087",
+    "flash": 227,
+    "desc": "No pump pres- sure feed (fuel leakage) Common rail pressure does not increase to the required area.",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 227,
+    "dtc": "P0087",
+    "desc": "No pump pres- sure feed (fuel leakage) Common rail pressure does not increase to the required area.",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P0088",
+    "flash": 118,
+    "desc": "Common rail pressure fault (1st stage) Common rail pressure abnormal increase",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 118,
+    "dtc": "P0088",
+    "desc": "Common rail pressure fault (1st stage) Common rail pressure abnormal increase",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P0088",
+    "flash": 118,
+    "desc": "Common rail pressure fault (2nd stage) Common rail pressure abnormal increase",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 118,
+    "dtc": "P0088",
+    "desc": "Common rail pressure fault (2nd stage) Common rail pressure abnormal increase",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P0089",
+    "flash": 151,
+    "desc": "Common rail pressure fault (Excessive pressure feed in pump) Common rail pressure abnormal increase",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 151,
+    "dtc": "P0089",
+    "desc": "Common rail pressure fault (Excessive pressure feed in pump) Common rail pressure abnormal increase",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P0090",
+    "flash": 247,
+    "desc": "SCV drive sys- tem open cir- cuit, +B short or ground short",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 247,
+    "dtc": "P0090",
+    "desc": "SCV drive sys- tem open cir- cuit, +B short or ground short",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P0107",
+    "flash": 71,
+    "desc": "Barometric pressure sen- sor fault (low voltage fault)",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 71,
+    "dtc": "P0107",
+    "desc": "Barometric pressure sen- sor fault (low voltage fault)",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P0108",
+    "flash": 71,
+    "desc": "Barometric pressure sen- sor fault (high voltage fault) Short circuit in sensor or har- ness",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 71,
+    "dtc": "P0108",
+    "desc": "Barometric pressure sen- sor fault (high voltage fault) Short circuit in sensor or har- ness",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P0112",
+    "flash": 22,
+    "desc": "Intake air tem- perature sen- sor fault (low voltage fault) Short circuit in sensor or har- ness",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 22,
+    "dtc": "P0112",
+    "desc": "Intake air tem- perature sen- sor fault (low voltage fault) Short circuit in sensor or har- ness",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P0113",
+    "flash": 22,
+    "desc": "Intake air tem- perature sen- sor fault (high voltage fault)",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 22,
+    "dtc": "P0113",
+    "desc": "Intake air tem- perature sen- sor fault (high voltage fault)",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P0117",
+    "flash": 23,
+    "desc": "Engine coolant temperature sensor fault (low voltage fault) Short circuit in sensor or har- ness",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 23,
+    "dtc": "P0117",
+    "desc": "Engine coolant temperature sensor fault (low voltage fault) Short circuit in sensor or har- ness",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P0118",
+    "flash": 23,
+    "desc": "Engine coolant temperature sensor fault (high voltage fault)",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 23,
+    "dtc": "P0118",
+    "desc": "Engine coolant temperature sensor fault (high voltage fault)",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P0182",
+    "flash": 211,
+    "desc": "Fuel tempera- ture sensor fault (low volt- age fault) Short circuit in sensor or har- ness",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 211,
+    "dtc": "P0182",
+    "desc": "Fuel tempera- ture sensor fault (low volt- age fault) Short circuit in sensor or har- ness",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P0183",
+    "flash": 211,
+    "desc": "Fuel tempera- ture sensor fault (high volt- age fault)",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 211,
+    "dtc": "P0183",
+    "desc": "Fuel tempera- ture sensor fault (high volt- age fault)",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P0192",
+    "flash": 245,
+    "desc": "Common rail pressure sen- sor fault (low voltage fault) Short circuit in sensor or har- ness",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 245,
+    "dtc": "P0192",
+    "desc": "Common rail pressure sen- sor fault (low voltage fault) Short circuit in sensor or har- ness",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P0193",
+    "flash": 245,
+    "desc": "Common rail pressure sen- sor fault (high voltage fault)",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 245,
+    "dtc": "P0193",
+    "desc": "Common rail pressure sen- sor fault (high voltage fault)",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P0201",
+    "flash": 271,
+    "desc": "Open circuit in injection noz- zle #1 drive system",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 271,
+    "dtc": "P0201",
+    "desc": "Open circuit in injection noz- zle #1 drive system",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P0202",
+    "flash": 272,
+    "desc": "Open circuit in injection noz- zle #2 drive system",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 272,
+    "dtc": "P0202",
+    "desc": "Open circuit in injection noz- zle #2 drive system",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P0203",
+    "flash": 273,
+    "desc": "Open circuit in injection noz- zle #3 drive system",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 273,
+    "dtc": "P0203",
+    "desc": "Open circuit in injection noz- zle #3 drive system",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P0204",
+    "flash": 274,
+    "desc": "Open circuit in injection noz- zle #4 drive system",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 274,
+    "dtc": "P0204",
+    "desc": "Open circuit in injection noz- zle #4 drive system",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P0219",
+    "flash": 543,
+    "desc": "Overrun Engine speed abnormally high",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 543,
+    "dtc": "P0219",
+    "desc": "Overrun Engine speed abnormally high",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P0219",
+    "flash": 543,
+    "desc": "Overrun Engine speed abnormally high",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 543,
+    "dtc": "P0219",
+    "desc": "Overrun Engine speed abnormally high",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P0219",
+    "flash": 543,
+    "desc": "Overrun Engine speed abnormally high",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 543,
+    "dtc": "P0219",
+    "desc": "Overrun Engine speed abnormally high",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P0219",
+    "flash": 543,
+    "desc": "Overrun Engine speed abnormally high",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 543,
+    "dtc": "P0219",
+    "desc": "Overrun Engine speed abnormally high",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P0237",
+    "flash": 32,
+    "desc": "Boost pres- sure sensor fault (low volt- age fault)",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 32,
+    "dtc": "P0237",
+    "desc": "Boost pres- sure sensor fault (low volt- age fault)",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P0237",
+    "flash": 32,
+    "desc": "Boost pres- sure sensor fault (low volt- age fault)",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 32,
+    "dtc": "P0237",
+    "desc": "Boost pres- sure sensor fault (low volt- age fault)",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P0237",
+    "flash": 32,
+    "desc": "Boost pres- sure sensor fault (low volt- age fault)",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 32,
+    "dtc": "P0237",
+    "desc": "Boost pres- sure sensor fault (low volt- age fault)",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P0237",
+    "flash": 32,
+    "desc": "Boost pres- sure sensor fault (low volt- age fault)",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 32,
+    "dtc": "P0237",
+    "desc": "Boost pres- sure sensor fault (low volt- age fault)",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P0238",
+    "flash": 32,
+    "desc": "Boost pres- sure sensor fault (high volt- age fault) Short circuit in sensor or har- ness",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 32,
+    "dtc": "P0238",
+    "desc": "Boost pres- sure sensor fault (high volt- age fault) Short circuit in sensor or har- ness",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P0238",
+    "flash": 32,
+    "desc": "Boost pres- sure sensor fault (high volt- age fault) Short circuit in sensor or har- ness",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 32,
+    "dtc": "P0238",
+    "desc": "Boost pres- sure sensor fault (high volt- age fault) Short circuit in sensor or har- ness",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P0238",
+    "flash": 32,
+    "desc": "Boost pres- sure sensor fault (high volt- age fault) Short circuit in sensor or har- ness",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 32,
+    "dtc": "P0238",
+    "desc": "Boost pres- sure sensor fault (high volt- age fault) Short circuit in sensor or har- ness",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P0238",
+    "flash": 32,
+    "desc": "Boost pres- sure sensor fault (high volt- age fault) Short circuit in sensor or har- ness",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 32,
+    "dtc": "P0238",
+    "desc": "Boost pres- sure sensor fault (high volt- age fault) Short circuit in sensor or har- ness",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P0335",
+    "flash": 15,
+    "desc": "Crank sensor fault (no signal) Open circuit in sensor/wiring",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 15,
+    "dtc": "P0335",
+    "desc": "Crank sensor fault (no signal) Open circuit in sensor/wiring",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P0336",
+    "flash": 15,
+    "desc": "Crank sensor fault (signal fault) Broken teeth/ unnecessary signal mixed (such as short circuit with other wiring)",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 15,
+    "dtc": "P0336",
+    "desc": "Crank sensor fault (signal fault) Broken teeth/ unnecessary signal mixed (such as short circuit with other wiring)",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P0340",
+    "flash": 14,
+    "desc": "Cam sensor fault (no signal) Open circuit in sensor/wiring",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 14,
+    "dtc": "P0340",
+    "desc": "Cam sensor fault (no signal) Open circuit in sensor/wiring",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P0341",
+    "flash": 14,
+    "desc": "Cam sensor fault (signal fault) Broken teeth/ unnecessary signal mixed (such as short circuit with other wiring)",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 14,
+    "dtc": "P0341",
+    "desc": "Cam sensor fault (signal fault) Broken teeth/ unnecessary signal mixed (such as short circuit with other wiring)",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P0380",
+    "flash": 66,
+    "desc": "Glow relay fault Lamp fault",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 66,
+    "dtc": "P0380",
+    "desc": "Glow relay fault Lamp fault",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P0380",
+    "flash": 66,
+    "desc": "Glow relay fault Lamp fault",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 66,
+    "dtc": "P0380",
+    "desc": "Glow relay fault Lamp fault",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P0380",
+    "flash": 66,
+    "desc": "Glow relay fault Lamp fault",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 66,
+    "dtc": "P0380",
+    "desc": "Glow relay fault Lamp fault",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P0487",
+    "flash": 44,
+    "desc": "EGR position fault (Brushless specification)",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 44,
+    "dtc": "P0487",
+    "desc": "EGR position fault (Brushless specification)",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P0488",
+    "flash": 45,
+    "desc": "EGR valve control fault Trouble/open circuit or valve engage/stuck in drive motor side",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 45,
+    "dtc": "P0488",
+    "desc": "EGR valve control fault Trouble/open circuit or valve engage/stuck in drive motor side",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P0522",
+    "flash": 294,
+    "desc": "Engine oil pressure sen- sor fault (low voltage fault)",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 294,
+    "dtc": "P0522",
+    "desc": "Engine oil pressure sen- sor fault (low voltage fault)",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P0523",
+    "flash": 294,
+    "desc": "Engine oil pressure sen- sor fault (high voltage fault) Short circuit in sensor or har- ness",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 294,
+    "dtc": "P0523",
+    "desc": "Engine oil pressure sen- sor fault (high voltage fault) Short circuit in sensor or har- ness",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P0601",
+    "flash": 53,
+    "desc": "ROM fault ROM fault — ROM is faulty. Reflash failure — Engine stopped Back-up: Engine stopped ON *2",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 53,
+    "dtc": "P0601",
+    "desc": "ROM fault ROM fault — ROM is faulty. Reflash failure — Engine stopped Back-up: Engine stopped ON *2",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P0603",
+    "flash": 54,
+    "desc": "EEPROM fault EEPROM fault — EEPROM is faulty. — Operation is not affected. Back-up: No back-up action ON *2 DTC Flash code DTC descrip- tion",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 54,
+    "dtc": "P0603",
+    "desc": "EEPROM fault EEPROM fault — EEPROM is faulty. — Operation is not affected. Back-up: No back-up action ON *2 DTC Flash code DTC descrip- tion",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P0606",
+    "flash": 51,
+    "desc": "CPU fault CPU fault — Sub-CPU detects main CPU fault in 100 msec after key switch ON. (SUB-CPU resets CPU.) Nearly simulta- neous to fault occur- rence Output lowering Back-up: Limited injection amount 1 ON Diag- nosed for 100ms ec only after KEY- ON. Sub-CPU detects main CPU fault in 100 msec after key switch ON. (SUB-CPU resets CPU.) Nearly simulta- neous to fault occur- rence Unable to start Back-up: SUB-CPU stops CPU. ON Diag- nosed for 100ms ec only after KEY- ON.",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 51,
+    "dtc": "P0606",
+    "desc": "CPU fault CPU fault — Sub-CPU detects main CPU fault in 100 msec after key switch ON. (SUB-CPU resets CPU.) Nearly simulta- neous to fault occur- rence Output lowering Back-up: Limited injection amount 1 ON Diag- nosed for 100ms ec only after KEY- ON. Sub-CPU detects main CPU fault in 100 msec after key switch ON. (SUB-CPU resets CPU.) Nearly simulta- neous to fault occur- rence Unable to start Back-up: SUB-CPU stops CPU. ON Diag- nosed for 100ms ec only after KEY- ON.",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P0606",
+    "flash": 52,
+    "desc": "CPU monitor- ing IC fault Sub-CPU fault",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 52,
+    "dtc": "P0606",
+    "desc": "CPU monitor- ing IC fault Sub-CPU fault",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P0611",
+    "flash": 34,
+    "desc": "Charge circuit fault (bank 1) ECU charge circuit 1 fault (internal burn- out, open cir- cuit, etc.)",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 34,
+    "dtc": "P0611",
+    "desc": "Charge circuit fault (bank 1) ECU charge circuit 1 fault (internal burn- out, open cir- cuit, etc.)",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P0612",
+    "flash": 34,
+    "desc": "Charge circuit fault (bank 2) ECU charge circuit 2 fault (internal burn- out, open cir- cuit, etc.)",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 34,
+    "dtc": "P0612",
+    "desc": "Charge circuit fault (bank 2) ECU charge circuit 2 fault (internal burn- out, open cir- cuit, etc.)",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P0650",
+    "flash": 77,
+    "desc": "Check engine lamp fault Lamp fault",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 77,
+    "dtc": "P0650",
+    "desc": "Check engine lamp fault Lamp fault",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P1093",
+    "flash": 227,
+    "desc": "No pump pres- sure feed (fuel leakage) Fuel leakage (large amount)",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 227,
+    "dtc": "P1093",
+    "desc": "No pump pres- sure feed (fuel leakage) Fuel leakage (large amount)",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P1095",
+    "flash": 225,
+    "desc": "Pressure lim- iter open Pressure lim- iter is opened.",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 225,
+    "dtc": "P1095",
+    "desc": "Pressure lim- iter open Pressure lim- iter is opened.",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P1112",
+    "flash": 295,
+    "desc": "Boost tempera- ture sensor fault (low volt- age fault)",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 295,
+    "dtc": "P1112",
+    "desc": "Boost tempera- ture sensor fault (low volt- age fault)",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P1113",
+    "flash": 295,
+    "desc": "Boost tempera- ture sensor fault (high volt- age fault) Short circuit in sensor or har- ness",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 295,
+    "dtc": "P1113",
+    "desc": "Boost tempera- ture sensor fault (high volt- age fault) Short circuit in sensor or har- ness",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P1173",
+    "flash": 542,
+    "desc": "Overheat Overheat con- dition",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 542,
+    "dtc": "P1173",
+    "desc": "Overheat Overheat con- dition",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P1261",
+    "flash": 158,
+    "desc": "Injection nozzle common 1 drive system fault",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 158,
+    "dtc": "P1261",
+    "desc": "Injection nozzle common 1 drive system fault",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P1262",
+    "flash": 159,
+    "desc": "Injection nozzle common 2 drive system fault",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 159,
+    "dtc": "P1262",
+    "desc": "Injection nozzle common 2 drive system fault",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P1271",
+    "flash": 24,
+    "desc": "Accelerator sensor 1-2 comparison fault Difference in opening angle between accel- erator sensors 1-2 is 45% or more.",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 24,
+    "dtc": "P1271",
+    "desc": "Accelerator sensor 1-2 comparison fault Difference in opening angle between accel- erator sensors 1-2 is 45% or more.",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P1271",
+    "flash": 24,
+    "desc": "Accelerator sensor 1-2 comparison fault Difference in opening angle between accel- erator sensors 1-2 is 45% or more.",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 24,
+    "dtc": "P1271",
+    "desc": "Accelerator sensor 1-2 comparison fault Difference in opening angle between accel- erator sensors 1-2 is 45% or more.",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P1271",
+    "flash": 24,
+    "desc": "Accelerator sensor 1-2 comparison fault Difference in opening angle between accel- erator sensors 1-2 is 45% or more.",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 24,
+    "dtc": "P1271",
+    "desc": "Accelerator sensor 1-2 comparison fault Difference in opening angle between accel- erator sensors 1-2 is 45% or more.",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P1277",
+    "flash": 24,
+    "desc": "Accelerator sensor 1 fault (low voltage fault)",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 24,
+    "dtc": "P1277",
+    "desc": "Accelerator sensor 1 fault (low voltage fault)",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P1278",
+    "flash": 24,
+    "desc": "Accelerator sensor 1 fault (high voltage fault)",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 24,
+    "dtc": "P1278",
+    "desc": "Accelerator sensor 1 fault (high voltage fault)",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P1282",
+    "flash": 24,
+    "desc": "Accelerator sensor 2 fault (low voltage fault)",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 24,
+    "dtc": "P1282",
+    "desc": "Accelerator sensor 2 fault (low voltage fault)",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P1283",
+    "flash": 24,
+    "desc": "Accelerator sensor 2 fault (high voltage fault)",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 24,
+    "dtc": "P1283",
+    "desc": "Accelerator sensor 2 fault (high voltage fault)",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P1345",
+    "flash": 16,
+    "desc": "Cam sensor out of phase Camshaft gear/ crankshaft gear installing angle is out of phase, or damage in gear.",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 16,
+    "dtc": "P1345",
+    "desc": "Cam sensor out of phase Camshaft gear/ crankshaft gear installing angle is out of phase, or damage in gear.",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P1625",
+    "flash": 416,
+    "desc": "Main relay sys- tem fault (Not enter) Open/ground short circuit in harness, relay OFF anchoring",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 416,
+    "dtc": "P1625",
+    "desc": "Main relay sys- tem fault (Not enter) Open/ground short circuit in harness, relay OFF anchoring",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P1630",
+    "flash": 36,
+    "desc": "A/D conver- sion fault A/D conver- sion fault — A/D conversion failure Immedi- ately Output lowering, Black smoke emitted Back-up: Analog sensor sys- tem default pro- cessing Limited injection amount 3 (multi- injection stopped) Target RP upper limit (80 MPa {11603 psi}) ON *2",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 36,
+    "dtc": "P1630",
+    "desc": "A/D conver- sion fault A/D conver- sion fault — A/D conversion failure Immedi- ately Output lowering, Black smoke emitted Back-up: Analog sensor sys- tem default pro- cessing Limited injection amount 3 (multi- injection stopped) Target RP upper limit (80 MPa {11603 psi}) ON *2",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P1631",
+    "flash": 55,
+    "desc": "Voltage fault in 5-V power sup- ply 1 Power supply wiring short to sensor, or breakage in element/circuit for power sup- ply regulation inside ECM.",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 55,
+    "dtc": "P1631",
+    "desc": "Voltage fault in 5-V power sup- ply 1 Power supply wiring short to sensor, or breakage in element/circuit for power sup- ply regulation inside ECM.",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P1632",
+    "flash": 55,
+    "desc": "Voltage fault in 5-V power sup- ply 2 Power supply wiring short to sensor, or breakage in element/circuit for power sup- ply regulation inside ECM.",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 55,
+    "dtc": "P1632",
+    "desc": "Voltage fault in 5-V power sup- ply 2 Power supply wiring short to sensor, or breakage in element/circuit for power sup- ply regulation inside ECM.",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P1633",
+    "flash": 55,
+    "desc": "Voltage fault in 5-V power sup- ply 3 Power supply wiring short to sensor, or breakage in element/circuit for power sup- ply regulation inside ECM.",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 55,
+    "dtc": "P1633",
+    "desc": "Voltage fault in 5-V power sup- ply 3 Power supply wiring short to sensor, or breakage in element/circuit for power sup- ply regulation inside ECM.",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P1634",
+    "flash": 55,
+    "desc": "Voltage fault in 5-V power sup- ply 4 Power supply wiring short to sensor, or breakage in element/circuit for power sup- ply regulation inside ECM.",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 55,
+    "dtc": "P1634",
+    "desc": "Voltage fault in 5-V power sup- ply 4 Power supply wiring short to sensor, or breakage in element/circuit for power sup- ply regulation inside ECM.",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "DTC",
+    "code": "P1635",
+    "flash": 55,
+    "desc": "Voltage fault in 5-V power sup- ply 5 Power supply wiring short to sensor, or breakage in element/circuit for power sup- ply regulation inside ECM.",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  },
+  {
+    "type": "FLASH",
+    "code": 55,
+    "dtc": "P1635",
+    "desc": "Voltage fault in 5-V power sup- ply 5 Power supply wiring short to sensor, or breakage in element/circuit for power sup- ply regulation inside ECM.",
+    "standard": "Isuzu",
+    "source": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "file": "isuzu-4jj1-codes"
+  }
+]

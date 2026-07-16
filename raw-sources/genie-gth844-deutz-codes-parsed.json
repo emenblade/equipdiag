@@ -1,0 +1,3062 @@
+[
+  {
+    "type": "SPN",
+    "code": 29,
+    "fmi": 3,
+    "desc": "Handthrottle; signal out of range, short circuit to battery 4 Handthrottle; signal out of range, short circuit to ground",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 51,
+    "fmi": 3,
+    "desc": "Actuator error EGR-Valve (2.9;3.6) or Throttle-Valve (6.1,7.8); internal error 4 Actuator error EGR-Valve (2.9;3.6) or Throttle-Valve (6.1,7.8); internal error 5 Actuator error EGR-Valve (2.9;3.6) or Throttle-Valve (6.1,7.8); internal error 6 Actuator error EGR-Valve (2.9;3.6) or Throttle-Valve (6.1,7.8); internal error 7 Actuator error EGR-Valve (2.9;3.6) or Throttle-Valve (6.1,7.8); internal error 11 Actuator error EGR-Valve (2.9;3.6) or Throttle-Valve (6.1,7.8); internal error 12 Actuator error EGR-Valve (2.9;3.6) or Throttle-Valve (6.1,7.8); internal error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 84,
+    "fmi": 2,
+    "desc": "Sensor vehicle speed; plausibility error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 91,
+    "fmi": 3,
+    "desc": "Sensor error accelerator pedal; signal range check high 4 Sensor error accelerator pedal; signal range check low 11 Plausibility error between APP1 and APP2 or APP1 and idle switch",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 94,
+    "fmi": 1,
+    "desc": "Low fuel pressure; system reaction initiated 3 Sensor error low fuel pressure; signal range check high 4 Sensor error low fuel pressure; signal range check low",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 97,
+    "fmi": 3,
+    "desc": "Sensor error water in fuel; signal range check high 4 Sensor error water in fuel; signal range check low 12 Water in fuel level prefilter; maximum value exceeded",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 100,
+    "fmi": 0,
+    "desc": "High oil pressure; system reaction initiated 1 High oil pressure; system reaction initiated 3 Sensor error oil pressure; signal range check high 4 Sensor error oil pressure sensor; signal range check low",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 102,
+    "fmi": 2,
+    "desc": "Charged air pressure; system reaction initiated 3 Sensor error charged air pressure; signal range check high 4 Sensor error charged air pressure; signal range check low",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 105,
+    "fmi": 0,
+    "desc": "Charged air cooler temperature; system reaction initiated 3 Sensor error charged air temperature; signal range check high 4 Sensor error charged air temperature; signal range check low",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 107,
+    "fmi": 0,
+    "desc": "Air filter differential pressure; system reaction initiated 3 Sensor error airfilter differential pressure; short circuit to battery 4 Sensor error airfilter differential pressure; short circuit to ground",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 108,
+    "fmi": 3,
+    "desc": "Sensor error ambient air pressure; signal range check high 4 Sensor error ambient air pressure; signal range check low",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 110,
+    "fmi": 0,
+    "desc": "Coolant temperature; system reaction initiated 3 Sensor error coolant temperature; signal range check high 4 Sensor error coolant temperature; signal range check low",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 111,
+    "fmi": 1,
+    "desc": "Coolant level too low",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 132,
+    "fmi": 11,
+    "desc": "Air flow sensor; sensor error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 157,
+    "fmi": 3,
+    "desc": "Sesnor error rail pressure; signal range check high 4 Sensor error rail pressure; signal range check low",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 164,
+    "fmi": 2,
+    "desc": "Rail pressure safety function is not executed correctly",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 168,
+    "fmi": 0,
+    "desc": "Physikal range check high for battery voltage 1 Physikal range check low for battery voltage 2 High battery voltate; warning threshold exceeded 2 Battery voltage; system reaction initiated 3 Sensor error battery voltage; signal range check high 3 Sensor error battery voltage; signal range check high 4 Sensor error battery voltage; signal range check low 4 Sensor error battery voltage; signal range check low",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 171,
+    "fmi": 3,
+    "desc": "Sensor error environment temperature; signal range check high 4 Sensor error environment temperature; signal range check low",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 172,
+    "fmi": 0,
+    "desc": "Physical range check high for intake air temperature 1 Physical range check low for intake air temperature 2 Intake air sensor; plausibility error 3 Sensor error intake air; signal range check high 4 Sensor error intake air sensor; signal range check low Sensor ambient air temperature; plausibility error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 174,
+    "fmi": 0,
+    "desc": "High Low fuel temperature; shut off threshold exceeded High low fuel temperature; warning threshold exceeded",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 175,
+    "fmi": 0,
+    "desc": "Oil temperature; out of range, system reaction initiated 1 Physical range check low for oil temperature 2 Oil temperature; plausibility error 3 Sensor error oil temperature; signal range check high 4 Sensor error oil temperature; signal range check low",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 190,
+    "fmi": 0,
+    "desc": "Engine speed above warning threshold (FOC-Level 1) 2 Offset angle between crank- and camshaft sensor is too large 8 Speed detection; out of range, signal disrupted 11 Engine speed above warning threshold (FOC-Level 2) 12 Speed detection; out of range, signal disrupted 14 Speed detection; out of range, signal disrupted",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 411,
+    "fmi": 0,
+    "desc": "Physical range check high for differential pressure Venturiunit (EGR) 1 Physical range check low for differential pressure Venturiunit (EGR) 3 Sensor error differential pressure Venturiunit (EGR); signal range check high 4 Physical range check low for EGR differential pressure Sensor error differential pressure Venturiunit (EGR); signal range check low",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 412,
+    "fmi": 3,
+    "desc": "Sensor error EGR cooler downstream temperature; signal range check high 4 Sensor error EGR cooler downstream temperature; signal range check low",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 520,
+    "fmi": 9,
+    "desc": "Timeout Error of CAN-Receive-Frame TSC1TR; Setpoint",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 597,
+    "fmi": 2,
+    "desc": "Break lever mainswitch and break lever redundancyswitch status not plausible",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 624,
+    "fmi": 3,
+    "desc": "SVS lamp; short circuit to battery 4 SVS lamp; short circuit to ground 5 SVS lamp; open load 12 SVS lamp; powerstage over temperature",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 630,
+    "fmi": 12,
+    "desc": "Access error EEPROM",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 639,
+    "fmi": 14,
+    "desc": "CAN-Bus 0 \"BusOff-Status\"",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 651,
+    "fmi": 3,
+    "desc": "Injector 1 (in firing order); short circuit 4 High side to low side short circuit in the injector 1 (in firing order) 5 Injector 1 (in firing order); interruption of electric connection",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 652,
+    "fmi": 3,
+    "desc": "Injector 2 (in firing order); short circuit 4 High side to low side short circuit in the injector 2 (in firing order) 5 Injector 2 (in firing order); interruption of electric connection",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 653,
+    "fmi": 3,
+    "desc": "Injector 3 (in firing order); short circuit 4 High side to low side short circuit in the injector 3 (in firing order) 5 Injector 3 (in firing order); interruption of electric connection",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 654,
+    "fmi": 3,
+    "desc": "Injector 4 (in firing order); short circuit 4 High side to low side short circuit in the injector 4 (in firing order) 5 Injector 4 (in firing order); interruption of electric connection",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 655,
+    "fmi": 3,
+    "desc": "Injector 5 (in firing order); short circuit 4 High side to low side short circuit in the injector 5 (in firing order) 5 Injector 5 (in firing order); interruption of electric connection",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 656,
+    "fmi": 3,
+    "desc": "Injector 6 (in firing order); short circuit 4 High side to low side short circuit in the injector 6 (in firing order) 5 Injector 6 (in firing order); interruption of electric connection",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 676,
+    "fmi": 11,
+    "desc": "Cold start aid relay; open load, relay error.",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 677,
+    "fmi": 3,
+    "desc": "Starter relay; short circuit 4 Starter relay; short circuit 5 Starter relay; no load error 12 Starter relay; powerstage over temperature",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 703,
+    "fmi": 3,
+    "desc": "Engine running lamp; short circuit to battery 4 Engine running lamp; short circuit to ground 5 Engine running lamp; open load 12 Engine running lamp; powerstage over temperature",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 729,
+    "fmi": 5,
+    "desc": "Cold start aid relay open load 12 Cold start aid relay; over temperature error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 898,
+    "fmi": 9,
+    "desc": "Timeout Error of CAN-Receive-Frame TSC1TE; Setpoint",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 975,
+    "fmi": 3,
+    "desc": "Fan control; short circuit to battery 4 Fan control; short circuit to ground 5 Fan control; open load 12 Fan control; internal error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1079,
+    "fmi": 13,
+    "desc": "Sensor supply voltage monitor 1 error (ECU)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1080,
+    "fmi": 13,
+    "desc": "Sensor supply voltage monitor 2 error (ECU)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1109,
+    "fmi": 2,
+    "desc": "Engine shut off demand ignored",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1136,
+    "fmi": 0,
+    "desc": "Physikal range check high for ECU temperature 1 Physikal range check low for ECU temperature 3 Sensor error ECU temperature; signal range check high 4 Sensor error ECU temperature; signal range check low",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1176,
+    "fmi": 3,
+    "desc": "Sensor error pressure sensor upstream turbine; signal range check high 4 Sensor error pressure sensor downstream turbine; signal range check high",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1180,
+    "fmi": 0,
+    "desc": "Exhaust gas temperature turbine upstream; out of range, system reaction initiated 1 Exhaust gas temperature turbine upstream; out of range, system reaction initiated 3 Sensor error exhaust gas temperature upstream turbine; signal range check high 4 Sensor error exhaust gas temperature upstream turbine; signal range check low 11 Sensor exhaust gas temperature upstream turbine; plausibility error Exhaust gas temperature upstream turbine; out of range, system reaction initiated Exhaust gas temperature upstream turbine; out of range, system reaction initiated",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1188,
+    "fmi": 2,
+    "desc": "Wastegate; status message from ECU missing 7 Wastegate actuator; blocked 11 Turbo charger wastegate actuator; internal error 13 Wastegate actuator calibration deviation too large, recalibration required",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1231,
+    "fmi": 14,
+    "desc": "CAN-Bus 1 \"BusOff-Status\"",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1235,
+    "fmi": 14,
+    "desc": "CAN-Bus 2 \"BusOff-Status\"",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1237,
+    "fmi": 2,
+    "desc": "Override switch; plausibility error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1322,
+    "fmi": 12,
+    "desc": "Too many recognized misfires in more than one cylinder",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1323,
+    "fmi": 12,
+    "desc": "Too many recognized misfires in cylinder 1 (in firing order) 12 Too many recognized misfires in cylinder 1 (in firing order)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1324,
+    "fmi": 12,
+    "desc": "Too many recognized misfires in cylinder 2 (in firing order)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1325,
+    "fmi": 12,
+    "desc": "Too many recognized misfires in cylinder 3 (in firing order)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1326,
+    "fmi": 12,
+    "desc": "Too many recognized misfires in cylinder 4 (in firing order)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1327,
+    "fmi": 12,
+    "desc": "Too many recognized misfires in cylinder 5 (in firing order)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1328,
+    "fmi": 12,
+    "desc": "Too many recognized misfires in cylinder 6 (in firing order)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1639,
+    "fmi": 0,
+    "desc": "Sensor error fan speed; signal range check high 1 Sensor error fan speed; signal range check low",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1761,
+    "fmi": 14,
+    "desc": "Urea tank level; warning threshold exceeded",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2621,
+    "fmi": 3,
+    "desc": "Flush valve burner (EPV DPF-System); short circuit to battery 4 Flush valve burner (EPV DPF-System); short circuit to ground 5 Flush valve burner (EPV DPF-System); open load 12 Flush valve burner (EPV DPF-System); powerstage over temperature",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2659,
+    "fmi": 0,
+    "desc": "Physical range check high for EGR exhaust gas mass flow 1 Physical range check low for EGR exhaust gas mass flow 2 AGS sensor temperature exhaust gas mass flow; plausibility error 12 Exhaust gas recirculation; AGS sensor has \"burn off\" not performed Exhaust gas recirculation AGS sensor; plausibility error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2791,
+    "fmi": 0,
+    "desc": "EGR actuator, temperature critical high 2 EGR actuator, CAN error 3 EGR actuator supply voltage is above the maximum threshold 4 EGR actuator supply voltage is below minimum threshold 6 EGR actuator current is above maximum threshold 7 EGR actuator, actuator blocked or broken spring detected 12 EGR actuator, internal electrical fault 13 EGR actuator, EOL calibration error or learning process aborted or learning process out of range 16 EGR actuator, temperature high",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2797,
+    "fmi": 4,
+    "desc": "Injector diagnostics; timeout error of short circuit to ground measurement cyl. Bank",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1,
+    "fmi": 0,
+    "desc": "AdBlue-Tank temperature: maximum exceeded 1 DEF-Tank temperature: below minimum 3 Sensor error urea tank temperature; short circuit to battery 4 Sensor error urea tank temperature; short circuit to ground",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3224,
+    "fmi": 1,
+    "desc": "Nox sensor upstream of SCR Catalysator; low signal not plausible 2 NOx Sensor; CAN DLC error 9 NOx Sensor; CAN Timeout",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3234,
+    "fmi": 2,
+    "desc": "NOx Sensor; CAN DLC error 9 NOx Sensor; CAN Timeout 11 Nox Sensor downstream of SCR Catalysator; plausibility error \"stuk in range\"",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3241,
+    "fmi": 0,
+    "desc": "Sensor SCR catalyst upstream temperature too high; plausibility error 1 Sensor SCR catalyst upstream temperature too low; plausibility error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3248,
+    "fmi": 0,
+    "desc": "Exhaust gas temperature particulate filter downstream; out of range, system reaction initiated 1 Exhaust gas temperature particulate filter downstream; out of range, system reaction initiated 2 Sensor exhaust gas temperature downstream DPF; plausibility error 4 Sensor error particle filter downstream temperature; signal range check low",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3251,
+    "fmi": 0,
+    "desc": "Physical range check high for differential pressure (DPF); shut off regeneration 1 Physical range check low for differential pressure (DPF); shut off regeneration",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3253,
+    "fmi": 2,
+    "desc": "Sensor differential pressure (DPF); plausibility error 3 Sensor error differential pressure (DPF); signal range check high 4 Sensor error differential pressure (DPF); signal range check low",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3361,
+    "fmi": 3,
+    "desc": "Urea dosing valve; short circuit to battery 4 Urea dosing valve; short circuit to ground 7 AdBlue dosing valve blocked (SCR)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3519,
+    "fmi": 3,
+    "desc": "DEF quality sensor, internal temperature sensor short circuit to battery or open lead 4 DEF quality sensor, internal temperature sensor short circuit to ground 12 DEF tank temperature, temperature too high 13 Temperature at UQS invalid",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3520,
+    "fmi": 3,
+    "desc": "DEF quality sensor, short circuit to battery or open load 4 DEF quality sensor, short ciruit to ground 13 Urea quality at UQS invalid",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3532,
+    "fmi": 3,
+    "desc": "DEF level at UQS out of max. physical range 3 Sensor error urea tank level; signal range check high 4 Quality at UQS of of min. physical range 4 Sensor error urea tank level; signal range check low",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3699,
+    "fmi": 2,
+    "desc": "DPF differential pressure sensor and a further sensor or actuator CRT system defective 14 Maximum stand-still-duration reached; oil exchange required Temperature sensor us. and ds. DOC simultaneously defect",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3711,
+    "fmi": 12,
+    "desc": "Regeneration temperature (PFltRgn LigtOff) not reached; regeneration aborted",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3936,
+    "fmi": 14,
+    "desc": "Standstill request ignored too long",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4243,
+    "fmi": 11,
+    "desc": "SCR system heater diagnostic reports error; shut off SCR-system",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4334,
+    "fmi": 0,
+    "desc": "Urea pump pressure; out of range 1 Urea pump pressure; out of range 3 Sensor error urea pump pressure; signal range check high 4 Sensor error urea pump pressure; signal range check low",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4341,
+    "fmi": 3,
+    "desc": "SCR-heater urea supplyline; short circuit to battery 4 SCR-heater urea supplyline; short circuit to ground 5 SCR heater relay urea supplyline; open load",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4343,
+    "fmi": 3,
+    "desc": "SCR heater urea pressureline; short circuit to battery 4 SCR heater urea pressureline; short circuit to ground 5 SCR heater relay urea pressureline; open load 11 General pressure check error (SCR)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4345,
+    "fmi": 3,
+    "desc": "SCR heater urea returnline; short circuit to battery 4 SCR heater urea returnline; short circuit to ground 5 SCR heater relay urea returnline; open load 11 Sensor backflow line pressure (SCR); plausibility error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4360,
+    "fmi": 0,
+    "desc": "Physical range check high for urea catalyst upstream temperature 1 Physical range low for urea catalyst upstream temperature 3 Sensor error urea catalyst exhaust gas temperature upstream; signal range check high 4 Sensor error urea catalyst exhaust gas temperature upstream; signal range check low",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4365,
+    "fmi": 0,
+    "desc": "Urea tank temperature too high",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4366,
+    "fmi": 3,
+    "desc": "SCR Tank heating valve; short circuit to battery 4 SCR Tank heating valve; short circuit to ground 5 SCR main relay (secondary side): open load 12 SCR-heater relay urea tank powerstage output; over temperature SCR main relay; short circuit SCR Tank heating valve; open load",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4374,
+    "fmi": 13,
+    "desc": "Pressure stabilisation error dosing valve (SCR)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4375,
+    "fmi": 3,
+    "desc": "Urea pump motor; short circuit to battery 4 Urea pump motor; short circuit to ground 5 Urea pump motor; open load",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4376,
+    "fmi": 3,
+    "desc": "SCR reversing valve; short circuit to battery 4 SCR reversing valve; short circuit to ground 5 SCR reversing valve; open load 12 SCR reversing valve; over temperature",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4765,
+    "fmi": 0,
+    "desc": "Physical range check high for exhaust gas temperature upstream (DOC) 1 Physical range check low for exhaust gas temperature upstream (DOC)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4766,
+    "fmi": 0,
+    "desc": "Physical range check high for exhaust gas temperature downstream (DOC) 1 Physical range check low for exhaust gas temperature downstream (DOC)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4768,
+    "fmi": 2,
+    "desc": "Sensor exhaust gas temperature upstream (DOC); plausibility error 3 Sensor error exhaust gas temperature upstream (DOC); signal range check high 4 Sensor error exhaust gas temperature upstream (DOC); signal range check low",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4769,
+    "fmi": 2,
+    "desc": "Sensor exhaust gas temperature (DOC) downstream; plausibility error 3 Sensor error exhaust gas temperature downstream (DOC); signal range check high 4 Sensor error exhaust gas temperature downstream (DOC); signal range check low Sensor exhaust gas temperature downstream (DOC); plausibility error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5763,
+    "fmi": 0,
+    "desc": "Warning threshold for an internal actuator error exceeded, <4L EGR actuator and >4L Air Intake Flap 1 Shutoff threshold for an internal actuator error exceeded, <4L EGR actuator and >4L Air Intake Flap 3 Position sensor error of actuator EGR-Valve (2.9; 3.6) Signal range check high 3 Actuator EGR-Valve (2.9; 3.6); short circuit to battery 4 Actuator EGR-Valve (2.9; 3.6); short circuit to ground; Voltage below threshold 5 Actuator EGR-Valve (2.9; 3.6); Open load on ECU output is detected 6 Actuator error EGR-Valve; signal range check high 7 Actuator position for EGR-Valve (2.9; 3.6) 11 Power stage over temperature due to high current",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 20521,
+    "fmi": 5,
+    "desc": "Actuator error EGR-Valve (2.9;3.6) Signal range check low",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23006,
+    "fmi": 3,
+    "desc": "Controller mode switch; short circuit to battery 4 Controller mode switch; short circuit to ground",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23008,
+    "fmi": 1,
+    "desc": "Manipulation control was triggered 2 Timeout error in Manipulation control",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23009,
+    "fmi": 9,
+    "desc": "Pressure Relief Valve (PRV) reached maximun allowed opening count 10 Pressure relief valve (PRV) reached maximun allowed open time",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23090,
+    "fmi": 2,
+    "desc": "Engine Brake Pre-Selection switch; Plausibiliy Error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23212,
+    "fmi": 9,
+    "desc": "Timeout Error of CAN-Receive-Frame ComEngPrt; Engine Protection",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23216,
+    "fmi": 9,
+    "desc": "Timeout Error of CAN-Receive-Frame PrHtEnCmd; pre-heat command, engine command",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23240,
+    "fmi": 9,
+    "desc": "Timeout CAN-message FunModCtl; Function Mode Control",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23330,
+    "fmi": 14,
+    "desc": "Immobilizer status; fuel blocked",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23350,
+    "fmi": 4,
+    "desc": "Injector cylinder-bank 1; short circuit",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23352,
+    "fmi": 4,
+    "desc": "Injector cylinder-bank 2; short circuit",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23354,
+    "fmi": 12,
+    "desc": "Injector powerstage output defect",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23450,
+    "fmi": 2,
+    "desc": "Multiple Stage Switch constant speed; plausibility error 3 Multiple Stage Switch constant speed; short circuit to battery 4 Multiple Stage Switch constant speed; short circuit to ground",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23451,
+    "fmi": 2,
+    "desc": "Multiple Stage Switch engine speed control parameter; plausibility error 3 Multiple Stage Switch engine speed control parameter; short circuit to battery 4 Multiple Stage Switch engine speed control parameter; short circuit to ground",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23452,
+    "fmi": 2,
+    "desc": "Multiple Stage Switch engine torque limitation curve; plausibility error 3 Multiple Stage Switch engine torque limitation curve; short circuit to battery 4 Multiple Stage Switch engine torque limitation curve; short circuit to ground",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23470,
+    "fmi": 2,
+    "desc": "Pressure Relief Valve (PRV) forced to open 7 Maximum rail pressure in limp home mode exceeded (PRV) 11 Pressure Relief Valve (PRV) error; Rail pressure out of tolerance range 12 Pressure Relief Valve (PRV) forced to open; system reaction initiated 14 Pressure Relief Valve (PRV) is open Rail pressure out of tolerance range",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23550,
+    "fmi": 12,
+    "desc": "T50 start switch active for too long",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23601,
+    "fmi": 13,
+    "desc": "Sensor supply voltage monitor 3 error (ECU)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23602,
+    "fmi": 0,
+    "desc": "Fan control; out of range, system reaction initiated",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23603,
+    "fmi": 9,
+    "desc": "Timeout Error of CAN-Receive-Frame AMB; Ambient Temperature Sensor",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23605,
+    "fmi": 9,
+    "desc": "Timeout Error of CAN-Receive-Frame TSC1AE; Traction Control",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23606,
+    "fmi": 9,
+    "desc": "Timeout Error of CAN-Receive-Frame TSC1AR; Retarder",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23612,
+    "fmi": 12,
+    "desc": "ECU reported internal software error 14 Softwarereset CPU Internal software error ECU",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23613,
+    "fmi": 0,
+    "desc": "Rail pressure disrupted 1 Minimum rail pressure exceeded (RailMeUn3) 2 Setpoint of metering unit in overrun mode not plausible",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23615,
+    "fmi": 3,
+    "desc": "Metering unit (Fuel-System); short circuit to battery 4 Metering unit (Fuel-System); short circuit to ground 5 Metering unit (Fuel-System); open load 12 Metering unit (Fuel-System); powerstage over temperature",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23619,
+    "fmi": 2,
+    "desc": "Physical range check high for exhaust gas temperature upstrem (SCR-CAT)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23632,
+    "fmi": 0,
+    "desc": "Pressure overload of SCR-System 1 Pressure build-up error SCR-System 2 Metering control is not performed in time error 16 Pump pressure SCR metering unit too high 18 Pump pressure SCR metering unit too low",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23633,
+    "fmi": 11,
+    "desc": "Nox conversion rate insufficient",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23698,
+    "fmi": 11,
+    "desc": "Shut off request from supervisory monitoring function",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23704,
+    "fmi": 12,
+    "desc": "Timeout Error of CAN-Transmit_Frame EEC3",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23717,
+    "fmi": 12,
+    "desc": "Timeout Error of CAN-Transmit-Frame AmbCon; Weather environments",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23718,
+    "fmi": 3,
+    "desc": "SCR main relay (primary side); short circuit to battery 4 SCR main relay (primary side); short circuit to ground 5 SCR main relay (primary side); open load 12 SCR mainrelay; powerstage over temperature (only CV56B) SCR mainrelay; short circuit to battery (only CV56B) SCR mainrelay; short circuit to ground (only CV56B) SCR mainrelay; open load (only CV56B)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23719,
+    "fmi": 3,
+    "desc": "SCR heater urea supplymodule; short circuit to battery 4 SCR heater urea supplymodule; short circuit to ground 5 SCR heater relay urea supply module; open load",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23720,
+    "fmi": 2,
+    "desc": "Urea supply module heater temperature; plausibility error 8 Urea supply module heater temperature; signal disrupted",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23721,
+    "fmi": 2,
+    "desc": "Urea supply module heater temperature; plausibility error 8 Urea supply module temperature; signal disrupted 11 Urea supply module temperature measurement not available",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23722,
+    "fmi": 8,
+    "desc": "Urea supply module PWM signal; signal disrupted",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23723,
+    "fmi": 11,
+    "desc": "Detection of AdBlue filled SCR system in Init-State",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23766,
+    "fmi": 9,
+    "desc": "Timeout Error of CAN-Receive-Frame Active TSC1AE",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23767,
+    "fmi": 9,
+    "desc": "Timeout Error of CAN-Receive-Frame Passive TSC1AE",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23768,
+    "fmi": 9,
+    "desc": "Timeout Error of CAN-Receive-Frame Active TSC1AR",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23769,
+    "fmi": 9,
+    "desc": "Timeout Error of CAN-Receive-Frame Passive TSC1AR",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23770,
+    "fmi": 9,
+    "desc": "Timeout Error of CAN-Receive-Frame Passive TSC1DE",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23776,
+    "fmi": 9,
+    "desc": "Timeout Error of CAN-Receive-Frame TSC1TE - active",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23777,
+    "fmi": 9,
+    "desc": "Passive Timeout Error of CAN-Receive-Frame TSC1TE; Setpoint",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23778,
+    "fmi": 9,
+    "desc": "Active Timeout Errorof CAN-Receive-Frame TSC1TR",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23779,
+    "fmi": 9,
+    "desc": "Passive Timeout Error of CAN-Receive-Frame TSC1TR",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23788,
+    "fmi": 0,
+    "desc": "Turbo charger wastegate; CAN Fehler 12 Timeout Error of CAN-Transmit-Frame TrbCH; Status Wastegate",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23793,
+    "fmi": 9,
+    "desc": "Timeout Error of CAN-Receive-Frame UAA10; AGS sensor service message",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23794,
+    "fmi": 9,
+    "desc": "Timeout Error of CAN-Receive-Frame UAA11; AGS sensor data",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23803,
+    "fmi": 9,
+    "desc": "Timeout Error of CAN-Receive-Frame RxEngPres; Status burner airpump",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23867,
+    "fmi": 12,
+    "desc": "Timeout Error of CAN-Transmit-Frame UAA1 on CAN 2; Burner Air Pump Control",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23895,
+    "fmi": 13,
+    "desc": "Check of missing injector adjustment value programming (IMA) injector 1 (in firing order)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23896,
+    "fmi": 13,
+    "desc": "check of missing injector adjustment value programming (IMA) injector 2 (in firing order)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23897,
+    "fmi": 13,
+    "desc": "check of missing injector adjustment value programming (IMA) injector 3 (in firing order)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23898,
+    "fmi": 13,
+    "desc": "check of missing injector adjustment value programming (IMA) injector 4 (in firing order)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23899,
+    "fmi": 13,
+    "desc": "check of missing injector adjustment value programming (IMA) injector 5 (in firing order)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23900,
+    "fmi": 13,
+    "desc": "check of missing injector adjustment value programming (IMA) injector 6 (in firing order)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23910,
+    "fmi": 0,
+    "desc": "Air Pump; internal error 6 Air Pump; over current 7 Air pump; CAN communication interrupted no purge function available 9 Air Pump; CAN communication lost 12 Air Pump; internal error 14 Air pump doesn´t achieve air mass flow setpoint",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23911,
+    "fmi": 0,
+    "desc": "Burner dosing valve (DV2); overcurrent at the end of the injection phase 3 Burner dosing valve (DV2); short circuit to battery 4 Burner dosing valve (DV2); short circuit to ground 7 Burner dosing valve (DV2); blocked closed 11 Burner dosing valve (DV2); short circuit high side powerstage 12 Burner dosing valve (DV2); powerstage over temperature",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23912,
+    "fmi": 0,
+    "desc": "Physical range check high for burner dosing valve (DV2) downstream pressure; shut off regeneration 1 Physical range check low for burner dosing valve (DV2) downstream pressure; shut off regeneration. When burner injector is actuated, the measured pressure does not rise above ca. 1250mbar abs (expected: ca. 2400mbar). 2 Burner dosing valve (DV2) downstream pressure sensor; plausibility error 3 Sensor error burner dosing valve (DV2) downstream pressure sensor; signal range check high 4 Sensor error burner dosing valve (DV2) downstream pressure sensor; signal range check low",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23913,
+    "fmi": 3,
+    "desc": "Sensor error glow plug control diagnostic line voltage; signal range check high 4 Sensor error glow plug control diagnostic line voltage; signal range check low",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23914,
+    "fmi": 3,
+    "desc": "Glow plug control; short circuit to battery 4 Glow plug control; short circuit to ground 5 Glow plug control; open load 11 Glow plug control; internal error 12 Glow plug control; powerstage over temperature",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23915,
+    "fmi": 0,
+    "desc": "HCI dosing valve (DV1); overcurrent at the end of the injection phase 3 HCI dosing valve (DV1); short circuit to battery 4 HCI dosing valve (DV1); short circuit to ground 7 HCI dosing valve (DV1); blocked 11 HCI dosing valve (DV1); short circuit high side powerstage 12 HCI dosing valve (DV1); powerstage over temperature",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23916,
+    "fmi": 0,
+    "desc": "Physical range check high for HCI dosing valve (DV1) downstream pressure; shut off regeneration 1 Physical range check low for HCI dosing valve (DV1) downstream pressure; shut off regeneration 2 Sensor HCI dosing valve (DV1) downstream pressure; plausibility error 3 Sensor error HCI dosing valve (DV1) downstream pressure; signal range check high 4 Sensor error HCI dosing valve (DV1) downstream pressure; signal range check low",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23917,
+    "fmi": 0,
+    "desc": "Physical range check high for DV1 & DV2 upstream pressure; shut off regeneration 1 Physical range check low for DV1 & DV2 upstream pressure; shut off regeneration 2 Sensor DV1 & DV2 upstream pressure; plausibility error 3 Sensor error DV1 & DV2 upstream pressure; signal range check high 4 Sensor error DV1 & DV2 upstream pressure; signal range check low",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23918,
+    "fmi": 0,
+    "desc": "Physical range check high for DV1 & DV2 upstream temperature; shut off regeneration 1 Physical range check low for DV1 & DV2 upstream temperature; shut off regeneration 2 Sensor DV1 & DV2 upstream temperature; plausibility error 3 Sensor error DV1 & DV2 upstream temperature; signal range check high 4 Sensor error DV1 & DV2 upstream temperature; signal range check low",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23919,
+    "fmi": 0,
+    "desc": "Physical range check high for airpump pressure; shut off regeneration 1 Physical range check low for airpump pressure; shut off regeneration 2 Sensor airpump pressure; plausibility error 3 Sensor error airpump pressure; signal range check high 4 Sensor error airpump pressure; signal range check low",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23920,
+    "fmi": 0,
+    "desc": "Physical range check high for exhaustgas back pressure burner; shut off regeneration 1 Physical range check low for exhaustgas back pressure burner; shut off regeneration 2 Sensor exhaustgas back pressure; plausibility error 3 Sensor error exhaustgas back pressure burner; signal range check high 4 Sensor error exhaustgas back pressure burner; signal range check low",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23921,
+    "fmi": 0,
+    "desc": "Physical range check high for burner temperature 1 Physical range check low for burner temperature 2 Sensor burner temperature; plausibility error 3 Sensor error burner temperature; signal range check high 4 Sensor error burner temperature; signal range check low 11 Sensor burner temperature; plausibility error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23922,
+    "fmi": 3,
+    "desc": "Burner shut of valve; short circuit to battery 4 Burner shut of valve; short circuit to ground 5 Burner shut off valve; open load 7 Shut off valve: blocked 12 Over temperature error on burner shut of valve",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23924,
+    "fmi": 4,
+    "desc": "Short circuit to ground actuator relay",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2,
+    "fmi": 3,
+    "desc": "Short cicuit to battery error of actuator relay",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3,
+    "fmi": 4,
+    "desc": "Short circuit to ground actuator relay",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3,
+    "fmi": 4,
+    "desc": "Short cirucit to dround actuator relay",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4,
+    "fmi": 3,
+    "desc": "Short cicuit to battery error of actuator relay 5",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23929,
+    "fmi": 0,
+    "desc": "Fuel Balance Control integrator injector 1 (in firing order); maximum value exceeded 1 Fuel Balance Control integrator injector 1 (in firing order); minimum value exceeded",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23930,
+    "fmi": 0,
+    "desc": "Fuel Balance Control integrator injector 2 (in firing order); maximum value exceeded 1 Fuel Balance Control integrator injector 2 (in firing order); minimum value exceeded",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23931,
+    "fmi": 0,
+    "desc": "Fuel Balance Control integrator injector 3 (in firing order); maximum value exceeded 1 Fuel Balance Control integrator injector 3 (in firing order); minimum value exceeded",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23932,
+    "fmi": 0,
+    "desc": "Fuel Balance Control integrator injector 4 (in firing order); maximum value exceeded 1 Fuel Balance Control integrator injector 4 (in firing order); minimum value exceeded",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23933,
+    "fmi": 0,
+    "desc": "Fuel Balance Control integrator injector 5 (in firing order); maximum value exceeded 1 Fuel Balance Control integrator injector 5 (in firing order); minimum value exceeded",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23934,
+    "fmi": 0,
+    "desc": "Fuel Balance Control integrator injector 6 (in firing order); maximum value exceeded 1 Fuel Balance Control integrator injector 6 (in firing order); minimum value exceeded",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23935,
+    "fmi": 12,
+    "desc": "Timeout Error of CAN-Transmit-Frame EEC3VOL1; Engine send messages",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23936,
+    "fmi": 12,
+    "desc": "Timeout Error of CAN-Transmit-Frame EEC3VOL2; Engine send messages",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23938,
+    "fmi": 9,
+    "desc": "Timeout Error (BAM to packet) for CAN-Receive-Frame AT1IGCVol1 information; factors & Sensorcalibration for NOX Sensor (SCR-system upstream cat; DPF- system downstream cat)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23939,
+    "fmi": 9,
+    "desc": "Timeout Error (BAM to BAM) for CAN-Receive-Frame AT1IGCVol1 information; factors & Sensorcalibration for NOX Sensor (SCR-system upstream cat; DPF- system downstream cat)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23940,
+    "fmi": 9,
+    "desc": "Timeout Error (PCK2PCK) for CAN-Receive-Frame AT1IGCVol1 information; factors & Sensorcalibration for NOX Sensor (SCR-system upstream cat; DPF-system downstream cat)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23941,
+    "fmi": 9,
+    "desc": "Timeout Error (BAM to packet) for CAN-Receive-Frame AT1OGCVol2 information; factors & Sensorcalibration for NOX Sensor (SCR-system downstream cat; DPF- system downstream cat)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23942,
+    "fmi": 9,
+    "desc": "Timeout Error (BAM to BAM) for CAN-Receive-Frame AT1OGCVol2 information; factors & Sensorcalibration for NOX Sensor (SCR-system downstream cat; DPF- system downstream cat)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23943,
+    "fmi": 9,
+    "desc": "Timeout Error (PCK2PCK) for CAN-Receive-Frame AT1OGCVol2 information; factors & Sensorcalibration for NOX Sensor (SCR-system downstream cat; DPF- system downstream cat)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23946,
+    "fmi": 0,
+    "desc": "Zerofuel calibration injector 1 (in firing order); maximum value exceeded 1 Zerofuel calibration injector 1 (in firing order); minimum value exceeded",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23947,
+    "fmi": 0,
+    "desc": "Zerofuel calibration injector 2 (in firing order); maximum value exceeded 1 Zerofuel calibration injector 2 (in firing order); minimum value exceeded",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23948,
+    "fmi": 0,
+    "desc": "Zerofuel calibration injector 3 (in firing order); maximum value exceeded 1 Zerofuel calibration injector 3 (in firing order); minimum value exceeded",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23949,
+    "fmi": 0,
+    "desc": "Zerofuel calibration injector 4 (in firing order); maximum value exceeded 1 Zerofuel calibration injector 4 (in firing order); minimum value exceeded",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23950,
+    "fmi": 0,
+    "desc": "Zerofuel calibration injector 5 (in firing order); maximum value exceeded 1 Zerofuel calibration injector 5 (in firing order); minimum value exceeded",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23951,
+    "fmi": 0,
+    "desc": "Zerofuel calibration injector 6 (in firing order); maximum value exceeded 1 Zerofuel calibration injector 6 (in firing order); minimum value exceeded",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23960,
+    "fmi": 0,
+    "desc": "EGR cooler downstream temperature; out of range, system reaction initiated 1 EGR cooler downstream temperature; out of range, system reaction initiated Exhaust gas temperature EGR downstream; out of range, system reaction initiated Exhaust gas temperature EGR downstream; out of range, system reaction initiated",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23973,
+    "fmi": 14,
+    "desc": "SCR Tamper detection; derating timer below limit 1",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23974,
+    "fmi": 14,
+    "desc": "SCR Tamper detection; derating timer below limit 2",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23975,
+    "fmi": 14,
+    "desc": "Urea quality; derating timer below limit 1",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23976,
+    "fmi": 14,
+    "desc": "Urea qulaity; derating timer below limit 2",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23977,
+    "fmi": 14,
+    "desc": "Urea tank level; derating timer below limit 1",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23978,
+    "fmi": 14,
+    "desc": "Urea tank level; derating timer below limit 2",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23980,
+    "fmi": 14,
+    "desc": "Bad quality of reduction agent detected",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23981,
+    "fmi": 11,
+    "desc": "Urea-tank without heating function (heating phase)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23982,
+    "fmi": 0,
+    "desc": "Powerstage diagnosis disabled; high battery voltage 1 Powerstage diagnosis disabled; low battery voltage",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23984,
+    "fmi": 3,
+    "desc": "UB6; Short circuit to battery error of actuator relay",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 6,
+    "fmi": 4,
+    "desc": "Actuator relay 5; voltage measured by ECU is out of target range",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23987,
+    "fmi": 4,
+    "desc": "Actuator relay 6; voltage measured by ECU is out of target range",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23988,
+    "fmi": 3,
+    "desc": "Charging lamp; short circuit to battery 4 Charging lamp; short circuit to ground 5 Charging lamp; open load 12 Charging lamp; over temperature",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23989,
+    "fmi": 0,
+    "desc": "Fuel Balance Control integrator injector 7 (in firing order); maximum value exceeded 1 Fuel Balance Control integrator injector 7 (in firing order); minimum value exceeded",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23990,
+    "fmi": 0,
+    "desc": "Fuel Balance Control integrator injector 8 (in firing order); maximum value exceeded 1 Fuel Balance Control integrator injector 8 (in firing order); minimum value exceeded",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23992,
+    "fmi": 9,
+    "desc": "Timeout Error of CAN-Receive-Frame DM19Vol1; NOX sensor upstream",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23993,
+    "fmi": 9,
+    "desc": "Timeout Error of CAN-Receive-Frame DM19Vol2; NOX sensor downstream",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23995,
+    "fmi": 13,
+    "desc": "check of missing injector adjustment value programming (IMA) injector 7 (in firing order)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23996,
+    "fmi": 13,
+    "desc": "check of missing injector adjustment value programming (IMA) injector 8 (in firing order)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23998,
+    "fmi": 4,
+    "desc": "Injector cylinder bank 2 slave; short circuit",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 23999,
+    "fmi": 12,
+    "desc": "Injector powerstage output Slave defect",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24000,
+    "fmi": 3,
+    "desc": "Injector 7 (in firing order); short circuit 4 High side to low side short circuit in the injector 7 (in firing order) 5 Injector 7 (in firing order); interruption of electric connection",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24001,
+    "fmi": 3,
+    "desc": "Injector 8 (in firing order); short circuit 4 High side to low side short circuit in the injector 8 (in firing order) 5 Injector 8 (in firing order); interruption of electric connection",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24004,
+    "fmi": 12,
+    "desc": "Too many recognized misfires in cylinder 7 (in firing order)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24005,
+    "fmi": 12,
+    "desc": "Too many recognized misfires in cylinder 8 (in firing order)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24011,
+    "fmi": 0,
+    "desc": "Zerofuel calibration injector 7 (in firing order); maximum value exceeded 1 Zerofuel calibration injector 7 (in firing order); minimum value exceeded",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24012,
+    "fmi": 0,
+    "desc": "Zerofuel calibration injector 8 (in firing order); maximum value exceeded 1 Zerofuel calibration injector 8 (in firing order); minimum value exceeded",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24013,
+    "fmi": 7,
+    "desc": "Burner operation disturbed",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24014,
+    "fmi": 1,
+    "desc": "Air pressure glow plug flush line; below limit",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24016,
+    "fmi": 2,
+    "desc": "Air Pump; air flow is not plausible 11 HFM sensor; electrical fault",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24017,
+    "fmi": 12,
+    "desc": "Spark plug control unit (SPCU); internal error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24018,
+    "fmi": 14,
+    "desc": "DPF wasn´t regenerated, power reduction phase 1 (manuell regeneration request)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24019,
+    "fmi": 11,
+    "desc": "Air Pump; air lines blocked",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24020,
+    "fmi": 14,
+    "desc": "Engine power; Not enough oxygen for regeneration",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24021,
+    "fmi": 11,
+    "desc": "Burner fuel line pipe leak behind Shut Off Valve",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24022,
+    "fmi": 14,
+    "desc": "DPF wasn´t regenerated, power reduction phase 2 (manuell regeneration request)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24023,
+    "fmi": 14,
+    "desc": "DPF wasn´t regenerated, warning condition (manuell regeneration mode)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24024,
+    "fmi": 11,
+    "desc": "Deviation of the exhaust gas temperature setpoint to actual value downstream (DOC) too high",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24025,
+    "fmi": 5,
+    "desc": "DPF system; operating voltage error 14 Particulate filter; regeneration not succesful",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24028,
+    "fmi": 2,
+    "desc": "CAN message PROEGRActr; plausibility error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24029,
+    "fmi": 2,
+    "desc": "Timeout Error of CAN-Receive-Frame ComEGRActr - exhaust gas recirculation positioner",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24030,
+    "fmi": 7,
+    "desc": "EGR actuator; internal error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24031,
+    "fmi": 13,
+    "desc": "EGR actuator; calibration error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24032,
+    "fmi": 2,
+    "desc": "EGR actuator; status message \"EGRCust\" is missing",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24033,
+    "fmi": 7,
+    "desc": "EGR actuator; due to overload in Save Mode",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24034,
+    "fmi": 3,
+    "desc": "Disc separator; short circuit to battery 4 Disc separator; short circuit to ground 5 Disc Separator; open load 12 Disc Separator; powerstage over temperature",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24035,
+    "fmi": 12,
+    "desc": "Injector diagnostics; time out error in the SPI communication",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24036,
+    "fmi": 12,
+    "desc": "Injector diagnostics Slave; time out error in the SPI communication",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24037,
+    "fmi": 3,
+    "desc": "Ashlamp; short circuit to battery 4 Ashlamp; short circuit to ground 5 Ashlamp; open load",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24038,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Receive-Frame ComMS_Sys1TO (error memory Slave); Master-Slave internal CAN message",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24039,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Receive-Frame ComMS_Sys2TO (error memory Slave); Master-Slave internal CAN message",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24040,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Receive-Frame ComMS_Sys3TO (error memory Slave); Master-Slave internal CAN message",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24041,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Receive-Frame ComMS_Sys4TO (error memory Slave); Master-Slave internal CAN message",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24042,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Receive-Frame ComMS_Sys5TO (error memory Slave); Master-Slave internal CAN message",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24043,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Receive-Frame ComMS_Sys6TO (error memory Slave); Master-Slave internal CAN message",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24044,
+    "fmi": 9,
+    "desc": "CAN message ComMS_Sys7 not received from slave",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24045,
+    "fmi": 9,
+    "desc": "Master-Slave CAN; Message-Counter-Error of CAN-Receive-Frame ComMSMoFOvR",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24046,
+    "fmi": 9,
+    "desc": "Master-Slave CAN; Checksum-Error of CAN-Receive-Frame ComMSMoFOvR",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24047,
+    "fmi": 9,
+    "desc": "Master-Slave CAN; Messsage-Length-Error of CAN-Receive-Frame ComMSMoFOvR",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24048,
+    "fmi": 9,
+    "desc": "Timeout error CAN message ComMSMoFOvR1TO error memory Slave",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24049,
+    "fmi": 9,
+    "desc": "Message copy error in the Master / Slave data transfer",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24052,
+    "fmi": 11,
+    "desc": "MS ECU reported internal error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24055,
+    "fmi": 4,
+    "desc": "Spark Plug Control Unit (SPCU); short circuit to ground",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24057,
+    "fmi": 2,
+    "desc": "Electric fuel pump; fuel pressure build up error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24062,
+    "fmi": 12,
+    "desc": "EAT-system HMI disrupted",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24063,
+    "fmi": 3,
+    "desc": "SCR main relay; short circuit to battery 4 SCR heater main relay load side (K31 on heating valve (Y31) 5 SCR heater return line; open load or SCR main relay not connected; or SCR heater pressureline; open load or SCR or SCR relay for suction line not connected or SCR heater supply module; open load or SCR heater tank; open loac 12 DEF supply module, time for defrosting too long or DEF tank, time for defrosting too long",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24065,
+    "fmi": 0,
+    "desc": "Pressure sensor upstream SCR-CAT, pressure above upper physical threashold 1 Pressure sensor upstream SCR-CAT, pressure below lower physical threashold 2 Pressure sensor upstream SCR-CAT, plausibility error 3 Pressure sensor upstream SCR-CAT, short circuit battery or open load 4 Pressure sensor upstream SCR-CAT, short circuit ground",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24067,
+    "fmi": 0,
+    "desc": "DEF supply module, heater temperature above upper physical threshold 1 DEF supply module, heater temperature below lower physical threshold 2 Supply module heather temperature, plausibility error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24068,
+    "fmi": 2,
+    "desc": "Master ECU and Slave ECU have been identified as the same types",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24069,
+    "fmi": 9,
+    "desc": "Timeout Error of CAN-Receive-Frame MSMon_FidFCCTO; Master-Slave CAN communication faulty",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24074,
+    "fmi": 9,
+    "desc": "NOx sensor downstream SCR-CAT, sensor internally open load",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24075,
+    "fmi": 11,
+    "desc": "NOx sensor downstream SCR-CAT, sensor internally short circuit",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24076,
+    "fmi": 9,
+    "desc": "NOx sensor downstream SCR-CAT, sensor internally open line",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24077,
+    "fmi": 11,
+    "desc": "NOx sensor upstream SCR-CAT, sensor internally short circuit",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24078,
+    "fmi": 9,
+    "desc": "NOx sensor downstream SCR-CAT, lambda value above upper physical threshold",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24079,
+    "fmi": 9,
+    "desc": "NOx sensor downstream SCR-CAT, lambda value below lower physical threshold",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24080,
+    "fmi": 9,
+    "desc": "NOx sensor upstream SCR-CAT, lambda value above upper physical threshold",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24081,
+    "fmi": 9,
+    "desc": "NOx sensor upstream SCR-CAT, lambda value below lower physical threshold",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24083,
+    "fmi": 9,
+    "desc": "NOx sensor downstream SCR-CAT, NOx value below minimum value",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24085,
+    "fmi": 9,
+    "desc": "NOx sensor upstream SCR-CAT, NOx value below lower physical threshold",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24097,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Transmit-Frame DPFBrnAirPmpCtl",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24098,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Transmit-Frame ComDPFBrnPT",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24099,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Transmit-Frame ComDPFC0",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24100,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Transmit-Frame ComDPFHisDat",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24101,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Transmit-Frame ComDPFTstMon",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24102,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Receive-Frame ComRxDPFBrnAirPmpCtl",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24103,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Receive-Frame ComRxDPFBrnAirPmp",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24104,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Receive-Frame ComRxDPFCtl",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24105,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Transmit-Frame ComEGRMsFlw",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24106,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Receive-Frame ComRxEGRMsFlw1",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24107,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Receive-Frame ComRxEGRMsFlw2",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24108,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Transmit-Frame ComEGRTVActr",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24109,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Receive-Frame ComRxEGRTVActr",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24110,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Transmit-Frame ComETVActr",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24111,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Receive-Frame ComRxETVActr",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24112,
+    "fmi": 9,
+    "desc": "Timeout ComITVActr",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24113,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Receive-Frame ComRxITVActr",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24114,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Transmit-Frame A1DOC",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24115,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Transmit-Frame AT1S",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24116,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Transmit-Frame SCR2",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24117,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Transmit-Frame SCR3",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24118,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Receive-Frame ComRxCM0",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24119,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Receive-Frame ComRxCustSCR2",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24120,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Receive-Frame ComRxSCRHtDiag",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24121,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Receive-Frame ComRxTrbChActr",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24122,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Receive-Frame ComRxUQSens",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24123,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Receive-Frame ComSCRHtCtl",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24124,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Receive-Frame ComTxAT1IMG",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24125,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Receive-Frame ComTxTrbChActr",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24141,
+    "fmi": 7,
+    "desc": "DEF dosing valve, dosing valve blocked",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24147,
+    "fmi": 7,
+    "desc": "SCR System, reverting valve blocked 13 SCR System, pressure build up not possible",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24152,
+    "fmi": 2,
+    "desc": "Urea Quality Sensor, Timout CAN message",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24153,
+    "fmi": 2,
+    "desc": "Urea tank level & urea tank temperature via CAN bus, timeout of CAN message",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24156,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Receive-Frame ComRxEBC",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2,
+    "fmi": 0,
+    "desc": "SCR-CAT, Nox emissions above minimum threshold",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24177,
+    "fmi": 7,
+    "desc": "SCR System, DEF suction line blocked",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24178,
+    "fmi": 7,
+    "desc": "SCR System, DEF pressure ot of range",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24190,
+    "fmi": 14,
+    "desc": "Not enough urea in tank or low urea quality or hardware tampering failure is detected or hardware failure is detected",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24191,
+    "fmi": 14,
+    "desc": "A low DEF tank level or a low DEF quality is detected or hardware tampering or hardware failures",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24193,
+    "fmi": 8,
+    "desc": "The standstill-regeneration mode time exceeds the long limit threshold; Vehicle was too long or too often in standstill mode; Change oil and reset counter",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24194,
+    "fmi": 8,
+    "desc": "The standstill-regeneration mode time exceeds the short limit threshold; Vehicle was too long or too often within a short time in standstill mode; Change oil and reset counter",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 24195,
+    "fmi": 14,
+    "desc": "Standstill request due to crystalization ignored too long",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 91,
+    "fmi": 2,
+    "desc": "Incorrect throttle switch inputs 3 Throttle position sensor: voltage above normal or shorted high 4 Throttle position sensor: voltage below normal or shorted low 8 Throttle position sensor: abnormal frequency, pulse width or period",
+    "standard": "Perkins",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 100,
+    "fmi": 3,
+    "desc": "Engine oil pressure sensor: voltage above normal or shorted high 4 Engine oil pressure sensor :voltage below normal or shorted low",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 102,
+    "fmi": 3,
+    "desc": "Boost pressure sensor voltage: voltage above normal or shorted high 4 Boost pressure sensor voltage: voltage below normal or shorted low 10 No 5V to sender",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 105,
+    "fmi": 3,
+    "desc": "Intake manifold temperature sensor: temperature above normal or shorted high 4 Intake manifold temperature sensor: temperature below normal or shorted low",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 105,
+    "fmi": 3,
+    "desc": "Intake manifold air temperature open/short to battery positive (+) 4 Intake manifold air temperature short to ground",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 110,
+    "fmi": 3,
+    "desc": "Engine coolant temperature open/short to battery positive (+) 4 Engine coolant temperature short to ground SPN FMI Description",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 157,
+    "fmi": 3,
+    "desc": "Fuel rail pressure open/short to battery positive (+) 4 Fuel rail pressure short to ground",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 168,
+    "fmi": 0,
+    "desc": "System voltage high 1 System voltage low 2 ECM battery power intermittent/erratic",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 172,
+    "fmi": 3,
+    "desc": "Air inlet temperature voltage high 4 Air inlet temperature voltage low",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 174,
+    "fmi": 2,
+    "desc": "Fuel temperature sensor: data erratic/intermittent or incorrect",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 190,
+    "fmi": 8,
+    "desc": "Engine speed signal abnormal 15 Engine speed: overspeed WARNING",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 190,
+    "fmi": 0,
+    "desc": "Engine overspeed",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 626,
+    "fmi": 5,
+    "desc": "Ether start aid current low 6 Ether start aid current high",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 630,
+    "fmi": 2,
+    "desc": "System parameters incorrect",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 631,
+    "fmi": 2,
+    "desc": "Personality module mismatch",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 637,
+    "fmi": 11,
+    "desc": "Engine timing calibration invalid 637 139 Engine timing calibration required",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 639,
+    "fmi": 9,
+    "desc": "J1939 data link communications 12 J1939 data link malfunction",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 651,
+    "fmi": 2,
+    "desc": "Cylinder #1 injector data incorrect 5 Cylinder #1 injector open circuit 6 Cylinder #1 injector short 7 Cylinder #1 injector not responding",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 652,
+    "fmi": 2,
+    "desc": "Cylinder #2 injector data incorrect 5 Cylinder #2 injector open circuit 6 Cylinder #2 injector short 7 Cylinder #2 injector not responding",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 653,
+    "fmi": 2,
+    "desc": "Cylinder #3 injector data incorrect 5 Cylinder #3 injector open circuit 6 Cylinder #3 injector short 7 Cylinder #3 injector not responding",
+    "standard": "Perkins",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 654,
+    "fmi": 2,
+    "desc": "Cylinder #4 injector data incorrect 5 Cylinder #4 injector open circuit 6 Cylinder #4 injector short 7 Cylinder #4 injector not responding",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 678,
+    "fmi": 3,
+    "desc": "8V DC supply short to battery positive (+) 4 8V DC supply shorted to ground",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 723,
+    "fmi": 8,
+    "desc": "Secondary engine speed signal abnormal",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1188,
+    "fmi": 5,
+    "desc": "Turbo wastegate drive current low",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1196,
+    "fmi": 9,
+    "desc": "Machine security system module non-communication",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1347,
+    "fmi": 5,
+    "desc": "Fuel rail pump output current low 6 Fuel rail pump output current high 7 Fuel rail pressure valve solenoid not responding",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2882,
+    "fmi": 2,
+    "desc": "Mode selector switch: data erratic/intermittent or incorrect",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3509,
+    "fmi": 3,
+    "desc": "5V DC power supply sensor short to battery positive (+) 4 5V DC power supply sensor short to ground Perkins 1100 Troubleshooting Manual Genie part number 123583",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "file": "genie-gth844-deutz-codes"
+  }
+]

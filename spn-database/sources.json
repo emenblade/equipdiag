@@ -68,5 +68,40 @@
     "name": "Suspect Parameter Numbers SPN Codes",
     "type": "SPN",
     "count": 3520
+  },
+  "genie-gth844-deutz-codes": {
+    "name": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
+    "type": "DEUTZ",
+    "count": 340
+  },
+  "doosan-compressor-secu-codes": {
+    "name": "Doosan Compressor SECU Fault Codes (Book 23307366)",
+    "type": "Doosan",
+    "count": 7
+  },
+  "mec3226-fault-codes": {
+    "name": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "type": "MEC",
+    "count": 57
+  },
+  "isuzu-4jj1-codes": {
+    "name": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
+    "type": "Isuzu",
+    "count": 116
+  },
+  "lt7500-forklift-codes": {
+    "name": "Daewoo LT7500-E4 Tier II Fuel System Fault Codes",
+    "type": "Daewoo",
+    "count": 39
+  },
+  "ts45-fault-codes": {
+    "name": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "type": "J1939-Cummins",
+    "count": 447
+  },
+  "gm-flash-codes": {
+    "name": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "type": "GM",
+    "count": 57
   }
 }

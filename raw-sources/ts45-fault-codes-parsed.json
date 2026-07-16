@@ -1,0 +1,4552 @@
+[
+  {
+    "type": "SPN",
+    "code": 629,
+    "fmi": 12,
+    "desc": "Controller #1 Bad Intelligent Device Or Component",
+    "tcode": 100,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 612,
+    "fmi": 2,
+    "desc": "System Diagnostic Code #2 Data Erratic, Intermittent Or Incorrect",
+    "tcode": 101,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 102,
+    "fmi": 3,
+    "desc": "Engine Intake Manifold #1 Pressure Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 102,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 102,
+    "fmi": 4,
+    "desc": "Engine Intake Manifold #1 Pressure Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 103,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 102,
+    "fmi": 16,
+    "desc": "Engine Intake Manifold #1 Pressure Data Valid But Above Normal Operating Range - Moderately Severe Level",
+    "tcode": 104,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 102,
+    "fmi": 18,
+    "desc": "Engine Intake Manifold #1 Pressure Data Valid But Below Normal Operating Range - Moderately Severe Level",
+    "tcode": 105,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 91,
+    "fmi": 3,
+    "desc": "Accelerator Pedal Position 1 Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 106,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 91,
+    "fmi": 4,
+    "desc": "Accelerator Pedal Position 1 Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 107,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 974,
+    "fmi": 3,
+    "desc": "Remote Accelerator Pedal Position Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 108,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 974,
+    "fmi": 4,
+    "desc": "Remote Accelerator Pedal Position Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 109,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 100,
+    "fmi": 3,
+    "desc": "Engine Oil Pressure Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 110,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 100,
+    "fmi": 4,
+    "desc": "Engine Oil Pressure Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 111,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 100,
+    "fmi": 18,
+    "desc": "Engine Oil Pressure Data Valid But Below Normal Operating Range - Moderately Severe Level",
+    "tcode": 112,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 110,
+    "fmi": 3,
+    "desc": "Engine Coolant Temperature Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 113,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 110,
+    "fmi": 4,
+    "desc": "Engine Coolant Temperature Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 114,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 110,
+    "fmi": 16,
+    "desc": "Engine Coolant Temperature Data Valid But Above Normal Operating Range - Moderately Severe Level",
+    "tcode": 115,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 110,
+    "fmi": 0,
+    "desc": "Engine Coolant Temperature Data Valid But Above Normal Operational Range - Most Severe Level",
+    "tcode": 116,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 105,
+    "fmi": 3,
+    "desc": "Engine Intake Manifold 1 Temperature Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 117,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 105,
+    "fmi": 4,
+    "desc": "Engine Intake Manifold 1 Temperature Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 118,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 105,
+    "fmi": 0,
+    "desc": "Engine Intake Manifold 1 Temperature Data Valid But Above Normal Operational Range - Most Severe Level",
+    "tcode": 119,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3464,
+    "fmi": 3,
+    "desc": "Engine Throttle Actuator 1 Control Command Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 120,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3464,
+    "fmi": 4,
+    "desc": "Engine Throttle Actuator 1 Control Command Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 121,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3464,
+    "fmi": 7,
+    "desc": "Engine Throttle Actuator 1 Control Command Mechanical System Not Responding Or Out Of Adjustment",
+    "tcode": 122,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3510,
+    "fmi": 4,
+    "desc": "Sensor supply voltage 2 Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 123,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 111,
+    "fmi": 3,
+    "desc": "Engine Coolant Level Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 124,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 111,
+    "fmi": 4,
+    "desc": "Engine Coolant Level Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 125,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 111,
+    "fmi": 18,
+    "desc": "Engine Coolant Level Data Valid But Below Normal Operating Range - Moderately Severe Level",
+    "tcode": 126,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 175,
+    "fmi": 3,
+    "desc": "Engine Oil Temperature 1 Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 127,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 175,
+    "fmi": 4,
+    "desc": "Engine Oil Temperature 1 Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 128,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 175,
+    "fmi": 0,
+    "desc": "Engine Oil Temperature 1 Data Valid But Above Normal Operational Range - Most Severe Level",
+    "tcode": 129,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 108,
+    "fmi": 3,
+    "desc": "Barometric Pressure Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 130,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 108,
+    "fmi": 4,
+    "desc": "Barometric Pressure Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 131,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3510,
+    "fmi": 3,
+    "desc": "Sensor supply voltage 2 Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 132,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 190,
+    "fmi": 0,
+    "desc": "Engine Speed Data Valid But Above Normal Operational Range - Most Severe Level",
+    "tcode": 133,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 111,
+    "fmi": 1,
+    "desc": "Engine Coolant Level 1 Data Valid But Below Normal Opera- tional Range - Most Severe Level",
+    "tcode": 134,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3511,
+    "fmi": 4,
+    "desc": "Sensor supply voltage 3 Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 135,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3511,
+    "fmi": 3,
+    "desc": "Sensor supply voltage 3 Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 136,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 84,
+    "fmi": 2,
+    "desc": "Wheel-Based Vehicle Speed Data Erratic, Intermittent Or Incorrect",
+    "tcode": 137,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 84,
+    "fmi": 10,
+    "desc": "Wheel-Based Vehicle Speed Abnormal Rate Of Change",
+    "tcode": 138,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 647,
+    "fmi": 4,
+    "desc": "Engine Fan Clutch 1 Output Device Driver Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 139,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 171,
+    "fmi": 3,
+    "desc": "Ambient Air Temperature Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 140,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 171,
+    "fmi": 4,
+    "desc": "Ambient Air Temperature Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 141,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1347,
+    "fmi": 4,
+    "desc": "Engine Fuel Pump Pressurizing Assembly #1 Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 142,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1347,
+    "fmi": 3,
+    "desc": "Engine Fuel Pump Pressurizing Assembly #1 Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 143,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1347,
+    "fmi": 7,
+    "desc": "Engine Fuel Pump Pressurizing Assembly #1 Mechanical System Not Responding Or Out Of Adjustment",
+    "tcode": 144,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 639,
+    "fmi": 9,
+    "desc": "J1939 Network #1, Primary Vehicle Network ( previously SAE J1939 Data Link) Abnormal Update Rate",
+    "tcode": 145,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 639,
+    "fmi": 13,
+    "desc": "J1939 Network #1, Primary Vehicle Network ( previously SAE J1939 Data Link) Out Of Calibration",
+    "tcode": 146,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 91,
+    "fmi": 19,
+    "desc": "Accelerator Pedal Position 1 Received Network Data In Error",
+    "tcode": 147,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 974,
+    "fmi": 19,
+    "desc": "Remote Accelerator Pedal Position Received Network Data In Error",
+    "tcode": 148,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 108,
+    "fmi": 2,
+    "desc": "Barometric Pressure Data Erratic, Intermittent Or Incorrect",
+    "tcode": 149,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 651,
+    "fmi": 5,
+    "desc": "Engine Injector Cylinder #01 Current Below Normal Or Open Circuit",
+    "tcode": 150,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 655,
+    "fmi": 5,
+    "desc": "Engine Injector Cylinder #05 Current Below Normal Or Open Circuit",
+    "tcode": 151,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 653,
+    "fmi": 5,
+    "desc": "Engine Injector Cylinder #03 Current Below Normal Or Open Circuit",
+    "tcode": 152,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 656,
+    "fmi": 5,
+    "desc": "Engine Injector Cylinder #06 Current Below Normal Or Open Circuit",
+    "tcode": 153,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 652,
+    "fmi": 5,
+    "desc": "Engine Injector Cylinder #02 Current Below Normal Or Open Circuit",
+    "tcode": 154,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 654,
+    "fmi": 5,
+    "desc": "Engine Injector Cylinder #04 Current Below Normal Or Open Circuit",
+    "tcode": 155,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 110,
+    "fmi": 2,
+    "desc": "Engine Coolant Temperature Data Erratic, Intermittent Or Incorrect",
+    "tcode": 156,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1267,
+    "fmi": 3,
+    "desc": "Idle Shutdown Vehicle Accessories Relay Driver Circuit Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 157,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1267,
+    "fmi": 4,
+    "desc": "Idle Shutdown Vehicle Accessories Relay Driver Circuit Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 158,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 629,
+    "fmi": 12,
+    "desc": "Controller #1 Bad Intelligent Device Or Component",
+    "tcode": 159,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 630,
+    "fmi": 12,
+    "desc": "Calibration Memory Bad Intelligent Device Or Component",
+    "tcode": 160,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3597,
+    "fmi": 12,
+    "desc": "ECU Power Output Supply Voltage #1 Bad Intelligent Device Or Component",
+    "tcode": 161,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3509,
+    "fmi": 4,
+    "desc": "Sensor supply voltage 1 Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 162,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 729,
+    "fmi": 5,
+    "desc": "Engine Intake Air Heater Driver #1 Current Below Normal Or Open Circuit",
+    "tcode": 163,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3509,
+    "fmi": 3,
+    "desc": "Sensor supply voltage 1 Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 164,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 100,
+    "fmi": 1,
+    "desc": "Engine Oil Pressure Data Valid But Below Normal Operational Range - Most Severe Level",
+    "tcode": 165,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 97,
+    "fmi": 15,
+    "desc": "Water In Fuel Indicator Data Valid But Above Normal Operat- ing Range - Least Severe Level",
+    "tcode": 166,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 175,
+    "fmi": 16,
+    "desc": "Engine Oil Temperature 1 Data Valid But Above Normal Operating Range - Moderately Severe Level",
+    "tcode": 167,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 175,
+    "fmi": 2,
+    "desc": "Engine Oil Temperature 1 Data Erratic, Intermittent Or Incorrect",
+    "tcode": 168,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 639,
+    "fmi": 9,
+    "desc": "J1939 Network #1, Primary Vehicle Network ( previously SAE J1939 Data Link) Abnormal Update Rate",
+    "tcode": 169,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 97,
+    "fmi": 3,
+    "desc": "Water In Fuel Indicator Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 170,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 97,
+    "fmi": 4,
+    "desc": "Water In Fuel Indicator Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 171,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 100,
+    "fmi": 2,
+    "desc": "Engine Oil Pressure Data Erratic, Intermittent Or Incorrect",
+    "tcode": 172,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 105,
+    "fmi": 2,
+    "desc": "Engine Intake Manifold 1 Temperature Data Erratic, Intermittent Or Incorrect",
+    "tcode": 173,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 168,
+    "fmi": 18,
+    "desc": "Battery Potential / Power Input 1 Data Valid But Below Normal Operating Range - Moderately Severe Level",
+    "tcode": 174,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 168,
+    "fmi": 16,
+    "desc": "Battery Potential / Power Input 1 Data Valid But Above Normal Operating Range - Moderately Severe Level",
+    "tcode": 175,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 157,
+    "fmi": 0,
+    "desc": "Engine Injector Metering Rail 1 Pressure Data Valid But Above Normal Operational Range - Most Severe Level",
+    "tcode": 176,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 157,
+    "fmi": 3,
+    "desc": "Engine Injector Metering Rail 1 Pressure Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 177,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 157,
+    "fmi": 4,
+    "desc": "Engine Injector Metering Rail 1 Pressure Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 178,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1349,
+    "fmi": 3,
+    "desc": "Engine Injector Metering Rail 2 Pressure Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 179,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1349,
+    "fmi": 4,
+    "desc": "Engine Injector Metering Rail 2 Pressure Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 180,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3514,
+    "fmi": 3,
+    "desc": "Sensor supply voltage 6 Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 181,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3514,
+    "fmi": 4,
+    "desc": "Sensor supply voltage 6 Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 182,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 174,
+    "fmi": 2,
+    "desc": "Engine Fuel Temperature 1 Data Erratic, Intermittent Or Incorrect",
+    "tcode": 183,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 157,
+    "fmi": 16,
+    "desc": "Engine Injector Metering Rail 1 Pressure Data Valid But Above Normal Operating Range - Moderately Severe Level",
+    "tcode": 184,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 101,
+    "fmi": 16,
+    "desc": "Engine Crankcase Pressure Data Valid But Above Normal Operating Range - Moderately Severe Level",
+    "tcode": 185,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 101,
+    "fmi": 0,
+    "desc": "Engine Crankcase Pressure Data Valid But Above Normal Operational Range - Most Severe Level",
+    "tcode": 186,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 157,
+    "fmi": 18,
+    "desc": "Engine Injector Metering Rail 1 Pressure Data Valid But Below Normal Operating Range - Moderately Severe Level",
+    "tcode": 187,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 677,
+    "fmi": 3,
+    "desc": "Engine Starter Motor Relay Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 188,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 677,
+    "fmi": 4,
+    "desc": "Engine Starter Motor Relay Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 189,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 103,
+    "fmi": 16,
+    "desc": "Engine Turbocharger 1 Speed Data Valid But Above Normal Operating Range - Moderately Severe Level",
+    "tcode": 190,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 167,
+    "fmi": 16,
+    "desc": "Charging System Potential (Voltage) Data Valid But Above Normal Operating Range - Moderately Severe Level",
+    "tcode": 191,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 167,
+    "fmi": 18,
+    "desc": "Charging System Potential (Voltage) Data Valid But Below Normal Operating Range - Moderately Severe Level",
+    "tcode": 192,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 167,
+    "fmi": 1,
+    "desc": "Charging System Potential (Voltage) Data Valid But Below Normal Operational Range - Most Severe Level",
+    "tcode": 193,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1176,
+    "fmi": 18,
+    "desc": "Engine Turbocharger 1 Compressor Intake Pressure Data Valid But Below Normal Operating Range - Moderately Severe Level",
+    "tcode": 194,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1378,
+    "fmi": 31,
+    "desc": "Engine Oil Change Interval Condition Exists",
+    "tcode": 195,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 103,
+    "fmi": 2,
+    "desc": "Engine Turbocharger 1 Speed Data Erratic, Intermittent Or Incorrect",
+    "tcode": 196,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 103,
+    "fmi": 18,
+    "desc": "Engine Turbocharger 1 Speed Data Valid But Below Normal Operating Range - Moderately Severe Level",
+    "tcode": 197,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 190,
+    "fmi": 2,
+    "desc": "Engine Speed Data Erratic, Intermittent Or Incorrect",
+    "tcode": 198,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1172,
+    "fmi": 3,
+    "desc": "Engine Turbocharger 1 Compressor Intake Temperature Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 199,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1172,
+    "fmi": 4,
+    "desc": "Engine Turbocharger 1 Compressor Intake Temperature Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 200,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1172,
+    "fmi": 2,
+    "desc": "Engine Turbocharger 1 Compressor Intake Temperature Data Erratic, Intermittent Or Incorrect",
+    "tcode": 201,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1136,
+    "fmi": 3,
+    "desc": "Engine ECU Temperature Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 202,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1136,
+    "fmi": 4,
+    "desc": "Engine ECU Temperature Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 203,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1136,
+    "fmi": 2,
+    "desc": "Engine ECU Temperature Data Erratic, Intermittent Or Incorrect",
+    "tcode": 204,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 723,
+    "fmi": 7,
+    "desc": "Engine Speed 2 Mechanical System Not Responding Or Out Of Adjustment",
+    "tcode": 205,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 157,
+    "fmi": 7,
+    "desc": "Engine Injector Metering Rail 1 Pressure Mechanical System Not Responding Or Out Of Adjustment",
+    "tcode": 206,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 723,
+    "fmi": 2,
+    "desc": "Engine Speed 2 Data Erratic, Intermittent Or Incorrect",
+    "tcode": 207,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1590,
+    "fmi": 2,
+    "desc": "Adaptive Cruise Control Mode Data Erratic, Intermittent Or Incorrect",
+    "tcode": 208,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3597,
+    "fmi": 2,
+    "desc": "ECU Power Output Supply Voltage #1 Data Erratic, Intermit- tent Or Incorrect",
+    "tcode": 209,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 651,
+    "fmi": 7,
+    "desc": "Engine Injector Cylinder #01 Mechanical System Not Responding Or Out Of Adjustment",
+    "tcode": 210,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 652,
+    "fmi": 7,
+    "desc": "Engine Injector Cylinder #02 Mechanical System Not Responding Or Out Of Adjustment",
+    "tcode": 211,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 653,
+    "fmi": 7,
+    "desc": "Engine Injector Cylinder #03 Mechanical System Not Responding Or Out Of Adjustment",
+    "tcode": 212,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 654,
+    "fmi": 7,
+    "desc": "Engine Injector Cylinder #04 Mechanical System Not Responding Or Out Of Adjustment",
+    "tcode": 213,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 655,
+    "fmi": 7,
+    "desc": "Engine Injector Cylinder #05 Mechanical System Not Responding Or Out Of Adjustment",
+    "tcode": 214,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 656,
+    "fmi": 7,
+    "desc": "Engine Injector Cylinder #06 Mechanical System Not Responding Or Out Of Adjustment",
+    "tcode": 215,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 27,
+    "fmi": 2,
+    "desc": "Engine Exhaust Gas Recirculation 1 Valve Position Data Erratic, Intermittent Or Incorrect",
+    "tcode": 216,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2623,
+    "fmi": 3,
+    "desc": "Accelerator Pedal #1 Channel 2 Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 217,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2623,
+    "fmi": 4,
+    "desc": "Accelerator Pedal #1 Channel 2 Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 218,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 91,
+    "fmi": 2,
+    "desc": "Accelerator Pedal Position 1 Data Erratic, Intermittent Or Incorrect",
+    "tcode": 219,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 91,
+    "fmi": 19,
+    "desc": "Accelerator Pedal Position 1 Received Network Data In Error",
+    "tcode": 220,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1323,
+    "fmi": 31,
+    "desc": "Engine Misfire Cylinder #1 Condition Exists",
+    "tcode": 221,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1324,
+    "fmi": 31,
+    "desc": "Engine Misfire Cylinder #2 Condition Exists",
+    "tcode": 222,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1325,
+    "fmi": 31,
+    "desc": "Engine Misfire Cylinder #3 Condition Exists",
+    "tcode": 223,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1326,
+    "fmi": 31,
+    "desc": "Engine Misfire Cylinder #4 Condition Exists",
+    "tcode": 224,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1327,
+    "fmi": 31,
+    "desc": "Engine Misfire Cylinder #5 Condition Exists",
+    "tcode": 225,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1328,
+    "fmi": 31,
+    "desc": "Engine Misfire Cylinder #6 Condition Exists",
+    "tcode": 226,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4796,
+    "fmi": 31,
+    "desc": "Aftertreatment 1 Diesel Oxidation Catalyst Missing Condition Exists",
+    "tcode": 227,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1761,
+    "fmi": 4,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Tank Level Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 228,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1761,
+    "fmi": 3,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Tank Level Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 229,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1761,
+    "fmi": 1,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Tank Level Data Valid But Below Normal Operational Range - Most Severe Level",
+    "tcode": 230,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3031,
+    "fmi": 4,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Tank Temperature Volt- age Below Normal, Or Shorted To Low Source",
+    "tcode": 231,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3031,
+    "fmi": 3,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Tank Temperature Volt- age Above Normal, Or Shorted To High Source",
+    "tcode": 232,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3031,
+    "fmi": 2,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Tank Temperature Data Erratic, Intermittent Or Incorrect",
+    "tcode": 233,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3362,
+    "fmi": 31,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Dosing Unit Input Lines Condition Exists",
+    "tcode": 234,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3363,
+    "fmi": 3,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Tank Heater Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 235,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3363,
+    "fmi": 4,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Tank Heater Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 236,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5298,
+    "fmi": 18,
+    "desc": "Aftertreatment 1 Diesel Oxidation Catalyst Conversion Efficiency Data Valid But Below Normal Operating Range - Moderately Severe Level",
+    "tcode": 237,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3513,
+    "fmi": 3,
+    "desc": "Sensor supply voltage 5 Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 238,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3513,
+    "fmi": 4,
+    "desc": "Sensor supply voltage 5 Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 239,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3363,
+    "fmi": 18,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Tank Heater Data Valid But Below Normal Operating Range - Moderately Severe Level",
+    "tcode": 240,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3363,
+    "fmi": 16,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Tank Heater Data Valid But Above Normal Operating Range - Moderately Severe Level",
+    "tcode": 241,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1322,
+    "fmi": 31,
+    "desc": "Engine Misfire for Multiple Cylinders Condition Exists",
+    "tcode": 242,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2634,
+    "fmi": 3,
+    "desc": "Power Relay Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 243,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2634,
+    "fmi": 4,
+    "desc": "Power Relay Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 244,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 101,
+    "fmi": 3,
+    "desc": "Engine Crankcase Pressure Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 245,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 101,
+    "fmi": 4,
+    "desc": "Engine Crankcase Pressure Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 246,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 97,
+    "fmi": 16,
+    "desc": "Water In Fuel Indicator Data Valid But Above Normal Operat- ing Range - Moderately Severe Level",
+    "tcode": 247,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 411,
+    "fmi": 2,
+    "desc": "Engine Exhaust Gas Recirculation 1 Differential Pressure Data Erratic, Intermittent Or Incorrect",
+    "tcode": 248,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 412,
+    "fmi": 2,
+    "desc": "Engine Exhaust Gas Recirculation 1 Temperature Data Erratic, Intermittent Or Incorrect",
+    "tcode": 249,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3251,
+    "fmi": 3,
+    "desc": "Aftertreatment 1 Diesel Particulate Filter Differential Pressure Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 250,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3251,
+    "fmi": 4,
+    "desc": "Aftertreatment 1 Diesel Particulate Filter Differential Pressure Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 251,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3251,
+    "fmi": 2,
+    "desc": "Aftertreatment 1 Diesel Particulate Filter Differential Pressure Data Erratic, Intermittent Or Incorrect",
+    "tcode": 252,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3216,
+    "fmi": 4,
+    "desc": "Aftertreatment 1 Intake NOx Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 253,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3226,
+    "fmi": 4,
+    "desc": "Aftertreatment 1 Outlet NOx Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 254,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2791,
+    "fmi": 13,
+    "desc": "Engine Exhaust Gas Recirculation 1 (EGR1) Valve Control Out Of Calibration",
+    "tcode": 255,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 641,
+    "fmi": 13,
+    "desc": "Engine Variable Geometry Turbocharger Actuator #1 Out Of Calibration",
+    "tcode": 256,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3251,
+    "fmi": 16,
+    "desc": "Aftertreatment 1 Diesel Particulate Filter Differential Pressure Data Valid But Above Normal Operating Range - Moderately Severe Level",
+    "tcode": 257,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3251,
+    "fmi": 0,
+    "desc": "Aftertreatment 1 Diesel Particulate Filter Differential Pressure Data Valid But Above Normal Operational Range - Most Severe Level",
+    "tcode": 258,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3482,
+    "fmi": 3,
+    "desc": "Aftertreatment 1 Fuel Enable Actuator Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 259,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3482,
+    "fmi": 4,
+    "desc": "Aftertreatment 1 Fuel Enable Actuator Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 260,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3482,
+    "fmi": 2,
+    "desc": "Aftertreatment 1 Fuel Enable Actuator Data Erratic, Intermit- tent Or Incorrect",
+    "tcode": 261,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3480,
+    "fmi": 2,
+    "desc": "Aftertreatment 1 Fuel Pressure 1 Data Erratic, Intermittent Or Incorrect",
+    "tcode": 262,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3480,
+    "fmi": 3,
+    "desc": "Aftertreatment 1 Fuel Pressure 1 Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 263,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3480,
+    "fmi": 4,
+    "desc": "Aftertreatment 1 Fuel Pressure 1 Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 264,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3556,
+    "fmi": 2,
+    "desc": "Aftertreatment 1 Hydrocarbon Doser Data Erratic, Intermit- tent Or Incorrect",
+    "tcode": 265,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3597,
+    "fmi": 18,
+    "desc": "ECU Power Output Supply Voltage #1 Data Valid But Below Normal Operating Range - Moderately Severe Level",
+    "tcode": 266,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 101,
+    "fmi": 2,
+    "desc": "Engine Crankcase Pressure Data Erratic, Intermittent Or Incorrect",
+    "tcode": 267,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3555,
+    "fmi": 17,
+    "desc": "Ambient Air Density Data Valid But Below Normal Operating Range - Least Severe Level",
+    "tcode": 268,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2791,
+    "fmi": 15,
+    "desc": "Engine Exhaust Gas Recirculation 1 (EGR1) Valve Control Data Valid But Above Normal Operat- ing Range - Least Severe Level",
+    "tcode": 269,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 641,
+    "fmi": 15,
+    "desc": "Engine Variable Geometry Turbocharger Actuator #1 Data Valid But Above Normal Operating Range - Least Severe Level",
+    "tcode": 270,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3482,
+    "fmi": 7,
+    "desc": "Aftertreatment 1 Fuel Enable Actuator Mechanical System Not Responding Or Out Of Adjustment",
+    "tcode": 271,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 101,
+    "fmi": 15,
+    "desc": "Engine Crankcase Pressure Data Valid But Above Normal Operating Range - Least Severe Level",
+    "tcode": 272,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3556,
+    "fmi": 5,
+    "desc": "Aftertreatment 1 Hydrocarbon Doser Current Below Normal Or Open Circuit",
+    "tcode": 273,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3936,
+    "fmi": 15,
+    "desc": "Aftertreatment Diesel Particulate Filter System Data Valid But Above Normal Operating Range - Least Severe Level",
+    "tcode": 274,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4795,
+    "fmi": 31,
+    "desc": "Aftertreatment 1 Diesel Particulate Filter Missing Condition Exists",
+    "tcode": 275,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1072,
+    "fmi": 3,
+    "desc": "Engine (Compression) Brake Output #1 Voltage Above Nor- mal, Or Shorted To High Source",
+    "tcode": 276,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1072,
+    "fmi": 4,
+    "desc": "Engine (Compression) Brake Output #1 Voltage Below Nor- mal, Or Shorted To Low Source",
+    "tcode": 277,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3512,
+    "fmi": 3,
+    "desc": "Sensor supply voltage 4 Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 278,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3512,
+    "fmi": 4,
+    "desc": "Sensor supply voltage 4 Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 279,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 641,
+    "fmi": 11,
+    "desc": "Engine Variable Geometry Turbocharger Actuator #1 Root Cause Not Known",
+    "tcode": 280,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 96,
+    "fmi": 3,
+    "desc": "Fuel Level 1 Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 281,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 96,
+    "fmi": 4,
+    "desc": "Fuel Level 1 Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 282,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1075,
+    "fmi": 3,
+    "desc": "Engine Electric Lift Pump for Engine Fuel Supply Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 283,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1075,
+    "fmi": 4,
+    "desc": "Engine Electric Lift Pump for Engine Fuel Supply Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 284,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 27,
+    "fmi": 4,
+    "desc": "Engine Exhaust Gas Recirculation 1 Valve Position Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 285,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 411,
+    "fmi": 3,
+    "desc": "Engine Exhaust Gas Recirculation 1 Differential Pressure Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 286,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 411,
+    "fmi": 4,
+    "desc": "Engine Exhaust Gas Recirculation 1 Differential Pressure Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 287,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 103,
+    "fmi": 15,
+    "desc": "Engine Turbocharger 1 Speed Data Valid But Above Normal Operating Range - Least Severe Level",
+    "tcode": 288,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 633,
+    "fmi": 31,
+    "desc": "Engine Fuel Actuator 1 Control Command Condition Exists",
+    "tcode": 289,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 190,
+    "fmi": 2,
+    "desc": "Engine Speed Data Erratic, Intermittent Or Incorrect",
+    "tcode": 290,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 723,
+    "fmi": 2,
+    "desc": "Engine Speed 2 Data Erratic, Intermittent Or Incorrect",
+    "tcode": 291,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2789,
+    "fmi": 15,
+    "desc": "Engine Turbocharger 1 Calculated Turbine Intake Tempera- ture Data Valid But Above Normal Operating Range - Least Severe Level",
+    "tcode": 292,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2629,
+    "fmi": 15,
+    "desc": "Engine Turbocharger 1 Compressor Outlet Temperature Data Valid But Above Normal Operating Range - Least Severe Level",
+    "tcode": 293,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2791,
+    "fmi": 5,
+    "desc": "Engine Exhaust Gas Recirculation 1 (EGR1) Valve Control Current Below Normal Or Open Circuit",
+    "tcode": 294,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2791,
+    "fmi": 6,
+    "desc": "Engine Exhaust Gas Recirculation 1 (EGR1) Valve Control Current Above Normal Or Grounded Circuit",
+    "tcode": 295,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2791,
+    "fmi": 7,
+    "desc": "Engine Exhaust Gas Recirculation 1 (EGR1) Valve Control Mechanical System Not Responding Or Out Of Adjustment",
+    "tcode": 296,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1073,
+    "fmi": 4,
+    "desc": "Engine (Compression) Brake Output #2 Voltage Below Nor- mal, Or Shorted To Low Source",
+    "tcode": 297,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1073,
+    "fmi": 3,
+    "desc": "Engine (Compression) Brake Output #2 Voltage Above Nor- mal, Or Shorted To High Source",
+    "tcode": 298,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 95,
+    "fmi": 16,
+    "desc": "Engine Fuel Filter Differential Pressure Data Valid But Above Normal Operating Range - Moderately Severe Level",
+    "tcode": 299,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1209,
+    "fmi": 3,
+    "desc": "Engine Exhaust Gas Pressure Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 300,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1209,
+    "fmi": 4,
+    "desc": "Engine Exhaust Gas Pressure Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 301,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 412,
+    "fmi": 3,
+    "desc": "Engine Exhaust Gas Recirculation 1 Temperature Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 302,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 412,
+    "fmi": 4,
+    "desc": "Engine Exhaust Gas Recirculation 1 Temperature Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 303,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 647,
+    "fmi": 3,
+    "desc": "Engine Fan Clutch 1 Output Device Driver Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 304,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 641,
+    "fmi": 7,
+    "desc": "Engine Variable Geometry Turbocharger Actuator #1 Mechanical System Not Responding Or Out Of Adjustment",
+    "tcode": 305,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 171,
+    "fmi": 2,
+    "desc": "Ambient Air Temperature Data Erratic, Intermittent Or Incorrect",
+    "tcode": 306,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1634,
+    "fmi": 13,
+    "desc": "Calibration Verification Number Out Of Calibration",
+    "tcode": 307,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 111,
+    "fmi": 17,
+    "desc": "Engine Coolant Level Data Valid But Below Normal Operating Range - Least Severe Level",
+    "tcode": 308,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 641,
+    "fmi": 13,
+    "desc": "Engine Variable Geometry Turbocharger Actuator #1 Out Of Calibration",
+    "tcode": 309,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2789,
+    "fmi": 16,
+    "desc": "Engine Turbocharger 1 Calculated Turbine Intake Tempera- ture Data Valid But Above Normal Operating Range - Moder- ately Severe Level",
+    "tcode": 310,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 190,
+    "fmi": 16,
+    "desc": "Engine Speed Data Valid But Above Normal Operating Range - Moderately Severe Level",
+    "tcode": 311,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1209,
+    "fmi": 2,
+    "desc": "Engine Exhaust Gas Pressure Data Erratic, Intermittent Or Incorrect",
+    "tcode": 312,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 729,
+    "fmi": 3,
+    "desc": "Engine Intake Air Heater Driver #1 Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 313,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 729,
+    "fmi": 4,
+    "desc": "Engine Intake Air Heater Driver #1 Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 314,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 641,
+    "fmi": 12,
+    "desc": "Engine Variable Geometry Turbocharger Actuator #1 Bad Intelligent Device Or Component",
+    "tcode": 315,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 641,
+    "fmi": 31,
+    "desc": "Engine Variable Geometry Turbocharger Actuator #1 Condition Exists",
+    "tcode": 316,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 641,
+    "fmi": 9,
+    "desc": "Engine Variable Geometry Turbocharger Actuator #1 Abnormal Update Rate",
+    "tcode": 317,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5298,
+    "fmi": 17,
+    "desc": "Aftertreatment 1 Diesel Oxidation Catalyst Conversion Ef- ficiency Data Valid But Below Normal Operating Range - Least Severe Level",
+    "tcode": 318,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3251,
+    "fmi": 15,
+    "desc": "Aftertreatment 1 Diesel Particulate Filter Differential Pressure Data Valid But Above Normal Operating Range - Least Severe Level",
+    "tcode": 319,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 110,
+    "fmi": 31,
+    "desc": "Engine Coolant Temperature Condition Exists",
+    "tcode": 320,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 110,
+    "fmi": 31,
+    "desc": "Engine Coolant Temperature Condition Exists",
+    "tcode": 321,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 20325,
+    "fmi": 31,
+    "desc": "Manufacturer Assignable SPN Condition Exists",
+    "tcode": 322,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 626,
+    "fmi": 3,
+    "desc": "Engine Start Enable Device 1 Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 323,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 626,
+    "fmi": 4,
+    "desc": "Engine Start Enable Device 1 Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 324,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1209,
+    "fmi": 16,
+    "desc": "Engine Exhaust Gas Pressure Data Valid But Above Normal Operating Range - Moderately Severe Level",
+    "tcode": 325,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3226,
+    "fmi": 9,
+    "desc": "Aftertreatment 1 Outlet NOx Abnormal Update Rate",
+    "tcode": 326,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3703,
+    "fmi": 31,
+    "desc": "Diesel Particulate Filter Active Regeneration Inhibited Due to Inhibit Switch Condition Exists",
+    "tcode": 327,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 110,
+    "fmi": 18,
+    "desc": "Engine Coolant Temperature Data Valid But Below Normal Operating Range - Moderately Severe Level",
+    "tcode": 328,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3480,
+    "fmi": 17,
+    "desc": "Aftertreatment 1 Fuel Pressure 1 Data Valid But Below Normal Operating Range - Least Severe Level",
+    "tcode": 329,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 412,
+    "fmi": 15,
+    "desc": "Engine Exhaust Gas Recirculation 1 Temperature Data Valid But Above Normal Operating Range - Least Severe Level",
+    "tcode": 330,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 412,
+    "fmi": 16,
+    "desc": "Engine Exhaust Gas Recirculation 1 Temperature Data Valid But Above Normal Operating Range - Moderately Severe Level",
+    "tcode": 331,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 110,
+    "fmi": 15,
+    "desc": "Engine Coolant Temperature Data Valid But Above Normal Operating Range - Least Severe Level",
+    "tcode": 332,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 105,
+    "fmi": 15,
+    "desc": "Engine Intake Manifold 1 Temperature Data Valid But Above Normal Operating Range - Least Severe Level",
+    "tcode": 333,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 102,
+    "fmi": 2,
+    "desc": "Engine Intake Manifold #1 Pressure Data Erratic, Intermittent Or Incorrect",
+    "tcode": 334,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3361,
+    "fmi": 2,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Dosing Unit Data Er- ratic, Intermittent Or Incorrect",
+    "tcode": 335,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3610,
+    "fmi": 3,
+    "desc": "Diesel Particulate Filter Outlet Pressure 1 Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 336,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3610,
+    "fmi": 4,
+    "desc": "Diesel Particulate Filter Outlet Pressure 1 Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 337,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3610,
+    "fmi": 2,
+    "desc": "Diesel Particulate Filter Outlet Pressure 1 Data Erratic, Inter- mittent Or Incorrect",
+    "tcode": 338,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5019,
+    "fmi": 3,
+    "desc": "Engine Exhaust Gas Recirculation 1 Outlet Pressure Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 339,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5019,
+    "fmi": 4,
+    "desc": "Engine Exhaust Gas Recirculation 1 Outlet Pressure Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 340,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5019,
+    "fmi": 2,
+    "desc": "Engine Exhaust Gas Recirculation 1 Outlet Pressure Data Erratic, Intermittent Or Incorrect",
+    "tcode": 341,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3667,
+    "fmi": 3,
+    "desc": "Engine Air Shutoff Status Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 342,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3667,
+    "fmi": 4,
+    "desc": "Engine Air Shutoff Status Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 343,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4363,
+    "fmi": 3,
+    "desc": "Aftertreatment 1 SCR Catalyst Outlet Gas Temperature Volt- age Above Normal, Or Shorted To High Source",
+    "tcode": 344,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4363,
+    "fmi": 4,
+    "desc": "Aftertreatment 1 SCR Catalyst Outlet Gas Temperature Volt- age Below Normal, Or Shorted To Low Source",
+    "tcode": 345,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4363,
+    "fmi": 2,
+    "desc": "Aftertreatment 1 SCR Catalyst Outlet Gas Temperature Data Erratic, Intermittent Or Incorrect",
+    "tcode": 346,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4363,
+    "fmi": 10,
+    "desc": "Aftertreatment 1 SCR Catalyst Outlet Gas Temperature Abnor- mal Rate Of Change",
+    "tcode": 347,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4794,
+    "fmi": 31,
+    "desc": "Aftertreatment 1 SCR Catalyst System Missing Condition Exists",
+    "tcode": 348,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4363,
+    "fmi": 0,
+    "desc": "Aftertreatment 1 SCR Catalyst Outlet Gas Temperature Data Valid But Above Normal Operational Range - Most Severe Level",
+    "tcode": 349,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3556,
+    "fmi": 18,
+    "desc": "Aftertreatment 1 Hydrocarbon Doser Data Valid But Below Normal Operating Range - Moderately Severe Level",
+    "tcode": 350,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3936,
+    "fmi": 16,
+    "desc": "Aftertreatment Diesel Particulate Filter System Data Valid But Above Normal Operating Range - Moderately Severe Level",
+    "tcode": 351,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1623,
+    "fmi": 9,
+    "desc": "Tachograph output shaft speed Abnormal Update Rate",
+    "tcode": 352,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1623,
+    "fmi": 19,
+    "desc": "Tachograph output shaft speed Received Network Data In Error",
+    "tcode": 353,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3490,
+    "fmi": 4,
+    "desc": "Aftertreatment 1 Purge Air Actuator Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 354,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3490,
+    "fmi": 3,
+    "desc": "Aftertreatment 1 Purge Air Actuator Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 355,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3490,
+    "fmi": 7,
+    "desc": "Aftertreatment 1 Purge Air Actuator Mechanical System Not Responding Or Out Of Adjustment",
+    "tcode": 356,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3216,
+    "fmi": 2,
+    "desc": "Aftertreatment 1 Intake NOx Data Erratic, Intermittent Or Incorrect",
+    "tcode": 357,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3216,
+    "fmi": 9,
+    "desc": "Aftertreatment 1 Intake NOx Abnormal Update Rate",
+    "tcode": 358,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4363,
+    "fmi": 16,
+    "desc": "Aftertreatment 1 SCR Catalyst Outlet Gas Temperature Data Valid But Above Normal Operating Range - Moderately Severe Level",
+    "tcode": 359,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4340,
+    "fmi": 3,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Line Heater 1 State Volt- age Above Normal, Or Shorted To High Source",
+    "tcode": 360,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4340,
+    "fmi": 4,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Line Heater 1 State Volt- age Below Normal, Or Shorted To Low Source",
+    "tcode": 361,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4342,
+    "fmi": 3,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Line Heater 2 State Volt- age Above Normal, Or Shorted To High Source",
+    "tcode": 362,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4342,
+    "fmi": 4,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Line Heater 2 State Volt- age Below Normal, Or Shorted To Low Source",
+    "tcode": 363,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3363,
+    "fmi": 7,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Tank Heater Mechanical System Not Responding Or Out Of Adjustment",
+    "tcode": 364,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3060,
+    "fmi": 18,
+    "desc": "Engine Cooling System Monitor Data Valid But Below Normal Operating Range - Moderately Severe Level",
+    "tcode": 365,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3936,
+    "fmi": 7,
+    "desc": "Aftertreatment Diesel Particulate Filter System Mechanical System Not Responding Or Out Of Adjustment",
+    "tcode": 366,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4765,
+    "fmi": 16,
+    "desc": "Aftertreatment 1 Diesel Oxidation Catalyst Intake Gas Temperature Data Valid But Above Normal Operating Range - Moderately Severe Level",
+    "tcode": 367,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3242,
+    "fmi": 16,
+    "desc": "Aftertreatment 1 Diesel Particulate Filter Intake Gas Tem- perature Data Valid But Above Normal Operating Range - Moderately Severe Level",
+    "tcode": 368,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3242,
+    "fmi": 15,
+    "desc": "Aftertreatment 1 Diesel Particulate Filter Intake Gas Tempera- ture Data Valid But Above Normal Operating Range - Least Severe Level",
+    "tcode": 369,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3246,
+    "fmi": 16,
+    "desc": "Aftertreatment 1 Diesel Particulate Filter Outlet Gas Temperature Data Valid But Above Normal Operating Range - Moderately Severe Level",
+    "tcode": 370,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3246,
+    "fmi": 15,
+    "desc": "Aftertreatment 1 Diesel Particulate Filter Outlet Gas Tempera- ture Data Valid But Above Normal Operating Range - Least Severe Level",
+    "tcode": 371,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4340,
+    "fmi": 5,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Line Heater 1 State Cur- rent Below Normal Or Open Circuit",
+    "tcode": 372,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4342,
+    "fmi": 5,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Line Heater 2 State Cur- rent Below Normal Or Open Circuit",
+    "tcode": 373,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3242,
+    "fmi": 0,
+    "desc": "Aftertreatment 1 Diesel Particulate Filter Intake Gas Tempera- ture Data Valid But Above Normal Operational Range - Most Severe Level",
+    "tcode": 374,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3246,
+    "fmi": 0,
+    "desc": "Aftertreatment 1 Diesel Particulate Filter Outlet Gas Tempera- ture Data Valid But Above Normal Operational Range - Most Severe Level",
+    "tcode": 375,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4765,
+    "fmi": 4,
+    "desc": "Aftertreatment 1 Diesel Oxidation Catalyst Intake Gas Tem- perature Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 376,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4765,
+    "fmi": 3,
+    "desc": "Aftertreatment 1 Diesel Oxidation Catalyst Intake Gas Tem- perature Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 377,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4765,
+    "fmi": 2,
+    "desc": "Aftertreatment 1 Diesel Oxidation Catalyst Intake Gas Tem- perature Data Erratic, Intermittent Or Incorrect",
+    "tcode": 378,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3242,
+    "fmi": 4,
+    "desc": "Aftertreatment 1 Diesel Particulate Filter Intake Gas Tempera- ture Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 379,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3242,
+    "fmi": 3,
+    "desc": "Aftertreatment 1 Diesel Particulate Filter Intake Gas Tempera- ture Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 380,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3242,
+    "fmi": 2,
+    "desc": "Aftertreatment 1 Diesel Particulate Filter Intake Gas Tempera- ture Data Erratic, Intermittent Or Incorrect",
+    "tcode": 381,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3246,
+    "fmi": 3,
+    "desc": "Aftertreatment 1 Diesel Particulate Filter Outlet Gas Tempera- ture Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 382,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3246,
+    "fmi": 4,
+    "desc": "Aftertreatment 1 Diesel Particulate Filter Outlet Gas Tempera- ture Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 383,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3246,
+    "fmi": 2,
+    "desc": "Aftertreatment 1 Diesel Particulate Filter Outlet Gas Tempera- ture Data Erratic, Intermittent Or Incorrect",
+    "tcode": 384,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 91,
+    "fmi": 9,
+    "desc": "Accelerator Pedal Position 1 Abnormal Update Rate",
+    "tcode": 385,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 191,
+    "fmi": 9,
+    "desc": "Transmission Output Shaft Speed Abnormal Update Rate",
+    "tcode": 386,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5395,
+    "fmi": 18,
+    "desc": "Engine Idle Fuel Quantity Data Valid But Below Normal Oper- ating Range - Moderately Severe Level",
+    "tcode": 387,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4752,
+    "fmi": 18,
+    "desc": "Engine Exhaust Gas Recirculation 1 (EGR1) Cooler Efficiency Data Valid But Below Normal Operating Range - Moderately Severe Level",
+    "tcode": 388,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5285,
+    "fmi": 18,
+    "desc": "Engine Charge Air Cooler 1 Efficiency Data Valid But Below Normal Operating Range - Moderately Severe Level",
+    "tcode": 389,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1176,
+    "fmi": 1,
+    "desc": "Engine Turbocharger 1 Compressor Intake Pressure Data Valid But Below Normal Operational Range - Most Severe Level",
+    "tcode": 390,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 102,
+    "fmi": 10,
+    "desc": "Engine Intake Manifold #1 Pressure Abnormal Rate Of Change",
+    "tcode": 391,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 111,
+    "fmi": 18,
+    "desc": "Engine Coolant Level 1 Data Valid But Below Normal Operat- ing Range - Moderately Severe Level",
+    "tcode": 392,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1818,
+    "fmi": 31,
+    "desc": "ROP Brake Control active Condition Exists",
+    "tcode": 393,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5397,
+    "fmi": 31,
+    "desc": "Aftertreatment 1 Diesel Particulate Filter Regeneration too Frequent Condition Exists",
+    "tcode": 394,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5319,
+    "fmi": 31,
+    "desc": "Aftertreatment 1 Diesel Particulate Filter Incomplete Regen- eration Condition Exists",
+    "tcode": 395,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3058,
+    "fmi": 18,
+    "desc": "EGR System Monitor Data Valid But Below Normal Operating Range - Moderately Severe Level",
+    "tcode": 396,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3058,
+    "fmi": 16,
+    "desc": "EGR System Monitor Data Valid But Above Normal Operating Range - Moderately Severe Level",
+    "tcode": 397,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 105,
+    "fmi": 18,
+    "desc": "Engine Intake Manifold 1 Temperature Data Valid But Below Normal Operating Range - Moderately Severe Level",
+    "tcode": 398,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4766,
+    "fmi": 18,
+    "desc": "Aftertreatment 1 Diesel Oxidation Catalyst Outlet Gas Temperature Data Valid But Below Normal Operating Range - Moderately Severe Level",
+    "tcode": 399,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3750,
+    "fmi": 31,
+    "desc": "Aftertreatment 1 Diesel Particulate Filter Conditions Not Met for Active Regeneration Condition Exists",
+    "tcode": 400,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 191,
+    "fmi": 19,
+    "desc": "Transmission Output Shaft Speed Received Network Data In Error",
+    "tcode": 401,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4344,
+    "fmi": 3,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Line Heater 3 State Volt- age Above Normal, Or Shorted To High Source",
+    "tcode": 402,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4344,
+    "fmi": 4,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Line Heater 3 State Volt- age Below Normal, Or Shorted To Low Source",
+    "tcode": 403,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4344,
+    "fmi": 5,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Line Heater 3 State Cur- rent Below Normal Or Open Circuit",
+    "tcode": 404,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 563,
+    "fmi": 9,
+    "desc": "Anti-Lock Braking (ABS) Active Abnormal Update Rate",
+    "tcode": 405,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 251,
+    "fmi": 10,
+    "desc": "Time Abnormal Rate Of Change",
+    "tcode": 406,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1081,
+    "fmi": 7,
+    "desc": "Engine Wait to Start Lamp Mechanical System Not Respond- ing Or Out Of Adjustment",
+    "tcode": 407,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1761,
+    "fmi": 17,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Tank Level Data Valid But Below Normal Operating Range - Least Severe Level",
+    "tcode": 408,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1761,
+    "fmi": 18,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Tank Level Data Valid But Below Normal Operating Range - Moderately Severe Level",
+    "tcode": 409,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 84,
+    "fmi": 19,
+    "desc": "Wheel-Based Vehicle Speed Received Network Data In Error",
+    "tcode": 410,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 84,
+    "fmi": 9,
+    "desc": "Wheel-Based Vehicle Speed Abnormal Update Rate",
+    "tcode": 411,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 558,
+    "fmi": 19,
+    "desc": "Accelerator Pedal 1 Low Idle Switch Received Network Data In Error",
+    "tcode": 412,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 558,
+    "fmi": 9,
+    "desc": "Accelerator Pedal 1 Low Idle Switch Abnormal Update Rate",
+    "tcode": 413,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 171,
+    "fmi": 9,
+    "desc": "Ambient Air Temperature Abnormal Update Rate",
+    "tcode": 414,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 171,
+    "fmi": 19,
+    "desc": "Ambient Air Temperature Received Network Data In Error",
+    "tcode": 415,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 51,
+    "fmi": 3,
+    "desc": "Engine Throttle Valve 1 Position Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 416,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 51,
+    "fmi": 4,
+    "desc": "Engine Throttle Valve 1 Position Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 417,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 51,
+    "fmi": 2,
+    "desc": "Engine Throttle Valve 1 Position Data Erratic, Intermittent Or Incorrect",
+    "tcode": 418,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3226,
+    "fmi": 10,
+    "desc": "Aftertreatment 1 Outlet NOx Abnormal Rate Of Change",
+    "tcode": 419,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4096,
+    "fmi": 31,
+    "desc": "NOx limits exceeded due to Empty Diesel Exhaust Fluid Tank Condition Exists",
+    "tcode": 420,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1081,
+    "fmi": 9,
+    "desc": "Engine Wait to Start Lamp Abnormal Update Rate",
+    "tcode": 421,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1081,
+    "fmi": 19,
+    "desc": "Engine Wait to Start Lamp Received Network Data In Error",
+    "tcode": 422,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3361,
+    "fmi": 3,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Dosing Unit Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 423,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3361,
+    "fmi": 4,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Dosing Unit Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 424,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5491,
+    "fmi": 3,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Line Heater Relay Volt- age Above Normal, Or Shorted To High Source",
+    "tcode": 425,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5491,
+    "fmi": 4,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Line Heater Relay Volt- age Below Normal, Or Shorted To Low Source",
+    "tcode": 426,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5394,
+    "fmi": 5,
+    "desc": "Aftertreatment Diesel Exhaust Fluid Dosing Valve Current Below Normal Or Open Circuit",
+    "tcode": 427,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5394,
+    "fmi": 7,
+    "desc": "Aftertreatment Diesel Exhaust Fluid Dosing Valve Mechanical System Not Responding Or Out Of Adjustment",
+    "tcode": 428,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4334,
+    "fmi": 3,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Doser Absolute Pressure Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 429,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4334,
+    "fmi": 4,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Doser Absolute Pressure Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 430,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4334,
+    "fmi": 18,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Doser Absolute Pressure Data Valid But Below Normal Operating Range - Moderately Severe Level",
+    "tcode": 431,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4334,
+    "fmi": 16,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Doser Absolute Pressure Data Valid But Above Normal Operating Range - Moderately Severe Level",
+    "tcode": 432,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4376,
+    "fmi": 3,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Return Valve Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 433,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4376,
+    "fmi": 4,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Return Valve Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 434,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4364,
+    "fmi": 18,
+    "desc": "Aftertreatment 1 SCR Conversion Efficiency Data Valid But Below Normal Operating Range - Moderately Severe Level",
+    "tcode": 435,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5031,
+    "fmi": 10,
+    "desc": "Aftertreatment 1 Outlet Gas NOx Sensor Heater Ratio Abnor- mal Rate Of Change",
+    "tcode": 436,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4334,
+    "fmi": 2,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Doser Absolute Pressure Data Erratic, Intermittent Or Incorrect",
+    "tcode": 437,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2633,
+    "fmi": 7,
+    "desc": "Engine Variable Geometry Turbocharger (VGT) 1 Nozzle Position Mechanical System Not Responding Or Out Of Adjustment",
+    "tcode": 438,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 748,
+    "fmi": 9,
+    "desc": "Transmission Output Retarder Abnormal Update Rate",
+    "tcode": 439,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5024,
+    "fmi": 10,
+    "desc": "Aftertreatment 1 Intake Gas NOx Sensor Heater Ratio Abnor- mal Rate Of Change",
+    "tcode": 440,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3228,
+    "fmi": 2,
+    "desc": "Aftertreatment 1 Outlet Gas Sensor Power Status Data Erratic, Intermittent Or Incorrect",
+    "tcode": 441,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3218,
+    "fmi": 2,
+    "desc": "Aftertreatment 1 Intake Gas Sensor Power Status Data Erratic, Intermittent Or Incorrect",
+    "tcode": 442,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 630,
+    "fmi": 12,
+    "desc": "Calibration Memory Bad Intelligent Device Or Component",
+    "tcode": 443,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5246,
+    "fmi": 0,
+    "desc": "Aftertreatment SCR Operator Inducement Severity Data Valid But Above Normal Operational Range - Most Severe Level",
+    "tcode": 444,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1569,
+    "fmi": 31,
+    "desc": "Engine Protection Torque Derate Condition Exists",
+    "tcode": 445,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 188,
+    "fmi": 16,
+    "desc": "Engine Speed At Idle, Point 1 (Engine Configuration) Data Valid But Above Normal Operating Range - Moderately Severe Level",
+    "tcode": 446,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 188,
+    "fmi": 18,
+    "desc": "Engine Speed At Idle, Point 1 (Engine Configuration) Data Valid But Below Normal Operating Range - Moderately Severe Level",
+    "tcode": 447,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3226,
+    "fmi": 13,
+    "desc": "Aftertreatment 1 Outlet NOx Out Of Calibration",
+    "tcode": 448,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3216,
+    "fmi": 13,
+    "desc": "Aftertreatment 1 Intake NOx Out Of Calibration",
+    "tcode": 449,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 168,
+    "fmi": 17,
+    "desc": "Battery Potential / Power Input 1 Data Valid But Below Normal Operating Range - Least Severe Level",
+    "tcode": 450,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3216,
+    "fmi": 10,
+    "desc": "Aftertreatment 1 Intake NOx Abnormal Rate Of Change",
+    "tcode": 451,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5571,
+    "fmi": 7,
+    "desc": "High Pressure Common Rail Fuel Pressure Relief Valve Me- chanical System Not Responding Or Out Of Adjustment",
+    "tcode": 452,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 862,
+    "fmi": 3,
+    "desc": "Heater Circuit #09 Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 453,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 862,
+    "fmi": 4,
+    "desc": "Heater Circuit #09 Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 454,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1675,
+    "fmi": 31,
+    "desc": "Engine Starter Mode Condition Exists",
+    "tcode": 455,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5571,
+    "fmi": 0,
+    "desc": "High Pressure Common Rail Fuel Pressure Relief Valve Data Valid But Above Normal Operational Range - Most Severe Level",
+    "tcode": 456,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3216,
+    "fmi": 20,
+    "desc": "Aftertreatment 1 Intake NOx Data Drifted High",
+    "tcode": 457,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3226,
+    "fmi": 20,
+    "desc": "Aftertreatment 1 Outlet NOx Data Drifted High",
+    "tcode": 458,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2978,
+    "fmi": 9,
+    "desc": "Estimated Engine Parasitic Losses - Percent Torque Abnormal Update Rate",
+    "tcode": 459,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5603,
+    "fmi": 9,
+    "desc": "Cruise Control Disable Command Abnormal Update Rate",
+    "tcode": 460,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5605,
+    "fmi": 31,
+    "desc": "Cruise Control Pause Command Condition Exists",
+    "tcode": 461,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5603,
+    "fmi": 31,
+    "desc": "Cruise Control Disable Command Condition Exists",
+    "tcode": 462,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5848,
+    "fmi": 4,
+    "desc": "Aftertreatment 1 Outlet NH3 Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 463,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5848,
+    "fmi": 9,
+    "desc": "Aftertreatment 1 SCR Intermediate NH3 Abnormal Update Rate",
+    "tcode": 464,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5853,
+    "fmi": 10,
+    "desc": "Aftertreatment 1 Outlet NH3 Gas Sensor Heater Preliminary FMI Abnormal Rate Of Change",
+    "tcode": 465,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5851,
+    "fmi": 16,
+    "desc": "Aftertreatment 1 Outlet NH3 Gas Sensor Power In Range Data Valid But Above Normal Operating Range - Moderately Severe Level",
+    "tcode": 466,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5851,
+    "fmi": 18,
+    "desc": "Aftertreatment 1 Outlet NH3 Gas Sensor Power In Range Data Valid But Below Normal Operating Range - Moderately Severe Level",
+    "tcode": 467,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5851,
+    "fmi": 2,
+    "desc": "Aftertreatment 1 Outlet NH3 Gas Sensor Power In Range Data Erratic, Intermittent Or Incorrect",
+    "tcode": 468,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5848,
+    "fmi": 13,
+    "desc": "Aftertreatment 1 Outlet NH3 Out Of Calibration",
+    "tcode": 469,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5848,
+    "fmi": 12,
+    "desc": "Aftertreatment 1 Outlet NH3 Bad Intelligent Device Or Component",
+    "tcode": 470,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5848,
+    "fmi": 10,
+    "desc": "Aftertreatment 1 Outlet NH3 Abnormal Rate Of Change",
+    "tcode": 471,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2623,
+    "fmi": 8,
+    "desc": "Accelerator Pedal #1 Channel 2 Abnormal Frequency Or Pulse Width Or Period",
+    "tcode": 472,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5742,
+    "fmi": 9,
+    "desc": "Aftertreatment Diesel Particulate Filter Temperature Sensor Module Abnormal Update Rate",
+    "tcode": 473,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5743,
+    "fmi": 9,
+    "desc": "Aftertreatment Selective Catalytic Reduction Temperature Sensor Module Abnormal Update Rate",
+    "tcode": 474,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5746,
+    "fmi": 3,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Dosing Unit Heater Relay Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 475,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5746,
+    "fmi": 4,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Dosing Unit Heater Relay Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 476,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4376,
+    "fmi": 7,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Return Valve Mechani- cal System Not Responding Or Out Of Adjustment",
+    "tcode": 477,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5742,
+    "fmi": 12,
+    "desc": "Aftertreatment Diesel Particulate Filter Temperature Sensor Module Bad Intelligent Device Or Component",
+    "tcode": 478,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5743,
+    "fmi": 12,
+    "desc": "Aftertreatment Selective Catalytic Reduction Temperature Sensor Module Bad Intelligent Device Or Component",
+    "tcode": 479,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5742,
+    "fmi": 3,
+    "desc": "Aftertreatment Diesel Particulate Filter Temperature Sensor Module Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 480,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5742,
+    "fmi": 4,
+    "desc": "Aftertreatment Diesel Particulate Filter Temperature Sensor Module Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 481,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5742,
+    "fmi": 16,
+    "desc": "Aftertreatment Diesel Particulate Filter Temperature Sensor Module Data Valid But Above Normal Operating Range - Moderately Severe Level",
+    "tcode": 482,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5743,
+    "fmi": 3,
+    "desc": "Aftertreatment Selective Catalytic Reduction Temperature Sensor Module Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 483,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5743,
+    "fmi": 4,
+    "desc": "Aftertreatment Selective Catalytic Reduction Temperature Sensor Module Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 484,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5743,
+    "fmi": 16,
+    "desc": "Aftertreatment Selective Catalytic Reduction Temperature Sensor Module Data Valid But Above Normal Operating Range - Moderately Severe Level",
+    "tcode": 485,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5745,
+    "fmi": 3,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Dosing Unit Heater Volt- age Above Normal, Or Shorted To High Source",
+    "tcode": 486,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5745,
+    "fmi": 4,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Dosing Unit Heater Volt- age Below Normal, Or Shorted To Low Source",
+    "tcode": 487,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5745,
+    "fmi": 18,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Dosing Unit Heater Data Valid But Below Normal Operating Range - Moderately Severe Level",
+    "tcode": 488,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3695,
+    "fmi": 2,
+    "desc": "Diesel Particulate Filter Regeneration Inhibit Switch Data Erratic, Intermittent Or Incorrect",
+    "tcode": 489,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 563,
+    "fmi": 31,
+    "desc": "Anti-Lock Braking (ABS) Active Condition Exists",
+    "tcode": 490,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4337,
+    "fmi": 2,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Dosing Temperature Data Erratic, Intermittent Or Incorrect",
+    "tcode": 491,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5798,
+    "fmi": 2,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Dosing Unit Heater Temperature Data Erratic, Intermittent Or Incorrect",
+    "tcode": 492,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4337,
+    "fmi": 10,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Dosing Temperature Abnormal Rate Of Change",
+    "tcode": 493,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5798,
+    "fmi": 10,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Dosing Unit Heater Temperature Abnormal Rate Of Change",
+    "tcode": 494,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1081,
+    "fmi": 31,
+    "desc": "Engine Wait to Start Lamp Condition Exists",
+    "tcode": 495,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5742,
+    "fmi": 11,
+    "desc": "Aftertreatment Diesel Particulate Filter Temperature Sensor Module Root Cause Not Known",
+    "tcode": 496,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5743,
+    "fmi": 11,
+    "desc": "Aftertreatment Selective Catalytic Reduction Temperature Sensor Module Root Cause Not Known",
+    "tcode": 497,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3364,
+    "fmi": 10,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Tank Quality Abnormal Rate Of Change",
+    "tcode": 498,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5848,
+    "fmi": 20,
+    "desc": "Aftertreatment 1 SCR Intermediate NH3 Data Drifted High",
+    "tcode": 499,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5848,
+    "fmi": 21,
+    "desc": "Aftertreatment 1 SCR Intermediate NH3 Data Drifted Low",
+    "tcode": 500,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5848,
+    "fmi": 2,
+    "desc": "Aftertreatment 1 SCR Intermediate NH3 Data Erratic, Intermit- tent Or Incorrect",
+    "tcode": 501,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 91,
+    "fmi": 8,
+    "desc": "Accelerator Pedal Position 1 Abnormal Frequency Or Pulse Width Or Period",
+    "tcode": 502,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5097,
+    "fmi": 3,
+    "desc": "Engine Brake Active Lamp Data Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 503,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5097,
+    "fmi": 4,
+    "desc": "Engine Brake Active Lamp Data Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 504,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 20668,
+    "fmi": 31,
+    "desc": "Manufacturer Assignable SPN Condition Exists",
+    "tcode": 505,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 20669,
+    "fmi": 31,
+    "desc": "Manufacturer Assignable SPN Condition Exists",
+    "tcode": 506,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5302,
+    "fmi": 18,
+    "desc": "Aftertreatment 1 Post SCR NH3 Conversion Efficiency Data Valid But Below Normal Operating Range - Moderately Severe Level",
+    "tcode": 507,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3667,
+    "fmi": 7,
+    "desc": "Engine Air Shutoff Status Mechanical System Not Responding Or Out Of Adjustment",
+    "tcode": 508,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 237,
+    "fmi": 13,
+    "desc": "Vehicle Identification Number Out Of Calibration",
+    "tcode": 509,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5862,
+    "fmi": 3,
+    "desc": "Aftertreatment 1 SCR Intermediate Gas Temperature Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 510,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5862,
+    "fmi": 4,
+    "desc": "Aftertreatment 1 SCR Intermediate Gas Temperature Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 511,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5862,
+    "fmi": 2,
+    "desc": "Aftertreatment 1 SCR Intermediate Gas Temperature Data Erratic, Intermittent Or Incorrect",
+    "tcode": 512,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5862,
+    "fmi": 0,
+    "desc": "Aftertreatment 1 SCR Intermediate Gas Temperature Data Valid But Above Normal Operational Range - Most Severe Level",
+    "tcode": 513,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5862,
+    "fmi": 16,
+    "desc": "Aftertreatment 1 SCR Intermediate Gas Temperature Data Valid But Above Normal Operating Range - Moderately Severe Level",
+    "tcode": 514,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 521,
+    "fmi": 2,
+    "desc": "Brake Pedal Position Data erratic, intermittent, or incorrect",
+    "tcode": 515,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3482,
+    "fmi": 16,
+    "desc": "Aftertreatment 1 Fuel Enable Actuator Data Valid But Above Normal Operating Range - Moderately Severe Level",
+    "tcode": 516,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3031,
+    "fmi": 9,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Tank Temperature Abnormal Update Rate",
+    "tcode": 517,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3936,
+    "fmi": 14,
+    "desc": "Aftertreatment Diesel Particulate Filter System Special Instructions",
+    "tcode": 518,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4792,
+    "fmi": 14,
+    "desc": "Aftertreatment 1 SCR Catalyst System Special Instructions",
+    "tcode": 519,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 20701,
+    "fmi": 31,
+    "desc": "Manufacturer Assignable SPN Condition Exists",
+    "tcode": 520,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 102,
+    "fmi": 17,
+    "desc": "Engine Intake Manifold #1 Pressure Data Valid But Below Normal Operating Range - Least Severe Level",
+    "tcode": 521,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4331,
+    "fmi": 18,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Actual Dosing Quantity Data Valid But Below Normal Operating Range - Moderately Severe Level",
+    "tcode": 522,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1761,
+    "fmi": 5,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Tank Level Current Below Normal Or Open Circuit",
+    "tcode": 523,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3031,
+    "fmi": 5,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Tank Temperature Cur- rent Below Normal Or Open Circuit",
+    "tcode": 524,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5585,
+    "fmi": 18,
+    "desc": "Engine Injector Metering Rail 1 Cranking Pressure Data Valid But Below Normal Operating Range - Moderately Severe Level",
+    "tcode": 525,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5357,
+    "fmi": 31,
+    "desc": "Condition Exists",
+    "tcode": 526,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1239,
+    "fmi": 16,
+    "desc": "Engine Fuel Leakage 1 Data Valid But Above Normal Operat- ing Range - Moderately Severe Level",
+    "tcode": 527,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 157,
+    "fmi": 15,
+    "desc": "Engine Injector Metering Rail 1 Pressure Data Valid But Above Normal Operating Range - Least Severe Level",
+    "tcode": 528,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1209,
+    "fmi": 18,
+    "desc": "Engine Exhaust Gas Pressure 1 Data Valid But Below Normal Operating Range - Moderately Severe Level",
+    "tcode": 529,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3031,
+    "fmi": 13,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Tank Temperature Out Of Calibration",
+    "tcode": 530,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1761,
+    "fmi": 13,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Tank Level Out Of Calibration",
+    "tcode": 531,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3031,
+    "fmi": 6,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Tank Temperature Cur- rent Above Normal Or Grounded Circuit",
+    "tcode": 532,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3031,
+    "fmi": 11,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Tank Temperature Root Cause Not Known",
+    "tcode": 533,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1761,
+    "fmi": 6,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Tank Level Current Above Normal Or Grounded Circuit",
+    "tcode": 534,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1761,
+    "fmi": 11,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Tank Level Root Cause Not Known",
+    "tcode": 535,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3521,
+    "fmi": 11,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Property Root Cause Not Known",
+    "tcode": 536,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1761,
+    "fmi": 10,
+    "desc": "Aftertreatment 1 Diesel Exhaust Fluid Tank Level Abnormal Rate Of Change",
+    "tcode": 537,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3667,
+    "fmi": 31,
+    "desc": "Engine Air Shutoff Status Condition Exists",
+    "tcode": 538,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 20728,
+    "fmi": 16,
+    "desc": "Data Valid But Above Normal Operating Range - Moderately Severe Level",
+    "tcode": 539,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 6303,
+    "fmi": 3,
+    "desc": "Voltage Above Normal, Or Shorted To High Source",
+    "tcode": 540,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 6303,
+    "fmi": 4,
+    "desc": "Voltage Below Normal, Or Shorted To Low Source",
+    "tcode": 541,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 11,
+    "fmi": 18,
+    "desc": "Voltage supply pin 30a Under Voltage/Contacting",
+    "tcode": 928,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 11,
+    "fmi": 31,
+    "desc": "Voltage supply pin 30a Supply line / Cable Breakage",
+    "tcode": 929,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 12,
+    "fmi": 18,
+    "desc": "Voltage supply pin 30b Under Voltage/Contacting",
+    "tcode": 930,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 12,
+    "fmi": 31,
+    "desc": "Voltage supply pin 30b Supply line / Cable Breakage",
+    "tcode": 931,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 13,
+    "fmi": 18,
+    "desc": "Voltage Supply pin 15 Under Voltage/Contacting",
+    "tcode": 932,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 16,
+    "fmi": 11,
+    "desc": "EBS-Central Module EEPROM Failure",
+    "tcode": 936,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 16,
+    "fmi": 12,
+    "desc": "EBS-Central Module Incorrect Parameter",
+    "tcode": 937,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 16,
+    "fmi": 15,
+    "desc": "EBS-Central Module Internal Failure",
+    "tcode": 938,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 16,
+    "fmi": 17,
+    "desc": "EBS-Central Module Overvoltage",
+    "tcode": 939,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 16,
+    "fmi": 18,
+    "desc": "EBS-Central Module Under Voltage/Contacting",
+    "tcode": 940,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 31,
+    "fmi": 16,
+    "desc": "Brake signal transmitter Total Failure 31 52",
+    "tcode": 999,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 441,
+    "fmi": 2,
+    "desc": "F: +90 322",
+    "tcode": 26,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 441,
+    "fmi": 8,
+    "desc": "Temsa Adana Factory Mersin Yolu Üzeri 10. km P.K.",
+    "tcode": 74,
+    "standard": "J1939-Cummins",
+    "source": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
+    "file": "ts45-fault-codes"
+  }
+]

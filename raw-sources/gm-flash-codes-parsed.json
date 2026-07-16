@@ -1,0 +1,882 @@
+[
+  {
+    "type": "GM-FLASH",
+    "code": 16,
+    "desc": "Crank Never Synced at Start",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 91,
+    "desc": "Fuel Pump Low Voltage",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 92,
+    "desc": "Fuel Pump High Voltage",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 107,
+    "desc": "MAP Low Voltage",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 108,
+    "desc": "MAP High Pressure",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 112,
+    "desc": "IAT Low Voltage",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 113,
+    "desc": "IAT High Voltage",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 117,
+    "desc": "ECT Low Voltage",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 118,
+    "desc": "ECT High Voltage",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 129,
+    "desc": "BP Low Pressure",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 171,
+    "desc": "Adaptive Learn High",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 172,
+    "desc": "Adaptive Learn Low",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 182,
+    "desc": "Fuel Temp",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 183,
+    "desc": "Fuel Temp",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 187,
+    "desc": "Fuel Temp",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 188,
+    "desc": "Fuel Temp",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 219,
+    "desc": "Max Govern Speed Override",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 336,
+    "desc": "Crank Sync Noise",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 337,
+    "desc": "Crank Loss",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 420,
+    "desc": "Gasoline Cat Monitor",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 524,
+    "desc": "Oil Pressure Low",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 562,
+    "desc": "System Voltage Low",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 563,
+    "desc": "System Voltage High",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 601,
+    "desc": "Flash Checksum Invalid",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 604,
+    "desc": "RAM Failure",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 606,
+    "desc": "COP Failure",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 685,
+    "desc": "Power Relay Open",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 686,
+    "desc": "Power Relay Shorted",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 687,
+    "desc": "Power Relay Short to Power",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 1111,
+    "desc": "Fuel Rev Limit",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 1112,
+    "desc": "Sparl Rev Limit",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 1151,
+    "desc": "Closed Loop Multiplier High",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 1152,
+    "desc": "Closed Loop Multiplier Low",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 1155,
+    "desc": "Closed Loop Multiplier High",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 1156,
+    "desc": "Closed Loop Multiplier Low",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 1161,
+    "desc": "Adaptive Learn High",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 1162,
+    "desc": "Adaptive Learn Low",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 1165,
+    "desc": "LPG Cat Monitor",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 1171,
+    "desc": "LPG Pressure Higher Than Expected",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 1172,
+    "desc": "LPG Pressure Lower Than Expected",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 1173,
+    "desc": "EPR Comm Lost",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 1174,
+    "desc": "EPR Voltage Supply High",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 1175,
+    "desc": "EPR Voltage Supply Low",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 1176,
+    "desc": "EPR Internal Actuator Fault",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 1177,
+    "desc": "EPR Internal Circuitry Fault",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 1178,
+    "desc": "EPR Internal Comm Fault",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 1615,
+    "desc": "A/D Loss",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 1616,
+    "desc": "Invalid Interrupt",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 1626,
+    "desc": "CAN Tx Failure",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 1627,
+    "desc": "CAN Rx Failure",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 1628,
+    "desc": "CAN Address Conflict Failure",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 2111,
+    "desc": "Unable to Reach Lower TPS",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 2112,
+    "desc": "Unable to Reach Higher TPS",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 16,
+    "desc": "Crank Never Synced at Start",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 91,
+    "desc": "Fuel Pump Low Voltage",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 92,
+    "desc": "Fuel Pump High Voltage",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 107,
+    "desc": "MAP Low Voltage",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 108,
+    "desc": "MAP High Pressure",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 112,
+    "desc": "IAT Low Voltage",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 113,
+    "desc": "IAT High Voltage",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 117,
+    "desc": "ECT Low Voltage",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 118,
+    "desc": "ECT High Voltage",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 129,
+    "desc": "BP Low Pressure",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 171,
+    "desc": "Adaptive Learn High",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 172,
+    "desc": "Adaptive Learn Low",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 182,
+    "desc": "Fuel Temp",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 183,
+    "desc": "Fuel Temp",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 187,
+    "desc": "Fuel Temp",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 188,
+    "desc": "Fuel Temp",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 219,
+    "desc": "Max Govern Speed Override",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 336,
+    "desc": "Crank Sync Noise",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 337,
+    "desc": "Crank Loss",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 341,
+    "desc": "Cam Sync Noise",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 342,
+    "desc": "Cam Sensor Loss",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 420,
+    "desc": "Gasoline Cat Monitor",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 524,
+    "desc": "Oil Pressure Low",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 562,
+    "desc": "System Voltage Low",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 563,
+    "desc": "System Voltage High",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 601,
+    "desc": "Flash Checksum Invalid",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 604,
+    "desc": "RAM Failure",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 606,
+    "desc": "COP Failure",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 685,
+    "desc": "Power Relay Open",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 686,
+    "desc": "Power Relay Shorted",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 687,
+    "desc": "Power Relay Short to Power",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 1111,
+    "desc": "Fuel Rev Limit",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 1112,
+    "desc": "Sparl Rev Limit",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 1151,
+    "desc": "Closed Loop Multiplier High",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 1152,
+    "desc": "Closed Loop Multiplier Low",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 1155,
+    "desc": "Closed Loop Multiplier High",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 1156,
+    "desc": "Closed Loop Multiplier Low",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 1161,
+    "desc": "Adaptive Learn High",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 1162,
+    "desc": "Adaptive Learn Low",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 1165,
+    "desc": "LPG Cat Monitor",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 1171,
+    "desc": "LPG Pressure Higher Than Expected",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 1172,
+    "desc": "LPG Pressure Lower Than Expected",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 1173,
+    "desc": "EPR Comm Lost",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 1174,
+    "desc": "EPR Voltage Supply High",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 1175,
+    "desc": "EPR Voltage Supply Low",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 1176,
+    "desc": "EPR Internal Actuator Fault",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 1177,
+    "desc": "EPR Internal Circuitry Fault",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 1178,
+    "desc": "EPR Internal Comm Fault",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 1615,
+    "desc": "A/D Loss",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 1616,
+    "desc": "Invalid Interrupt",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 1625,
+    "desc": "Shutdown Request",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 1626,
+    "desc": "CAN Tx Failure",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 1627,
+    "desc": "CAN Rx Failure",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 1628,
+    "desc": "CAN Address Conflict Failure",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 2111,
+    "desc": "Unable to Reach Lower TPS",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 2112,
+    "desc": "Unable to Reach Higher TPS",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  },
+  {
+    "type": "GM-FLASH",
+    "code": 2229,
+    "desc": "BP Pressure High",
+    "standard": "GM",
+    "source": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
+    "file": "gm-flash-codes"
+  }
+]

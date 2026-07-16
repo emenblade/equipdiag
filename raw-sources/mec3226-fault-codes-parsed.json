@@ -1,0 +1,515 @@
+[
+  {
+    "type": "MEC",
+    "code": 20,
+    "desc": "System Communication  Fault",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  },
+  {
+    "type": "MEC",
+    "code": 3,
+    "desc": "Invalid Option Setting",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  },
+  {
+    "type": "MEC",
+    "code": 12,
+    "desc": "Chassis Up or Down Switch  ON at power-up Fault",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  },
+  {
+    "type": "MEC",
+    "code": 18,
+    "desc": "Pothole Guard Fault",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  },
+  {
+    "type": "MEC",
+    "code": 31,
+    "desc": "Pressure Sensor Fault",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  },
+  {
+    "type": "MEC",
+    "code": 32,
+    "desc": "Angle Sensor Fault",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  },
+  {
+    "type": "MEC",
+    "code": 20,
+    "desc": "With Overload  Check wiring to angle sensor for normal voltage  range < 2020, 1.9-3.8V, then check the option  code.  42   Left turn switch ON at power-  up",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  },
+  {
+    "type": "MEC",
+    "code": 43,
+    "desc": "Right Turn Switch ON at  power-up",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  },
+  {
+    "type": "MEC",
+    "code": 46,
+    "desc": "Joystick Enable Switch ON  at power-up",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  },
+  {
+    "type": "MEC",
+    "code": 47,
+    "desc": "Joystick not in neutral at  power-up",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  },
+  {
+    "type": "MEC",
+    "code": 52,
+    "desc": "Drive Forward Coil Fault",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  },
+  {
+    "type": "MEC",
+    "code": 53,
+    "desc": "Drive Reverse Coil Fault",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  },
+  {
+    "type": "MEC",
+    "code": 54,
+    "desc": "Lift Up Coil Fault",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  },
+  {
+    "type": "MEC",
+    "code": 55,
+    "desc": "Lift Down Coil fault",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  },
+  {
+    "type": "MEC",
+    "code": 57,
+    "desc": "Left Turn Coil Fault",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  },
+  {
+    "type": "MEC",
+    "code": 58,
+    "desc": "General Brake Coil Fault  - Brakes about 46 ohms",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  },
+  {
+    "type": "MEC",
+    "code": 60,
+    "desc": "Motor Controller Fault",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  },
+  {
+    "type": "MEC",
+    "code": 61,
+    "desc": "Motor Controller Sensor  Fault",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  },
+  {
+    "type": "MEC",
+    "code": 62,
+    "desc": "Motor Controller Hardware  Failsafe Fault",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  },
+  {
+    "type": "MEC",
+    "code": 63,
+    "desc": "Motor Controller Output Fault",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  },
+  {
+    "type": "MEC",
+    "code": 64,
+    "desc": "Motor Controller SRO Fault",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  },
+  {
+    "type": "MEC",
+    "code": 65,
+    "desc": "Motor Controller Throttle  Fault",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  },
+  {
+    "type": "MEC",
+    "code": 66,
+    "desc": "Motor Controller Emergency  Reverse Fault",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  },
+  {
+    "type": "MEC",
+    "code": 67,
+    "desc": "Motor Controller HPD Fault",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  },
+  {
+    "type": "MEC",
+    "code": 68,
+    "desc": "Low Voltage Fault",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  },
+  {
+    "type": "MEC",
+    "code": 69,
+    "desc": "High Neutral Current Fault",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  },
+  {
+    "type": "MEC",
+    "code": 70,
+    "desc": "Steer Input Out of Range",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  },
+  {
+    "type": "MEC",
+    "code": 71,
+    "desc": "Motor Controller Main  Contactor Fault",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  },
+  {
+    "type": "MEC",
+    "code": 72,
+    "desc": "Motor Controller Over  Voltage Fault",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  },
+  {
+    "type": "MEC",
+    "code": 73,
+    "desc": "Motor Controller Thermal  Cutback Fault",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  },
+  {
+    "type": "MEC",
+    "code": 74,
+    "desc": "Motor Controller Motor Fault",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  },
+  {
+    "type": "MEC",
+    "code": 75,
+    "desc": "Motor Controller Pump Motor  Fault",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  },
+  {
+    "type": "MEC",
+    "code": 76,
+    "desc": "Motor Controller Left Drive  Motor Fault",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  },
+  {
+    "type": "MEC",
+    "code": 77,
+    "desc": "Motor Controller Right Drive  Motor Fault",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  },
+  {
+    "type": "MEC",
+    "code": 78,
+    "desc": "Pump Motor Short Fault: 0.8-  1.4 ohms",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  },
+  {
+    "type": "MEC",
+    "code": 79,
+    "desc": "Left Drive Motor Short Fault",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  },
+  {
+    "type": "MEC",
+    "code": 19,
+    "desc": "Swap wires on drive motors: if code changes it’s in  wiring or motor and if code doesn’t change it’s in  motor controller.  80   Over 80% Load Warning",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  },
+  {
+    "type": "MEC",
+    "code": 82,
+    "desc": "Right Brake Coil - Brakes  about 46 ohms",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  },
+  {
+    "type": "MEC",
+    "code": 83,
+    "desc": "Left Brake Coil - Brakes  about 46 ohms",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  },
+  {
+    "type": "MEC",
+    "code": 85,
+    "desc": "Brake Release Switch  Closed",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  },
+  {
+    "type": "MEC",
+    "code": 86,
+    "desc": "Raised Brake Release Fault",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  },
+  {
+    "type": "MEC",
+    "code": 87,
+    "desc": "Brake Release Switch Fault",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  },
+  {
+    "type": "MEC",
+    "code": 89,
+    "desc": "Drive Motor Field Open",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  },
+  {
+    "type": "MEC",
+    "code": 91,
+    "desc": "Left Drive Motor Short",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  },
+  {
+    "type": "MEC",
+    "code": 92,
+    "desc": "Right Drive Motor Short",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  },
+  {
+    "type": "MEC",
+    "code": 99,
+    "desc": "Over 99% Load Warning",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  },
+  {
+    "type": "MEC",
+    "code": 20,
+    "desc": "with  overload.  LL   Machine Tilted Beyond Safe  Limits Fault",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  },
+  {
+    "type": "MEC",
+    "code": 60,
+    "desc": "58   E2  From Serial #16900461   62  MICRO19XD®   N/A   E3  MICRO26®   N/A   27",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  },
+  {
+    "type": "MEC",
+    "code": 34,
+    "desc": "Page 43   SE AC  Slab Ser \u0018 es - Serv \u0018 ce & Parts Manual March 2022  Hydraulic Schematic -",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  },
+  {
+    "type": "MEC",
+    "code": 40,
+    "desc": "Steer Cylinder Platform Overload Sensor SV1 S1   S2   L P   T M RV1 ORF2   ORF1 FRRV1 L CV3 SV5 Lift Cylinder SV2",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  },
+  {
+    "type": "MEC",
+    "code": 14,
+    "desc": "- Schemat \u0018 cs  Hydraulic Schematic -",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  },
+  {
+    "type": "MEC",
+    "code": 44,
+    "desc": "SE AC  Slab Ser \u0018 es - Serv \u0018 ce & Parts Manual March 2022 Sect \u0018 on 14 - Schemat \u0018 cs  Hydraulic Components -",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  },
+  {
+    "type": "MEC",
+    "code": 36,
+    "desc": "Functions Manifold Lift Relief Steer Relief Lift Valve Steer Valve Hydraulic Pump & Motor Hydraulic Reservoir Hydraulic Filter Controls Tray Breather Cap Functions Manifold",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  },
+  {
+    "type": "MEC",
+    "code": 47,
+    "desc": "SE AC  Slab Ser \u0018 es - Serv \u0018 ce & Parts Manual March 2022 Sect \u0018 on 14 - Schemat \u0018 cs  Function Valves  Function Valves",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  },
+  {
+    "type": "MEC",
+    "code": 23,
+    "desc": "ILLUSTRATION No. FU1 250A RD (5)   SB1   RD (5) B+ RD(18) Power Switch GB2   GB3   GB4 GB1 Battery L N PE 100-230V Input Charger   1 2 003 RD(14) 003A1 RD(20) 003A2 RD(16) FU3 3A 003B RD(20) F-003A RD(16) FU2 10A GS1 +   - RD (5) 8 1 2 7 5 4 3 CANL1-3 GN(20) CANH1-3 YE(20) B+ RD(18) BK(5) GND BK(14) F-003A RD(16) Pw Out1 RD(20) 002 RD(16) 102 BN(20) 101 BN(20) LOCK BU(20) Power Relay KA1 ECU CAN_L CAN_H GND GND GND GND Power_Key Power_Key PCU Power PCU Power Left Pothole Switch Beacon Power Power Right Pothole Switch Lift Down Switch Power Power Power Indoor/Outdoor Switch Foot Switch Anti-collision Switch Potentiometer Zero Potentiometer Lift Down Valve Lift Up Valve Steer Right Valve Steer Left Valve Pressure Sensor Pressure Sensor Potentiometer Power Pressure Sensor Pressure Sensor Hourmeter 3 31 52 53 27 41 42 43 44 6 7 20 32 23 12 40 26 9 18 45 46 8 4 5 10 54 30 55 56 21 29 24 47 11 A03 RD(20) A31 RD(20) A52 RD(20) A53 RD(20) A27 RD(18) A41 RD(20) A42 RD(20) A43 RD(20) A44 RD(20) A06 WH(20) A07 WH(20) A20 WH(20) A32 WH(20) A23 WH(20) A12 GN(20) A40 YE(20) A26 WH(20) A09 WH(18) A18 WH(20) A45 WH(20) A46 WH(20) A08 WH(18) A04 WH(18) A05 WH(18) A10 BK(18) A54 BK(18) A30 WH(20) A55 BK(18) A56 BK(18) A21 WH(20) A29 WH(20) A24 WH(20) A47 WH(20) A11 WH(20) SV1b SV1a SV2 Lift Up Valve Steer Right Valve Steer Left Valve   GND-1P BK(18) GND-1N BK(18) GND-1R BK(18) 002-1A RD(20) A09 WH(18) GND-1C BK(18) GND-1E BK(20) A45 WH(20) A46 WH(20) 002-1B RD(20) 002-1F RD(20) A20 WH(20) A32 WH(20) 1 2 CANH1-5 YE(20) CANL1-5 GN(20) 003-1 RD(20) A24 WH(20) A47 WH(20) 1 2 3 4 5 6 1 2 3 4 5 6 RD(20) BU(20) SV3 Lift Down Valve BK(20) GN(20) WH(20) RD(20) PS1 P 1 4 3 2 Pressure Sensor V1 LOCK BU(20) A11 WH(20) B+ RD(18) GND-1Y BK(18) 002-1J RD(20) CANH1-6 YE(20) CANL1-6 GN(20) 12 11 10 9 8 7 6 5 4 3 2 1 Pw In GN(18) Pw Out RD(18) GND-1W WH(18) CANH1-4 YE(18) CANL1-4 BU(18) 4 3 1 2 5 GN(18) RD(18) WH(18) YE(18) BU(18) 4 3 1 2 5 SB2 GND CANH CANL PCU E-Stop Joystick Drive Enable Lift Enable Joystick Deadman Drive Speed HA1 Alarm A B C D E F G H J K L M N P R S 002-1C RD(16) 002-1D RD(18) 002-1E RD(18) A06 WH(20) A07 WH(20) A18 WH(20) A26 WH(20) A23 WH(20) GND-1G BK(18) A30 WH(20) A21 WH(20) A29 WH(20) CANH1-2 YE(20) CANL1-2 GN(20) 1 2 3 4 5 SQ1 RP1 HL1 SQ2 002-2 RD(16) 002-2A RD(20) 002-2B RD(20) GND-2B BK(20) GND-2A BK(20) 002-2C RD(20) SQ3 Pothole Switch Pothole Switch Beacon Lift Down Limit Switch Angle Sensor A06 WH(20) A07 WH(20) A26 WH(20) A23 WH(20) A21 WH(20) GND-2 BK(18) A18 WH(20) A29 WH(20) KM1 RD (5) BK(5) P-A06 RD(20) P-10A RD(20) P-27A GN(20) P-28A YE(20) P-12A WH(20) 002-1G RD(20) P-03A RD(20) Contactor MC1 U V W 22/A 5/A 25/A 13/A 14/A BF   B- 175A B+ 10/A 27/A 28/A 3/A 6/A 12/A Controller W1 RD (5) V1 RD (5) U1 RD (5) P-22A WH(20) P-05A BU(18) P-25A BN(20) P-13A WH(20) P-14A WH(20) Temperature Sensor Motor Encoder BU(20) BU(20) M1 3~ 4   2   1 1 3 2 D-A32 WH(20) D-A21 BK(18) D-A10 RD(20) D-A09 YE(20) D-A20 GN(20) D-A28 BU(18) BATT+   BATT- A32 A21 A10 A09 A20 A28 A18 A31 A03 A13   U V W U V W A30 A15 A04 A17 A19 A33 Controller FU4 10A Brake+R RD(18) Brake+L RD(18) D-A13 RD(16) D-A03 RD(18) D-A31 YE(20) D-A18 GN(20) M2 W2 RD (5) V2 RD (5) U2 RD (5) D-A30 BU(18) D-A15 BK(18) D-A04 RD(20) D-A17 YE(20) D-A19 GN(20) D-A33 WH(20) Temperature Sensor Brake Motor Encoder W3 RD (5) V3 RD (5) U3 RD (5) Temperature Sensor Motor Encoder M3 3~ 3~ 3   1   2 6 5 6   7   8 Brake 3   1   2   7   8 5 4 6",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  },
+  {
+    "type": "MEC",
+    "code": 80,
+    "desc": "ILLUSTRATION No.",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  },
+  {
+    "type": "MEC",
+    "code": 52,
+    "desc": "SE AC  Slab Ser \u0018 es - Serv \u0018 ce & Parts Manual March 2022 Sect \u0018 on 14 - Schemat \u0018 cs  Wiring Diagram  ART_5143",
+    "solution": "",
+    "standard": "MEC",
+    "source": "MEC SEAC Slab Series Service & Parts Manual March 2022",
+    "file": "mec3226-fault-codes"
+  }
+]

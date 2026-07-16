@@ -11,6 +11,7 @@ body { font-family: system-ui, -apple-system, sans-serif; background: #111; colo
 .header h1 { font-size: 1.3rem; color: #e94560; letter-spacing: 0.5px; }
 .header .subtitle { color: #888; font-size: 0.85rem; }
 .container { max-width: 1200px; margin: 0 auto; padding: 1.5rem; }
+
 .search-box { background: #1e1e2e; border: 1px solid #333; border-radius: 8px; padding: 1.5rem; margin-bottom: 1.5rem; }
 .search-box h2 { font-size: 1rem; color: #aaa; margin-bottom: 0.75rem; }
 .search-row { display: flex; gap: 0.75rem; flex-wrap: wrap; align-items: center; }
@@ -22,11 +23,30 @@ body { font-family: system-ui, -apple-system, sans-serif; background: #111; colo
 .search-row button.secondary:hover { background: #444; }
 .hint { font-size: 0.8rem; color: #666; margin-top: 0.5rem; }
 .results { margin-top: 1rem; }
+
 .code-card { background: #1a1a2e; border: 1px solid #2a2a3e; border-radius: 8px; padding: 1rem; margin-bottom: 0.75rem; }
 .code-card .code-num { color: #e94560; font-weight: 700; font-size: 1.2rem; }
 .code-card .code-desc { color: #ccc; margin-top: 0.25rem; }
-.code-card .code-source { font-size: 0.75rem; color: #666; margin-top: 0.25rem; }
-.code-card .code-type-badge { display: inline-block; padding: 1px 6px; border-radius: 3px; font-size: 0.7rem; background: #2a2a4e; color: #888; margin-left: 0.5rem; vertical-align: middle; }
+.code-card .code-meta { margin-top: 0.4rem; display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center; }
+.code-card .code-source { font-size: 0.75rem; color: #666; }
+
+.std-badge { display: inline-block; padding: 2px 7px; border-radius: 3px; font-size: 0.7rem; font-weight: 600; }
+.std-J1939 { background: #0a2a1a; color: #66dd99; border: 1px solid #1a4a2a; }
+.std-J1939-DEUTZ { background: #0a2a2a; color: #66dddd; border: 1px solid #1a4a4a; }
+.std-J1587 { background: #2a1a0a; color: #dd9966; border: 1px solid #4a2a1a; }
+.std-J1708 { background: #1a0a2a; color: #9966dd; border: 1px solid #2a1a4a; }
+.std-J1708-J1587-J1939 { background: #1a1a2a; color: #9999dd; border: 1px solid #2a2a4a; }
+.std-CNH { background: #2a0a0a; color: #dd6666; border: 1px solid #4a1a1a; }
+.std-Ford { background: #0a1a2a; color: #6699dd; border: 1px solid #1a2a4a; }
+.std-Unk { background: #2a2a2a; color: #999; border: 1px solid #444; }
+
+.proc-card { background: #1a1a2e; border: 1px solid #2a2a3e; border-radius: 8px; padding: 1rem; margin-bottom: 0.75rem; cursor: pointer; }
+.proc-card:hover { border-color: #e94560; }
+.proc-card .proc-machine { color: #e94560; font-weight: 700; font-size: 1rem; }
+.proc-card .proc-title { color: #ccc; margin-top: 0.15rem; }
+.proc-card .proc-tags { margin-top: 0.3rem; display: flex; gap: 0.3rem; flex-wrap: wrap; }
+.proc-tag { display: inline-block; padding: 1px 6px; border-radius: 3px; font-size: 0.7rem; background: #2a2a4e; color: #aaa; }
+
 .fmi-badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.75rem; margin-right: 4px; }
 .fmi-0, .fmi-1 { background: #6b0000; color: #ff8888; }
 .fmi-2 { background: #6b4a00; color: #ffbb44; }
@@ -36,33 +56,51 @@ body { font-family: system-ui, -apple-system, sans-serif; background: #111; colo
 .fmi-7 { background: #006b4a; color: #88ffbb; }
 .fmi-12 { background: #6b0030; color: #ff88bb; }
 .fmi-31 { background: #2a4a00; color: #aadd66; }
+
 .stats { background: #1e1e2e; border: 1px solid #333; border-radius: 8px; padding: 1rem; margin-bottom: 1.5rem; display: flex; gap: 2rem; flex-wrap: wrap; }
 .stat-item { text-align: center; }
 .stat-item .num { font-size: 1.5rem; font-weight: 700; color: #e94560; }
 .stat-item .label { font-size: 0.8rem; color: #888; }
+
 .fmi-table { background: #1e1e2e; border: 1px solid #333; border-radius: 8px; padding: 1rem; margin-bottom: 1.5rem; }
 .fmi-table table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
 .fmi-table th { text-align: left; padding: 0.5rem; border-bottom: 1px solid #333; color: #888; font-weight: 600; }
 .fmi-table td { padding: 0.5rem; border-bottom: 1px solid #222; }
 .fmi-table tr:hover td { background: #2a2a3e; }
+
 .lookup-type { display: flex; gap: 0.5rem; margin-bottom: 1rem; flex-wrap: wrap; }
 .lookup-type button { padding: 0.4rem 1rem; border: 1px solid #333; border-radius: 4px; background: transparent; color: #888; cursor: pointer; font-size: 0.85rem; }
 .lookup-type button.active { border-color: #e94560; color: #e94560; background: #1a1a2e; }
 .hidden { display: none; }
+
 .source-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 0.75rem; margin-top: 1rem; }
 .source-card { background: #1a1a2e; border: 1px solid #2a2a3e; border-radius: 8px; padding: 1rem; cursor: pointer; }
 .source-card:hover { border-color: #e94560; }
 .source-card .s-name { color: #e0e0e0; font-weight: 600; font-size: 0.9rem; }
 .source-card .s-meta { color: #666; font-size: 0.8rem; margin-top: 0.25rem; }
 .source-card .s-count { color: #e94560; font-weight: 700; }
+
 .source-header { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem; }
 .source-header h3 { color: #e0e0e0; }
 .type-tag { display: inline-block; padding: 1px 6px; border-radius: 3px; font-size: 0.7rem; background: #2a2a4e; color: #aaa; margin-left: 0.5rem; }
 .back-btn { cursor: pointer; color: #e94560; font-size: 0.85rem; }
+
 .pagination { display: flex; gap: 0.5rem; align-items: center; margin-top: 1rem; justify-content: center; }
 .pagination button { padding: 0.4rem 0.8rem; border: 1px solid #333; border-radius: 4px; background: transparent; color: #888; cursor: pointer; }
 .pagination button.active { border-color: #e94560; color: #e94560; }
 .pagination button:hover:not(.active) { border-color: #666; }
+
+.proc-content { background: #1a1a2e; border: 1px solid #2a2a3e; border-radius: 8px; padding: 1.5rem; line-height: 1.6; }
+.proc-content h1 { color: #e94560; font-size: 1.3rem; margin-bottom: 1rem; }
+.proc-content h2 { color: #e0e0e0; font-size: 1.1rem; margin: 1rem 0 0.5rem; }
+.proc-content h3 { color: #ccc; font-size: 0.95rem; margin: 0.75rem 0 0.25rem; }
+.proc-content p { margin: 0.5rem 0; color: #bbb; }
+.proc-content ul, .proc-content ol { margin: 0.5rem 0; padding-left: 1.5rem; color: #bbb; }
+.proc-content li { margin: 0.25rem 0; }
+.proc-content code { background: #2a2a3e; padding: 0.1rem 0.3rem; border-radius: 3px; font-size: 0.85rem; }
+.proc-content pre { background: #0a0a1a; padding: 1rem; border-radius: 6px; overflow-x: auto; margin: 0.5rem 0; }
+.proc-content strong { color: #e0e0e0; }
+
 @media (max-width: 768px) {
   .header { padding: 0.75rem 1rem; }
   .container { padding: 1rem; }
@@ -83,23 +121,25 @@ body { font-family: system-ui, -apple-system, sans-serif; background: #111; colo
     <div class="stat-item"><div class="num" id="totalCount">-</div><div class="label">Total codes</div></div>
     <div class="stat-item"><div class="num" id="sourceCount">-</div><div class="label">Source docs</div></div>
     <div class="stat-item"><div class="num" id="typeCount">-</div><div class="label">Code types</div></div>
+    <div class="stat-item"><div class="num" id="procCount">-</div><div class="label">Procedures</div></div>
   </div>
 
   <div class="lookup-type">
     <button class="active" onclick="setMode('search')" id="modeSearch">Search</button>
-    <button onclick="setMode('sources')" id="modeSources">Browse by Source</button>
-    <button onclick="setMode('fmi')" id="modeFmi">FMI Reference</button>
-    <button onclick="setMode('dtc')" id="modeDtc">SPN+FMI Decode</button>
+    <button onclick="setMode('sources')" id="modeSources">Sources</button>
+    <button onclick="setMode('procedures')" id="modeProcedures">Procedures</button>
+    <button onclick="setMode('fmi')" id="modeFmi">FMI</button>
+    <button onclick="setMode('dtc')" id="modeDtc">SPN+FMI</button>
   </div>
 
   <div id="searchMode" class="search-box">
     <h2>Search All Codes</h2>
     <div class="search-row">
-      <input type="text" id="searchInput" placeholder="Enter code number (e.g. 110, 157, SID 23, PID 45)" oninput="searchCodes()" autofocus>
+      <input type="text" id="searchInput" placeholder="Code number or keyword..." oninput="searchCodes()" autofocus>
       <button onclick="searchCodes()">Search</button>
       <button class="secondary" onclick="clearSearch()">Clear</button>
     </div>
-    <div class="hint">Type any code number to search across SPN, SID, PID, MID, DTC, and SFC codes.</div>
+    <div class="hint">Search across SPN, SID, PID, MID, DTC, and SFC codes. Shows J1939 vs manufacturer origin.</div>
     <div id="searchResult" class="results"></div>
   </div>
 
@@ -114,10 +154,27 @@ body { font-family: system-ui, -apple-system, sans-serif; background: #111; colo
         <h3 id="sourceTitle"></h3>
       </div>
       <div class="search-row" style="margin-bottom:1rem;">
-        <input type="text" id="sourceFilter" placeholder="Filter codes..." oninput="renderSourceCodes()">
+        <input type="text" id="sourceFilter" placeholder="Filter codes...">
       </div>
       <div id="sourceCodes" class="results"></div>
       <div id="sourcePagination" class="pagination"></div>
+    </div>
+  </div>
+
+  <div id="proceduresMode" class="hidden">
+    <div id="procListContainer">
+      <h2 style="color:#aaa; font-size:1rem; margin-bottom:0.5rem;">Service Procedures</h2>
+      <div class="search-row" style="margin-bottom:1rem;">
+        <input type="text" id="procFilter" placeholder="Search procedures...">
+      </div>
+      <div class="results" id="procList"></div>
+    </div>
+    <div id="procDetailContainer" class="hidden">
+      <div class="source-header">
+        <span class="back-btn" onclick="backToProcedures()">&larr; Back</span>
+        <h3 id="procTitle"></h3>
+      </div>
+      <div id="procBody" class="proc-content"></div>
     </div>
   </div>
 
@@ -137,7 +194,7 @@ body { font-family: system-ui, -apple-system, sans-serif; background: #111; colo
       <input type="number" id="dtcFmi" placeholder="FMI (e.g. 18)" style="flex: 0 0 120px;">
       <button onclick="decodeDTC()">Decode</button>
     </div>
-    <div class="hint">Enter an SPN and FMI to see the full diagnostic code description.</div>
+    <div class="hint">Enter an SPN and FMI to see the full fault description.</div>
     <div id="dtcResult" class="results"></div>
   </div>
 </div>
@@ -146,28 +203,38 @@ body { font-family: system-ui, -apple-system, sans-serif; background: #111; colo
 let unifiedData = [];
 let fmiData = [];
 let sourcesMap = {};
+let proceduresData = [];
 let currentSource = null;
 let currentPage = 0;
+let currentProc = null;
 const PAGE_SIZE = 50;
+
+function stdClass(std) {
+  return 'std-' + std.replace(/[/\s()]/g, '-');
+}
 
 async function loadData() {
   try {
-    const [unifiedRes, fmiRes, sourcesRes] = await Promise.all([
+    const [unifiedRes, fmiRes, sourcesRes, procRes] = await Promise.all([
       fetch('spn-database/unified-codes.json'),
       fetch('spn-database/fmi-list.json'),
-      fetch('spn-database/sources.json')
+      fetch('spn-database/sources.json'),
+      fetch('procedures/procedures.json').catch(() => ({ json: () => [] }))
     ]);
     unifiedData = await unifiedRes.json();
     fmiData = await fmiRes.json();
     sourcesMap = await sourcesRes.json();
+    proceduresData = await procRes.json();
 
     const types = new Set(unifiedData.map(c => c.type));
     document.getElementById('totalCount').textContent = unifiedData.length.toLocaleString();
     document.getElementById('sourceCount').textContent = Object.keys(sourcesMap).length;
     document.getElementById('typeCount').textContent = types.size;
+    document.getElementById('procCount').textContent = proceduresData.length || 0;
 
     renderFMI();
     renderSources();
+    renderProcedures();
     if (window.location.hash) {
       const hash = window.location.hash.slice(1);
       const num = parseInt(hash);
@@ -182,8 +249,7 @@ async function loadData() {
 }
 
 function renderFMI() {
-  const tbody = document.getElementById('fmiBody');
-  tbody.innerHTML = fmiData.map(f =>
+  document.getElementById('fmiBody').innerHTML = fmiData.map(f =>
     `<tr>
       <td><span class="fmi-badge fmi-${f.fmi}">FMI ${f.fmi}</span></td>
       <td>${f.desc}</td>
@@ -194,8 +260,7 @@ function renderFMI() {
 }
 
 function renderSources() {
-  const list = document.getElementById('sourceList');
-  list.innerHTML = Object.entries(sourcesMap).map(([file, s]) =>
+  document.getElementById('sourceList').innerHTML = Object.entries(sourcesMap).map(([file, s]) =>
     `<div class="source-card" onclick="openSource('${file}')">
       <div class="s-name">${s.name} <span class="type-tag">${s.type}</span></div>
       <div class="s-meta"><span class="s-count">${s.count}</span> codes</div>
@@ -229,11 +294,9 @@ function renderSourceCodes() {
   if (currentPage < 0) currentPage = 0;
 
   const pageCodes = filtered.slice(currentPage * PAGE_SIZE, (currentPage + 1) * PAGE_SIZE);
-
-  const div = document.getElementById('sourceCodes');
-  div.innerHTML = pageCodes.map(c =>
+  document.getElementById('sourceCodes').innerHTML = pageCodes.map(c =>
     `<div class="code-card">
-      <div class="code-num">${c.type} ${c.code}</div>
+      <div class="code-num">${c.type} ${c.code} <span class="std-badge ${stdClass(c.standard)}">${c.standard}</span></div>
       <div class="code-desc">${c.desc}</div>
     </div>`
   ).join('');
@@ -241,13 +304,69 @@ function renderSourceCodes() {
   const pag = document.getElementById('sourcePagination');
   if (totalPages <= 1) { pag.innerHTML = ''; return; }
   pag.innerHTML = `<button onclick="changePage(-1)">&laquo; Prev</button>` +
-    `<span style="color:#666;font-size:0.85rem;">Page ${currentPage+1}/${totalPages}</span>` +
+    `<span style="color:#666;font-size:0.85rem;">${currentPage+1}/${totalPages}</span>` +
     `<button onclick="changePage(1)">Next &raquo;</button>`;
 }
 
 function changePage(delta) {
   currentPage += delta;
   renderSourceCodes();
+}
+
+function renderProcedures() {
+  const filter = (document.getElementById('procFilter')?.value || '').toLowerCase();
+  const filtered = filter
+    ? proceduresData.filter(p => p.machine?.toLowerCase().includes(filter) || p.title?.toLowerCase().includes(filter) || (p.tags || []).some(t => t.toLowerCase().includes(filter)))
+    : proceduresData;
+
+  document.getElementById('procList').innerHTML = filtered.length
+    ? filtered.map(p =>
+      `<div class="proc-card" onclick="openProcedure('${p.id}')">
+        <div class="proc-machine">${p.machine || 'General'}</div>
+        <div class="proc-title">${p.title}</div>
+        ${p.tags ? `<div class="proc-tags">${p.tags.map(t => `<span class="proc-tag">${t}</span>`).join('')}</div>` : ''}
+      </div>`
+    ).join('')
+    : '<div class="code-card" style="color:#666;">No procedures found. Add some in the procedures/ folder.</div>';
+}
+
+function openProcedure(id) {
+  currentProc = proceduresData.find(p => p.id === id);
+  if (!currentProc) return;
+  document.getElementById('procListContainer').classList.add('hidden');
+  document.getElementById('procDetailContainer').classList.remove('hidden');
+  document.getElementById('procTitle').textContent = currentProc.machine + ' - ' + currentProc.title;
+
+  const url = currentProc.file || `procedures/${id}.md`;
+  fetch(url)
+    .then(r => r.ok ? r.text() : '<p>Procedure content not found.</p>')
+    .then(md => {
+      document.getElementById('procBody').innerHTML = simpleMarkdown(md);
+    })
+    .catch(() => {
+      document.getElementById('procBody').innerHTML = '<p>Error loading procedure.</p>';
+    });
+}
+
+function backToProcedures() {
+  currentProc = null;
+  document.getElementById('procListContainer').classList.remove('hidden');
+  document.getElementById('procDetailContainer').classList.add('hidden');
+}
+
+function simpleMarkdown(text) {
+  let html = text
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+    .replace(/^### (.+)$/gm, '<h3>$1</h3>')
+    .replace(/^## (.+)$/gm, '<h2>$1</h2>')
+    .replace(/^# (.+)$/gm, '<h1>$1</h1>')
+    .replace(/^(\d+)\. (.+)$/gm, '<li>$2</li>')
+    .replace(/^- (.+)$/gm, '<li>$1</li>')
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    .replace(/`(.+?)`/g, '<code>$1</code>')
+    .replace(/\n\n/g, '</p><p>')
+    .replace(/\n/g, '<br>');
+  return '<p>' + html + '</p>';
 }
 
 function searchCodes() {
@@ -257,17 +376,14 @@ function searchCodes() {
 
   const num = parseInt(val);
   const isNum = !isNaN(num);
+  const upper = val.toUpperCase();
 
-  let results;
-  if (isNum) {
-    results = unifiedData.filter(c => c.code === num);
-  } else {
-    const upper = val.toUpperCase();
-    results = unifiedData.filter(c =>
-      c.desc.toUpperCase().includes(upper) ||
-      (c.type + ' ' + c.code).toUpperCase().includes(upper)
-    );
-  }
+  let results = isNum
+    ? unifiedData.filter(c => c.code === num)
+    : unifiedData.filter(c =>
+        c.desc.toUpperCase().includes(upper) ||
+        (c.type + ' ' + c.code).toUpperCase().includes(upper)
+      );
 
   if (results.length === 0) {
     div.innerHTML = `<div class="code-card" style="color:#888;">No matches for <strong>${val}</strong>.</div>`;
@@ -277,9 +393,9 @@ function searchCodes() {
   const shown = results.slice(0, 200);
   div.innerHTML = shown.map(c =>
     `<div class="code-card">
-      <div class="code-num">${c.type} ${c.code}</div>
+      <div class="code-num">${c.type} ${c.code} <span class="std-badge ${stdClass(c.standard)}">${c.standard}</span></div>
       <div class="code-desc">${c.desc}</div>
-      <div class="code-source">Source: ${c.source}</div>
+      <div class="code-meta"><span class="code-source">Source: ${c.source}</span></div>
     </div>`
   ).join('');
   if (results.length > 200) {
@@ -309,21 +425,21 @@ function decodeDTC() {
   const fmiMatch = fmiData.find(f => f.fmi === fmi);
 
   if (!spnMatch) {
-    div.innerHTML = `<div class="code-card" style="color:#888;">SPN ${spn} not found in database.</div>`;
+    div.innerHTML = `<div class="code-card" style="color:#888;">SPN ${spn} not found.</div>`;
     return;
   }
   if (!fmiMatch) {
-    div.innerHTML = `<div class="code-card" style="color:#888;">FMI ${fmi} not found (valid range: 0-31).</div>`;
+    div.innerHTML = `<div class="code-card" style="color:#888;">FMI ${fmi} not found (0-31).</div>`;
     return;
   }
 
   div.innerHTML =
     `<div class="code-card">
-      <div class="code-num" style="margin-bottom:0.25rem;">SPN ${spn} &mdash; FMI ${fmi}</div>
+      <div class="code-num" style="margin-bottom:0.25rem;">SPN ${spn} &mdash; FMI ${fmi} <span class="std-badge ${stdClass(spnMatch.standard)}">${spnMatch.standard}</span></div>
       <div style="color:#ccc; margin-bottom:0.5rem;"><strong>${spnMatch.desc}</strong></div>
       <div style="color:#aaa; font-size:0.9rem;">${fmiMatch.desc}</div>
       <div style="margin-top:0.5rem; display:flex; gap:0.5rem; flex-wrap:wrap;">
-        <span class="fmi-badge fmi-${fmi}">FMI ${fmi} - ${fmiMatch.category}</span>
+        <span class="fmi-badge fmi-${fmi}">${fmiMatch.category}</span>
         <span class="fmi-badge fmi-${fmi}">Severity: ${fmiMatch.severity}/3</span>
       </div>
       <div class="code-source" style="margin-top:0.5rem;">Source: ${spnMatch.source}</div>
@@ -332,17 +448,22 @@ function decodeDTC() {
 
 function setMode(mode) {
   document.querySelectorAll('.lookup-type button').forEach(b => b.classList.remove('active'));
-  document.getElementById('modeSearch').classList.toggle('active', mode === 'search');
-  document.getElementById('modeSources').classList.toggle('active', mode === 'sources');
-  document.getElementById('modeFmi').classList.toggle('active', mode === 'fmi');
-  document.getElementById('modeDtc').classList.toggle('active', mode === 'dtc');
+  ['search','sources','procedures','fmi','dtc'].forEach(m => {
+    document.getElementById('mode' + m.charAt(0).toUpperCase() + m.slice(1)).classList.toggle('active', mode === m);
+  });
   document.getElementById('searchMode').classList.toggle('hidden', mode !== 'search');
   document.getElementById('sourcesMode').classList.toggle('hidden', mode !== 'sources');
+  document.getElementById('proceduresMode').classList.toggle('hidden', mode !== 'procedures');
   document.getElementById('fmiMode').classList.toggle('hidden', mode !== 'fmi');
   document.getElementById('dtcMode').classList.toggle('hidden', mode !== 'dtc');
+  if (mode === 'procedures') renderProcedures();
 }
 
 document.addEventListener('DOMContentLoaded', loadData);
+document.addEventListener('input', e => {
+  if (e.target.id === 'sourceFilter') renderSourceCodes();
+  if (e.target.id === 'procFilter') renderProcedures();
+});
 document.getElementById('searchInput').addEventListener('keydown', e => { if (e.key === 'Enter') searchCodes(); });
 document.getElementById('dtcSpn').addEventListener('keydown', e => { if (e.key === 'Enter') decodeDTC(); });
 document.getElementById('dtcFmi').addEventListener('keydown', e => { if (e.key === 'Enter') decodeDTC(); });

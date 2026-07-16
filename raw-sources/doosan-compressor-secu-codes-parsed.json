@@ -1,0 +1,65 @@
+[
+  {
+    "type": "SECU",
+    "code": 1,
+    "desc": "S3, Discharge Temperature Switch",
+    "effect": "Code 1 will cause a machine shutdown S3 Temperature Switch",
+    "standard": "Doosan",
+    "source": "Doosan Compressor SECU Fault Codes (Book 23307366)",
+    "file": "doosan-compressor-secu-codes"
+  },
+  {
+    "type": "SECU",
+    "code": 2,
+    "desc": "S2, Separator Tank Temperature Switch",
+    "effect": "Code 2 will cause a machine shutdown S2 Temperature Switch",
+    "standard": "Doosan",
+    "source": "Doosan Compressor SECU Fault Codes (Book 23307366)",
+    "file": "doosan-compressor-secu-codes"
+  },
+  {
+    "type": "SECU",
+    "code": 3,
+    "desc": "Low Alternator/Battery Voltage",
+    "effect": "Code 3 is an alert condition and will not shutdown the machine Alternator",
+    "standard": "Doosan",
+    "source": "Doosan Compressor SECU Fault Codes (Book 23307366)",
+    "file": "doosan-compressor-secu-codes"
+  },
+  {
+    "type": "SECU",
+    "code": 5,
+    "desc": "S5, Engine Oil Pressure Switch",
+    "effect": "Code 5 will cause a machine shutdown S5 Temperature Switch",
+    "standard": "Doosan",
+    "source": "Doosan Compressor SECU Fault Codes (Book 23307366)",
+    "file": "doosan-compressor-secu-codes"
+  },
+  {
+    "type": "SECU",
+    "code": 6,
+    "desc": "PT2, Regulation Pressure Transducer",
+    "effect": "Code 6 will cause a machine shutdown PS1 Transducer",
+    "standard": "Doosan",
+    "source": "Doosan Compressor SECU Fault Codes (Book 23307366)",
+    "file": "doosan-compressor-secu-codes"
+  },
+  {
+    "type": "SECU",
+    "code": 8,
+    "desc": "Low Fuel Shutdown",
+    "effect": "Code 8 will cause a machine shutdown U1 Transducer",
+    "standard": "Doosan",
+    "source": "Doosan Compressor SECU Fault Codes (Book 23307366)",
+    "file": "doosan-compressor-secu-codes"
+  },
+  {
+    "type": "SECU",
+    "code": 9,
+    "desc": "Air Filter Restriction Switch",
+    "effect": "Code 9 is an alert condition and will not shutdown the machine. Air Filter Restriction",
+    "standard": "Doosan",
+    "source": "Doosan Compressor SECU Fault Codes (Book 23307366)",
+    "file": "doosan-compressor-secu-codes"
+  }
+]
