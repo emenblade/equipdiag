@@ -1,0 +1,10 @@
+# SERVICE AND GUIDELINES General
+
+**Equipment:** JLG 800S / 860SJ
+
+> ⚠ **SELF LOCKING FASTENERS, SUCH AS N**
+>
+1. The most important single item in preserving the long service life of a machine is to keep dirt and for- eign materials out of the vital components. Precau- tions have been taken to safeguard against this. Shields, covers, seals, and filters are provided to keep air, fuel, and oil supplies clean; however, these items must be maintained on a scheduled basis in order to function properly.
+2. SERVICE AND GUIDELINES General  The following information is provided to assist you in the use and application of servicing and maintenance proce- dures contained in this book.  Safety and Workmanship  Your safety, and that of others, is the first consideration when engaging in the maintenance of equipment. Always be conscious of weight. Never attempt to move heavy parts without the aid of a mechanical device. Do not allow heavy objects to rest in an unstable position. When raising a portion of the equipment, ensure that adequate support is provided.  Cleanliness
+3. Clean and inspect all parts during servicing or main- tenance, and assure that all passages and openings are   unobstructed.   Cover   all   parts   to   keep   them clean. Be sure all parts are clean before they are installed. New parts should remain in their contain- ers until they are ready to be used.  Components Removal and Installation
+4. Lubricate new or used serviceable bearings before installation. When pressing a bearing into a retainer or bore, apply pressure to the outer race. If the bear- ing is to be installed on a shaft, apply pressure to the inner race.  Gaskets  Check that holes in gaskets align with openings in the mating parts. If it becomes necessary to hand-fabricate a gasket, use gasket material or stock of equivalent material and thickness. Be sure to cut holes in the right location, as blank gaskets can cause serious system damage.  Bolt Usage and Torque Application  SELF LOCKING FASTENERS, SUCH AS N

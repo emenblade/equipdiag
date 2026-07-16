@@ -13,5 +13,3 @@
 10. Push down with slight pressure on the link and slide the bracket side up and over the extrusion on the link.
 11. Repeat the previous step on the other side.
 12. Slide the bracket off of the powertrack.  Two Piece Bracket Maintenance
-
-> **Note:** Bars indicate starting positions of piston and shaft.

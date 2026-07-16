@@ -1,0 +1,6 @@
+# TRANSMISSION SERIAL NUMBER
+
+**Equipment:** JLG G5-18A
+
+2. TRANSMISSION SERIAL NUMBER  Instructions in this section pertain mainly to general specifications, towing, maintenance information, and transmission removal and installation procedures. For internal transmission service instructions and detailed specifications contact an authorized Rexroth Repair center. More information can be obtained from the serial number plate directly mounted on the transmission. Information specified on the serial number plate includes the transmission model number, the transmission serial number and other data. Information on the serial number plate is required in correspondence regarding the transmission.
+2. TRANSMISSION SERIAL NUMBER  Instructions in this section pertain mainly to general specifications, towing, maintenance information, and transmission removal and installation procedures. For internal transmission service instructions and detailed specifications contact an authorized Rexroth Repair center. More information can be obtained from the serial number plate directly mounted on the transmission. Information specified on the serial number plate includes the transmission model number, the transmission serial number and other data. Information on the serial number plate is required in correspondence regarding the transmission.

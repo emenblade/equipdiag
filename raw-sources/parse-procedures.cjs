@@ -92,7 +92,7 @@ function extractJLG(text, model) {
   const results = [];
 
   // Find sections with numbered steps: "X.Y   TITLE" followed by steps
-  const sectionRe = /(\d+)\.(\d+)\s{3,}([A-Z][A-Za-z0-9\s,\/\-()#&]{5,60}?)(?=\s{2,}\d)/g;
+  const sectionRe = /(\d+)\.(\d+)\s{3,}([A-Z][A-Za-z0-9\s,\/\-()#&]{5,60}?)(?=\s{2,}\d|\s{2,}[A-Z][a-z])/g;
   let m;
   const sections = [];
   while ((m = sectionRe.exec(fullText)) !== null) {
@@ -150,6 +150,154 @@ function extractJLG(text, model) {
   return results;
 }
 
+// ===== John Deere-style "Group XXXX—Title" with steps =====
+function extractJohnDeere(text, model) {
+  const pp = text.split(/\nPAGE \d+/);
+  const fullText = pp.join('\n');
+  const results = [];
+  const seen = new Set();
+
+  // Find all step blocks (sequences of 3+ consecutive numbered steps)
+  const stepRe = /(\d+)\.\s{3,}([A-Z][A-Za-z0-9\s\/,;'".()\-]+?)(?=\s+\d+\.\s{3,}[A-Z]|$)/g;
+  const allSteps = [];
+  let m;
+  while ((m = stepRe.exec(fullText)) !== null) {
+    const num = parseInt(m[1]);
+    const text = m[2].trim();
+    if (text.length >= 10 && num <= 60) {
+      allSteps.push({ index: m.index, num, text, end: m.index + m[0].length });
+    }
+  }
+
+  let i = 0;
+  while (i < allSteps.length) {
+    if (allSteps[i].num !== 1) { i++; continue; }
+    const group = [allSteps[i]];
+    let j = i + 1;
+    while (j < allSteps.length && allSteps[j].num === group.length + 1 &&
+           (allSteps[j].index - allSteps[j-1].end) < 5000) {
+      group.push(allSteps[j]);
+      j++;
+    }
+    if (group.length >= 3) {
+      const firstIdx = group[0].index;
+      const before = fullText.substring(Math.max(0, firstIdx - 400), firstIdx);
+      const titleMatch = before.match(/([A-Z][A-Za-z\s\/\-]{4,80}(?:Remove|Install|Disassemble|Assemble|Test|Check|Inspect|Adjust(?:ment)?|Service|Replace|Repair|Fill|Clean|Purge|Bleed|Calibrate[et]?|Lubricate[et]?|Drain|Charge|Recommendation|Procedure|Specification|Description))[\.\s]*$/m);
+      const title = titleMatch ? titleMatch[1].trim() : 'JD Procedure';
+      const key = title + '|' + group.length;
+      if (!seen.has(key) && titleQualityJD(title)) {
+        seen.add(key);
+        results.push({
+          title,
+          equipment: model,
+          steps: group.map(s => ({ num: s.num, text: s.text })),
+          warnings: [], notes: [], subSections: []
+        });
+      }
+    }
+    // Skip past this group
+    while (i < allSteps.length && allSteps[i].num !== 1) i++;
+    const curr = allSteps[i] ? allSteps[i].num : 0;
+    while (i < allSteps.length && allSteps[i].num === curr) i++;
+  }
+  return results;
+}
+
+// ===== Doosan DGK-style "Checking the X" / "Oil Change" with steps =====
+function titleQuality(title) {
+  const badPatterns = [/^[A-Z][a-z]+$/, /^\d/, /^XX/, /Violet of CN/, /Exciter Field Current/, /Measurements taken/, /^\s{0,10}$/];
+  for (const p of badPatterns) if (p.test(title)) return false;
+  if (title.length < 6) return false;
+  return true;
+}
+
+function extractDoosan(text, model) {
+  const pp = text.split(/\nPAGE \d+/);
+  const fullText = pp.join('\n');
+  const results = [];
+
+  // Find procedures: title followed by step numbering (2+ spaces then step num)
+  const stepBlockRe = /(\d+)\.\s{3,}([A-Z][A-Za-z0-9\s\/,;'".()\-]+?)(?=\s+\d+\.\s{3,}[A-Z]|$)/g;
+  const allSteps = [];
+  let m;
+  while ((m = stepBlockRe.exec(fullText)) !== null) {
+    const num = parseInt(m[1]);
+    const txt = m[2].trim();
+    if (txt.length >= 10 && num <= 50) {
+      allSteps.push({ index: m.index, num, txt });
+    }
+  }
+
+  const titleSkipRe = /^(Necessary|Note|Refer|All|This|A|The)/;
+  let i = 0;
+  while (i < allSteps.length) {
+    if (allSteps[i].num !== 1) { i++; continue; }
+    const group = [allSteps[i]];
+    let j = i + 1;
+    while (j < allSteps.length && allSteps[j].num === group.length + 1 &&
+           (allSteps[j].index - allSteps[j-1].index) < 3000) {
+      group.push(allSteps[j]);
+      j++;
+    }
+    if (group.length >= 2) {
+      const before = fullText.substring(Math.max(0, group[0].index - 500), group[0].index);
+      let title = null;
+      // Search from the end backward: look for "X Frequency" or "X Procedure"
+      const freqMatch = before.match(/([A-Z][A-Za-z0-9\s\/()]{4,60})\s+Frequency(?:\s+.*?)?\s*$/m);
+      if (freqMatch) title = freqMatch[1].trim();
+      if (!title || title.length < 6) {
+        const procMatch = before.match(/([A-Z][A-Za-z0-9\s\/()]{4,60})\s+Procedure\s*$/m);
+        if (procMatch) title = procMatch[1].trim();
+      }
+      // Search FULL before text (not just end) for Checking/Measuring/Replacing
+      if (!title || title.length < 6) {
+        const ckMatch = before.match(/(Checking the [A-Za-z0-9\s\/()]{4,60})/);
+        if (ckMatch) title = ckMatch[1].trim();
+      }
+      if (!title || title.length < 6) {
+        const msMatch = before.match(/(Measuring [A-Za-z0-9\s]{4,60})/);
+        if (msMatch) title = msMatch[1].trim();
+      }
+      if (!title || title.length < 6) {
+        const rpMatch = before.match(/(Replacing the [A-Za-z0-9\s]{4,60})/);
+        if (rpMatch) title = rpMatch[1].trim();
+      }
+      if (!title || title.length < 6) {
+        const ocMatch = before.match(/(Oil Change|Oil Filter Change|Cleaning\/Changing [A-Za-z\s]+|Draining [A-Za-z\s]+|Changing [A-Za-z\s]+)/);
+        if (ocMatch) title = ocMatch[1].trim();
+      }
+      if (!title || title.length < 6) {
+        title = group[0].txt.substring(0, 60);
+      }
+      // Clean up trailing noise
+      title = title.replace(/\s{2,}.*$/, '').replace(/\s+(All Models.*|Necessary.*)$/, '').trim();
+      const nearBefore = fullText.substring(Math.max(0, group[0].index - 200), group[0].index);
+      if (titleQuality(title) && !/^(If |Stop |Open |Check |Gain |Disconnect|Then |Note|Notes)/.test(title) && !nearBefore.includes('Notes:')) {
+        const key = title + '|' + group.length;
+        if (!results.some(r => r.title === title && r.steps.length === group.length)) {
+          results.push({
+            title,
+            equipment: model,
+            steps: group.map(s => ({ num: s.num, text: s.txt })),
+            warnings: [], notes: [], subSections: []
+          });
+        }
+      }
+    }
+    const curr = allSteps[i] ? allSteps[i].num : 0;
+    while (i < allSteps.length && allSteps[i].num === curr) i++;
+  }
+  return results;
+}
+
+// Same title filter for John Deere
+function titleQualityJD(title) {
+  const badPatterns = [/^[A-Z][a-z]+$/, /^\d/, /^\s{0,10}$/];
+  for (const p of badPatterns) if (p.test(title)) return false;
+  if (title.length < 6) return false;
+  return true;
+}
+
 // ===== Generate markdown =====
 function procToMarkdown(proc, manualPrefix) {
   const slug = proc.title.toLowerCase()
@@ -199,6 +347,17 @@ const manuals = [
   { file: 'jlg-450aj-manual.txt', model: 'JLG 450AJ', parser: 'jlg' },
   { file: 'skyjack-4632-manual.txt', model: 'Skyjack 4632 / 3226 / 4626', parser: 'jlg' },
   { file: 'skyjack-sj46aj-manual.txt', model: 'Skyjack SJ46AJ / SJIII Series', parser: 'jlg' },
+  { file: 'john-deere-skidsteer.txt', model: 'John Deere 326D / 328D / 329D / 332D / 333D', parser: 'johnDeere' },
+  { file: 'doosan-dgk-service.txt', model: 'Doosan DGK25B / 45A / 45C / 60A / 70B / 100B', parser: 'doosan' },
+  { file: 'onan-hdkbc-service.txt', model: 'Onan HDKBC Generator', parser: 'genie' },
+  { file: 'genie-z80-service.txt', model: 'Genie Z-80 / Z-80/60', parser: 'genie' },
+  { file: 'genie-gr15-service.txt', model: 'Genie GR-15 / GR-20', parser: 'genie' },
+  { file: 'genie-1932-service.txt', model: 'Genie 1932 / 2032 / 2046', parser: 'genie' },
+  { file: 'jlg-g5-18a-service.txt', model: 'JLG G5-18A', parser: 'jlg' },
+  { file: 'wacker-g25-repair.txt', model: 'Wacker Neuson G25', parser: 'genie' },
+  { file: 'wacker-g85-repair.txt', model: 'Wacker Neuson G85', parser: 'genie' },
+  { file: 'wacker-g50-service.txt', model: 'Wacker Neuson G50', parser: 'genie' },
+  { file: 'doosan-dca150-service.txt', model: 'Doosan DCA25-150 Generator', parser: 'jlg' },
 ];
 
 let totalProcs = 0;
@@ -211,6 +370,10 @@ for (const manual of manuals) {
 
     if (manual.parser === 'genie') {
       procs = extractGenie(text, manual.model);
+    } else if (manual.parser === 'johnDeere') {
+      procs = extractJohnDeere(text, manual.model);
+    } else if (manual.parser === 'doosan') {
+      procs = extractDoosan(text, manual.model);
     } else {
       procs = extractJLG(text, manual.model);
     }

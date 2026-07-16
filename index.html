@@ -597,7 +597,7 @@ function setMode(mode) {
   document.querySelectorAll('.nav button').forEach(b => b.classList.remove('active'));
   document.getElementById('mode' + mode.charAt(0).toUpperCase() + mode.slice(1)).classList.add('active');
   ['search','procedures','sources','fmi','dtc'].forEach(m => {
-    document.getElementById(m.charAt(0).toUpperCase() + m.slice(1) + 'Mode').classList.toggle('hidden', mode !== m);
+    document.getElementById(m + 'Mode').classList.toggle('hidden', mode !== m);
   });
   if (mode === 'procedures') { renderProcChips(); renderProcedures(); }
   if (mode === 'sources') renderSources();
