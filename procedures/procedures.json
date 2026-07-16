@@ -1,1 +1,1269 @@
-[]
+[
+  {
+    "id": "genie-gs1930-adjust-the-manual-platform-lowering-cable",
+    "title": "Adjust the Manual Platform Lowering Cable",
+    "file": "genie-gs1930-adjust-the-manual-platform-lowering-cable.md",
+    "steps": 9,
+    "machine": "Genie GS-1930 / GS-2632 / GS-3232"
+  },
+  {
+    "id": "genie-gs1930-adjust-the-platform-lift-relief-valve",
+    "title": "Adjust the Platform Lift Relief Valve",
+    "file": "genie-gs1930-adjust-the-platform-lift-relief-valve.md",
+    "steps": 20,
+    "machine": "Genie GS-1930 / GS-2632 / GS-3232"
+  },
+  {
+    "id": "genie-gs1930-adjust-the-steer-relief-valve",
+    "title": "Adjust the Steer Relief Valve",
+    "file": "genie-gs1930-adjust-the-steer-relief-valve.md",
+    "steps": 11,
+    "machine": "Genie GS-1930 / GS-2632 / GS-3232"
+  },
+  {
+    "id": "genie-gs1930-adjust-the-system-relief-valve",
+    "title": "Adjust the System Relief Valve",
+    "file": "genie-gs1930-adjust-the-system-relief-valve.md",
+    "steps": 5,
+    "machine": "Genie GS-1930 / GS-2632 / GS-3232"
+  },
+  {
+    "id": "genie-gs1930-calibrate-the-outrigger-system",
+    "title": "Calibrate the Outrigger System",
+    "file": "genie-gs1930-calibrate-the-outrigger-system.md",
+    "steps": 15,
+    "machine": "Genie GS-1930 / GS-2632 / GS-3232"
+  },
+  {
+    "id": "genie-gs1930-calibrate-the-platform-overload-system",
+    "title": "Calibrate the Platform Overload System",
+    "file": "genie-gs1930-calibrate-the-platform-overload-system.md",
+    "steps": 18,
+    "machine": "Genie GS-1930 / GS-2632 / GS-3232"
+  },
+  {
+    "id": "genie-gs1930-clear-the-platform-overload-recovery-message",
+    "title": "Clear the Platform Overload Recovery Message",
+    "file": "genie-gs1930-clear-the-platform-overload-recovery-message.md",
+    "steps": 4,
+    "machine": "Genie GS-1930 / GS-2632 / GS-3232"
+  },
+  {
+    "id": "genie-gs1930-determine-the-revision-level",
+    "title": "Determine the Revision Level",
+    "file": "genie-gs1930-determine-the-revision-level.md",
+    "steps": 2,
+    "machine": "Genie GS-1930 / GS-2632 / GS-3232"
+  },
+  {
+    "id": "genie-gs1930-disassemble-the-scissor-assembly-gs-2032-and-gs-2046",
+    "title": "Disassemble the Scissor Assembly, GS-2032 and GS-2046",
+    "file": "genie-gs1930-disassemble-the-scissor-assembly-gs-2032-and-gs-2046.md",
+    "steps": 28,
+    "machine": "Genie GS-1930 / GS-2632 / GS-3232"
+  },
+  {
+    "id": "genie-gs1930-disassemble-the-scissor-assembly",
+    "title": "Disassemble the Scissor Assembly",
+    "file": "genie-gs1930-disassemble-the-scissor-assembly.md",
+    "steps": 25,
+    "machine": "Genie GS-1930 / GS-2632 / GS-3232"
+  },
+  {
+    "id": "genie-gs1930-install-a-valve-cartridge",
+    "title": "Install a Valve Cartridge",
+    "file": "genie-gs1930-install-a-valve-cartridge.md",
+    "steps": 3,
+    "machine": "Genie GS-1930 / GS-2632 / GS-3232"
+  },
+  {
+    "id": "genie-gs1930-install-and-calibrate-the-level-sensor-procedure-1",
+    "title": "Install and Calibrate the Level Sensor - Procedure 1",
+    "file": "genie-gs1930-install-and-calibrate-the-level-sensor-procedure-1.md",
+    "steps": 25,
+    "machine": "Genie GS-1930 / GS-2632 / GS-3232"
+  },
+  {
+    "id": "genie-gs1930-install-and-calibrate-the-level-sensor-procedure-2",
+    "title": "Install and Calibrate the Level Sensor - Procedure 2",
+    "file": "genie-gs1930-install-and-calibrate-the-level-sensor-procedure-2.md",
+    "steps": 25,
+    "machine": "Genie GS-1930 / GS-2632 / GS-3232"
+  },
+  {
+    "id": "genie-gs1930-install-and-calibrate-the-level-sensor-procedure-3",
+    "title": "Install and Calibrate the Level Sensor - Procedure 3",
+    "file": "genie-gs1930-install-and-calibrate-the-level-sensor-procedure-3.md",
+    "steps": 23,
+    "machine": "Genie GS-1930 / GS-2632 / GS-3232"
+  },
+  {
+    "id": "genie-gs1930-remove-a-drive-motor",
+    "title": "Remove a Drive Motor",
+    "file": "genie-gs1930-remove-a-drive-motor.md",
+    "steps": 5,
+    "machine": "Genie GS-1930 / GS-2632 / GS-3232"
+  },
+  {
+    "id": "genie-gs1930-remove-the-drive-brake",
+    "title": "Remove the Drive Brake",
+    "file": "genie-gs1930-remove-the-drive-brake.md",
+    "steps": 11,
+    "machine": "Genie GS-1930 / GS-2632 / GS-3232"
+  },
+  {
+    "id": "genie-gs1930-remove-the-hydraulic-pump",
+    "title": "Remove the Hydraulic Pump",
+    "file": "genie-gs1930-remove-the-hydraulic-pump.md",
+    "steps": 9,
+    "machine": "Genie GS-1930 / GS-2632 / GS-3232"
+  },
+  {
+    "id": "genie-gs1930-remove-the-hydraulic-tank",
+    "title": "Remove the Hydraulic Tank",
+    "file": "genie-gs1930-remove-the-hydraulic-tank.md",
+    "steps": 8,
+    "machine": "Genie GS-1930 / GS-2632 / GS-3232"
+  },
+  {
+    "id": "genie-gs1930-remove-the-joystick",
+    "title": "Remove the Joystick",
+    "file": "genie-gs1930-remove-the-joystick.md",
+    "steps": 8,
+    "machine": "Genie GS-1930 / GS-2632 / GS-3232"
+  },
+  {
+    "id": "genie-gs1930-remove-the-lift-cylinder",
+    "title": "Remove the Lift Cylinder",
+    "file": "genie-gs1930-remove-the-lift-cylinder.md",
+    "steps": 23,
+    "machine": "Genie GS-1930 / GS-2632 / GS-3232"
+  },
+  {
+    "id": "genie-gs1930-remove-the-platform-controls-alarm",
+    "title": "Remove the Platform Controls Alarm",
+    "file": "genie-gs1930-remove-the-platform-controls-alarm.md",
+    "steps": 6,
+    "machine": "Genie GS-1930 / GS-2632 / GS-3232"
+  },
+  {
+    "id": "genie-gs1930-remove-the-platform-controls-circuit-board",
+    "title": "Remove the Platform Controls Circuit Board",
+    "file": "genie-gs1930-remove-the-platform-controls-circuit-board.md",
+    "steps": 11,
+    "machine": "Genie GS-1930 / GS-2632 / GS-3232"
+  },
+  {
+    "id": "genie-gs1930-remove-the-platform-controls-emergency-stop-button",
+    "title": "Remove the Platform Controls Emergency Stop Button",
+    "file": "genie-gs1930-remove-the-platform-controls-emergency-stop-button.md",
+    "steps": 9,
+    "machine": "Genie GS-1930 / GS-2632 / GS-3232"
+  },
+  {
+    "id": "genie-gs1930-remove-the-platform-extension-deck",
+    "title": "Remove the Platform Extension Deck",
+    "file": "genie-gs1930-remove-the-platform-extension-deck.md",
+    "steps": 7,
+    "machine": "Genie GS-1930 / GS-2632 / GS-3232"
+  },
+  {
+    "id": "genie-gs1930-remove-the-platform",
+    "title": "Remove the Platform",
+    "file": "genie-gs1930-remove-the-platform.md",
+    "steps": 10,
+    "machine": "Genie GS-1930 / GS-2632 / GS-3232"
+  },
+  {
+    "id": "genie-gs1930-remove-the-steer-bellcrank",
+    "title": "Remove the Steer Bellcrank",
+    "file": "genie-gs1930-remove-the-steer-bellcrank.md",
+    "steps": 5,
+    "machine": "Genie GS-1930 / GS-2632 / GS-3232"
+  },
+  {
+    "id": "genie-gs1930-remove-the-steer-cylinder",
+    "title": "Remove the Steer Cylinder",
+    "file": "genie-gs1930-remove-the-steer-cylinder.md",
+    "steps": 3,
+    "machine": "Genie GS-1930 / GS-2632 / GS-3232"
+  },
+  {
+    "id": "genie-gs1930-remove-the-yoke-and-drive-motor",
+    "title": "Remove the Yoke and Drive Motor",
+    "file": "genie-gs1930-remove-the-yoke-and-drive-motor.md",
+    "steps": 8,
+    "machine": "Genie GS-1930 / GS-2632 / GS-3232"
+  },
+  {
+    "id": "genie-gs1930-replace-the-platform-extension-deck-wear-pads",
+    "title": "Replace the Platform Extension Deck Wear Pads",
+    "file": "genie-gs1930-replace-the-platform-extension-deck-wear-pads.md",
+    "steps": 8,
+    "machine": "Genie GS-1930 / GS-2632 / GS-3232"
+  },
+  {
+    "id": "genie-gs1930-replace-the-scissor-arm-wear-pads",
+    "title": "Replace the Scissor Arm Wear Pads",
+    "file": "genie-gs1930-replace-the-scissor-arm-wear-pads.md",
+    "steps": 36,
+    "machine": "Genie GS-1930 / GS-2632 / GS-3232"
+  },
+  {
+    "id": "genie-gs1930-setup-the-machine-from-ground-controls",
+    "title": "Setup the Machine from Ground Controls",
+    "file": "genie-gs1930-setup-the-machine-from-ground-controls.md",
+    "steps": 9,
+    "machine": "Genie GS-1930 / GS-2632 / GS-3232"
+  },
+  {
+    "id": "genie-gs1930-test-a-coil-diode",
+    "title": "Test a Coil Diode",
+    "file": "genie-gs1930-test-a-coil-diode.md",
+    "steps": 3,
+    "machine": "Genie GS-1930 / GS-2632 / GS-3232"
+  },
+  {
+    "id": "genie-gs1930-test-a-coil",
+    "title": "Test a Coil",
+    "file": "genie-gs1930-test-a-coil.md",
+    "steps": 2,
+    "machine": "Genie GS-1930 / GS-2632 / GS-3232"
+  },
+  {
+    "id": "genie-gs1930-test-the-hydraulic-pump",
+    "title": "Test the Hydraulic Pump",
+    "file": "genie-gs1930-test-the-hydraulic-pump.md",
+    "steps": 4,
+    "machine": "Genie GS-1930 / GS-2632 / GS-3232"
+  },
+  {
+    "id": "genie-gth5519-a-12-grease-the-forks",
+    "title": "A-12 GREASE THE FORKS",
+    "file": "genie-gth5519-a-12-grease-the-forks.md",
+    "steps": 3,
+    "machine": "Genie GTH-5519"
+  },
+  {
+    "id": "genie-gth5519-a-19-check-the-engine-coolant-level",
+    "title": "A-19 CHECK THE ENGINE COOLANT LEVEL",
+    "file": "genie-gth5519-a-19-check-the-engine-coolant-level.md",
+    "steps": 3,
+    "machine": "Genie GTH-5519"
+  },
+  {
+    "id": "genie-gth5519-a-2-check-the-tightening-of-the-wheel-bolts-",
+    "title": "A-2 CHECK THE TIGHTENING OF THE WHEEL BOLTS AND THE TYRE PRESSURE",
+    "file": "genie-gth5519-a-2-check-the-tightening-of-the-wheel-bolts-.md",
+    "steps": 2,
+    "machine": "Genie GTH-5519"
+  },
+  {
+    "id": "genie-gth5519-a-3-check-the-tightening-of-all-bolts-and-nu",
+    "title": "A-3 CHECK THE TIGHTENING OF ALL BOLTS AND NUTS",
+    "file": "genie-gth5519-a-3-check-the-tightening-of-all-bolts-and-nu.md",
+    "steps": 3,
+    "machine": "Genie GTH-5519"
+  },
+  {
+    "id": "genie-gth5519-a-6-inspect-the-decals-and-plates",
+    "title": "A-6 INSPECT THE DECALS AND PLATES",
+    "file": "genie-gth5519-a-6-inspect-the-decals-and-plates.md",
+    "steps": 2,
+    "machine": "Genie GTH-5519"
+  },
+  {
+    "id": "genie-gth5519-a-7-check-the-engine-oil-level",
+    "title": "A-7 CHECK THE ENGINE OIL LEVEL",
+    "file": "genie-gth5519-a-7-check-the-engine-oil-level.md",
+    "steps": 3,
+    "machine": "Genie GTH-5519"
+  },
+  {
+    "id": "genie-gth5519-a-8-clean-the-air-suction-filter",
+    "title": "A-8 CLEAN THE AIR SUCTION FILTER",
+    "file": "genie-gth5519-a-8-clean-the-air-suction-filter.md",
+    "steps": 2,
+    "machine": "Genie GTH-5519"
+  },
+  {
+    "id": "genie-gth5519-a-9-check-and-clean-the-radiator",
+    "title": "A-9 CHECK AND CLEAN THE RADIATOR",
+    "file": "genie-gth5519-a-9-check-and-clean-the-radiator.md",
+    "steps": 2,
+    "machine": "Genie GTH-5519"
+  },
+  {
+    "id": "genie-gth5519-b-1-check-the-machine-is-in-efficient-workin",
+    "title": "B-1 CHECK THE MACHINE IS IN EFFICIENT WORKING ORDER  -",
+    "file": "genie-gth5519-b-1-check-the-machine-is-in-efficient-workin.md",
+    "steps": 3,
+    "machine": "Genie GTH-5519"
+  },
+  {
+    "id": "genie-gth5519-b-2-checkthetensionofthealternator-belt",
+    "title": "B-2 CHECKTHETENSIONOFTHEALTERNATOR BELT  -",
+    "file": "genie-gth5519-b-2-checkthetensionofthealternator-belt.md",
+    "steps": 4,
+    "machine": "Genie GTH-5519"
+  },
+  {
+    "id": "genie-gth5519-b-3-check-the-tyre-inflation",
+    "title": "B-3 CHECK THE TYRE INFLATION",
+    "file": "genie-gth5519-b-3-check-the-tyre-inflation.md",
+    "steps": 3,
+    "machine": "Genie GTH-5519"
+  },
+  {
+    "id": "genie-gth5519-b-4-check-the-tightening-of-the-wheel-nuts",
+    "title": "B-4 CHECK THE TIGHTENING OF THE WHEEL NUTS",
+    "file": "genie-gth5519-b-4-check-the-tightening-of-the-wheel-nuts.md",
+    "steps": 2,
+    "machine": "Genie GTH-5519"
+  },
+  {
+    "id": "genie-gth5519-c-1-change-the-engine-oil-and-relevant-filte",
+    "title": "C-1 CHANGE THE ENGINE OIL AND RELEVANT FILTER",
+    "file": "genie-gth5519-c-1-change-the-engine-oil-and-relevant-filte.md",
+    "steps": 2,
+    "machine": "Genie GTH-5519"
+  },
+  {
+    "id": "genie-gth5519-c-2-checktheoillevelinthedifferential-gears-",
+    "title": "C-2 CHECKTHEOILLEVELINTHEDIFFERENTIAL GEARS AND POWER DIVIDER",
+    "file": "genie-gth5519-c-2-checktheoillevelinthedifferential-gears-.md",
+    "steps": 2,
+    "machine": "Genie GTH-5519"
+  },
+  {
+    "id": "genie-gth5519-c-3-check-the-oil-level-in-the-four-wheel-re",
+    "title": "C-3 CHECK THE OIL LEVEL IN THE FOUR WHEEL REDUCTION GEARS",
+    "file": "genie-gth5519-c-3-check-the-oil-level-in-the-four-wheel-re.md",
+    "steps": 4,
+    "machine": "Genie GTH-5519"
+  },
+  {
+    "id": "genie-gth5519-c-4-check-and-clean-the-engine-air-filter",
+    "title": "C-4 CHECK AND CLEAN THE ENGINE AIR FILTER",
+    "file": "genie-gth5519-c-4-check-and-clean-the-engine-air-filter.md",
+    "steps": 5,
+    "machine": "Genie GTH-5519"
+  },
+  {
+    "id": "genie-gth5519-c-8-check-the-hydraulic-lines",
+    "title": "C-8 CHECK THE HYDRAULIC LINES",
+    "file": "genie-gth5519-c-8-check-the-hydraulic-lines.md",
+    "steps": 4,
+    "machine": "Genie GTH-5519"
+  },
+  {
+    "id": "genie-gth5519-c-9-check-the-electric-cables",
+    "title": "C-9 CHECK THE ELECTRIC CABLES",
+    "file": "genie-gth5519-c-9-check-the-electric-cables.md",
+    "steps": 4,
+    "machine": "Genie GTH-5519"
+  },
+  {
+    "id": "genie-gth5519-d-1-visually-check-the-smoke-quantity-e-v-a-",
+    "title": "D-1 VISUALLY CHECK THE SMOKE QUANTITY E V A C U A T E D",
+    "file": "genie-gth5519-d-1-visually-check-the-smoke-quantity-e-v-a-.md",
+    "steps": 3,
+    "machine": "Genie GTH-5519"
+  },
+  {
+    "id": "genie-gth5519-d-2-check-the-tightening-of-the-engine-fixin",
+    "title": "D-2 CHECK THE TIGHTENING OF THE ENGINE FIXING SCREWS",
+    "file": "genie-gth5519-d-2-check-the-tightening-of-the-engine-fixin.md",
+    "steps": 3,
+    "machine": "Genie GTH-5519"
+  },
+  {
+    "id": "genie-gth5519-d-3-check-the-tightening-of-the-cab-fixing-s",
+    "title": "D-3 CHECK THE TIGHTENING OF THE CAB FIXING SCREWS",
+    "file": "genie-gth5519-d-3-check-the-tightening-of-the-cab-fixing-s.md",
+    "steps": 3,
+    "machine": "Genie GTH-5519"
+  },
+  {
+    "id": "genie-gth5519-d-4-check-the-backlash-between-pins-and-bush",
+    "title": "D-4 CHECK THE BACKLASH BETWEEN PINS AND BUSHINGS IN ALL JOINTS",
+    "file": "genie-gth5519-d-4-check-the-backlash-between-pins-and-bush.md",
+    "steps": 3,
+    "machine": "Genie GTH-5519"
+  },
+  {
+    "id": "genie-gth5519-d-6-change-the-hydraulic-oil-filter-in-the-t",
+    "title": "D-6 CHANGE THE HYDRAULIC OIL FILTER IN THE TANK",
+    "file": "genie-gth5519-d-6-change-the-hydraulic-oil-filter-in-the-t.md",
+    "steps": 3,
+    "machine": "Genie GTH-5519"
+  },
+  {
+    "id": "genie-gth5519-d-8-change-the-main-cartridge-of-the-engine-",
+    "title": "D-8 CHANGE THE MAIN CARTRIDGE OF THE ENGINE AIR FILTER",
+    "file": "genie-gth5519-d-8-change-the-main-cartridge-of-the-engine-.md",
+    "steps": 2,
+    "machine": "Genie GTH-5519"
+  },
+  {
+    "id": "genie-s65-adjust-the-boom-extend-retract-cables",
+    "title": "Adjust the Boom Extend/Retract Cables",
+    "file": "genie-s65-adjust-the-boom-extend-retract-cables.md",
+    "steps": 9,
+    "machine": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX"
+  },
+  {
+    "id": "genie-s65-adjust-the-charge-pressure-relief-valve",
+    "title": "Adjust the Charge Pressure Relief Valve",
+    "file": "genie-s65-adjust-the-charge-pressure-relief-valve.md",
+    "steps": 11,
+    "machine": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX"
+  },
+  {
+    "id": "genie-s65-adjust-the-joystick-max-out-setting",
+    "title": "Adjust the Joystick Max-out Setting",
+    "file": "genie-s65-adjust-the-joystick-max-out-setting.md",
+    "steps": 10,
+    "machine": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX"
+  },
+  {
+    "id": "genie-s65-adjust-the-joystick-ramp-rate-setting",
+    "title": "Adjust the Joystick Ramp Rate Setting",
+    "file": "genie-s65-adjust-the-joystick-ramp-rate-setting.md",
+    "steps": 12,
+    "machine": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX"
+  },
+  {
+    "id": "genie-s65-adjust-the-joystick-threshold-setting",
+    "title": "Adjust the Joystick Threshold Setting",
+    "file": "genie-s65-adjust-the-joystick-threshold-setting.md",
+    "steps": 11,
+    "machine": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX"
+  },
+  {
+    "id": "genie-s65-adjust-the-oscillate-relief-valve-pressure",
+    "title": "Adjust the Oscillate Relief Valve Pressure",
+    "file": "genie-s65-adjust-the-oscillate-relief-valve-pressure.md",
+    "steps": 11,
+    "machine": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX"
+  },
+  {
+    "id": "genie-s65-adjust-the-system-relief-valve",
+    "title": "Adjust the System Relief Valve",
+    "file": "genie-s65-adjust-the-system-relief-valve.md",
+    "steps": 8,
+    "machine": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX"
+  },
+  {
+    "id": "genie-s65-adjust-the-turntable-rotation-gear-backlash",
+    "title": "Adjust the Turntable Rotation Gear Backlash",
+    "file": "genie-s65-adjust-the-turntable-rotation-gear-backlash.md",
+    "steps": 7,
+    "machine": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX"
+  },
+  {
+    "id": "genie-s65-bleed-the-platform-rotator",
+    "title": "Bleed the Platform Rotator",
+    "file": "genie-s65-bleed-the-platform-rotator.md",
+    "steps": 8,
+    "machine": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX"
+  },
+  {
+    "id": "genie-s65-bleed-the-slave-cylinder",
+    "title": "Bleed the Slave Cylinder",
+    "file": "genie-s65-bleed-the-slave-cylinder.md",
+    "steps": 2,
+    "machine": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX"
+  },
+  {
+    "id": "genie-s65-calibrate-a-joystick",
+    "title": "Calibrate a Joystick",
+    "file": "genie-s65-calibrate-a-joystick.md",
+    "steps": 6,
+    "machine": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX"
+  },
+  {
+    "id": "genie-s65-calibrate-the-boom-angle-sensor",
+    "title": "Calibrate the Boom Angle Sensor",
+    "file": "genie-s65-calibrate-the-boom-angle-sensor.md",
+    "steps": 6,
+    "machine": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX"
+  },
+  {
+    "id": "genie-s65-calibrate-the-platform-load-sense-system",
+    "title": "Calibrate the Platform Load Sense System",
+    "file": "genie-s65-calibrate-the-platform-load-sense-system.md",
+    "steps": 3,
+    "machine": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX"
+  },
+  {
+    "id": "genie-s65-calibrate-the-platform-overload-system",
+    "title": "Calibrate the Platform Overload System",
+    "file": "genie-s65-calibrate-the-platform-overload-system.md",
+    "steps": 5,
+    "machine": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX"
+  },
+  {
+    "id": "genie-s65-clear-engine-fault-codes-from-the-ecm",
+    "title": "Clear Engine Fault Codes from the ECM",
+    "file": "genie-s65-clear-engine-fault-codes-from-the-ecm.md",
+    "steps": 4,
+    "machine": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX"
+  },
+  {
+    "id": "genie-s65-install-the-pump-and-bell-housing-assembly",
+    "title": "Install the Pump and Bell Housing Assembly",
+    "file": "genie-s65-install-the-pump-and-bell-housing-assembly.md",
+    "steps": 6,
+    "machine": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX"
+  },
+  {
+    "id": "genie-s65-prime-the-pump",
+    "title": "Prime the Pump",
+    "file": "genie-s65-prime-the-pump.md",
+    "steps": 28,
+    "machine": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX"
+  },
+  {
+    "id": "genie-s65-remove-a-track-assembly",
+    "title": "Remove a Track Assembly",
+    "file": "genie-s65-remove-a-track-assembly.md",
+    "steps": 8,
+    "machine": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX"
+  },
+  {
+    "id": "genie-s65-remove-an-oscillate-axle-cylinder",
+    "title": "Remove an Oscillate Axle Cylinder",
+    "file": "genie-s65-remove-an-oscillate-axle-cylinder.md",
+    "steps": 6,
+    "machine": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX"
+  },
+  {
+    "id": "genie-s65-remove-the-boom-extension-cylinder",
+    "title": "Remove the Boom Extension Cylinder",
+    "file": "genie-s65-remove-the-boom-extension-cylinder.md",
+    "steps": 20,
+    "machine": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX"
+  },
+  {
+    "id": "genie-s65-remove-the-boom-lift-cylinder",
+    "title": "Remove the Boom Lift Cylinder",
+    "file": "genie-s65-remove-the-boom-lift-cylinder.md",
+    "steps": 10,
+    "machine": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX"
+  },
+  {
+    "id": "genie-s65-remove-the-boom",
+    "title": "Remove the Boom",
+    "file": "genie-s65-remove-the-boom.md",
+    "steps": 13,
+    "machine": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX"
+  },
+  {
+    "id": "genie-s65-remove-the-cable-track-s-60-s-60x-s-60xc-s-60-hc-and-s-60-trax",
+    "title": "Remove the Cable Track, S-60, S-60X, S-60XC, S-60 HC and S-60 TRAX",
+    "file": "genie-s65-remove-the-cable-track-s-60-s-60x-s-60xc-s-60-hc-and-s-60-trax.md",
+    "steps": 18,
+    "machine": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX"
+  },
+  {
+    "id": "genie-s65-remove-the-cable-track-s-65-and-s-65-trax",
+    "title": "Remove the Cable Track, S-65 and S-65 TRAX",
+    "file": "genie-s65-remove-the-cable-track-s-65-and-s-65-trax.md",
+    "steps": 19,
+    "machine": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX"
+  },
+  {
+    "id": "genie-s65-remove-the-drive-pump",
+    "title": "Remove the Drive Pump",
+    "file": "genie-s65-remove-the-drive-pump.md",
+    "steps": 6,
+    "machine": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX"
+  },
+  {
+    "id": "genie-s65-remove-the-flex-plate",
+    "title": "Remove the Flex Plate",
+    "file": "genie-s65-remove-the-flex-plate.md",
+    "steps": 10,
+    "machine": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX"
+  },
+  {
+    "id": "genie-s65-remove-the-function-pump",
+    "title": "Remove the Function Pump",
+    "file": "genie-s65-remove-the-function-pump.md",
+    "steps": 3,
+    "machine": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX"
+  },
+  {
+    "id": "genie-s65-remove-the-jib-boom-lift-cylinder",
+    "title": "Remove the Jib Boom Lift Cylinder",
+    "file": "genie-s65-remove-the-jib-boom-lift-cylinder.md",
+    "steps": 7,
+    "machine": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX"
+  },
+  {
+    "id": "genie-s65-remove-the-jib-boom",
+    "title": "Remove the Jib Boom",
+    "file": "genie-s65-remove-the-jib-boom.md",
+    "steps": 10,
+    "machine": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX"
+  },
+  {
+    "id": "genie-s65-remove-the-platform-leveling-master-cylinder",
+    "title": "Remove the Platform Leveling Master Cylinder",
+    "file": "genie-s65-remove-the-platform-leveling-master-cylinder.md",
+    "steps": 8,
+    "machine": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX"
+  },
+  {
+    "id": "genie-s65-remove-the-platform-leveling-slave-cylinder",
+    "title": "Remove the Platform Leveling Slave Cylinder",
+    "file": "genie-s65-remove-the-platform-leveling-slave-cylinder.md",
+    "steps": 6,
+    "machine": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX"
+  },
+  {
+    "id": "genie-s65-remove-the-platform-rotator",
+    "title": "Remove the Platform Rotator",
+    "file": "genie-s65-remove-the-platform-rotator.md",
+    "steps": 8,
+    "machine": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX"
+  },
+  {
+    "id": "genie-s65-remove-the-turntable-rotation-assembly",
+    "title": "Remove the Turntable Rotation Assembly",
+    "file": "genie-s65-remove-the-turntable-rotation-assembly.md",
+    "steps": 5,
+    "machine": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX"
+  },
+  {
+    "id": "genie-s65-repair-the-cable-track",
+    "title": "Repair the Cable Track",
+    "file": "genie-s65-repair-the-cable-track.md",
+    "steps": 9,
+    "machine": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX"
+  },
+  {
+    "id": "genie-s65-replace-a-track-assembly",
+    "title": "Replace a Track Assembly",
+    "file": "genie-s65-replace-a-track-assembly.md",
+    "steps": 19,
+    "machine": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX"
+  },
+  {
+    "id": "genie-s65-replace-the-boom-extend-retract-cables",
+    "title": "Replace the Boom Extend/Retract Cables",
+    "file": "genie-s65-replace-the-boom-extend-retract-cables.md",
+    "steps": 18,
+    "machine": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX"
+  },
+  {
+    "id": "genie-s65-replace-the-primary-boom-angle-sensor",
+    "title": "Replace the Primary Boom Angle Sensor",
+    "file": "genie-s65-replace-the-primary-boom-angle-sensor.md",
+    "steps": 14,
+    "machine": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX"
+  },
+  {
+    "id": "genie-s65-restore-system-default-settings-system-s-60-hc",
+    "title": "Restore System Default Settings System, S-60 HC",
+    "file": "genie-s65-restore-system-default-settings-system-s-60-hc.md",
+    "steps": 2,
+    "machine": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX"
+  },
+  {
+    "id": "genie-s65-restore-the-system-default-settings",
+    "title": "Restore the System Default Settings",
+    "file": "genie-s65-restore-the-system-default-settings.md",
+    "steps": 3,
+    "machine": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX"
+  },
+  {
+    "id": "genie-s65-retrieve-active-engine-fault-codes-deutz-d-2",
+    "title": "Retrieve Active Engine Fault Codes - Deutz D 2",
+    "file": "genie-s65-retrieve-active-engine-fault-codes-deutz-d-2.md",
+    "steps": 2,
+    "machine": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX"
+  },
+  {
+    "id": "genie-s65-retrieve-control-system-fault-codes",
+    "title": "Retrieve Control System Fault Codes",
+    "file": "genie-s65-retrieve-control-system-fault-codes.md",
+    "steps": 19,
+    "machine": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX"
+  },
+  {
+    "id": "genie-s65-retrieve-ford-engine-fault-codes",
+    "title": "Retrieve Ford Engine Fault Codes",
+    "file": "genie-s65-retrieve-ford-engine-fault-codes.md",
+    "steps": 2,
+    "machine": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX"
+  },
+  {
+    "id": "genie-s65-retrieve-platform-load-sense-system-fault-codes",
+    "title": "Retrieve Platform Load Sense System Fault Codes",
+    "file": "genie-s65-retrieve-platform-load-sense-system-fault-codes.md",
+    "steps": 18,
+    "machine": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX"
+  },
+  {
+    "id": "genie-s65-set-up-the-oscillate-directional-valve",
+    "title": "Set Up the Oscillate Directional Valve",
+    "file": "genie-s65-set-up-the-oscillate-directional-valve.md",
+    "steps": 10,
+    "machine": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX"
+  },
+  {
+    "id": "genie-s65-test-a-coil-diode",
+    "title": "Test a Coil Diode",
+    "file": "genie-s65-test-a-coil-diode.md",
+    "steps": 2,
+    "machine": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX"
+  },
+  {
+    "id": "genie-s65-test-a-coil",
+    "title": "Test a Coil",
+    "file": "genie-s65-test-a-coil.md",
+    "steps": 2,
+    "machine": "Genie S-60 / S-65 / S-60 TRAX / S-65 TRAX"
+  },
+  {
+    "id": "genie-s80-adjust-the-boom-down-relief-valve",
+    "title": "Adjust the Boom Down Relief Valve",
+    "file": "genie-s80-adjust-the-boom-down-relief-valve.md",
+    "steps": 5,
+    "machine": "Genie S-80 / S-85"
+  },
+  {
+    "id": "genie-s80-adjust-the-boom-extend-relief-valve",
+    "title": "Adjust the Boom Extend Relief Valve",
+    "file": "genie-s80-adjust-the-boom-extend-relief-valve.md",
+    "steps": 5,
+    "machine": "Genie S-80 / S-85"
+  },
+  {
+    "id": "genie-s80-adjust-the-hot-oil-shuttle-relief-valve",
+    "title": "Adjust the Hot Oil Shuttle Relief Valve",
+    "file": "genie-s80-adjust-the-hot-oil-shuttle-relief-valve.md",
+    "steps": 5,
+    "machine": "Genie S-80 / S-85"
+  },
+  {
+    "id": "genie-s80-adjust-the-joystick-max-out-setting",
+    "title": "Adjust the Joystick Max-out Setting",
+    "file": "genie-s80-adjust-the-joystick-max-out-setting.md",
+    "steps": 6,
+    "machine": "Genie S-80 / S-85"
+  },
+  {
+    "id": "genie-s80-adjust-the-joystick-ramp-rate-setting",
+    "title": "Adjust the Joystick Ramp Rate Setting",
+    "file": "genie-s80-adjust-the-joystick-ramp-rate-setting.md",
+    "steps": 6,
+    "machine": "Genie S-80 / S-85"
+  },
+  {
+    "id": "genie-s80-adjust-the-joystick-threshold-setting",
+    "title": "Adjust the Joystick Threshold Setting",
+    "file": "genie-s80-adjust-the-joystick-threshold-setting.md",
+    "steps": 7,
+    "machine": "Genie S-80 / S-85"
+  },
+  {
+    "id": "genie-s80-adjust-the-oscillate-relief-valve-pressure",
+    "title": "Adjust the Oscillate Relief Valve Pressure",
+    "file": "genie-s80-adjust-the-oscillate-relief-valve-pressure.md",
+    "steps": 8,
+    "machine": "Genie S-80 / S-85"
+  },
+  {
+    "id": "genie-s80-adjust-the-system-relief-valve",
+    "title": "Adjust the System Relief Valve",
+    "file": "genie-s80-adjust-the-system-relief-valve.md",
+    "steps": 6,
+    "machine": "Genie S-80 / S-85"
+  },
+  {
+    "id": "genie-s80-adjust-the-turntable-rotation-gear-backlash",
+    "title": "Adjust the Turntable Rotation Gear Backlash",
+    "file": "genie-s80-adjust-the-turntable-rotation-gear-backlash.md",
+    "steps": 6,
+    "machine": "Genie S-80 / S-85"
+  },
+  {
+    "id": "genie-s80-calibrate-a-joystick",
+    "title": "Calibrate a Joystick",
+    "file": "genie-s80-calibrate-a-joystick.md",
+    "steps": 6,
+    "machine": "Genie S-80 / S-85"
+  },
+  {
+    "id": "genie-s80-calibrate-the-platform-overload-system",
+    "title": "Calibrate the Platform Overload System",
+    "file": "genie-s80-calibrate-the-platform-overload-system.md",
+    "steps": 6,
+    "machine": "Genie S-80 / S-85"
+  },
+  {
+    "id": "genie-s80-clear-engine-fault-codes-from-the-ecm",
+    "title": "Clear Engine Fault Codes from the ECM",
+    "file": "genie-s80-clear-engine-fault-codes-from-the-ecm.md",
+    "steps": 4,
+    "machine": "Genie S-80 / S-85"
+  },
+  {
+    "id": "genie-s80-install-the-flex-plate",
+    "title": "Install the Flex Plate",
+    "file": "genie-s80-install-the-flex-plate.md",
+    "steps": 2,
+    "machine": "Genie S-80 / S-85"
+  },
+  {
+    "id": "genie-s80-install-the-hub-and-bearings-2wd-models",
+    "title": "Install the Hub and Bearings, 2WD Models",
+    "file": "genie-s80-install-the-hub-and-bearings-2wd-models.md",
+    "steps": 7,
+    "machine": "Genie S-80 / S-85"
+  },
+  {
+    "id": "genie-s80-perform-the-toe-in-adjustment",
+    "title": "Perform the Toe-in Adjustment",
+    "file": "genie-s80-perform-the-toe-in-adjustment.md",
+    "steps": 8,
+    "machine": "Genie S-80 / S-85"
+  },
+  {
+    "id": "genie-s80-prime-the-pump",
+    "title": "Prime the Pump",
+    "file": "genie-s80-prime-the-pump.md",
+    "steps": 19,
+    "machine": "Genie S-80 / S-85"
+  },
+  {
+    "id": "genie-s80-remove-a-drive-hub",
+    "title": "Remove a Drive Hub",
+    "file": "genie-s80-remove-a-drive-hub.md",
+    "steps": 2,
+    "machine": "Genie S-80 / S-85"
+  },
+  {
+    "id": "genie-s80-remove-a-drive-motor",
+    "title": "Remove a Drive Motor",
+    "file": "genie-s80-remove-a-drive-motor.md",
+    "steps": 5,
+    "machine": "Genie S-80 / S-85"
+  },
+  {
+    "id": "genie-s80-remove-a-steer-cylinder",
+    "title": "Remove a Steer Cylinder",
+    "file": "genie-s80-remove-a-steer-cylinder.md",
+    "steps": 4,
+    "machine": "Genie S-80 / S-85"
+  },
+  {
+    "id": "genie-s80-remove-an-inner-axle",
+    "title": "Remove an Inner Axle",
+    "file": "genie-s80-remove-an-inner-axle.md",
+    "steps": 2,
+    "machine": "Genie S-80 / S-85"
+  },
+  {
+    "id": "genie-s80-remove-an-oscillate-axle-cylinder",
+    "title": "Remove an Oscillate Axle Cylinder",
+    "file": "genie-s80-remove-an-oscillate-axle-cylinder.md",
+    "steps": 6,
+    "machine": "Genie S-80 / S-85"
+  },
+  {
+    "id": "genie-s80-remove-the-alc-500-circuit-board",
+    "title": "Remove the ALC-500 Circuit Board",
+    "file": "genie-s80-remove-the-alc-500-circuit-board.md",
+    "steps": 7,
+    "machine": "Genie S-80 / S-85"
+  },
+  {
+    "id": "genie-s80-remove-the-axle-extension-cylinder",
+    "title": "Remove the Axle Extension Cylinder",
+    "file": "genie-s80-remove-the-axle-extension-cylinder.md",
+    "steps": 3,
+    "machine": "Genie S-80 / S-85"
+  },
+  {
+    "id": "genie-s80-remove-the-boom-extension-cylinders",
+    "title": "Remove the Boom Extension Cylinders",
+    "file": "genie-s80-remove-the-boom-extension-cylinders.md",
+    "steps": 2,
+    "machine": "Genie S-80 / S-85"
+  },
+  {
+    "id": "genie-s80-remove-the-boom-lift-cylinder",
+    "title": "Remove the Boom Lift Cylinder",
+    "file": "genie-s80-remove-the-boom-lift-cylinder.md",
+    "steps": 8,
+    "machine": "Genie S-80 / S-85"
+  },
+  {
+    "id": "genie-s80-remove-the-boom",
+    "title": "Remove the Boom",
+    "file": "genie-s80-remove-the-boom.md",
+    "steps": 5,
+    "machine": "Genie S-80 / S-85"
+  },
+  {
+    "id": "genie-s80-remove-the-cable-track",
+    "title": "Remove the Cable Track",
+    "file": "genie-s80-remove-the-cable-track.md",
+    "steps": 5,
+    "machine": "Genie S-80 / S-85"
+  },
+  {
+    "id": "genie-s80-remove-the-drive-pump",
+    "title": "Remove the Drive Pump",
+    "file": "genie-s80-remove-the-drive-pump.md",
+    "steps": 4,
+    "machine": "Genie S-80 / S-85"
+  },
+  {
+    "id": "genie-s80-remove-the-flex-plate",
+    "title": "Remove the Flex Plate",
+    "file": "genie-s80-remove-the-flex-plate.md",
+    "steps": 7,
+    "machine": "Genie S-80 / S-85"
+  },
+  {
+    "id": "genie-s80-remove-the-fuel-tank",
+    "title": "Remove the Fuel Tank",
+    "file": "genie-s80-remove-the-fuel-tank.md",
+    "steps": 7,
+    "machine": "Genie S-80 / S-85"
+  },
+  {
+    "id": "genie-s80-remove-the-hub-and-bearings",
+    "title": "Remove the Hub and Bearings",
+    "file": "genie-s80-remove-the-hub-and-bearings.md",
+    "steps": 5,
+    "machine": "Genie S-80 / S-85"
+  },
+  {
+    "id": "genie-s80-remove-the-hydraulic-tank",
+    "title": "Remove the Hydraulic Tank",
+    "file": "genie-s80-remove-the-hydraulic-tank.md",
+    "steps": 2,
+    "machine": "Genie S-80 / S-85"
+  },
+  {
+    "id": "genie-s80-remove-the-jib-boom-lift-cylinder",
+    "title": "Remove the Jib Boom Lift Cylinder",
+    "file": "genie-s80-remove-the-jib-boom-lift-cylinder.md",
+    "steps": 5,
+    "machine": "Genie S-80 / S-85"
+  },
+  {
+    "id": "genie-s80-remove-the-jib-boom",
+    "title": "Remove the Jib Boom",
+    "file": "genie-s80-remove-the-jib-boom.md",
+    "steps": 4,
+    "machine": "Genie S-80 / S-85"
+  },
+  {
+    "id": "genie-s80-remove-the-platform-leveling-master-cylinder",
+    "title": "Remove the Platform Leveling Master Cylinder",
+    "file": "genie-s80-remove-the-platform-leveling-master-cylinder.md",
+    "steps": 8,
+    "machine": "Genie S-80 / S-85"
+  },
+  {
+    "id": "genie-s80-remove-the-platform-leveling-slave-cylinder",
+    "title": "Remove the Platform Leveling Slave Cylinder",
+    "file": "genie-s80-remove-the-platform-leveling-slave-cylinder.md",
+    "steps": 7,
+    "machine": "Genie S-80 / S-85"
+  },
+  {
+    "id": "genie-s80-remove-the-platform-rotator",
+    "title": "Remove the Platform Rotator",
+    "file": "genie-s80-remove-the-platform-rotator.md",
+    "steps": 2,
+    "machine": "Genie S-80 / S-85"
+  },
+  {
+    "id": "genie-s80-remove-the-platform",
+    "title": "Remove the Platform",
+    "file": "genie-s80-remove-the-platform.md",
+    "steps": 2,
+    "machine": "Genie S-80 / S-85"
+  },
+  {
+    "id": "genie-s80-remove-the-tie-rod-cylinder",
+    "title": "Remove the Tie Rod Cylinder",
+    "file": "genie-s80-remove-the-tie-rod-cylinder.md",
+    "steps": 5,
+    "machine": "Genie S-80 / S-85"
+  },
+  {
+    "id": "genie-s80-remove-the-turntable-rotation-drive-hub-assembly",
+    "title": "Remove the Turntable Rotation Drive Hub Assembly",
+    "file": "genie-s80-remove-the-turntable-rotation-drive-hub-assembly.md",
+    "steps": 3,
+    "machine": "Genie S-80 / S-85"
+  },
+  {
+    "id": "genie-s80-remove-the-turntable-rotation-hydraulic-motor",
+    "title": "Remove the Turntable Rotation Hydraulic Motor",
+    "file": "genie-s80-remove-the-turntable-rotation-hydraulic-motor.md",
+    "steps": 3,
+    "machine": "Genie S-80 / S-85"
+  },
+  {
+    "id": "genie-s80-remove-the-yoke-and-drive-hub-assembly",
+    "title": "Remove the Yoke and Drive Hub Assembly",
+    "file": "genie-s80-remove-the-yoke-and-drive-hub-assembly.md",
+    "steps": 3,
+    "machine": "Genie S-80 / S-85"
+  },
+  {
+    "id": "genie-s80-remove-the-yoke-and-hub",
+    "title": "Remove the Yoke and Hub",
+    "file": "genie-s80-remove-the-yoke-and-hub.md",
+    "steps": 9,
+    "machine": "Genie S-80 / S-85"
+  },
+  {
+    "id": "genie-s80-repair-the-cable-track",
+    "title": "Repair the Cable Track",
+    "file": "genie-s80-repair-the-cable-track.md",
+    "steps": 8,
+    "machine": "Genie S-80 / S-85"
+  },
+  {
+    "id": "genie-s80-retrieve-continental-engine-fault-codes",
+    "title": "Retrieve Continental Engine Fault Codes",
+    "file": "genie-s80-retrieve-continental-engine-fault-codes.md",
+    "steps": 3,
+    "machine": "Genie S-80 / S-85"
+  },
+  {
+    "id": "genie-s80-retrieve-control-system-fault-codes",
+    "title": "Retrieve Control System Fault Codes",
+    "file": "genie-s80-retrieve-control-system-fault-codes.md",
+    "steps": 13,
+    "machine": "Genie S-80 / S-85"
+  },
+  {
+    "id": "genie-s80-set-up-the-directional-valve-linkage",
+    "title": "Set Up the Directional Valve Linkage",
+    "file": "genie-s80-set-up-the-directional-valve-linkage.md",
+    "steps": 8,
+    "machine": "Genie S-80 / S-85"
+  },
+  {
+    "id": "genie-s80-shim-an-extendable-axle",
+    "title": "Shim an Extendable Axle",
+    "file": "genie-s80-shim-an-extendable-axle.md",
+    "steps": 7,
+    "machine": "Genie S-80 / S-85"
+  },
+  {
+    "id": "genie-s80-shim-the-boom",
+    "title": "Shim the Boom",
+    "file": "genie-s80-shim-the-boom.md",
+    "steps": 4,
+    "machine": "Genie S-80 / S-85"
+  },
+  {
+    "id": "genie-s80-test-a-coil-diode",
+    "title": "Test a Coil Diode",
+    "file": "genie-s80-test-a-coil-diode.md",
+    "steps": 2,
+    "machine": "Genie S-80 / S-85"
+  },
+  {
+    "id": "genie-s80-test-a-single-pole-double-throw-relay",
+    "title": "Test a Single Pole Double Throw Relay",
+    "file": "genie-s80-test-a-single-pole-double-throw-relay.md",
+    "steps": 3,
+    "machine": "Genie S-80 / S-85"
+  },
+  {
+    "id": "jlg-450aj-adjustment-procedure-for-lockout-valve",
+    "title": "ADJUSTMENT PROCEDURE FOR LOCKOUT VALVE",
+    "file": "jlg-450aj-adjustment-procedure-for-lockout-valve.md",
+    "steps": 14,
+    "machine": "JLG 450AJ"
+  },
+  {
+    "id": "jlg-450aj-chassis",
+    "title": "CHASSIS",
+    "file": "jlg-450aj-chassis.md",
+    "steps": 2,
+    "machine": "JLG 450AJ"
+  },
+  {
+    "id": "jlg-450aj-deutsch-connectors-dt-dtp-series-assembly",
+    "title": "DEUTSCH CONNECTORS  DT/DTP Series Assembly",
+    "file": "jlg-450aj-deutsch-connectors-dt-dtp-series-assembly.md",
+    "steps": 4,
+    "machine": "JLG 450AJ"
+  },
+  {
+    "id": "jlg-450aj-dimensional-data",
+    "title": "DIMENSIONAL DATA",
+    "file": "jlg-450aj-dimensional-data.md",
+    "steps": 2,
+    "machine": "JLG 450AJ"
+  },
+  {
+    "id": "jlg-450aj-foam-filled-n-a",
+    "title": "Foam-Filled   N/A",
+    "file": "jlg-450aj-foam-filled-n-a.md",
+    "steps": 4,
+    "machine": "JLG 450AJ"
+  },
+  {
+    "id": "jlg-450aj-lubrication-and-information-hydraulic-system",
+    "title": "LUBRICATION AND INFORMATION  Hydraulic System",
+    "file": "jlg-450aj-lubrication-and-information-hydraulic-system.md",
+    "steps": 3,
+    "machine": "JLG 450AJ"
+  },
+  {
+    "id": "jlg-450aj-operating-specifications-and-performance-data",
+    "title": "OPERATING SPECIFICATIONS AND PERFORMANCE DATA",
+    "file": "jlg-450aj-operating-specifications-and-performance-data.md",
+    "steps": 2,
+    "machine": "JLG 450AJ"
+  },
+  {
+    "id": "jlg-450aj-reach-specifications",
+    "title": "REACH SPECIFICATIONS",
+    "file": "jlg-450aj-reach-specifications.md",
+    "steps": 2,
+    "machine": "JLG 450AJ"
+  },
+  {
+    "id": "jlg-450aj-section-1-specifications",
+    "title": "SECTION 1 - SPECIFICATIONS",
+    "file": "jlg-450aj-section-1-specifications.md",
+    "steps": 2,
+    "machine": "JLG 450AJ"
+  },
+  {
+    "id": "jlg-450aj-section-2-general",
+    "title": "SECTION 2 - GENERAL",
+    "file": "jlg-450aj-section-2-general.md",
+    "steps": 16,
+    "machine": "JLG 450AJ"
+  },
+  {
+    "id": "jlg-450aj-torque-hub-oil-information",
+    "title": "TORQUE HUB  Oil Information",
+    "file": "jlg-450aj-torque-hub-oil-information.md",
+    "steps": 33,
+    "machine": "JLG 450AJ"
+  },
+  {
+    "id": "jlg800s860sj-boom-maintenance-removal",
+    "title": "BOOM MAINTENANCE Removal",
+    "file": "jlg800s860sj-boom-maintenance-removal.md",
+    "steps": 5,
+    "machine": "JLG 800S / 860SJ"
+  },
+  {
+    "id": "jlg800s860sj-boom-rope-torquing-procedures-torque-procedures",
+    "title": "BOOM ROPE TORQUING PROCEDURES Torque Procedures",
+    "file": "jlg800s860sj-boom-rope-torquing-procedures-torque-procedures.md",
+    "steps": 3,
+    "machine": "JLG 800S / 860SJ"
+  },
+  {
+    "id": "jlg800s860sj-deutsch-connectors-dt-dtp-series-assembly",
+    "title": "DEUTSCH CONNECTORS DT/DTP Series Assembly",
+    "file": "jlg800s860sj-deutsch-connectors-dt-dtp-series-assembly.md",
+    "steps": 9,
+    "machine": "JLG 800S / 860SJ"
+  },
+  {
+    "id": "jlg800s860sj-drive-brake-2wd-mico-prior-to-s-n-83331-disassembly",
+    "title": "DRIVE BRAKE, 2WD - MICO (PRIOR TO S/N 83331) Disassembly",
+    "file": "jlg800s860sj-drive-brake-2wd-mico-prior-to-s-n-83331-disassembly.md",
+    "steps": 10,
+    "machine": "JLG 800S / 860SJ"
+  },
+  {
+    "id": "jlg800s860sj-elevation-capacity-switches-800s",
+    "title": "ELEVATION & CAPACITY SWITCHES - 800S",
+    "file": "jlg800s860sj-elevation-capacity-switches-800s.md",
+    "steps": 4,
+    "machine": "JLG 800S / 860SJ"
+  },
+  {
+    "id": "jlg800s860sj-elevation-dual-capacity-transport-switch-860sj",
+    "title": "ELEVATION, DUAL CAPACITY, & TRANSPORT SWITCH - 860SJ",
+    "file": "jlg800s860sj-elevation-dual-capacity-transport-switch-860sj.md",
+    "steps": 4,
+    "machine": "JLG 800S / 860SJ"
+  },
+  {
+    "id": "jlg800s860sj-foam-filled",
+    "title": "Foam-Filled",
+    "file": "jlg800s860sj-foam-filled.md",
+    "steps": 4,
+    "machine": "JLG 800S / 860SJ"
+  },
+  {
+    "id": "jlg800s860sj-lubrication-and-information-hydraulic-system",
+    "title": "LUBRICATION AND INFORMATION Hydraulic System",
+    "file": "jlg800s860sj-lubrication-and-information-hydraulic-system.md",
+    "steps": 4,
+    "machine": "JLG 800S / 860SJ"
+  },
+  {
+    "id": "jlg800s860sj-powertrack-maintenance-one-piece-bracket-maintenance",
+    "title": "POWERTRACK MAINTENANCE One Piece Bracket Maintenance",
+    "file": "jlg800s860sj-powertrack-maintenance-one-piece-bracket-maintenance.md",
+    "steps": 11,
+    "machine": "JLG 800S / 860SJ"
+  },
+  {
+    "id": "jlg800s860sj-section-2-general",
+    "title": "SECTION 2 - GENERAL",
+    "file": "jlg800s860sj-section-2-general.md",
+    "steps": 3,
+    "machine": "JLG 800S / 860SJ"
+  },
+  {
+    "id": "jlg800s860sj-torque-hub-disassembly",
+    "title": "TORQUE HUB Disassembly",
+    "file": "jlg800s860sj-torque-hub-disassembly.md",
+    "steps": 10,
+    "machine": "JLG 800S / 860SJ"
+  },
+  {
+    "id": "skyjack-sj46aj-dimension-and-reach-diagram-sj-46aj-10-10",
+    "title": "Dimension and Reach Diagram - SJ 46AJ  -10  -10",
+    "file": "skyjack-sj46aj-dimension-and-reach-diagram-sj-46aj-10-10.md",
+    "steps": 3,
+    "machine": "Skyjack SJ46AJ / SJIII Series"
+  },
+  {
+    "id": "skyjack-sj46aj-electrical-system",
+    "title": "Electrical System",
+    "file": "skyjack-sj46aj-electrical-system.md",
+    "steps": 7,
+    "machine": "Skyjack SJ46AJ / SJIII Series"
+  },
+  {
+    "id": "skyjack-sj46aj-hydraulic-system",
+    "title": "Hydraulic System",
+    "file": "skyjack-sj46aj-hydraulic-system.md",
+    "steps": 8,
+    "machine": "Skyjack SJ46AJ / SJIII Series"
+  },
+  {
+    "id": "skyjack-sj46aj-load-sensing-system-ce",
+    "title": "Load Sensing System - CE",
+    "file": "skyjack-sj46aj-load-sensing-system-ce.md",
+    "steps": 6,
+    "machine": "Skyjack SJ46AJ / SJIII Series"
+  }
+]
