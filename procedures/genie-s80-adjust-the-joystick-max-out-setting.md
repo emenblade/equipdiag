@@ -7,6 +7,7 @@
 3. Push in the platform controls red Emergency Stop button to the off position.
 4. Do not press down the foot switch.
 5. Move and hold the drive enable toggle switch in the right position and pull out the red Emergency Stop button to the on position.
+7. Momentarily activate the drive enable toggle switch in the right direction 4 times.
 8. Start the engine from the platform controls and press down the foot switch.
 
 > **Note:** Perform this procedure with the boom in the stowed position.

@@ -8,11 +8,13 @@
 4. Do not press down the foot switch.
 5. Move and hold the drive enable toggle switch in the right position and pull out the red Emergency Stop button to the on position.
 6. When the alarm sounds, release the drive enable toggle switch.
+7. Momentarily activate the drive enable toggle switch in the right direction 6 times.
 8. Start the engine from the platform controls and press down the foot switch.
 9. Start a timer and simultaneously move the joystick in either direction full stroke. Note how long it takes the function to reach maximum speed. This is the ramp rate.
 10. Compare the function ramp rate time with the table and determine whether the ramp rate time needs to increase or decrease.
 11. Release the foot switch.
 13. Repeat steps 9 through 11 for each joystick controlled machine function.
+14. Return the joystick to the neutral position and wait for approximately 10 seconds to allow the settings to be saved.
 15. Cycle the red Emergency Stop button off, then back on.
 
 > **Note:** Perform this procedure with the boom in the stowed position.

@@ -1,618 +1,1618 @@
-{
-  "source": "DEUTZ EMR3 DTCodes (Table 2, SPN-component only)",
-  "type": "SPN",
-  "codes": [
-    {
-      "code": 29,
-      "desc": "Hand throttle"
-    },
-    {
-      "code": 38,
-      "desc": "CmbChbMisfire1"
-    },
-    {
-      "code": 39,
-      "desc": "CmbChbMisfire2"
-    },
-    {
-      "code": 40,
-      "desc": "CmbChbMisfire3"
-    },
-    {
-      "code": 41,
-      "desc": "CmbChbMisfire4"
-    },
-    {
-      "code": 42,
-      "desc": "CmbChbMisfire5"
-    },
-    {
-      "code": 43,
-      "desc": "CmbChbMisfire6"
-    },
-    {
-      "code": 44,
-      "desc": "CmbChbMisfire7"
-    },
-    {
-      "code": 45,
-      "desc": "CmbChbMisfire8"
-    },
-    {
-      "code": 46,
-      "desc": "CmbChbMisfireMul"
-    },
-    {
-      "code": 47,
-      "desc": "CmbChbSysReac"
-    },
-    {
-      "code": 48,
-      "desc": "CoEngShOffDemIgr"
-    },
-    {
-      "code": 74,
-      "desc": "EngCDTrqCalcOut"
-    },
-    {
-      "code": 75,
-      "desc": "EngMBackUp"
-    },
-    {
-      "code": 76,
-      "desc": "EngMCaS1"
-    },
-    {
-      "code": 77,
-      "desc": "EngMCrS1"
-    },
-    {
-      "code": 78,
-      "desc": "EngMOfsCaSCrS"
-    },
-    {
-      "code": 79,
-      "desc": "EngPrtSysReacFOC"
-    },
-    {
-      "code": 80,
-      "desc": "EngPrtSysReacORC"
-    },
-    {
-      "code": 82,
-      "desc": "ExFlCD"
-    },
-    {
-      "code": 83,
-      "desc": "FanCD"
-    },
-    {
-      "code": 84,
-      "desc": "Vehicle speed signal"
-    },
-    {
-      "code": 86,
-      "desc": "FanCDSysReac"
-    },
-    {
-      "code": 87,
-      "desc": "FlFCD"
-    },
-    {
-      "code": 90,
-      "desc": "FlPSCD"
-    },
-    {
-      "code": 91,
-      "desc": "Accelerator pedal"
-    },
-    {
-      "code": 94,
-      "desc": "Fuel low pressure sensor"
-    },
-    {
-      "code": 95,
-      "desc": "FrmMngFunModCtl"
-    },
-    {
-      "code": 97,
-      "desc": "Fuel filter water level sensor"
-    },
-    {
-      "code": 100,
-      "desc": "Oil pressure sensor"
-    },
-    {
-      "code": 102,
-      "desc": "Charge air pressure sensor"
-    },
-    {
-      "code": 105,
-      "desc": "Charge air temperature sensor"
-    },
-    {
-      "code": 106,
-      "desc": "FrmMngTOEngPrt"
-    },
-    {
-      "code": 107,
-      "desc": "Air filter condition"
-    },
-    {
-      "code": 110,
-      "desc": "Coolant temperature sensor"
-    },
-    {
-      "code": 111,
-      "desc": "Coolant level"
-    },
-    {
-      "code": 112,
-      "desc": "FrmMngTORxCCVS"
-    },
-    {
-      "code": 113,
-      "desc": "FrmMngTORxEngTemp"
-    },
-    {
-      "code": 117,
-      "desc": "FrmMngTOSwtOut"
-    },
-    {
-      "code": 118,
-      "desc": "FrmMngTOTCO1"
-    },
-    {
-      "code": 120,
-      "desc": "FrmMngTOTSC1AE"
-    },
-    {
-      "code": 121,
-      "desc": "FrmMngTOTSC1AR"
-    },
-    {
-      "code": 122,
-      "desc": "FrmMngTOTSC1DE"
-    },
-    {
-      "code": 123,
-      "desc": "FrmMngTOTSC1DR"
-    },
-    {
-      "code": 124,
-      "desc": "FrmMngTOTSC1PE"
-    },
-    {
-      "code": 125,
-      "desc": "FrmMngTOTSC1TE"
-    },
-    {
-      "code": 126,
-      "desc": "FrmMngTOTSC1TR"
-    },
-    {
-      "code": 127,
-      "desc": "FrmMngTOTSC1VE"
-    },
-    {
-      "code": 128,
-      "desc": "FrmMngTOTSC1VR"
-    },
-    {
-      "code": 131,
-      "desc": "FrmMngTxTO"
-    },
-    {
-      "code": 138,
-      "desc": "HdThrt"
-    },
-    {
-      "code": 153,
-      "desc": "InjVlvBnk1A"
-    },
-    {
-      "code": 154,
-      "desc": "InjVlvBnk1B"
-    },
-    {
-      "code": 155,
-      "desc": "InjVlvBnk2A"
-    },
-    {
-      "code": 156,
-      "desc": "InjVlvBnk2B"
-    },
-    {
-      "code": 157,
-      "desc": "Rail pressure sensor"
-    },
-    {
-      "code": 158,
-      "desc": "Terminal 15"
-    },
-    {
-      "code": 159,
-      "desc": "InjVlvCyl1A"
-    },
-    {
-      "code": 160,
-      "desc": "InjVlvCyl1B"
-    },
-    {
-      "code": 161,
-      "desc": "InjVlvCyl2A"
-    },
-    {
-      "code": 162,
-      "desc": "InjVlvCyl2B"
-    },
-    {
-      "code": 163,
-      "desc": "InjVlvCyl3A"
-    },
-    {
-      "code": 164,
-      "desc": "InjVlvCyl3B"
-    },
-    {
-      "code": 165,
-      "desc": "InjVlvCyl4A"
-    },
-    {
-      "code": 166,
-      "desc": "InjVlvCyl4B"
-    },
-    {
-      "code": 167,
-      "desc": "InjVlvCyl5A"
-    },
-    {
-      "code": 168,
-      "desc": "Battery   Voltage below target range"
-    },
-    {
-      "code": 169,
-      "desc": "InjVlvCyl6A"
-    },
-    {
-      "code": 170,
-      "desc": "InjVlvCyl6B"
-    },
-    {
-      "code": 171,
-      "desc": "InjVlvCyl7A"
-    },
-    {
-      "code": 172,
-      "desc": "InjVlvCyl7B"
-    },
-    {
-      "code": 173,
-      "desc": "InjVlvCyl8A"
-    },
-    {
-      "code": 174,
-      "desc": "Fuel temperature sensor"
-    },
-    {
-      "code": 175,
-      "desc": "Oil temperature sensor"
-    },
-    {
-      "code": 177,
-      "desc": "MeUnCDNoLoad"
-    },
-    {
-      "code": 178,
-      "desc": "MeUnCDSCBat"
-    },
-    {
-      "code": 179,
-      "desc": "MeUnCDSCGnd"
-    },
-    {
-      "code": 184,
-      "desc": "Montr   1-3-9"
-    },
-    {
-      "code": 190,
-      "desc": "Engine speed sensor"
-    },
-    {
-      "code": 192,
-      "desc": "NetMngCANAOff"
-    },
-    {
-      "code": 193,
-      "desc": "NetMngCANBOff"
-    },
-    {
-      "code": 194,
-      "desc": "NetMngCANCOff"
-    },
-    {
-      "code": 209,
-      "desc": "RailCD"
-    },
-    {
-      "code": 210,
-      "desc": "RailCDOfsTst"
-    },
-    {
-      "code": 211,
-      "desc": "RailMeUn0"
-    },
-    {
-      "code": 212,
-      "desc": "RailMeUn1"
-    },
-    {
-      "code": 213,
-      "desc": "RailMeUn2"
-    },
-    {
-      "code": 214,
-      "desc": "RailMeUn3"
-    },
-    {
-      "code": 215,
-      "desc": "RailMeUn4"
-    },
-    {
-      "code": 216,
-      "desc": "RailMeUn7"
-    },
-    {
-      "code": 223,
-      "desc": "StrtCDHS"
-    },
-    {
-      "code": 224,
-      "desc": "StrtCDLS"
-    },
-    {
-      "code": 225,
-      "desc": "SysLamp"
-    },
-    {
-      "code": 235,
-      "desc": "WdCom"
-    },
-    {
-      "code": 563,
-      "desc": "Main relay"
-    },
-    {
-      "code": 624,
-      "desc": "Diagnostic lamp"
-    },
-    {
-      "code": 651,
-      "desc": "Single injector"
-    },
-    {
-      "code": 652,
-      "desc": "Single injector"
-    },
-    {
-      "code": 653,
-      "desc": "Single injector"
-    },
-    {
-      "code": 654,
-      "desc": "Single injector"
-    },
-    {
-      "code": 655,
-      "desc": "Single injector"
-    },
-    {
-      "code": 656,
-      "desc": "Single injector"
-    },
-    {
-      "code": 657,
-      "desc": "Single injector"
-    },
-    {
-      "code": 658,
-      "desc": "Single injector"
-    },
-    {
-      "code": 676,
-      "desc": "Air heater relay"
-    },
-    {
-      "code": 677,
-      "desc": "Start relay"
-    },
-    {
-      "code": 701,
-      "desc": "Reserve output"
-    },
-    {
-      "code": 702,
-      "desc": "Reserve output"
-    },
-    {
-      "code": 703,
-      "desc": "Engine operating signal lamp"
-    },
-    {
-      "code": 704,
-      "desc": "Coolant temperature warning lamp"
-    },
-    {
-      "code": 705,
-      "desc": "Oil pressure warning lamp"
-    },
-    {
-      "code": 729,
-      "desc": "Air heater relay"
-    },
-    {
-      "code": 730,
-      "desc": "Air heater magnetic valve"
-    },
-    {
-      "code": 923,
-      "desc": "Engine power output"
-    },
-    {
-      "code": 975,
-      "desc": "Fan actuator"
-    },
-    {
-      "code": 1072,
-      "desc": "Engine brake (internal)"
-    },
-    {
-      "code": 1074,
-      "desc": "Engine brake flap actuator"
-    },
-    {
-      "code": 1081,
-      "desc": "Preheating signal lamp"
-    },
-    {
-      "code": 1109,
-      "desc": "Shut-off request"
-    },
-    {
-      "code": 1237,
-      "desc": "Override switch"
-    },
-    {
-      "code": 1322,
-      "desc": "Multiple cylinders"
-    },
-    {
-      "code": 1323,
-      "desc": "Single cylinder"
-    },
-    {
-      "code": 1324,
-      "desc": "Single cylinder"
-    },
-    {
-      "code": 1325,
-      "desc": "Single cylinder"
-    },
-    {
-      "code": 1326,
-      "desc": "Single cylinder"
-    },
-    {
-      "code": 1327,
-      "desc": "Single cylinder"
-    },
-    {
-      "code": 1328,
-      "desc": "Single cylinder"
-    },
-    {
-      "code": 1346,
-      "desc": "Misfire   Misfire detected with system reaction"
-    },
-    {
-      "code": 1450,
-      "desc": "Single cylinder"
-    },
-    {
-      "code": 1451,
-      "desc": "Single cylinder"
-    },
-    {
-      "code": 1638,
-      "desc": "Customer-specific sensor"
-    },
-    {
-      "code": 2634,
-      "desc": "Main relay"
-    },
-    {
-      "code": 523350,
-      "desc": "Multiple injectors"
-    },
-    {
-      "code": 523351,
-      "desc": "Multiple injectors"
-    },
-    {
-      "code": 523352,
-      "desc": "Multiple injectors"
-    },
-    {
-      "code": 523353,
-      "desc": "Multiple injectors"
-    },
-    {
-      "code": 523370,
-      "desc": "Rail pressure"
-    },
-    {
-      "code": 523450,
-      "desc": "Multi state switch"
-    },
-    {
-      "code": 523451,
-      "desc": "Multi state switch"
-    },
-    {
-      "code": 523452,
-      "desc": "Multi state switch"
-    },
-    {
-      "code": 523470,
-      "desc": "Rail pressure limiting valve"
-    },
-    {
-      "code": 523550,
-      "desc": "Terminal 50"
-    },
-    {
-      "code": 523561,
-      "desc": "Begin of injection period"
-    },
-    {
-      "code": 523562,
-      "desc": "Begin of injection period"
-    },
-    {
-      "code": 523563,
-      "desc": "Begin of injection period"
-    },
-    {
-      "code": 523564,
-      "desc": "Begin of injection period"
-    },
-    {
-      "code": 523565,
-      "desc": "Begin of injection period"
-    },
-    {
-      "code": 523566,
-      "desc": "Begin of injection period"
-    },
-    {
-      "code": 523567,
-      "desc": "Begin of injection period"
-    },
-    {
-      "code": 523568,
-      "desc": "Begin of injection period"
-    },
-    {
-      "code": 523602,
-      "desc": "Fan speed"
-    },
-    {
-      "code": 523613,
-      "desc": "Rail pressure"
-    },
-    {
-      "code": 523615,
-      "desc": "Metering unit valve"
-    }
-  ]
-}
+[
+  {
+    "spn": 91,
+    "fmi": [
+      2,
+      3,
+      4,
+      11
+    ],
+    "component": "",
+    "description": "Table 1: Errors sorted by functional group 1 DCR DMV Input monitoring Accelerator pedal Cable break or short circuit, signal implausible compared to signal of idle sensor (analog pedal)",
+    "errCode": 12,
+    "seriaId": "APP1",
+    "blinkCode": "2-2-6"
+  },
+  {
+    "spn": 91,
+    "fmi": [
+      2,
+      8
+    ],
+    "component": "",
+    "description": "Cable break or short circuit, bad PWM signal range or frequency (digital pedal)",
+    "errCode": 14,
+    "seriaId": "APPPwm",
+    "blinkCode": "2-2-2"
+  },
+  {
+    "spn": 91,
+    "fmi": [
+      8,
+      11
+    ],
+    "component": "",
+    "description": "Bad PWM pulse-width repetition rate (digital pedal)",
+    "errCode": 15,
+    "seriaId": "APPPwmPer",
+    "blinkCode": "2-2-2"
+  },
+  {
+    "spn": 168,
+    "fmi": [
+      0,
+      1,
+      11
+    ],
+    "component": "",
+    "description": "Battery Voltage below target range",
+    "errCode": 22,
+    "seriaId": "BattCD",
+    "blinkCode": "3-1-8"
+  },
+  {
+    "spn": 102,
+    "fmi": [
+      2,
+      3,
+      4
+    ],
+    "component": "",
+    "description": "Charge air pressure sensor Cable break or short circuit",
+    "errCode": 32,
+    "seriaId": "BPSCD",
+    "blinkCode": "2-2-3"
+  },
+  {
+    "spn": 105,
+    "fmi": [
+      2,
+      3,
+      4,
+      11
+    ],
+    "component": "",
+    "description": "Charge air temperature sensor Cable break or short circuit",
+    "errCode": 149,
+    "seriaId": "IATSCD",
+    "blinkCode": "1-2-8"
+  },
+  {
+    "spn": 110,
+    "fmi": [
+      2,
+      3,
+      4
+    ],
+    "component": "",
+    "description": "Coolant temperature sensor Cable break or short circuit",
+    "errCode": 55,
+    "seriaId": "CTSCD",
+    "blinkCode": "2-2-5"
+  },
+  {
+    "spn": 1638,
+    "fmi": [
+      3,
+      4,
+      11,
+      12
+    ],
+    "component": "",
+    "description": "Customer-specific sensor Cable break or short circuit (sensor 1) z z 136 GOTSCD 1-3-3 - 2, 3, 4, 11 z Cable break or short circuit (sensor 2)",
+    "errCode": 139,
+    "seriaId": "HOTSCD",
+    "blinkCode": "3-1-4"
+  },
+  {
+    "spn": 190,
+    "fmi": [
+      11,
+      12
+    ],
+    "component": "",
+    "description": "Engine speed sensor Engine running with cam-shaft speed signal only",
+    "errCode": 75,
+    "seriaId": "EngMBackUp",
+    "blinkCode": "2-1-2"
+  },
+  {
+    "spn": 190,
+    "fmi": [
+      8,
+      11,
+      12
+    ],
+    "component": "",
+    "description": "Speed signal from cam-shaft bad or missing",
+    "errCode": 76,
+    "seriaId": "EngMCaS1",
+    "blinkCode": "2-1-2"
+  },
+  {
+    "spn": 190,
+    "fmi": [
+      8,
+      11,
+      12
+    ],
+    "component": "",
+    "description": "Speed signal from crank-shaft bad or missing",
+    "errCode": 77,
+    "seriaId": "EngMCrS1",
+    "blinkCode": "2-1-2"
+  },
+  {
+    "spn": 190,
+    "fmi": [
+      2,
+      11
+    ],
+    "component": "",
+    "description": "Speed signals of crank-shaft and cam-shaft are phase-shifted",
+    "errCode": 78,
+    "seriaId": "EngMOfsCaSCrS",
+    "blinkCode": "2-1-3"
+  },
+  {
+    "spn": 97,
+    "fmi": [
+      3,
+      4,
+      11
+    ],
+    "component": "",
+    "description": "Fuel filter water level sensor Cable break or short circuit",
+    "errCode": 87,
+    "seriaId": "FlFCD",
+    "blinkCode": "2-2-8"
+  },
+  {
+    "spn": 94,
+    "fmi": [
+      3,
+      4,
+      11
+    ],
+    "component": "",
+    "description": "Fuel low pressure sensor Cable break or short circuit",
+    "errCode": 90,
+    "seriaId": "FlPSCD",
+    "blinkCode": "2-1-6"
+  },
+  {
+    "spn": 174,
+    "fmi": [
+      3,
+      4,
+      11
+    ],
+    "component": "",
+    "description": "Fuel temperature sensor Fuel temp. sensor: cable break or short circuit",
+    "errCode": 133,
+    "seriaId": "FTSCD",
+    "blinkCode": "2-2-7"
+  },
+  {
+    "spn": 29,
+    "fmi": [
+      2,
+      3,
+      4,
+      11
+    ],
+    "component": "",
+    "description": "Hand throttle Cable break or short circuit, signal implausible compared to signal of idle sensor",
+    "errCode": 138,
+    "seriaId": "HdThrt",
+    "blinkCode": "1-2-6"
+  },
+  {
+    "spn": 523450,
+    "fmi": [
+      2,
+      3,
+      4,
+      11
+    ],
+    "component": "",
+    "description": "Multi state switch Cable break or short circuit, input voltage outside target range (switch 1)",
+    "errCode": 189,
+    "seriaId": "MSSCD1",
+    "blinkCode": "1-4-3"
+  },
+  {
+    "spn": 523451,
+    "fmi": [
+      2,
+      3,
+      4,
+      11
+    ],
+    "component": "",
+    "description": "Cable break or short circuit, input voltage outside target range (switch 2)",
+    "errCode": 190,
+    "seriaId": "MSSCD2",
+    "blinkCode": "1-4-3"
+  },
+  {
+    "spn": 523452,
+    "fmi": [
+      2,
+      3,
+      4,
+      11
+    ],
+    "component": "",
+    "description": "Cable break or short circuit, input voltage outside target range (switch 3)",
+    "errCode": 191,
+    "seriaId": "MSSCD3",
+    "blinkCode": "1-4-3"
+  },
+  {
+    "spn": 100,
+    "fmi": [
+      0,
+      2,
+      3,
+      4
+    ],
+    "component": "",
+    "description": "Oil pressure sensor Cable break or short circuit",
+    "errCode": 196,
+    "seriaId": "OPSCD",
+    "blinkCode": "2-2-4"
+  },
+  {
+    "spn": 100,
+    "fmi": [
+      1,
+      11
+    ],
+    "component": "",
+    "description": "Pressure value implausible low",
+    "errCode": 197,
+    "seriaId": "OPSCD1",
+    "blinkCode": "2-3-1"
+  },
+  {
+    "spn": 175,
+    "fmi": [
+      2,
+      3,
+      4
+    ],
+    "component": "",
+    "description": "Oil temperature sensor Cable break or short circuit",
+    "errCode": 201,
+    "seriaId": "OTSCD",
+    "blinkCode": "1-4-4"
+  },
+  {
+    "spn": 1237,
+    "fmi": [
+      2,
+      11
+    ],
+    "component": "",
+    "description": "Override switch Switch hangs",
+    "errCode": 200,
+    "seriaId": "OSwCD",
+    "blinkCode": "1-4-5"
+  },
+  {
+    "spn": 158,
+    "fmi": [
+      11,
+      12
+    ],
+    "component": "",
+    "description": "Terminal 15 Ignition ON not detected",
+    "errCode": 226,
+    "seriaId": "T15CD",
+    "blinkCode": "5-1-4"
+  },
+  {
+    "spn": 523550,
+    "fmi": [
+      11,
+      12
+    ],
+    "component": "",
+    "description": "Terminal 50 Engine start switch hangs",
+    "errCode": 227,
+    "seriaId": "T50CD",
+    "blinkCode": "5-1-5"
+  },
+  {
+    "spn": 84,
+    "fmi": [
+      0,
+      8,
+      12,
+      14
+    ],
+    "component": "",
+    "description": "Vehicle speed signal Speed above target range, signal missing or implausible",
+    "errCode": 232,
+    "seriaId": "VSSCD1",
+    "blinkCode": "5-2-1"
+  },
+  {
+    "spn": 730,
+    "fmi": [
+      3,
+      4,
+      5,
+      11
+    ],
+    "component": "",
+    "description": "Output monitoring Air heater magnetic valve Cable break or short circuit",
+    "errCode": 18,
+    "seriaId": "ArHt2",
+    "blinkCode": "2-6-3"
+  },
+  {
+    "spn": 729,
+    "fmi": [
+      3,
+      4,
+      5,
+      11
+    ],
+    "component": "",
+    "description": "Air heater relay Cable break or short circuit",
+    "errCode": 17,
+    "seriaId": "ArHt1",
+    "blinkCode": "2-6-3"
+  },
+  {
+    "spn": 676,
+    "fmi": [
+      4,
+      11
+    ],
+    "component": "",
+    "description": "Cable break or wrong connection",
+    "errCode": 19,
+    "seriaId": "ArHtCD_NoLd",
+    "blinkCode": "2-6-3"
+  },
+  {
+    "spn": 676,
+    "fmi": [
+      2,
+      5,
+      11
+    ],
+    "component": "",
+    "description": "Inoperable during shut-off",
+    "errCode": 20,
+    "seriaId": "ArHtCD_RlyErr",
+    "blinkCode": "2-6-3"
+  },
+  {
+    "spn": 1072,
+    "fmi": [
+      3,
+      4,
+      5,
+      11
+    ],
+    "component": "",
+    "description": "Engine brake (internal) Internal engine brake: cable break or short circuit",
+    "errCode": 52,
+    "seriaId": "CRERCD",
+    "blinkCode": "5-2-8"
+  },
+  {
+    "spn": 923,
+    "fmi": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "component": "",
+    "description": "Engine power output Engine Power output: cable break or short circuit",
+    "errCode": 74,
+    "seriaId": "EngCDTrqCalcOut",
+    "blinkCode": "5-5-5"
+  },
+  {
+    "spn": 1074,
+    "fmi": [
+      3,
+      4,
+      5,
+      11
+    ],
+    "component": "",
+    "description": "Engine brake flap actuator Engine brake flap actuator: cable break or short circuit",
+    "errCode": 82,
+    "seriaId": "ExFlCD",
+    "blinkCode": "2-1-9"
+  },
+  {
+    "spn": 975,
+    "fmi": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "component": "",
+    "description": "Fan actuator Fan actuator: cable break or short circuit",
+    "errCode": 83,
+    "seriaId": "FanCD",
+    "blinkCode": "2-3-8"
+  },
+  {
+    "spn": 2634,
+    "fmi": [
+      3,
+      11
+    ],
+    "component": "",
+    "description": "Main relay Short circuit to Ubatt (relay 1)",
+    "errCode": 182,
+    "seriaId": "MnRly1_SCB",
+    "blinkCode": "1-3-7"
+  },
+  {
+    "spn": 2634,
+    "fmi": [
+      4,
+      11
+    ],
+    "component": "",
+    "description": "Short circuit to ground (relay 1)",
+    "errCode": 183,
+    "seriaId": "MnRly1_SCG",
+    "blinkCode": "1-3-8"
+  },
+  {
+    "spn": 2634,
+    "fmi": [
+      7,
+      11,
+      12
+    ],
+    "component": "",
+    "description": "Short circuit to ground or emergency shut-off (relay 2)",
+    "errCode": 186,
+    "seriaId": "MRlyCD",
+    "blinkCode": "2-6-1"
+  },
+  {
+    "spn": 563,
+    "fmi": [
+      7,
+      11,
+      12
+    ],
+    "component": "",
+    "description": "Short circuit to ground or emergency shut-off (relay 3)",
+    "errCode": 187,
+    "seriaId": "MRlyCDMnRly2",
+    "blinkCode": "2-6-1"
+  },
+  {
+    "spn": 2634,
+    "fmi": [
+      7,
+      11,
+      12
+    ],
+    "component": "",
+    "description": "Short circuit to ground or emergency shut-off (relay 3)",
+    "errCode": 188,
+    "seriaId": "MRlyCDMnRly3",
+    "blinkCode": "2-6-1"
+  },
+  {
+    "spn": 677,
+    "fmi": [
+      3,
+      4,
+      11
+    ],
+    "component": "",
+    "description": "Reserve output Short circuit to Ubatt (output 1) z z 57 Dummy1CD_Max - 701 11 Short circuit to ground (output 1) z z 58 Dummy1CD_Min - 701 11 Cable break or ECU internal error (output 1) z z 59 Dummy1",
+    "errCode": 223,
+    "seriaId": "StrtCDHS",
+    "blinkCode": "5-1-2"
+  },
+  {
+    "spn": 677,
+    "fmi": [
+      3,
+      4,
+      5,
+      11
+    ],
+    "component": "",
+    "description": "Start relay (low side): cable break or short circuit, disabled by ECU",
+    "errCode": 224,
+    "seriaId": "StrtCDLS",
+    "blinkCode": "5-1-2"
+  },
+  {
+    "spn": 107,
+    "fmi": [
+      1,
+      11
+    ],
+    "component": "",
+    "description": "1 DCR DMV Engine protection Air filter condition Pressure loss above target range with system reaction",
+    "errCode": 11,
+    "seriaId": "AirFltSysReac",
+    "blinkCode": "1-3-6"
+  },
+  {
+    "spn": 168,
+    "fmi": [
+      2,
+      11
+    ],
+    "component": "",
+    "description": "Battery voltage Above target range with system reaction",
+    "errCode": 23,
+    "seriaId": "BattCDSysReac",
+    "blinkCode": "3-1-8"
+  },
+  {
+    "spn": 102,
+    "fmi": [
+      2,
+      11
+    ],
+    "component": "",
+    "description": "Charge air pressure Outside target range with system reaction",
+    "errCode": 33,
+    "seriaId": "BPSCDSysReac",
+    "blinkCode": "2-2-3"
+  },
+  {
+    "spn": 105,
+    "fmi": [
+      0,
+      11
+    ],
+    "component": "",
+    "description": "Charge air temperature Above target range with system reaction",
+    "errCode": 150,
+    "seriaId": "IATSCDSysReac",
+    "blinkCode": "2-3-3"
+  },
+  {
+    "spn": 111,
+    "fmi": [
+      1,
+      11
+    ],
+    "component": "",
+    "description": "Coolant level Outside target range with system reaction",
+    "errCode": 37,
+    "seriaId": "CLSCDSysReac",
+    "blinkCode": "2-3-5"
+  },
+  {
+    "spn": 110,
+    "fmi": [
+      0,
+      11
+    ],
+    "component": "",
+    "description": "Coolant temperature Outside target range with system reaction",
+    "errCode": 56,
+    "seriaId": "CTSCDSysReac",
+    "blinkCode": "2-3-2"
+  },
+  {
+    "spn": 1638,
+    "fmi": [
+      2,
+      11
+    ],
+    "component": "",
+    "description": "Customer-specific temperature Outside target range with system reaction (temperature 1) z z 137 GOTSCDSysReac 1-3-3 - 2, 11 z Outside target range with system reaction (temperature 2)",
+    "errCode": 140,
+    "seriaId": "HOTSCDSysReac",
+    "blinkCode": "3-1-4"
+  },
+  {
+    "spn": 523602,
+    "fmi": [
+      2,
+      11
+    ],
+    "component": "",
+    "description": "Fan speed Above target range with system reaction",
+    "errCode": 86,
+    "seriaId": "FanCDSysReac",
+    "blinkCode": "2-3-8"
+  },
+  {
+    "spn": 94,
+    "fmi": [
+      2,
+      11
+    ],
+    "component": "",
+    "description": "Fuel low pressure Below target range with system reaction",
+    "errCode": 91,
+    "seriaId": "FlPSCDSysReac",
+    "blinkCode": "2-1-6"
+  },
+  {
+    "spn": 174,
+    "fmi": [
+      0,
+      11
+    ],
+    "component": "",
+    "description": "Fuel temperature Above target range with system reaction",
+    "errCode": 134,
+    "seriaId": "FTSCDSysReac",
+    "blinkCode": "2-3-7"
+  },
+  {
+    "spn": 100,
+    "fmi": [
+      0,
+      11
+    ],
+    "component": "",
+    "description": "Misfire Misfire detected with system reaction z 47 CmbChbSysReac 2-4-1 1346 0, 11 Oil pressure Above target range",
+    "errCode": 198,
+    "seriaId": "OPSCDSysReacHi",
+    "blinkCode": "2-3-1"
+  },
+  {
+    "spn": 100,
+    "fmi": [
+      1,
+      11
+    ],
+    "component": "",
+    "description": "Oil pressure Below target range",
+    "errCode": 199,
+    "seriaId": "OPSCDSysReacLo",
+    "blinkCode": "2-3-1"
+  },
+  {
+    "spn": 175,
+    "fmi": [
+      0,
+      11
+    ],
+    "component": "",
+    "description": "Oil temperature Below target range with system reaction",
+    "errCode": 203,
+    "seriaId": "OTSCDSysReac",
+    "blinkCode": "1-4-4"
+  },
+  {
+    "spn": 190,
+    "fmi": [
+      0,
+      11
+    ],
+    "component": "",
+    "description": "Overspeed Engine overspeed with system reaction",
+    "errCode": 79,
+    "seriaId": "EngPrtSysReacFOC",
+    "blinkCode": "2-1-4"
+  },
+  {
+    "spn": 190,
+    "fmi": [
+      11,
+      14
+    ],
+    "component": "",
+    "description": "Overrun conditions Overrun conditions with system reaction",
+    "errCode": 80,
+    "seriaId": "EngPrtSysReacORC",
+    "blinkCode": "2-1-4"
+  },
+  {
+    "spn": 1109,
+    "fmi": [
+      2,
+      11
+    ],
+    "component": "",
+    "description": "Shut-off request Shut-off request ignored by operator",
+    "errCode": 48,
+    "seriaId": "CoEngShOffDemIgr",
+    "blinkCode": "3-4-1"
+  },
+  {
+    "spn": 97,
+    "fmi": [
+      11,
+      12
+    ],
+    "component": "",
+    "description": "Water level in fuel filter Above target range",
+    "errCode": 89,
+    "seriaId": "FlFCD_WtLvl",
+    "blinkCode": "2-2-8"
+  },
+  {
+    "spn": 523370,
+    "fmi": [
+      11,
+      14
+    ],
+    "component": "",
+    "description": "High pressure system monitoring Metering unit valve Flow rate outside target range z 176 MeUnCD_ADC 1-3-5 523615 3, 4, 11 Not connected or output disabled z 177 MeUnCDNoLoad 1-3-5 523615 5, 11, 12 Sho",
+    "errCode": 175,
+    "seriaId": "InjVlvErrDet",
+    "blinkCode": "5-5-5"
+  },
+  {
+    "spn": 1322,
+    "fmi": [
+      11,
+      12
+    ],
+    "component": "",
+    "description": "1 DCR DMV Combustion moni- toring Multiple cylinders Misfire detected",
+    "errCode": 46,
+    "seriaId": "CmbChbMisfireMul",
+    "blinkCode": "2-4-1"
+  },
+  {
+    "spn": 1323,
+    "fmi": [
+      11,
+      12
+    ],
+    "component": "",
+    "description": "Single cylinder Misfire detected (cylinder 1)",
+    "errCode": 38,
+    "seriaId": "CmbChbMisfire1",
+    "blinkCode": "2-4-1"
+  },
+  {
+    "spn": 1324,
+    "fmi": [
+      11,
+      12
+    ],
+    "component": "",
+    "description": "Misfire detected (cylinder 2)",
+    "errCode": 39,
+    "seriaId": "CmbChbMisfire2",
+    "blinkCode": "2-4-1"
+  },
+  {
+    "spn": 1325,
+    "fmi": [
+      11,
+      12
+    ],
+    "component": "",
+    "description": "Misfire detected (cylinder 3)",
+    "errCode": 40,
+    "seriaId": "CmbChbMisfire3",
+    "blinkCode": "2-4-1"
+  },
+  {
+    "spn": 1326,
+    "fmi": [
+      11,
+      12
+    ],
+    "component": "",
+    "description": "Misfire detected (cylinder 4)",
+    "errCode": 41,
+    "seriaId": "CmbChbMisfire4",
+    "blinkCode": "2-4-1"
+  },
+  {
+    "spn": 1327,
+    "fmi": [
+      11,
+      12
+    ],
+    "component": "",
+    "description": "Misfire detected (cylinder 5)",
+    "errCode": 42,
+    "seriaId": "CmbChbMisfire5",
+    "blinkCode": "2-4-1"
+  },
+  {
+    "spn": 1328,
+    "fmi": [
+      11,
+      12
+    ],
+    "component": "",
+    "description": "Misfire detected (cylinder 6)",
+    "errCode": 43,
+    "seriaId": "CmbChbMisfire6",
+    "blinkCode": "2-4-1"
+  },
+  {
+    "spn": 523350,
+    "fmi": [
+      3,
+      4,
+      11,
+      13
+    ],
+    "component": "",
+    "description": "Misfire detected (cylinder 7) z 44 CmbChbMisfire7 2-4-1 1450 11, 12 Misfire detected (cylinder 8) z 45 CmbChbMisfire8 2-4-1 1451 11, 12 1 DCR DMV Injection system monitoring Begin of injection period ",
+    "errCode": 153,
+    "seriaId": "InjVlvBnk1A",
+    "blinkCode": "1-5-1"
+  },
+  {
+    "spn": 523351,
+    "fmi": [
+      5,
+      13
+    ],
+    "component": "",
+    "description": "Cable break (cylinder bank 1)",
+    "errCode": 154,
+    "seriaId": "InjVlvBnk1B",
+    "blinkCode": "1-5-1"
+  },
+  {
+    "spn": 523352,
+    "fmi": [
+      3,
+      4,
+      11,
+      13
+    ],
+    "component": "",
+    "description": "Short circuit (cylinder bank 2)",
+    "errCode": 155,
+    "seriaId": "InjVlvBnk2A",
+    "blinkCode": "1-5-2"
+  },
+  {
+    "spn": 523353,
+    "fmi": [
+      5,
+      13
+    ],
+    "component": "",
+    "description": "Cable break (cylinder bank 2)",
+    "errCode": 156,
+    "seriaId": "InjVlvBnk2B",
+    "blinkCode": "1-5-2"
+  },
+  {
+    "spn": 651,
+    "fmi": [
+      3,
+      4,
+      11,
+      13
+    ],
+    "component": "",
+    "description": "Single injector Short circuit (injector 1)",
+    "errCode": 159,
+    "seriaId": "InjVlvCyl1A",
+    "blinkCode": "1-5-4"
+  },
+  {
+    "spn": 651,
+    "fmi": [
+      5,
+      13
+    ],
+    "component": "",
+    "description": "Cable break (injector 1)",
+    "errCode": 160,
+    "seriaId": "InjVlvCyl1B",
+    "blinkCode": "1-5-4"
+  },
+  {
+    "spn": 652,
+    "fmi": [
+      3,
+      4,
+      11,
+      13
+    ],
+    "component": "",
+    "description": "Short circuit (injector 2)",
+    "errCode": 161,
+    "seriaId": "InjVlvCyl2A",
+    "blinkCode": "1-5-5"
+  },
+  {
+    "spn": 652,
+    "fmi": [
+      5,
+      13
+    ],
+    "component": "",
+    "description": "Cable break (injector 2)",
+    "errCode": 162,
+    "seriaId": "InjVlvCyl2B",
+    "blinkCode": "1-5-5"
+  },
+  {
+    "spn": 653,
+    "fmi": [
+      3,
+      4,
+      11,
+      13
+    ],
+    "component": "",
+    "description": "Short circuit (injector 3)",
+    "errCode": 163,
+    "seriaId": "InjVlvCyl3A",
+    "blinkCode": "1-5-6"
+  },
+  {
+    "spn": 653,
+    "fmi": [
+      5,
+      13
+    ],
+    "component": "",
+    "description": "Cable break (injector 3)",
+    "errCode": 164,
+    "seriaId": "InjVlvCyl3B",
+    "blinkCode": "1-5-6"
+  },
+  {
+    "spn": 654,
+    "fmi": [
+      3,
+      4,
+      11,
+      13
+    ],
+    "component": "",
+    "description": "Short circuit (injector 4)",
+    "errCode": 165,
+    "seriaId": "InjVlvCyl4A",
+    "blinkCode": "1-6-1"
+  },
+  {
+    "spn": 654,
+    "fmi": [
+      5,
+      13
+    ],
+    "component": "",
+    "description": "Cable break (injector 4)",
+    "errCode": 166,
+    "seriaId": "InjVlvCyl4B",
+    "blinkCode": "1-6-1"
+  },
+  {
+    "spn": 655,
+    "fmi": [
+      3,
+      4,
+      11,
+      13
+    ],
+    "component": "",
+    "description": "Short circuit (injector 5)",
+    "errCode": 167,
+    "seriaId": "InjVlvCyl5A",
+    "blinkCode": "1-6-2"
+  },
+  {
+    "spn": 655,
+    "fmi": [
+      5,
+      13
+    ],
+    "component": "",
+    "description": "Cable break (injector 5)",
+    "errCode": 168,
+    "seriaId": "InjVlvCyl5B",
+    "blinkCode": "1-6-2"
+  },
+  {
+    "spn": 656,
+    "fmi": [
+      3,
+      4,
+      11,
+      13
+    ],
+    "component": "",
+    "description": "Short circuit (injector 6)",
+    "errCode": 169,
+    "seriaId": "InjVlvCyl6A",
+    "blinkCode": "1-6-3"
+  },
+  {
+    "spn": 656,
+    "fmi": [
+      5,
+      13
+    ],
+    "component": "",
+    "description": "Cable break (injector 6)",
+    "errCode": 170,
+    "seriaId": "InjVlvCyl6B",
+    "blinkCode": "1-6-3"
+  },
+  {
+    "spn": 2791,
+    "fmi": [
+      3,
+      11
+    ],
+    "component": "",
+    "description": "Short circuit (injector 7) z 171 InjVlvCyl7A 1-6-4 657 3, 4, 11, 13 z Cable break (injector 7) z 172 InjVlvCyl7B 1-6-4 657 5, 13 z Short circuit (injector 8) z 173 InjVlvCyl8A 1-6-5 658 3, 4, 11, 13 z",
+    "errCode": 69,
+    "seriaId": "EGRCD_Max",
+    "blinkCode": "4-1-4"
+  },
+  {
+    "spn": 2791,
+    "fmi": [
+      4,
+      11
+    ],
+    "component": "",
+    "description": "Short circuit to ground",
+    "errCode": 70,
+    "seriaId": "EGRCD_Min",
+    "blinkCode": "4-1-4"
+  },
+  {
+    "spn": 2791,
+    "fmi": [
+      2,
+      5,
+      11
+    ],
+    "component": "",
+    "description": "Cable break or ECU internal error",
+    "errCode": 71,
+    "seriaId": "EGRCD_SigNpl",
+    "blinkCode": "4-1-5"
+  },
+  {
+    "spn": 2791,
+    "fmi": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "component": "",
+    "description": "Cable break or short circuit",
+    "errCode": 72,
+    "seriaId": "EGRCDIntEGR",
+    "blinkCode": "4-1-6"
+  },
+  {
+    "spn": 704,
+    "fmi": [
+      11
+    ],
+    "component": "",
+    "description": "1 DCR DMV Signal lamps monitoring Coolant temperature warning lamp Cable break or short circuit",
+    "errCode": 54,
+    "seriaId": "CTLpCD",
+    "blinkCode": "1-2-3"
+  },
+  {
+    "spn": 624,
+    "fmi": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "component": "",
+    "description": "Diagnostic lamp Cable break or short circuit, disabled by ECU",
+    "errCode": 225,
+    "seriaId": "SysLamp",
+    "blinkCode": "5-1-3"
+  },
+  {
+    "spn": 703,
+    "fmi": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "component": "",
+    "description": "Engine operating signal lamp Cable break or ECU internal error",
+    "errCode": 81,
+    "seriaId": "ESLpCD",
+    "blinkCode": "1-4-2"
+  },
+  {
+    "spn": 705,
+    "fmi": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "component": "",
+    "description": "Oil pressure warning lamp Cable break or short circuit",
+    "errCode": 195,
+    "seriaId": "OPLpCD",
+    "blinkCode": "1-3-5"
+  },
+  {
+    "spn": 1081,
+    "fmi": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "component": "",
+    "description": "Preheating signal lamp Cable break or short circuit",
+    "errCode": 53,
+    "seriaId": "CSLpCD",
+    "blinkCode": "3-2-8"
+  },
+  {
+    "spn": 523239,
+    "fmi": [
+      2,
+      12
+    ],
+    "component": "",
+    "description": "CAN bus monito- ring CAN message Missing or value above target range (message \"DecV1\" = pseudo pedal)",
+    "errCode": 94,
+    "seriaId": "FrmMngDecV1",
+    "blinkCode": "5-2-6"
+  },
+  {
+    "spn": 523240,
+    "fmi": [
+      11,
+      12
+    ],
+    "component": "",
+    "description": "Missing (message \"FunModCtl\" = function mode control)",
+    "errCode": 95,
+    "seriaId": "FrmMngFunModCtl",
+    "blinkCode": "5-2-7"
+  },
+  {
+    "spn": 523212,
+    "fmi": [
+      11,
+      12
+    ],
+    "component": "",
+    "description": "Missing (message \"EngPrt\" = engine protection)",
+    "errCode": 106,
+    "seriaId": "FrmMngTOEngPrt",
+    "blinkCode": "3-3-3"
+  },
+  {
+    "spn": 523216,
+    "fmi": [
+      11,
+      12
+    ],
+    "component": "",
+    "description": "Missing (message \"PrHtEnCmd\" = preheat and engine command)",
+    "errCode": 110,
+    "seriaId": "FrmMngTOPrHtEnCmd",
+    "blinkCode": "3-3-7"
+  },
+  {
+    "spn": 523218,
+    "fmi": [
+      11,
+      12
+    ],
+    "component": "",
+    "description": "Missing (message \"RxCCVS\" = cruise control)",
+    "errCode": 112,
+    "seriaId": "FrmMngTORxCCVS",
+    "blinkCode": "1-1-1"
+  },
+  {
+    "spn": 523604,
+    "fmi": [
+      11,
+      12
+    ],
+    "component": "",
+    "description": "Missing (message \"RxEngTemp\" = engine temperature)",
+    "errCode": 113,
+    "seriaId": "FrmMngTORxEngTemp",
+    "blinkCode": "1-1-2"
+  },
+  {
+    "spn": 523238,
+    "fmi": [
+      11,
+      12
+    ],
+    "component": "",
+    "description": "Missing (message \"SwtOut\" = switch outputs)",
+    "errCode": 117,
+    "seriaId": "FrmMngTOSwtOut",
+    "blinkCode": "1-1-5"
+  },
+  {
+    "spn": 523222,
+    "fmi": [
+      11,
+      12
+    ],
+    "component": "",
+    "description": "Missing (message \"TCO1\" = speedo signal)",
+    "errCode": 118,
+    "seriaId": "FrmMngTOTCO1",
+    "blinkCode": "1-1-6"
+  },
+  {
+    "spn": 523605,
+    "fmi": [
+      11,
+      12
+    ],
+    "component": "",
+    "description": "Missing (message \"TSC1-AE\")",
+    "errCode": 120,
+    "seriaId": "FrmMngTOTSC1AE",
+    "blinkCode": "1-1-8"
+  },
+  {
+    "spn": 523606,
+    "fmi": [
+      11,
+      12
+    ],
+    "component": "",
+    "description": "Missing (message \"TSC1-AR\")",
+    "errCode": 121,
+    "seriaId": "FrmMngTOTSC1AR",
+    "blinkCode": "1-1-9"
+  },
+  {
+    "spn": 523607,
+    "fmi": [
+      11,
+      12
+    ],
+    "component": "",
+    "description": "Missing (message \"TSC1-DE\")",
+    "errCode": 122,
+    "seriaId": "FrmMngTOTSC1DE",
+    "blinkCode": "1-1-8"
+  },
+  {
+    "spn": 523608,
+    "fmi": [
+      11,
+      12
+    ],
+    "component": "",
+    "description": "Missing (message \"TSC1-DR\")",
+    "errCode": 123,
+    "seriaId": "FrmMngTOTSC1DR",
+    "blinkCode": "1-1-9"
+  },
+  {
+    "spn": 523609,
+    "fmi": [
+      11,
+      12
+    ],
+    "component": "",
+    "description": "Missing (message \"TSC1-PE\")",
+    "errCode": 124,
+    "seriaId": "FrmMngTOTSC1PE",
+    "blinkCode": "1-1-8"
+  },
+  {
+    "spn": 898,
+    "fmi": [
+      11,
+      12
+    ],
+    "component": "",
+    "description": "Missing (message \"TSC1-TE\")",
+    "errCode": 125,
+    "seriaId": "FrmMngTOTSC1TE",
+    "blinkCode": "1-1-8"
+  },
+  {
+    "spn": 520,
+    "fmi": [
+      11,
+      12
+    ],
+    "component": "",
+    "description": "Missing (message \"TSC1-TR\")",
+    "errCode": 126,
+    "seriaId": "FrmMngTOTSC1TR",
+    "blinkCode": "1-1-9"
+  },
+  {
+    "spn": 523610,
+    "fmi": [
+      11,
+      12
+    ],
+    "component": "",
+    "description": "Missing (message \"TSC1-VE\")",
+    "errCode": 127,
+    "seriaId": "FrmMngTOTSC1VE",
+    "blinkCode": "1-1-8"
+  },
+  {
+    "spn": 523611,
+    "fmi": [
+      11,
+      12
+    ],
+    "component": "",
+    "description": "Missing (message \"TSC1-VR\")",
+    "errCode": 128,
+    "seriaId": "FrmMngTOTSC1VR",
+    "blinkCode": "1-1-9"
+  },
+  {
+    "spn": 523500,
+    "fmi": [
+      11,
+      12
+    ],
+    "component": "",
+    "description": "Time-out of at least one sended message",
+    "errCode": 131,
+    "seriaId": "FrmMngTxTO",
+    "blinkCode": "2-7-1"
+  },
+  {
+    "spn": 639,
+    "fmi": [
+      11,
+      14
+    ],
+    "component": "",
+    "description": "CAN bus off-state Cable break or short circuit, off-state (CAN bus A)",
+    "errCode": 192,
+    "seriaId": "NetMngCANAOff",
+    "blinkCode": "2-7-1"
+  },
+  {
+    "spn": 1231,
+    "fmi": [
+      11,
+      14
+    ],
+    "component": "",
+    "description": "Cable break or short circuit, off-state (CAN bus B)",
+    "errCode": 193,
+    "seriaId": "NetMngCANBOff",
+    "blinkCode": "2-7-1"
+  },
+  {
+    "spn": 1235,
+    "fmi": [
+      11,
+      14
+    ],
+    "component": "",
+    "description": "Cable break or short circuit, off-state (CAN bus C)",
+    "errCode": 194,
+    "seriaId": "NetMngCANCOff",
+    "blinkCode": "2-7-1"
+  },
+  {
+    "spn": 108,
+    "fmi": [
+      2,
+      3,
+      4,
+      11
+    ],
+    "component": "",
+    "description": "1 DCR DMV 1 Non-self-curing errors remain active at least up to the next ECU reset. Abbreviations: DCR = DEUTZ Common Rail system, DMV = DEUTZ Magnetic Valve system (Pump-Line-Injector), SPN = Suspect",
+    "errCode": 16,
+    "seriaId": "APSCD",
+    "blinkCode": "2-9-2"
+  },
+  {
+    "spn": 523617,
+    "fmi": [
+      11,
+      12
+    ],
+    "component": "",
+    "description": "Communication with chip CJ 940 disturbed",
+    "errCode": 141,
+    "seriaId": "HWEMonCom",
+    "blinkCode": "5-5-5"
+  },
+  {
+    "spn": 630,
+    "fmi": [
+      11,
+      12
+    ],
+    "component": "",
+    "description": "EEPROM memory access",
+    "errCode": 142,
+    "seriaId": "HWEMonEEPROM",
+    "blinkCode": "2-8-1"
+  },
+  {
+    "spn": 523354,
+    "fmi": [
+      2,
+      3,
+      12,
+      14
+    ],
+    "component": "",
+    "description": "Injector power stage A",
+    "errCode": 157,
+    "seriaId": "InjVlvChipA",
+    "blinkCode": "1-5-3"
+  },
+  {
+    "spn": 523355,
+    "fmi": [
+      12
+    ],
+    "component": "",
+    "description": "Injector power stage B",
+    "errCode": 158,
+    "seriaId": "InjVlvChipB",
+    "blinkCode": "1-5-3"
+  },
+  {
+    "spn": 523420,
+    "fmi": [
+      11,
+      14
+    ],
+    "component": "",
+    "description": "Watchdog counter exceeds maximum",
+    "errCode": 184,
+    "seriaId": "Montr",
+    "blinkCode": "1-3-9"
+  },
+  {
+    "spn": 523490,
+    "fmi": [
+      3,
+      4,
+      11,
+      12
+    ],
+    "component": "",
+    "description": "Redundant shut-off conditions detected",
+    "errCode": 218,
+    "seriaId": "SOPTst",
+    "blinkCode": "1-4-9"
+  },
+  {
+    "spn": 1079,
+    "fmi": [
+      3,
+      4,
+      11
+    ],
+    "component": "",
+    "description": "Wrong voltage of internal 5V reference source 1",
+    "errCode": 219,
+    "seriaId": "SSpMon1",
+    "blinkCode": "2-8-2"
+  },
+  {
+    "spn": 1080,
+    "fmi": [
+      3,
+      4,
+      11
+    ],
+    "component": "",
+    "description": "Wrong voltage of internal 5V reference source 2",
+    "errCode": 221,
+    "seriaId": "SSpMon2",
+    "blinkCode": "2-8-2"
+  },
+  {
+    "spn": 523601,
+    "fmi": [
+      3,
+      4,
+      11
+    ],
+    "component": "",
+    "description": "Wrong voltage of internal 5V reference source 3",
+    "errCode": 222,
+    "seriaId": "SSpMon3",
+    "blinkCode": "2-8-2"
+  },
+  {
+    "spn": 523550,
+    "fmi": [
+      2,
+      11
+    ],
+    "component": "",
+    "description": "Time processing unit (TPU) defective",
+    "errCode": 228,
+    "seriaId": "TPUMon",
+    "blinkCode": "5-5-5"
+  },
+  {
+    "spn": 523600,
+    "fmi": [
+      11,
+      12
+    ],
+    "component": "",
+    "description": "Serial communication interface defective",
+    "errCode": 235,
+    "seriaId": "WdCom",
+    "blinkCode": "5-5-5"
+  },
+  {
+    "spn": 523612,
+    "fmi": [
+      11,
+      14
+    ],
+    "component": "",
+    "description": "ECU internal hardware monito- ring A recovery occurred which is stored as protected",
+    "errCode": 143,
+    "seriaId": "HWEMonRcyLocked",
+    "blinkCode": "5-5-5"
+  },
+  {
+    "spn": 523612,
+    "fmi": [
+      11,
+      14
+    ],
+    "component": "",
+    "description": "A recovery occurred which is not stored z z 144 HWEMonRcySuppres- sed 5-5-5 523612 11, 14 A recovery occurred which is visible in the error memory",
+    "errCode": 145,
+    "seriaId": "HWEMonRcyVisible",
+    "blinkCode": "5-5-5"
+  },
+  {
+    "spn": 523612,
+    "fmi": [
+      3,
+      11
+    ],
+    "component": "",
+    "description": "Overvoltage",
+    "errCode": 146,
+    "seriaId": "HWEMonUMaxSupply",
+    "blinkCode": "5-5-5"
+  },
+  {
+    "spn": 523612,
+    "fmi": [
+      4,
+      11
+    ],
+    "component": "",
+    "description": "Undervoltage",
+    "errCode": 147,
+    "seriaId": "HWEMonUMinSupply",
+    "blinkCode": "5-5-5"
+  }
+]
