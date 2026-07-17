@@ -1,0 +1,4912 @@
+[
+  {
+    "type": "SPN",
+    "code": 132,
+    "fmi": 11,
+    "kwp": 1,
+    "desc": "Air mass - Root cause not known",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 172,
+    "fmi": 2,
+    "kwp": 9,
+    "desc": "Ambient air temperature sensor - Data erraticintermittent or incorrect",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523924,
+    "fmi": 3,
+    "kwp": 37,
+    "desc": "Actuator relay 2 - Voltage above normal or shortedto high source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523925,
+    "fmi": 3,
+    "kwp": 38,
+    "desc": "Actuator relay 3 - Voltage above normal or shortedto high source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523927,
+    "fmi": 3,
+    "kwp": 40,
+    "desc": "Actuator relay 6 - Voltage above normal or shortedto high source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523924,
+    "fmi": 4,
+    "kwp": 42,
+    "desc": "Actuator relay 2 - Voltage below normal or shortedto low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523925,
+    "fmi": 4,
+    "kwp": 43,
+    "desc": "Actuator relay 3 - Voltage below normal or shortedto low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523926,
+    "fmi": 4,
+    "kwp": 44,
+    "desc": "Actuator relay 4 - Voltage below normal or shortedto low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 168,
+    "fmi": 3,
+    "kwp": 45,
+    "desc": "Battery voltage - Voltage above normal or shortedto high source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 168,
+    "fmi": 4,
+    "kwp": 46,
+    "desc": "Battery voltage - Voltage below normal or shortedto low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 168,
+    "fmi": 2,
+    "kwp": 47,
+    "desc": "Battery voltage - Data erratic intermittent orincorrect",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523911,
+    "fmi": 0,
+    "kwp": 58,
+    "desc": "Abgasnachbehandlung - Brennerdosierventil - PhysikalischerGrenzwert überschritten (Hoher Schweregrad)Exhaust aftertreatment - Burner dosing valve - Data abovenormal operational range (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523911,
+    "fmi": 4,
+    "kwp": 62,
+    "desc": "Abgasnachbehandlung - Brennerdosierventil - Spannungunterhalb des Normalwertes oder Kurzschluss nach MasseExhaust aftertreatment - Burner dosing valve - Voltage belownormal or shorted to low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523911,
+    "fmi": 11,
+    "kwp": 63,
+    "desc": "Abgasnachbehandlung - Brennerdosierventil - GenaueFehlerursache nicht bekanntExhaust aftertreatment - Burner dosing valve - Root causenot knownPage 1Revision 2.0",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523912,
+    "fmi": 3,
+    "kwp": 72,
+    "desc": "Abgasnachbehandlung - Drucksensor nachBrennerdosierventil - Spannung oberhalb des Normalwertesoder Kurzschluss nach PlusExhaust aftertreatment - Pressure sensor after burner dosingvalve - Voltage above normal or shorted to high source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523912,
+    "fmi": 4,
+    "kwp": 73,
+    "desc": "Abgasnachbehandlung - Drucksensor nachBrennerdosierventil - Spannung unterhalb des Normalwertesoder Kurzschluss nach MasseExhaust aftertreatment - Pressure sensor after burner dosingvalve - Voltage below normal or shorted to low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523913,
+    "fmi": 3,
+    "kwp": 74,
+    "desc": "Diagnostic cable glow plug control - Voltage abovenormal or shorted to high source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523913,
+    "fmi": 4,
+    "kwp": 75,
+    "desc": "Diagnostic cable glow plug control - Voltage belownormal or shorted to low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523914,
+    "fmi": 5,
+    "kwp": 76,
+    "desc": "Glow plug control / Electrical water pump - Currentbelow normal or open circuit",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523914,
+    "fmi": 12,
+    "kwp": 77,
+    "desc": "Glow plug control / Electrical water pump - Badintelligent device or component",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523914,
+    "fmi": 3,
+    "kwp": 78,
+    "desc": "Glow plug control / Electrical water pump - Voltageabove normal or shorted to high source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523914,
+    "fmi": 4,
+    "kwp": 79,
+    "desc": "Glow plug control / Electrical water pump - Voltagebelow normal or shorted to low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1235,
+    "fmi": 14,
+    "kwp": 82,
+    "desc": "CAN - Special instructions",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 639,
+    "fmi": 14,
+    "kwp": 84,
+    "desc": "CAN - Special instructions",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1231,
+    "fmi": 14,
+    "kwp": 85,
+    "desc": "CAN - Special instructions",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 102,
+    "fmi": 2,
+    "kwp": 88,
+    "desc": "Charge air pressure sensor - Data erraticintermittent or incorrectPage 2Revision 2.0",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 110,
+    "fmi": 0,
+    "kwp": 92,
+    "desc": "Coolant temperature sensor - Data above normaloperational range (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 110,
+    "fmi": 1,
+    "kwp": 93,
+    "desc": "Coolant temperature sensor - Data below normaloperational range (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 110,
+    "fmi": 3,
+    "kwp": 96,
+    "desc": "Coolant temperature sensor - Voltage above normalor shorted to high source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 110,
+    "fmi": 4,
+    "kwp": 97,
+    "desc": "Coolant temperature sensor - Voltage below normalor shorted to low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 111,
+    "fmi": 1,
+    "kwp": 101,
+    "desc": "Coolant level sensor - Data below normaloperational range (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1109,
+    "fmi": 2,
+    "kwp": 121,
+    "desc": "Protection system requested shutdown - Data erraticintermittent or incorrect",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523698,
+    "fmi": 11,
+    "kwp": 122,
+    "desc": "Shut down request from internal ECU monitoring -Root cause not known",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523717,
+    "fmi": 12,
+    "kwp": 125,
+    "desc": "CAN ambient conditions - Bad intelligent device orcomponent",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523603,
+    "fmi": 9,
+    "kwp": 126,
+    "desc": "CAN ambient temperature - Abnormal update ratetimeout",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3224,
+    "fmi": 9,
+    "kwp": 128,
+    "desc": "Abgasnachbehandlung - NOx Sensor Mischstrecke -Abnormale Aktualisierungsrate TimeoutExhaust aftertreatment - NOx sensor mixing section -Abnormal update rate timeout",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3224,
+    "fmi": 2,
+    "kwp": 129,
+    "desc": "Abgasnachbehandlung - NOx Sensor Mischstrecke - Datenunregelmäßig nicht berechenbar oder nicht korrektExhaust aftertreatment - NOx sensor mixing section - Dataerratic intermittent or incorrect",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523938,
+    "fmi": 9,
+    "kwp": 133,
+    "desc": "Abgasnachbehandlung - CAN Abgaseintritt - AbnormaleAktualisierungsrate TimeoutExhaust aftertreatment - CAN exhaust inlet - Abnormalupdate rate timeout",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523939,
+    "fmi": 9,
+    "kwp": 134,
+    "desc": "Abgasnachbehandlung - CAN Abgaseintritt - AbnormaleAktualisierungsrate TimeoutExhaust aftertreatment - CAN exhaust inlet - Abnormalupdate rate timeout",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523940,
+    "fmi": 9,
+    "kwp": 135,
+    "desc": "Abgasnachbehandlung - CAN Abgaseintritt - AbnormaleAktualisierungsrate TimeoutExhaust aftertreatment - CAN exhaust inlet - Abnormalupdate rate timeoutPage 3Revision 2.0",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3234,
+    "fmi": 9,
+    "kwp": 137,
+    "desc": "Abgasnachbehandlung - NOx Sensor nach SCR -Abnormale Aktualisierungsrate TimeoutExhaust aftertreatment - NOx sensor after SCR - Abnormalupdate rate timeout",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3234,
+    "fmi": 2,
+    "kwp": 138,
+    "desc": "Abgasnachbehandlung - NOx Sensor nach SCR - Datenunregelmäßig nicht berechenbar oder nicht korrektExhaust aftertreatment - NOx sensor after SCR - Data erraticintermittent or incorrect",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523941,
+    "fmi": 9,
+    "kwp": 140,
+    "desc": "Abgasnachbehandlung - CAN Abgaseintritt - AbnormaleAktualisierungsrate TimeoutExhaust aftertreatment - CAN exhaust inlet - Abnormalupdate rate timeout",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523942,
+    "fmi": 9,
+    "kwp": 141,
+    "desc": "Abgasnachbehandlung - CAN Abgaseintritt - AbnormaleAktualisierungsrate TimeoutExhaust aftertreatment - CAN exhaust inlet - Abnormalupdate rate timeout",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523943,
+    "fmi": 9,
+    "kwp": 142,
+    "desc": "Fan - Abnormal update rate timeout",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523211,
+    "fmi": 9,
+    "kwp": 164,
+    "desc": "CAN engine brake - Abnormal update rate timeout",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523704,
+    "fmi": 12,
+    "kwp": 167,
+    "desc": "Engine controller 3 - Bad intelligent device orcomponent",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523935,
+    "fmi": 12,
+    "kwp": 168,
+    "desc": "Engine controller 3 - Bad intelligent device orcomponent",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523936,
+    "fmi": 12,
+    "kwp": 169,
+    "desc": "Engine controller 3 - Bad intelligent device orcomponent",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523212,
+    "fmi": 9,
+    "kwp": 171,
+    "desc": "CAN engine protection - Abnormal update ratetimeout",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523741,
+    "fmi": 14,
+    "kwp": 172,
+    "desc": "CAN shut down request from engine shut down -Special instructions",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523240,
+    "fmi": 9,
+    "kwp": 179,
+    "desc": "CAN Functional mode control - Abnormal updaterate timeout",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523216,
+    "fmi": 9,
+    "kwp": 198,
+    "desc": "CAN pre heating - Abnormal update rate timeout",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523793,
+    "fmi": 9,
+    "kwp": 202,
+    "desc": "CAN AGS - Abnormal update rate timeout",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523794,
+    "fmi": 9,
+    "kwp": 203,
+    "desc": "CAN AGS - Abnormal update rate timeout",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523803,
+    "fmi": 9,
+    "kwp": 212,
+    "desc": "Abgasnachbehandlung - CAN Brennerluftpumpe -Abnormale Aktualisierungsrate TimeoutExhaust aftertreatment - - Abnormal update rate timeout",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523766,
+    "fmi": 9,
+    "kwp": 281,
+    "desc": "CAN torque rotation speed control - Abnormalupdate rate timeoutPage 4Revision 2.0",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523767,
+    "fmi": 9,
+    "kwp": 282,
+    "desc": "CAN torque rotation speed control - Abnormalupdate rate timeout",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523768,
+    "fmi": 9,
+    "kwp": 283,
+    "desc": "CAN torque rotation speed control - Abnormalupdate rate timeout",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523769,
+    "fmi": 9,
+    "kwp": 284,
+    "desc": "CAN torque rotation speed control - Abnormalupdate rate timeout",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523776,
+    "fmi": 9,
+    "kwp": 291,
+    "desc": "CAN torque rotation speed control - Abnormalupdate rate timeout",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523777,
+    "fmi": 9,
+    "kwp": 292,
+    "desc": "CAN torque rotation speed control - Abnormalupdate rate timeout",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523778,
+    "fmi": 9,
+    "kwp": 293,
+    "desc": "CAN torque rotation speed control - Abnormalupdate rate timeout",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523779,
+    "fmi": 9,
+    "kwp": 294,
+    "desc": "CAN torque rotation speed control - Abnormalupdate rate timeout",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523788,
+    "fmi": 12,
+    "kwp": 299,
+    "desc": "CAN Wastegate actuator - Bad intelligent device orcomponent",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523605,
+    "fmi": 9,
+    "kwp": 300,
+    "desc": "CAN torque rotation speed control - Abnormalupdate rate timeout",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523606,
+    "fmi": 9,
+    "kwp": 301,
+    "desc": "CAN torque rotation speed control - Abnormalupdate rate timeout",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 898,
+    "fmi": 9,
+    "kwp": 305,
+    "desc": "Externally requested engine rotation speed -Abnormal update rate timeout",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 520,
+    "fmi": 9,
+    "kwp": 306,
+    "desc": "CAN torque rotation speed control - Abnormalupdate rate timeout",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523858,
+    "fmi": 12,
+    "kwp": 313,
+    "desc": "CAN AGS purification - Bad intelligent device orcomponent",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523867,
+    "fmi": 12,
+    "kwp": 322,
+    "desc": "CAN AGS burner air pump - Bad intelligent deviceor component",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523982,
+    "fmi": 0,
+    "kwp": 360,
+    "desc": "Power stage diagnostic - Data above normaloperational range (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523982,
+    "fmi": 1,
+    "kwp": 361,
+    "desc": "Power stage diagnostic - Data below normaloperational range (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523090,
+    "fmi": 2,
+    "kwp": 362,
+    "desc": "Pre selection switch engine brake - Data erraticintermittent or incorrect",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 630,
+    "fmi": 12,
+    "kwp": 376,
+    "desc": "ECU calibration memory - Bad intelligent device orcomponentPage 5Revision 2.0",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 411,
+    "fmi": 4,
+    "kwp": 381,
+    "desc": "EGR differential pressure - Voltage below normal orshorted to low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2791,
+    "fmi": 12,
+    "kwp": 384,
+    "desc": "EGR actuator - Bad intelligent device or component",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523612,
+    "fmi": 12,
+    "kwp": 387,
+    "desc": "ECU - Bad intelligent device or component",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 190,
+    "fmi": 0,
+    "kwp": 388,
+    "desc": "Rotation speed - Data above normal operationalrange (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 190,
+    "fmi": 11,
+    "kwp": 390,
+    "desc": "Rotation speed - Root cause not known",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 190,
+    "fmi": 14,
+    "kwp": 391,
+    "desc": "Rotation speed - Special instructions",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 108,
+    "fmi": 0,
+    "kwp": 409,
+    "desc": "Ambient pressure sensor - Data above normaloperational range (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 108,
+    "fmi": 1,
+    "kwp": 410,
+    "desc": "Ambient pressure sensor - Data below normaloperational range (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 108,
+    "fmi": 11,
+    "kwp": 411,
+    "desc": "Ambient pressure sensor - Root cause not known",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 108,
+    "fmi": 3,
+    "kwp": 412,
+    "desc": "Ambient pressure sensor - Voltage above normal orshorted to high source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 108,
+    "fmi": 4,
+    "kwp": 413,
+    "desc": "Ambient pressure sensor - Voltage below normal orshorted to low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 171,
+    "fmi": 0,
+    "kwp": 415,
+    "desc": "Ambient air temperature sensor - Data abovenormal operational range (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 171,
+    "fmi": 1,
+    "kwp": 416,
+    "desc": "Ambient air temperature sensor - Data below normaloperational range (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 171,
+    "fmi": 3,
+    "kwp": 417,
+    "desc": "Ambient air temperature sensor - Voltage abovenormal or shorted to high source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 171,
+    "fmi": 4,
+    "kwp": 418,
+    "desc": "Ambient air temperature sensor - Voltage belownormal or shorted to low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 190,
+    "fmi": 8,
+    "kwp": 419,
+    "desc": "Rotation speed - Abnormal frequency or pulse widthor periodPage 6Revision 2.0",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 190,
+    "fmi": 12,
+    "kwp": 420,
+    "desc": "Rotation speed - Bad intelligent device orcomponent",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 190,
+    "fmi": 2,
+    "kwp": 421,
+    "desc": "Rotation speed - Data erratic intermittent orincorrect",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 975,
+    "fmi": 5,
+    "kwp": 455,
+    "desc": "Fan - Current below normal or open circuit",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 975,
+    "fmi": 3,
+    "kwp": 457,
+    "desc": "Fan - Voltage above normal or shorted to highsource",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 975,
+    "fmi": 4,
+    "kwp": 458,
+    "desc": "Fan - Voltage below normal or shorted to low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1639,
+    "fmi": 12,
+    "kwp": 459,
+    "desc": "Fan rotation speed - Bad intelligent device orcomponent",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1639,
+    "fmi": 0,
+    "kwp": 460,
+    "desc": "Fan rotation speed - Data above normal operationalrange (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1639,
+    "fmi": 1,
+    "kwp": 461,
+    "desc": "Fan rotation speed - Data below normal operationalrange (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523602,
+    "fmi": 0,
+    "kwp": 462,
+    "desc": "Fan rotation speed - Data above normal operationalrange (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 97,
+    "fmi": 3,
+    "kwp": 464,
+    "desc": "Water in fuel sensor - Voltage above normal orshorted to high source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 97,
+    "fmi": 4,
+    "kwp": 465,
+    "desc": "Water in fuel sensor - Voltage below normal orshorted to low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 94,
+    "fmi": 3,
+    "kwp": 472,
+    "desc": "Fuel low pressure sensor - Voltage above normal orshorted to high source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 94,
+    "fmi": 4,
+    "kwp": 473,
+    "desc": "Fuel low pressure sensor - Voltage below normal orshorted to low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 94,
+    "fmi": 1,
+    "kwp": 474,
+    "desc": "Fuel low pressure sensor - Data below normaloperational range (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523618,
+    "fmi": 3,
+    "kwp": 486,
+    "desc": "Transmission oil sensor - Voltage above normal orshorted to high source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523618,
+    "fmi": 4,
+    "kwp": 487,
+    "desc": "Transmission oil sensor - Voltage below normal orshorted to low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523619,
+    "fmi": 2,
+    "kwp": 488,
+    "desc": "Abgasnachbehandlung - Temperatur vor SCR Kat - Datenunregelmäßig nicht berechenbar oder nicht korrektExhaust aftertreatment - Temperature before SCR Cat - Dataerratic intermittent or incorrect",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523915,
+    "fmi": 0,
+    "kwp": 500,
+    "desc": "Abgasnachbehandlung - BrennerNacheinspritzungsdosierventil - Physikalischer Grenzwertüberschritten (Hoher Schweregrad)Exhaust aftertreatment - Burner post injection metering valve- Data above normal operational range (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523915,
+    "fmi": 12,
+    "kwp": 501,
+    "desc": "Abgasnachbehandlung - BrennerNacheinspritzungsdosierventil - Fehlerhaftes Gerät oderKomponenteExhaust aftertreatment - Burner post injection metering valve- Bad intelligent device or component",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523915,
+    "fmi": 3,
+    "kwp": 502,
+    "desc": "Abgasnachbehandlung - BrennerNacheinspritzungsdosierventil - Spannung oberhalb desNormalwertes oder Kurzschluss nach PlusExhaust aftertreatment - Burner post injection metering valve- Voltage above normal or shorted to high source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523915,
+    "fmi": 4,
+    "kwp": 504,
+    "desc": "Abgasnachbehandlung - BrennerNacheinspritzungsdosierventil - Spannung unterhalb desNormalwertes oder Kurzschluss nach MasseExhaust aftertreatment - Burner post injection metering valve- Voltage below normal or shorted to low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523915,
+    "fmi": 11,
+    "kwp": 505,
+    "desc": "Abgasnachbehandlung - BrennerNacheinspritzungsdosierventil - Genaue Fehlerursache nichtbekanntExhaust aftertreatment - Burner post injection metering valve- Root cause not known",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523916,
+    "fmi": 2,
+    "kwp": 506,
+    "desc": "Abgasnachbehandlung - Kraftstoffdrucksensor nach BrennerNacheinspritzungdosierventil - Daten unregelmäßig nichtberechenbar oder nicht korrektExhaust aftertreatment - Fuel pressure sensor after burnerpost injection metering valve - Data erratic interm",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523916,
+    "fmi": 0,
+    "kwp": 508,
+    "desc": "Abgasnachbehandlung - Kraftstoffdrucksensor nach BrennerNacheinspritzungdosierventil - Physikalischer Grenzwertüberschritten (Hoher Schweregrad)Exhaust aftertreatment - Fuel pressure sensor after burnerpost injection metering valve - Data above norma",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523916,
+    "fmi": 1,
+    "kwp": 511,
+    "desc": "Abgasnachbehandlung - Kraftstoffdrucksensor nach BrennerNacheinspritzungdosierventil - Physikalischer Grenzwertunterschritten (Hoher Schweregrad)Exhaust aftertreatment - Fuel pressure sensor after burnerpost injection metering valve - Data below norm",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523916,
+    "fmi": 3,
+    "kwp": 514,
+    "desc": "Abgasnachbehandlung - Kraftstoffdrucksensor nach BrennerNacheinspritzungdosierventil - Spannung oberhalb desNormalwertes oder Kurzschluss nach PlusExhaust aftertreatment - Fuel pressure sensor after burnerpost injection metering valve - Voltage above",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523916,
+    "fmi": 4,
+    "kwp": 515,
+    "desc": "Abgasnachbehandlung - Kraftstoffdrucksensor nach BrennerNacheinspritzungdosierventil - Spannung unterhalb desNormalwertes oder Kurzschluss nach MasseExhaust aftertreatment - Fuel pressure sensor after burnerpost injection metering valve - Voltage bel",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523917,
+    "fmi": 3,
+    "kwp": 524,
+    "desc": "Abgasnachbehandlung - Druck vor Brennerkraftstoffventilen- Spannung oberhalb des Normalwertes oder Kurzschlussnach PlusExhaust aftertreatment - Pressure before burner fuel valve -Voltage above normal or shorted to high source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523917,
+    "fmi": 4,
+    "kwp": 525,
+    "desc": "Abgasnachbehandlung - Druck vor Brennerkraftstoffventilen- Spannung unterhalb des Normalwertes oder Kurzschlussnach MasseExhaust aftertreatment - Pressure before burner fuel valve -Voltage below normal or shorted to low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523918,
+    "fmi": 3,
+    "kwp": 534,
+    "desc": "Abgasnachbehandlung - Brennerdosiereinrichtung -Spannung oberhalb des Normalwertes oder Kurzschlussnach PlusExhaust aftertreatment - Burner metering unit - Voltageabove normal or shorted to high source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523918,
+    "fmi": 4,
+    "kwp": 535,
+    "desc": "Abgasnachbehandlung - Brennerdosiereinrichtung -Spannung unterhalb des Normalwertes oder Kurzschlussnach MasseExhaust aftertreatment - Burner metering unit - Voltage belownormal or shorted to low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 676,
+    "fmi": 11,
+    "kwp": 543,
+    "desc": "Glow plug relay - Root cause not known",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 729,
+    "fmi": 5,
+    "kwp": 545,
+    "desc": "Preheating relay - Current below normal or opencircuit",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 729,
+    "fmi": 12,
+    "kwp": 547,
+    "desc": "Preheating relay - Bad intelligent device orcomponent",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 729,
+    "fmi": 3,
+    "kwp": 549,
+    "desc": "Preheating relay - Voltage above normal or shortedto high source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 729,
+    "fmi": 4,
+    "kwp": 551,
+    "desc": "Preheating relay - Voltage below normal or shortedto low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523895,
+    "fmi": 13,
+    "kwp": 559,
+    "desc": "Injector 1 IMA Code - Out of calibration",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523896,
+    "fmi": 13,
+    "kwp": 560,
+    "desc": "Injector 2 IMA Code - Out of calibration",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523897,
+    "fmi": 13,
+    "kwp": 561,
+    "desc": "Injector 3 IMA Code - Out of calibration",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523898,
+    "fmi": 13,
+    "kwp": 562,
+    "desc": "Injector 4 IMA Code - Out of calibration",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523899,
+    "fmi": 13,
+    "kwp": 563,
+    "desc": "Injector 5 IMA Code - Out of calibration",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523900,
+    "fmi": 13,
+    "kwp": 564,
+    "desc": "Injector 6 IMA Code - Out of calibrationPage 9Revision 2.0",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523350,
+    "fmi": 4,
+    "kwp": 565,
+    "desc": "Injectors bank 1 - Voltage below normal or shortedto low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523352,
+    "fmi": 4,
+    "kwp": 566,
+    "desc": "Injectors bank 2 - Voltage below normal or shortedto low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523354,
+    "fmi": 12,
+    "kwp": 567,
+    "desc": "Output power stage Injector - Bad intelligent deviceor component",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 651,
+    "fmi": 5,
+    "kwp": 568,
+    "desc": "Injector 1 - Current below normal or open circuit",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 652,
+    "fmi": 5,
+    "kwp": 569,
+    "desc": "Injector 2 - Current below normal or open circuit",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 653,
+    "fmi": 5,
+    "kwp": 570,
+    "desc": "Injector 3 - Current below normal or open circuit",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 654,
+    "fmi": 5,
+    "kwp": 571,
+    "desc": "Injector 4 - Current below normal or open circuit",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 655,
+    "fmi": 5,
+    "kwp": 572,
+    "desc": "Injector 5 - Current below normal or open circuit",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 656,
+    "fmi": 5,
+    "kwp": 573,
+    "desc": "Injector 6 - Current below normal or open circuit",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 651,
+    "fmi": 3,
+    "kwp": 580,
+    "desc": "Injector 1 - Voltage above normal or shorted to highsource",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 652,
+    "fmi": 3,
+    "kwp": 581,
+    "desc": "Injector 2 - Voltage above normal or shorted to highsource",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 653,
+    "fmi": 3,
+    "kwp": 582,
+    "desc": "Injector 3 - Voltage above normal or shorted to highsource",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 654,
+    "fmi": 3,
+    "kwp": 583,
+    "desc": "Injector 4 - Voltage above normal or shorted to highsource",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 655,
+    "fmi": 3,
+    "kwp": 584,
+    "desc": "Injector 5 - Voltage above normal or shorted to highsource",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 656,
+    "fmi": 3,
+    "kwp": 585,
+    "desc": "Injector 6 - Voltage above normal or shorted to highsource",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523615,
+    "fmi": 5,
+    "kwp": 592,
+    "desc": "Fuel metering unit - Current below normal or opencircuit",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523615,
+    "fmi": 12,
+    "kwp": 593,
+    "desc": "Fuel metering unit - Bad intelligent device orcomponent",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523615,
+    "fmi": 3,
+    "kwp": 594,
+    "desc": "Fuel metering unit - Voltage above normal orshorted to high sourcePage 10Revision 2.0",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523615,
+    "fmi": 4,
+    "kwp": 595,
+    "desc": "Fuel metering unit - Voltage below normal or shortedto low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1323,
+    "fmi": 12,
+    "kwp": 604,
+    "desc": "Misfire cylinder 1 - Bad intelligent device orcomponent",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1324,
+    "fmi": 12,
+    "kwp": 605,
+    "desc": "Misfire cylinder 2 - Bad intelligent device orcomponent",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1325,
+    "fmi": 12,
+    "kwp": 606,
+    "desc": "Misfire cylinder 3 - Bad intelligent device orcomponent",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1326,
+    "fmi": 12,
+    "kwp": 607,
+    "desc": "Misfire cylinder 4 - Bad intelligent device orcomponent",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1327,
+    "fmi": 12,
+    "kwp": 608,
+    "desc": "Misfire cylinder 5 - Bad intelligent device orcomponent",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1328,
+    "fmi": 12,
+    "kwp": 609,
+    "desc": "Misfire cylinder 6 - Bad intelligent device orcomponent",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1322,
+    "fmi": 12,
+    "kwp": 610,
+    "desc": "Misfire for multiple cylinders - Bad intelligent deviceor component",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523612,
+    "fmi": 3,
+    "kwp": 644,
+    "desc": "ECU - Voltage above normal or shorted to highsource",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523612,
+    "fmi": 4,
+    "kwp": 646,
+    "desc": "ECU - Voltage below normal or shorted to lowsource",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523008,
+    "fmi": 1,
+    "kwp": 648,
+    "desc": "Manipulation monitoring - Data below normaloperational range (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523008,
+    "fmi": 2,
+    "kwp": 649,
+    "desc": "Manipulation monitoring - Data erratic intermittent orincorrect",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 100,
+    "fmi": 3,
+    "kwp": 732,
+    "desc": "Oil pressure sensor - Voltage above normal orshorted to high sourcePage 12Revision 2.0",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 100,
+    "fmi": 4,
+    "kwp": 733,
+    "desc": "Oil pressure sensor - Voltage below normal orshorted to low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 100,
+    "fmi": 0,
+    "kwp": 734,
+    "desc": "Oil pressure sensor - Data above normal operationalrange (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 100,
+    "fmi": 1,
+    "kwp": 736,
+    "desc": "Oil pressure sensor - Data below normal operationalrange (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 175,
+    "fmi": 3,
+    "kwp": 743,
+    "desc": "Oil temperature - Voltage above normal or shortedto high source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 175,
+    "fmi": 4,
+    "kwp": 744,
+    "desc": "Oil temperature - Voltage below normal or shortedto low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 175,
+    "fmi": 0,
+    "kwp": 745,
+    "desc": "Oil temperature - Data above normal operationalrange (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1237,
+    "fmi": 2,
+    "kwp": 747,
+    "desc": "Shutdown override switch - Data erratic intermittentor incorrect",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 107,
+    "fmi": 3,
+    "kwp": 750,
+    "desc": "Air filter differential pressure sensor - Voltage abovenormal or shorted to high source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 107,
+    "fmi": 0,
+    "kwp": 751,
+    "desc": "Air filter differential pressure sensor - Data abovenormal operational range (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523919,
+    "fmi": 3,
+    "kwp": 761,
+    "desc": "Abgasnachbehandlung - Brennerluftpumpendrucksensor -Spannung oberhalb des Normalwertes oder Kurzschlussnach PlusExhaust aftertreatment - Burner air pump pressure sensor -Voltage above normal or shorted to high source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523919,
+    "fmi": 4,
+    "kwp": 762,
+    "desc": "Abgasnachbehandlung - Brennerluftpumpendrucksensor -Spannung unterhalb des Normalwertes oder Kurzschlussnach MasseExhaust aftertreatment - Burner air pump pressure sensor -Voltage below normal or shorted to low source763 523920 2 7-1-6 Abgasnachbehan",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523920,
+    "fmi": 3,
+    "kwp": 770,
+    "desc": "Abgasnachbehandlung - Brennerabgasgegendrucksensor -Spannung oberhalb des Normalwertes oder Kurzschlussnach PlusExhaust aftertreatment - Burner exhaust back pressuresensor - Voltage above normal or shorted to high source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523920,
+    "fmi": 4,
+    "kwp": 771,
+    "desc": "Abgasnachbehandlung - Brennerabgasgegendrucksensor -Spannung unterhalb des Normalwertes oder Kurzschlussnach MasseExhaust aftertreatment - Burner exhaust back pressuresensor - Voltage below normal or shorted to low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 102,
+    "fmi": 1,
+    "kwp": 774,
+    "desc": "Charge air pressure sensor - Data below normaloperational range (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 102,
+    "fmi": 3,
+    "kwp": 776,
+    "desc": "Charge air pressure sensor - Voltage above normalor shorted to high source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 102,
+    "fmi": 4,
+    "kwp": 777,
+    "desc": "Charge air pressure sensor - Voltage below normalor shorted to low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 411,
+    "fmi": 0,
+    "kwp": 791,
+    "desc": "EGR differential pressure - Data above normaloperational range (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 411,
+    "fmi": 11,
+    "kwp": 793,
+    "desc": "EGR differential pressure - Root cause not known",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 411,
+    "fmi": 3,
+    "kwp": 795,
+    "desc": "EGR differential pressure - Voltage above normal orshorted to high source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3253,
+    "fmi": 2,
+    "kwp": 807,
+    "desc": "Abgasnachbehandlung - DPF Differenzdruck - Datenunregelmäßig nicht berechenbar oder nicht korrektExhaust aftertreatment - DPF differential pressure - Dataerratic intermittent or incorrectPage 14Revision 2.0",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3251,
+    "fmi": 0,
+    "kwp": 809,
+    "desc": "Abgasnachbehandlung - DPF Differenzdruck -Physikalischer Grenzwert überschritten (Hoher Schweregrad)Exhaust aftertreatment - DPF differential pressure - Dataabove normal operational range (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3251,
+    "fmi": 1,
+    "kwp": 812,
+    "desc": "Abgasnachbehandlung - DPF Differenzdruck -Physikalischer Grenzwert unterschritten (HoherSchweregrad)Exhaust aftertreatment - DPF differential pressure - Databelow normal operational range (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3253,
+    "fmi": 3,
+    "kwp": 814,
+    "desc": "Abgasnachbehandlung - DPF Differenzdruck - Spannungoberhalb des Normalwertes oder Kurzschluss nach PlusExhaust aftertreatment - DPF differential pressure - Voltageabove normal or shorted to high source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3253,
+    "fmi": 4,
+    "kwp": 815,
+    "desc": "Abgasnachbehandlung - DPF Differenzdruck - Spannungunterhalb des Normalwertes oder Kurzschluss nach MasseExhaust aftertreatment - DPF differential pressure - Voltagebelow normal or shorted to low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523009,
+    "fmi": 9,
+    "kwp": 825,
+    "desc": "Fuel pressure relief valve - Abnormal update ratetimeout",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523470,
+    "fmi": 2,
+    "kwp": 826,
+    "desc": "Fuel pressure relief valve - Data erratic intermittentor incorrect",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523470,
+    "fmi": 12,
+    "kwp": 828,
+    "desc": "Fuel pressure relief valve - Bad intelligent device orcomponent",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523470,
+    "fmi": 14,
+    "kwp": 830,
+    "desc": "Fuel pressure relief valve - Special instructions",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523470,
+    "fmi": 11,
+    "kwp": 831,
+    "desc": "Fuel pressure relief valve - Root cause not known",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523009,
+    "fmi": 10,
+    "kwp": 833,
+    "desc": "Fuel pressure relief valve - Abnormal rate of change",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523906,
+    "fmi": 5,
+    "kwp": 834,
+    "desc": "Fuel pre feed pump - Current below normal or opencircuitPage 15Revision 2.0",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523906,
+    "fmi": 12,
+    "kwp": 835,
+    "desc": "Fuel pre feed pump - Bad intelligent device orcomponent",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523906,
+    "fmi": 3,
+    "kwp": 836,
+    "desc": "Fuel pre feed pump - Voltage above normal orshorted to high source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523906,
+    "fmi": 4,
+    "kwp": 837,
+    "desc": "Fuel pre feed pump - Voltage below normal orshorted to low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1176,
+    "fmi": 0,
+    "kwp": 847,
+    "desc": "TC charge pressure - Data above normaloperational range (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1176,
+    "fmi": 1,
+    "kwp": 848,
+    "desc": "TC charge pressure - Data below normaloperational range (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1176,
+    "fmi": 3,
+    "kwp": 849,
+    "desc": "TC charge pressure - Voltage above normal orshorted to high source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1176,
+    "fmi": 4,
+    "kwp": 850,
+    "desc": "TC charge pressure - Voltage below normal orshorted to low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523613,
+    "fmi": 0,
+    "kwp": 856,
+    "desc": "Fuel pressure - Data above normal operationalrange (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523613,
+    "fmi": 1,
+    "kwp": 861,
+    "desc": "Fuel pressure - Data below normal operationalrange (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523613,
+    "fmi": 2,
+    "kwp": 864,
+    "desc": "Fuel pressure - Data erratic intermittent or incorrect",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523470,
+    "fmi": 7,
+    "kwp": 876,
+    "desc": "Fuel pressure relief valve - Mechanical system notresponding or out of adjustment",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 157,
+    "fmi": 3,
+    "kwp": 877,
+    "desc": "Rail pressure sensor - Voltage above normal orshorted to high source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 157,
+    "fmi": 4,
+    "kwp": 878,
+    "desc": "Rail pressure sensor - Voltage below normal orshorted to low source881 523633 11 1-4-9 Abgasnachbehandlung - Wirkungsgrad SCR System -Genaue Fehlerursache nicht bekanntExhaust aftertreatment - Efficiency SCR system - Root causenot knownPage 16Revision 2.0",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523330,
+    "fmi": 14,
+    "kwp": 919,
+    "desc": "Immobilizer - Special instructions",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523720,
+    "fmi": 8,
+    "kwp": 925,
+    "desc": "Abgasnachbehandlung - Heizer DEF Dosiereinheit -Abnormale Frequenz Impulsbreite oder PeriodeExhaust aftertreatment - Heater DEF metering unit -Abnormal frequency or pulse width or period",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523721,
+    "fmi": 11,
+    "kwp": 927,
+    "desc": "Abgasnachbehandlung - DEF Temperatur - GenaueFehlerursache nicht bekanntExhaust aftertreatment - DEF temperature - Root cause notknown",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523722,
+    "fmi": 8,
+    "kwp": 928,
+    "desc": "Abgasnachbehandlung - DEF Temperatur - AbnormaleFrequenz Impulsbreite oder PeriodeExhaust aftertreatment - DEF temperature - Abnormalfrequency or pulse width or period",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523721,
+    "fmi": 8,
+    "kwp": 930,
+    "desc": "Abgasnachbehandlung - DEF Temperatur - AbnormaleFrequenz Impulsbreite oder PeriodeExhaust aftertreatment - DEF temperature - Abnormalfrequency or pulse width or period",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 29,
+    "fmi": 3,
+    "kwp": 932,
+    "desc": "Position accelerator pedal 2 (remote acceleratorpedal 1) - Voltage above normal or shorted to high source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 91,
+    "fmi": 3,
+    "kwp": 935,
+    "desc": "Position accelerator pedal (sensor 1) - Voltageabove normal or shorted to high source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 29,
+    "fmi": 4,
+    "kwp": 937,
+    "desc": "Position accelerator pedal 2 (remote acceleratorpedal 1) - Voltage below normal or shorted to low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 91,
+    "fmi": 4,
+    "kwp": 940,
+    "desc": "Position accelerator pedal (sensor 1) - Voltagebelow normal or shorted to low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523921,
+    "fmi": 3,
+    "kwp": 942,
+    "desc": "Abgasnachbehandlung - Brenner Brennkammertemperatur -Spannung oberhalb des Normalwertes oder Kurzschlussnach PlusExhaust aftertreatment - Burner firing chamber temperature -Voltage above normal or shorted to high source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3532,
+    "fmi": 3,
+    "kwp": 943,
+    "desc": "Abgasnachbehandlung - DEF Tanklevelsensor - Spannungoberhalb des Normalwertes oder Kurzschluss nach PlusExhaust aftertreatment - DEF tank level sensor - Voltageabove normal or shorted to high sourcePage 18Revision 2.0",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523921,
+    "fmi": 4,
+    "kwp": 944,
+    "desc": "Abgasnachbehandlung - Brenner Brennkammertemperatur -Spannung unterhalb des Normalwertes oder Kurzschlussnach MasseExhaust aftertreatment - Burner firing chamber temperature -Voltage below normal or shorted to low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3532,
+    "fmi": 4,
+    "kwp": 945,
+    "desc": "Abgasnachbehandlung - DEF Tanklevelsensor - Spannungunterhalb des Normalwertes oder Kurzschluss nach MasseExhaust aftertreatment - DEF tank level sensor - Voltagebelow normal or shorted to low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1079,
+    "fmi": 13,
+    "kwp": 946,
+    "desc": "Sensor supply voltage - Out of calibration",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1080,
+    "fmi": 13,
+    "kwp": 947,
+    "desc": "Sensor supply voltage 2 - Out of calibration",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523601,
+    "fmi": 13,
+    "kwp": 948,
+    "desc": "ECU Sensor supply voltage 3 - Out of calibration",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 677,
+    "fmi": 3,
+    "kwp": 956,
+    "desc": "Starter relay - Voltage above normal or shorted tohigh source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 677,
+    "fmi": 4,
+    "kwp": 957,
+    "desc": "Starter relay - Voltage below normal or shorted tolow source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 677,
+    "fmi": 5,
+    "kwp": 958,
+    "desc": "Starter relay - Current below normal or open circuit",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 677,
+    "fmi": 12,
+    "kwp": 959,
+    "desc": "Starter relay - Bad intelligent device or component",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523922,
+    "fmi": 3,
+    "kwp": 965,
+    "desc": "Abgasnachbehandlung -Brennerdosiereinrichtungabschaltventil - Spannung oberhalbdes Normalwertes oder Kurzschluss nach PlusExhaust aftertreatment - Burner metering unit shut-off valve -Voltage above normal or shorted to high source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 624,
+    "fmi": 5,
+    "kwp": 969,
+    "desc": "Amber warning lamp - Current below normal oropen circuit",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 624,
+    "fmi": 12,
+    "kwp": 970,
+    "desc": "Amber warning lamp - Bad intelligent device orcomponent",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 624,
+    "fmi": 3,
+    "kwp": 971,
+    "desc": "Amber warning lamp - Voltage above normal orshorted to high source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 624,
+    "fmi": 4,
+    "kwp": 972,
+    "desc": "Amber warning lamp - Voltage below normal orshorted to low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523612,
+    "fmi": 14,
+    "kwp": 973,
+    "desc": "ECU - Special instructions",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523612,
+    "fmi": 14,
+    "kwp": 975,
+    "desc": "ECU - Special instructionsPage 19Revision 2.0",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 91,
+    "fmi": 11,
+    "kwp": 976,
+    "desc": "Position accelerator pedal (sensor 1) - Root causenot known",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 29,
+    "fmi": 2,
+    "kwp": 978,
+    "desc": "Position accelerator pedal 2 (remote acceleratorpedal 1) - Data erratic intermittent or incorrect",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523550,
+    "fmi": 12,
+    "kwp": 980,
+    "desc": "Starter switch to long active - Bad intelligent deviceor component",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 172,
+    "fmi": 3,
+    "kwp": 981,
+    "desc": "Ambient air temperature sensor - Voltage abovenormal or shorted to high source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 172,
+    "fmi": 4,
+    "kwp": 982,
+    "desc": "Ambient air temperature sensor - Voltage belownormal or shorted to low source986 523921 0 7-1-4 Abgasnachbehandlung - Brenner Brennkammertemperatur -Physikalischer Grenzwert überschritten (Hoher Schweregrad)Exhaust aftertreatment - Burner firing chamber t",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 105,
+    "fmi": 1,
+    "kwp": 992,
+    "desc": "Charge air temperature sensor - Data below normaloperational range (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 105,
+    "fmi": 3,
+    "kwp": 994,
+    "desc": "Charge air temperature sensor - Voltage abovenormal or shorted to high source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 105,
+    "fmi": 4,
+    "kwp": 995,
+    "desc": "Charge air temperature sensor - Voltage belownormal or shorted to low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 105,
+    "fmi": 0,
+    "kwp": 996,
+    "desc": "Charge air temperature sensor - Data above normaloperational range (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 105,
+    "fmi": 11,
+    "kwp": 998,
+    "desc": "Charge air temperature sensor - Root cause notknown",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 412,
+    "fmi": 3,
+    "kwp": 1007,
+    "desc": "EGR temperature sensor - Voltage above normal orshorted to high source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 412,
+    "fmi": 4,
+    "kwp": 1008,
+    "desc": "EGR temperature sensor - Voltage below normal orshorted to low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523960,
+    "fmi": 0,
+    "kwp": 1011,
+    "desc": "EGR temperature after EGR cooler - Data abovenormal operational range (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523960,
+    "fmi": 1,
+    "kwp": 1012,
+    "desc": "EGR temperature after EGR cooler - Data belownormal operational range (Most severe level)Page 20Revision 2.0",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 51,
+    "fmi": 6,
+    "kwp": 1014,
+    "desc": "Throttle valve / Throttle valve position - Currentabove normal or grounded circuit",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 51,
+    "fmi": 5,
+    "kwp": 1015,
+    "desc": "Throttle valve / Throttle valve position - Currentbelow normal or open circuit",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 51,
+    "fmi": 7,
+    "kwp": 1016,
+    "desc": "Throttle valve / Throttle valve position - Mechanicalsystem not responding or out of adjustment",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 51,
+    "fmi": 3,
+    "kwp": 1024,
+    "desc": "Throttle valve / Throttle valve position - Voltageabove normal or shorted to high source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 51,
+    "fmi": 4,
+    "kwp": 1025,
+    "desc": "Throttle valve / Throttle valve position - Voltagebelow normal or shorted to low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4769,
+    "fmi": 2,
+    "kwp": 1026,
+    "desc": "Abgasnachbehandlung - Temperatursensor nach DOC -Daten unregelmäßig nicht berechenbar oder nicht korrektExhaust aftertreatment - Temperature sensor after DOC -Data erratic intermittent or incorrect",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4766,
+    "fmi": 0,
+    "kwp": 1029,
+    "desc": "Abgasnachbehandlung - Temperatur nach DOC -Physikalischer Grenzwert überschritten (Hoher Schweregrad)Exhaust aftertreatment - Temperature downstream DOC -Data above normal operational range (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4769,
+    "fmi": 3,
+    "kwp": 1034,
+    "desc": "Abgasnachbehandlung - Temperatursensor nach DOC -Spannung oberhalb des Normalwertes oder Kurzschlussnach PlusExhaust aftertreatment - Temperature sensor after DOC -Voltage above normal or shorted to high source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4769,
+    "fmi": 4,
+    "kwp": 1035,
+    "desc": "Abgasnachbehandlung - Temperatursensor nach DOC -Spannung unterhalb des Normalwertes oder Kurzschlussnach MasseExhaust aftertreatment - Temperature sensor after DOC -Voltage below normal or shorted to low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4768,
+    "fmi": 2,
+    "kwp": 1036,
+    "desc": "Abgasnachbehandlung - Temperatursensor vor DOC -Daten unregelmäßig nicht berechenbar oder nicht korrektExhaust aftertreatment - Temperature sensor before DOC -Data erratic intermittent or incorrect",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4765,
+    "fmi": 0,
+    "kwp": 1039,
+    "desc": "Abgasnachbehandlung - Temperatur vor DOC -Physikalischer Grenzwert überschritten (Hoher Schweregrad)Exhaust aftertreatment - Temperature upstream DOC - Dataabove normal operational range (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4768,
+    "fmi": 3,
+    "kwp": 1044,
+    "desc": "Abgasnachbehandlung - Temperatursensor vor DOC -Spannung oberhalb des Normalwertes oder Kurzschlussnach PlusExhaust aftertreatment - Temperature sensor before DOC -Voltage above normal or shorted to high source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4768,
+    "fmi": 4,
+    "kwp": 1045,
+    "desc": "Abgasnachbehandlung - Temperatursensor vor DOC -Spannung unterhalb des Normalwertes oder Kurzschlussnach MasseExhaust aftertreatment - Temperature sensor before DOC -Voltage below normal or shorted to low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3248,
+    "fmi": 4,
+    "kwp": 1047,
+    "desc": "Abgasnachbehandlung - Temperatur nach DPF - Spannungunterhalb des Normalwertes oder Kurzschluss nach MasseExhaust aftertreatment - Temperature after DPF - Voltagebelow normal or shorted to low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1180,
+    "fmi": 3,
+    "kwp": 1067,
+    "desc": "TC charge temprature before tubine - Voltage abovenormal or shorted to high source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4360,
+    "fmi": 0,
+    "kwp": 1069,
+    "desc": "Abgasnachbehandlung - Temperatur vor SCR Kat -Physikalischer Grenzwert überschritten (Hoher Schweregrad)Exhaust aftertreatment - Temperature before SCR Cat - Dataabove normal operational range (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4360,
+    "fmi": 1,
+    "kwp": 1070,
+    "desc": "Abgasnachbehandlung - Temperatur vor SCR Kat -Physikalischer Grenzwert unterschritten (HoherSchweregrad)Exhaust aftertreatment - Temperature before SCR Cat - Databelow normal operational range (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4361,
+    "fmi": 3,
+    "kwp": 1072,
+    "desc": "Abgasnachbehandlung - Temperatur SCR Kat - Spannungoberhalb des Normalwertes oder Kurzschluss nach PlusExhaust aftertreatment - Temperature SCR Cat - Voltageabove normal or shorted to high source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4361,
+    "fmi": 4,
+    "kwp": 1073,
+    "desc": "Abgasnachbehandlung - Temperatur SCR Kat - Spannungunterhalb des Normalwertes oder Kurzschluss nach MasseExhaust aftertreatment - Temperature SCR Cat - Voltagebelow normal or shorted to low source1074 1761 14 1-2-7 Abgasnachbehandlung - DEF Tanklevel",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3361,
+    "fmi": 6,
+    "kwp": 1075,
+    "desc": "Abgasnachbehandlung - DEF Dosiereinheit - Strom oberhalbdes Normalbereiches oder Kurzschluss nach MasseExhaust aftertreatment - DEF metering unit - Current abovenormal or grounded circuit",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3361,
+    "fmi": 3,
+    "kwp": 1077,
+    "desc": "Abgasnachbehandlung - DEF Dosiereinheit - Spannungoberhalb des Normalwertes oder Kurzschluss nach PlusExhaust aftertreatment - DEF metering unit - Voltage abovenormal or shorted to high source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3361,
+    "fmi": 4,
+    "kwp": 1079,
+    "desc": "Abgasnachbehandlung - DEF Dosiereinheit - Spannungunterhalb des Normalwertes oder Kurzschluss nach MasseExhaust aftertreatment - DEF metering unit - Voltage belownormal or shorted to low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4345,
+    "fmi": 5,
+    "kwp": 1090,
+    "desc": "Abgasnachbehandlung - Heizer DEF Rücklaufleitung - Stromunterhalb des Normalbereiches oder offener StromkreisExhaust aftertreatment - Heater DEF return line - Currentbelow normal or open circuit",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4345,
+    "fmi": 3,
+    "kwp": 1092,
+    "desc": "Abgasnachbehandlung - Heizer DEF Rücklaufleitung -Spannung oberhalb des Normalwertes oder Kurzschlussnach PlusExhaust aftertreatment - Heater DEF return line - Voltageabove normal or shorted to high source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4345,
+    "fmi": 4,
+    "kwp": 1093,
+    "desc": "Abgasnachbehandlung - Heizer DEF Rücklaufleitung -Spannung unterhalb des Normalwertes oder Kurzschlussnach MasseExhaust aftertreatment - Heater DEF return line - Voltagebelow normal or shorted to low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4343,
+    "fmi": 5,
+    "kwp": 1094,
+    "desc": "Abgasnachbehandlung - Heizer DEF Druckleitung - Stromunterhalb des Normalbereiches oder offener StromkreisExhaust aftertreatment - Heater DEF pressure line - Currentbelow normal or open circuit",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4343,
+    "fmi": 3,
+    "kwp": 1096,
+    "desc": "Abgasnachbehandlung - Heizer DEF Druckleitung -Spannung oberhalb des Normalwertes oder Kurzschlussnach PlusExhaust aftertreatment - Heater DEF pressure line - Voltageabove normal or shorted to high source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4343,
+    "fmi": 4,
+    "kwp": 1097,
+    "desc": "Abgasnachbehandlung - Heizer DEF Druckleitung -Spannung unterhalb des Normalwertes oder Kurzschlussnach MasseExhaust aftertreatment - Heater DEF pressure line - Voltagebelow normal or shorted to low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523718,
+    "fmi": 5,
+    "kwp": 1098,
+    "desc": "Abgasnachbehandlung - SCR System - Strom unterhalb desNormalbereiches oder offener StromkreisExhaust aftertreatment - SCR system - Current below normalor open circuit",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523718,
+    "fmi": 12,
+    "kwp": 1099,
+    "desc": "Abgasnachbehandlung - SCR System - Fehlerhaftes Gerätoder KomponenteExhaust aftertreatment - SCR system - Bad intelligent deviceor component",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523718,
+    "fmi": 3,
+    "kwp": 1100,
+    "desc": "Abgasnachbehandlung - SCR System - Spannung oberhalbdes Normalwertes oder Kurzschluss nach PlusExhaust aftertreatment - SCR system - Voltage above normalor shorted to high sourcePage 23Revision 2.0",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523718,
+    "fmi": 4,
+    "kwp": 1101,
+    "desc": "Abgasnachbehandlung - SCR System - Spannung unterhalbdes Normalwertes oder Kurzschluss nach MasseExhaust aftertreatment - SCR system - Voltage below normalor shorted to low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4341,
+    "fmi": 5,
+    "kwp": 1102,
+    "desc": "Abgasnachbehandlung - DEF Saugleitung Heizungsrelais -Strom unterhalb des Normalbereiches oder offenerStromkreisExhaust aftertreatment - DEF suction line heater relay -Current below normal or open circuit",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4341,
+    "fmi": 3,
+    "kwp": 1104,
+    "desc": "Abgasnachbehandlung - DEF Saugleitung Heizungsrelais -Spannung oberhalb des Normalwertes oder Kurzschlussnach PlusExhaust aftertreatment - DEF suction line heater relay -Voltage above normal or shorted to high source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4341,
+    "fmi": 4,
+    "kwp": 1105,
+    "desc": "Abgasnachbehandlung - DEF Saugleitung Heizungsrelais -Spannung unterhalb des Normalwertes oder Kurzschlussnach MasseExhaust aftertreatment - DEF suction line heater relay -Voltage below normal or shorted to low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523719,
+    "fmi": 5,
+    "kwp": 1106,
+    "desc": "Abgasnachbehandlung - SCR Heizer - Strom unterhalb desNormalbereiches oder offener StromkreisExhaust aftertreatment - SCR heater - Current below normalor open circuit",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523719,
+    "fmi": 3,
+    "kwp": 1108,
+    "desc": "Abgasnachbehandlung - SCR Heizer - Spannung oberhalbdes Normalwertes oder Kurzschluss nach PlusExhaust aftertreatment - SCR heater - Voltage above normalor shorted to high source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523719,
+    "fmi": 4,
+    "kwp": 1109,
+    "desc": "Abgasnachbehandlung - SCR Heizer - Spannung unterhalbdes Normalwertes oder Kurzschluss nach MasseExhaust aftertreatment - SCR heater - Voltage below normalor shorted to low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4366,
+    "fmi": 5,
+    "kwp": 1110,
+    "desc": "Abgasnachbehandlung - DEF Tankheizventil - Stromunterhalb des Normalbereiches oder offener StromkreisExhaust aftertreatment - DEF tank heating valve - Currentbelow normal or open circuit",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4366,
+    "fmi": 3,
+    "kwp": 1112,
+    "desc": "Abgasnachbehandlung - DEF Tankheizventil - Spannungoberhalb des Normalwertes oder Kurzschluss nach PlusExhaust aftertreatment - DEF tank heating valve - Voltageabove normal or shorted to high source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4366,
+    "fmi": 4,
+    "kwp": 1113,
+    "desc": "Abgasnachbehandlung - DEF Tankheizventil - Spannungunterhalb des Normalwertes oder Kurzschluss nach MasseExhaust aftertreatment - DEF tank heating valve - Voltagebelow normal or shorted to low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523632,
+    "fmi": 11,
+    "kwp": 1117,
+    "desc": "Abgasnachbehandlung - DEF Druck - GenaueFehlerursache nicht bekanntExhaust aftertreatment - DEF pressure - Root cause notknown",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4375,
+    "fmi": 5,
+    "kwp": 1118,
+    "desc": "Abgasnachbehandlung - DEF Pumpe - Strom unterhalb desNormalbereiches oder offener StromkreisExhaust aftertreatment - DEF pump - Current below normalor open circuit",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4375,
+    "fmi": 3,
+    "kwp": 1120,
+    "desc": "Abgasnachbehandlung - DEF Pumpe - Spannung oberhalbdes Normalwertes oder Kurzschluss nach PlusExhaust aftertreatment - DEF pump - Voltage above normalor shorted to high source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4375,
+    "fmi": 4,
+    "kwp": 1121,
+    "desc": "Abgasnachbehandlung - DEF Pumpe - Spannung unterhalbdes Normalwertes oder Kurzschluss nach MasseExhaust aftertreatment - DEF pump - Voltage below normalor shorted to low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4334,
+    "fmi": 0,
+    "kwp": 1122,
+    "desc": "Abgasnachbehandlung - DEF Pumpendruck - PhysikalischerGrenzwert überschritten (Hoher Schweregrad)Exhaust aftertreatment - DEF pump pressure - Data abovenormal operational range (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4334,
+    "fmi": 1,
+    "kwp": 1123,
+    "desc": "Abgasnachbehandlung - DEF Pumpendruck - PhysikalischerGrenzwert unterschritten (Hoher Schweregrad)Exhaust aftertreatment - DEF pump pressure - Data belownormal operational range (Most severe level)Page 24Revision 2.0",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523632,
+    "fmi": 3,
+    "kwp": 1127,
+    "desc": "Abgasnachbehandlung - DEF Druck - Spannung oberhalbdes Normalwertes oder Kurzschluss nach PlusExhaust aftertreatment - DEF pressure - Voltage abovenormal or shorted to high source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523632,
+    "fmi": 4,
+    "kwp": 1128,
+    "desc": "Abgasnachbehandlung - DEF Druck - Spannung unterhalbdes Normalwertes oder Kurzschluss nach MasseExhaust aftertreatment - DEF pressure - Voltage belownormal or shorted to low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4376,
+    "fmi": 5,
+    "kwp": 1129,
+    "desc": "Abgasnachbehandlung - DEF Umkehrventil - Stromunterhalb des Normalbereiches oder offener StromkreisExhaust aftertreatment - DEF reverse valve - Current belownormal or open circuit",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4376,
+    "fmi": 3,
+    "kwp": 1131,
+    "desc": "Abgasnachbehandlung - DEF Umkehrventil - Spannungoberhalb des Normalwertes oder Kurzschluss nach PlusExhaust aftertreatment - DEF reverse valve - Voltage abovenormal or shorted to high source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4376,
+    "fmi": 4,
+    "kwp": 1132,
+    "desc": "Abgasnachbehandlung - DEF Umkehrventil - Spannungunterhalb des Normalwertes oder Kurzschluss nach MasseExhaust aftertreatment - DEF reverse valve - Voltage belownormal or shorted to low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3031,
+    "fmi": 0,
+    "kwp": 1135,
+    "desc": "Abgasnachbehandlung - DEF Tanktemperatur -Physikalischer Grenzwert überschritten (Hoher Schweregrad)Exhaust aftertreatment - DEF tank temperature - Data abovenormal operational range (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3031,
+    "fmi": 1,
+    "kwp": 1136,
+    "desc": "Abgasnachbehandlung - DEF Tanktemperatur -Physikalischer Grenzwert unterschritten (HoherSchweregrad)Exhaust aftertreatment - DEF tank temperature - Data belownormal operational range (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4365,
+    "fmi": 2,
+    "kwp": 1137,
+    "desc": "Abgasnachbehandlung - DEF Tanktemperatur - Datenunregelmäßig nicht berechenbar oder nicht korrektExhaust aftertreatment - DEF tank temperature - Data erraticintermittent or incorrect",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4365,
+    "fmi": 3,
+    "kwp": 1138,
+    "desc": "Abgasnachbehandlung - DEF Tanktemperatur - Spannungoberhalb des Normalwertes oder Kurzschluss nach PlusExhaust aftertreatment - DEF tank temperature - Voltageabove normal or shorted to high source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4365,
+    "fmi": 4,
+    "kwp": 1139,
+    "desc": "Abgasnachbehandlung - DEF Tanktemperatur - Spannungunterhalb des Normalwertes oder Kurzschluss nach MasseExhaust aftertreatment - DEF tank temperature - Voltagebelow normal or shorted to low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 97,
+    "fmi": 12,
+    "kwp": 1157,
+    "desc": "Water in fuel sensor - Bad intelligent device orcomponent",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523946,
+    "fmi": 0,
+    "kwp": 1158,
+    "desc": "Injection Zero quantity calibration Injector 1 - Dataabove normal operational range (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523947,
+    "fmi": 0,
+    "kwp": 1159,
+    "desc": "Injection Zero quantity calibration Injector 2 - Dataabove normal operational range (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523948,
+    "fmi": 0,
+    "kwp": 1160,
+    "desc": "Injection Zero quantity calibration Injector 3 - Dataabove normal operational range (Most severe level)Page 25Revision 2.0",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523951,
+    "fmi": 0,
+    "kwp": 1163,
+    "desc": "Injection Zero quantity calibration Injector 6 - Dataabove normal operational range (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523946,
+    "fmi": 1,
+    "kwp": 1164,
+    "desc": "Injection Zero quantity calibration Injector 1 - Databelow normal operational range (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523947,
+    "fmi": 1,
+    "kwp": 1165,
+    "desc": "Injection Zero quantity calibration Injector 2 - Databelow normal operational range (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523948,
+    "fmi": 1,
+    "kwp": 1166,
+    "desc": "Injection Zero quantity calibration Injector 3 - Databelow normal operational range (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523949,
+    "fmi": 1,
+    "kwp": 1167,
+    "desc": "Injection Zero quantity calibration Injector 4 - Databelow normal operational range (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523950,
+    "fmi": 1,
+    "kwp": 1168,
+    "desc": "Injection Zero quantity calibration Injector 5 - Databelow normal operational range (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 168,
+    "fmi": 0,
+    "kwp": 1180,
+    "desc": "Battery voltage - Data above normal operationalrange (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 168,
+    "fmi": 1,
+    "kwp": 1181,
+    "desc": "Battery voltage - Data below normal operationalrange (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 172,
+    "fmi": 1,
+    "kwp": 1183,
+    "desc": "Ambient air temperature sensor - Data below normaloperational range (Most severe level)1187 523980 14 7-8-4 Abgasnachbehandlung - DEF Konzentration - BesondereAnweisungenExhaust aftertreatment - DEF concentration - Specialinstructions1193 1180 0 5-5-6 Mot",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 190,
+    "fmi": 14,
+    "kwp": 1222,
+    "desc": "Rotation speed - Special instructionsPage 26Revision 2.0",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 51,
+    "fmi": 11,
+    "kwp": 1231,
+    "desc": "Throttle valve / Throttle valve position - Root causenot known",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523984,
+    "fmi": 3,
+    "kwp": 1239,
+    "desc": "Actuator relay 7 - Voltage above normal or shortedto high source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523986,
+    "fmi": 4,
+    "kwp": 1241,
+    "desc": "Actuator relay 6 - Voltage below normal or shortedto low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523987,
+    "fmi": 4,
+    "kwp": 1242,
+    "desc": "Actuator relay 7 - Voltage below normal or shortedto low source1247 524019 11 8-6-2 Abgasnachbehandlung - Brennerluftleitung blockiert -Genaue Fehlerursache nicht bekanntExhaust aftertreatment - Burner air line blocked - Root causenot known1248 523910 9 6",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523788,
+    "fmi": 0,
+    "kwp": 1299,
+    "desc": "CAN Wastegate actuator - Data above normaloperational range (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2797,
+    "fmi": 4,
+    "kwp": 1337,
+    "desc": "Injector group - Voltage below normal or shorted tolow source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2798,
+    "fmi": 4,
+    "kwp": 1338,
+    "desc": "Injector group 2 - Voltage below normal or shortedto low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 164,
+    "fmi": 2,
+    "kwp": 1381,
+    "desc": "Rail pressure - Data erratic intermittent or incorrect",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523922,
+    "fmi": 5,
+    "kwp": 1389,
+    "desc": "Abgasnachbehandlung -Brennerdosiereinrichtungabschaltventil - Strom unterhalbdes Normalbereiches oder offener StromkreisExhaust aftertreatment - Burner metering unit shut-off valve -Current below normal or open circuit",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523922,
+    "fmi": 12,
+    "kwp": 1390,
+    "desc": "Abgasnachbehandlung -Brennerdosiereinrichtungabschaltventil - Fehlerhaftes Gerätoder KomponenteExhaust aftertreatment - Burner metering unit shut-off valve -Bad intelligent device or component",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523922,
+    "fmi": 4,
+    "kwp": 1392,
+    "desc": "Abgasnachbehandlung -Brennerdosiereinrichtungabschaltventil - Spannungunterhalb des Normalwertes oder Kurzschluss nach MasseExhaust aftertreatment - Burner metering unit shut-off valve -Voltage below normal or shorted to low source1395 523921 2 7-1-4",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1136,
+    "fmi": 0,
+    "kwp": 1398,
+    "desc": "ECU temperature - Data above normal operationalrange (Most severe level)1402 4769 2 6-8-4 Abgasnachbehandlung - Temperatursensor nach DOC -Daten unregelmäßig nicht berechenbar oder nicht korrektExhaust aftertreatment - Temperature sensor after DOC -Data e",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1188,
+    "fmi": 11,
+    "kwp": 1411,
+    "desc": "TC wastegate - Root cause not known",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1188,
+    "fmi": 13,
+    "kwp": 1413,
+    "desc": "TC wastegate - Out of calibrationPage 30Revision 2.0",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1188,
+    "fmi": 2,
+    "kwp": 1414,
+    "desc": "TC wastegate - Data erratic intermittent or incorrect",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1188,
+    "fmi": 7,
+    "kwp": 1415,
+    "desc": "TC wastegate - Mechanical system not respondingor out of adjustment",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 51,
+    "fmi": 0,
+    "kwp": 1423,
+    "desc": "Throttle valve / Throttle valve position - Data abovenormal operational range (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 51,
+    "fmi": 1,
+    "kwp": 1424,
+    "desc": "Throttle valve / Throttle valve position - Data belownormal operational range (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 172,
+    "fmi": 0,
+    "kwp": 1425,
+    "desc": "Ambient air temperature sensor - Data abovenormal operational range (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524029,
+    "fmi": 2,
+    "kwp": 1432,
+    "desc": "Abgasnachbehandlung - CAN Rückführsteller - Datenunregelmäßig nicht berechenbar oder nicht korrektExhaust aftertreatment - CAN return actuator - Data erraticintermittent or incorrect",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524034,
+    "fmi": 5,
+    "kwp": 1436,
+    "desc": "Disc separator - Current below normal or opencircuit",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524034,
+    "fmi": 12,
+    "kwp": 1437,
+    "desc": "Disc separator - Bad intelligent device or component",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524034,
+    "fmi": 3,
+    "kwp": 1438,
+    "desc": "Disc separator - Voltage above normal or shorted tohigh source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524034,
+    "fmi": 4,
+    "kwp": 1439,
+    "desc": "Disc separator - Voltage below normal or shorted tolow source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524030,
+    "fmi": 7,
+    "kwp": 1440,
+    "desc": "EGR actuator - Mechanical system not respondingor out of adjustment",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524031,
+    "fmi": 13,
+    "kwp": 1441,
+    "desc": "EGR actuator - Out of calibration",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524032,
+    "fmi": 2,
+    "kwp": 1442,
+    "desc": "EGR actuator - Data erratic intermittent or incorrect",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524033,
+    "fmi": 7,
+    "kwp": 1443,
+    "desc": "EGR actuator - Mechanical system not respondingor out of adjustment",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3711,
+    "fmi": 12,
+    "kwp": 1455,
+    "desc": "Abgasnachbehandlung - Temperatur während Stand Still -Fehlerhaftes Gerät oder KomponenteExhaust aftertreatment - Temperature during Stand Still - Badintelligent device or componentPage 31Revision 2.0",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524025,
+    "fmi": 5,
+    "kwp": 1481,
+    "desc": "CAN Main Secondary - Abnormal update ratetimeout1484 524068 2 8-9-5 Motor - ECU Main Secondary identisch - Datenunregelmäßig nicht berechenbar oder nicht korrektEngine - ECU Main Secondary identical - Data erraticintermittent or incorrect1485 524052 11 8-",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524057,
+    "fmi": 2,
+    "kwp": 1505,
+    "desc": "Fuel low pressure pump - Data erratic intermittent orincorrect1523 2659 2 8-2-2 Motor - AGR Massenstrom - Daten unregelmäßig nichtberechenbar oder nicht korrektEngine - EGR mass flow - Data erratic intermittent orincorrect1524 2659 0 8-2-2 Motor - AGR Mas",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524070,
+    "fmi": 2,
+    "kwp": 1529,
+    "desc": "Abgasnachbehandlung - NOx Sensor vor SCR Kat - Datenunregelmäßig nicht berechenbar oder nicht korrektExhaust aftertreatment - NOx sensor before SCR Cat - Dataerratic intermittent or incorrect",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524071,
+    "fmi": 2,
+    "kwp": 1530,
+    "desc": "Abgasnachbehandlung - NOx Sensor nach SCR Kat - Datenunregelmäßig nicht berechenbar oder nicht korrektExhaust aftertreatment - NOx sensor after SCR Cat - Dataerratic intermittent or incorrect",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524072,
+    "fmi": 2,
+    "kwp": 1531,
+    "desc": "Abgasnachbehandlung - NOx Sensor vor SCR Kat - Datenunregelmäßig nicht berechenbar oder nicht korrektExhaust aftertreatment - NOx sensor before SCR Cat - Dataerratic intermittent or incorrect",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524073,
+    "fmi": 2,
+    "kwp": 1532,
+    "desc": "Abgasnachbehandlung - NOx Sensor nach SCR Kat - Datenunregelmäßig nicht berechenbar oder nicht korrektExhaust aftertreatment - NOx sensor after SCR Cat - Dataerratic intermittent or incorrect",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524074,
+    "fmi": 9,
+    "kwp": 1533,
+    "desc": "Abgasnachbehandlung - NOx Sensor nach SCR Kat -Abnormale Aktualisierungsrate TimeoutExhaust aftertreatment - NOx sensor after SCR Cat -Abnormal update rate timeout",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524075,
+    "fmi": 11,
+    "kwp": 1534,
+    "desc": "Abgasnachbehandlung - NOx Sensor nach SCR Kat -Genaue Fehlerursache nicht bekanntExhaust aftertreatment - NOx sensor after SCR Cat - Rootcause not known",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524076,
+    "fmi": 9,
+    "kwp": 1535,
+    "desc": "Abgasnachbehandlung - NOx Sensor vor SCR Kat -Abnormale Aktualisierungsrate TimeoutExhaust aftertreatment - NOx sensor before SCR Cat -Abnormal update rate timeout",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524077,
+    "fmi": 11,
+    "kwp": 1536,
+    "desc": "Abgasnachbehandlung - NOx Sensor vor SCR Kat - GenaueFehlerursache nicht bekanntExhaust aftertreatment - NOx sensor before SCR Cat - Rootcause not known",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524078,
+    "fmi": 9,
+    "kwp": 1537,
+    "desc": "Abgasnachbehandlung - NOx Sensor nach SCR Kat Lambda- Abnormale Aktualisierungsrate TimeoutExhaust aftertreatment - NOx sensor after SCR Cat lambda -Abnormal update rate timeoutPage 33Revision 2.0",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524079,
+    "fmi": 9,
+    "kwp": 1538,
+    "desc": "Abgasnachbehandlung - NOx Sensor nach SCR Kat Lambda- Abnormale Aktualisierungsrate TimeoutExhaust aftertreatment - NOx sensor after SCR Cat lambda -Abnormal update rate timeout",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524080,
+    "fmi": 9,
+    "kwp": 1539,
+    "desc": "Abgasnachbehandlung - NOx Sensor vor SCR Kat Lambda -Abnormale Aktualisierungsrate TimeoutExhaust aftertreatment - NOx sensor before SCR Cat lambda- Abnormal update rate timeout",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524081,
+    "fmi": 9,
+    "kwp": 1540,
+    "desc": "Abgasnachbehandlung - NOx Sensor vor SCR Kat Lambda -Abnormale Aktualisierungsrate TimeoutExhaust aftertreatment - NOx sensor before SCR Cat lambda- Abnormal update rate timeout",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524082,
+    "fmi": 9,
+    "kwp": 1541,
+    "desc": "Abgasnachbehandlung - NOx Sensor nach SCR Kat NOx -Abnormale Aktualisierungsrate TimeoutExhaust aftertreatment - NOx sensor after SCR Cat NOx -Abnormal update rate timeout",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524083,
+    "fmi": 9,
+    "kwp": 1542,
+    "desc": "Abgasnachbehandlung - NOx Sensor nach SCR Kat NOx -Abnormale Aktualisierungsrate TimeoutExhaust aftertreatment - NOx sensor after SCR Cat NOx -Abnormal update rate timeout",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524084,
+    "fmi": 9,
+    "kwp": 1543,
+    "desc": "Abgasnachbehandlung - NOx Sensor vor SCR Kat NOx -Abnormale Aktualisierungsrate TimeoutExhaust aftertreatment - NOx sensor before SCR Cat NOx -Abnormal update rate timeout",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524085,
+    "fmi": 9,
+    "kwp": 1544,
+    "desc": "Abgasnachbehandlung - NOx Sensor vor SCR Kat NOx -Abnormale Aktualisierungsrate TimeoutExhaust aftertreatment - NOx sensor before SCR Cat NOx -Abnormal update rate timeout",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524149,
+    "fmi": 2,
+    "kwp": 1545,
+    "desc": "TC pressure after turbine - Data erratic intermittentor incorrect",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1176,
+    "fmi": 2,
+    "kwp": 1549,
+    "desc": "TC charge pressure - Data erratic intermittent orincorrect",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524063,
+    "fmi": 5,
+    "kwp": 1555,
+    "desc": "Abgasnachbehandlung - DEF Heizer - Strom unterhalb desNormalbereiches oder offener StromkreisExhaust aftertreatment - DEF heater - Current below normalor open circuit",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524063,
+    "fmi": 3,
+    "kwp": 1558,
+    "desc": "Abgasnachbehandlung - DEF Heizer - Spannung oberhalbdes Normalwertes oder Kurzschluss nach PlusExhaust aftertreatment - DEF heater - Voltage above normalor shorted to high source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524063,
+    "fmi": 4,
+    "kwp": 1559,
+    "desc": "Abgasnachbehandlung - DEF Heizer - Spannung unterhalbdes Normalwertes oder Kurzschluss nach MasseExhaust aftertreatment - DEF heater - Voltage below normalor shorted to low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524065,
+    "fmi": 0,
+    "kwp": 1565,
+    "desc": "Abgasnachbehandlung - Drucksensor vor SCR Kat -Physikalischer Grenzwert überschritten (Hoher Schweregrad)Exhaust aftertreatment - Pressure sensor before SCR Cat -Data above normal operational range (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524065,
+    "fmi": 1,
+    "kwp": 1566,
+    "desc": "Abgasnachbehandlung - Drucksensor vor SCR Kat -Physikalischer Grenzwert unterschritten (HoherSchweregrad)Exhaust aftertreatment - Pressure sensor before SCR Cat -Data below normal operational range (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524065,
+    "fmi": 3,
+    "kwp": 1569,
+    "desc": "Abgasnachbehandlung - Drucksensor vor SCR Kat -Spannung oberhalb des Normalwertes oder Kurzschlussnach PlusExhaust aftertreatment - Pressure sensor before SCR Cat -Voltage above normal or shorted to high source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524065,
+    "fmi": 4,
+    "kwp": 1570,
+    "desc": "Abgasnachbehandlung - Drucksensor vor SCR Kat -Spannung unterhalb des Normalwertes oder Kurzschlussnach MasseExhaust aftertreatment - Pressure sensor before SCR Cat -Voltage below normal or shorted to low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524067,
+    "fmi": 0,
+    "kwp": 1581,
+    "desc": "Abgasnachbehandlung - DEF Pumpentemperatur -Physikalischer Grenzwert überschritten (Hoher Schweregrad)Exhaust aftertreatment - DEF pump temperature - Dataabove normal operational range (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524067,
+    "fmi": 1,
+    "kwp": 1582,
+    "desc": "Abgasnachbehandlung - DEF Pumpentemperatur -Physikalischer Grenzwert unterschritten (HoherSchweregrad)Exhaust aftertreatment - DEF pump temperature - Databelow normal operational range (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1761,
+    "fmi": 0,
+    "kwp": 1593,
+    "desc": "Abgasnachbehandlung - DEF Tanklevelsensor -Physikalischer Grenzwert überschritten (Hoher Schweregrad)Exhaust aftertreatment - DEF tank level sensor - Data abovenormal operational range (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1761,
+    "fmi": 1,
+    "kwp": 1594,
+    "desc": "Abgasnachbehandlung - DEF Tanklevelsensor -Physikalischer Grenzwert unterschritten (HoherSchweregrad)Exhaust aftertreatment - DEF tank level sensor - Data belownormal operational range (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524065,
+    "fmi": 2,
+    "kwp": 1598,
+    "desc": "Abgasnachbehandlung - Drucksensor vor SCR Kat - Datenunregelmäßig nicht berechenbar oder nicht korrektExhaust aftertreatment - Pressure sensor before SCR Cat -Data erratic intermittent or incorrect1617 3699 2 8-1-8 Abgasnachbehandlung - Passive Regen",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524087,
+    "fmi": 5,
+    "kwp": 1619,
+    "desc": "EAT/SCR inducement or DEF level lamp / collectiveerror lamp (water in fuel & fuel pressure & air filter clogged) -Current below normal or open circuit",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524087,
+    "fmi": 12,
+    "kwp": 1620,
+    "desc": "EAT/SCR inducement or DEF level lamp / collectiveerror lamp (water in fuel & fuel pressure & air filter clogged) -Bad intelligent device or component",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524087,
+    "fmi": 3,
+    "kwp": 1621,
+    "desc": "EAT/SCR inducement or DEF level lamp / collectiveerror lamp (water in fuel & fuel pressure & air filter clogged) -Voltage above normal or shorted to high source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524087,
+    "fmi": 4,
+    "kwp": 1622,
+    "desc": "EAT/SCR inducement or DEF level lamp / collectiveerror lamp (water in fuel & fuel pressure & air filter clogged) -Voltage below normal or shorted to low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524132,
+    "fmi": 2,
+    "kwp": 1630,
+    "desc": "Fuel low pressure before pump - Data erraticintermittent or incorrect1631 524132 0 9-5-5 Motor - Kraftstoffniederdruck vor Pumpe - PhysikalischerGrenzwert überschritten (Hoher Schweregrad)Engine - Fuel low pressure before pump - Data above normaloperation",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524147,
+    "fmi": 13,
+    "kwp": 1639,
+    "desc": "Abgasnachbehandlung - DEF Druck - Außerhalb derKalibrierungExhaust aftertreatment - DEF pressure - Out of calibration",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524063,
+    "fmi": 12,
+    "kwp": 1646,
+    "desc": "Abgasnachbehandlung - DEF Heizer - Fehlerhaftes Gerätoder KomponenteExhaust aftertreatment - DEF heater - Bad intelligent deviceor component",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1761,
+    "fmi": 14,
+    "kwp": 1654,
+    "desc": "Abgasnachbehandlung - DEF Tanklevelsensor - BesondereAnweisungenExhaust aftertreatment - DEF tank level sensor - SpecialinstructionsPage 36Revision 2.0",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524115,
+    "fmi": 9,
+    "kwp": 1660,
+    "desc": "Abgasnachbehandlung - CAN Service - AbnormaleAktualisierungsrate TimeoutExhaust aftertreatment - CAN service - Abnormal update ratetimeout1661 524116 9 1-9-4 Abgasnachbehandlung - CAN DEF Tank - AbnormaleAktualisierungsrate TimeoutExhaust aftertreatm",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524097,
+    "fmi": 9,
+    "kwp": 1663,
+    "desc": "Abgasnachbehandlung - CAN Brennerpumpe - AbnormaleAktualisierungsrate TimeoutExhaust aftertreatment - CAN Burner pump - Abnormalupdate rate timeout",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524098,
+    "fmi": 9,
+    "kwp": 1664,
+    "desc": "Abgasnachbehandlung - CAN Brennerpumpe - AbnormaleAktualisierungsrate TimeoutExhaust aftertreatment - CAN Burner pump - Abnormalupdate rate timeout",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524099,
+    "fmi": 9,
+    "kwp": 1665,
+    "desc": "Abgasnachbehandlung - CAN DPF - AbnormaleAktualisierungsrate TimeoutExhaust aftertreatment - CAN DPF - Abnormal update ratetimeout",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524100,
+    "fmi": 9,
+    "kwp": 1666,
+    "desc": "Abgasnachbehandlung - CAN DPF - AbnormaleAktualisierungsrate TimeoutExhaust aftertreatment - CAN DPF - Abnormal update ratetimeout",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524101,
+    "fmi": 9,
+    "kwp": 1667,
+    "desc": "Abgasnachbehandlung - CAN DPF - AbnormaleAktualisierungsrate TimeoutExhaust aftertreatment - CAN DPF - Abnormal update ratetimeout",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524105,
+    "fmi": 9,
+    "kwp": 1668,
+    "desc": "CAN EGS sensor - Abnormal update rate timeout",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524108,
+    "fmi": 9,
+    "kwp": 1669,
+    "desc": "CAN EGR actuator - Abnormal update rate timeout",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524110,
+    "fmi": 9,
+    "kwp": 1670,
+    "desc": "Exhaust throttle flap - Abnormal update rate timeout",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524112,
+    "fmi": 9,
+    "kwp": 1671,
+    "desc": "CAN throttle valve - Abnormal update rate timeout",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524118,
+    "fmi": 9,
+    "kwp": 1672,
+    "desc": "Abgasnachbehandlung - CAN DPF Regeneration -Abnormale Aktualisierungsrate TimeoutExhaust aftertreatment - CAN DPF regeneration - Abnormalupdate rate timeout",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524103,
+    "fmi": 9,
+    "kwp": 1675,
+    "desc": "Abgasnachbehandlung - CAN Brennerluftpumpe -Abnormale Aktualisierungsrate TimeoutExhaust aftertreatment - CAN Burner air pump - Abnormalupdate rate timeoutPage 37Revision 2.0",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524104,
+    "fmi": 9,
+    "kwp": 1676,
+    "desc": "Abgasnachbehandlung - CAN DPF - AbnormaleAktualisierungsrate TimeoutExhaust aftertreatment - CAN DPF - Abnormal update ratetimeout",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524106,
+    "fmi": 9,
+    "kwp": 1677,
+    "desc": "CAN EGR actuator - Abnormal update rate timeout",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524107,
+    "fmi": 9,
+    "kwp": 1678,
+    "desc": "CAN EGR actuator - Abnormal update rate timeout",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524109,
+    "fmi": 9,
+    "kwp": 1679,
+    "desc": "CAN EGR actuator - Abnormal update rate timeout",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524111,
+    "fmi": 9,
+    "kwp": 1680,
+    "desc": "Exhaust brake flap - Abnormal update rate timeout",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524113,
+    "fmi": 9,
+    "kwp": 1681,
+    "desc": "CAN throttle valve - Abnormal update rate timeout1682 524120 9 9-4-4 Abgasnachbehandlung - CAN SCR Heizerdiagnose -Abnormale Aktualisierungsrate TimeoutExhaust aftertreatment - CAN SCR heater diagnostic -Abnormal update rate timeout",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524121,
+    "fmi": 9,
+    "kwp": 1683,
+    "desc": "CAN wastegate actuator - Abnormal update ratetimeout1684 524122 9 9-4-6 Abgasnachbehandlung - CAN DEF Qualität - AbnormaleAktualisierungsrate TimeoutExhaust aftertreatment - CAN DEF quality - Abnormal updaterate timeout1685 524123 9 9-4-7 Abgasnachbehandl",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524125,
+    "fmi": 9,
+    "kwp": 1687,
+    "desc": "CAN wastegate actuator - Abnormal update ratetimeout",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524133,
+    "fmi": 2,
+    "kwp": 1698,
+    "desc": "Override switch - Data erratic intermittent orincorrect",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524134,
+    "fmi": 0,
+    "kwp": 1699,
+    "desc": "Abgasnachbehandlung - DPF Aschebeladung -Physikalischer Grenzwert überschritten (Hoher Schweregrad)Exhaust aftertreatment - DPF ash load - Data above normaloperational range (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524135,
+    "fmi": 0,
+    "kwp": 1701,
+    "desc": "Abgasnachbehandlung - DPF Rußbeladung - PhysikalischerGrenzwert überschritten (Hoher Schweregrad)Exhaust aftertreatment - DPF soot load - Data above normaloperational range (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524135,
+    "fmi": 14,
+    "kwp": 1702,
+    "desc": "Abgasnachbehandlung - DPF Rußbeladung - BesondereAnweisungenExhaust aftertreatment - DPF soot load - Special instructionsPage 38Revision 2.0",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524156,
+    "fmi": 9,
+    "kwp": 1705,
+    "desc": "CAN wheel speed - Abnormal update rate timeout",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524157,
+    "fmi": 9,
+    "kwp": 1706,
+    "desc": "CAN fan control - Abnormal update rate timeout",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524159,
+    "fmi": 0,
+    "kwp": 1708,
+    "desc": "Fan - Data above normal operational range (Mostsevere level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524159,
+    "fmi": 1,
+    "kwp": 1709,
+    "desc": "Fan - Data below normal operational range (Mostsevere level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524160,
+    "fmi": 5,
+    "kwp": 1710,
+    "desc": "Fan control - Current below normal or open circuit",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524160,
+    "fmi": 3,
+    "kwp": 1712,
+    "desc": "Fan control - Voltage above normal or shorted tohigh source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524160,
+    "fmi": 4,
+    "kwp": 1713,
+    "desc": "Fan control - Voltage below normal or shorted to lowsource",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524161,
+    "fmi": 5,
+    "kwp": 1714,
+    "desc": "Fan control - Current below normal or open circuit",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524161,
+    "fmi": 3,
+    "kwp": 1716,
+    "desc": "Fan control - Voltage above normal or shorted tohigh source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524161,
+    "fmi": 4,
+    "kwp": 1717,
+    "desc": "Fan control - Voltage below normal or shorted to lowsource",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524162,
+    "fmi": 12,
+    "kwp": 1718,
+    "desc": "Fan control angle sensor - Bad intelligent device orcomponent",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524163,
+    "fmi": 12,
+    "kwp": 1719,
+    "desc": "Fan control - Bad intelligent device or component",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2791,
+    "fmi": 7,
+    "kwp": 1752,
+    "desc": "EGR actuator - Mechanical system not respondingor out of adjustment",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2791,
+    "fmi": 2,
+    "kwp": 1753,
+    "desc": "EGR actuator - Data erratic intermittent or incorrect",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2791,
+    "fmi": 13,
+    "kwp": 1754,
+    "desc": "EGR actuator - Out of calibration",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2791,
+    "fmi": 6,
+    "kwp": 1757,
+    "desc": "EGR actuator - Current above normal or groundedcircuitPage 39Revision 2.0",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2791,
+    "fmi": 3,
+    "kwp": 1758,
+    "desc": "EGR actuator - Voltage above normal or shorted tohigh source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2791,
+    "fmi": 4,
+    "kwp": 1759,
+    "desc": "EGR actuator - Voltage below normal or shorted tolow source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2791,
+    "fmi": 16,
+    "kwp": 1762,
+    "desc": "EGR actuator - Data above normal operationalrange (Moderately severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2791,
+    "fmi": 0,
+    "kwp": 1763,
+    "desc": "EGR actuator - Data above normal operationalrange (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1188,
+    "fmi": 13,
+    "kwp": 1790,
+    "desc": "TC wastegate - Out of calibration",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1188,
+    "fmi": 12,
+    "kwp": 1791,
+    "desc": "TC wastegate - Bad intelligent device or component",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1188,
+    "fmi": 6,
+    "kwp": 1793,
+    "desc": "TC wastegate - Current above normal or groundedcircuit",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1188,
+    "fmi": 3,
+    "kwp": 1794,
+    "desc": "TC wastegate - Voltage above normal or shorted tohigh source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1188,
+    "fmi": 4,
+    "kwp": 1795,
+    "desc": "TC wastegate - Voltage below normal or shorted tolow source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1188,
+    "fmi": 0,
+    "kwp": 1799,
+    "desc": "TC wastegate - Data above normal operationalrange (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524141,
+    "fmi": 7,
+    "kwp": 1827,
+    "desc": "Abgasnachbehandlung - DEF Dosierventil - MechanischesSystem antwortet nicht oder blockiertExhaust aftertreatment - DEF metering valve - Mechanicalsystem not responding or out of adjustment",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524147,
+    "fmi": 7,
+    "kwp": 1858,
+    "desc": "Abgasnachbehandlung - DEF Druck - Mechanisches Systemantwortet nicht oder blockiertExhaust aftertreatment - DEF pressure - Mechanical systemnot responding or out of adjustmentPage 40Revision 2.0",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524175,
+    "fmi": 0,
+    "kwp": 1859,
+    "desc": "Abgasnachbehandlung - NOx Wert nach SCR Kat -Physikalischer Grenzwert überschritten (Hoher Schweregrad)Exhaust aftertreatment - NOx emissiones after SCR Cat -Data above normal operational range (Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524074,
+    "fmi": 2,
+    "kwp": 1860,
+    "desc": "Abgasnachbehandlung - NOx Sensor nach SCR Kat - Datenunregelmäßig nicht berechenbar oder nicht korrektExhaust aftertreatment - NOx sensor after SCR Cat - Dataerratic intermittent or incorrect",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524076,
+    "fmi": 2,
+    "kwp": 1861,
+    "desc": "Abgasnachbehandlung - NOx Sensor vor SCR Kat - Datenunregelmäßig nicht berechenbar oder nicht korrektExhaust aftertreatment - NOx sensor before SCR Cat - Dataerratic intermittent or incorrect",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524177,
+    "fmi": 7,
+    "kwp": 1863,
+    "desc": "Abgasnachbehandlung - DEF Druck Saugleitung -Mechanisches System antwortet nicht oder blockiertExhaust aftertreatment - DEF pressure suction line -Mechanical system not responding or out of adjustment",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524178,
+    "fmi": 7,
+    "kwp": 1864,
+    "desc": "Abgasnachbehandlung - DEF Druck - Mechanisches Systemantwortet nicht oder blockiertExhaust aftertreatment - DEF pressure - Mechanical systemnot responding or out of adjustment",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4360,
+    "fmi": 2,
+    "kwp": 1865,
+    "desc": "Abgasnachbehandlung - Temperatur vor SCR Kat - Datenunregelmäßig nicht berechenbar oder nicht korrektExhaust aftertreatment - Temperature before SCR Cat - Dataerratic intermittent or incorrect",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4334,
+    "fmi": 2,
+    "kwp": 1866,
+    "desc": "Abgasnachbehandlung - DEF Pumpendruck - Datenunregelmäßig nicht berechenbar oder nicht korrektExhaust aftertreatment - DEF pump pressure - Data erraticintermittent or incorrect",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524067,
+    "fmi": 2,
+    "kwp": 1867,
+    "desc": "Abgasnachbehandlung - DEF Pumpentemperatur - Datenunregelmäßig nicht berechenbar oder nicht korrektExhaust aftertreatment - DEF pump temperature - Dataerratic intermittent or incorrect",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1761,
+    "fmi": 2,
+    "kwp": 1869,
+    "desc": "Abgasnachbehandlung - DEF Tanklevelsensor - Datenunregelmäßig nicht berechenbar oder nicht korrektExhaust aftertreatment - DEF tank level sensor - Data erraticintermittent or incorrect",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524152,
+    "fmi": 2,
+    "kwp": 1874,
+    "desc": "Abgasnachbehandlung - CAN DEF Qualitätssensor - Datenunregelmäßig nicht berechenbar oder nicht korrektExhaust aftertreatment - CAN DEF quality sensor - Dataerratic intermittent or incorrect",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524153,
+    "fmi": 2,
+    "kwp": 1875,
+    "desc": "Abgasnachbehandlung - DEF Tanklevel und Temperatur -Daten unregelmäßig nicht berechenbar oder nicht korrektExhaust aftertreatment - DEF tank level and temperature -Data erratic intermittent or incorrect",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524192,
+    "fmi": 12,
+    "kwp": 1890,
+    "desc": "Fan control - Bad intelligent device or component",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524190,
+    "fmi": 14,
+    "kwp": 1891,
+    "desc": "Power reduction step 1 - Special instructions",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524191,
+    "fmi": 14,
+    "kwp": 1892,
+    "desc": "Power reduction step 2 - Special instructions",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524193,
+    "fmi": 8,
+    "kwp": 1893,
+    "desc": "Abgasnachbehandlung - Zeit Stand Still - AbnormaleFrequenz Impulsbreite oder PeriodeExhaust aftertreatment - Time Stand Still - Abnormalfrequency or pulse width or period",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524194,
+    "fmi": 8,
+    "kwp": 1894,
+    "desc": "Abgasnachbehandlung - Zeit Stand Still - AbnormaleFrequenz Impulsbreite oder PeriodeExhaust aftertreatment - Time Stand Still - Abnormalfrequency or pulse width or period",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3519,
+    "fmi": 12,
+    "kwp": 1895,
+    "desc": "Abgasnachbehandlung - DEF Tanktemperatur (DEFQualitätssensor) - Fehlerhaftes Gerät oder KomponenteExhaust aftertreatment - DEF tank temperature (DEF qualitysensor) - Bad intelligent device or component",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3520,
+    "fmi": 3,
+    "kwp": 1896,
+    "desc": "Abgasnachbehandlung - DEF Qualitätssensor - Spannungoberhalb des Normalwertes oder Kurzschluss nach PlusExhaust aftertreatment - DEF quality sensor - Voltage abovenormal or shorted to high source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3520,
+    "fmi": 4,
+    "kwp": 1897,
+    "desc": "Abgasnachbehandlung - DEF Qualitätssensor - Spannungunterhalb des Normalwertes oder Kurzschluss nach MasseExhaust aftertreatment - DEF quality sensor - Voltage belownormal or shorted to low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3519,
+    "fmi": 3,
+    "kwp": 1898,
+    "desc": "Abgasnachbehandlung - DEF Tanktemperatur (DEFQualitätssensor) - Spannung oberhalb des Normalwertesoder Kurzschluss nach PlusExhaust aftertreatment - DEF tank temperature (DEF qualitysensor) - Voltage above normal or shorted to high source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3519,
+    "fmi": 4,
+    "kwp": 1899,
+    "desc": "Abgasnachbehandlung - DEF Tanktemperatur (DEFQualitätssensor) - Spannung unterhalb des Normalwertesoder Kurzschluss nach MasseExhaust aftertreatment - DEF tank temperature (DEF qualitysensor) - Voltage below normal or shorted to low source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524195,
+    "fmi": 14,
+    "kwp": 1900,
+    "desc": "Abgasnachbehandlung - Stand Still Anforderung -Besondere AnweisungenExhaust aftertreatment - Stand Still request - Specialinstructions",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524196,
+    "fmi": 13,
+    "kwp": 1901,
+    "desc": "Fan - Out of calibration",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524196,
+    "fmi": 2,
+    "kwp": 1902,
+    "desc": "Fan - Data erratic intermittent or incorrect",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3520,
+    "fmi": 2,
+    "kwp": 1904,
+    "desc": "Abgasnachbehandlung - DEF Qualitätssensor - Datenunregelmäßig nicht berechenbar oder nicht korrektExhaust aftertreatment - DEF quality sensor - Data erraticintermittent or incorrect",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3520,
+    "fmi": 8,
+    "kwp": 1905,
+    "desc": "Abgasnachbehandlung - DEF Qualitätssensor - AbnormaleFrequenz Impulsbreite oder PeriodeExhaust aftertreatment - DEF quality sensor - Abnormalfrequency or pulse width or period",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3520,
+    "fmi": 13,
+    "kwp": 1907,
+    "desc": "Abgasnachbehandlung - DEF Qualitätssensor - Außerhalbder KalibrierungExhaust aftertreatment - DEF quality sensor - Out ofcalibrationPage 42Revision 2.0",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3519,
+    "fmi": 13,
+    "kwp": 1908,
+    "desc": "Abgasnachbehandlung - DEF Tanktemperatur (DEFQualitätssensor) - Außerhalb der KalibrierungExhaust aftertreatment - DEF tank temperature (DEF qualitysensor) - Out of calibration",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4365,
+    "fmi": 12,
+    "kwp": 1909,
+    "desc": "Abgasnachbehandlung - DEF Tanktemperatur - FehlerhaftesGerät oder KomponenteExhaust aftertreatment - DEF tank temperature - Badintelligent device or component",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3532,
+    "fmi": 13,
+    "kwp": 1910,
+    "desc": "Abgasnachbehandlung - DEF Tanklevelsensor - Außerhalbder KalibrierungExhaust aftertreatment - DEF tank level sensor - Out ofcalibration",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4365,
+    "fmi": 13,
+    "kwp": 1913,
+    "desc": "Abgasnachbehandlung - DEF Tanktemperatur - Außerhalbder KalibrierungExhaust aftertreatment - DEF tank temperature - Out ofcalibration",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3936,
+    "fmi": 14,
+    "kwp": 1917,
+    "desc": "Abgasnachbehandlung - Zeit Stand Still - BesondereAnweisungenExhaust aftertreatment - Time Stand Still - Specialinstructions",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3936,
+    "fmi": 14,
+    "kwp": 1918,
+    "desc": "Throttle valve / Throttle valve position - Voltageabove normal or shorted to high source1925 51 3 5-9-4 Motor - Drosselklappe / Drosselklappenposition - Spannungoberhalb des Normalwertes oder Kurzschluss nach PlusEngine - Throttle valve / Throttle valve p",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524267,
+    "fmi": 14,
+    "kwp": 2007,
+    "desc": "Abgasnachbehandlung - Ankündigung AuslösungLeistungsreduzierung Stufe 2 - Besondere AnweisungenExhaust aftertreatment - Announcement trigger powerreduction step 2 - Special instructions",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524025,
+    "fmi": 8,
+    "kwp": 2008,
+    "desc": "Abgasnachbehandlung - Stand Still - Abnormale FrequenzImpulsbreite oder PeriodeExhaust aftertreatment - Stand Still - Abnormal frequency orpulse width or period",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4361,
+    "fmi": 2,
+    "kwp": 2011,
+    "desc": "Abgasnachbehandlung - Dynamischer Temperaturcheck vorSCR - Daten unregelmäßig nicht berechenbar oder nichtkorrektExhaust aftertreatment - Dynamic temperature check beforeSCR - Data erratic intermittent or incorrect",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3520,
+    "fmi": 1,
+    "kwp": 2014,
+    "desc": "CAN Hydraulic Start Stop - Abnormal update ratetimeout2025 524272 14 1119 - Besondere Anweisungen Manufacturer Assignable SPN - Special instructions",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523470,
+    "fmi": 13,
+    "kwp": 2026,
+    "desc": "Fuel pressure relief valve - Out of calibration",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 411,
+    "fmi": 2,
+    "kwp": 2032,
+    "desc": "EGR differential pressure - Data erratic intermittentor incorrect",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524277,
+    "fmi": 11,
+    "kwp": 2034,
+    "desc": "ECU afterun too often not waited - Root cause notknown",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524278,
+    "fmi": 11,
+    "kwp": 2035,
+    "desc": "ECU afterun too often consecutive not waited - Rootcause not known",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 51,
+    "fmi": 12,
+    "kwp": 2036,
+    "desc": "Throttle valve / Throttle valve position - Badintelligent device or component2038 524281 6 1124 Motor - Drosselklappe dynamische Stromlimitierung - Stromoberhalb des Normalbereiches oder Kurzschluss nach MasseEngine - Throttle valve dynamic current limita",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 51,
+    "fmi": 6,
+    "kwp": 2049,
+    "desc": "EGR valve - Current above normal or groundedcircuit",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 51,
+    "fmi": 5,
+    "kwp": 2050,
+    "desc": "EGR valve - Current below normal or open circuit",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 51,
+    "fmi": 3,
+    "kwp": 2054,
+    "desc": "EGR valve - Voltage above normal or shorted tohigh source",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 51,
+    "fmi": 4,
+    "kwp": 2056,
+    "desc": "EGR valve - Voltage below normal or shorted to lowsource",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 51,
+    "fmi": 11,
+    "kwp": 2059,
+    "desc": "EGR valve - Root cause not known",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 51,
+    "fmi": 7,
+    "kwp": 2061,
+    "desc": "EGR valve - Mechanical system not responding orout of adjustment",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 51,
+    "fmi": 0,
+    "kwp": 2067,
+    "desc": "EGR valve - Data above normal operational range(Most severe level)",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 51,
+    "fmi": 1,
+    "kwp": 2068,
+    "desc": "EGR valve - Data below normal operational range(Most severe level)2069 524281 6 1147 Motor - AGR Ventil - Strom oberhalb des Normalbereichesoder Kurzschluss nach MasseEngine - EGR valve - Current above normal or groundedcircuitPage 48Revision 2.0",
+    "standard": "DEUTZ",
+    "source": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "file": "deutz-emr4-kwp-codes"
+  }
+]

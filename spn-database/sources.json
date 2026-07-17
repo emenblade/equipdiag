@@ -2,12 +2,12 @@
   "2004-tier1-ec-engine-codes-parsed.json": {
     "name": "2004 Tier I K21/K25/TB45 EC-Engine Control Codes",
     "type": "DTC",
-    "count": 15
+    "count": 14
   },
   "2007-tier2-ec-engine-codes-parsed.json": {
     "name": "2007 Tier II TB45 EC-Engine Control Codes",
     "type": "DTC",
-    "count": 11
+    "count": 9
   },
   "2924-ecu-error-codes-parsed.json": {
     "name": "CNH ECU Tier 3/Tier 4a Fault Codes",
@@ -17,17 +17,17 @@
   "dtcodes-parsed.json": {
     "name": "DEUTZ EMR3 DTCodes (Table 2, SPN-component only)",
     "type": "SPN",
-    "count": 153
+    "count": 144
   },
   "j1587-sids-all-others-parsed.json": {
     "name": "J1587 SIDs - All Others",
     "type": "SID",
-    "count": 64
+    "count": 3
   },
   "j1587-sids-brakes-parsed.json": {
     "name": "J1587 SIDs - Brakes",
     "type": "SID",
-    "count": 92
+    "count": 46
   },
   "j1587-sids-common-parsed.json": {
     "name": "J1587 SIDs - Common",
@@ -37,12 +37,12 @@
   "j1587-sids-engine-parsed.json": {
     "name": "J1587 SIDs - Engine",
     "type": "SID",
-    "count": 145
+    "count": 68
   },
   "j1587-sids-transmission-parsed.json": {
     "name": "J1587 SIDs - Transmission",
     "type": "SID",
-    "count": 148
+    "count": 33
   },
   "j1708-j1587-j1939-mid-parsed.json": {
     "name": "J1708/J1587/J1939 MID Listing",
@@ -62,17 +62,17 @@
   "sae-spn-master-parsed.json": {
     "name": "SAE J1939 SPN Master List",
     "type": "SPN",
-    "count": 154
+    "count": 28
   },
   "suspect-spn-codes-parsed.json": {
     "name": "Suspect Parameter Numbers SPN Codes",
     "type": "SPN",
-    "count": 3520
+    "count": 3420
   },
   "genie-gth844-deutz-codes": {
     "name": "Genie GTH-844 Deutz TCD3.6 / Perkins 1104 Fault Codes",
     "type": "DEUTZ",
-    "count": 340
+    "count": 262
   },
   "doosan-compressor-secu-codes": {
     "name": "Doosan Compressor SECU Fault Codes (Book 23307366)",
@@ -82,26 +82,51 @@
   "mec3226-fault-codes": {
     "name": "MEC SEAC Slab Series Service & Parts Manual March 2022",
     "type": "MEC",
-    "count": 57
+    "count": 52
   },
   "isuzu-4jj1-codes": {
     "name": "Isuzu 4JJ1 Electronic Control Fuel Injection System DTC List",
     "type": "Isuzu",
-    "count": 116
+    "count": 94
   },
   "lt7500-forklift-codes": {
     "name": "Daewoo LT7500-E4 Tier II Fuel System Fault Codes",
     "type": "Daewoo",
-    "count": 39
+    "count": 37
   },
   "ts45-fault-codes": {
     "name": "TEMSA TS-45 Fault Code Manual (Cummins/Allison/WABCO)",
     "type": "J1939-Cummins",
-    "count": 447
+    "count": 395
   },
   "gm-flash-codes": {
     "name": "GM Diagnostic Trouble Codes Flash (1.6L / 3.0L)",
     "type": "GM",
     "count": 57
+  },
+  "deutz-emr5-dtc-codes": {
+    "name": "Deutz EMR5 DTC Codes (MD1 ECU - DTCList_MD1_DE_EN.pdf)",
+    "type": "DEUTZ",
+    "count": 568
+  },
+  "deutz-emr4-kwp-codes": {
+    "name": "Deutz EMR4 KWP Codes (KWPList_EMR4_DE_EN.pdf)",
+    "type": "DEUTZ",
+    "count": 491
+  },
+  "genie-gth1256-fault-codes": {
+    "name": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "type": "DEUTZ",
+    "count": 655
+  },
+  "genie-1500ajp-engine-codes": {
+    "name": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "type": "DEUTZ",
+    "count": 286
+  },
+  "genie-1500ajp-jlg-codes": {
+    "name": "Genie 1500AJP JLG Control System Diagnostic Trouble Codes (Service Manual 3121735)",
+    "type": "JLG",
+    "count": 665
   }
 }

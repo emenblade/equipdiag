@@ -1,0 +1,5897 @@
+[
+  {
+    "type": "SPN",
+    "code": 110,
+    "fmi": 11,
+    "desc": "Air flow sensor load correction factor exceeding the maximum drift limit; plausibility error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 132,
+    "fmi": 1,
+    "desc": "The air mass flow AFS_dm is greater than or equal to AFS_PhysRng.Min_CPhysical Range Check low for air mass flow sensor.",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 172,
+    "fmi": 2,
+    "desc": "Air inlet filter temperature, plausibility error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523891,
+    "fmi": 14,
+    "desc": "When AirHt_ctDefSRCLoOn_mp is less than AirHt_ctMaxDef_CDFC to SRC Low error when heater is On",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523953,
+    "fmi": 2,
+    "desc": "Healing takes place if the condition for error detection is not present.Air temprature monitoring plausibility check array",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523955,
+    "fmi": 2,
+    "desc": "Healing takes place if the condition for error detection is not present.Air temprature monitoring plausibility check array",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523923,
+    "fmi": 3,
+    "desc": "UB1; Short circuit to battery error of actuator relay 1",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523924,
+    "fmi": 3,
+    "desc": "UB2; Short circuit to battery error of actuator relay 2",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523925,
+    "fmi": 3,
+    "desc": "UB3; Short circuit to battery error of actuator relay 3",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523927,
+    "fmi": 3,
+    "desc": "UB5; Short circuit to battery error of actuator relay 5",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523924,
+    "fmi": 4,
+    "desc": "UB2; Short circuit to ground actuator relais 2",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523925,
+    "fmi": 4,
+    "desc": "UB3; Short circuit to ground actuator relais 3",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523926,
+    "fmi": 4,
+    "desc": "UB4; Short circuit to ground actuator relais",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523910,
+    "fmi": 14,
+    "desc": "Air pump doesn´t achieve air mass flow setpointBurner Control - burner air pump",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524013,
+    "fmi": 7,
+    "desc": "Burner Control; burner Flame;Burner does not start after x trials (burner flame lost detection)Burner flame unintentional deleted",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524020,
+    "fmi": 14,
+    "desc": "Burner Control: power reduction due to low lambda.Engine power; Not enough oxygen for regeneration 4-4",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523911,
+    "fmi": 0,
+    "desc": "Burner dosing valve (DV2); overcurrent at the end of the injection phase",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523911,
+    "fmi": 12,
+    "desc": "Burner dosing valve (DV2); powerstage over temperature",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523911,
+    "fmi": 3,
+    "desc": "Burner dosing valve (DV2); short circuit to battery",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523911,
+    "fmi": 4,
+    "desc": "Burner dosing valve (DV2); short circuit to ground",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523911,
+    "fmi": 11,
+    "desc": "Burner dosing valve (DV2); short circuit high side powerstage",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523912,
+    "fmi": 2,
+    "desc": "Burner dosing valve (DV2) downstream pressure sensor; plausibility error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523914,
+    "fmi": 5,
+    "desc": "Glow plug control; open load water pump control (PWM)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523914,
+    "fmi": 12,
+    "desc": "Glow plug control; powerstage over temperature",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523914,
+    "fmi": 3,
+    "desc": "Glow plug control; short circuit to battery water pump control (PWM)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523914,
+    "fmi": 4,
+    "desc": "Glow plug control; short circuit to ground",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1235,
+    "fmi": 14,
+    "desc": "CAN-Bus 2 = CAN_C reports Bus-error (for engines <8L and CV52 it is the engine-CAN@250kbaud)CAN Bus error passive; warning CAN C - engine CAN",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 639,
+    "fmi": 14,
+    "desc": "CAN-Bus 0 \"BusOff-Status\"",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1231,
+    "fmi": 14,
+    "desc": "CAN-Bus 1 \"BusOff-Status\"",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1235,
+    "fmi": 14,
+    "desc": "CAN-Bus 2 = engine bus \"BusOff-Status\"",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 16,
+    "fmi": 0,
+    "desc": "BusOff error CAN",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 102,
+    "fmi": 2,
+    "desc": "Charged air pressure above ; ; warning threshold",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 102,
+    "fmi": 2,
+    "desc": "Charged air pressure above ; ; shut off threshold.",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 110,
+    "fmi": 2,
+    "desc": "Defect fault check for Absolute plausibility test",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 110,
+    "fmi": 0,
+    "desc": "Coolant temperature; system reaction initiated",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 111,
+    "fmi": 1,
+    "desc": "Coolant level too low",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 598,
+    "fmi": 2,
+    "desc": "Plausibility check for Clutch",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1109,
+    "fmi": 2,
+    "desc": "Engine shut off demand ignored",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523698,
+    "fmi": 11,
+    "desc": "Shut off request from supervisory monitoring function",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523717,
+    "fmi": 12,
+    "desc": "Timeout Error of CAN-Transmit-Frame AmbCon; Weather environments",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523603,
+    "fmi": 9,
+    "desc": "Timeout Error of CAN-Receive-Frame AMB; Ambient Temperature Sensor",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3224,
+    "fmi": 2,
+    "desc": "DLC Error of CAN-Receive-Frame AT1IG1 NOX Sensor (SCR-system upstream cat; DPF-systemdownstream cat); length of frame incorrect",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3224,
+    "fmi": 9,
+    "desc": "Timeout Error of CAN-Receive-Frame AT1IG1; NOX sensor upstream",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3224,
+    "fmi": 2,
+    "desc": "DLC Error of CAN-Receive-Frame AT1IG1Vol NOX Sensor",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523938,
+    "fmi": 9,
+    "desc": "Timeout Error (BAM to packet) for CAN-Receive-Frame AT1IGCVol1",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523939,
+    "fmi": 9,
+    "desc": "Broadcast Announce Message of the calibration message of the upstream catalytic NOx sensorhas failed",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523940,
+    "fmi": 9,
+    "desc": "Timeout Error (PCK2PCK) for CAN-Receive-Frame AT1IGCVol",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 13234,
+    "fmi": 2,
+    "desc": "DLC Error of CAN-Receive-Frame AT1O1",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3234,
+    "fmi": 9,
+    "desc": "Timeout Error of CAN-Receive-Frame AT1OG1; NOX sensor(SCR-system downstream cat; DPF-system downstream cat)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3234,
+    "fmi": 2,
+    "desc": "DLC Error of CAN-Receive-Frame AT1O1Vol NOX",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523941,
+    "fmi": 9,
+    "desc": "Timeout Error (BAM to packet) for CAN-Receive-Frame AT1OGCVol2",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523942,
+    "fmi": 9,
+    "desc": "Calibration message 1 of the after catalyst NOx sensor has failed",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523943,
+    "fmi": 9,
+    "desc": "Timeout Error (PCK2PCK) for CAN-Receive-Frame AT1OGCVol2523992 90 0",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523211,
+    "fmi": 9,
+    "desc": "Timeout Error of CAN-Receive-Frame EBC1",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523704,
+    "fmi": 12,
+    "desc": "Timeout Error of CAN-Transmit-Frame EEC3",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523935,
+    "fmi": 12,
+    "desc": "Timeout Error of CAN-Transmit-Frame EEC3VOL1; Engine send messages",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523936,
+    "fmi": 12,
+    "desc": "Timeout Error of CAN-Transmit-Frame EEC3VOL2; Engine send messages",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523212,
+    "fmi": 9,
+    "desc": "Timeout Error of CAN-Receive-Frame ComEngPrt; Engine Protection 4-6",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523741,
+    "fmi": 14,
+    "desc": "Engine shut off request through CAN",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523213,
+    "fmi": 12,
+    "desc": "Timeout Error of CAN-Transmit-Frame ERC1",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523706,
+    "fmi": 12,
+    "desc": "Timeout Error of CAN-Transmit-Frame FlEco",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523240,
+    "fmi": 9,
+    "desc": "Timeout CAN-message FunModCtl; Function Mode Control",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523937,
+    "fmi": 9,
+    "desc": "Timeout DFC for NOxSensGlbReqTx.",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3227,
+    "fmi": 2,
+    "desc": "DFC SAE J1939 error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523216,
+    "fmi": 9,
+    "desc": "Timeout Error of CAN-Receive-Frame PrHtEnCmd; pre-heat command, engine command",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523793,
+    "fmi": 9,
+    "desc": "Timeout Error of CAN-Receive-Frame UAA10; AGS sensor service message",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523794,
+    "fmi": 9,
+    "desc": "Timeout Error of CAN-Receive-Frame UAA11; AGS sensor data",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523803,
+    "fmi": 9,
+    "desc": "Timeout error of CAN Receive Message RxEngPres; Status Burner Air Pump",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3219,
+    "fmi": 2,
+    "desc": "DFC SAE J1939 error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523766,
+    "fmi": 9,
+    "desc": "Timeout Error of CAN-Receive-Frame Active TSC1AE",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523767,
+    "fmi": 9,
+    "desc": "Timeout Error of CAN-Receive-Frame Passive TSC1AE",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523768,
+    "fmi": 9,
+    "desc": "Timeout Error of CAN-Receive-Frame Active TSC1AR",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523769,
+    "fmi": 9,
+    "desc": "Timeout Error of CAN-Receive-Frame Passive TSC1AR",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523776,
+    "fmi": 9,
+    "desc": "Timeout Error of CAN-Receive-Frame TSC1TE - active",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523777,
+    "fmi": 9,
+    "desc": "Passive Timeout Error of CAN-Receive-Frame TSC1TE; Setpoint",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523778,
+    "fmi": 9,
+    "desc": "Timeout Error of CAN-Receive-Frame TSC1TR",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523779,
+    "fmi": 9,
+    "desc": "Passive Timeout Error of CAN-Receive-Frame TSC1TR",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523788,
+    "fmi": 12,
+    "desc": "Timeout Error of CAN-Transmit-Frame TrbCH; Status Wastegate",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523605,
+    "fmi": 9,
+    "desc": "Timeout Error of CAN-Receive-Frame TSC1AE; Traction Control",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523606,
+    "fmi": 9,
+    "desc": "Timeout Error of CAN-Receive-Frame TSC1AR; Retarder",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 898,
+    "fmi": 9,
+    "desc": "Timeout Error of CAN-Receive-Frame TSC1TE; Setpoint",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 520,
+    "fmi": 9,
+    "desc": "Timeout Error of CAN-Receive-Frame TSC1TR; control signal",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523858,
+    "fmi": 12,
+    "desc": "Timeout Error of CAN-Transmit-Frame UAA11",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523867,
+    "fmi": 12,
+    "desc": "Timeout Error of CAN-Transmit-Frame UAA1 on CAN A",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523982,
+    "fmi": 0,
+    "desc": "Powerstage diagnosis disabled; high battery voltage",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523982,
+    "fmi": 1,
+    "desc": "Powerstage diagnosis disabled; low battery voltage",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523090,
+    "fmi": 2,
+    "desc": "Engine Brake Pre-Selection switch; Plausibility Error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 630,
+    "fmi": 12,
+    "desc": "Access error EEPROM memory (delete)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 630,
+    "fmi": 12,
+    "desc": "Access error EEPROM memory (read)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 630,
+    "fmi": 12,
+    "desc": "Access error EEPROM memory (write)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2791,
+    "fmi": 12,
+    "desc": "Actuator EGR Valve; powerstage over temperature",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523612,
+    "fmi": 12,
+    "desc": "Internal software error ECU; injection cut off",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 190,
+    "fmi": 0,
+    "desc": "Engine speed above ; ; warning thresholdOverspeed detection in component engine protection",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 190,
+    "fmi": 11,
+    "desc": "Engine speed above ; ; warning threshold (FOC-Level 2)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 190,
+    "fmi": 14,
+    "desc": "Engine speed above ; ; warning threshold (Overrun Mode)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 108,
+    "fmi": 11,
+    "desc": "DFC for CAN message",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 171,
+    "fmi": 0,
+    "desc": "Environment temperature sensor, temperature above upper physical threshold",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 171,
+    "fmi": 1,
+    "desc": "Environment Temperature Physical Range Check low",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 190,
+    "fmi": 2,
+    "desc": "Offset angle between crank- and camshaft sensor is too large",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 190,
+    "fmi": 12,
+    "desc": "Speed detection; out of range, signal disruptedSensor crankshaft speed; no signal",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 975,
+    "fmi": 5,
+    "desc": "PWM-Signal Fan, Open load or short-circuit ground",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 975,
+    "fmi": 3,
+    "desc": "PWM-Signal Fan, short-circuit to plus",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 975,
+    "fmi": 4,
+    "desc": "PWM-Signal Fan, open load or short circuit to ground",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1639,
+    "fmi": 12,
+    "desc": "Fan speed sensor; electrical error or signal disturbed or very low fan speed",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 174,
+    "fmi": 11,
+    "desc": "DFC for fuel temperature plausibility check function",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523618,
+    "fmi": 3,
+    "desc": "Gearbox oil temperature; Short circuit to battery or broken harness",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523618,
+    "fmi": 4,
+    "desc": "Gearbox oil temperature; Short circuit to ground",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523915,
+    "fmi": 0,
+    "desc": "HCI dosing valve (DV1); overcurrent at the end of the injection phase",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523915,
+    "fmi": 12,
+    "desc": "HCI dosing valve (DV1); powerstage over temperature",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523915,
+    "fmi": 3,
+    "desc": "HCI dosing valve (DV1); short circuit to battery",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523915,
+    "fmi": 4,
+    "desc": "HCI dosing valve (DV1); short circuit to ground",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523915,
+    "fmi": 11,
+    "desc": "HCI dosing valve (DV1); short circuit high side powerstage",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1638,
+    "fmi": 2,
+    "desc": "Hydraulic oil temperature check for Shut off condition",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 676,
+    "fmi": 11,
+    "desc": "Cold start aid relay error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 676,
+    "fmi": 11,
+    "desc": "Cold start aid relay open load",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 729,
+    "fmi": 5,
+    "desc": "Cold start aid relay open load",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 729,
+    "fmi": 12,
+    "desc": "Cold start aid relay; over temperature error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 729,
+    "fmi": 3,
+    "desc": "Intake Air Heater Device; Short circuit to battery",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 729,
+    "fmi": 4,
+    "desc": "Air intake heater; Short circuit to ground error for powerstage on CJ945",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523895,
+    "fmi": 13,
+    "desc": "Check of missing injector adjustment value programming (IMA) injector 1 (in firing order)523896 13 check of missing injector adjustment value programming (IMA) injector 2 (in firing order)523897 13 check of missing injector adjustment value programming (I",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523350,
+    "fmi": 4,
+    "desc": "Injector cylinder-bank 1; short circuit",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523352,
+    "fmi": 4,
+    "desc": "Injector cylinder-bank 2; short circuit",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523354,
+    "fmi": 12,
+    "desc": "Injector powerstage output defect",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 651,
+    "fmi": 5,
+    "desc": "Injector 1 (in firing order); interruption of electric connection",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 652,
+    "fmi": 5,
+    "desc": "Injector 2 (in firing order); interruption of electric connection",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 653,
+    "fmi": 5,
+    "desc": "Injector 3 (in firing order); interruption of electric connection",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 654,
+    "fmi": 5,
+    "desc": "Injector 4 (in firing order); interruption of electric connection",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 655,
+    "fmi": 5,
+    "desc": "Injector 5 (in firing order); interruption of electric connection",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 656,
+    "fmi": 5,
+    "desc": "Injector 6 (in firing order); interruption of electric connection",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523756,
+    "fmi": 14,
+    "desc": "Special pattern for special cases",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523757,
+    "fmi": 14,
+    "desc": "Special pattern for special cases",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523758,
+    "fmi": 14,
+    "desc": "Special pattern for special cases",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523759,
+    "fmi": 14,
+    "desc": "Special pattern for special cases",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523760,
+    "fmi": 14,
+    "desc": "Special pattern for special cases",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 651,
+    "fmi": 3,
+    "desc": "Injector 1 (in firing order); short circuit",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 652,
+    "fmi": 3,
+    "desc": "Injector 2 (in firing order); short circuit",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 653,
+    "fmi": 3,
+    "desc": "Injector 3 (in firing order); short circuit",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 654,
+    "fmi": 3,
+    "desc": "Injector 4 (in firing order); short circuit",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 655,
+    "fmi": 3,
+    "desc": "Injector 5 (in firing order); short circuit",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 656,
+    "fmi": 3,
+    "desc": "Injector 6 (in firing order); short circuit",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523615,
+    "fmi": 5,
+    "desc": "Metering unit (Fuel-System); open load",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523615,
+    "fmi": 12,
+    "desc": "Metering unit (Fuel-System); powerstage over temperature",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523615,
+    "fmi": 3,
+    "desc": "Metering unit (Fuel-System); short circuit to battery highside",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523615,
+    "fmi": 4,
+    "desc": "Metering unit (Fuel-System); short circuit to ground high side",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523615,
+    "fmi": 4,
+    "desc": "Metering Unit (Fuel-System); short circuit to ground low side",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1323,
+    "fmi": 12,
+    "desc": "Too many recognized misfires in cylinder 1 (in firing order) 4-10",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1346,
+    "fmi": 0,
+    "desc": "Misfire detection monitoring",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523612,
+    "fmi": 12,
+    "desc": "Internal ECU monitoring detection reported error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523612,
+    "fmi": 12,
+    "desc": "ECU reported internal software errorInternal ECU monitoring detection reported error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523612,
+    "fmi": 12,
+    "desc": "ECU reported internal software error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523612,
+    "fmi": 12,
+    "desc": "Injection system,electrical error injectors",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523612,
+    "fmi": 12,
+    "desc": "Diagnostic fault check to report the accelerator pedal position error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523612,
+    "fmi": 12,
+    "desc": "Diagnostic fault check to report the engine speed error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523612,
+    "fmi": 12,
+    "desc": "Error in the plausibility of the injection energizing time",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523612,
+    "fmi": 12,
+    "desc": "Error in the plausibility of the start of energising angles",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523612,
+    "fmi": 12,
+    "desc": "Diagnostic fault check to report the error due to non plausibility in ZFC",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523612,
+    "fmi": 12,
+    "desc": "Diagnosis fault check to report the demand for normal mode due to an error in the PoI2 quantity",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523612,
+    "fmi": 12,
+    "desc": "Diagnosis fault check to report the error to demand for an ICO due to an error in the PoI2 shut-off",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523612,
+    "fmi": 12,
+    "desc": "Monitoring of Fuel Quantity Correction",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523612,
+    "fmi": 12,
+    "desc": "Diagnostic fault check to report the plausibility error in rail pressure monitoring",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523612,
+    "fmi": 12,
+    "desc": "Diagnosis of curr path limitation forced by ECU monitoring level 2",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523612,
+    "fmi": 12,
+    "desc": "Diagnosis of lead path limitation forced by ECU monitoring level 2",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523612,
+    "fmi": 12,
+    "desc": "Diagnosis of set path limitation forced by ECU monitoring level 2",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523612,
+    "fmi": 3,
+    "desc": "Reported Over Voltage of Supply",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523008,
+    "fmi": 1,
+    "desc": "Manipulation control was triggered",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523008,
+    "fmi": 2,
+    "desc": "Timeout error in Manipulation control",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2634,
+    "fmi": 12,
+    "desc": "Early opening defect of main relay",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2634,
+    "fmi": 12,
+    "desc": "DFC for stuck main relay error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3226,
+    "fmi": 2,
+    "desc": "Nox feed back fault detection",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523752,
+    "fmi": 0,
+    "desc": "Plausibiliti error during Rich to Lean switch over",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523752,
+    "fmi": 0,
+    "desc": "Monitoring of Nox signal readyness",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523612,
+    "fmi": 12,
+    "desc": "Diagnostic fault check to report WDA active due to errors in query-/response communication",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523612,
+    "fmi": 12,
+    "desc": "Diagnostic fault check to report ABE active due to undervoltage detection",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523612,
+    "fmi": 12,
+    "desc": "Diagnostic fault check to report WDA/ABE active due to unknown reason",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 98,
+    "fmi": 2,
+    "desc": "Plausibility Check",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1237,
+    "fmi": 2,
+    "desc": "Override switch; plausibility error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 107,
+    "fmi": 0,
+    "desc": "Air filter differential pressure; short circuit to ground",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523919,
+    "fmi": 2,
+    "desc": "DPF burner air pump pressure sensor, plausibility error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523919,
+    "fmi": 0,
+    "desc": "DPF burner air pump pressure sensor, pressure above upper shutoff threshold",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523919,
+    "fmi": 1,
+    "desc": "DPF burner air pump pressure sensor, pressure below lower shutoff threshold",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523919,
+    "fmi": 3,
+    "desc": "DPF burner air pump pressure sensor, short circuit to battery or open load",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523919,
+    "fmi": 4,
+    "desc": "DPF burner air pump pressure sensor, short circuit to ground 4-12",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523920,
+    "fmi": 2,
+    "desc": "Exhaustgaspressure upstream burner, plausibility error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523920,
+    "fmi": 0,
+    "desc": "Exhaustgaspressure upstream burner, pressure above upper shutoff threshold",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523920,
+    "fmi": 3,
+    "desc": "Exhaustgaspressure upstream burner, short circuit to battery or open load",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523920,
+    "fmi": 4,
+    "desc": "Exhaustgaspressure upstream burner, short circuit to ground",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 102,
+    "fmi": 2,
+    "desc": "Pressure downstream charge air cooler, plausibility error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 102,
+    "fmi": 1,
+    "desc": "Pressure downstream charge air cooler, pressure below lower physical threshold",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 102,
+    "fmi": 3,
+    "desc": "Pressure downstream charge air cooler, short circuit to battery or open load",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 102,
+    "fmi": 4,
+    "desc": "Pressure downstream charge air cooler, short circuit to ground",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523699,
+    "fmi": 3,
+    "desc": "Boost pressure control; negative governor deviation below limit",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523699,
+    "fmi": 4,
+    "desc": "Learning valu too high",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523889,
+    "fmi": 3,
+    "desc": "Over temperature of device driver of pressure control valve",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 411,
+    "fmi": 0,
+    "desc": "Delta pressure across venturi in EGR line above physical high limit",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 411,
+    "fmi": 11,
+    "desc": "Plausibility Check fault for deviation of desired and actualEGR-mass flow, where the latter is calculated out of EGR Delta Pressure Sensor",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524025,
+    "fmi": 14,
+    "desc": "Particulate filter regeneration.Regeneration after time X is not successful (The error occurs when the regeneration times (3x)over the max. has been aborted allowed recovery time)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 324058,
+    "fmi": 2,
+    "desc": "Particulate filter; regeneration not succesful",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3253,
+    "fmi": 2,
+    "desc": "Differential pressure DPF, plausibility error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3251,
+    "fmi": 0,
+    "desc": "Differential pressure DPF maximum value is exceeded",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3251,
+    "fmi": 0,
+    "desc": "Differential pressure sensor across DPF exceeds warning high limit",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3251,
+    "fmi": 1,
+    "desc": "Differential pressure DPF, pressure below lower shutoff threshold",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3253,
+    "fmi": 3,
+    "desc": "Electrical error differential pressure B58 (DPF).(signal range check high)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3253,
+    "fmi": 4,
+    "desc": "Electrical error differential pressure (DPF).Signal range check low",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523009,
+    "fmi": 9,
+    "desc": "The pressure relief valve (PRV) has reached the number of allowed activations",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523470,
+    "fmi": 2,
+    "desc": "Pressure relief valve is forced to open, perform pressure increase",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523470,
+    "fmi": 2,
+    "desc": "Pressure Relief Valve (PRV) forced to open. Performed by pressure increase",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523470,
+    "fmi": 12,
+    "desc": "Pressure Relief Valve (PRV) forced to open. Shutoff conditions",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523470,
+    "fmi": 11,
+    "desc": "Pressure Relief Valve (PRV) error; Rail pressure out of tolerance range",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523470,
+    "fmi": 11,
+    "desc": "Rail pressure out of tolerance range.The PRV can not be opened at this operating point with a pressure shock",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523906,
+    "fmi": 5,
+    "desc": "Electrical fuel pre - supply pump; open load",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523906,
+    "fmi": 12,
+    "desc": "Electrical fuel pre - supply pump. ECU powerstage over temperature",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523906,
+    "fmi": 3,
+    "desc": "Electrical fuel pre - supply pump; short circuit to battery",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523906,
+    "fmi": 4,
+    "desc": "Electrical fuel pre - supply pump. Short circuit to ground",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1176,
+    "fmi": 0,
+    "desc": "Pressure sensor upstream turbine, Physical Range Check high",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1176,
+    "fmi": 1,
+    "desc": "Pressure sensor upstream turbine, Physical Range Check low",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1176,
+    "fmi": 3,
+    "desc": "Pressure sensor upstream turbine, signal range check (SRC) high",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1176,
+    "fmi": 4,
+    "desc": "Pressure sensor upstream turbine, signal range check (SRC) low",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523613,
+    "fmi": 0,
+    "desc": "Rail pressure metering unit, Positive governor deviation",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523613,
+    "fmi": 0,
+    "desc": "Rail pressure metering unit, Rail pressure disrupted.Maximum positive deviation of rail pressure exceeded",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523613,
+    "fmi": 1,
+    "desc": "Rail pressure metering unit, Minimum rail pressure exceeded (RailMeUn3)Negative deviation of rail pressure second stage (RailMeUn22)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523613,
+    "fmi": 0,
+    "desc": "Rail pressure metering unit, Maximum rail pressure exceeded",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523613,
+    "fmi": 2,
+    "desc": "Rail pressure metering unit, Setpoint of metering unit in overrun mode not plausible",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523613,
+    "fmi": 0,
+    "desc": "Setpoint of metering unit in overrun mode not plausible",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 157,
+    "fmi": 0,
+    "desc": "Rail pressure raw value is intermittent",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 157,
+    "fmi": 1,
+    "desc": "Rail pressure raw value is above maximum offset",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523470,
+    "fmi": 7,
+    "desc": "Maximum rail pressure exceeded (PRV)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523633,
+    "fmi": 11,
+    "desc": "Lonterm adaption factor below threshold",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523633,
+    "fmi": 11,
+    "desc": "Nox conversion rate insufficient (SCR-Cat defect, bad DEF quality)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 13234,
+    "fmi": 11,
+    "desc": "DFC for plausibility error Min for NOx sensor downstream of SCR Cat",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3224,
+    "fmi": 1,
+    "desc": "DFC for plausibility error Max for NOx sensor upstream of SCR Cat 4-14",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4343,
+    "fmi": 11,
+    "desc": "SCR Monitoring; Pressure stabilisation error, general pressure check error (SCR)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4374,
+    "fmi": 13,
+    "desc": "Pressure stabilisation error dosing valve (SCR)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523632,
+    "fmi": 16,
+    "desc": "Pump pressure SCR metering unit too high",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523632,
+    "fmi": 18,
+    "desc": "Pump pressure SCR metering unit too low",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523632,
+    "fmi": 0,
+    "desc": "Pressure overload of SCR-System",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523632,
+    "fmi": 1,
+    "desc": "Pressure build-up error SCR-System",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4365,
+    "fmi": 0,
+    "desc": "DEF tank temperature too high",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3361,
+    "fmi": 7,
+    "desc": "DEF dosing valve blocked (SCR)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523720,
+    "fmi": 2,
+    "desc": "DEF supply module heater temperature; plausibility error (normal condition)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523981,
+    "fmi": 11,
+    "desc": "SCR plausibility, OBD and diagnosis; Stuck in range check of DEF tank temperature sensorDEF-tank without heating function (heating phase)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523330,
+    "fmi": 14,
+    "desc": "Immobilizer status; fuel blocked",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523330,
+    "fmi": 14,
+    "desc": "DFC to block the fuel by Sia",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523330,
+    "fmi": 14,
+    "desc": "DFC to indicate that TEN-code or UC-code received if ECU is learned.",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523330,
+    "fmi": 14,
+    "desc": "DFC to indicate that no code is received via CAN.",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523330,
+    "fmi": 14,
+    "desc": "DFC to indicate that wrong code is received.",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523720,
+    "fmi": 8,
+    "desc": "DEF supply module heater temperature; duty cycle in failure range",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523721,
+    "fmi": 11,
+    "desc": "Urea supply module temperature measurement not available",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523722,
+    "fmi": 8,
+    "desc": "DEF supply module PWM signal; period outside valid range",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523722,
+    "fmi": 8,
+    "desc": "Detect faulty PWM signal from Supply Modul",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523721,
+    "fmi": 8,
+    "desc": "DEF supply module temperature; duty cycle in failure range",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523721,
+    "fmi": 8,
+    "desc": "Urea supply module temperature; duty cycle in invalid range",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 29,
+    "fmi": 3,
+    "desc": "Handthrottle idle validation switch; short circuit to battery",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 29,
+    "fmi": 4,
+    "desc": "Handthrottle; short circuit to ground",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1079,
+    "fmi": 13,
+    "desc": "Failure of sensor supply voltage",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 11080,
+    "fmi": 13,
+    "desc": "Failure of sensor supply voltage 2",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523601,
+    "fmi": 13,
+    "desc": "Failure of sensor supply voltage 3",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523580,
+    "fmi": 2,
+    "desc": "Data set variant with the desired number not foundInvalid variant dataset Identifier error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523580,
+    "fmi": 11,
+    "desc": "An error has occurred in the switch over to the desired data set variant in the code word.Variant dataset switching error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523580,
+    "fmi": 11,
+    "desc": "The code word could not be read correctly from the EEPROMVariant dataset switching error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 677,
+    "fmi": 3,
+    "desc": "Starter relay high side. Short circuit to battery",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 677,
+    "fmi": 4,
+    "desc": "Starter relay high side short circuit to ground",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 677,
+    "fmi": 5,
+    "desc": "Starter relay low side no load error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 677,
+    "fmi": 12,
+    "desc": "Starter relay powerstage over temperature",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 677,
+    "fmi": 3,
+    "desc": "Starter relay low side short circuit to battery",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 677,
+    "fmi": 4,
+    "desc": "Starter relay low side short circuit to ground",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523922,
+    "fmi": 3,
+    "desc": "Burner shut of valve; short circuit to battery",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 624,
+    "fmi": 5,
+    "desc": "SVS lamp; open load",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 624,
+    "fmi": 12,
+    "desc": "SVS lamp; powerstage over temperature",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 624,
+    "fmi": 3,
+    "desc": "SVS lamp; short circuit to battery",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 624,
+    "fmi": 4,
+    "desc": "SVS lamp; short circuit to ground",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523612,
+    "fmi": 14,
+    "desc": "Softwarereset CPU SWReset_0",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523612,
+    "fmi": 14,
+    "desc": "Softwarereset CPU SWReset_1",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523612,
+    "fmi": 14,
+    "desc": "Softwarereset CPU SWReset_",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 291,
+    "fmi": 11,
+    "desc": "Plausibility error between APP1 and APP2 or APP1 and idle switch",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 29,
+    "fmi": 2,
+    "desc": "Plausibility error between sensor and idle switch, Acceleration Pedal DetectionIn case of Hand Throttle with Low Idle Switch, it is the plausibility check between hand throttleand idle switch",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523550,
+    "fmi": 12,
+    "desc": "Terminal 50 was operated too long",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 172,
+    "fmi": 3,
+    "desc": "Air flow temperature sensor; short circuit to battery or open load",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 172,
+    "fmi": 4,
+    "desc": "Air flow temperature sensor; short circuit to ground",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523921,
+    "fmi": 0,
+    "desc": "Burner temperature, temperature above upper shutoff threshold 4-16",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523921,
+    "fmi": 1,
+    "desc": "Burner temperature, temperature below lower shutoff threshold",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 105,
+    "fmi": 1,
+    "desc": "Charged air cooler down stream temperature.Temperature below lower physical threshold",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 105,
+    "fmi": 3,
+    "desc": "Electrical error charged air temperature.Signal range check high.(SRC)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 105,
+    "fmi": 4,
+    "desc": "Electrical error charged air temperature.Signal range check low",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 105,
+    "fmi": 0,
+    "desc": "Charged air cooler temperature. System reaction initiated.High charged air cooler temperature. Warning threshold exceeded",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 105,
+    "fmi": 11,
+    "desc": "Diagnostic fault check for charged air cooler downstream temperature sensor.",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 412,
+    "fmi": 3,
+    "desc": "Electrical error EGR cooler downstream temperature. Signal range check high",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 412,
+    "fmi": 4,
+    "desc": "Electrical error EGR cooler downstream temperature. Signal range check low",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5673,
+    "fmi": 6,
+    "desc": "Actuator error EGR-Valve (2.9;3.6) or Throttle-Valve (4.1;6.1;7.8). Signal range check high",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 520521,
+    "fmi": 5,
+    "desc": "Actuator error EGR-Valve (2.9;3.6) or Throttle-Valve (4.1;6.1;7.8); signal range check low",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5763,
+    "fmi": 7,
+    "desc": "Actuator position for EGR-Valve (2.9;3.6) or Throttle-Valve (4.1;6.1;7.8) not plausible",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5763,
+    "fmi": 6,
+    "desc": "Actuator error EGR-Valve (2.9;3.6) or Throttle-Valve (4.1;6.1;7.8); signal range check high",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5763,
+    "fmi": 5,
+    "desc": "Actuator error EGR-Valve (2.9;3.6) or Throttle-Valve (4.1;6.1;7.8); signal range check low",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5763,
+    "fmi": 3,
+    "desc": "Position sensor error of actuator EGR-Valve (2.9;3.6) or Throttle-Valve (4.1;6.1;7.8).Signal range check high",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5763,
+    "fmi": 4,
+    "desc": "Position sensor error actuator EGR-Valve (2.9;3.6) or Throttle-Valve (4.1;6.1;7.8).Signal range check low",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4769,
+    "fmi": 2,
+    "desc": "Temperature downstream DOC, plausibility error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4766,
+    "fmi": 0,
+    "desc": "Temperature downstream DOC, temperature above upper shutoff threshold",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4768,
+    "fmi": 2,
+    "desc": "Temperature upstream DOC, plausibility error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4765,
+    "fmi": 0,
+    "desc": "Temperature upstream DOC, temperature above upper shutoff threshold",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4768,
+    "fmi": 3,
+    "desc": "Electrical error exhaust gas temperature upstream (DOC); signal range check high",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4768,
+    "fmi": 4,
+    "desc": "Electrical error exhaust gas temperature upstream (DOC); signal range check low",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4360,
+    "fmi": 0,
+    "desc": "Exhaust temperature upstream SCR-Cat, temperature above upper physical threshold",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4360,
+    "fmi": 1,
+    "desc": "Sensed exhaust temperature before SCR-Cat is < physical low limit",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4361,
+    "fmi": 2,
+    "desc": "Signal error for CAN message",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1761,
+    "fmi": 14,
+    "desc": "DEF tank level; ; ; warning threshold exceeded",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3361,
+    "fmi": 6,
+    "desc": "DEF dosing valve; power at the end of injection too high",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3361,
+    "fmi": 3,
+    "desc": "DEF dosing valve; short circuit to battery on low side",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3361,
+    "fmi": 4,
+    "desc": "Urea dosing valve; short circuit to ground or open load on low side",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3361,
+    "fmi": 4,
+    "desc": "DEF dosing valve; short circuit on high side",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4345,
+    "fmi": 5,
+    "desc": "SCR heater relay DEF returnline sekondary side; open load",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4366,
+    "fmi": 5,
+    "desc": "SCR main relay (secondary side): open load",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4343,
+    "fmi": 5,
+    "desc": "SCR heater relay DEF pressureline secondary side; open load",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4366,
+    "fmi": 5,
+    "desc": "SCR main relay (secondary side); Shortcut to battery",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4366,
+    "fmi": 5,
+    "desc": "SCR main relay (secondary side), heat relay (secondary side), heating elements or heating valveshort to ground",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4341,
+    "fmi": 5,
+    "desc": "SCR heater relay DEF supplyline secondary side; open load",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523719,
+    "fmi": 5,
+    "desc": "SCR heater relay DEF supply modul secondary side; open load",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4366,
+    "fmi": 5,
+    "desc": "SCR Tank heating valve secundary side: open load",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4243,
+    "fmi": 11,
+    "desc": "SCR heater; Pressure line heater error and temperature condition to perform an afterrun (Grouperror diagnosis heater)SCR system heater diagnostic reports error; shut off SCR-system",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4345,
+    "fmi": 5,
+    "desc": "SCR heater relay DEF returnline primary side; open load",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4345,
+    "fmi": 12,
+    "desc": "Over Temperature error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4345,
+    "fmi": 3,
+    "desc": "SCR heater DEF returnline; short circuit to battery",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4345,
+    "fmi": 4,
+    "desc": "SCR heater DEF returnline; short circuit to ground",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4343,
+    "fmi": 5,
+    "desc": "SCR heater relay DEF pressureline primary side; open load",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4343,
+    "fmi": 12,
+    "desc": "Over Temperature error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4343,
+    "fmi": 3,
+    "desc": "SCR heater DEF pressureline; short circuit to battery",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4343,
+    "fmi": 4,
+    "desc": "SCR heater DEF pressureline; short circuit to ground",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523718,
+    "fmi": 5,
+    "desc": "SCR main relay (primary side); open load 4-18",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523718,
+    "fmi": 12,
+    "desc": "SCR main relay (primary side); powerstage over temperature",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523718,
+    "fmi": 3,
+    "desc": "SCR main relay (primary side); short circuit to battery",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523718,
+    "fmi": 4,
+    "desc": "SCR main relay (primary side); short circuit to ground",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4341,
+    "fmi": 5,
+    "desc": "SCR heater relay DEF supply line primary side; open load",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4341,
+    "fmi": 3,
+    "desc": "SCR-heater DEF supplyline; short circuit to battery",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4341,
+    "fmi": 4,
+    "desc": "SCR-heater DEF supply line; short circuit to ground",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523719,
+    "fmi": 5,
+    "desc": "SCR heater relay DEF supplymodule primary side; open load523719 12 ÜbertemperaturOver Temperature errorDetailinformationen fehlen!",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523719,
+    "fmi": 3,
+    "desc": "SCR heater DEF supplymodule; short circuit to battery",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523719,
+    "fmi": 4,
+    "desc": "SCR heater DEF supplymodule; short circuit to ground",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4366,
+    "fmi": 5,
+    "desc": "SCR tank heating valve primary side; open load",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4366,
+    "fmi": 12,
+    "desc": "SCR-heater relay urea tank powerstage output; over temperature",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4366,
+    "fmi": 3,
+    "desc": "SCR Tank heating valve; short circuit to battery",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4366,
+    "fmi": 4,
+    "desc": "SCR Tank heating valve; short circuit to ground",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523632,
+    "fmi": 11,
+    "desc": "Pump motor not available for actuation",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4375,
+    "fmi": 5,
+    "desc": "Urea pump motor; open load",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4375,
+    "fmi": 3,
+    "desc": "Urea pump motor; short circuit to battery",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4375,
+    "fmi": 4,
+    "desc": "Urea pump motor; short circuit to ground",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4334,
+    "fmi": 0,
+    "desc": "Supply module DEF, DEF pressure above upper physical threshold",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4334,
+    "fmi": 1,
+    "desc": "Urea supply module pressure sensor; physical range check low (defect pressure sensor)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4334,
+    "fmi": 0,
+    "desc": "Urea pump pressure sensor; high signal not plausible",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4334,
+    "fmi": 1,
+    "desc": "Urea pump pressure sensor; low signal not plausible",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523632,
+    "fmi": 2,
+    "desc": "Signal error for CAN message",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4376,
+    "fmi": 5,
+    "desc": "SCR reversal valve; open load",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4376,
+    "fmi": 12,
+    "desc": "SCR reversing valve; over temperature",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4376,
+    "fmi": 3,
+    "desc": "SCR reversal valve; short circuit to battery",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4376,
+    "fmi": 4,
+    "desc": "SCR reversing valve; short circuit to ground",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3031,
+    "fmi": 0,
+    "desc": "DEF tank, DEF temperature in DEF tank is to high",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3031,
+    "fmi": 1,
+    "desc": "DEF tank, DEF temperature below lower physical threshold",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4365,
+    "fmi": 2,
+    "desc": "Tank temperature signal error for CAN message",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 97,
+    "fmi": 12,
+    "desc": "Water in fuel level prefilter; maximum value exceeded",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523946,
+    "fmi": 0,
+    "desc": "Zerofuel calibration injector 1 (in firing order); maximum value exceeded",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523947,
+    "fmi": 0,
+    "desc": "Zerofuel calibration injector 2 (in firing order); maximum value exceeded",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523948,
+    "fmi": 0,
+    "desc": "Zerofuel calibration injector 3 (in firing order); maximum value exceeded",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523949,
+    "fmi": 0,
+    "desc": "Zerofuel calibration injector 4 (in firing order); maximum value exceeded",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523950,
+    "fmi": 0,
+    "desc": "Zerofuel calibration injector 5 (in firing order); maximum value exceeded",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523951,
+    "fmi": 0,
+    "desc": "Zerofuel calibration injector 6 (in firing order); maximum value exceeded",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523946,
+    "fmi": 1,
+    "desc": "Zerofuel calibration injector 1 (in firing order); minimum value exceeded",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523947,
+    "fmi": 1,
+    "desc": "Zerofuel calibration injector 2 (in firing order); minimum value exceeded",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523948,
+    "fmi": 1,
+    "desc": "Zerofuel calibration injector 3 (in firing order); minimum value exceeded",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523949,
+    "fmi": 1,
+    "desc": "Zerofuel calibration injector 4 (in firing order); minimum value exceeded",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523950,
+    "fmi": 1,
+    "desc": "Zerofuel calibration injector 5 (in firing order); minimum value exceeded",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523612,
+    "fmi": 12,
+    "desc": "Internal software error ECU",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 175,
+    "fmi": 2,
+    "desc": "Customer oiltemperature: signal unplausible",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523973,
+    "fmi": 14,
+    "desc": "SCR Tamper detection; derating timer below limit 1",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523974,
+    "fmi": 14,
+    "desc": "SCR Tamper detection; derating timer below limit 2",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523975,
+    "fmi": 14,
+    "desc": "Urea quality; derating timer below limit 1",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523976,
+    "fmi": 14,
+    "desc": "Urea qulaity; derating timer below limit 2",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523977,
+    "fmi": 14,
+    "desc": "Urea tank level; derating timer below limit 1",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523978,
+    "fmi": 14,
+    "desc": "Urea tank level; derating timer below limit",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2168,
+    "fmi": 0,
+    "desc": "Physikal range check high for battery voltage",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 168,
+    "fmi": 1,
+    "desc": "Physikal range check low for battery voltage",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 172,
+    "fmi": 1,
+    "desc": "Air inlet filter sensor out of physical range check",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524018,
+    "fmi": 14,
+    "desc": "HMI engine derate service state DPF wasn´t regenerated, power reduction phase 1 (manuellregeneration request)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524022,
+    "fmi": 14,
+    "desc": "DPF wasn´t regenerated, power reduction phase 2 (manuell regeneration request)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 190,
+    "fmi": 14,
+    "desc": "Camshaft- and Crankshaft speed sensor signal not available on CAN",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5763,
+    "fmi": 5,
+    "desc": "Actuator EGR-Valve (2.9;3.6) or Throttle-Valve (4.1;6.1;7.8); open load",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5763,
+    "fmi": 6,
+    "desc": "Actuator EGR-Valve (2.9;3.6) or Throttle-Valve (6.1,7.8); over current",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5763,
+    "fmi": 3,
+    "desc": "EGR-Valve (2.9;3.6) or Throttle-Valve (4.1;6.1;7.8); short circuit to battery",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5763,
+    "fmi": 4,
+    "desc": "EGR-Valve (2.9;3.6) or Throttle-Valve (4.1;6.1;7.8); short circuit to ground",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5763,
+    "fmi": 11,
+    "desc": "Power stage overtemperature due to high current",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5763,
+    "fmi": 4,
+    "desc": "Actuator AGR valve (2.9;3.6) throttle valve (4.1;6.1;7.8);Voltage below threshold",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523984,
+    "fmi": 3,
+    "desc": "UB7; Short circuit to battery error of actuator relay 6",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523986,
+    "fmi": 4,
+    "desc": "Relais SCR-Heater, Short Circuit to Ground (Highside Control side)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523987,
+    "fmi": 4,
+    "desc": "UB6; Short circuit to ground actuator relay 6",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524019,
+    "fmi": 11,
+    "desc": "Burner Control; Air Line - BlockedAir Pump; air lines blocked",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523910,
+    "fmi": 9,
+    "desc": "Burner Control; Air Pump - CAN LostAir Pump; CAN communication lost",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523910,
+    "fmi": 7,
+    "desc": "Air pump; CAN communication interrupted no purge function available",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523910,
+    "fmi": 12,
+    "desc": "Air Pump; internal error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523910,
+    "fmi": 0,
+    "desc": "Air Pump; operating voltage error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524014,
+    "fmi": 1,
+    "desc": "Air inlet EPV - pressure too lowAir pressure glow plug flush line; below limit",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524013,
+    "fmi": 7,
+    "desc": "Burner Control; Flame lost maxBurner operation is interrupted too often",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523915,
+    "fmi": 7,
+    "desc": "HCI dosing valve (DV1); blocked open",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524016,
+    "fmi": 11,
+    "desc": "Burner Control; HFM - Electrical FaultHFM sensor; electrical fault",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524016,
+    "fmi": 2,
+    "desc": "Burner Control; HFM - Plausibilitätsfehler 1Amount of air is not plausible to pump speed",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523910,
+    "fmi": 6,
+    "desc": "Burner Control Air Pump; over currentAir pump electrically overloaded",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523922,
+    "fmi": 7,
+    "desc": "Burner Control; Shut-off Valve - Blocked closedBurner Shut Off Valve; blocked closed",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524021,
+    "fmi": 11,
+    "desc": "Burner Control; Fuel line ShutOff downstream - brokenBurner fuel line pipe leak behind Shut Off Valve",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523922,
+    "fmi": 7,
+    "desc": "Burner Shut Off Valve; blocked open523993 9",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524038,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Receive-Frame ComMS_Sys1TO (error memory Slave); Master-Slaveinternal CAN message",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524039,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Receive-Frame ComMS_Sys2TO (error memory Slave); Master-Slaveinternal CAN message",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524040,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Receive-Frame ComMS_Sys3TO (error memory Slave); Master-Slaveinternal CAN message",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524041,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Receive-Frame ComMS_Sys4TO (error memory Slave); Master-Slaveinternal CAN message",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524042,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Receive-Frame ComMS_Sys5TO (error memory Slave); Master-Slaveinternal CAN message",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524043,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Receive-Frame ComMS_Sys6TO (error memory Slave); Master-Slaveinternal CAN message",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524045,
+    "fmi": 9,
+    "desc": "Master Slave, Error of message counter CAN receive message ComMSMoFOvR;ComMSMoFOvR1CNT",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524046,
+    "fmi": 9,
+    "desc": "Master-Slave CAN; Error Checksum of CAN-Receive Message",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524047,
+    "fmi": 9,
+    "desc": "Master-Slave CAN; Error of message length of CAN receive message ComMSMoFOvR;_ComMSMoFOvR1DLC",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524048,
+    "fmi": 9,
+    "desc": "Timeout error CAN message ComMSMoFOvR1TO error memory Slave",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523788,
+    "fmi": 0,
+    "desc": "Wastegate plauisibility error off CAN transmit message",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523788,
+    "fmi": 0,
+    "desc": "Timeout Error of CAN-Receive-Frame ComTrbChActr; Wastegate",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524024,
+    "fmi": 11,
+    "desc": "Deviation of the exhaust gas temperature setpoint to actual value downstream (DOC) too high",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523995,
+    "fmi": 13,
+    "desc": "Check of missing injector adjustment value programming (IMA) injector 7 (in firing order)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523996,
+    "fmi": 13,
+    "desc": "Check of missing injector adjustment value programming (IMA) injector 8 (in firing order)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523996,
+    "fmi": 4,
+    "desc": "Injector cylinder bank 1 slave; short circuit",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523998,
+    "fmi": 4,
+    "desc": "Injector cylinder bank 2 slave; short circuit",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523999,
+    "fmi": 12,
+    "desc": "Injector powerstage output Slave defect",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524000,
+    "fmi": 5,
+    "desc": "Injector 7 (in firing order); interruption of electric connection",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524001,
+    "fmi": 5,
+    "desc": "Injector 8 (in firing order); interruption of electric connection",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524000,
+    "fmi": 3,
+    "desc": "Injector 7 (in firing order); short circuit",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524001,
+    "fmi": 3,
+    "desc": "Injector 8 (in firing order); short circuit",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2797,
+    "fmi": 4,
+    "desc": "Timeout of Short-Circuit Ground Diagnosis Cyl. Bank 0;_IVDiaShCirGndToutBnk_",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2798,
+    "fmi": 4,
+    "desc": "Timeout of Short-Circuit Ground Diagnosis Cyl. Bank 1;_IVDiaShCirGndToutBnk_",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 12797,
+    "fmi": 4,
+    "desc": "Injector diagnostic; Short circuit to ground cylinder bank",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2798,
+    "fmi": 4,
+    "desc": "Injector diagnostic; Short circuit to ground cylinder bank 1",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524035,
+    "fmi": 12,
+    "desc": "Injector diagnostics; time out error in the SPI communication",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524036,
+    "fmi": 12,
+    "desc": "Injector diagnostics Slave; time out error in the SPI communication",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524069,
+    "fmi": 9,
+    "desc": "Timeout Error of CAN-Receive-Frame MSMon_FidFCCTO;Master-Slave CAN communication faulty",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524052,
+    "fmi": 11,
+    "desc": "Error memory Slave reports FID MSMonFC2 (collective error)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524052,
+    "fmi": 11,
+    "desc": "Error memory Slave reports FID MSMonFC3 (collective error)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 164,
+    "fmi": 2,
+    "desc": "Rail pressure safety function is not executed correctly",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523922,
+    "fmi": 5,
+    "desc": "Burner Shut Off Valve; open load 4-22",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523922,
+    "fmi": 12,
+    "desc": "Burner Shut Off Valve; powerstage over temperature",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523922,
+    "fmi": 4,
+    "desc": "Burner Shut Off Valve; short circuit to ground",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523921,
+    "fmi": 2,
+    "desc": "Burner temperature sensor; Plausibility Check for burner temperature sensorSensor burner temperature; plausibility error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1188,
+    "fmi": 11,
+    "desc": "Wastegate actuator; internal error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1188,
+    "fmi": 11,
+    "desc": "Wastegate actuator; EOL calibration not performed correctly",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1188,
+    "fmi": 13,
+    "desc": "Wastegate actuator calibration deviation too large, recalibration required",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1188,
+    "fmi": 2,
+    "desc": "Wastegate; status message from ECU missing",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1188,
+    "fmi": 7,
+    "desc": "Wastegate actuator; blocked",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1188,
+    "fmi": 11,
+    "desc": "Wastegate actuator; over temperature (> 135°C)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1188,
+    "fmi": 11,
+    "desc": "Wastegate actuator; operating voltage error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5763,
+    "fmi": 0,
+    "desc": "Warning threshold for an internal actuator error exceeded, < 4L EGR.actuator und >4L Air IntakeFlap",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5763,
+    "fmi": 1,
+    "desc": "Shut off threshold for an internal actuator error exceeded, < 4L EGR.actuator und >4L Air IntakeFlap",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 172,
+    "fmi": 0,
+    "desc": "Air temperature within air filter box above maximum physical value",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524028,
+    "fmi": 2,
+    "desc": "CAN message PROEGRActr; plausibility error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524029,
+    "fmi": 2,
+    "desc": "Timeout Error of CAN-Receive-Frame ComEGRActr - exhaust gas recirculation positioner",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524034,
+    "fmi": 5,
+    "desc": "Disc Separator; open load",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524034,
+    "fmi": 12,
+    "desc": "Disc Separator; powerstage over temperature",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524034,
+    "fmi": 3,
+    "desc": "Disc separator; short circuit to battery",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524034,
+    "fmi": 4,
+    "desc": "Disc separator; short circuit to ground",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524030,
+    "fmi": 7,
+    "desc": "EGR actuator; internal error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524031,
+    "fmi": 13,
+    "desc": "EGR actuator, calibration error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524032,
+    "fmi": 2,
+    "desc": "EGR actuator; status message \"EGRCust\" is missing",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524033,
+    "fmi": 7,
+    "desc": "EGR actuator; due to overload in Save Mode",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3711,
+    "fmi": 12,
+    "desc": "Temperature during stand-still main phase too low or too high",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524025,
+    "fmi": 5,
+    "desc": "DPF system; operating voltage error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524044,
+    "fmi": 9,
+    "desc": "CAN message ComMS_Sys7 not received from slave",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524068,
+    "fmi": 2,
+    "desc": "Master ECU and Slave ECU have been identified as the same types",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524052,
+    "fmi": 11,
+    "desc": "Master ECU and Slave ECU data sets or software are not identical",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523718,
+    "fmi": 5,
+    "desc": "SCR mainrelay; open load (only CV56B)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523718,
+    "fmi": 3,
+    "desc": "SCR mainrelay; short circuit to battery (only CV56B)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523718,
+    "fmi": 4,
+    "desc": "SCR mainrelay; short circuit to ground (only CV56B)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4376,
+    "fmi": 5,
+    "desc": "SCR reverting valve; open load",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524057,
+    "fmi": 2,
+    "desc": "Electric fuel pump; fuel pressure build up error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2659,
+    "fmi": 2,
+    "desc": "Exhaust Gas Recirculation AGS Sensor; signal not plausible",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2659,
+    "fmi": 0,
+    "desc": "Exhaust Gas Recirculation AGS Sensor; Sensed exhaust mass value above maximum physicalvalue",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2659,
+    "fmi": 1,
+    "desc": "Exhaust Gas Recirculation AGS Sensor; Sensed exhaust mass value below miniimum physicalvalue",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2659,
+    "fmi": 12,
+    "desc": "Exhaust Gas Recirculation AGS Sensor; plausibility error, AGS sensor has not passed the burnoff process",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2659,
+    "fmi": 2,
+    "desc": "Exhaust Gas Recirculation AGS Sensor; Temperature of EGR mass not plausible524070 2 (Upstream NOx-Sensor) Diagnostic Fault Check for invalid upstream NOx value (Sensor selfdiagnostic DFC set by Deutz-SW)NOx-Sensor before SCR-Cat: Invalid upstream NOx valu",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524074,
+    "fmi": 9,
+    "desc": "NOx sensor downstream SCR-CAT, sensor internally open load",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524075,
+    "fmi": 11,
+    "desc": "NOx sensor downstream SCR-CAT, sensor internally short circuit",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524076,
+    "fmi": 9,
+    "desc": "NOx sensor upstream SCR-CAT, sensor internally open line",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524077,
+    "fmi": 11,
+    "desc": "NOx sensor upstream SCR-CAT, sensor internally short circuit",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524078,
+    "fmi": 9,
+    "desc": "NOx sensor downstream SCR-CAT, lambda value above upper physical threshold",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524079,
+    "fmi": 9,
+    "desc": "NOx sensor downstream SCR-CAT, lambda value below lower physical threshold",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524080,
+    "fmi": 9,
+    "desc": "NOx sensor upstream SCR-CAT, lambda value above upper physical threshold",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524081,
+    "fmi": 9,
+    "desc": "NOx sensor upstream SCR-CAT, lambda value below lower physical threshold524082 9 (Downstream NOx-Sensor) Diagnostic Fault Check for downstream NOx value over maximumlimit (DFC set by Deutz-SW)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524083,
+    "fmi": 9,
+    "desc": "NOx-Sensor downstream SCR-CAT, NOx value below minimum value",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524084,
+    "fmi": 9,
+    "desc": "NOx-Sensor upstream SCR-CAT, NOx value above maximum value",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524085,
+    "fmi": 9,
+    "desc": "NOx sensor upstream SCR-CAT, NOx value below lower physical threshold",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524149,
+    "fmi": 2,
+    "desc": "Plausibility error between pressure downstream turbine (PTrbnDs) and ambient air pressure(EnvP) 4-24",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524063,
+    "fmi": 5,
+    "desc": "SCR heater return line; open load",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524063,
+    "fmi": 5,
+    "desc": "SCR main relay not connected",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524063,
+    "fmi": 5,
+    "desc": "SCR heater pressureline; open load",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524063,
+    "fmi": 3,
+    "desc": "SCR heater mainrelay; short circuit to battery",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524063,
+    "fmi": 4,
+    "desc": "SCR heater main relay load side (K31) on heating valve (Y31), Short cut to ground",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524063,
+    "fmi": 5,
+    "desc": "SCR relay for suction line not connected",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524063,
+    "fmi": 5,
+    "desc": "SCR heater supply module; open load",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524063,
+    "fmi": 5,
+    "desc": "SCR heater tank; open load",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524065,
+    "fmi": 0,
+    "desc": "Pressure sensor upstream SCR-CAT, pressure above upper physical threshold",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524065,
+    "fmi": 1,
+    "desc": "Pressure sensor upstream SCR-CAT, pressure below lower physical threshold",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524065,
+    "fmi": 3,
+    "desc": "Pressure sensor upstream SCR-CAT; short circuit battery or open load",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524065,
+    "fmi": 4,
+    "desc": "Pressure sensor upstream SCR-CAT; short circuit ground",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524066,
+    "fmi": 3,
+    "desc": "SCR measurement heater output stage; short circuit battery or open load",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524067,
+    "fmi": 0,
+    "desc": "DEF supply module, heater temperature above upper physical threshold",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524067,
+    "fmi": 1,
+    "desc": "DEF supply module, heater temperature below lower physical threshold",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524067,
+    "fmi": 0,
+    "desc": "DEF supply module, temperature above upper physical threshold",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524067,
+    "fmi": 1,
+    "desc": "DEF supply module, temperature below lower physical threshold",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1761,
+    "fmi": 0,
+    "desc": "DEF tank, DEF level above upper physical threshold",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1761,
+    "fmi": 1,
+    "desc": "DEF tank, DEF level below lower physical threshold",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524149,
+    "fmi": 2,
+    "desc": "Pressure downstream turbine, plausibility error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524065,
+    "fmi": 2,
+    "desc": "Pressure sensor upstream SCR-CAT, plausibility error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3699,
+    "fmi": 2,
+    "desc": "Passive regeneration of DPF; plausibility errorDPF differential pressure sensor and a further sensor or actuator CRT system defective",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3699,
+    "fmi": 2,
+    "desc": "Passive regeneration of DPF; DOC errorTemperature sensor us. and ds. DOC simultaneously defect",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524087,
+    "fmi": 5,
+    "desc": "Urea Error Lamp; open load",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524087,
+    "fmi": 12,
+    "desc": "Urea Error Lamp; temperatur over limit",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524087,
+    "fmi": 3,
+    "desc": "Urea Error Lamp; short circuit battery",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524087,
+    "fmi": 4,
+    "desc": "Urea Error Lamp; short circuit ground",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524132,
+    "fmi": 2,
+    "desc": "Fuel low pressure upstream fuel low pressure pump not plausible",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524132,
+    "fmi": 0,
+    "desc": "Fuel low pressure upstream fuel low pressure pump, pressure above maximum warningthreshold",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524132,
+    "fmi": 1,
+    "desc": "Fuel low pressure upstream fuel low pressure pump, pressure below minimum ; ; shut off threshold",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3699,
+    "fmi": 0,
+    "desc": "Maximum standstill time reached; oil exchange request ignored",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524147,
+    "fmi": 13,
+    "desc": "SCR System,pressure build up not possible",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524063,
+    "fmi": 12,
+    "desc": "DEF supply modul, time for defrosting too long",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524063,
+    "fmi": 12,
+    "desc": "DEF tank, time for defrosting too long",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1716,
+    "fmi": 14,
+    "desc": "Urea Tank Signal to HMI for indicating the Urea Tank-Level (Urea tank volume ratio low threshold1)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1716,
+    "fmi": 14,
+    "desc": "DEF tank, DEF level below first ; ; warning threshold",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1716,
+    "fmi": 14,
+    "desc": "DEF tank, DEF level below second ; ; warning threshold",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524096,
+    "fmi": 14,
+    "desc": "Control of the SCR system; If the start stop counter (EPA-Counter) exceeds the thresholdSCRCtl_ctEngStrtStopThresh_C. This counter will increment only once in each driving cyclein case of an SCR error. If the counter reaches the threshold, the DFC will be",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524114,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Transmit-Frame A1DOC",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524115,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Transmit-Frame AT1S",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524116,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Transmit-Frame SCR2",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524117,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Transmit-Frame SCR3",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524097,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Transmit-Frame DPFBrnAirPmpCtl",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524098,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Transmit-Frame ComDPFBrnPT",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524099,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Transmit-Frame ComDPFC1",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524100,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Transmit-Frame ComDPFHisDat",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524101,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Transmit-Frame ComDPFTstMon",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524105,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Transmit-Frame ComEGRMsFlw",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524108,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Transmit-Frame ComEGRTVActr",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524110,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Transmit-Frame ComETVActrTO",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524112,
+    "fmi": 9,
+    "desc": "Timeout ComIntake Throttle Valve Actr",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524118,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Receive-Frame ComRxCM1",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524119,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Receive-Frame ComRxCustSCR3",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524102,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Receive-Frame ComRxDPFBrnAirPmpCtl",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524103,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Receive-Frame ComRxDPFBrnAirPmp",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524104,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Receive-Frame ComRxDPFCtl",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524106,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Receive-Frame ComRxEGRMsFlw1",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524107,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Receive-Frame ComRxEGRMsFlw2",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524109,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Receive-Frame ComRxEGRTVActr",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524111,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Receive-Frame ComRxETVActr",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524113,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Receive-Frame ComRxITVActr",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524120,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Receive-Frame ComRxSCRHtDiag",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524121,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Receive-Frame ComRxTrbChActr 4-26",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524122,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Receive-Frame ComRxUQSens",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524123,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Receive-Frame ComSCRHtCtl",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524124,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Receive-Frame ComTxAT1IMG",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524125,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Receive-Frame ComTxTrbChActr",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524133,
+    "fmi": 2,
+    "desc": "HMI system; set if restore button blocked",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524134,
+    "fmi": 0,
+    "desc": "DPF, ash load exceeds the shutoff threshold",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524134,
+    "fmi": 0,
+    "desc": "DPF, ash load exceeds the ; ; warning threshold",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524135,
+    "fmi": 0,
+    "desc": "DPF, soot load exceeds the shutoff threshold",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524135,
+    "fmi": 14,
+    "desc": "DPF, soot load exceeds the service request threshold",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524135,
+    "fmi": 0,
+    "desc": "DPF, soot load exceeds the ; ; warning threshold",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524156,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Receive-Frame ComRxEBC",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 22791,
+    "fmi": 7,
+    "desc": "EGR actuator, actuator blocked",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2791,
+    "fmi": 2,
+    "desc": "EGR actuator, CAN error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2791,
+    "fmi": 13,
+    "desc": "EGR actuator, EOL calibration error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2791,
+    "fmi": 12,
+    "desc": "EGR actuator, internal electrical fault",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2791,
+    "fmi": 13,
+    "desc": "EGR actuator, learning process aborted",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2791,
+    "fmi": 6,
+    "desc": "EGR actuator current is above maximum threshold",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2791,
+    "fmi": 3,
+    "desc": "EGR actuator supply voltage is above the maximum threshold",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2791,
+    "fmi": 4,
+    "desc": "EGR actuator supply voltage is below minimum threshold",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2791,
+    "fmi": 13,
+    "desc": "EGR actuator, learning process out of range",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2791,
+    "fmi": 7,
+    "desc": "EGR actuator, broken spring detected",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2791,
+    "fmi": 16,
+    "desc": "EGR actuator, temperature high",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2791,
+    "fmi": 0,
+    "desc": "EGR actuator, temperature critical high",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1188,
+    "fmi": 7,
+    "desc": "Turbocharger wastegate, mechanical blocking detected",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1188,
+    "fmi": 2,
+    "desc": "Turbocharger wastegate, CAN Error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1188,
+    "fmi": 13,
+    "desc": "Turbocharger wastegate, EOL calibration error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1188,
+    "fmi": 12,
+    "desc": "Turbocharger wastegate, internal electrical error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1188,
+    "fmi": 13,
+    "desc": "Turbocharger wastegate, learning process aborted",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1188,
+    "fmi": 6,
+    "desc": "Turbocharger wastegate, current above maximum threshold",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1188,
+    "fmi": 3,
+    "desc": "Turbocharger wastegate, supply voltage above maximum threshold",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1188,
+    "fmi": 4,
+    "desc": "Turbocharger wastegate, supply voltage below minimum threshold",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1188,
+    "fmi": 7,
+    "desc": "Turbocharger wastegate, broken spring detected",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1188,
+    "fmi": 0,
+    "desc": "Turbocharger wastegate, temperature critical high",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524141,
+    "fmi": 7,
+    "desc": "DEF dosing valve, dosing valve blocked",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523612,
+    "fmi": 12,
+    "desc": "Engine starter, plausibility error of starter release condition",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524147,
+    "fmi": 7,
+    "desc": "SCR-System, reverting valve blocked",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524175,
+    "fmi": 0,
+    "desc": "SCR-CAT, Nox emissions above maximum threshold",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524074,
+    "fmi": 2,
+    "desc": "NOx-Sensor after SCR-Cat: Nox-Sensor dew point problem or plausibility problem",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524076,
+    "fmi": 2,
+    "desc": "NOx-Sensor before SCR-Cat: Nox-Sensor dew point problem or plausibility problem",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524177,
+    "fmi": 7,
+    "desc": "SCR System, DEF suction line blocked",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524178,
+    "fmi": 7,
+    "desc": "SCR System, DEF pressure out of range",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4360,
+    "fmi": 2,
+    "desc": "Exhaust temperature sensor upstream SCR, plausibility error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4334,
+    "fmi": 2,
+    "desc": "DEF supply module pressure, plausibility error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524067,
+    "fmi": 2,
+    "desc": "Supply module heater temperature, plausibility error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524067,
+    "fmi": 2,
+    "desc": "Supply module temperature, plausibility error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1761,
+    "fmi": 2,
+    "desc": "DEF tank level, plausibility error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3031,
+    "fmi": 2,
+    "desc": "Urea tank temperature outside of plausible thresholds",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524152,
+    "fmi": 2,
+    "desc": "Urea Quality Sensor; Timeout CAN message",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524153,
+    "fmi": 2,
+    "desc": "Urea tank level & urea tank temperature via CAN bus, timeout of CAN message",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1761,
+    "fmi": 14,
+    "desc": "DEF tank, DEF level below third ; ; warning threshold",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4768,
+    "fmi": 2,
+    "desc": "Exhaust gas temperature sensors up- and downstream DOC are physically swapped",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524025,
+    "fmi": 14,
+    "desc": "The standstill-regeneration mode time exceeds the long-limit.Vehicle was too long or too often in standstill mode.Make oil change and reset counter",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524189,
+    "fmi": 9,
+    "desc": "Master / Slave Can disturbed",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524190,
+    "fmi": 14,
+    "desc": "Inducement level 1 activ",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524191,
+    "fmi": 14,
+    "desc": "Inducement level 2 activ",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524193,
+    "fmi": 8,
+    "desc": "The standstill-regeneration mode time exceeds the long limit threshold.Vehicle was too long or too often in standstill mode.Change oil and reset counter",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524194,
+    "fmi": 8,
+    "desc": "The standstill-regeneration mode time exceeds the short-limit.Vehicle was too long or too often within a short time in standstill mode.Change oil and reset counter.",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3519,
+    "fmi": 12,
+    "desc": "DEF tank temperature, temperature too high",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3520,
+    "fmi": 3,
+    "desc": "DEF quality sensor, short circuit to battery or open load",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3520,
+    "fmi": 4,
+    "desc": "DEF quality sensor, short circuit to ground",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3519,
+    "fmi": 3,
+    "desc": "DEF quality sensor, internal temperature sensor short circuit to battery or open load",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3519,
+    "fmi": 4,
+    "desc": "DEF quality sensor, internal temperature sensor short circuit to ground",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524195,
+    "fmi": 14,
+    "desc": "Standstill request due to crystalisation ignored too long",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524196,
+    "fmi": 13,
+    "desc": "Variant handling, address error 4-28",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524196,
+    "fmi": 2,
+    "desc": "Variant handling, Synchronisation error",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3520,
+    "fmi": 2,
+    "desc": "DEF quality seonsor, bad DEF quality detected or no DEF measuring possible",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3520,
+    "fmi": 13,
+    "desc": "Urea quality at UQS invalid",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3519,
+    "fmi": 13,
+    "desc": "Temperature at UQS invalid",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3532,
+    "fmi": 3,
+    "desc": "The DEF Level at UQS out of max. physical range",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3532,
+    "fmi": 4,
+    "desc": "Quality at UQS out of min. physical range",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4365,
+    "fmi": 3,
+    "desc": "DEF qualitysensor, tank temperatur; Short circuit to battery or open load",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4365,
+    "fmi": 4,
+    "desc": "DEF qualitysensor, tank temperatur; Short circuit to ground",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3936,
+    "fmi": 14,
+    "desc": "Standstill request ignored too long",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3936,
+    "fmi": 14,
+    "desc": "Standstill time based escalation requests Inducement step",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 251,
+    "fmi": 5,
+    "desc": "Intake Throttle Flap, H-Bridge, wiring harness broken at connected actuator",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 51,
+    "fmi": 6,
+    "desc": "Intake Throttle Flap, H-Bridge, current above maximum threshold",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 51,
+    "fmi": 3,
+    "desc": "Intake Throttle Flap, H-Bridge, short circuit to battery (A02)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 51,
+    "fmi": 4,
+    "desc": "Intake Throttle Flap, H-Bridge, short circuit to ground (A02)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 51,
+    "fmi": 7,
+    "desc": "Intake Throttle Flap, H-Bridge, position of actuator not plausible (deviation from setpoint morethan 7%)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524202,
+    "fmi": 11,
+    "desc": "SCR error code in master ECU active",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524203,
+    "fmi": 11,
+    "desc": "DEF tank level failure is in master ECU active",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524204,
+    "fmi": 11,
+    "desc": "SCR afterrun failure is in master ECU active",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524205,
+    "fmi": 11,
+    "desc": "SCR Co2Off failure is in master ECU active",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524206,
+    "fmi": 11,
+    "desc": "SCR disable DEF dosing failure is in master ECU active",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524230,
+    "fmi": 11,
+    "desc": "Inducement HW Failure Slave",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524231,
+    "fmi": 11,
+    "desc": "Inducement SCR Tamp. Slave",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524232,
+    "fmi": 11,
+    "desc": "Inducement DEF Qualitity in Slave ECU",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524239,
+    "fmi": 11,
+    "desc": "SCR regeneration failure is in slave ECU active",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524248,
+    "fmi": 11,
+    "desc": "NOX sensor downstream error in slave ECU",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524249,
+    "fmi": 11,
+    "desc": "DEF dosing valve error in slave ECU",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524251,
+    "fmi": 11,
+    "desc": "DEF pressure problems in slave ECU",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524252,
+    "fmi": 11,
+    "desc": "Reverting valve error in slave ECU",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524253,
+    "fmi": 11,
+    "desc": "DEF back flow line heater error on slave ECU",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524254,
+    "fmi": 11,
+    "desc": "Error NOx-Tailpipe emissions exceeded on Slave ECU",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524255,
+    "fmi": 11,
+    "desc": "DEF suction line heater error on slave ECU",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524256,
+    "fmi": 11,
+    "desc": "DEF supply module heater error on slave ECU",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524257,
+    "fmi": 11,
+    "desc": "Error Exhaust pressure upstream SCR on Slave ECU",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524258,
+    "fmi": 11,
+    "desc": "Error Exhaust temperature upstream SCR on Slave ECU",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524259,
+    "fmi": 11,
+    "desc": "DEF pressure line heater error on slave ECU",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524260,
+    "fmi": 11,
+    "desc": "Error Urea pump temperature on Slave ECU",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524261,
+    "fmi": 11,
+    "desc": "Error DEF heater relais on Slave ECU",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524266,
+    "fmi": 14,
+    "desc": "Announcement triggers the Inducement Level 2",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524267,
+    "fmi": 14,
+    "desc": "Max. launch time for stand still exceeded (60min)",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4171,
+    "fmi": 2,
+    "desc": "Dynamic temperatur check of temp before SCR",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524147,
+    "fmi": 13,
+    "desc": "Set together with DFC_SCRCoBldUpLoPres.DFC_SCRCoBldUpLoPresRst is only used for inducement purposes.It ensures that legal inducement is working correctly 4-30 GTH-1256 FINAL Transmission Control Unit Fault Detection, Fail Safe Reactionand ResetError No De",
+    "standard": "DEUTZ",
+    "source": "Genie GTH-1256 Deutz TCD 3.6 L4 Fault Codes (Service Manual 1279410)",
+    "file": "genie-gth1256-fault-codes"
+  }
+]

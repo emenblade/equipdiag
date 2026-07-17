@@ -1,0 +1,2576 @@
+[
+  {
+    "type": "SPN",
+    "code": 29,
+    "fmi": 2,
+    "desc": "Diagnostic fault check of synchronism ofhand throttle and Low idle switch(LIS).Plausibility error between sensor and idleswitch",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 29,
+    "fmi": 3,
+    "desc": "Diagnostic fault check of short circuit to sup-ply voltage(signal range check high) of accelerationpedal signal.The signal exceeds the applicatable threshold;signal range violation",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 29,
+    "fmi": 4,
+    "desc": "Diagnostic fault check of short circuit toground (signal range check low) of accelera-tion pedal signalThe signal is below the applicatable threshold;signal range violation",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 91,
+    "fmi": 3,
+    "desc": "Analog accelerator pedal sensor 1 or doubleaccelerator pedal sensor: the voltage mea-sured by ECU is out of the target range or thecalculated pedal position is implausiblecompared with the position of the secondpedalSensor defect.Short cut to battery or o",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 91,
+    "fmi": 4,
+    "desc": "Analog accelerator pedal sensor 1 or doubleaccelerator pedal sensor: the voltage mea-sured by ECU is out of the target range or thecalculated pedal position is implausiblecompared with the position of the secondpedalShort circuit to ground",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 91,
+    "fmi": 11,
+    "desc": "Diagnostic fault check of synchronism of sin-gle potentiometer and Low idle switch(LIS).Measured voltage of accelerator pedal 1 is out ofplausible range",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 173594,
+    "fmi": 1,
+    "desc": "Low fuel pressure: the low fuel pressure cal-culated by ECU is underneath the targetrange; the ECU activates a system reactionFuel pressure below warning threshold",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 94,
+    "fmi": 3,
+    "desc": "Low fuel pressure sensor: the voltage of sen-sor measured by ECU is out of the targetrangecable break or short circuit, sensor defective,connection cable damagedShort cut to battery or open loop",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 94,
+    "fmi": 4,
+    "desc": "Low fuel pressure sensor: the voltage of sen-sor measured by ECU is out of the targetrangecable break or short circuit, sensor defective,connection cable damagedshort cut to ground",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 97,
+    "fmi": 3,
+    "desc": "Fuel filter water level sensor: the voltage ofsensor measured by ECU is out of the targetrangeSensor not connected or sensor defect",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 97,
+    "fmi": 4,
+    "desc": "Fuel filter water level sensor: the voltage ofsensor measured by ECU is out of the targetrange.cable break or short circuit, sensor defective,connection cable damaged.Short cut to ground",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 97,
+    "fmi": 12,
+    "desc": "Fuel filter water level sensor: the maximumlevel is exceededWater level in fuel pre-filter reservoir over limit(bad fuel quality)",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 100,
+    "fmi": 1,
+    "desc": "Oil pressure is below the target range (warn-ing threshold)Oilpressure too low (pressure below warningthreshold)",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 100,
+    "fmi": 3,
+    "desc": "Oil pressure sensor: the voltage of sensormeasured by ECU is out of the target rangeshort circuit to battery or cable break check battery and wiring",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 100,
+    "fmi": 4,
+    "desc": "Oil pressure sensor: the voltage of sensormeasured by ECU is out of the target rangeShort circuit to ground The sensed raw voltage value Oil_uRawPSwmpis above Oil_SRCPSwmp.uMin_C",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 102,
+    "fmi": 2,
+    "desc": "Charge air pressure messured by sensor isabove the warning thresholdCharge air pressure above shut off threshold",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 102,
+    "fmi": 2,
+    "desc": "Deviation between sensed intake manifoldpressure is not plausible compared to envi-ronment pressure. Which sensor is not okaycan not be said.deviation between ambient pressure sensorand charge air pressure sensor at notrunning engine to high1) Exchange bo",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 102,
+    "fmi": 3,
+    "desc": "Charge air pressure sensor: the measuredvoltage of sensor by ECU is out of the targetrangeThe Sensor Voltage is above the Threshold",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 102,
+    "fmi": 4,
+    "desc": "Charge air pressure sensor: the measuredvoltage of sensor by ECU is out of the targetrangeThe Sensor Voltage is below the Threshold",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 105,
+    "fmi": 0,
+    "desc": "Charge air temperature downstream calcu-lated by ECU is above the target range.The ECU activates a system reaction.Charge air temperature (downstream) overwarning threshold",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 105,
+    "fmi": 1,
+    "desc": "Charged Air cooler down stream tempera-ture",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 105,
+    "fmi": 3,
+    "desc": "Charge air temperature sensor: the voltageof sensor measured by ECU is out of the tar-get range.Short circuit to battery.sensor voltage > limitThe sensor raw signal Air_uRawTCACDs (volt-age) > Air_SRCTCACDs.uMin_C",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 105,
+    "fmi": 4,
+    "desc": "Charge air temperature sensor: the voltageof sensor measured by ECU is out of the tar-get range.Short circuit to ground or open load.sensor voltage < limit.The sensor raw signal Air_uRawTCACDs (volt-age) is below Air_SRCTCACDs.uMin_C",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 107,
+    "fmi": 0,
+    "desc": "Air filter differential pressure: the pressuredifference of the intake air between the filterinlet and outlet calculated by ECU is abovethe target range and the ECU activates asystem reactionPressure loss above target range with systemreaction, air filter",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 110,
+    "fmi": 0,
+    "desc": "Coolant temperature: the coolant tempera-ture calculated by ECU is above the targetrange; the ECU activates a system reactionCooling temperature too high. Coolant temper-ature above warning thresholdClean radiator, check fan drive, check coolantlevel, che",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 110,
+    "fmi": 1,
+    "desc": "Coolant temperature sensor: the voltage ofthe sensor measured by ECU is out of the tar-get range.Suspected components:wiring harness, cool-ant temperature sensor",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 110,
+    "fmi": 3,
+    "desc": "Coolant temperature sensor: the voltage ofthe sensor measured by ECU is out of the tar-get rangeShort cut to battery or open load",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 110,
+    "fmi": 4,
+    "desc": "Coolant temperature sensor: the voltage ofthe sensor measured by ECU is out of the tar-get rangeVoltage Surveillance has found shortcut toGround at Coolant Temperatur Sensor",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 111,
+    "fmi": 1,
+    "desc": "Coolant level: the coolant level calculated byECU is underneath the allowed minimum.Coolant level too low, leakage in cooling sys-tem, sensor defective, wiring damaged",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 157,
+    "fmi": 3,
+    "desc": "Rail pressure sensor: the voltage of sensormeasured by ECU is out of the target range.Short cut to battery.Damaged rail pressure sensor",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 157,
+    "fmi": 4,
+    "desc": "Rail pressure sensor: the voltage of sensormeasured by ECU is out of the target range",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 164,
+    "fmi": 2,
+    "desc": "Rail pressure safety function is not executedcorrectlyRail pressure is still above threshold",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 168,
+    "fmi": 0,
+    "desc": "Battery voltage: the voltage measured byECU is out of the target rangeBattery voltage over limit",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 168,
+    "fmi": 1,
+    "desc": "Battery voltage: the voltage measured byECU is out of the target rangeBattery voltage below limit",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 168,
+    "fmi": 2,
+    "desc": "Battery voltage: the voltage measured byECU is out of the target range, system reac-tion is initiatedIf Batteryvoltage (Ubatt_U) > 17V or 31V formor than =0.5sec a warning is generatedBattery voltage above warning threshold",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 168,
+    "fmi": 3,
+    "desc": "Battery voltage: the voltage measured byECU is out of the target range, system reac-tion is initiatedBattery voltage above warning threshold(~38,9Volt), Short cut to battery possible",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 168,
+    "fmi": 4,
+    "desc": "Battery voltage: the voltage measured byECU is out of the target range, system reac-tion is initiatedBattery voltage below warning threshold,Short cut to ground",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 171,
+    "fmi": 3,
+    "desc": "Sensor error SCR-System environment tem-perature; DPF-System air inlet temperature;signal range check highopen loop to sensor",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 190,
+    "fmi": 0,
+    "desc": "Engine speed: the engine speed calculatedby ECU is above the target range; the ECUactivates a system reactionOverspeed monitoring during 1 level of FOC(Failure overrun condition) if engine speedwas over Limit.check powertrain settings regarding overspeed",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 190,
+    "fmi": 2,
+    "desc": "ECU measures a deviation between cam-shaft and crankshaft angle to target.Offset error between crankshaft and camshaft",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 190,
+    "fmi": 8,
+    "desc": "Camshaft speed sensor: the ECU receives nosignal and uses the signal from crankshaftspeed sensor as alternative to calculate theengine speedWhen disturbed camshaft signal detected.Error in sensor or wiring",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 190,
+    "fmi": 8,
+    "desc": "Sensor crankshaft speed; disturbed signal Error in sensor or wiring.Crankshaft sensor defect",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 190,
+    "fmi": 11,
+    "desc": "Engine speed: the engine speed calculatedby ECU is above the target range; the ECUactivates a system reactionOverspeed monitoring during 2 level of FOC(Failure overrun condition) if engine speedwas over limit.check powertrain settings regarding overspeed",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 190,
+    "fmi": 12,
+    "desc": "Camshaft speed sensor: the ECU receives nosignal and uses the signal from camshaftspeed sensor as alternative to calculate theengine speedThreshold:Error in sensor or wiring",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 190,
+    "fmi": 14,
+    "desc": "Engine speed: the engine speed calculatedby ECU is above the target range; the ECUactivates a system reactionOverspeed monitoring during ORC (Overrideconditions) if engine speed was over2900rpmcheck powertrain settings regarding overspeed",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 190,
+    "fmi": 14,
+    "desc": "Camshaft- and Crankshaft speed sensor sig-nal not available on CAN or defect.Sensors for engine speed are defect",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 411,
+    "fmi": 3,
+    "desc": "The sensed raw voltageAir_uRawPEGRDeltaP is above the maxi-mum threshold.EGR Delta pressure Sensor defect",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 411,
+    "fmi": 4,
+    "desc": "Range check cannot be done or interrupted. EGR or wiring defect",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 411,
+    "fmi": 4,
+    "desc": "The sensed raw voltage valueAir_uRawPEGRDeltaP is above the mini-mum threshold.EGR Delta pressure Sensor defect",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 412,
+    "fmi": 3,
+    "desc": "EGR downstream temperature sensor: thevoltage of sensor measured by ECU is out ofthe target range.Short circuit to battery.sensor voltage > limit",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 412,
+    "fmi": 4,
+    "desc": "EGR downstream temperature sensor: thevoltage of sensor measured by ECU is out ofthe target range.Short circuit to ground or open load.sensor voltage < limit",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 630,
+    "fmi": 12,
+    "desc": "Internal hardware monitoring: the ECU findsan error during the access to its EEPROMmemory or works with an alternative valueSection could not be erased",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 639,
+    "fmi": 14,
+    "desc": "CAN bus 0: the ECU is not allowed to sendmessages, because the status \"BusOff\" isdetected.CAN BusOff error; CAN 0 (Customer CAN)",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 651,
+    "fmi": 3,
+    "desc": "Injector cyl. 1: the current drop measured byECU is above the target rangeSuspected Components:injector cylinder 1wiring harness, cable break or short circuit, sen-sor defective, connection cabledamaged",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 652,
+    "fmi": 3,
+    "desc": "Injector cyl. 2: the current drop measured byECU is above the target rangeSuspected Components:injector cylinder 2wiring harness, cable break or short circuit, sen-sor defective, connection cabledamaged",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 652,
+    "fmi": 5,
+    "desc": "Injector cyl. 2: interruption of electrical con-nectionInterruption of electronic connection Injectorcyl. 2",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 653,
+    "fmi": 3,
+    "desc": "Injector cyl. 3: the current drop measured byECU is above the target rangeSuspected Components:injector cylinder 3wiring harness, cable break or short circuit, sen-sor defective, connection cabledamaged",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 653,
+    "fmi": 5,
+    "desc": "Injector cyl. 3: interruption of electrical con-nectionInterruption of electronic connection Injectorcyl. 3",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 654,
+    "fmi": 3,
+    "desc": "Injector cyl. 4: the current drop measured byECU is above the target rangeSuspected Components:injector cylinder 4wiring harness, cable break or short circuit, sen-sor defective, connection cable",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 654,
+    "fmi": 5,
+    "desc": "Injector cyl. 4: interruption of electrical con-nectionInterruption of electronic connection Injectorcyl. 4",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 655,
+    "fmi": 3,
+    "desc": "Injector cyl. 5: the current drop measured byECU is above the target rangeSuspected Components:injector cylinder 5wiring harness, cable break or short circuit, sen-sor defective, connection cable",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 655,
+    "fmi": 5,
+    "desc": "Injector cyl. 5: interruption of electrical con-nectionInterruption of electronic connection Injectorcyl. 5",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 656,
+    "fmi": 3,
+    "desc": "Injector cyl. 6: the current drop measured byECU is above the target rangeSuspected Components:injector cylinder 6wiring harness, cable break or short circuit, sen-sor defective, connection cable",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 656,
+    "fmi": 5,
+    "desc": "Injector cyl. 6: interruption of electrical con-nectionInterruption of electronic connection Injectorcyl. 6",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 676,
+    "fmi": 11,
+    "desc": "Cold start aid relay open load Relay or wire harness",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 677,
+    "fmi": 3,
+    "desc": "Start relay (high side power stage): the cur-rent drop measured by ECU is above the tar-get range.Short cut HighSide-output to battery",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 677,
+    "fmi": 3,
+    "desc": "Start relay (low side power stage): the cur-rent drain measured by ECU is above the tar-get range.Shortcut LowSide-Output to battery",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 677,
+    "fmi": 4,
+    "desc": "Start relay (high side power stage):the current drain measured by ECU is abovethe target range.Shortcut HighSide-output to ground",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 677,
+    "fmi": 4,
+    "desc": "Start relay (low side power stage): the cur-rent drop measured by ECU is above the tar-get range.Shortcut LowSide-Output to ground",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 677,
+    "fmi": 5,
+    "desc": "Start relay (low side power stage): the cur-rent drop measured by ECU is above the tar-get rangeOpen circuit/disconnection LowSide-Output",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 677,
+    "fmi": 12,
+    "desc": "Start relay (low side power stage): the cur-rent drop measured by ECU is above the tar-get range.Temperature over limit",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 691,
+    "fmi": 8,
+    "desc": "Supply module heater: PWM time periodeout of valid range.PWM signal for temperature readout from sup-ply module to the control unit is out ofrange.Supply modul defect, fault in the wiring.The Time period of the received PWM signalSCR_tiSMPerPwm is within ",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 729,
+    "fmi": 5,
+    "desc": "The cold start aid relay is according to wiringfaulty.Relay defect or wire harness problem",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 729,
+    "fmi": 12,
+    "desc": "The cold start aid relay is overheated, whichcauses this errorHigh temperature around the cold start relay",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 898,
+    "fmi": 9,
+    "desc": "Timeout Error of CAN-Receive-Frame TSC1TE- activeTimeout Error (Missing CAN Bus message)",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1079,
+    "fmi": 13,
+    "desc": "Internal hardware monitoring: the ECUdetects a deviation of the target range of thepower supply voltage of sensor output 1.Suspected components EDC17cv52Pin A19: DEF press / Exh.PressBeforeTurb (P3) /Air Pump Press/BrnFuelPressAfterDV2 Pin K19: Fan Speed ",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1080,
+    "fmi": 13,
+    "desc": "Internal hardware monitoring: the ECUdetects a deviation of the target range of thepower supply voltage of sensor output 2.Suspected components EDC17cv52Pin K16: second footpedalPin A20: Exh.PressAfterTurb/DPFDiffPress/BrnDV1Press/HCIPressDV1DV2Suspected ",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1109,
+    "fmi": 2,
+    "desc": "Request of engine shut off: the operatorignores the engine shut off request within anallowed period.Engine Shut Off demand has been ignored bythe userDepending on error requested a shut off",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1136,
+    "fmi": 0,
+    "desc": "ECU internal temperature; temperaturemeasured by ECU is out of the target rangeShort-Circuit in ECU, ECU heated by hot air Close warm air circuits, replace ECU SPN FMI Description",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1235,
+    "fmi": 14,
+    "desc": "CAN bus 2: the ECU is not allowed to sendmessages, because the status \"BusOff\" isdetected.Warning, depends on engine, EAT.CAN BusOff error; CAN 2 (Engine CAN)",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1237,
+    "fmi": 2,
+    "desc": "Override switch switch: the ECU receives apermanent signal.Switch is blocked, taster locked, connectioncable damagedplausbility error \"override switch > 250mspressed\"",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1761,
+    "fmi": 0,
+    "desc": "The urea tank level sensor detects a valuehigher than the maximum allowed thresh-oldSuspected components:Urea Quality Sensor defectmechanical defect at the float gauge",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1761,
+    "fmi": 1,
+    "desc": "The DEF tank level sensor detects a valuelower than the minimum allowed thresholdSuspected components:Urea Quality Sensor defectmechanical defect at the float gauge",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 1761,
+    "fmi": 14,
+    "desc": "The urea tank volume ratio is below thethreshold of <5%actual urea tank level SCRUTnk_rVol_mp [%] isbelow applicable threshold 5%",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 351761,
+    "fmi": 14,
+    "desc": "The DEF tank level is below the threshold. actual DEF tank level SCRUTnk_rVol_mp [%] isbelow the threshold",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2791,
+    "fmi": 0,
+    "desc": "Internal actuator temperature is abovethreshold.Overheating of EGR actuator during operation. Let EGR actuator cool down and check heataccumulation during worst case operation.2791 2 corrupted CAN communication with actua-tor.CAN bus error or faulty EGR a",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2791,
+    "fmi": 3,
+    "desc": "Overvoltage at EGR actuator. High voltage from the battery",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2791,
+    "fmi": 4,
+    "desc": "Undervoltage at EGR actuator. Low voltage from the battery",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2791,
+    "fmi": 6,
+    "desc": "Overcurrent to EGR actuator. High voltage from battery.EGR actuator is blocked or moving very hard",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2791,
+    "fmi": 7,
+    "desc": "EGR actuator is mechanically blocked. EGR actuator faulty or blocked",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2791,
+    "fmi": 7,
+    "desc": "EGR actuator spring broken. mechanical damage of spring due to overstress",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2791,
+    "fmi": 12,
+    "desc": "Internal electrical fault of EGR actuator. Internal damage of EGR actuator due to hightemperature or electrical wiring issue",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2791,
+    "fmi": 13,
+    "desc": "EGR actuator can not learn stop positions.Possibly only second failure if other EGRTVfailures occure.Error detection during the learning process",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2791,
+    "fmi": 13,
+    "desc": "Stop positions of EGR valve not o.k. Mechanical damage of EGR actuator.EGR valve is blocked or moving very hard",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2791,
+    "fmi": 16,
+    "desc": "Internal actuator temperature above thresh-old.overheating of EGR actuator Let EGR actuator cool down, check heat accu-mulation during worst case operation. SPN FMI Description",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2797,
+    "fmi": 4,
+    "desc": "Injector test: Short cut to ground on cylinderbank 0Short-Circuit to ground on component wiring",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2798,
+    "fmi": 4,
+    "desc": "Injector diagnosis: Timeout of Injetor detec-tion cylinder bank 1Short-Circuit to ground on component wiring",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 2798,
+    "fmi": 4,
+    "desc": "Injector test: Short cut to ground on cylinderbank 1Short-Circuit to ground on component wiring",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3031,
+    "fmi": 0,
+    "desc": "The urea tank temperature sensor detects avalue above the maximum allowed thresh-oldSensed urea tank temperature > physical rangehigh limitCase \"CANBUS sensor\":",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3031,
+    "fmi": 1,
+    "desc": "The urea tank temperature sensor detects avalue lower than the minimum allowedthreshold.sensed urea tank temperature < physical rangelow limitCase \"CANBUS sensor\":",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3224,
+    "fmi": 2,
+    "desc": "DLC Error of CAN-Receive-Frame AT1IG1VolNOX Sensor (SCR-system upstream cat; DPF-system downstream cat); length of frameincorrectNot Used",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 353224,
+    "fmi": 9,
+    "desc": "Timeout Error of CAN-Receive-FrameAT1IG1Vol; NOX sensor (SCR-systemupstream cat; DPF-system downstream cat)Failure of the CAN Bus message NOX sensor and sensor connection check",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3234,
+    "fmi": 2,
+    "desc": "DLC Error of CAN-Receive-Frame AT1O1VolNOX Sensor (SCR-system downstream cat;DPF-system downstream cat); length offrame incorrectFailure of the CAN Bus message NOX downstream sensor and sensor connectioncheck",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3234,
+    "fmi": 9,
+    "desc": "Timeout Error of CAN-Receive-FrameAT1OG1Vol; NOX sensor (SCR-system down-stream cat; DPF-system downstream cat)Failure of the CAN Bus message NOX downstream sensor and sensor connectioncheck",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3361,
+    "fmi": 3,
+    "desc": "Urea dosing valve (low side power stage):the current drain measured by ECU is abovethe target rangeFault in the wiring",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3361,
+    "fmi": 3,
+    "desc": "Urea dosing valve (high side power stage):the current drain measured by ECU is abovethe target rangeFault in the wiring",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3361,
+    "fmi": 4,
+    "desc": "Urea dosing valve (low side power stage):the current drain measured by ECU is abovethe target rangeFault in the wiring",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3361,
+    "fmi": 4,
+    "desc": "Urea dosing valve (high side power stage):the current drain measured by ECU is abovethe target rangeFault in the wiring",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3361,
+    "fmi": 6,
+    "desc": "Urea dosing valve: the current measuredvalue by ECU at the end of the injection is toohighFault in the wiriingDefect urea dosing injection valve",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3519,
+    "fmi": 3,
+    "desc": "The integrated diagnostic of the tempera-ture sensor of the Urea Quality Sensor recog-nized a short circuit to battery.The UQS Sensor is an combined sensor oftank temperature, filling grade and DEFquality and it is also an CAN sensor --> noPINWrong diagno",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3519,
+    "fmi": 4,
+    "desc": "The integrated diagnostic of the tempera-ture sensor of the Urea Quality Sensor recog-nized a short circuit to groundDEF quality sensor in the suction unit of the DEFtank is defectCAN Communication corrupted",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3519,
+    "fmi": 12,
+    "desc": "The integrated temperature sensor of theUrea Quality Sensor measures higher tem-perature than thresholdTemperature sensor inside the UQS defect.CAN Communication corrupted.Overheating of the DEF tank due to malfunctionof the heating valve.Flow direction i",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3520,
+    "fmi": 2,
+    "desc": "Measured DEF Quality from UQS is too low.Quality value received from UQS is < 22 % fora certain time and a certain number or formeasuring conditions not observed for a cer-tain time.Suspected components:Urea quality sensor defectWrong installation (measur",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3520,
+    "fmi": 3,
+    "desc": "The integrated diagnostic of the Urea QualitySensor recognized a short circuit to batterywiring harness of UQS corruptedCAN Communication corrupted",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3520,
+    "fmi": 4,
+    "desc": "The integrated diagnostic of the Urea QualitySensor recognized a short circuit to ground.wiring harness to the suction unit in the DEFtank is corruptedCAN Communication corrupted",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3520,
+    "fmi": 13,
+    "desc": "Urea quality at UQS out of range the speci-fied thresholds; invalid quality of the ureaqualiySuspected componentsDEF quality sensorDEF",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3532,
+    "fmi": 3,
+    "desc": "The urea quality value from the sensor isgreater than the maximum physical rangethresholdComment: tank temperature is measured bythe UQS sensorSuspected Components:UQS defect",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3532,
+    "fmi": 4,
+    "desc": "The urea quality value from the sensor islower than the minimum physical rangethreshold.Suspected Components:UQS defect",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 353711,
+    "fmi": 12,
+    "desc": "Temperature Phy_tPfWgh, the weightedDPF temperature < Threshold 1Temperature Phy_tPfWgh, the weightedDPF temperature > Threshold 2towards the end of the stand-still mainphase.temperature Phy_tPfWgh, the weighted DPFtemperature, is below or abovethe target",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 3936,
+    "fmi": 14,
+    "desc": "Standstill escalation by time",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4334,
+    "fmi": 0,
+    "desc": "The absolute pressure value of the ureapump is greater than an applicable maximalfiltered pressure thresholdSuspected Components:Urea pump defectSupply module pressure sensor defectPump contains dirty parts",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4334,
+    "fmi": 1,
+    "desc": "Urea supply module pressure sensor: Theabsolute pressure value of the urea pump isless than an applicable minimal filteredpressure threshold",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4341,
+    "fmi": 4,
+    "desc": "Urea heater supply line: the current drainmeasured by ECU is above the target rangeelectrical error",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4341,
+    "fmi": 5,
+    "desc": "Urea heater supply line: the current drainmeasured by ECU is above the target rangeelectrical error",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4343,
+    "fmi": 3,
+    "desc": "Urea pressure line heater: the current drainmeasured by ECU is above the target rangeshortcut to batteryIf this error detected during the heating phase isa result error: KWP 1089broken heating element in pressure line",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4343,
+    "fmi": 4,
+    "desc": "Urea pressure line heater: the current drainmeasured by ECU is above the target rangeShortcut to groundIf this error detected during the heating phase isa result error: KWP 1089Short cut to ground or broken wiring, brokenheating element in pressure line",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4343,
+    "fmi": 5,
+    "desc": "Urea pressure line heater: the current drainmeasured by ECU is above the target rangeOpen loadIf this error detected during the heating phase isa result error: KWP 1089Broken wiring, broken heating element in pres-sure line",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4345,
+    "fmi": 3,
+    "desc": "Urea backflow line heater: the current drainmeasured by ECU is above the target rangeShortcut to batteryIf this error detected during the heating phase isa result error: KWP 1089Short cut to battery or broken wiring, brokenheating element in backflow line",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4345,
+    "fmi": 4,
+    "desc": "Urea backflow line heater: the current drainmeasured by ECU is above the target rangeShortcut to groundIf this error detected during the heating phase isa result error: KWP 1089Short cut to ground or broken wiring, brokenheating element in backflow line",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4345,
+    "fmi": 5,
+    "desc": "Urea backflow line heater: the current drainmeasured by ECU is above the target rangeOpen loadIf this error detected during the heating phase isa result error: KWP 1089Broken wiring, broken heating element in back-flow line",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 354360,
+    "fmi": 0,
+    "desc": "The filtered urea cat upstream temperatureis greater than an applicable maximum tem-perature thresholdSensed temperature upstream SCR > physicalhigh limit",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4360,
+    "fmi": 1,
+    "desc": "The filtered temperature before urea cat isless than an applicable minimum tempera-ture thresholdSensed temperature upstream SCR catalyst <than physical low limitCold start and ambient temperature < Thresh-old? Missdetection?",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4360,
+    "fmi": 2,
+    "desc": "Error at static plausibility check:absolut temperature difference of sensedtemperature upstream SCR catalyst andambient temperature > as static plausibilitylimitat engine cold start (engine was off for atleast 8 h), temperature upstream of SCR cat-alyst i",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4361,
+    "fmi": 3,
+    "desc": "Urea catalyst upstream temperature sensor:the voltage of sensor measured by ECU is outof the target rangeVoltage of temperature sensor upstream SCRcatalyst > maximum limitShort circuit to battery",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4361,
+    "fmi": 4,
+    "desc": "Urea catalyst upstream temperature sensor:the voltage of sensor measured by ECU is outof the target rangeVoltage of temperature sensor upstream SCRcatalyst < minimum limitShort circuit to ground",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4365,
+    "fmi": 2,
+    "desc": "Signal error in case of Urea tank temperaturetrnasmitted via CAN-signal Com_tUTnkT.CAN message is not send properly",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4365,
+    "fmi": 3,
+    "desc": "Internal error of DEF qualitysensor. Suspected componentes:DEF qualitysensorWiring harness",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4365,
+    "fmi": 4,
+    "desc": "Urea tank temperature sensor: he currentdrain measured by ECU is above the targetrange.Shortcut or open load",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4365,
+    "fmi": 4,
+    "desc": "Internal error of DEF qualitysensor. Suspected componentes:DEF qualitysensorWiring harness",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4366,
+    "fmi": 3,
+    "desc": "Urea tank heating valve: the current drainmeasured by ECU is above the target rangeShortcut to batteryIf this error detected during the heating phase isa result error: KWP 1089Broken wiringUrea tank heating valve defect",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4366,
+    "fmi": 4,
+    "desc": "Urea tank heating valve: the current drainmeasured by ECU is above the target rangeShortcut to groundIf this error detected during the heating phase isa result error: KWP 1089Broken wiringUrea tank heating valve defect",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4366,
+    "fmi": 5,
+    "desc": "Urea tank heating valve: the current drainmeasured by ECU is above the target rangeOpen loadIf this error detected during the heating phase isa result error: KWP 1089Broken wiringUrea tank heating valve defect",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4375,
+    "fmi": 3,
+    "desc": "Urea supply module pump: the current drainmeasured by ECU is above the target rangeShortcut to batteryIf this error detected during the heating phase isa result error: KWP 1089Broken wiringPump in urea supply module defect",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4375,
+    "fmi": 4,
+    "desc": "Urea supply module pump: the current drainmeasured by ECU is above the target rangeShortcut to groundIf this error detected during the heating phase isa result error: KWP 1089Broken wiringPump in urea supply module defect",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 354375,
+    "fmi": 5,
+    "desc": "Urea supply module pump: the ECU can notmeasure any reaction during pump controlOpen loadBroken wiringPump in urea supply module defect",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4376,
+    "fmi": 3,
+    "desc": "Urea supply module reversal valve: the cur-rent drain measured by ECU is above the tar-get rangeShortcut to batteryFault in the wiringReversal valve in the urea supply module defect",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4376,
+    "fmi": 4,
+    "desc": "Urea supply module reversal valve: the cur-rent drain measured by ECU is above the tar-get rangeShortcut to groundFault in the wiringReversal valve in the urea supply module defect",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4376,
+    "fmi": 5,
+    "desc": "Urea supply module reversal valve: the cur-rent drain measured by ECU is above the tar-get rangeOpen loadFault in the wiringReversal valve in the urea supply module defect",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4765,
+    "fmi": 0,
+    "desc": "The exhaust temperature value from thesensor befor DOCis above an applicable upper shutoff thresh-oldTOxiCatUs_tShOffThresHiAds_C = Thresh-old 1 in Normal andHeatmodes(TOxiCatUs_tShOffThresHiRgn_C = Thresh-old 2in stand-still)sensed temperature upstream D",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4768,
+    "fmi": 2,
+    "desc": "At engine cold start conditions the sensedexhaust gas temperature downstream DOC(Exh_tSensTOxiCatDs)has exceeded the sum of ambient tempera-ture (EnvT_t) + offset (40°C) earlier than thesensed exhaust gastemperature upstream of DOC(Exh_tSensTOxiCatUs).The",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4768,
+    "fmi": 3,
+    "desc": "Oxidation catalyst upstream temperaturesensor: the voltage of sensor measured byECU is out of the target rangeThe sensed raw voltage valueExh_uRawTOxiCatUs is aboveExh_SRCTOxiCatUs.uMax_CShortcut to battery",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 4768,
+    "fmi": 4,
+    "desc": "Oxidation catalyst upstream temperaturesensor: the voltage of sensor measured byECU is out of the target rangeThe sensed raw voltage valueExh_uRawTOxiCatUs isbelow Exh_SRCTOxiCatUs.uMin_CShortcut to ground",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 355763,
+    "fmi": 3,
+    "desc": "Actuator of the external EGR valve: the ECUdetects a short circuit to battery or openload.Short cut to battery or open loop",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5763,
+    "fmi": 3,
+    "desc": "Actuator EGR-valve: short cut to battery isdetectedShort-Circuit to battery on component wiring",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5763,
+    "fmi": 4,
+    "desc": "Actuator of the external EGR valve: the ECUdetects a short circuit to ground.Short cut to ground",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5763,
+    "fmi": 4,
+    "desc": "Actuator EGR-valve: short cut to ground onECU pin is detectedShort-Circuit to ground on component wiring",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5763,
+    "fmi": 4,
+    "desc": "Actuator EGR-valve: short cut to battery onECU pin is detectedShort-Circuit to ground on component",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5763,
+    "fmi": 4,
+    "desc": "Actuator error EGR-Valve (2.9;3.6) or Throt-tle-Valve (4.1;6.1;7.8); Voltage belowthreshold3.6) Drosselklappe (4.1;6.1;7.8); Voltagebelow threshold;Monitoring for CY146 Under Voltage",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5763,
+    "fmi": 5,
+    "desc": "Actuator error EGR-Valve; signal range checklow, measured current is below targetShort circuit to ground",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5763,
+    "fmi": 6,
+    "desc": "Actuator error EGR-Valve.Signal range check high.Short cut to batterie",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5763,
+    "fmi": 6,
+    "desc": "Actuator error EGR-Valve; signal range checkhigh, measured current by ECU is over targetShort circuit to battery or open circuit",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5763,
+    "fmi": 6,
+    "desc": "Actuator EGR-Valve: Open load on ECU out-put is detectedOpen circuit on component wiring",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5763,
+    "fmi": 6,
+    "desc": "Actuator EGR-valve: too high curent is goinginto the actuator. Output is switched offOverload on component wiring",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5763,
+    "fmi": 6,
+    "desc": "Actuator error EGR-valve; Overload by short-circuitShort Circuit over Load",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 5763,
+    "fmi": 11,
+    "desc": "Power stage overtemperature due to highcurrent.Temperature dependent Over Current",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 520521,
+    "fmi": 5,
+    "desc": "Actuator error EGR-Valve.Signal range check low.Short cut to ground",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523009,
+    "fmi": 9,
+    "desc": "The pressure relief valve (PRV) has reachedthe number of allowed activations.Rail pressure has exceeded the trigger thresh-old of the pressure limiting valve.Replace pressure relief valve (PRV) and resetfault with Serdia",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523009,
+    "fmi": 10,
+    "desc": "The pressure relief valve (PRV) has reachedthe allowed opening time.Rail pressure has exceeded the trigger thresh-old of the pressure limiting valve.Replace pressure relief valve (PRV) and resetfault with Serdia",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523212,
+    "fmi": 9,
+    "desc": "Timeout Error of CAN-Receive-FrameComEngPrt; Engine ProtectionTimeout Error (Missing CAN Bus message)",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523240,
+    "fmi": 9,
+    "desc": "Timeout CAN-message FunModCtl; Func-tion Mode ControlTimeout Error (Missing CAN Bus message)",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523350,
+    "fmi": 4,
+    "desc": "Injector cylinder bank 1: the current dropmeasured by ECU is above the target rangeShort circuit injection bank 1 (all injectors of thisbank can be affected)",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523352,
+    "fmi": 4,
+    "desc": "Injector cylinder bank 2: the current dropmeasured by ECU is above the target rangeShort circuit injection bank 2 (all injectors of thisbank can be affected)",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523354,
+    "fmi": 12,
+    "desc": "Internal hardware monitoring: the ECUdetects an error of its injector high currentoutput. Chip of CY33x defect power stagecomponentsDefective powerstage in ECU",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523450,
+    "fmi": 4,
+    "desc": "Diagnostic fault check for min error of COMmessage.The sensed raw value is less than the threshold",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523470,
+    "fmi": 2,
+    "desc": "The pressure relief valve (PRV) has beenopened due to excessive pressure.Rail pressure has exceeded the trigger thresh-old of the pressure limiting valve",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523470,
+    "fmi": 7,
+    "desc": "Rail pressure is out of the expected averagerange.Rail pressure is out of the expected averagerange.PRV can not be opened.(A)",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523470,
+    "fmi": 11,
+    "desc": "Rail pressure relief valve can not be openeddue to the railpressure.Railpressure out of tolerance range (PRV can notbe opened by a pressure peak in thisoperating point)",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523470,
+    "fmi": 11,
+    "desc": "Rail pressure is out of the expected averagerange.The PRV can not be opened at this operatingpoint with a pressure shock.Averaged rail pressure is outside the expectedtolerance range",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523470,
+    "fmi": 12,
+    "desc": "Rail pressure relief valve: is open.Shutoff conditions.Shut Off after PRV Open",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523470,
+    "fmi": 12,
+    "desc": "Rail pressure relief valve is open.Warning conditions.Warning PRV open",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523470,
+    "fmi": 14,
+    "desc": "Rail pressure relief valve is open. (PRV) Open PRV",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523550,
+    "fmi": 12,
+    "desc": "Terminal 50 was operated for more than 2minutes. This may happen due to short tobattery or wrong usage of Terminal 50.Starter control is disabled until this error ishealed.Startinformation to Starter (T50-switch)erratic/defect",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523601,
+    "fmi": 13,
+    "desc": "Internal hardware monitoring: the ECUdetects a deviation of the target range of thepower supply voltage of sensor output 3.Suspected components EDC17cv52Pin A18: DeltaPressVenturi / Position intakethrottle flapPin K20: First footpedalPin K21: Air FilterDi",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523612,
+    "fmi": 12,
+    "desc": "Internal hardware monitoring: the CPU ofthe ECU is reset and the cause is logged inter-nally; no item will be created in error mem-oryInjector shut off demand for the ICO coordinatorSystem responses:not",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523612,
+    "fmi": 12,
+    "desc": "The two voltage values (ADC_VAL1,ADC_VAL2), detected bythe accelerator pedal, are not plausible toeach other.Defect pedal or wiring",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523612,
+    "fmi": 12,
+    "desc": "Impermissible offset between the enginespeed of level 2 and level 1Calculated engine speed in level 1/2 implausi-ble (-> ECU internal error)",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523612,
+    "fmi": 12,
+    "desc": "Diagnostic fault check to report the plausi-bility error between level 1 energizing timeand level 2 informationImplausible injection energizing time for eitherPiIx or MI1 or PoIx",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523612,
+    "fmi": 12,
+    "desc": "Error in the plausibility of the start of ener-gising anglesImplausible start of energising of either PiIx orMI1 or PoIx",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523612,
+    "fmi": 12,
+    "desc": "Error in the plausibility of the energisingtimes of the zero fuel quantity calibrationThe energising times of the zero fuel quantitycalibration ZFC is out of the target. (->ECU internal error)",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523612,
+    "fmi": 12,
+    "desc": "Error in the plausibility of PoI2 efficiency. Error in the plausibility of PoI2 efficiency",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523612,
+    "fmi": 12,
+    "desc": "Error in the PoI2 shut-off. Error in the PoI2 shut-off",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523612,
+    "fmi": 12,
+    "desc": "Error in the plausibility of PoI3 efficiency. Error in the plausibility of PoI3 efficiency",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523612,
+    "fmi": 12,
+    "desc": "Engine speed: the engine speed calculatedby ECU is above the target range; the ECUactivates a system reactionError in the plausibility of current energisingtime with maximum permitted energisingtime. Diagnostic fault check to report the errordue to OverRu",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523612,
+    "fmi": 12,
+    "desc": "Error in the plausibility of the wave correc-tion partsError in the plausibility of the wave correctionparts",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523612,
+    "fmi": 12,
+    "desc": "Plausibility error of the Rail pressure sensor In case the gradient of rail pressure is larger thanthe max threshold or lesser than themin threshold.Rail metering unit defect.Leakge in the Rail System",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523612,
+    "fmi": 12,
+    "desc": "Diagnosis of curr path limitation forced byECU monitoring level 2The torque comparison is not plausible with thetorque monitoring",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523612,
+    "fmi": 12,
+    "desc": "Diagnosis of lead path limitation forced byECU monitoring level 2The setpoint path of the air system is limited bythe limitation torque of the functionalcontrol unit monitoring",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523612,
+    "fmi": 12,
+    "desc": "Diagnosis of set path limitation forced byECU monitoring level 2",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523612,
+    "fmi": 12,
+    "desc": "Error report \"WDA wire is active\" due to adefect query/response communicationError detection by monitoring module",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523612,
+    "fmi": 12,
+    "desc": "Error report \"ABE wire is active\" due toundervoltage detectionThe reason is that a slow dropping of the vehicleelectrical system voltage (defectiveautobattery)should not lead the ECU OCWDA's diagnose toenter an error in the fault memory dueto an undervolt",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523612,
+    "fmi": 12,
+    "desc": "Error report \"ABE/WDA active\" due to anunknown reasonThe reason is that a slow dropping of the vehicleelectrical system voltage (defectiveautobattery)should not lead the ECU OCWDA's diagnose toenter an error in the fault memory dueto an undervoltagerecogn",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523612,
+    "fmi": 12,
+    "desc": "Fault in the monitoring during the enginestart. Start requested in level 1, but notreleased in level 2 which leads to no fuelinjection.wiring is not according DEUTZ requirementsengine start conditions are not observedlow battery voltage during startmalfun",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523612,
+    "fmi": 14,
+    "desc": "Internal hardware monitoring: the CPU ofthe ECU is reset and the cause is logged inter-nally;no item will be created in error memory.Visibility of Softwareresets in DSM",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523613,
+    "fmi": 0,
+    "desc": "Rail pressure: the fuel pressure in rail calcu-lated by ECU is below the target range whichis dependant on the engine speed.Pressure governor deviation exceeds the limit-ing value based on the engine speed",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523613,
+    "fmi": 1,
+    "desc": "Rail pressure: the fuel pressure in rail calcu-lated by ECU is below the target rangewhich is dependant on the engine speed.Rail pressure falls below the limiting valuebased on the engine speed",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523613,
+    "fmi": 2,
+    "desc": "Rail pressure metering unit, Setpoint ofmetering unit in overrun mode not plausi-ble.Pressure pump delivery quantity in overrunexceeds the threshold based on thepressure",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523615,
+    "fmi": 3,
+    "desc": "Fuel metering unit: the current drain mea-sured by ECU is above the target rangeshort circuit to battery low side",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523615,
+    "fmi": 4,
+    "desc": "Fuel metering unit: the current drain mea-sured by ECU is above the target rangeshort circuit to ground high side",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523615,
+    "fmi": 5,
+    "desc": "Detecting an open load fault in the meteringunitwiring harness defective, cable break",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523632,
+    "fmi": 3,
+    "desc": "Urea supply module pressure sensor: thecurrent drain measured by ECU is above thetarget rangeShortcut to batteryBroken wiringPressure sensor in urea supply module defect",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523632,
+    "fmi": 4,
+    "desc": "Urea supply module pressure sensor: thecurrent drain measured by ECU is above thetarget rangeThe sensed raw voltage valueSCR_uRawUPmpP is aboveSCR_SRCUPmpP.uMin_CShortcut to groundBroken wiringPressure sensor in urea supply module defect",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523632,
+    "fmi": 11,
+    "desc": "Urea supply module pump: the current drainmeasured by ECU is above the target rangeWhen the pump motor does not switch to pumpactuation mode after temperaturemeasurement hasbeen carried out",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523698,
+    "fmi": 11,
+    "desc": "Shut off request from supervisory monitor-ing functionEngine Shut Off due to supervisory function",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523718,
+    "fmi": 3,
+    "desc": "Urea heater relay: the current drain mea-sured by ECU is above the target rangeShortcut to batteryIf this error detected during the heating phase itis a result error: KWP 1089Broken wiring, broken relay",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523718,
+    "fmi": 4,
+    "desc": "Urea heater relay: the current drain mea-sured by ECU is above the target rangeShortcut to groundIf this error detected during the heating phase itis a result error: KWP 1089Broken wiring, broken relay",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523718,
+    "fmi": 5,
+    "desc": "Urea heater relay: the current drain mea-sured by ECU is above the target rangeOpen loadIf this error detected during the heating phase itis a result error: KWP 1089Broken wiringbroken relay",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523719,
+    "fmi": 4,
+    "desc": "Urea supply module heater: the currentdrain measured by ECU is above the targetrangeShortcut to groundIf this error detected during the heating phase itis a result error: KWP 1089Broken wiringHeating element in supply module defect",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523719,
+    "fmi": 5,
+    "desc": "Urea supply module heater: the currentdrain measured by ECU is above the targetrangeOpen loadIf this error detected during the heating phase isa result error: KWP 1089Broken wiringHeating element in supply module defect",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523720,
+    "fmi": 8,
+    "desc": "Supply module heater: Duration of switch onis too long.uty cycle for temperature readout from supplymodule heater to the control unit is outof range; Supply modul defect, fault in the wir-ing.When the received supply module heater tem-perature duty cycle ",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523720,
+    "fmi": 8,
+    "desc": "Supply module heater: Dutycycle timingover error threshold.Duty cycle for temperature readout from supplymodule heater to the control unit is notvalid.Supply modul defect, fault in the wiring.When the received supply module heater dutycycle SCR_rSMHtrT is",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523721,
+    "fmi": 8,
+    "desc": "Supply module heater: Dutycycle timingover error threshold.Duty cycle for temperature readout from supplymodule to the control unit is out ofrange.Supply modul defect, fault in the wiring.Supply module check and replace if necessary",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523721,
+    "fmi": 8,
+    "desc": "Supply module heater: Dutycycle timing outof valid range.Duty cycle for temperature readout from supplymodule to the control unit is not valid.Supply modul defect, fault in the wiring.When the received supply module duty cycleSCR_rSMT is in the valid rang",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523721,
+    "fmi": 11,
+    "desc": "Supply module heater: temperature mea-surement not available.Duty cycle for temperature readout from supplymodule heater to the control unit is notavailable.Supply modul defect, fault in the wiring",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523776,
+    "fmi": 9,
+    "desc": "Timeout Error of CAN-Receive-Frame TSC1TE- activeTimeout Error (Missing CAN Bus message)",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523777,
+    "fmi": 9,
+    "desc": "Message TSC1-TE has been missing (passive) Passive timeout Error (Missing CAN Bus mes-sage)",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523895,
+    "fmi": 13,
+    "desc": "Missing or wrong injector adjustment valueprogramming (IMA) injector 1 (in firingorder).Missing or wrong injector adjustment value forcyl. 1",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523896,
+    "fmi": 13,
+    "desc": "Missing or wrong injector adjustment valueprogramming (IMA) injector 2 (in firingorder).Missing or wrong injector adjustment value forcyl. 2",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523897,
+    "fmi": 13,
+    "desc": "Missing or wrong injector adjustment valueprogramming (IMA) injector 3 (in firingorder).Missing or wrong parametrisation of injectoradjustment cyl. 3",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523898,
+    "fmi": 13,
+    "desc": "Missing or wrong injector adjustment valueprogramming (IMA) injector 4 (in firingorder).Missing or wrong injector adjustment value forcyl. 4",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523899,
+    "fmi": 13,
+    "desc": "Missing or wrong injector adjustment valueprogramming (IMA) injector 5 (in firingorder).Missing or wrong injector adjustment value forcyl. 5",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523900,
+    "fmi": 13,
+    "desc": "Missing or wrong injector adjustment valueprogramming (IMA) injector 6 (in firingorder).Missing or wrong injector adjustment value forcyl. 6",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523924,
+    "fmi": 4,
+    "desc": "Overload at Pins O_V_RH2x: A01, K74, K91.Components on A01, K74, K91 cannot beactivated.Internal ECU power stage switched off.Suspected components:1- Pin K91:Clutch switch, Brake switch, Engine brakedemand, Regeneration activation, Parkingbrake, Gearbox N",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523925,
+    "fmi": 3,
+    "desc": "Short circuit to battery error of actuator relay2. Components on Pin A88, K57 cannot beactivated.Internal ECU power stage switched off.Suspected Components:1- Lamps K57: Warn Ash Charge, Diagnostic,Warn Coolant Temp/Level, Warn Oil,Warn Boost Air, Warn Ai",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523925,
+    "fmi": 4,
+    "desc": "Short circuit to ground actuator relais 3Overload at Pins O_V_RH3x: A88, K57Suspected components:1- Pin A88:Preheat relay, Exhaust flap2- Pin K 57:- control lamps:- OBD, preheat lamp, warning temp., warningoil, maintenance lamp, regenerationindicator, alt",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523926,
+    "fmi": 4,
+    "desc": "Short circuit to ground aktuator relais 4.Overload at Pins O_V_PCV: A90Suspected components:Fan, Wiring harness",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523927,
+    "fmi": 3,
+    "desc": "Short circuit to battery error of actuator relay2. Components on Pin A04, A05 cannot beactivated.Internal ECU power stage switched off.Suspected Components:1- Urea Pump A042- SCR Heater A05",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523935,
+    "fmi": 12,
+    "desc": "Timeout Error of CAN-Transmit-FrameEEC3VOL1; Engine send messagesFault is detected if a TimeOut of the EEC3VOL1frame has occured",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523936,
+    "fmi": 12,
+    "desc": "Timeout Error of CAN-Transmit-FrameEEC3VOL2; Engine send messagesTimeout Error (Missing CAN Bus message)",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523938,
+    "fmi": 9,
+    "desc": "Timeout Error (BAM to packet) for CAN-Receive-Frame AT1IGCVol1 information;factors & Sensorcalibration for NOX Sensor(SCR-system upstream cat; DPF-systemdownstream cat)Failure of the CAN Bus message NOX sensor and sensor connection check SPN FMI Descripti",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523940,
+    "fmi": 9,
+    "desc": "Timeout Error (PCK2PCK) for CAN-Receive-Frame AT1IGCVol1 information; factors &Sensorcalibration for NOX Sensor (SCR-sys-tem upstream cat; DPF-systemdownstream cat)Failure of the CAN Bus message NOX sensor and sensor connection check",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523941,
+    "fmi": 9,
+    "desc": "Timeout Error (BAM to packet) for CAN-Receive-Frame AT1OGCVol2 information;factors & Sensorcalibration for NOX Sensor(SCR-system downstream cat; DPF-systemdownstream cat)Timeout Error (Missing CAN Bus message) NOX downstream sensor and sensor connectionch",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523942,
+    "fmi": 9,
+    "desc": "Timeout Error (BAM to BAM) for CAN-Receive-Frame AT1OGCVol2 information,Calibration message 1 of the after catalystNOx sensor has failed.Factors & Sensorcalibration for NOX Sensor(SCR-system downstream cat, DPF-systemdownstream cat)Defective Nox sensor, f",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523943,
+    "fmi": 9,
+    "desc": "Timeout Error (PCK2PCK) for CAN-Receive-Frame AT1OGCVol2 information; factors &Sensorcalibration for NOX Sensor (SCR-sys-tem downstream cat; DPF-systemdownstream cat)The fault is detected when a timeout error inpacket 2 of NOxSenVol2Rx frame occurs.NOX do",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523960,
+    "fmi": 0,
+    "desc": "Physical range check high for EGR coolerdownstream temperature.Sensed temperature downstream EGR-cooler> limit.EGR-Valve blocked openEGR-Valve actuator defectEGR-cooler defect (check for coolant water)Reed Valve defectIntake throttle blocked in closed pos",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523960,
+    "fmi": 1,
+    "desc": "Physical range check low for EGR coolerdownstream temperature.sensor voltage > lower limit EGR-Valve blocked openEGR-Valve actuator defectEGR-cooler defect (check for coolant water)Reed Valve defectIntake throttle blocked in closed positionExhaust pressur",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523982,
+    "fmi": 0,
+    "desc": "Powerstage diagnosis disabled; Indicatingthat battery voltage is not high.Powerstage diagnostic can be deactivated dueto too high battery voltage",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523982,
+    "fmi": 1,
+    "desc": "Powerstage diagnosis disabled; Indicatingthat battery voltage is not low.Powerstage diagnostic can be deactivated dueto too low battery voltage",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523984,
+    "fmi": 3,
+    "desc": "Actuator relay 5: the voltage measured byECU is out of the target rangeShort-Circuit to battery to component",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523986,
+    "fmi": 4,
+    "desc": "Actuator relay 4: the voltage measured byECU is out of the target rangeShort-Circuit to ground to component",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 523987,
+    "fmi": 4,
+    "desc": "Actuator relay 5: the voltage measured byECU is out of the target rangeShort-Circuit to ground to component",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524050,
+    "fmi": 11,
+    "desc": "CAN; not used not used not used",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524051,
+    "fmi": 11,
+    "desc": "CAN; not used not used not used",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524057,
+    "fmi": 2,
+    "desc": "Low fuel pressure: the low fuel pressure cal-culated by ECU is underneath the targetrange; the ECU activates a system reactionFuel pressure below warning threshold",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524063,
+    "fmi": 3,
+    "desc": "SCR heater mainrelay; short circuit to batteryThreshold 1 <SCRHtr_rUHtrMeasRatio_mp < Threshold2Short-Circuit to battery on wiring to component",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524063,
+    "fmi": 4,
+    "desc": "Connection between heating valve (Y31) onthe control unit Pin A:92 andLoad side SCR heater main relay (K31) is ashort cut to ground",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524063,
+    "fmi": 5,
+    "desc": "Urea backflow line heater: broken wiringdetectedThreshold 1 <SCRHtr_rUHtrMeasRatio_mp < Threshold2Open Load on wiring to component",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524063,
+    "fmi": 5,
+    "desc": "Urea main relay: broken wiring detectedThreshold 1 <SCRHtr_rUHtrMeasRatio_mp < Threshold2relay defectrelay not connectedwiring harness brokenproblems with supply voltage",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524063,
+    "fmi": 5,
+    "desc": "Urea pressure line heater: broken wiringdetectedThreshold 1 <SCRHtr_rUHtrMeasRatio_mp < Threshold2Open load on wiring to component",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524063,
+    "fmi": 5,
+    "desc": "SCR relay for suction line not connectedThreshold 1 <SCRHtr_rUHtrMeasRatio_mp < Threshold2relay defectrelay not connectedwiring harness brokenproblems with supply voltage",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524063,
+    "fmi": 5,
+    "desc": "Open load on wiring to componentThreshold 1 <SCRHtr_rUHtrMeasRatio_mp < Threshold2Open load on wiring to component",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524063,
+    "fmi": 5,
+    "desc": "SCR heater tank; open load Open load on wiring to component",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524065,
+    "fmi": 0,
+    "desc": "The relativ pressure value of the exhaust gasfrom the urea cat upstreamsensor is greater than an applicable maxi-mum pressure thresholdsensed presure upstream SCR catalyst > physi-cal high range limit f(exhaust volumeflow)UCatUsP_pRelFlt_mp > UCatUsP_pMax",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524065,
+    "fmi": 1,
+    "desc": "The relativ pressure value of the exhaust gasfrom the urea cat upstream sensor is lessthan an applicable minimum pressurethresholdsensed presure upstream SCR catalyst > physi-cal high range limit f(exhaust volumeflow)UCatUsP_pRelFlt_mp < UCatUsP_pMin_mp",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524065,
+    "fmi": 2,
+    "desc": "Comparison of urea cat upstream exhaustgas- and environment pressure, the differ-ence should not exceed a certain limitabs(UCatUsP_pDiffEnvCat_mp) > Thresh-oldabsolut value of difference between sensedpressure upstream SCR catalyst andenvironmental pressu",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524067,
+    "fmi": 0,
+    "desc": "Filtered urea supply module temperaturevalue (SCR_tSMT) is above an applicablemaximum temperature threshold of thesupply moduleThe temperature is read out via the PWM sig-nal of the urea pump. That is only possible instatus init of the SCR-system short af",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524067,
+    "fmi": 1,
+    "desc": "Filtered urea supply module heater temper-ature value is below an applicable minimumheater temperature threshold of the supplymoduleThe temperature is read out via the PWM sig-nal of the urea pump. That is only possible instatus init of the SCR-system sho",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524067,
+    "fmi": 1,
+    "desc": "Filtered urea supply module temperature(SCR_tSMT) value is below an applicableminimum temperature threshold of the sup-ply moduleThe temperature is read out via the PWM sig-nal of the urea pump. That is only possible instatus init of the SCR-system short ",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524074,
+    "fmi": 9,
+    "desc": "Open load sensor internally at NOx-sensordownstream SCROpen load sensor internally at NOx-sensordownstream SCR",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524075,
+    "fmi": 11,
+    "desc": "Short circuit sensor internally at NOx-sensordownstream SCRShort circuit sensor internally at NOx-sensordownstream SCR",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524077,
+    "fmi": 11,
+    "desc": "Short circuit sensor internally at NOx-sensordownstream SCRNOx Sensors are CAN Sensors --> no HW Pinon the ECUShort circuit sensor internally at NOx-sensordownstream SCR",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524078,
+    "fmi": 9,
+    "desc": "Lambda value of NOx-Sensor downstreamSCR is out of range.When the filtered Lambda concentrationvalue at the sensor(ComRxSCR_rFltLamDs_mp) is greater thanthe physical range check max. lambdathresholdsensed lambda value of Nox-sensor down-stream SCR catalys",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524100,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Transmit-Frame Com-DPFHisDat.Open load on CANBUS wiring",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524104,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Receive-Frame Com-RxDPFCtl. CM1 Module Customer RecieveMessage.Time out of Check CANBUS EAT Control ReceiveMessage, PGN65348.The message is not received",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524118,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Receive-FrameComRxCM1If the frame CM1 message is not transmittedsuccessfully",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524121,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Receive-Frame Com-RxTrbChActrTimeout Error (Missing CAN Bus message)",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524125,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Receive-Frame Com-TxTrbChActrTimeout Error (Missing CAN Bus message)",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524141,
+    "fmi": 7,
+    "desc": "DEF dosing valve is blocked with crystalizedurea or other deposits.While SCR system is starting up and fter ureapressure reaches 10000 hPa, the DEFdosing module is tested. Expectation is thaturea pressure drops below 1500 hPa ifinjector works properly. Th",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524147,
+    "fmi": 13,
+    "desc": "No proper urea pressure level could be buildup within the SCR system state \"Fill Lines\"=> SCRCo_stStatus_mp = 1 within somemiuntesThis error shows up, if no proper urea pressurelevel could be build up within the SCRsystem state \"Fill Lines\" =>SCRCo_stStat",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524152,
+    "fmi": 2,
+    "desc": "CAN message is not received fora definitetime => error is set. As soon as the messageis received the error heals.CAN message is not received for a definite time=> error is set. As soon as themessage is received the error heals",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524153,
+    "fmi": 2,
+    "desc": "CAN message is not reseived for a definitetime => error is set. As soon as the messageis received the error heals.CAN message is not reseived for a definite time=> error is set. As soon as themessage is received the error heals",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524156,
+    "fmi": 9,
+    "desc": "Timeout error of CAN-Receive-FrameComRxEBC2 from wheel speed sensor.Timeout Error (Missing CAN Bus message)Defect on wheel speed sensor",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524178,
+    "fmi": 7,
+    "desc": "The urea pump is not able to control the ureapressure between 9bar and 11 bar.The urea pump controller is not able to controlthe urea pressure between 9bar and 11bar due to malfunction in the SCR system.Suspected components:- DEF pump broken- Reverting va",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524190,
+    "fmi": 14,
+    "desc": "Not enough urea in tank or low urea qualityor hardware tampering failure is detected orhardware failure is detectedLow DEF tank levelLow DEF qualityHardware Tampering is activeHardware Failure is active",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524191,
+    "fmi": 14,
+    "desc": "A low DEF tank level or a low DEF quality isdetected or hardware tampering(systemcomponents are pinched off) or hardwarefailures as shortcut to battery, shortcut togroundetc. are detected.Low DEF tank levelLow DEF qualityHardware Tampering is activeHardwa",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 524194,
+    "fmi": 8,
+    "desc": "The total time in standstill-regenerationmode exceeds the long-limit threshold: 2,5hstand-still operation within 50h total motorrun time.The error is activated if the engine runs tomuch time in short Standstill regeneartion.Stand-still mode is aborted / i",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  },
+  {
+    "type": "SPN",
+    "code": 232719,
+    "fmi": 3,
+    "desc": "Urea supply module heater: the currentdrain measured by ECU is above the targetrangeShort circuit to batteryIf this error detected during the heating phase itis a result error:KWP 1089Broken wiringHeating element in supply module defect",
+    "standard": "DEUTZ",
+    "source": "Genie 1500AJP Deutz Engine Fault Codes (Service Manual 3121735)",
+    "file": "genie-1500ajp-engine-codes"
+  }
+]
