@@ -1,0 +1,5022 @@
+{
+  "source": "JCB TH BSIV Help",
+  "sourceFile": "TH_BSIV_Help.chm",
+  "manufacturer": "JCB",
+  "engineFamily": "BSIV (Bharat Stage IV)",
+  "totalRecords": 557,
+  "records": [
+    {
+      "code": "P0001",
+      "fmi": null,
+      "description": "Fuel volume regulator control circuit/open Open circuit on the inlet metering valve",
+      "ecu": "Engine ECU.",
+      "effects": " Reduced Power Mode (Engine Derate) torque reduction.",
+      "possibleCauses": " Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0001",
+      "fmi": 13,
+      "description": "Open circuit",
+      "ecu": "Engine ECU.",
+      "effects": " Reduced Power Mode (Engine Derate) torque reduction.",
+      "possibleCauses": " Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0002",
+      "fmi": null,
+      "description": "Fuel volume regulator control circuit range/performance Circuit range fault on the inlet metering valve",
+      "ecu": "Engine ECU.",
+      "effects": " Reduced Power Mode (Engine Derate) torque reduction.",
+      "possibleCauses": " Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0002",
+      "fmi": 12,
+      "description": "Short circuit to battery (SC2VBAT)",
+      "ecu": "Engine ECU.",
+      "effects": " Reduced Power Mode (Engine Derate) torque reduction.",
+      "possibleCauses": " Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0002",
+      "fmi": 11,
+      "description": "Short circuit to ground (SC2G)",
+      "ecu": "Engine ECU.",
+      "effects": " Reduced Power Mode (Engine Derate) torque reduction.",
+      "possibleCauses": " Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0002",
+      "fmi": 0,
+      "description": "No sub type information.",
+      "ecu": "Engine ECU.",
+      "effects": " Reduced Power Mode (Engine Derate) torque reduction.",
+      "possibleCauses": " Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0003",
+      "fmi": null,
+      "description": "Fuel volume regulator control circuit low Fault on the Inlet Metering Valve (IMV).",
+      "ecu": "Engine ECU.",
+      "effects": " Reduced Power Mode (Engine Derate) torque reduction.",
+      "possibleCauses": " Damaged harness or harness connectors.  Faulty component.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0003",
+      "fmi": 11,
+      "description": "Short circuit to ground (SC2G)",
+      "ecu": "Engine ECU.",
+      "effects": " Reduced Power Mode (Engine Derate) torque reduction.",
+      "possibleCauses": " Damaged harness or harness connectors.  Faulty component.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0003",
+      "fmi": 13,
+      "description": "Open circuit (OC)",
+      "ecu": "Engine ECU.",
+      "effects": " Reduced Power Mode (Engine Derate) torque reduction.",
+      "possibleCauses": " Damaged harness or harness connectors.  Faulty component.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0003",
+      "fmi": 19,
+      "description": "Circuit current above threshold",
+      "ecu": "Engine ECU.",
+      "effects": " Reduced Power Mode (Engine Derate) torque reduction.",
+      "possibleCauses": " Damaged harness or harness connectors.  Faulty component.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0003",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": " Reduced Power Mode (Engine Derate) torque reduction.",
+      "possibleCauses": " Damaged harness or harness connectors.  Faulty component.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0004",
+      "fmi": null,
+      "description": "Fuel volume regulator control circuit high Open circuit on the Inlet Metering Valve (IMV).",
+      "ecu": "Engine ECU.",
+      "effects": "Reduced Power Mode (Engine Derate) torque reduction.",
+      "possibleCauses": " Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0004",
+      "fmi": 12,
+      "description": "Short Circuit To Battery (SC2VBAT)",
+      "ecu": "Engine ECU.",
+      "effects": "Reduced Power Mode (Engine Derate) torque reduction.",
+      "possibleCauses": " Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0016",
+      "fmi": null,
+      "description": "Camshaft position correlation Signal fault on the camshaft position sensor.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connectors.  Faulty component.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0016",
+      "fmi": 2,
+      "description": "Signal erratic.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connectors.  Faulty component.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0045",
+      "fmi": null,
+      "description": "Turbocharger/supercharger boost control \"A\" circuit/open Fault on the variable geometry turbocharger (VGT).",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0045",
+      "fmi": 13,
+      "description": "Open circuit (OC)",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0070",
+      "fmi": null,
+      "description": "Type text here",
+      "ecu": "Aftertreatment ECU.",
+      "effects": " Reduced Power Mode (Engine Derate).",
+      "possibleCauses": " Damaged harness or harness connector.  Invalid data from ECU (other fault codes present).",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0070",
+      "fmi": 81,
+      "description": "Invalid signal data received (CAN BUS message error from engine ECU)",
+      "ecu": "Aftertreatment ECU.",
+      "effects": " Reduced Power Mode (Engine Derate).",
+      "possibleCauses": " Damaged harness or harness connector.  Invalid data from ECU (other fault codes present).",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0070",
+      "fmi": 87,
+      "description": "Missing CAN message from ECU",
+      "ecu": "Aftertreatment ECU.",
+      "effects": " Reduced Power Mode (Engine Derate).",
+      "possibleCauses": " Damaged harness or harness connector.  Invalid data from ECU (other fault codes present).",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0087",
+      "fmi": null,
+      "description": "Fuel rail/system pressure - too low The fuel system pressure is too low.",
+      "ecu": "Engine ECU.",
+      "effects": " Reduced Power Mode (Engine Derate) torque reduction and delayed stop.",
+      "possibleCauses": " Fuel pipe restriction.  Fuel leak.  Damaged harness or harness connector.  Faulty sensor.  Faulty fuel pump.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0087",
+      "fmi": 0,
+      "description": "No sub type information.",
+      "ecu": "Engine ECU.",
+      "effects": " Reduced Power Mode (Engine Derate) torque reduction and delayed stop.",
+      "possibleCauses": " Fuel pipe restriction.  Fuel leak.  Damaged harness or harness connector.  Faulty sensor.  Faulty fuel pump.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0087",
+      "fmi": 24,
+      "description": "Signal stuck high.",
+      "ecu": "Engine ECU.",
+      "effects": " Reduced Power Mode (Engine Derate) torque reduction and delayed stop.",
+      "possibleCauses": " Fuel pipe restriction.  Fuel leak.  Damaged harness or harness connector.  Faulty sensor.  Faulty fuel pump.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0087",
+      "fmi": 64,
+      "description": "Signal plausibility failure.",
+      "ecu": "Engine ECU.",
+      "effects": " Reduced Power Mode (Engine Derate) torque reduction and delayed stop.",
+      "possibleCauses": " Fuel pipe restriction.  Fuel leak.  Damaged harness or harness connector.  Faulty sensor.  Faulty fuel pump.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0088",
+      "fmi": null,
+      "description": "Fuel rail/system pressure - too high The fuel system pressure is too high.",
+      "ecu": "Engine ECU.",
+      "effects": " Reduced Power Mode (Engine Derate) torque reduction.",
+      "possibleCauses": " Damaged sensor.  Blocked fuel return pipe.  Damaged harness or connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0088",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": " Reduced Power Mode (Engine Derate) torque reduction.",
+      "possibleCauses": " Damaged sensor.  Blocked fuel return pipe.  Damaged harness or connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0088",
+      "fmi": 23,
+      "description": "Signal stuck low",
+      "ecu": "Engine ECU.",
+      "effects": " Reduced Power Mode (Engine Derate) torque reduction.",
+      "possibleCauses": " Damaged sensor.  Blocked fuel return pipe.  Damaged harness or connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0089",
+      "fmi": null,
+      "description": "Fuel pressure regulator 1 performance Fuel rail pressure fault with the high pressure fuel valve.",
+      "ecu": "Engine ECU",
+      "effects": "Reduced Power Mode (Engine Derate) torque reduction.",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0089",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU",
+      "effects": "Reduced Power Mode (Engine Derate) torque reduction.",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0089",
+      "fmi": 11,
+      "description": "Short Circuit To Ground (SC2G)",
+      "ecu": "Engine ECU",
+      "effects": "Reduced Power Mode (Engine Derate) torque reduction.",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0089",
+      "fmi": 19,
+      "description": "Circuit current above threshold",
+      "ecu": "Engine ECU",
+      "effects": "Reduced Power Mode (Engine Derate) torque reduction.",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0090",
+      "fmi": null,
+      "description": "Fuel pressure regulator 1 control circuit open Fault with the high pressure fuel valve (HPV).",
+      "ecu": "Engine ECU",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0090",
+      "fmi": 0,
+      "description": "no sub type information",
+      "ecu": "Engine ECU",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0090",
+      "fmi": 13,
+      "description": "Open circuit (OC)",
+      "ecu": "Engine ECU",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0091",
+      "fmi": null,
+      "description": "Fuel pressure regulator 1 control circuit low Fault with the high pressure fuel valve (HPV).",
+      "ecu": "Engine ECU",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0091",
+      "fmi": 12,
+      "description": "Short circuit to battery (SC2VBAT)",
+      "ecu": "Engine ECU",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0092",
+      "fmi": null,
+      "description": "Fuel pressure regulator 1 control circuit high Fault with the high pressure fuel valve (HPV).",
+      "ecu": "Engine ECU",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors, faulty HPV.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0095",
+      "fmi": null,
+      "description": "Intake air temperature sensor 2 circuit Fault with the temperature and manifold absolute pressure (TMAP) sensor.",
+      "ecu": "Engine ECU",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0095",
+      "fmi": 0,
+      "description": "No sub type informtion",
+      "ecu": "Engine ECU",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0096",
+      "fmi": null,
+      "description": "Intake air temperature sensor 2 circuit range/performance Fault with the temperature and manifold absolute pressure (TMAP) sensor.",
+      "ecu": "Engine ECU",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors, faulty TMAP sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0096",
+      "fmi": 2,
+      "description": "Signal erratic",
+      "ecu": "Engine ECU",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors, faulty TMAP sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0097",
+      "fmi": null,
+      "description": "Intake air temperature sensor 2 circuit low Fault with the temperature and manifold absolute pressure (TMAP) sensor.",
+      "ecu": "Engine ECU",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector, faulty TMAP sensor",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0097",
+      "fmi": 11,
+      "description": "Short circuit to ground (SC2G)",
+      "ecu": "Engine ECU",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector, faulty TMAP sensor",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0097",
+      "fmi": 223,
+      "description": "Short circuit to battery (SC2VBAT)",
+      "ecu": "Engine ECU",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector, faulty TMAP sensor",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0098",
+      "fmi": null,
+      "description": "Intake air temperature sensor 2 circuit high Fault with the temperature and manifold absolute pressure (TMAP) sensor.",
+      "ecu": "Engine ECU",
+      "effects": "Reduced Power Mode (Engine Derate) torque reduction.",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0098",
+      "fmi": 24,
+      "description": "Signal stuck high",
+      "ecu": "Engine ECU",
+      "effects": "Reduced Power Mode (Engine Derate) torque reduction.",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0099",
+      "fmi": null,
+      "description": "Intake air temperature sensor 2 circuit intermittent/erratic Fault with the intake temperature and manifold absolute pressure (TMAP) sensor circuit.",
+      "ecu": "Engine ECU",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0099",
+      "fmi": 2,
+      "description": "Signal erratic",
+      "ecu": "Engine ECU",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0100",
+      "fmi": null,
+      "description": "Mass or volume air flow \"A\" circuit Fault with the temperature mass air flow (TMAF) sensor.",
+      "ecu": "Engine ECU",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector, faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0100",
+      "fmi": 0,
+      "description": "no sub type information",
+      "ecu": "Engine ECU",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector, faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0100",
+      "fmi": 19,
+      "description": "Circuit current above threshold",
+      "ecu": "Engine ECU",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector, faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0101",
+      "fmi": null,
+      "description": "Mass or volume air flow \"A\" circuit range/performance Fault on the temperature mass air flow (TMAF) sensor circuit.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0101",
+      "fmi": 11,
+      "description": "Short circuit to ground (SC2G)",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0101",
+      "fmi": 12,
+      "description": "Short circuit to battery (SC2VBAT)",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0102",
+      "fmi": null,
+      "description": "Mass or volume air flow \"A\" circuit low Fault on the temperature mass air flow (TMAF) sensor circuit.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0102",
+      "fmi": 11,
+      "description": "Short Circuit To Ground (SC2G)",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0103",
+      "fmi": null,
+      "description": "Mass or volume air flow \"A\" circuit high Fault on the temperature mass air flow (TMAF) sensor circuit.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0102",
+      "fmi": 12,
+      "description": "Short Circuit To Battery (SC2VBAT)",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0105",
+      "fmi": null,
+      "description": "Manifold absolute pressure/barometric pressure circuit Fault on the temperature and manifold absolute pressure (TMAP) sensor.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0105",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0106",
+      "fmi": null,
+      "description": "Manifold absolute pressure/barometric pressure circuit range/performance Fault on the temperature and manifold absolute pressure (TMAP) sensor.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors, faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0106",
+      "fmi": 0,
+      "description": "no sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors, faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0106",
+      "fmi": 11,
+      "description": "Short circuit to ground (SC2G)",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors, faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0106",
+      "fmi": 12,
+      "description": "Short circuit to battery (SC2VBAT)",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors, faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0110",
+      "fmi": null,
+      "description": "Intake air temperature sensor 1 circuit Fault on the temperature mass air flow (TMAF) sensor.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connectors,  faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0110",
+      "fmi": 0,
+      "description": "no sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connectors,  faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0111",
+      "fmi": null,
+      "description": "Intake air temperature sensor 1 circuit low Fault on the temperature mass air flow (TMAF) sensor.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors, faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0111",
+      "fmi": 64,
+      "description": "Signal plausibility failure",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors, faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0112",
+      "fmi": null,
+      "description": "Intake air temperature sensor 1 circuit high Fault on the temperature mass air flow (TMAF) sensor.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors, faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0112",
+      "fmi": 11,
+      "description": "Short circuit to ground (SC2G)",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors, faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0113",
+      "fmi": null,
+      "description": "Intake air temperature sensor 1 circuit high Fault on the temperature mass air flow (TMAF) sensor.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connectors.  Faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0113",
+      "fmi": 12,
+      "description": "Short circuit to battery (SC2VBAT)",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connectors.  Faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0113",
+      "fmi": 24,
+      "description": "Signal stuck high (open circuit)",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connectors.  Faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0115",
+      "fmi": null,
+      "description": "Engine coolant temperature sensor 1 circuit Fault on the coolant sensor circuit.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0115",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0115",
+      "fmi": 11,
+      "description": "Short circuit to ground (SC2G)",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0115",
+      "fmi": 15,
+      "description": "Short circuit to battery (SC2VBAT) or open circuit",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0116",
+      "fmi": null,
+      "description": "Engine coolant temperature sensor 1 circuit range/performance Fault on the coolant sensor circuit.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0116",
+      "fmi": 2,
+      "description": "Signal erratic",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0116",
+      "fmi": 64,
+      "description": "Signal plausibility failure",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0117",
+      "fmi": null,
+      "description": "Engine coolant temperature sensor 1 circuit low Fault on the coolant sensor circuit.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0117",
+      "fmi": 11,
+      "description": "Short circuit to ground (SC2G)",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0117",
+      "fmi": 23,
+      "description": "Signal stuck low",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0118",
+      "fmi": null,
+      "description": "Engine coolant temperature sensor 1 circuit high Fault on the coolant sensor circuit.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0118",
+      "fmi": 12,
+      "description": "Short circuit to ground (SC2VBAT)",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0120",
+      "fmi": null,
+      "description": "Throttle/pedal position sensor/switch \"A\" circuit Fault on the throttle pedal switch.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged Harness or harness connectors, faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0120",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged Harness or harness connectors, faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0120",
+      "fmi": 2,
+      "description": "Signal erratic",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged Harness or harness connectors, faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0121",
+      "fmi": null,
+      "description": "Throttle/pedal position sensor/switch \"A\" circuit range/performance Fault on the throttle pedal switch.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged Harness or harness connectors, faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0121",
+      "fmi": 2,
+      "description": "Signal erratic",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged Harness or harness connectors, faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0129",
+      "fmi": null,
+      "description": "Barometric pressure signal from engine ECU CAN BUS message error for barometric pressure.",
+      "ecu": "Engine ECU.",
+      "effects": "Error code.",
+      "possibleCauses": "Damaged Harness or harness connector, faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0129",
+      "fmi": 87,
+      "description": "Missing CAN message from engine ECU (Erroneous signal for barometric pressure)",
+      "ecu": "Engine ECU.",
+      "effects": "Error code.",
+      "possibleCauses": "Damaged Harness or harness connector, faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0180",
+      "fmi": null,
+      "description": "Fuel temperature sensor \"A\" circuit Fault on the fuel temperature sensor circuit.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0180",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0181",
+      "fmi": null,
+      "description": "Fuel Temperature Erroneous signal for fuel temperature.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.  Faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0181",
+      "fmi": 27,
+      "description": "Signal rate of  change above threshold (fuel temperature sensor gradient fault)",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.  Faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0181",
+      "fmi": 87,
+      "description": "Missing CAN message from engine ECU (CAN bus message error for fuel temperature from engine ECU)",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.  Faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0182",
+      "fmi": null,
+      "description": "Fuel temperature sensor \"A\" circuit low Fault on the fuel temperature sensor circuit.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0182",
+      "fmi": 11,
+      "description": "Short circuit to ground (SC2G)",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0183",
+      "fmi": null,
+      "description": "Fuel temperature sensor \"A\" circuit high Fault on the fuel temperature sensor circuit.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0183",
+      "fmi": 12,
+      "description": "Short circuit to bettery (SC2VBAT)",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0190",
+      "fmi": null,
+      "description": "Fuel rail pressure sensor \"A\" circuit Fault on the common rail fuel pressure sensor.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0190",
+      "fmi": 64,
+      "description": "Signal plausibility failure",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0191",
+      "fmi": null,
+      "description": "Fuel rail pressure sensor \"A\" circuit range/performance Fault on the common rail fuel pressure sensor.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0191",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0191",
+      "fmi": 11,
+      "description": "Short circuit to ground (SC2G)",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0191",
+      "fmi": 12,
+      "description": "Short circuit to battery (SC2VBAT)",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0191",
+      "fmi": 24,
+      "description": "Signal stuck high",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0192",
+      "fmi": null,
+      "description": "Fuel rail pressure sensor \"A\" circuit low Fault on the common rail fuel pressure sensor.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0192",
+      "fmi": 11,
+      "description": "Short circuit to ground (SC2G)",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0193",
+      "fmi": null,
+      "description": "Fuel rail pressure sensor \"A\" circuit high Fault on the common rail fuel pressure sensor.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0193",
+      "fmi": 12,
+      "description": "Short circuit to battery (SC2VBAT)",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0194",
+      "fmi": null,
+      "description": "Fuel rail pressure sensor \"A\" circuit intermittent/erratic Fault on the common rail fuel pressure sensor.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0194",
+      "fmi": 23,
+      "description": "Signal stuck low",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0195",
+      "fmi": null,
+      "description": "Engine oil temperature sensor circuit Fault on the oil temperature sensor circuit.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0195",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0196",
+      "fmi": null,
+      "description": "Engine oil temperature sensor range/performance Missing CAN message.",
+      "ecu": "Engine ECU/ aftertreatment system ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Damaged harness or harness connector.  Faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0196",
+      "fmi": 27,
+      "description": "Signal rate of change above threshold - Engine ECU (oil temperature sensor signal gradient fault)",
+      "ecu": "Engine ECU/ aftertreatment system ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Damaged harness or harness connector.  Faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0196",
+      "fmi": 64,
+      "description": "Signal plausibility failure - Engine ECU (Oil temperature sensor signal gradient fault)",
+      "ecu": "Engine ECU/ aftertreatment system ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Damaged harness or harness connector.  Faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0196",
+      "fmi": 87,
+      "description": "Missing CAN message from engine ECU - Aftertreatment DCU (CAN BUS message error for oil temperature from engine ECU)",
+      "ecu": "Engine ECU/ aftertreatment system ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Damaged harness or harness connector.  Faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0197",
+      "fmi": null,
+      "description": "Engine oil temperature sensor circuit low Fault on the oil temperature sensor circuit.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0197",
+      "fmi": 11,
+      "description": "Short circuit to ground (SC2G)",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0198",
+      "fmi": null,
+      "description": "Engine oil temperature sensor circuit high Fault on the oil temperature sensor circuit.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0198",
+      "fmi": 12,
+      "description": "Short circuit to battery (SC2VBAT)",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0200",
+      "fmi": null,
+      "description": "Injector circuit/open Open circuit on the fuel injector.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0200",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0201",
+      "fmi": null,
+      "description": "Injector circuit/open - cylinder 1 Open circuit on the fuel injector.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0201",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0201",
+      "fmi": 11,
+      "description": "Short circuit to ground (SC2G)",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0201",
+      "fmi": 13,
+      "description": "Open circuit (OC)",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0202",
+      "fmi": null,
+      "description": "Injector circuit/open - cylinder 2 Open circuit on the fuel injector.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0202",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0202",
+      "fmi": 13,
+      "description": "Open circuit (OC)",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0203",
+      "fmi": null,
+      "description": "Injector circuit/open - cylinder 3 Open circuit on the fuel injector.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0203",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0203",
+      "fmi": 13,
+      "description": "Open circuit (OC)",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0204",
+      "fmi": null,
+      "description": "Injector circuit/open - cylinder 4 Open circuit on the fuel injector.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0204",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0204",
+      "fmi": 13,
+      "description": "Open circuit (OC)",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0220",
+      "fmi": null,
+      "description": "Throttle/pedal position sensor/switch \"B\" circuit Fault on the foot throttle position sensor.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0220",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0230",
+      "fmi": null,
+      "description": "Fuel pump primary circuit Fault on the low pressure fuel supply circuit.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0230",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0236",
+      "fmi": null,
+      "description": "Turbocharger/Supercharger Boost Sensor \"A\" Circuit Range/Performance Fault on the TMAP sensor.",
+      "ecu": "Engine ECU.",
+      "effects": " Torque reduction.",
+      "possibleCauses": " Faulty TMAP Sensor.  Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0236",
+      "fmi": 11,
+      "description": "Short circuit to ground (SC2G).",
+      "ecu": "Engine ECU.",
+      "effects": " Torque reduction.",
+      "possibleCauses": " Faulty TMAP Sensor.  Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0236",
+      "fmi": 12,
+      "description": "Short circuit to battery (SC2VBAT).",
+      "ecu": "Engine ECU.",
+      "effects": " Torque reduction.",
+      "possibleCauses": " Faulty TMAP Sensor.  Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0236",
+      "fmi": 16,
+      "description": "Circuit voltage below threshold.",
+      "ecu": "Engine ECU.",
+      "effects": " Torque reduction.",
+      "possibleCauses": " Faulty TMAP Sensor.  Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0237",
+      "fmi": null,
+      "description": "Turbocharger/Supercharger Boost Sensor \"A\" Circuit Low Boost Pressure signal too low.",
+      "ecu": "Engine ECU.",
+      "effects": " Torque reduction.",
+      "possibleCauses": " Faulty TMAP sensor.  Damaged harness or harness connector.  Inlet air leak.  Faulty turbocharger.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0237",
+      "fmi": 11,
+      "description": "Short circuit to ground (SC2G).",
+      "ecu": "Engine ECU.",
+      "effects": " Torque reduction.",
+      "possibleCauses": " Faulty TMAP sensor.  Damaged harness or harness connector.  Inlet air leak.  Faulty turbocharger.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0237",
+      "fmi": 16,
+      "description": "Circuit voltage below threshold.",
+      "ecu": "Engine ECU.",
+      "effects": " Torque reduction.",
+      "possibleCauses": " Faulty TMAP sensor.  Damaged harness or harness connector.  Inlet air leak.  Faulty turbocharger.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0237",
+      "fmi": 17,
+      "description": "Circuit voltage above threshold.",
+      "ecu": "Engine ECU.",
+      "effects": " Torque reduction.",
+      "possibleCauses": " Faulty TMAP sensor.  Damaged harness or harness connector.  Inlet air leak.  Faulty turbocharger.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0237",
+      "fmi": 21,
+      "description": "Data drifted low.",
+      "ecu": "Engine ECU.",
+      "effects": " Torque reduction.",
+      "possibleCauses": " Faulty TMAP sensor.  Damaged harness or harness connector.  Inlet air leak.  Faulty turbocharger.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0237",
+      "fmi": 23,
+      "description": "Signal stuck low.",
+      "ecu": "Engine ECU.",
+      "effects": " Torque reduction.",
+      "possibleCauses": " Faulty TMAP sensor.  Damaged harness or harness connector.  Inlet air leak.  Faulty turbocharger.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0238",
+      "fmi": null,
+      "description": "Turbocharger/Supercharger Boost Sensor \"A\" Circuit High Boost Pressure signal too high.",
+      "ecu": "Engine ECU.",
+      "effects": " Torque reduction.",
+      "possibleCauses": " Faulty TMAP sensor.  Damaged harness or harness connector.  Faulty turbocharger.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0238",
+      "fmi": 12,
+      "description": "Short circuit to battery (SC2VBAT).",
+      "ecu": "Engine ECU.",
+      "effects": " Torque reduction.",
+      "possibleCauses": " Faulty TMAP sensor.  Damaged harness or harness connector.  Faulty turbocharger.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0238",
+      "fmi": 17,
+      "description": "Circuit voltage above threshold",
+      "ecu": "Engine ECU.",
+      "effects": " Torque reduction.",
+      "possibleCauses": " Faulty TMAP sensor.  Damaged harness or harness connector.  Faulty turbocharger.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0238",
+      "fmi": 22,
+      "description": "Data drifted high.",
+      "ecu": "Engine ECU.",
+      "effects": " Torque reduction.",
+      "possibleCauses": " Faulty TMAP sensor.  Damaged harness or harness connector.  Faulty turbocharger.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0238",
+      "fmi": 24,
+      "description": "Signal stuck high.",
+      "ecu": "Engine ECU.",
+      "effects": " Torque reduction.",
+      "possibleCauses": " Faulty TMAP sensor.  Damaged harness or harness connector.  Faulty turbocharger.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0252",
+      "fmi": null,
+      "description": "Injection pump fuel metering control \"A\" range/performance (cam/rotor/injector) Fault on the inlet metering valve (IMV).",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0252",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0252",
+      "fmi": 11,
+      "description": "Short circuit to ground (SC2G)",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0252",
+      "fmi": 12,
+      "description": "Short circuit to battery (SC2VBAT)",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0253",
+      "fmi": null,
+      "description": "Low Fuel Flow - IMV Insufficient fuel flow from the low pressure fuel system (tank, low pressure pump,filters) or IMV electrical fault.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Fuel pipe restriction.  Fuel leak.  Faulty fuel pump.  Damaged harness or harness connector.  Faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0253",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Fuel pipe restriction.  Fuel leak.  Faulty fuel pump.  Damaged harness or harness connector.  Faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0253",
+      "fmi": 23,
+      "description": "Signal stuck low",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Fuel pipe restriction.  Fuel leak.  Faulty fuel pump.  Damaged harness or harness connector.  Faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0254",
+      "fmi": null,
+      "description": "Injection pump fuel metering control \"A\" high (cam/rotor/injector) Fault on the inlet metering valve (IMV).",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0254",
+      "fmi": 24,
+      "description": "Signal stuck high",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0261",
+      "fmi": null,
+      "description": "Cylinder 1 injector circuit Low Fault on the fuel injector.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0261",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0262",
+      "fmi": null,
+      "description": "Cylinder 1 injector circuit high Fault on the fuel injector.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0262",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0263",
+      "fmi": null,
+      "description": "Cylinder 1 contribution/balance Fault on the fuel injector.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0263",
+      "fmi": 23,
+      "description": "Signal stuck low",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0264",
+      "fmi": null,
+      "description": "Cylinder 2 injector circuit low Fault on the fuel injector.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0264",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0265",
+      "fmi": null,
+      "description": "Cylinder 2 injector circuit high Fault on the fuel injector.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0265",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0266",
+      "fmi": null,
+      "description": "Cylinder 2 contribution/balance Fault on the fuel injector.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0266",
+      "fmi": 23,
+      "description": "Signal stuck low",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0267",
+      "fmi": null,
+      "description": "Cylinder 3 injector circuit low Fault on the fuel injector.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0267",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0268",
+      "fmi": null,
+      "description": "Cylinder 3 injector circuit high Fault on the fuel injector.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0268",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0269",
+      "fmi": null,
+      "description": "Cylinder 3 contribution/balance Fault on the fuel injector.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0269",
+      "fmi": 23,
+      "description": "Signal stuck low",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0270",
+      "fmi": null,
+      "description": "Cylinder 4 injector circuit low Fault on the fuel injector.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0270",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0271",
+      "fmi": null,
+      "description": "Cylinder 4 injector circuit high Fault on the fuel injector.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0271",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0272",
+      "fmi": null,
+      "description": "Cylinder 4 contribution/balance Fault on the fuel injector.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0272",
+      "fmi": 23,
+      "description": "Signal stuck low",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0321",
+      "fmi": null,
+      "description": "Engine Speed Erroneous signal for engine speed.",
+      "ecu": "Engine ECU.",
+      "effects": "Error code and inducement.",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0321",
+      "fmi": 87,
+      "description": "Missing message CAN message from ECU (CAN BUS message for engine speed from engine ECU)",
+      "ecu": "Engine ECU.",
+      "effects": "Error code and inducement.",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0325",
+      "fmi": null,
+      "description": "Knock Sensor 1 Circuit Fault on the knock sensor circuit.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0325",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0330",
+      "fmi": null,
+      "description": "Knock Sensor 2 Circuit Fault on the knock sensor circuit.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0330",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0335",
+      "fmi": null,
+      "description": "Crankshaft Position Sensor \"A\" Circuit Fault on the crankshaft position sensor.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connectors.  Faulty crankshaft position sensor.  Excessive engine speed (P0335-85), e.g. machine in over-run traveling downhill in a low gear and/or with the torque convertor lock up engaged.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0335",
+      "fmi": 0,
+      "description": "Crank sensor fault （No signal）",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connectors.  Faulty crankshaft position sensor.  Excessive engine speed (P0335-85), e.g. machine in over-run traveling downhill in a low gear and/or with the torque convertor lock up engaged.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0335",
+      "fmi": 85,
+      "description": "Crank signal overspeed fault",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connectors.  Faulty crankshaft position sensor.  Excessive engine speed (P0335-85), e.g. machine in over-run traveling downhill in a low gear and/or with the torque convertor lock up engaged.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0340",
+      "fmi": null,
+      "description": "Camshaft position sensor \"A\" circuit Fault on the camshaft position sensor.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0340",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0341",
+      "fmi": null,
+      "description": "Camshaft position sensor \"A\" circuit range/performance Fault on the camshaft position sensor.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connectors.  Faulty sensor.  Sudden or harsh engine stop.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0341",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connectors.  Faulty sensor.  Sudden or harsh engine stop.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0341",
+      "fmi": 2,
+      "description": "Signal erratic",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connectors.  Faulty sensor.  Sudden or harsh engine stop.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0350",
+      "fmi": null,
+      "description": "Monitoring for system protection based on ignition switch input This fault code indicates an error with the monitoring for system protection based on T15 status.",
+      "ecu": "Aftertreatment ECU.",
+      "effects": "Error code.",
+      "possibleCauses": "Damaged harness or harness connector, out of date ECU software.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0350",
+      "fmi": 2,
+      "description": "General signal failure",
+      "ecu": "Aftertreatment ECU.",
+      "effects": "Error code.",
+      "possibleCauses": "Damaged harness or harness connector, out of date ECU software.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0371",
+      "fmi": null,
+      "description": "Timing reference high resolution signal \"A\" too many pulses Fault on the crankshaft position sensor circuit.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0371",
+      "fmi": 2,
+      "description": "Signal erratic",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0372",
+      "fmi": null,
+      "description": "Timing reference high resolution signal \"A\" too few pulses Fault on the crankshaft position sensor.",
+      "ecu": "Engine ECU.",
+      "effects": "Reduced Power Mode (Engine Derate) torque reduction.",
+      "possibleCauses": "Damaged harness or harness connector, faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0372",
+      "fmi": 31,
+      "description": "Elapsed time between CPS events is too high",
+      "ecu": "Engine ECU.",
+      "effects": "Reduced Power Mode (Engine Derate) torque reduction.",
+      "possibleCauses": "Damaged harness or harness connector, faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0372",
+      "fmi": 2,
+      "description": "Signal erratic",
+      "ecu": "Engine ECU.",
+      "effects": "Reduced Power Mode (Engine Derate) torque reduction.",
+      "possibleCauses": "Damaged harness or harness connector, faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0374",
+      "fmi": null,
+      "description": "Timing reference high resolution signal \"A\" no pulses Fault on the crankshaft position sensor.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector, faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0374",
+      "fmi": 2,
+      "description": "Signal erratic",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector, faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0380",
+      "fmi": null,
+      "description": "Glow plug/heater circuit \"A\" Fault on the grid heater relay control.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector, faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0380",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector, faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0380",
+      "fmi": 13,
+      "description": "Open circuit (OC)",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector, faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0381",
+      "fmi": null,
+      "description": "Glow plug/heater indicator circuit Fault on the grid heater relay control.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector, faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0381",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector, faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0383",
+      "fmi": null,
+      "description": "Glow plug control module control circuit low Fault on the grid heater relay control.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector, faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0383",
+      "fmi": 19,
+      "description": "Circuit current above threshold",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector, faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0384",
+      "fmi": null,
+      "description": "Glow plug control module control circuit high Fault on the grid heater relay control.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.  Faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0384",
+      "fmi": 12,
+      "description": "Short circuit to battery (SC2VBAT)",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.  Faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0400",
+      "fmi": null,
+      "description": "Exhaust gas recirculation \"A\" flow Fault on the exhaust gas recirculation (EGR) control system.",
+      "ecu": "Engine ECU.",
+      "effects": " Reduced Power Mode (Engine Derate) torque reduction.",
+      "possibleCauses": " Blocked EGR valve.  Blocked EGR mixer tube or inlet manifold.  Blocked EGR cooler.  Boost leak.  EGR system exhaust gas leak.  Blocked exhaust gas pressure sensor or tube.  Faulty or missing exhaust restrictor.  Faulty or missing intake restrictor.  Faulty mass airflow sensor, damaged airbox or air intake hose.  Faulty intake manifold pressure sensor.  Missing CAN termination resistor.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0400",
+      "fmi": 0,
+      "description": "EGR Flow limit reached OR EGR CAN communication error (T4i engines only)",
+      "ecu": "Engine ECU.",
+      "effects": " Reduced Power Mode (Engine Derate) torque reduction.",
+      "possibleCauses": " Blocked EGR valve.  Blocked EGR mixer tube or inlet manifold.  Blocked EGR cooler.  Boost leak.  EGR system exhaust gas leak.  Blocked exhaust gas pressure sensor or tube.  Faulty or missing exhaust restrictor.  Faulty or missing intake restrictor.  Faulty mass airflow sensor, damaged airbox or air intake hose.  Faulty intake manifold pressure sensor.  Missing CAN termination resistor.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0460",
+      "fmi": null,
+      "description": "Low fuel Level",
+      "ecu": "Engine ECU.",
+      "effects": " Fuel light on.",
+      "possibleCauses": " Low fuel Level.  Damaged Harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0460",
+      "fmi": 7,
+      "description": "Fuel tank empty (\\<6% full)",
+      "ecu": "Engine ECU.",
+      "effects": " Fuel light on.",
+      "possibleCauses": " Low fuel Level.  Damaged Harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0460",
+      "fmi": 21,
+      "description": "Fuel tank level low (\\<12% full)",
+      "ecu": "Engine ECU.",
+      "effects": " Fuel light on.",
+      "possibleCauses": " Low fuel Level.  Damaged Harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0470",
+      "fmi": null,
+      "description": "Exhaust pressure sensor \"A\" circuit Fault on the exhaust manifold pressure sensor.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0470",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0471",
+      "fmi": null,
+      "description": "Exhaust pressure sensor \"A\" circuit range/performance Fault on the exhaust manifold pressure sensor.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0471",
+      "fmi": 2,
+      "description": "Signal erratic",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0472",
+      "fmi": null,
+      "description": "Exhaust pressure sensor \"A\" circuit low Fault on the exhaust manifold pressure sensor.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0472",
+      "fmi": 11,
+      "description": "Short circuit to ground (SC2G)",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0472",
+      "fmi": 23,
+      "description": "Signal stuck low",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0473",
+      "fmi": null,
+      "description": "Exhaust pressure sensor \"A\" circuit high Fault on the exhaust manifold pressure sensor.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0473",
+      "fmi": 12,
+      "description": "Short circuit to battery (SC2VBAT)",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0473",
+      "fmi": 23,
+      "description": "Signal stuck high",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0500",
+      "fmi": null,
+      "description": "Vehicle speed sensor \"A\" Fault on the vehicle speed sensor input.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0500",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0500",
+      "fmi": 2,
+      "description": "Signal erratic",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0501",
+      "fmi": null,
+      "description": "Vehicle speed sensor \"A\" range/performance Fault on the vehicle speed sensor input.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0501",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0503",
+      "fmi": null,
+      "description": "Vehicle speed sensor \"A\" intermittent/erratic/high Fault on the vehicle speed sensor input.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0503",
+      "fmi": 64,
+      "description": "Signal plausibility failure",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0520",
+      "fmi": null,
+      "description": "Low oil pressure lamp drive circuit Fault on the circuit used to control the low oil pressure light.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connectors.  Faulty low oil pressure warning lamp.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0520",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connectors.  Faulty low oil pressure warning lamp.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0520",
+      "fmi": 11,
+      "description": "Short circuit to ground (SC2G)",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connectors.  Faulty low oil pressure warning lamp.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0520",
+      "fmi": 12,
+      "description": "Short circuit to battery (SC2VBAT)",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connectors.  Faulty low oil pressure warning lamp.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0520",
+      "fmi": 13,
+      "description": "Open circuit (OC)",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connectors.  Faulty low oil pressure warning lamp.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0521",
+      "fmi": null,
+      "description": "Engine oil pressure sensor/switch range/performance Fault on the oil pressure switch circuit.",
+      "ecu": "Engine ECU",
+      "effects": "",
+      "possibleCauses": " Faulty oil pressure switch.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0521",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU",
+      "effects": "",
+      "possibleCauses": " Faulty oil pressure switch.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0522",
+      "fmi": null,
+      "description": "High oil pressure (engine running/engine stopped) Unexpected high oil pressure signal received either when the engine is stopped or while the engine is running.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector, faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0522",
+      "fmi": 23,
+      "description": "Signal stuck low",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector, faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0523",
+      "fmi": null,
+      "description": "Low oil pressure during engine running Fault on the circuit used to control the low oil pressure light.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector, faulty sensor, low engine oil pressure.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0523",
+      "fmi": 24,
+      "description": "Signal stuck low",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector, faulty sensor, low engine oil pressure.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0544",
+      "fmi": null,
+      "description": "Exhaust gas temperature sensor circuit Fault on the exhaust gas temperature sensor circuit.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0544",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0545",
+      "fmi": null,
+      "description": "Exhaust gas temperature sensor circuit low Fault on the exhaust gas temperature sensor circuit.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0545",
+      "fmi": 11,
+      "description": "Short circuit to ground (SC2G)",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0546",
+      "fmi": null,
+      "description": "Exhaust gas temperature sensor circuit high Fault on the exhaust gas temperature sensor circuit.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0546",
+      "fmi": 12,
+      "description": "Short circuit to battery (SC2VBAT)",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0560",
+      "fmi": null,
+      "description": "System voltage Fault with the battery voltage.",
+      "ecu": "Engine ECU/aftertreatment ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector, faulty or discharged battery.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0560",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU/aftertreatment ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector, faulty or discharged battery.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0562",
+      "fmi": null,
+      "description": "System voltage low Fault with the battery voltage.",
+      "ecu": "Engine ECU/aftertreatment ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector, faulty or discharged battery.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0562",
+      "fmi": 2,
+      "description": "General signal failure (fault due to low or high battery voltage supply to ECU)",
+      "ecu": "Engine ECU/aftertreatment ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector, faulty or discharged battery.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0562",
+      "fmi": 16,
+      "description": "Circuit voltage below threshold (Low battery voltage)",
+      "ecu": "Engine ECU/aftertreatment ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector, faulty or discharged battery.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0563",
+      "fmi": null,
+      "description": "System voltage high Fault with the battery voltage.",
+      "ecu": "Engine ECU/aftertreatment ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector, faulty battery or over charged battery.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0563",
+      "fmi": 17,
+      "description": "Circuit voltage above threshold",
+      "ecu": "Engine ECU/aftertreatment ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector, faulty battery or over charged battery.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0566",
+      "fmi": null,
+      "description": "Cruise control \"off\" signal Fault with the cruise control system.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0566",
+      "fmi": 0,
+      "description": "no sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": "Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0567",
+      "fmi": null,
+      "description": "Cruise control \"off\" signal Fault with the cruise control system.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0567",
+      "fmi": 0,
+      "description": "no sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0569",
+      "fmi": null,
+      "description": "Cruise control \"coast\" signal Fault with the cruise control system.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0569",
+      "fmi": 0,
+      "description": "no sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0570",
+      "fmi": null,
+      "description": "Cruise control \"accelerate\" signal Fault with the cruise control system.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0570",
+      "fmi": 0,
+      "description": "no sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0575",
+      "fmi": null,
+      "description": "Cruise control input circuit Fault with the cruise control system.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0575",
+      "fmi": 0,
+      "description": "no sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0602",
+      "fmi": null,
+      "description": "Control module programming error Fault with the engine electronic control unit (ECU).",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Incorrect or out of date ECU software.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0602",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Incorrect or out of date ECU software.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0602",
+      "fmi": 2,
+      "description": "Signal erratic",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Incorrect or out of date ECU software.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0602",
+      "fmi": 55,
+      "description": "Out of calibration",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Incorrect or out of date ECU software.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0603",
+      "fmi": null,
+      "description": "Internal control module keep alive memory (KAM) error Fault with the engine electronic control unit (ECU).",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.  Faulty ECU.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0603",
+      "fmi": 2,
+      "description": "no sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.  Faulty ECU.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0604",
+      "fmi": null,
+      "description": "Internal control module random access memory (RAM) error Fault with the engine electronic control unit (ECU).",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.  Faulty ECU.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0604",
+      "fmi": 2,
+      "description": "signal erratic",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.  Faulty ECU.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0605",
+      "fmi": null,
+      "description": "Internal control module read only memory (ROM) error Fault with the engine electronic control unit (ECU).",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.  Faulty ECU.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0605",
+      "fmi": 2,
+      "description": "signal erratic",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.  Faulty ECU.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0606",
+      "fmi": null,
+      "description": "Peripheral monitoring error on DCU Fault with the peripheral monitoring function on the aftertreatment system electronic control unit (ECU).",
+      "ecu": "Aftertreatment ECU and engine ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Damaged harness or harness connector.  Incorrect or out of date ECU software.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0606",
+      "fmi": 2,
+      "description": "General signal failure (peripheral monitoring error on DCU)",
+      "ecu": "Aftertreatment ECU and engine ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Damaged harness or harness connector.  Incorrect or out of date ECU software.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0606",
+      "fmi": 6,
+      "description": "Algorithm based failure (functional safety fault)",
+      "ecu": "Aftertreatment ECU and engine ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Damaged harness or harness connector.  Incorrect or out of date ECU software.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0606",
+      "fmi": 49,
+      "description": "Internal electronic failure (main CPU fault)",
+      "ecu": "Aftertreatment ECU and engine ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Damaged harness or harness connector.  Incorrect or out of date ECU software.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0606",
+      "fmi": 86,
+      "description": "Signal invalid (functional safety fault)",
+      "ecu": "Aftertreatment ECU and engine ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Damaged harness or harness connector.  Incorrect or out of date ECU software.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0606",
+      "fmi": 87,
+      "description": "Missing CAN message",
+      "ecu": "Aftertreatment ECU and engine ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Damaged harness or harness connector.  Incorrect or out of date ECU software.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0612",
+      "fmi": null,
+      "description": "Engine speed relay driver Fault on the engine speed controller relay.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0612",
+      "fmi": 0,
+      "description": "Short circuit",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0612",
+      "fmi": 11,
+      "description": "Short circuit to ground (SC2G)",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0612",
+      "fmi": 12,
+      "description": "Short circuit to battery (SC2VBAT)",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0612",
+      "fmi": 13,
+      "description": "Open circuit",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0615",
+      "fmi": null,
+      "description": "Starter relay circuit Fault on the starter motor control relay.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0615",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0615",
+      "fmi": 13,
+      "description": "Open circuit (OC)",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0616",
+      "fmi": null,
+      "description": "Starter relay circuit low Fault on the starter motor control relay.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0616",
+      "fmi": 19,
+      "description": "Circuit current above threshold",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0617",
+      "fmi": null,
+      "description": "Starter relay circuit high Fault on the starter motor control relay.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0617",
+      "fmi": 12,
+      "description": "Short circuit to battery (SC2VBAT)",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0627",
+      "fmi": null,
+      "description": "Lift pump global fault Fault on the lift pump control circuit.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0627",
+      "fmi": 13,
+      "description": "Open circuit",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0628",
+      "fmi": null,
+      "description": "Lift pump global fault Fault on the lift pump control circuit.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0628",
+      "fmi": 11,
+      "description": "Short circuit to ground",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0629",
+      "fmi": null,
+      "description": "Lift pump global fault Fault on the lift pump control circuit.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0629",
+      "fmi": 12,
+      "description": "Short circuit to battery",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0630",
+      "fmi": null,
+      "description": "VIN not programmed or incompatible - ECM/PCM Variant coding not programmed, incompatible or corrupted – ECM.",
+      "ecu": "Engine ECU.",
+      "effects": " Engine features may not function correctly.",
+      "possibleCauses": " Variant coding not correctly configured.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0630",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": " Engine features may not function correctly.",
+      "possibleCauses": " Variant coding not correctly configured.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0641",
+      "fmi": null,
+      "description": "Sensor reference voltage \"A\" circuit/open Fault with the power connections.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connectors.  Water or corrosion in connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0641",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connectors.  Water or corrosion in connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0650",
+      "fmi": null,
+      "description": "Malfunction Indicator Lamp (MIL) driver fault Fault on the circuit controlling the malfunction indicator lamp (MIL).",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connectors.  Faulty MIL.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0650",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connectors.  Faulty MIL.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0650",
+      "fmi": 11,
+      "description": "Short circuit to ground (SC2G)",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connectors.  Faulty MIL.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0650",
+      "fmi": 12,
+      "description": "Short circuit to battery (SC2VBAT)",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connectors.  Faulty MIL.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0650",
+      "fmi": 13,
+      "description": "Open circuit",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connectors.  Faulty MIL.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0651",
+      "fmi": null,
+      "description": "Sensor reference voltage \"B\" circuit/open Fault with the power connections.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0651",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0655",
+      "fmi": null,
+      "description": "Check Engine Lamp (CEL) fault Fault on the circuit controlling the check engine lamp (CEL).",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connectors.  Faulty CEL.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0655",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connectors.  Faulty CEL.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0655",
+      "fmi": 11,
+      "description": "Short circuit to ground (SC2G)",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connectors.  Faulty CEL.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0655",
+      "fmi": 12,
+      "description": "Short circuit to battery (SC2VBAT)",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connectors.  Faulty CEL.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0655",
+      "fmi": 13,
+      "description": "Open circuit",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connectors.  Faulty CEL.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0656",
+      "fmi": null,
+      "description": "Fuel level output circuit Message fault from the fuel level switch.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0658",
+      "fmi": null,
+      "description": "Actuator relay 1 Ground short circuit error has been detected for actuator relay 1 (heated DEF lines).",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0658",
+      "fmi": 14,
+      "description": "Short circuit to ground (SC2G)",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0659",
+      "fmi": null,
+      "description": "Actuator relay 1 Battery short circuit error has been detected for actuator relay 1 (heated DEF lines).",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0659",
+      "fmi": 12,
+      "description": "Short circuit to battery (SC2VBAT)",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0668",
+      "fmi": null,
+      "description": "PCM/ECM/TCM internal temperature sensor \"A\" circuit low Internal temperature sensor fault on the engine electronic control unit (ECU).",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.  Faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0668",
+      "fmi": 11,
+      "description": "Short circuit to ground (SC2G)",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.  Faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0669",
+      "fmi": null,
+      "description": "PCM/ECM/TCM internal temperature sensor \"A\" circuit high Internal temperature sensor fault on the engine electronic control unit (ECU).",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.  Faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0669",
+      "fmi": 12,
+      "description": "Short circuit to battery (SC2VBAT)",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.  Faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0685",
+      "fmi": null,
+      "description": "ECM/PCM power relay control circuit/open Fault on the power hold relay for the engine electronic control unit (ECU). This error code will be generated following a power hold relay test, or after adjusting the ECU calibration.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.  Power hold relay test carried out.  ECU calibration adjusted.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0685",
+      "fmi": 0,
+      "description": "no sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.  Power hold relay test carried out.  ECU calibration adjusted.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0685",
+      "fmi": 72,
+      "description": "Actuator stuck open",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.  Power hold relay test carried out.  ECU calibration adjusted.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0697",
+      "fmi": null,
+      "description": "Sensor Reference Voltage \"C\" Circuit/Open Sensor power supply fault.",
+      "ecu": "Engine ECU.",
+      "effects": " Limp home mode.",
+      "possibleCauses": " Damaged harness or harness connectors.  Faulty ECU.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0697",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": " Limp home mode.",
+      "possibleCauses": " Damaged harness or harness connectors.  Faulty ECU.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0697",
+      "fmi": 4,
+      "description": "Over temperature",
+      "ecu": "Engine ECU.",
+      "effects": " Limp home mode.",
+      "possibleCauses": " Damaged harness or harness connectors.  Faulty ECU.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0715",
+      "fmi": null,
+      "description": "Input/turbine speed sensor \"A\" circuit ECU power fault on the variable geometry turbocharger (VGT).",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.  Faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P0715",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.  Faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P1101",
+      "fmi": null,
+      "description": "Rail pressure control error positive fault Problem controlling the fuel rail pressure.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P1101",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P1102",
+      "fmi": null,
+      "description": "Rail pressure control error negative fault Problem controlling the fuel rail pressure.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P1102",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P1103",
+      "fmi": null,
+      "description": "Rail pressure fault The fuel rail is not maintaining pressure after an engine shut down.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.  Fuel leak on the fuel rail.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P1103",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.  Fuel leak on the fuel rail.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P1104",
+      "fmi": null,
+      "description": "Injector 3 Update Fault No minimum drive pulse (MDP) updates occurred on Injector 3 due to environmental conditions.",
+      "ecu": "Engine ECU.",
+      "effects": " Reduced power mode (engine derate) - torque reduction.",
+      "possibleCauses": " Other fault codes present.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P1104",
+      "fmi": 0,
+      "description": "No sub type information.",
+      "ecu": "Engine ECU.",
+      "effects": " Reduced power mode (engine derate) - torque reduction.",
+      "possibleCauses": " Other fault codes present.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P1105",
+      "fmi": null,
+      "description": "Injector 3 Update Fault No minimum drive pulse (MDP) updates occurred on Injector 3 due to a fault within the update strategy.",
+      "ecu": "Engine ECU.",
+      "effects": " Reduced power mode (engine derate) - torque reduction.",
+      "possibleCauses": " Other fault codes present.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P1105",
+      "fmi": 0,
+      "description": "No sub type information.",
+      "ecu": "Engine ECU.",
+      "effects": " Reduced power mode (engine derate) - torque reduction.",
+      "possibleCauses": " Other fault codes present.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P1106",
+      "fmi": null,
+      "description": "Injector 2 Update Fault No minimum drive pulse (MDP) updates occurred on Injector 2 due to environmental conditions.",
+      "ecu": "Engine ECU.",
+      "effects": " Reduced power mode (engine derate) - torque reduction.",
+      "possibleCauses": " Other fault codes present.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P1106",
+      "fmi": 0,
+      "description": "No sub type information.",
+      "ecu": "Engine ECU.",
+      "effects": " Reduced power mode (engine derate) - torque reduction.",
+      "possibleCauses": " Other fault codes present.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P1107",
+      "fmi": null,
+      "description": "Injector 2 Update Fault No minimum drive pulse (MDP) updates occurred on Injector 2 due to a fault within the update strategy.",
+      "ecu": "Engine ECU.",
+      "effects": " Reduced power mode (engine derate) - torque reduction.",
+      "possibleCauses": " Other fault codes present.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P1107",
+      "fmi": 0,
+      "description": "No sub type information.",
+      "ecu": "Engine ECU.",
+      "effects": " Reduced power mode (engine derate) - torque reduction.",
+      "possibleCauses": " Other fault codes present.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P1108",
+      "fmi": null,
+      "description": "Injector 4 Update Fault No minimum drive pulse (MDP) updates occurred on Injector 4 due to environmental conditions.",
+      "ecu": "Engine ECU.",
+      "effects": " Reduced power mode (engine derate) - torque reduction.",
+      "possibleCauses": " Other fault codes present.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P1108",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": " Reduced power mode (engine derate) - torque reduction.",
+      "possibleCauses": " Other fault codes present.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P1109",
+      "fmi": null,
+      "description": "Injector 4 Update Fault No minimum drive pulse (MDP) updates occurred on Injector 4 due to a fault within the update strategy.",
+      "ecu": "Engine ECU.",
+      "effects": " Reduced power mode (engine derate) - torque reduction.",
+      "possibleCauses": " Other fault codes present.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P1109",
+      "fmi": 0,
+      "description": "No sub type information.",
+      "ecu": "Engine ECU.",
+      "effects": " Reduced power mode (engine derate) - torque reduction.",
+      "possibleCauses": " Other fault codes present.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P1400",
+      "fmi": null,
+      "description": "Override switch Fault with the override switch.",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Damaged harness or harness connector.  Faulty switch.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P1400",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Damaged harness or harness connector.  Faulty switch.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P1401",
+      "fmi": null,
+      "description": "Override switch Frame length error of PROSCR16 containing override switch information from engine electronic control unit (ECU).",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Damaged harness or harness connector.  Faulty switch.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P1401",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Damaged harness or harness connector.  Faulty switch.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P1402",
+      "fmi": null,
+      "description": "Override switch Frame timeout error has been detected by the override switch.",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Damaged harness or harness connector.  Faulty switch.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P1402",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Damaged harness or harness connector.  Faulty switch.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P1500",
+      "fmi": null,
+      "description": "Foot throttle/pedal signal fault Fault on the foot throttle position sensor signal. For safety, the engine has gone into limp home mode.",
+      "ecu": "Engine ECU.",
+      "effects": "Reduced power mode (engine derate) - limp home mode.",
+      "possibleCauses": " Damaged harness or harness connector.  Faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P1500",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "Reduced power mode (engine derate) - limp home mode.",
+      "possibleCauses": " Damaged harness or harness connector.  Faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P1501",
+      "fmi": null,
+      "description": "Foot throttle/pedal signal fault Fault on the foot throttle position sensor signal. For safety, the engine has gone into reduced torque mode mode.",
+      "ecu": "Engine ECU.",
+      "effects": "Reduced power mode (engine derate) - reduced torque mode.",
+      "possibleCauses": " Damaged harness or harness connector.  Faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P1501",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "Reduced power mode (engine derate) - reduced torque mode.",
+      "possibleCauses": " Damaged harness or harness connector.  Faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P1503",
+      "fmi": null,
+      "description": "Hand throttle/pedal signal fault Fault on the hand throttle position sensor signal. For safety, the engine has gone into limp home mode.",
+      "ecu": "Engine ECU.",
+      "effects": "Reduced power mode (engine derate) - limp home mode.",
+      "possibleCauses": " Damaged harness or harness connector.  Faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P1503",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "Reduced power mode (engine derate) - limp home mode.",
+      "possibleCauses": " Damaged harness or harness connector.  Faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P1504",
+      "fmi": null,
+      "description": "Hand throttle/pedal signal fault Fault on the hand throttle position sensor signal. For safety, the engine has gone into reduced torque mode.",
+      "ecu": "Engine ECU.",
+      "effects": "Reduced power mode (engine derate) - limp home mode.",
+      "possibleCauses": " Damaged harness or harness connector.  Faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P1504",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "Reduced power mode (engine derate) - limp home mode.",
+      "possibleCauses": " Damaged harness or harness connector.  Faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P1506",
+      "fmi": null,
+      "description": "Throttle/pedal global fault - limp home mode Fault on the throttle signal. For safety, the engine has gone into limp home mode,",
+      "ecu": "Engine ECU.",
+      "effects": "Reduced power mode (engine derate) - limp home mode.",
+      "possibleCauses": " Damaged harness or harness connector.  Faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P1506",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "Reduced power mode (engine derate) - limp home mode.",
+      "possibleCauses": " Damaged harness or harness connector.  Faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P1509",
+      "fmi": null,
+      "description": "CAN communication error on TSC Error in the signal received from a CAN based throttle.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.  Faulty throttle sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P1509",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.  Faulty throttle sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P1602",
+      "fmi": null,
+      "description": "Starter motor relay global driver Error with the voltage driver used to control the starter motor inhibit relay.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P1602",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2000",
+      "fmi": null,
+      "description": "Conversion efficiency An error has been detected with the actual average conversion efficiency (below the threshold efficiency).",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Reduced Power Mode (Engine Derate), error code.",
+      "possibleCauses": " NOx sensors connected incorrectly.  Faulty sensor on the exhaust aftertreatment system.  Faulty exhaust aftertreatment catalyst.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2000",
+      "fmi": 0,
+      "description": "No sub type information (actual average conversion efficiency is below the threshold)",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Reduced Power Mode (Engine Derate), error code.",
+      "possibleCauses": " NOx sensors connected incorrectly.  Faulty sensor on the exhaust aftertreatment system.  Faulty exhaust aftertreatment catalyst.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2000",
+      "fmi": 2,
+      "description": "General signal failure (actual average conversion efficiency is below the threshold)",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Reduced Power Mode (Engine Derate), error code.",
+      "possibleCauses": " NOx sensors connected incorrectly.  Faulty sensor on the exhaust aftertreatment system.  Faulty exhaust aftertreatment catalyst.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2000",
+      "fmi": 4,
+      "description": "System internal failure (actual average conversion efficiency is below the threshold)",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Reduced Power Mode (Engine Derate), error code.",
+      "possibleCauses": " NOx sensors connected incorrectly.  Faulty sensor on the exhaust aftertreatment system.  Faulty exhaust aftertreatment catalyst.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2000",
+      "fmi": 6,
+      "description": "Algorithm based failure (actual average conversion efficiency is below the threshold)",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Reduced Power Mode (Engine Derate), error code.",
+      "possibleCauses": " NOx sensors connected incorrectly.  Faulty sensor on the exhaust aftertreatment system.  Faulty exhaust aftertreatment catalyst.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2043",
+      "fmi": null,
+      "description": "Head unit CAN communication error has been detected between the head unit and aftertreatment system ECU.",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2043",
+      "fmi": 81,
+      "description": "Invalid serial data received (CAN BUS message error from head unit)",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2043",
+      "fmi": 86,
+      "description": "Signal invalid (DEF temperature message error from head unit)",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2043",
+      "fmi": 87,
+      "description": "Missing CAN message from ECU (CAN BUS off error from head unit)",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2080",
+      "fmi": null,
+      "description": "Exhaust gas temperature sensor circuit range/performance Fault with the Variable Geometry Turbocharger (VGT) system.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2080",
+      "fmi": 2,
+      "description": "Signal erratic",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2100",
+      "fmi": null,
+      "description": "Throttle H-Bridge wiring fault An intermittent or permanent break in the circuit powering the throttle motor has been detected.",
+      "ecu": "Engine ECU.",
+      "effects": " Reduced Power Mode (Engine Derate).  Error code.",
+      "possibleCauses": " Throttle harness connector removed.  Damaged harness or harness connector.  Electrical fault with the intake throttle.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2100",
+      "fmi": 2,
+      "description": "Throttle short circuit",
+      "ecu": "Engine ECU.",
+      "effects": " Reduced Power Mode (Engine Derate).  Error code.",
+      "possibleCauses": " Throttle harness connector removed.  Damaged harness or harness connector.  Electrical fault with the intake throttle.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2100",
+      "fmi": 13,
+      "description": "Permanent or intermittent open circuit.",
+      "ecu": "Engine ECU.",
+      "effects": " Reduced Power Mode (Engine Derate).  Error code.",
+      "possibleCauses": " Throttle harness connector removed.  Damaged harness or harness connector.  Electrical fault with the intake throttle.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2101",
+      "fmi": null,
+      "description": "Throttle H-Bridge wiring fault Permanent or intermittent short circuit.",
+      "ecu": "Engine ECU.",
+      "effects": " Reduced Power Mode (Engine Derate), error code",
+      "possibleCauses": " Damaged harness or harness connector.  Electrical fault with the intake throttle.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2101",
+      "fmi": 2,
+      "description": "Permanent or intermittent short circuit.",
+      "ecu": "Engine ECU.",
+      "effects": " Reduced Power Mode (Engine Derate), error code",
+      "possibleCauses": " Damaged harness or harness connector.  Electrical fault with the intake throttle.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2102",
+      "fmi": null,
+      "description": "Throttle H-Bridge wiring fault A short circuit to ground in the circuit powering the throttle motor has been detected.",
+      "ecu": "Engine ECU.",
+      "effects": " Reduced Power Mode (Engine Derate), error code",
+      "possibleCauses": " Damaged harness or harness connector.  Electrical fault with the intake throttle.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2102",
+      "fmi": 11,
+      "description": "Short circuit to ground (SC2G)",
+      "ecu": "Engine ECU.",
+      "effects": " Reduced Power Mode (Engine Derate), error code",
+      "possibleCauses": " Damaged harness or harness connector.  Electrical fault with the intake throttle.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2103",
+      "fmi": null,
+      "description": "Throttle H-Bridge wiring fault A short circuit to the battery in the circuit powering the throttle motor has been detected.",
+      "ecu": "Engine ECU.",
+      "effects": " Reduced Power Mode (Engine Derate), error code",
+      "possibleCauses": " Damaged harness or harness connector.  Electrical fault with the intake throttle.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2103",
+      "fmi": 12,
+      "description": "Short circuit to battery (SC2VBAT)",
+      "ecu": "Engine ECU.",
+      "effects": " Reduced Power Mode (Engine Derate), error code",
+      "possibleCauses": " Damaged harness or harness connector.  Electrical fault with the intake throttle.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2120",
+      "fmi": null,
+      "description": "Hand pedal signal track 1 fault Fault on the signal from track 1 of the hand throttle position sensor.",
+      "ecu": "Engine ECU",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2120",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2125",
+      "fmi": null,
+      "description": "Hand pedal signal track 2 fault Fault on the signal from track 2 of the hand throttle position sensor.",
+      "ecu": "Engine ECU",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2125",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2135",
+      "fmi": null,
+      "description": "Throttle/pedal position sensor/switch \"A\"/\"B\" voltage correlation Fault on the throttle pedal position sensor.",
+      "ecu": "Engine ECU",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2135",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connectors.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2138",
+      "fmi": null,
+      "description": "Hand pedal signal correlation fault Fault with the correlation between the two position signals from the hand throttle position sensor.",
+      "ecu": "Engine ECU",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2138",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2147",
+      "fmi": null,
+      "description": "Injector supply voltage fault Fault with voltage supply for the fuel injector.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2147",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2148",
+      "fmi": null,
+      "description": "Injector supply voltage fault Fault with voltage supply for the fuel injector.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2148",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2200",
+      "fmi": null,
+      "description": "Upstream NOx sensor A wiring fault has affected the upstream NOx sensor.",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": " Reduced Power Mode (Engine Derate).  Error code.",
+      "possibleCauses": " 12 Volt NOx sensor fitted to a 24 Volt machine.  24 Volt NOx sensor fitted to a 12 Volt machine.  Faulty sensor.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2200",
+      "fmi": 0,
+      "description": "No sub type information (upstream NOx sensor wire diagnosis-error in voltage supply)",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": " Reduced Power Mode (Engine Derate).  Error code.",
+      "possibleCauses": " 12 Volt NOx sensor fitted to a 24 Volt machine.  24 Volt NOx sensor fitted to a 12 Volt machine.  Faulty sensor.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2200",
+      "fmi": 2,
+      "description": "General signal failure (upstream NOx sensor short circuit to ground or battery)",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": " Reduced Power Mode (Engine Derate).  Error code.",
+      "possibleCauses": " 12 Volt NOx sensor fitted to a 24 Volt machine.  24 Volt NOx sensor fitted to a 12 Volt machine.  Faulty sensor.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2200",
+      "fmi": 5,
+      "description": "System programming failure (upstream NOx sensor self diagnostic )",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": " Reduced Power Mode (Engine Derate).  Error code.",
+      "possibleCauses": " 12 Volt NOx sensor fitted to a 24 Volt machine.  24 Volt NOx sensor fitted to a 12 Volt machine.  Faulty sensor.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2200",
+      "fmi": 11,
+      "description": "Circuit short to ground (lambda signal below minimum for upstream NOx sensor)",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": " Reduced Power Mode (Engine Derate).  Error code.",
+      "possibleCauses": " 12 Volt NOx sensor fitted to a 24 Volt machine.  24 Volt NOx sensor fitted to a 12 Volt machine.  Faulty sensor.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2200",
+      "fmi": 12,
+      "description": "Circuit short to battery (lambda signal above maximum limit for upstream NOx sensor)x",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": " Reduced Power Mode (Engine Derate).  Error code.",
+      "possibleCauses": " 12 Volt NOx sensor fitted to a 24 Volt machine.  24 Volt NOx sensor fitted to a 12 Volt machine.  Faulty sensor.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2200",
+      "fmi": 13,
+      "description": "Open circuit (upstream NOx sensor open circuit)",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": " Reduced Power Mode (Engine Derate).  Error code.",
+      "possibleCauses": " 12 Volt NOx sensor fitted to a 24 Volt machine.  24 Volt NOx sensor fitted to a 12 Volt machine.  Faulty sensor.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2200",
+      "fmi": 61,
+      "description": "Signal calculation failure (invalid signal from upstream NOx sensor after heater release)",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": " Reduced Power Mode (Engine Derate).  Error code.",
+      "possibleCauses": " 12 Volt NOx sensor fitted to a 24 Volt machine.  24 Volt NOx sensor fitted to a 12 Volt machine.  Faulty sensor.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2200",
+      "fmi": 63,
+      "description": "Circuit/component protection time-out (upstream NOx sensor self diagnostic timeout)",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": " Reduced Power Mode (Engine Derate).  Error code.",
+      "possibleCauses": " 12 Volt NOx sensor fitted to a 24 Volt machine.  24 Volt NOx sensor fitted to a 12 Volt machine.  Faulty sensor.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2200",
+      "fmi": 94,
+      "description": "Unexplained operation (upstream NOx sensor self diagnostic abort)",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": " Reduced Power Mode (Engine Derate).  Error code.",
+      "possibleCauses": " 12 Volt NOx sensor fitted to a 24 Volt machine.  24 Volt NOx sensor fitted to a 12 Volt machine.  Faulty sensor.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2201",
+      "fmi": null,
+      "description": "Downstream NOx sensor A wiring fault has affected the downstream NOx sensor.",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Reduced Power Mode (Engine Derate), error code.",
+      "possibleCauses": " 12 Volt NOx sensor fitted to a 24 Volt machine.  24 Volt NOx sensor fitted to a 12 Volt machine.  Faulty sensor.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2201",
+      "fmi": 0,
+      "description": "No sub type information. (Downstream NOx sensor wire diagnosis-error in voltage supply)",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Reduced Power Mode (Engine Derate), error code.",
+      "possibleCauses": " 12 Volt NOx sensor fitted to a 24 Volt machine.  24 Volt NOx sensor fitted to a 12 Volt machine.  Faulty sensor.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2201",
+      "fmi": 1,
+      "description": "Circuit voltage out of range (Downstream NOx sensor short circuit to ground or battery)",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Reduced Power Mode (Engine Derate), error code.",
+      "possibleCauses": " 12 Volt NOx sensor fitted to a 24 Volt machine.  24 Volt NOx sensor fitted to a 12 Volt machine.  Faulty sensor.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2201",
+      "fmi": 6,
+      "description": "Algorithm based failure (Downstream NOx sensor self diagnostic )",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Reduced Power Mode (Engine Derate), error code.",
+      "possibleCauses": " 12 Volt NOx sensor fitted to a 24 Volt machine.  24 Volt NOx sensor fitted to a 12 Volt machine.  Faulty sensor.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2201",
+      "fmi": 11,
+      "description": "Circuit short to ground (Lambda signal below minimum limit for downstream NOx sensor)",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Reduced Power Mode (Engine Derate), error code.",
+      "possibleCauses": " 12 Volt NOx sensor fitted to a 24 Volt machine.  24 Volt NOx sensor fitted to a 12 Volt machine.  Faulty sensor.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2201",
+      "fmi": 12,
+      "description": "Circuit short to battery (Lambda signal above maximum limit for downstream NOx sensor)",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Reduced Power Mode (Engine Derate), error code.",
+      "possibleCauses": " 12 Volt NOx sensor fitted to a 24 Volt machine.  24 Volt NOx sensor fitted to a 12 Volt machine.  Faulty sensor.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2201",
+      "fmi": 13,
+      "description": "Open circuit (Downstream NOx sensor open circuit)",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Reduced Power Mode (Engine Derate), error code.",
+      "possibleCauses": " 12 Volt NOx sensor fitted to a 24 Volt machine.  24 Volt NOx sensor fitted to a 12 Volt machine.  Faulty sensor.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2201",
+      "fmi": 16,
+      "description": "Circuit voltage below threshold (Downstream NOx offset min error detection)",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Reduced Power Mode (Engine Derate), error code.",
+      "possibleCauses": " 12 Volt NOx sensor fitted to a 24 Volt machine.  24 Volt NOx sensor fitted to a 12 Volt machine.  Faulty sensor.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2201",
+      "fmi": 17,
+      "description": "Circuit voltage above threshold (Downstream NOx offset max error detection)",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Reduced Power Mode (Engine Derate), error code.",
+      "possibleCauses": " 12 Volt NOx sensor fitted to a 24 Volt machine.  24 Volt NOx sensor fitted to a 12 Volt machine.  Faulty sensor.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2201",
+      "fmi": 61,
+      "description": "Signal calculation failure (Invalid signal from downstream NOx sensor after heater release)",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Reduced Power Mode (Engine Derate), error code.",
+      "possibleCauses": " 12 Volt NOx sensor fitted to a 24 Volt machine.  24 Volt NOx sensor fitted to a 12 Volt machine.  Faulty sensor.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2201",
+      "fmi": 63,
+      "description": "Circuit/Component protection time-out (Downstream NOx sensor self diagnostic timeout)",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Reduced Power Mode (Engine Derate), error code.",
+      "possibleCauses": " 12 Volt NOx sensor fitted to a 24 Volt machine.  24 Volt NOx sensor fitted to a 12 Volt machine.  Faulty sensor.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2201",
+      "fmi": 97,
+      "description": "Circuit/Component protection time-out (Downstream NOx sensor self diagnostic timeout)",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Reduced Power Mode (Engine Derate), error code.",
+      "possibleCauses": " 12 Volt NOx sensor fitted to a 24 Volt machine.  24 Volt NOx sensor fitted to a 12 Volt machine.  Faulty sensor.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2202",
+      "fmi": null,
+      "description": "NOx sensor reading below minimum threshold An error has been detected with the NOx sensor reading.",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Reduced Power Mode (Engine Derate), error code.",
+      "possibleCauses": " Faulty sensor.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2202",
+      "fmi": 0,
+      "description": "No sub type information (Upstream NOx sensor reading below minimum threshold)",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Reduced Power Mode (Engine Derate), error code.",
+      "possibleCauses": " Faulty sensor.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2202",
+      "fmi": 16,
+      "description": "Circuit voltage below threshold (Downstream NOx sensor reading below minimum threshold)",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Reduced Power Mode (Engine Derate), error code.",
+      "possibleCauses": " Faulty sensor.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2203",
+      "fmi": null,
+      "description": "NOx sensor reading above maximum threshold An error has been detected with the NOx sensor reading.",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Reduced Power Mode (Engine Derate), error code.",
+      "possibleCauses": " Faulty sensor.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2203",
+      "fmi": 0,
+      "description": "No sub type information.(Upstream NOx sensor reading exceeds above maximum threshold)",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Reduced Power Mode (Engine Derate), error code.",
+      "possibleCauses": " Faulty sensor.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2203",
+      "fmi": 17,
+      "description": "Circuit Voltage above threshold (Downstream NOx sensor reading exceeds  above maximum threshold)",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Reduced Power Mode (Engine Derate), error code.",
+      "possibleCauses": " Faulty sensor.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2208",
+      "fmi": null,
+      "description": "Downstream NOx sensor An error has been detected with the downstream NOx sensor heater.",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": " Reduced Power Mode (Engine Derate).  Error code.",
+      "possibleCauses": " Sensor power supply fault.  Faulty sensor.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2208",
+      "fmi": 0,
+      "description": "No sub type information (downstream NOx sensor heater not available)",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": " Reduced Power Mode (Engine Derate).  Error code.",
+      "possibleCauses": " Sensor power supply fault.  Faulty sensor.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2208",
+      "fmi": 2,
+      "description": "General signal failure (downstream NOx sensor heater not heated quickly)",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": " Reduced Power Mode (Engine Derate).  Error code.",
+      "possibleCauses": " Sensor power supply fault.  Faulty sensor.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2209",
+      "fmi": null,
+      "description": "Upstream NOx sensor An error has been detected with the upstream NOx sensor heater.",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": " Reduced Power Mode (Engine Derate).  Error code.",
+      "possibleCauses": " Sensor power supply fault.  Faulty sensor.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2209",
+      "fmi": 0,
+      "description": "No sub type information (upstream NOx sensor heater not available)",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": " Reduced Power Mode (Engine Derate).  Error code.",
+      "possibleCauses": " Sensor power supply fault.  Faulty sensor.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2209",
+      "fmi": 2,
+      "description": "General signal failure (upstream NOx sensor heater not heated quickly)",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": " Reduced Power Mode (Engine Derate).  Error code.",
+      "possibleCauses": " Sensor power supply fault.  Faulty sensor.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2226",
+      "fmi": null,
+      "description": "Barometric pressure sensor \"A\" circuit Fault with the barometric/pressure sensor inside the ECU.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.  Faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2226",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.  Faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2228",
+      "fmi": null,
+      "description": "Barometric pressure sensor \"A\" circuit low Fault with the barometric/pressure sensor inside the ECU.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.  Faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2228",
+      "fmi": 11,
+      "description": "Short circuit to ground",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.  Faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2229",
+      "fmi": null,
+      "description": "Barometric pressure sensor \"A\" circuit high Fault with the barometric/pressure sensor inside the ECU.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.  Faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2229",
+      "fmi": 12,
+      "description": "Short circuit to battery",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.  Faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2264",
+      "fmi": null,
+      "description": "Water in fuel sensor circuit Fault on the water in fuel sensor.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.  Faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2264",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.  Faulty sensor.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2265",
+      "fmi": null,
+      "description": "Water in fuel sensor circuit range/performance Fault on the water in fuel sensor circuit.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2265",
+      "fmi": 2,
+      "description": "Signal erratic.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2266",
+      "fmi": null,
+      "description": "Water in fuel sensor circuit low Fault on the water in fuel sensor circuit.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2266",
+      "fmi": 11,
+      "description": "Short circuit to ground",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2267",
+      "fmi": null,
+      "description": "Water in fuel sensor circuit high Fault on the water in fuel sensor circuit.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2267",
+      "fmi": 12,
+      "description": "Short circuit to battery",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2269",
+      "fmi": null,
+      "description": "Water in fuel condition Fault on the water in fuel sensor circuit.",
+      "ecu": "Engine ECU.",
+      "effects": "Reduced Power Mode (Engine Derate) torque reduction.",
+      "possibleCauses": " Water in fuel.  Damaged harness or harness connector.  Faulty sensor.  Fuel hoses connected incorrectly.  Water in fuel sensor not disconnected.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2269",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "Reduced Power Mode (Engine Derate) torque reduction.",
+      "possibleCauses": " Water in fuel.  Damaged harness or harness connector.  Faulty sensor.  Fuel hoses connected incorrectly.  Water in fuel sensor not disconnected.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2269",
+      "fmi": 22,
+      "description": "Gross water contamination",
+      "ecu": "Engine ECU.",
+      "effects": "Reduced Power Mode (Engine Derate) torque reduction.",
+      "possibleCauses": " Water in fuel.  Damaged harness or harness connector.  Faulty sensor.  Fuel hoses connected incorrectly.  Water in fuel sensor not disconnected.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2413",
+      "fmi": null,
+      "description": "Impeded EGR fault data engine ECU Error with the exhaust gas recirculation valve.",
+      "ecu": "Engine ECU.",
+      "effects": " Reduced Power Mode (Engine Derate).  Error code.",
+      "possibleCauses": " Engine related fault affecting EGR flow (Intake throttle, EGR, VGT, Coolant temp, blocked SCR)  CAN communication fault.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2413",
+      "fmi": 81,
+      "description": "Invalid serial data received (CAN BUS message error for EGR faults from engine ECU)",
+      "ecu": "Engine ECU.",
+      "effects": " Reduced Power Mode (Engine Derate).  Error code.",
+      "possibleCauses": " Engine related fault affecting EGR flow (Intake throttle, EGR, VGT, Coolant temp, blocked SCR)  CAN communication fault.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2413",
+      "fmi": 86,
+      "description": "Signal invalid (CAN BUS message error from engine ECU)",
+      "ecu": "Engine ECU.",
+      "effects": " Reduced Power Mode (Engine Derate).  Error code.",
+      "possibleCauses": " Engine related fault affecting EGR flow (Intake throttle, EGR, VGT, Coolant temp, blocked SCR)  CAN communication fault.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2413",
+      "fmi": 87,
+      "description": "Missing CAN message from ECU (impeded EGR fault data or bus off for EGR faults from engine ECU)",
+      "ecu": "Engine ECU.",
+      "effects": " Reduced Power Mode (Engine Derate).  Error code.",
+      "possibleCauses": " Engine related fault affecting EGR flow (Intake throttle, EGR, VGT, Coolant temp, blocked SCR)  CAN communication fault.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2428",
+      "fmi": null,
+      "description": "Exhaust Catalyst Temperature Error with the exhaust catalyst temperature t4 physical signal, it is above the maximum",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Faulty Sensor  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2428",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Faulty Sensor  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2428",
+      "fmi": 17,
+      "description": "Circuit voltage above threshold",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Faulty Sensor  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2502",
+      "fmi": null,
+      "description": "Power management from engine ECU Error with power management.",
+      "ecu": "Engine ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2502",
+      "fmi": 87,
+      "description": "Missing CAN message from engine ECU",
+      "ecu": "Engine ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2620",
+      "fmi": null,
+      "description": "Throttle position feedback fault An intermittent or permanent fault has been detected within the throttle blade monitoring.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Throttle harness connector removed.  Damaged harness or harness connector.  Faulty inlet throttle.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2620",
+      "fmi": 0,
+      "description": "Throttle position feedback fault",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Throttle harness connector removed.  Damaged harness or harness connector.  Faulty inlet throttle.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2670",
+      "fmi": null,
+      "description": "Short circuit to ground of actuator relay 2 A short circuit fault has been detected with the actuator relay 2.",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Reduced Power Mode (Engine Derate), error code.",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2670",
+      "fmi": 14,
+      "description": "Short circuit to ground or open circuit",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Reduced Power Mode (Engine Derate), error code.",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2671",
+      "fmi": null,
+      "description": "Short circuit to battery of actuator relay 2 A short circuit fault has been detected with the actuator relay 2.",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Reduced Power Mode (Engine Derate), error code.",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2671",
+      "fmi": 12,
+      "description": "Short circuit to battery",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Reduced Power Mode (Engine Derate), error code.",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2685",
+      "fmi": null,
+      "description": "Short circuit to ground of actuator relay 3 A short circuit fault has been detected with the actuator relay 3.",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Reduced Power Mode (Engine Derate), error code.",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2685",
+      "fmi": 14,
+      "description": "Short circuit to ground or open circuit",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Reduced Power Mode (Engine Derate), error code.",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2686",
+      "fmi": null,
+      "description": "Short circuit to battery of actuator relay 3 A short circuit fault has been detected with the actuator relay 3.",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Reduced Power Mode (Engine Derate), error code.",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P2686",
+      "fmi": 12,
+      "description": "Short circuit to battery",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Reduced Power Mode (Engine Derate), error code.",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P3401",
+      "fmi": null,
+      "description": "DEF property Excessive/ambient temperature for aftertreatment 1 SCR catalyst.",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Faulty head unit.  Faulty coolant valve.  Excessive local ambient temperature.  Excessive temperature of DEF in return line.  Faulty temperature sensor.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P3401",
+      "fmi": 87,
+      "description": "Missing CAN message from ECU",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Faulty head unit.  Faulty coolant valve.  Excessive local ambient temperature.  Excessive temperature of DEF in return line.  Faulty temperature sensor.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P3402",
+      "fmi": null,
+      "description": "DEF property High concentration error has been detected for aftertreatment 1 SCR catalyst DEF properties.",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Faulty quality sensor.  Debris in DEF tank.  Coolant leak into DEF tank.  Contamination of DEF supplied to tank.  Addition of fluids other than DEF to tank.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P3402",
+      "fmi": 87,
+      "description": "Missing CAN message from ECU",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Faulty quality sensor.  Debris in DEF tank.  Coolant leak into DEF tank.  Contamination of DEF supplied to tank.  Addition of fluids other than DEF to tank.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P3403",
+      "fmi": null,
+      "description": "DEF property Low concentration error has been detected for aftertreatment 1 SCR catalyst DEF properties.",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Faulty quality sensor.  Debris in DEF tank.  Coolant leak into DEF tank.  Contamination of DEF supplied to tank.  Addition of fluids other than DEF to tank.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P3403",
+      "fmi": 87,
+      "description": "Missing CAN message from ECU",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Faulty quality sensor.  Debris in DEF tank.  Coolant leak into DEF tank.  Contamination of DEF supplied to tank.  Addition of fluids other than DEF to tank.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P3404",
+      "fmi": null,
+      "description": "DEF property An error has been detected for aftertreatment 1 SCR catalyst.",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Faulty coolant valve.  Excessive local ambient temperature.  Excessive temperature of DEF in return line.  Faulty temperature sensor.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P3404",
+      "fmi": 87,
+      "description": "Missing CAN message from ECU",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Faulty coolant valve.  Excessive local ambient temperature.  Excessive temperature of DEF in return line.  Faulty temperature sensor.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P3405",
+      "fmi": null,
+      "description": "DEF property High temperature error for aftertreatment 1 SCR catalyst.",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Faulty coolant valve.  Excessive local ambient temperature.  Excessive temperature of DEF in return line.  Faulty temperature sensor.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P3405",
+      "fmi": 87,
+      "description": "Missing CAN message from ECU",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Faulty coolant valve.  Excessive local ambient temperature.  Excessive temperature of DEF in return line.  Faulty temperature sensor.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P3406",
+      "fmi": null,
+      "description": "DEF property Low temperature error for aftertreatment 1 SCR catalyst.",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Faulty coolant valve.  Very low local ambient temperature.  Excessive temperature of DEF in return line.  Faulty temperature sensor.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P3406",
+      "fmi": 87,
+      "description": "Missing CAN message from ECU",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Faulty coolant valve.  Very low local ambient temperature.  Excessive temperature of DEF in return line.  Faulty temperature sensor.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P3407",
+      "fmi": null,
+      "description": "DEF temperature Open circuit sensor error has been detected for aftertreatment1 SCR catalyst.",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Faulty sensor.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P3407",
+      "fmi": 87,
+      "description": "Missing CAN message from ECU",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Faulty sensor.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P3408",
+      "fmi": null,
+      "description": "DEF temperature Sensor short circuit error has been detected for aftertreatment1 SCR catalyst.",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Faulty sensor.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P3408",
+      "fmi": 87,
+      "description": "Missing CAN message from ECU",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Faulty sensor.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P3409",
+      "fmi": null,
+      "description": "DEF properties Excessive ambient/operating level error has been detected for aftertreatment 1 SCR catalyst.",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Excessive ambient temperature.  Faulty temperature sensor.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P3409",
+      "fmi": 87,
+      "description": "Missing CAN message from ECU",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Excessive ambient temperature.  Faulty temperature sensor.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P3410",
+      "fmi": null,
+      "description": "DEF properties High DEF level error has been detected for aftertreatment 1 SCR DEF properties.",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Faulty quality sensor.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P3410",
+      "fmi": 87,
+      "description": "Missing CAN message from ECU",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Faulty quality sensor.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P3411",
+      "fmi": null,
+      "description": "DEF properties An error with the regent level too low for aftertreatment 1 SCR catalyst has been detected.",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Faulty quality sensor.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P3411",
+      "fmi": 87,
+      "description": "Missing CAN message from ECU",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Faulty quality sensor.  Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P3412",
+      "fmi": null,
+      "description": "DEF temperature Tank level open circuit error has been detected for aftertreatment1 SCR catalyst",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P3412",
+      "fmi": 87,
+      "description": "Missing CAN message from ECU",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P3413",
+      "fmi": null,
+      "description": "DEF temperature A short circuit error has been detected for aftertreatment 1 SCR catalyst.",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P3413",
+      "fmi": 87,
+      "description": "Missing CAN message from ECU",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P3414",
+      "fmi": null,
+      "description": "Engine ECU for boost pressure Erroneous signal for engine boost pressure.",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P3414",
+      "fmi": 87,
+      "description": "Missing CAN message from ECU",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P3415",
+      "fmi": null,
+      "description": "IC1 frame Data length error for IC1 frame has been detected.",
+      "ecu": "Aftertreatment system ECU",
+      "effects": "Error code.",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P3415",
+      "fmi": 87,
+      "description": "Missing CAN message from ECU",
+      "ecu": "Aftertreatment system ECU",
+      "effects": "Error code.",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P3416",
+      "fmi": null,
+      "description": "IC1 frame Time out error for IC1 frame has been detected.",
+      "ecu": "Aftertreatment system ECU",
+      "effects": "Error code.",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P3416",
+      "fmi": 87,
+      "description": "Missing CAN message from ECU",
+      "ecu": "Aftertreatment system ECU",
+      "effects": "Error code.",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P3417",
+      "fmi": null,
+      "description": "Intake temperature Erroneous signal has been detected for Intake manifold temperature.",
+      "ecu": "Engine ECU",
+      "effects": "Error code.",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P3417",
+      "fmi": 87,
+      "description": "Missing CAN message from ECU",
+      "ecu": "Engine ECU",
+      "effects": "Error code.",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P3418",
+      "fmi": null,
+      "description": "Operation mode Erroneous signal has been detected for operating mode request.",
+      "ecu": "Aftertreatment system ECU",
+      "effects": " Error code.  Refresh function will not recognise the mode and wont start.",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P3418",
+      "fmi": 87,
+      "description": "Missing CAN message from ECU",
+      "ecu": "Aftertreatment system ECU",
+      "effects": " Error code.  Refresh function will not recognise the mode and wont start.",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P3419",
+      "fmi": null,
+      "description": "Particulate inlet pressure An error has been detected with the particulate inlet pressure.",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " DPF sensor value wrongly transmitted.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P3419",
+      "fmi": 87,
+      "description": "Missing CAN message from ECU",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " DPF sensor value wrongly transmitted.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P3420",
+      "fmi": null,
+      "description": "Refresh error Data length error for PROSCR3 frame received for refresh.",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P3420",
+      "fmi": 87,
+      "description": "Missing CAN message from Engine ECU",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P3421",
+      "fmi": null,
+      "description": "Refresh error Time out error for PROSCR3 frame received for refresh.",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P3421",
+      "fmi": 87,
+      "description": "Missing CAN message from Engine ECU",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P3422",
+      "fmi": null,
+      "description": "Soot load Communication error, erroneous signal detcted from the CAN",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P3422",
+      "fmi": 87,
+      "description": "Missing CAN message from engine ECU",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P3423",
+      "fmi": null,
+      "description": "Exhaust gas Erroneous signal has been detected for engine exhaust gas temperature.",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P3423",
+      "fmi": 87,
+      "description": "Missing CAN message from engine ECU",
+      "ecu": "Aftertreatment system ECU.",
+      "effects": "Error code.",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P3424",
+      "fmi": null,
+      "description": "SCR catalyst status very high",
+      "ecu": "Engine ECU.",
+      "effects": " Fault code.",
+      "possibleCauses": " SCR running refresh not successful.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P3424",
+      "fmi": 85,
+      "description": "SCR catalyst partially blocked (overloaded). Signal above allowable range.",
+      "ecu": "Engine ECU.",
+      "effects": " Fault code.",
+      "possibleCauses": " SCR running refresh not successful.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P3425",
+      "fmi": null,
+      "description": "SCR catalyst status critical",
+      "ecu": "Engine ECU.",
+      "effects": " Reduced Power Mode (Engine Derate), forced idle.",
+      "possibleCauses": " SCR running refresh not successful.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "P3425",
+      "fmi": 85,
+      "description": "SCR catalyst fully blocked (plugged). Signal above allowable range.",
+      "ecu": "Engine ECU.",
+      "effects": " Reduced Power Mode (Engine Derate), forced idle.",
+      "possibleCauses": " SCR running refresh not successful.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "U0001",
+      "fmi": null,
+      "description": "High speed CAN communication bus CAN Communication Error.",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "U0001",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "U0029",
+      "fmi": null,
+      "description": "Error 250KbPs An error with the CANBUS has been detected.",
+      "ecu": "Engine ECU/ aftertreatment ECU.",
+      "effects": "Reduced Power Mode (Engine Derate), error code.",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "U0029",
+      "fmi": 87,
+      "description": "CANBUS missing message (CANBBUS off error 250kbps)",
+      "ecu": "Engine ECU/ aftertreatment ECU.",
+      "effects": "Reduced Power Mode (Engine Derate), error code.",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "U0029",
+      "fmi": 88,
+      "description": "CANBUS off (CANBBUS off error 250kbps)",
+      "ecu": "Engine ECU/ aftertreatment ECU.",
+      "effects": "Reduced Power Mode (Engine Derate), error code.",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "U0073",
+      "fmi": null,
+      "description": "Control module communication bus A off An error with the CANBUS has been detected.",
+      "ecu": "Engine ECU/ aftertreatment ECU.",
+      "effects": "Reduced Power Mode (Engine Derate), error code.",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "U0073",
+      "fmi": 81,
+      "description": "Received network data in error.",
+      "ecu": "Engine ECU/ aftertreatment ECU.",
+      "effects": "Reduced Power Mode (Engine Derate), error code.",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "U0100",
+      "fmi": null,
+      "description": "Lost Communication with ECM/PCM \"A\" Fault on the CAN communication network.",
+      "ecu": "Engine ECU/ aftertreatment ECU.",
+      "effects": "Reduced Power Mode (Engine Derate), error code.",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "U0100",
+      "fmi": 81,
+      "description": "Received network data in error.",
+      "ecu": "Engine ECU/ aftertreatment ECU.",
+      "effects": "Reduced Power Mode (Engine Derate), error code.",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "U0105",
+      "fmi": null,
+      "description": "Fuel quantity from engine ECU Error with the fuel quantity.",
+      "ecu": "Engine ECU/ aftertreatment ECU.",
+      "effects": "Reduced Power Mode (Engine Derate), error code.",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "U0105",
+      "fmi": 87,
+      "description": "Missing CAN message from engine ECU",
+      "ecu": "Engine ECU/ aftertreatment ECU.",
+      "effects": "Reduced Power Mode (Engine Derate), error code.",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "U0121",
+      "fmi": null,
+      "description": "Lost communication with Anti Lock Brake (ABS) control module Fault on the CAN communication network.",
+      "ecu": "Engine ECU/ aftertreatment ECU.",
+      "effects": "Reduced Power Mode (Engine Derate), error code.",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "U0121",
+      "fmi": 81,
+      "description": "Received network data in error",
+      "ecu": "Engine ECU/ aftertreatment ECU.",
+      "effects": "Reduced Power Mode (Engine Derate), error code.",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "U0140",
+      "fmi": null,
+      "description": "Lost communication with Machine ECU. Aftertreatment refresh inhibit/force switch message missing.",
+      "ecu": "Engine ECU.",
+      "effects": " Reduced Power Mode (Engine Derate), forced idle.  Inducement code P2BAB-00 may be generated if SCR catylst refresh is unable to be performed.",
+      "possibleCauses": " Damaged harness or harness connector.  Incorrect ECU software.  Faulty ECU.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "U0140",
+      "fmi": 87,
+      "description": "1\\. This fault is raised by the engine ECU when the CM1 message sent from the Body Control Module has not been received by the engine ECU. 2. This message is on the 250k machine CAN bus. 3. The Body Control Module is not working, or not powered.",
+      "ecu": "Engine ECU.",
+      "effects": " Reduced Power Mode (Engine Derate), forced idle.  Inducement code P2BAB-00 may be generated if SCR catylst refresh is unable to be performed.",
+      "possibleCauses": " Damaged harness or harness connector.  Incorrect ECU software.  Faulty ECU.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "U0401",
+      "fmi": null,
+      "description": "Lost communication with Anti Lock Brake (ABS) control module Fault on the CAN communication network.",
+      "ecu": "Engine ECU.",
+      "effects": "Reduced Power Mode (Engine Derate).",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "U0401",
+      "fmi": 0,
+      "description": "No sub type information",
+      "ecu": "Engine ECU.",
+      "effects": "Reduced Power Mode (Engine Derate).",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "U0401",
+      "fmi": 61,
+      "description": "Signal calculation error (CAN BUS message error for modeled NOx from engine ECU)",
+      "ecu": "Engine ECU.",
+      "effects": "Reduced Power Mode (Engine Derate).",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "U0401",
+      "fmi": 81,
+      "description": "Invalid signal data received (CAN BUS message error from engine ECU)",
+      "ecu": "Engine ECU.",
+      "effects": "Reduced Power Mode (Engine Derate).",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "U0401",
+      "fmi": 86,
+      "description": "Signal invalid (CAN BUS message error from engine ECU)",
+      "ecu": "Engine ECU.",
+      "effects": "Reduced Power Mode (Engine Derate).",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    },
+    {
+      "code": "U0401",
+      "fmi": 87,
+      "description": "Missing CAN message from ECU",
+      "ecu": "Engine ECU.",
+      "effects": "Reduced Power Mode (Engine Derate).",
+      "possibleCauses": " Damaged harness or harness connector.",
+      "source": "JCB TH BSIV Help"
+    }
+  ]
+}

@@ -128,5 +128,15 @@
     "name": "Genie 1500AJP JLG Control System Diagnostic Trouble Codes (Service Manual 3121735)",
     "type": "JLG",
     "count": 665
+  },
+  "jcb-th-bsiv-codes": {
+    "name": "JCB TeleHandler BSIV Help Files",
+    "type": "DTC",
+    "count": 557
+  },
+  "jcb-bhl-codes": {
+    "name": "JCB Backhoe Loader BHL Error Codes",
+    "type": "DTC",
+    "count": 675
   }
 }
