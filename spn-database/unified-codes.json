@@ -70835,7 +70835,7 @@
   },
   {
     "code": "P0070",
-    "desc": "Type text here",
+    "desc": "Ambient Air Temperature Sensor Circuit",
     "type": "DTC",
     "standard": "JCB",
     "source": "JCB TH BSIV Help",
